@@ -1,0 +1,71 @@
+{
+  "modal": {
+    "defaultTitle": "Dialog"
+  },
+  "panel": {
+    "restore": "Panel wiederherstellen",
+    "popOut": "In neuem Fenster öffnen",
+    "popOutTab": "\"{{label}}\" in neuem Fenster öffnen",
+    "resetEdits": "Änderungen zurücksetzen",
+    "unsavedEdits": "ungespeicherte Änderungen"
+  },
+  "confirm": {
+    "defaultLabel": "Bestätigen"
+  },
+  "help": {
+    "label": "Hilfe",
+    "moreInfo": "Mehr Infos",
+    "ariaInfo": "{{label}} Infos"
+  },
+  "selector": {
+    "clearSelection": "Auswahl aufheben"
+  },
+  "layout": {
+    "panelFallback": "Panel"
+  },
+  "material": {
+    "viewOnExchange": "{{name}} auf dem Handelsplatz ansehen"
+  },
+  "placeholder": {
+    "notImplemented": "Diese Funktion ist noch nicht verfügbar.",
+    "availableFeatures": "Aktuell verfügbare Funktionen:",
+    "features": {
+      "base": "Basisübersicht/-planung",
+      "exchange": "Handelsplatz-Statistiken",
+      "profitability": "Rentabilitätsrechner",
+      "research": "Forschungsplaner",
+      "guild": "Gildenübersicht",
+      "ships": "Schiffe",
+      "settings": "Einstellungen"
+    }
+  },
+  "unavailable": {
+    "messages": {
+      "dataUnavailable": "Daten nicht verfügbar",
+      "notUsing": "Nutzt GT-Companion nicht",
+      "guildOnly": "Nur für Gildenmitglieder",
+      "notShared": "Nicht freigegeben",
+      "notAvailable": "Nicht verfügbar"
+    },
+    "details": {
+      "dataUnavailable": "{{label}}-Daten konnten nicht geladen werden",
+      "notUsing": "{{label}}-Daten sind nicht verfügbar",
+      "guildOnly": "{{label}} ist auf Gildenmitglieder beschränkt",
+      "notShared": "{{label}}-Daten sind privat"
+    },
+    "features": {
+      "research_levels": "Forschung",
+      "company_summary": "Unternehmensübersicht",
+      "company_perks": "Prestige-Perks",
+      "base_names": "Basisnamen",
+      "base_layouts": "Basis-Layouts",
+      "base_production": "Produktion",
+      "base_warehouses": "Basislager",
+      "exchange_inventory": "Handelsplatz-Lager",
+      "active_contracts": "Verträge",
+      "ship_designs": "Schiffsdesigns",
+      "ship_routes": "Schiffsrouten",
+      "ship_inventories": "Schiffsladung"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "base": "Basis",
+    "exchange": "Handelsplatz",
+    "profitability": "Rentabilität",
+    "research": "R&D",
+    "guild": "Gilde",
+    "ships": "Schiffe",
+    "galaxy": "Galaxie",
+    "leaderboard": "Rangliste",
+    "settings": "Einstellungen"
+  },
+  "actions": {
+    "help": "Hilfe",
+    "prices": "Preise",
+    "remove": "Entfernen"
+  }
+}

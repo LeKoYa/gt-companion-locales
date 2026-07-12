@@ -1,0 +1,146 @@
+{
+  "page": {
+    "welcome": {
+      "title": "Willkommen bei GT-Companion",
+      "lead": "GT-Companion ist eine inoffizielle, im Alleingang entwickelte Companion-Seite für Galactic Tycoons.",
+      "body": "Bestehende und neue Basen ansehen oder planen, die Rentabilität von Rezepten prüfen, Forschung und Schiffe planen, Gildenspenden einsehen und vieles mehr."
+    },
+    "features": {
+      "title": "Funktionen",
+      "items": {
+        "base": {
+          "label": "Basis",
+          "desc": "Upgrades oder neue Basen planen, Produktionsszenarien unter verschiedenen Bedingungen testen und Probleme im gesamten Unternehmen verfolgen."
+        },
+        "exchange": {
+          "label": "Handelsplatz",
+          "desc": "Daten des Handelsplatzes auswerten, sehen was verkauft wird und Marktanalysen exportieren."
+        },
+        "profitability": {
+          "label": "Rentabilität",
+          "desc": "Die Rentabilität von Rezepten detailliert vergleichen, Statistiken auswerten und vollständige Produktionsketten aufbauen."
+        },
+        "research": {
+          "label": "R&D",
+          "desc": "Forschungskosten abschätzen, die Verteilung von Perk-Punkten planen und Prioritäten über verschiedene Specs hinweg vergleichen."
+        },
+        "guild": {
+          "label": "Gilde",
+          "desc": "Gildenprojekte verfolgen, Spenden überwachen und die Forschungsstufen der Mitglieder über verschiedene Specs hinweg vergleichen."
+        },
+        "flight": {
+          "label": "Flugplaner",
+          "desc": "Flüge mit einer oder mehreren Etappen simulieren, Schiffslayouts testen und Kosten über mehrere Routen hinweg vergleichen."
+        },
+        "galaxy": {
+          "label": "Galaxiekarte",
+          "desc": "Die Galaxie erkunden, Systemdetails ansehen, Planeten finden und die Expansion über die Karte hinweg planen."
+        },
+        "leaderboard": {
+          "label": "Rangliste",
+          "desc": "Gilden- und Unternehmensranglisten durchsuchen, Statistiken vergleichen und globale Events verfolgen."
+        },
+        "settings": {
+          "label": "Einstellungen",
+          "desc": "API-Schlüssel konfigurieren, App-Einstellungen anpassen und Freigaben verwalten."
+        }
+      },
+      "more": {
+        "label": "Und mehr",
+        "desc": "Wird aktiv weiterentwickelt, weitere Funktionen und Verbesserungen sind unterwegs."
+      }
+    },
+    "gettingStarted": {
+      "title": "Erste Schritte",
+      "play": "Galactic Tycoons spielen",
+      "discord": "Dem offiziellen Discord-Server beitreten",
+      "coffee": "Spendier mir einen Kaffee",
+      "referralNote": "Der Button \"Galactic Tycoons spielen\" verwendet einen Referral-Link.",
+      "coffeeNote": " Gefällt dir GT-Companion? Du kannst mir einen Kaffee spendieren und so den Betrieb der Seite unterstützen.",
+      "steps": {
+        "one": "Trage deinen Galactic Tycoons API-Schlüssel in den Einstellungen ein, um vollen Zugriff zu erhalten.",
+        "two": "Erkunde die Seiten und sieh dir an, was GT-Companion zu bieten hat.",
+        "three": "Viel Spaß mit der Companion-Seite. Feedback und Fehlerberichte gerne im Tools-Thread auf dem offiziellen Discord-Server von Galactic Tycoons."
+      }
+    }
+  },
+  "quickLinks": {
+    "title": "Schnellzugriff",
+    "base": "Basis",
+    "baseOverview": "Übersicht",
+    "baseInsights": "Einblicke",
+    "basePlanNew": "Neue Basis planen",
+    "exchange": "Handelsplatz",
+    "profitability": "Rentabilität",
+    "recipeChains": "Rezeptketten",
+    "research": "Forschung",
+    "guild": "Gilde",
+    "guildProjects": "Projekte",
+    "guildDonations": "Spenden",
+    "guildMembers": "Mitglieder",
+    "leaderboard": "Rangliste",
+    "guildLeaderboard": "Gildenrangliste",
+    "companyLeaderboard": "Unternehmensrangliste",
+    "globalEvents": "Globale Events",
+    "companyEvents": "Unternehmens-Events",
+    "ships": "Schiffe",
+    "flightSimulation": "Flugsimulation",
+    "galaxy": "Galaxie",
+    "settings": "Einstellungen"
+  },
+  "appInfo": {
+    "title": "App-Infos",
+    "general": "Allgemein",
+    "versionNumber": "Versionsnummer",
+    "users": {
+      "title": "GT-Companion Nutzer",
+      "loading": "Aktive Unternehmen werden geladen…",
+      "error": "Aktive Unternehmen konnten nicht geladen werden.",
+      "empty": "Keine Nutzungsdaten verfügbar.",
+      "last1h": "Letzte 1h",
+      "last12h": "Letzte 12h",
+      "last24h": "Letzte 24h",
+      "last3d": "Letzte 3T",
+      "last7d": "Letzte 7T",
+      "total": "Gesamt"
+    },
+    "playerbase": {
+      "title": "Galactic Tycoons Spielerbasis",
+      "loading": "Spielaktivität wird geladen…",
+      "error": "Spielaktivität konnte nicht geladen werden.",
+      "new1d": "Neu (1T)",
+      "active1d": "Aktiv (1T)",
+      "active3d": "Aktiv (3T)",
+      "active7d": "Aktiv (7T)",
+      "tracked": "Erfasste Unternehmen",
+      "history": "Verlauf"
+    }
+  },
+  "activityModal": {
+    "title": "Verlauf der Spielaktivität",
+    "error": "Aktivitätsverlauf konnte nicht geladen werden.",
+    "empty": "Noch kein Aktivitätsverlauf verfügbar.",
+    "windowAll": "Gesamter Zeitraum",
+    "showInactive": "Inaktive Unternehmen anzeigen (7T+)",
+    "hideInactive": "Inaktive Unternehmen ausblenden (7T+)",
+    "footnote": "Die Aktivitätsstufen beziehen sich auf den letzten Login je Tag. Neu = innerhalb von 24h vor diesem Datum gegründet."
+  },
+  "chart": {
+    "yAxis": "Unternehmen",
+    "series": {
+      "active01": "Aktiv 0-1T",
+      "active13": "Aktiv 1-3T",
+      "active37": "Aktiv 3-7T",
+      "new1d": "Neu (1T)",
+      "inactive7plus": "Inaktiv 7T+"
+    }
+  },
+  "layout": {
+    "quickLinksToggle": "Schnellzugriff"
+  },
+  "errors": {
+    "loadActiveCompanies": "Aktive Unternehmen konnten nicht geladen werden",
+    "loadTrackerActivity": "Spielaktivität konnte nicht geladen werden",
+    "loadActivityHistory": "Aktivitätsverlauf konnte nicht geladen werden"
+  }
+}
