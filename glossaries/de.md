@@ -31,6 +31,14 @@ search for them.
   "Exchange Station", "Hephaestus")
 - **Company and guild names**
 - **Tiers**: T1 to T5, and the word "Tier"
+- **Workforce tiers**: Workers, Technicians, Engineers, Scientists. These are
+  in-game names. Follow the English casing: capitalised means the tier and stays
+  English, lower case means plain headcount and translates normally.
+
+  | English | German |
+  |---|---|
+  | `"Workers"` (a column heading) | `"Workers"` |
+  | `"Profit / 100 workers"` | `"Gewinn / 100 Arbeiter"` |
 - **Currency and units**: Credits, kg, t, /h, /d
 - Terms the game itself uses untranslated, listed below
 

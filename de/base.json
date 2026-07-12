@@ -720,7 +720,7 @@
       "empty": "Basen mit aktiven Produktionsgebäuden auswählen, um die Rentabilität der Arbeitskräfte zu sehen.",
       "columns": {
         "tier": "Tier",
-        "workers": "Arbeiter",
+        "workers": "Workers",
         "profitPerDay": "Gewinn / Tag",
         "per100Workers": "Gewinn / 100 Arbeiter",
         "per100WorkersTip": "Gewinn pro Tag je 100 Arbeiter in diesem Tier",

@@ -4,10 +4,10 @@
   },
   "consumables": {
     "tiers": {
-      "worker": "Arbeiter",
-      "technician": "Techniker",
-      "engineer": "Ingenieure",
-      "scientist": "Wissenschaftler"
+      "worker": "Workers",
+      "technician": "Technicians",
+      "engineer": "Engineers",
+      "scientist": "Scientists"
     },
     "status": {
       "allProvided": "Alle bereitgestellt",
