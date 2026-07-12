@@ -1,0 +1,28 @@
+{
+  "perks": {
+    "controls": {
+      "decrease": "Decrease level",
+      "increase": "Increase level",
+      "resetToCompany": "Reset to company level"
+    },
+    "group": {
+      "none": "None",
+      "noneButton": "No {{group}}",
+      "selectPlaceholder": "Select {{group}}"
+    },
+    "groupLabel": {
+      "exclusive": "Exclusive Perk",
+      "supervision": "Supervision"
+    }
+  },
+  "permits": {
+    "controls": {
+      "decrease": "Decrease unused permits",
+      "increase": "Increase unused permits",
+      "resetToLive": "Reset to live unused permits"
+    },
+    "description": "Used by Consolidated Operations for the per-permit production speed bonus.",
+    "label": "Unused base permits",
+    "withoutOverride": "(without override: {{count}})"
+  }
+}

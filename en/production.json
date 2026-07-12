@@ -1,0 +1,51 @@
+{
+  "panel": {
+    "helpFallback": "Help"
+  },
+  "consumables": {
+    "tiers": {
+      "worker": "Workers",
+      "technician": "Technicians",
+      "engineer": "Engineers",
+      "scientist": "Scientists"
+    },
+    "status": {
+      "allProvided": "All provided",
+      "noneProvided": "None provided",
+      "partiallyProvided": "Partially provided"
+    },
+    "dailyAmount": "{{amount}}/1k daily",
+    "dataUnavailable": "Consumable data is unavailable for this tier."
+  },
+  "overhead": {
+    "previewMode": {
+      "live": "Live",
+      "preview": "Preview",
+      "advanced": "Advanced",
+      "projection": "Projected"
+    },
+    "workforceUnavailable": "Workforce totals aren't available yet.",
+    "previewOverheadLabel": "Preview overhead",
+    "totalWorkforceBurden": "Total workforce / burden",
+    "expansionOverhead": "Expansion overhead",
+    "final": "Final",
+    "extraConsumableCost": "Extra consumable cost",
+    "perDay": "/ day",
+    "deltaVsLive": "Delta vs live",
+    "extraPrefix": "Extra:",
+    "totalPrefix": "Total:",
+    "consumption": "Consumption"
+  },
+  "research": {
+    "ownLevels": "Own levels",
+    "noLevels": "No levels",
+    "decreaseLevel": "Decrease level",
+    "increaseLevel": "Increase level",
+    "resetToCompanyLevel": "Reset to company level"
+  },
+  "startingBonus": {
+    "labelTitle": "Multiplier applied during the starting bonus period.",
+    "auto": "Auto",
+    "selectBonus": "Select bonus"
+  }
+}

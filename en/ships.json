@@ -1,0 +1,430 @@
+{
+  "header": {
+    "configuration": "Configuration",
+    "configurationHelp": "Configuration help",
+    "configurationTooltip": "Ship layout and blueprint setup."
+  },
+  "help": {
+    "open": "Open help"
+  },
+  "actions": {
+    "close": "Close",
+    "delete": "Delete",
+    "load": "Load",
+    "reset": "Reset"
+  },
+  "status": {
+    "noShipsDetected": "No ships detected in your company profile."
+  },
+  "errors": {
+    "missingApiKey": "Missing API key.",
+    "wishlistNotFound": "Wishlist not found.",
+    "noMaterialsToAdd": "No materials to add.",
+    "wishlistMeetsPreview": "Wishlist already meets the preview amounts.",
+    "wishlistMatchesPreview": "Wishlist already matches the preview.",
+    "failedToLoadMaterials": "Failed to load materials"
+  },
+  "controls": {
+    "tripType": "Trip type",
+    "tripOptions": {
+      "oneWay": "One way",
+      "roundTrip": "Round trip"
+    },
+    "exclude": "Exclude",
+    "include": "Include",
+    "shipSelection": "Ship selection",
+    "chooseShipPlaceholder": "Choose an existing ship",
+    "reactorPower": "Reactor power",
+    "cargoLoad": "Cargo load",
+    "minCargo": "Min 100t",
+    "bestCheapest": "Best / cheapest",
+    "cheapest": "Cheapest",
+    "best": "Best"
+  },
+  "modal": {
+    "routeSetup": {
+      "title": "Route setup",
+      "help": "Route setup help"
+    },
+    "mode": "Mode",
+    "modeOptions": {
+      "advanced": "Advanced",
+      "basic": "Basic"
+    },
+    "includeReturnMaterials": "Include return materials (inputs/consumables/maintenance)",
+    "costPerTonOutbound": "Cost / ton (outbound)",
+    "factoryToMarket": "Factory → Market",
+    "costPerTonReturn": "Cost / ton (return)",
+    "marketToFactory": "Market → Factory",
+    "outboundFlightTitle": "Outbound flight (factory → market)",
+    "outboundFlightHelp": "Outbound flight help",
+    "returnFlightTitle": "Return flight (market → factory)",
+    "returnFlightHelp": "Return flight help"
+  },
+  "ship": {
+    "customShip": "Custom ship"
+  },
+  "shipSelection": {
+    "title": "Ship Selection",
+    "help": "Ship selection help",
+    "tooltip": "Choose a ship or blueprint to load a base layout.",
+    "selectShip": "Select ship",
+    "saveBlueprintFavorite": "Save blueprint as favorite",
+    "blueprint": "Blueprint",
+    "browseBlueprints": "Browse Blueprints",
+    "upgradeFrom": "Upgrade from...",
+    "selectCustomHint": "Select \"Custom ship\" to choose a preset or search designs."
+  },
+  "upgrade": {
+    "none": "None",
+    "badges": {
+      "preset": "Preset",
+      "blueprint": "Blueprint"
+    }
+  },
+  "layout": {
+    "title": "Ship Layout",
+    "help": "Ship layout help",
+    "tooltip": "Reactor, emitters, cargo, and shielding configuration.",
+    "shareLayout": "Share layout",
+    "linkCopied": "Copied!",
+    "reactorType": "Reactor Type",
+    "ftlType": "FTL type",
+    "ftlEmitters": "FTL Emitters",
+    "cargoBaySize": "Cargo Bay Size",
+    "fuelTankSize": "Fuel tank size",
+    "heatShielding": "Heat shielding",
+    "radiationShielding": "Radiation Shielding",
+    "condition": "Condition",
+    "selectReactorType": "Select reactor type",
+    "selectFtlType": "Select FTL type",
+    "selectHeatShielding": "Select heat shielding",
+    "selectRadiationShielding": "Select radiation shielding",
+    "noReactorData": "No reactor data available.",
+    "noEmitterData": "No emitter data available.",
+    "fuelUnits": "units",
+    "unknown": "Unknown",
+    "tankSizes": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large"
+    },
+    "shieldingLevels": {
+      "none": "None",
+      "light": "Light",
+      "heavy": "Heavy"
+    },
+    "reactorStats": {
+      "power": "Power",
+      "fuel": "Fuel",
+      "tankCapacity": "Tank capacity"
+    },
+    "emitterStats": {
+      "acceleration": "Acceleration",
+      "maxSpeed": "Max speed",
+      "fieldCapacity": "Field capacity",
+      "energyDraw": "Energy draw"
+    }
+  },
+  "materials": {
+    "title": "Construction Materials",
+    "help": "Construction materials help",
+    "tooltip": "How materials are derived from ship stats.",
+    "unit": "Unit",
+    "total": "Total",
+    "upgrade": "Upgrade",
+    "totals": "Totals",
+    "howCalculated": "How are these calculated?",
+    "createWishlist": "Create wishlist",
+    "calculating": "Calculating materials…",
+    "enterDetails": "Enter full ship details to compute materials."
+  },
+  "materialsCalc": {
+    "title": "Construction materials calculation",
+    "columns": {
+      "material": "Material",
+      "breakpoint": "Breakpoint",
+      "calculation": "Calculation"
+    },
+    "allLevels": "All levels",
+    "whenSelected": "When selected",
+    "sections": {
+      "coreMaterials": "Core materials",
+      "hullPlates": "Hull plates",
+      "kits": "Kits",
+      "bridges": "Bridges",
+      "shielding": "Shielding (optional)",
+      "starlifter": "Starlifter elements"
+    },
+    "notes": {
+      "title": "Notes",
+      "requiredParts": "Required parts",
+      "optionalParts": "Optional parts",
+      "calculationNotes": "Calculation notes",
+      "required": {
+        "hullPlate": "One hull plate type.",
+        "kit": "Either Welding Kit or Fusion Kit.",
+        "bridge": "One bridge type.",
+        "core": "Cargo Bay, Fuel Tank, and Interior Kit.",
+        "starlifter": "Starlifter Elements (starting at 15k empty weight)."
+      },
+      "optional": {
+        "shielding": "Shielding materials only apply when shielding is selected."
+      },
+      "calc": {
+        "breakpoints": "Breakpoints use the rounded empty weight of a ship.",
+        "roundHalfUp": "Empty weight is rounded half-up (e.g. 600.5 → 601).",
+        "ceil": "Material amounts are rounded using the ceil function.",
+        "shieldingWeight": "Shielding increases empty weight (see formula below).",
+        "example": "Example (Shuttle Bridge): 600t → 2 bridges, 600.1t → 3 bridges."
+      }
+    },
+    "reactorFormulaTitle": "Reactor count & efficiency",
+    "emptyWeightFormulaTitle": "Empty weight formula"
+  },
+  "characteristics": {
+    "title": "Characteristics",
+    "help": "Characteristics help",
+    "tooltip": "How ship stats are calculated.",
+    "reactors": "Reactors",
+    "energy": "Energy",
+    "weightEmpty": "Weight (empty)",
+    "weightFull": "Weight (full)",
+    "fuelCapacity": "Fuel capacity",
+    "damageReduction": "Damage reduction",
+    "repairKits": "Repair kits"
+  },
+  "simulation": {
+    "title": "Flight Simulation",
+    "help": "Flight simulation help",
+    "tooltip": "Route planning and efficiency comparisons.",
+    "removeLeg": "Remove leg",
+    "addLegToRemove": "Add another leg to remove it",
+    "removeLastLeg": "Remove the last leg",
+    "addNewLeg": "Add new leg",
+    "summary": "Summary",
+    "setRouteToEvaluate": "Set start and destination to evaluate"
+  },
+  "routing": {
+    "title": "Routing Controls",
+    "help": "Routing controls help"
+  },
+  "route": {
+    "startPlanet": "Start planet",
+    "destinationPlanet": "Destination planet",
+    "searchPlaceholder": "Type to search",
+    "startLocked": "Start planet locked",
+    "lockStart": "Lock start planet",
+    "destinationLocked": "Destination planet locked",
+    "lockDestination": "Lock destination planet",
+    "swap": "Swap start and destination planets"
+  },
+  "results": {
+    "efficiency": "Efficiency",
+    "power": "Power",
+    "cargo": "Cargo",
+    "travelTime": "Travel time",
+    "costPerTon": "Cost / ton",
+    "distance": "Distance",
+    "fuelUsage": "Fuel usage",
+    "conditionLoss": "Condition loss",
+    "totalCost": "Total cost",
+    "costPerTonStat": "Cost per ton",
+    "costTimePerTon": "Cost-Time per ton",
+    "flightSummary": "Flight summary",
+    "ftlCapacity": "FTL capacity",
+    "maximumSpeed": "Maximum speed",
+    "acceleration": "Acceleration",
+    "weightRatio": "(weight ratio: {{value}})",
+    "maxSpeedReached": "(max speed reached after {{value}} hours traveled)",
+    "perHour": "Per hour: {{value}}",
+    "fuelAmount": "{{value}} fuel"
+  },
+  "travelEstimates": {
+    "title": "Travel estimates",
+    "empty": "No travel estimates available.",
+    "columns": {
+      "dist": "Dist",
+      "time": "Time",
+      "avgSpeed": "Avg speed",
+      "accelerating": "Accelerating",
+      "fuel": "Fuel",
+      "fuelPercent": "Fuel %"
+    }
+  },
+  "flightStats": {
+    "title": "Flight Statistics",
+    "help": "Flight statistics help",
+    "empty": "Select start and destination planets to view detailed statistics."
+  },
+  "speedBreakdown": {
+    "title": "Speed breakdown",
+    "baseSpeed": "Base speed",
+    "guildFlightCenter": "Guild Flight Center",
+    "perks": "Perks (multiplicative)",
+    "starterBonus": "Starter bonus",
+    "finalSpeed": "Final speed"
+  },
+  "perkSavings": {
+    "withoutPerk": "Without perk",
+    "saving": "Saving"
+  },
+  "flightAnalysis": {
+    "title": "Flight Analysis",
+    "help": "Flight analysis help",
+    "cheapestTooltip": "Shows flight with the cheapest cost.",
+    "cheapestFlight": "Cheapest flight",
+    "bestTooltip": "Shows flight with the best cost-time balance.",
+    "bestFlight": "Best flight",
+    "empty": "Select start and destination planets to view cost estimates."
+  },
+  "bonuses": {
+    "title": "Bonuses",
+    "help": "Flight Center help",
+    "tooltip": "Guild Flight Center bonus details.",
+    "guildFlightCenter": "Guild Flight Center",
+    "previewLevel": "Preview another level",
+    "prestigePerks": "Prestige Perks",
+    "starterBonus": "Starter Bonus"
+  },
+  "flightCenter": {
+    "loading": "Loading flight center…",
+    "loadError": "Failed to load guild data.",
+    "joinGuild": "Join a guild to unlock flight center bonuses.",
+    "level": "Level {{level}}",
+    "levelMax": "Level {{level}}/{{max}}",
+    "levelMaxPreview": "Level {{level}}/{{max}} (preview)",
+    "speedBonus": "+{{percent}}% travel speed",
+    "noSpeedBonus": "No travel speed bonus yet.",
+    "description": "Boosts ship travel speed for all simulations."
+  },
+  "blueprintFavorites": {
+    "title": "Blueprint favorites",
+    "help": "Blueprint favorites help",
+    "tooltip": "Save and manage favorite layouts.",
+    "namePrompt": "Enter a name for this blueprint favorite",
+    "cargoCapacity": "Cargo capacity",
+    "radShielding": "Rad shielding",
+    "editName": "Edit name",
+    "empty": "Save your frequently used blueprints here for quick access."
+  },
+  "routeFavorites": {
+    "title": "Route Favorites",
+    "help": "Route favorites help",
+    "tooltip": "Save and load frequently used routes.",
+    "defaultName": "Route {{number}}",
+    "noLegs": "No route legs",
+    "none": "None",
+    "noneSelected": "No route selected",
+    "unsavedName": "{{name}} (unsaved)",
+    "routeShip": "Route Ship",
+    "chooseShipPlaceholder": "Choose ship for route settings",
+    "routeFavoriteLabel": "Route Favorite",
+    "namePlaceholder": "Route favorite name",
+    "selectPlaceholder": "Select route favorite…",
+    "editName": "Edit route favorite name",
+    "delete": "Delete route favorite",
+    "save": "Save route favorite",
+    "saveAsNew": "Save as new",
+    "overwrite": "Overwrite",
+    "empty": "Save routes with multi-leg settings and per-ship efficiency modes."
+  },
+  "myShips": {
+    "title": "My ships",
+    "help": "My ships help",
+    "tooltip": "Ships from your company profile."
+  },
+  "layoutToggles": {
+    "shipOverview": "Ship Overview",
+    "customPrices": "Custom Prices"
+  },
+  "wishlist": {
+    "customBlueprint": "Custom blueprint",
+    "newShip": "New ship",
+    "upgradeTitle": "{{name}} | Upgrade"
+  },
+  "search": {
+    "header": {
+      "title": "Ship Design Explorer",
+      "helpLabel": "Ship design explorer help",
+      "helpTooltip": "Learn how to use the ship design explorer.",
+      "searching": "Searching…",
+      "close": "Close"
+    },
+    "params": {
+      "sectionTitle": "Search Parameters",
+      "distance": "Distance (ly)",
+      "cargoLoad": "Cargo load (t)",
+      "emitterType": "Emitter type",
+      "maxHullType": "Max Hull type",
+      "maxReactorType": "Max Reactor type",
+      "maxBridgeType": "Max bridge type",
+      "maxTravelTime": "Max travel time (h)",
+      "optimizeFor": "Optimize for",
+      "optimizePlaceholder": "Select target"
+    },
+    "filters": {
+      "anyHull": "Any hull",
+      "anyReactor": "Any reactor",
+      "anyEmitter": "Any emitter",
+      "anyBridge": "Any bridge"
+    },
+    "optimize": {
+      "timeTotal": "Travel time",
+      "costPerTon": "Cost per ton",
+      "costTimePerCargo": "Cost-Time per cargo",
+      "constructionCost": "Cheapest to build",
+      "stuffScore": "Stuff Inc. score"
+    },
+    "actions": {
+      "search": "Search",
+      "searching": "Searching…",
+      "select": "Select"
+    },
+    "columns": {
+      "shipClasses": "Ship Classes",
+      "variants": "Variants"
+    },
+    "states": {
+      "searchingShips": "Searching ships…",
+      "noMatches": "No ships match the criteria.",
+      "searchFailed": "Failed to search ships"
+    },
+    "disclaimer": {
+      "title": "Cost Disclaimer",
+      "body": "Some fuels used by these ship classes do not have reliable market prices (missing or marked as -1). Cost estimates for those fuels may be inaccurate."
+    },
+    "variantCard": {
+      "variant": "Variant",
+      "loadEff": "Load {{load}} • Eff {{eff}}"
+    },
+    "shielding": {
+      "heat": "Heat",
+      "rad": "Rad"
+    },
+    "metrics": {
+      "costPerTon": "Cost per ton",
+      "costTimePerCargo": "Cost-Time per cargo",
+      "travelTime": "Travel time",
+      "constructionCost": "Construction cost",
+      "stuffScore": "Stuff score",
+      "summary": "Summary"
+    },
+    "hullWarning": {
+      "starglass": "This configuration requires Starglass hull plates, increasing construction cost.",
+      "general": "Shielding upgrades increase the required hull tier compared to the base design."
+    },
+    "diagnose": {
+      "hullFallback": "selected hull tier",
+      "reactorFallback": "selected reactor tier",
+      "emitterFallback": "selected emitter group",
+      "bridgeFallback": "selected bridge tier",
+      "time": "No ship can haul {{cargo}}t over {{distance}} ly and still arrive within {{hours}} hours. Increase the max travel time or reduce the cargo.",
+      "hull": "{{hull}} cannot support {{cargo}}t for this route. Choose a sturdier hull or lower the cargo requirement.",
+      "bridge": "{{bridge}} ships are too small for {{cargo}}t on this distance. Allow larger bridges or reduce cargo.",
+      "reactor": "{{reactor}} does not generate enough power for the requested trip. Permit higher-tier reactors.",
+      "emitter": "Restricting to {{emitter}} leaves no viable ships. Allow other emitter families or loosen the cargo/time constraints.",
+      "noClass": "No ship class can currently move {{cargo}}t over {{distance}} ly with the selected criteria. Try reducing the cargo or broadening the filters."
+    }
+  }
+}

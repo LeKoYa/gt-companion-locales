@@ -1,0 +1,71 @@
+{
+  "modal": {
+    "defaultTitle": "Modal"
+  },
+  "panel": {
+    "restore": "Restore panel",
+    "popOut": "Pop out to window",
+    "popOutTab": "Pop out \"{{label}}\" to window",
+    "resetEdits": "Reset edits",
+    "unsavedEdits": "unsaved edits"
+  },
+  "confirm": {
+    "defaultLabel": "Confirm"
+  },
+  "help": {
+    "label": "Help",
+    "moreInfo": "More info",
+    "ariaInfo": "{{label}} info"
+  },
+  "selector": {
+    "clearSelection": "Clear selection"
+  },
+  "layout": {
+    "panelFallback": "Panel"
+  },
+  "material": {
+    "viewOnExchange": "View {{name}} on the exchange"
+  },
+  "placeholder": {
+    "notImplemented": "This feature is not yet implemented.",
+    "availableFeatures": "Currently available features:",
+    "features": {
+      "base": "Base Overview/Planning",
+      "exchange": "Exchange Statistics",
+      "profitability": "Profitability Calculator",
+      "research": "Research Planner",
+      "guild": "Guild Overview",
+      "ships": "Ships",
+      "settings": "Settings"
+    }
+  },
+  "unavailable": {
+    "messages": {
+      "dataUnavailable": "Data unavailable",
+      "notUsing": "Not using GT Companion",
+      "guildOnly": "Guild members only",
+      "notShared": "Not shared",
+      "notAvailable": "Not available"
+    },
+    "details": {
+      "dataUnavailable": "{{label}} data could not be loaded",
+      "notUsing": "{{label}} data is not available",
+      "guildOnly": "{{label}} is restricted to guild members",
+      "notShared": "{{label}} data is private"
+    },
+    "features": {
+      "research_levels": "Research",
+      "company_summary": "Company summary",
+      "company_perks": "Prestige perks",
+      "base_names": "Base names",
+      "base_layouts": "Base layouts",
+      "base_production": "Production",
+      "base_warehouses": "Base warehouses",
+      "exchange_inventory": "Exchange warehouse",
+      "active_contracts": "Contracts",
+      "ship_designs": "Ship designs",
+      "ship_routes": "Ship routes",
+      "ship_inventories": "Ship cargo"
+    }
+  }
+}

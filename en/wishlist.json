@@ -1,0 +1,253 @@
+{
+  "header": {
+    "title": "Wishlist Builder",
+    "hideWishlists": "Hide wishlists",
+    "showWishlists": "Show wishlists",
+    "existingWishlists": "Existing wishlists",
+    "existingTotalsTooltip": "Total weight and cost of all existing wishlists (sum of saved amounts on the game).",
+    "helpLabel": "Wishlist builder help",
+    "helpTooltip": "Open wishlist builder help"
+  },
+  "builder": {
+    "requiredSectionDefault": "Construction materials",
+    "baseStockDefault": "Base",
+    "exchangeStockDefault": "Exchange",
+    "desiredTargetDefault": "Desired"
+  },
+  "sidebar": {
+    "loading": "Loading wishlists...",
+    "empty": "No wishlists yet.",
+    "customSection": "Custom wishlists",
+    "baseSection": "Base wishlists",
+    "noMaterials": "No materials.",
+    "wishlistCount_one": "{{count}} wishlist",
+    "wishlistCount_other": "{{count}} wishlists"
+  },
+  "manage": {
+    "manage": "Manage",
+    "done": "Done",
+    "clear": "Clear",
+    "selectAll": "Select all",
+    "delete": "Delete",
+    "deleting": "Deleting…",
+    "deleteWithCount_one": "Delete ({{count}})",
+    "deleteWithCount_other": "Delete ({{count}})",
+    "confirmDelete_one": "Delete {{count}} wishlist? This can't be undone.",
+    "confirmDelete_other": "Delete {{count}} wishlists? This can't be undone.",
+    "confirmDeleteButton": "Confirm delete",
+    "selectedCount_one": "{{count}} selected",
+    "selectedCount_other": "{{count}} selected",
+    "deletedCount_one": "Deleted {{count}}",
+    "deletedCount_other": "Deleted {{count}}",
+    "notFoundCount_one": "{{count}} already empty / not found",
+    "notFoundCount_other": "{{count}} already empty / not found",
+    "deleteFailed": "Bulk delete failed.",
+    "selectForDeletionAria": "Select {{name}} for deletion"
+  },
+  "materials": {
+    "includeConsumables": "Include consumables",
+    "includeInputs": "Include production inputs",
+    "deductStock": "Deduct {{stock}} stock",
+    "deductScrapped": "Deduct scrapped materials"
+  },
+  "table": {
+    "includeAllAria": "Include all materials in this table",
+    "includeAllTitle": "Include/exclude all materials in this table",
+    "includeMaterialAria": "Include material {{id}}"
+  },
+  "columns": {
+    "totals": "Totals",
+    "material": {
+      "label": "Material",
+      "tooltip": "Material required for this step. Stars are shown in brackets and are not exported."
+    },
+    "required": {
+      "label": "Required",
+      "tooltip": "Total materials required for this step."
+    },
+    "repair": {
+      "label": "Repair",
+      "tooltip": "Amount of this material needed for repairs, included in the total above."
+    },
+    "baseStock": {
+      "tooltip": "Available stock across base warehouses."
+    },
+    "exchangeStock": {
+      "tooltip": "Available stock in the exchange warehouse."
+    },
+    "scrapBuffer": {
+      "label": "Scrap (Buffer)",
+      "tooltip": "Scrap refunds and optional 0.5 day buffer."
+    },
+    "current": {
+      "label": "Current",
+      "tooltip": "Current amount in the selected wishlist."
+    },
+    "weight": {
+      "label": "Weight",
+      "tooltip": "Total weight of the Add column."
+    },
+    "cost": {
+      "label": "Cost",
+      "tooltip": "Total cost of the Add column."
+    },
+    "add": {
+      "label": "Add",
+      "tooltip": "Amount that will be exported to the wishlist."
+    }
+  },
+  "mode": {
+    "title": "Mode",
+    "splitLabel": "Split",
+    "oneWishlist": "One wishlist",
+    "perMilestone": "Per milestone"
+  },
+  "milestones": {
+    "sectionTitle": "Per-milestone wishlists",
+    "description": "Submitting will create one wishlist per milestone (and one for any remaining goals after the last milestone). Empty groups are skipped.",
+    "emptyGroup": "No materials needed, wishlist will be skipped."
+  },
+  "settings": {
+    "title": "Settings",
+    "destination": "Destination",
+    "oneWishlist": "One wishlist",
+    "perBase": "Per-base",
+    "bases": "Bases",
+    "allBasesIncluded": "All bases included",
+    "basesIncluded_one": "{{count}}/{{total}} bases included",
+    "basesIncluded_other": "{{count}}/{{total}} bases included",
+    "includeAll": "Include all",
+    "excludeAll": "Exclude all",
+    "wishlist": "Wishlist",
+    "createNewWishlist": "Create new wishlist",
+    "createNew": "Create new",
+    "selectWishlistToUpdate": "Select a wishlist to update.",
+    "applyMode": "Apply mode",
+    "overwrite": "Overwrite",
+    "add": "Add",
+    "merge": "Merge",
+    "materials": "Materials",
+    "scrapTimeTooltip": "Estimated time until buildings are scrapped",
+    "consumables": "Consumables",
+    "inputs": "Inputs",
+    "cargoLimit": "Cargo limit",
+    "cargoOff": "Off",
+    "cargoManual": "Manual",
+    "cargoShip": "Ship",
+    "selectShip": "Select ship…",
+    "cargoOverweight": "Construction materials alone exceed cargo capacity",
+    "cargoScaled": "Consumables/inputs scaled to {{percent}}% to match cargo capacity",
+    "cargoOverweightCombined": "Construction materials alone exceed the combined cargo capacity",
+    "cargoScaledCombined": "Consumables/inputs scaled to {{percent}}% to match the combined cargo capacity across all bases",
+    "cargoScaledPerBaseNote": "Each base scaled to fit its own cargo capacity. See per-base sections below."
+  },
+  "advanced": {
+    "toggle": "Advanced",
+    "hqCosts": "HQ costs",
+    "exclude": "Exclude",
+    "combine": "Combine",
+    "separate": "Separate",
+    "include": "Include",
+    "cargoDist": "Cargo dist.",
+    "cargoCombined": "Combined",
+    "cargoPerBase": "Per base",
+    "cargoScale": "Cargo scale",
+    "cargoAllMats": "All mats",
+    "cargoIncludedOnly": "Included only",
+    "consTarget": "Cons. target",
+    "intermediates": "Intermediates",
+    "intermediatesTooltip": "Buffer of materials the base both produces and consumes. Gives secondary factories starting stock while primary factories ramp up",
+    "repair": "Repair",
+    "repairBufferTooltip": "Hours of additional building damage to also cover",
+    "modes": {
+      "exclude": "exclude",
+      "combine": "combine",
+      "separate": "separate",
+      "include": "include"
+    },
+    "summary": {
+      "hq": "HQ: {{mode}}",
+      "cargoPerBase": "Cargo: per base",
+      "cargoScaleIncluded": "Cargo scale: included only",
+      "target": "Target: {{value}}",
+      "intermediates": "Intermediates: {{days}}d",
+      "repair": "Repair: {{mode}}{{buffer}}"
+    }
+  },
+  "preview": {
+    "title": "Preview",
+    "baseWishlistsTarget": "Base wishlists",
+    "selectedWishlistTarget": "Selected wishlist",
+    "constructionSectionTitle": "{{section}} (Wishlist: {{target}})",
+    "supplementalSectionTitle": "Consumables, inputs & intermediates (Wishlist: {{target}})",
+    "hqSectionTitle": "HQ costs (Wishlist: HQ upgrade)",
+    "noBaseIssueData": "No base issue data available for grouped preview.",
+    "cargoOverweightPerBase": "Construction materials alone exceed this base's cargo budget",
+    "cargoScaledPerBase": "Consumables/inputs scaled to {{percent}}% to match this base's cargo budget",
+    "enableSupplemental": "Enable consumables, inputs or intermediates to see a preview.",
+    "noSupplementalData": "No consumables, inputs or intermediates data available for this base.",
+    "noSupplementalSelected": "No consumables, inputs or intermediates selected.",
+    "noHqSelected": "No HQ costs selected."
+  },
+  "footer": {
+    "status": {
+      "creatingMilestones": "Creating milestone wishlists...",
+      "updatingBases": "Updating base wishlists...",
+      "creating": "Creating wishlist...",
+      "updating": "Updating wishlist..."
+    },
+    "rateLimited": "Rate limited. Please wait before trying again.",
+    "sectionRequired": "Required",
+    "sectionSupplemental": "Consumables / inputs / intermediates",
+    "sectionHq": "HQ costs",
+    "totals": {
+      "baseColumn": "Base",
+      "sectionColumn": "Section",
+      "perBaseTitle": "Per-base totals",
+      "breakdownTitle": "Breakdown",
+      "cargoLimit": "Cargo limit",
+      "perBaseValue": "{{tons}} t / base",
+      "weightColumn": "Weight",
+      "costColumn": "Cost",
+      "sum": "Sum"
+    }
+  },
+  "actions": {
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "createMilestones_one": "Create {{count}} wishlist",
+    "createMilestones_other": "Create {{count}} wishlists",
+    "updateBases": "Update base wishlists",
+    "createWishlist": "Create wishlist",
+    "updateWishlist": "Update wishlist",
+    "copyMaterialsAria": "Copy table materials for chat",
+    "copiedChatText": "Copied chat text.",
+    "noMaterialsToCopy": "No materials to copy.",
+    "copyAsChatText": "Copy as chat text"
+  },
+  "toasts": {
+    "createdCount_one": "Created {{count}} wishlist.",
+    "createdCount_other": "Created {{count}} wishlists.",
+    "createFailed": "Failed to create wishlist.",
+    "createPartialFail": "{{message}} (created {{created}}, {{remaining}} not created)"
+  },
+  "variants": {
+    "repairMaterials": "Repair materials",
+    "researchData": "Research data",
+    "basesStock": "Bases",
+    "exchangeStock": "Exchange"
+  },
+  "submit": {
+    "noBaseWishlistsAvailable": "No base wishlists available.",
+    "rateLimited": "Rate limited while updating base wishlists.",
+    "baseWishlistsAlreadyMatch": "Base wishlists already match the preview.",
+    "noBaseWishlistsUpdated": "No base wishlists were updated.",
+    "alreadyMatchedPreview": "({{count}} already matched preview)",
+    "updatedBase_one": "Updated {{count}} base wishlist{{suffix}}.",
+    "updatedBase_other": "Updated {{count}} base wishlists{{suffix}}.",
+    "created_one": "Wishlist created.",
+    "created_other": "Wishlists created.",
+    "updated": "Wishlist updated.",
+    "failedToSave": "Failed to save."
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "page": {
+    "panels": {
+      "scenario": "Scenario",
+      "recipes": "Recipes",
+      "filters": "Filters"
+    },
+    "recipeChains": {
+      "button": "Recipe chains",
+      "openLibraryTooltip": "Open the recipe chains library"
+    },
+    "customPrices": {
+      "consumablesTitle": "Consumables",
+      "consumablesEmpty": "Consumable data isn't available yet."
+    },
+    "share": {
+      "apiKeyRequired": "An API key is required to create share links.",
+      "scenarioLoading": "The scenario is still loading, try again in a moment.",
+      "createFailed": "Failed to create share link."
+    },
+    "presets": {
+      "sharedScenarioName": "Shared scenario"
+    }
+  },
+  "recipes": {
+    "card": {
+      "chainAsPrimaryTitle": "Chain shown as primary value",
+      "favorite": {
+        "add": "Add to favorites",
+        "remove": "Remove from favorites"
+      },
+      "overrideTooltip": {
+        "buildingLevel": "Building Lv {{level}}",
+        "chainLinked": "Linked to a recipe chain",
+        "planet": "Planet override"
+      }
+    },
+    "consumables": {
+      "dailyUsage": "{{amount}}/1k daily · {{state}}",
+      "essential": "essential",
+      "optional": "optional"
+    },
+    "contextMenu": {
+      "buildingLevel": {
+        "label": "Building Lv",
+        "reset": "Reset building level",
+        "set": "Set"
+      },
+      "cardPrimary": {
+        "chain": "Chain",
+        "label": "Card primary",
+        "recipe": "Recipe",
+        "reset": "Reset card primary"
+      },
+      "chain": {
+        "label": "Chain",
+        "none": "None",
+        "reset": "Unlink chain"
+      },
+      "createChain": "Create chain",
+      "createChainTitle": "Create a new chain rooted at this recipe",
+      "openLibrary": "Open library",
+      "openLibraryLinkedTitle": "Open the linked chain in the library",
+      "openLibraryTitle": "Open the recipe chains library",
+      "planet": {
+        "label": "Planet",
+        "placeholder": "Use default…",
+        "reset": "Reset planet"
+      },
+      "resetAll": "Reset all overrides for this recipe"
+    },
+    "emptyState": "No recipes match the current filters.",
+    "productivity": {
+      "productionSpeedPerks": "Production speed perks",
+      "specialPerkMultiplier": "Special perk multiplier",
+      "unusedPermits": "Unused permits × {{permits}}"
+    }
+  },
+  "materialSources": {
+    "section": {
+      "heading": "Material sources",
+      "best": "Best",
+      "bestTitle": "Set every material to its galaxy-wide highest-abundance planet",
+      "bestBase": "Best (base)",
+      "bestBaseTitleEnabled": "Set every material that you own a source for to that owned base",
+      "bestBaseTitleDisabled": "You don't have any owned bases yet"
+    },
+    "row": {
+      "customTitle": "Custom pick, overrides Best / Best (base)",
+      "ownedTitle": "Best owned base for this material",
+      "autoTitle": "Best planet galaxy-wide (you don't own one that produces this)",
+      "noPlanet": "no planet",
+      "searchPlaceholder": "Search planet…",
+      "noPlanetHasMaterial": "No planet has this material.",
+      "noMatches": "No matches."
+    },
+    "contextMenu": {
+      "change": "Change…",
+      "bestBase": "Best (base)",
+      "best": "Best",
+      "highestAtTier": "Highest at tier…",
+      "tier": "Tier {{tier}}",
+      "noPlanetAtAnyTier": "No planet has this material at any tier."
+    },
+    "shipping": {
+      "autoLargestCargo": "Auto (largest cargo)",
+      "noShipsSubtitle": "No owned ships, log in to compute shipping cost.",
+      "label": "Shipping",
+      "excluded": "Excluded",
+      "included": "Included",
+      "noShipsTooltip": "No owned ships, log in or buy a ship first.",
+      "ship": "Ship",
+      "planet": "Planet",
+      "pickPlanetPlaceholder": "Pick a planet…"
+    },
+    "other": {
+      "buildingLevel": "Building level",
+      "buildingCondition": "Building condition",
+      "workforceFulfillment": "Workforce fulfillment",
+      "planetTier": "Planet tier",
+      "globalOverheadImpact": "Global overhead impact",
+      "globalOverheadHelpLabel": "What is global overhead impact?",
+      "vacation": "Vacation",
+      "vacationHelpLabel": "What is vacation mode?",
+      "exclude": "Exclude",
+      "include": "Include",
+      "live": "Live",
+      "none": "None",
+      "globalOverheadHelp": {
+        "p1": "Every worker you employ raises your company's overhead, which makes every worker across all your bases consume slightly more consumables. So a new production building doesn't just cost its own workers' supplies. It also nudges up the consumables every other building needs.",
+        "excludeLabel": "Exclude:",
+        "excludeBody": "profit counts only the recipe's own direct costs. Use this when comparing recipes.",
+        "includeLabel": "Include:",
+        "includeBody": "profit also subtracts the ripple cost on the rest of your company. Use this when deciding whether constructing a new building is actually worth it."
+      },
+      "vacationHelp": {
+        "p1": "Controls how bases flagged as on vacation in-game feed into the overhead burden. It is independent of the base page's own vacation toggle.",
+        "liveLabel": "Live:",
+        "liveBody": "respects the in-game flag, so vacationing bases drop out of the overhead burden.",
+        "noneLabel": "None:",
+        "noneBody": "treats every base as fully active, as if all workforce were recalled."
+      }
+    }
+  },
+  "filters": {
+    "section": {
+      "title": "Filters & display"
+    },
+    "reset": "Reset all",
+    "rows": {
+      "search": "Search",
+      "favorites": "Favorites",
+      "availability": "Availability",
+      "tier": "Tier",
+      "industry": "Industry",
+      "building": "Building",
+      "cardMetric": "Card metric",
+      "sortBy": "Sort by",
+      "targetProfit": "Target profit / h",
+      "targetPerBurden": "Target / 100 burden",
+      "roiOptions": "ROI options"
+    },
+    "search": {
+      "placeholder": "Filter by name, material, building…"
+    },
+    "favorite": {
+      "all": "All",
+      "favorites": "★ Favorites"
+    },
+    "availability": {
+      "all": {
+        "label": "All",
+        "tooltip": "Show every recipe"
+      },
+      "tech": {
+        "label": "Tech",
+        "tooltip": "Only recipes you have the tech unlocked for"
+      },
+      "building": {
+        "label": "Buildings",
+        "tooltip": "Only recipes you own the producing building for"
+      },
+      "both": {
+        "label": "Both",
+        "tooltip": "Only recipes you have both the tech and the buildings for"
+      }
+    },
+    "sort": {
+      "card": "Card",
+      "tier": "Tier",
+      "category": "Category",
+      "industry": "Industry",
+      "building": "Building"
+    },
+    "displayMode": {
+      "profit": "Profit / h",
+      "profitTotal": "Total profit / h",
+      "profitMargin": "Profit margin %",
+      "inputCost": "Input cost / h",
+      "outputValue": "Output value / h",
+      "consumableCost": "Consumable cost / h",
+      "profitPerBurden": "Profit / h / 100 burden",
+      "roiIncremental": "ROI (incremental)",
+      "roiTotal": "ROI (cumulative)",
+      "weightIncrease": "Weight change %",
+      "profitPerWeightChange": "Profit / weight change",
+      "profitPerTotalWeight": "Profit / total weight",
+      "profitPerMaxLegWeight": "Profit / max leg weight",
+      "targetPrice": "Target price",
+      "targetPricePerBurden": "Target price (per burden)"
+    },
+    "building": {
+      "sortToggle": {
+        "titleAlpha": "Sorting alphabetically · click to sort by industry (research level)",
+        "titleIndustry": "Sorting by industry · click to sort alphabetically",
+        "label": "Sort: {{mode}}",
+        "modeAlpha": "A-Z",
+        "modeIndustry": "Industry"
+      }
+    },
+    "cardMetric": {
+      "placeholder": "Select metric…"
+    },
+    "sortBy": {
+      "placeholder": "Select sort…"
+    },
+    "roi": {
+      "housing": "Housing",
+      "level": "Level",
+      "reserve": "Reserve",
+      "exclude": "Excl.",
+      "include": "Incl.",
+      "excludeTooltip": "Exclude",
+      "includeTooltip": "Include"
+    },
+    "units": {
+      "days": "days"
+    },
+    "entities": {
+      "industry": "industry",
+      "industryPlural": "industries",
+      "building": "building",
+      "buildingPlural": "buildings"
+    },
+    "multiSelect": {
+      "none": "No {{entities}}",
+      "all": "All {{entities}}",
+      "partial": "{{count}} of {{total}} {{entities}}",
+      "oneSelected": "1 {{entity}} selected",
+      "empty": "Nothing to filter.",
+      "selectAll": "All",
+      "clearAll": "None"
+    },
+    "includedBases": {
+      "buttonTitle": "Choose which bases feed cross-base aggregations (overhead / workforce / etc.)",
+      "label": "Included",
+      "all": "all",
+      "header": "Included bases",
+      "includeAll": "Include all",
+      "excludeAll": "Exclude all",
+      "empty": "No bases."
+    }
+  },
+  "scenario": {
+    "view": {
+      "all": "All",
+      "changes": "Changes",
+      "editScenario": "Edit scenario…",
+      "noDeviations": "No deviations from the baseline.",
+      "reset": "Reset",
+      "resetAll": "Reset all",
+      "title": "Scenario"
+    },
+    "sections": {
+      "consumables": "Consumables",
+      "general": "General",
+      "perks": "Perks",
+      "research": "Research",
+      "shipping": "Shipping"
+    },
+    "footer": {
+      "includedBases": "Included bases",
+      "moreControls": "More controls",
+      "share": "Share",
+      "shareScenario": "Share scenario",
+      "shareTitle": "Share this scenario as a permalink"
+    }
+  },
+  "dataManagement": {
+    "presets": {
+      "buttonLabel": "Presets",
+      "buttonTitle": "Saved scenario presets",
+      "unsavedTitle": "Unsaved changes",
+      "heading": "Presets",
+      "saveCurrent": "Save current…",
+      "clearAll": "Clear all",
+      "clearAllTitle": "Clear every scenario knob and filter back to defaults and deselect the preset",
+      "namePlaceholder": "Preset name",
+      "save": "Save",
+      "cancel": "Cancel",
+      "emptyTitle": "No presets saved yet.",
+      "emptyHint": "Use \"Save current…\" to capture your scenario.",
+      "sharedBadge": "shared",
+      "unsavedBadge": "unsaved",
+      "unsavedRowTitle": "Scenario has changed since this preset was last loaded",
+      "overwriteSaved": "Saved!",
+      "overwriteTitle": "Overwrite with current scenario state",
+      "rename": "Rename",
+      "restoreTitle": "Discard unsaved changes",
+      "deleteTitle": "Delete",
+      "discardAndLoad": "Discard unsaved changes & load <strong>{{name}}</strong>",
+      "discardAndRestore": "Discard changes & restore <strong>{{name}}</strong>",
+      "deleteConfirm": "Delete <strong>{{name}}</strong>",
+      "sharedScenarioFallback": "Shared scenario",
+      "shared": {
+        "by": "Shared by {{company}}",
+        "imported": "Imported from a share link",
+        "expires": "Expires {{date}}"
+      }
+    },
+    "settings": {
+      "title": "Profitability settings",
+      "resetAll": "Reset all",
+      "apply": "Apply",
+      "sections": {
+        "general": "General",
+        "shipping": "Shipping",
+        "research": "Research",
+        "perks": "Prestige Perks",
+        "consumables": "Consumables",
+        "materialSources": "Material sources"
+      }
+    },
+    "share": {
+      "title": "Share scenario",
+      "close": "Close",
+      "cancel": "Cancel",
+      "creating": "Creating link…",
+      "create": "Create share link",
+      "titleLabel": "Title",
+      "titlePlaceholder": "Optional, shown to receivers",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Optional. What is this and how should it be used?",
+      "scope": "Scope",
+      "scopePublic": "Public",
+      "scopeGuild": "Guild",
+      "scopeGuildTooltip": "Only members of your guild can open this link.",
+      "expires": "Expires",
+      "expiry1d": "1 day",
+      "expiry7d": "7 days",
+      "expiry30d": "30 days",
+      "expiryForever": "Forever",
+      "shareLink": "Share link",
+      "copied": "Copied!",
+      "copyFailed": "Copy failed",
+      "copy": "Copy",
+      "error": "Failed to create share link.",
+      "options": {
+        "research": {
+          "label": "Research",
+          "onHint": "Your effective research levels are baked in.",
+          "offHint": "The receiver's own research levels are used."
+        },
+        "perks": {
+          "label": "Prestige perks",
+          "onHint": "Your prestige perk levels are baked in.",
+          "offHint": "The receiver's own perks are used."
+        },
+        "startingBonus": {
+          "label": "Starting bonus",
+          "onHint": "Your starting speed bonus is baked in.",
+          "offHint": "The receiver's own starting bonus is used."
+        },
+        "overhead": {
+          "label": "Overhead",
+          "onHint": "Your workforce and admin center are baked in.",
+          "offHint": "The receiver's own overhead is used."
+        },
+        "consumables": {
+          "label": "Consumables",
+          "onHint": "Your consumable provision settings travel along.",
+          "offHint": "The receiver's own consumable settings are used."
+        },
+        "materialSources": {
+          "label": "Material sources",
+          "onHint": "Your per-material source planets travel along.",
+          "offHint": "The receiver's own material sources are used."
+        },
+        "recipeOverrides": {
+          "label": "Recipe overrides",
+          "onHint": "Your per-recipe level, planet and chain tweaks travel along.",
+          "offHint": "Per-recipe tweaks stay on the receiver's side."
+        },
+        "general": {
+          "label": "General settings",
+          "onHint": "Building level, condition, workforce % and planet tier travel along.",
+          "offHint": "The receiver's own general settings are used."
+        }
+      }
+    }
+  }
+}

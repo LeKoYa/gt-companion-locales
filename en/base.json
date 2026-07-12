@@ -1,0 +1,1361 @@
+{
+  "baseList": {
+    "panel": {
+      "title": "Bases"
+    },
+    "refresh": {
+      "tooltip": "Refresh data",
+      "base": "Refresh base",
+      "all": "Refresh all",
+      "one": "Refresh"
+    },
+    "help": {
+      "label": "Base list help",
+      "tooltip": "Learn about base lists and planning."
+    },
+    "nav": {
+      "overview": "Overview",
+      "insights": "Insights",
+      "more": "More ...",
+      "companyContracts": "Company contracts",
+      "warehouseInfo": "Warehouse info",
+      "cashHistory": "Cash history",
+      "planNewBase": "Plan new base"
+    },
+    "section": {
+      "title": "Bases",
+      "empty": "No bases found yet."
+    },
+    "mode": {
+      "list": "List",
+      "group": "Group",
+      "custom": "Custom"
+    },
+    "groups": {
+      "bases": "Bases",
+      "shared": "Shared",
+      "plans": "Plans",
+      "snapshots": "Snapshots",
+      "ungrouped": "Ungrouped",
+      "newGroup": "New group",
+      "newGroupDrop": "+ New group",
+      "dropItemsHere": "Drop items here",
+      "renameAria": "Rename group",
+      "deleteAria": "Delete group",
+      "expandAria": "Expand group",
+      "collapseAria": "Collapse group"
+    },
+    "entry": {
+      "unknownPlanet": "Unknown planet",
+      "onVacation": "On vacation. Production paused, no consumables used",
+      "supplyConsumables": "Consumables",
+      "supplyInputs": "Production inputs",
+      "supplyWarehouseFull": "Warehouse full",
+      "selectStep": "Select step"
+    },
+    "rowMenu": {
+      "renameAria": "Rename",
+      "deleteAria": "Delete",
+      "renamePlan": "Rename plan",
+      "renameSnapshot": "Rename snapshot",
+      "renameStep": "Rename step",
+      "renameSelectedStep": "Rename selected step",
+      "selectStepToRename": "Select a step to rename",
+      "deletePlan": "Delete plan",
+      "deleteSnapshot": "Delete snapshot",
+      "deleteStep": "Delete step",
+      "deleteSelectedStep": "Delete selected step",
+      "selectStepToDelete": "Select a step to delete",
+      "duplicatePlan": "Duplicate plan",
+      "duplicateSnapshot": "Duplicate snapshot"
+    },
+    "fallback": {
+      "snapshot": "Snapshot",
+      "untitledPlan": "Untitled plan"
+    },
+    "contextMenu": {
+      "copyBase": "Copy base",
+      "resupply": "Resupply",
+      "importBuildingsTo": "Import buildings to {{target}}",
+      "share": "Share…",
+      "convertToBaseSnapshots": "Convert to base snapshots…",
+      "convertToOwnPlan": "Convert to my own plan…",
+      "convertToOwnSnapshot": "Convert to my own snapshot…"
+    }
+  },
+  "buildings": {
+    "actions": {
+      "removeBuilding": "Remove building",
+      "upgradeBuilding": "Upgrade building",
+      "downgradeBuilding": "Downgrade building",
+      "removeAll": "Remove all",
+      "upgradeAll": "Upgrade all",
+      "downgradeAll": "Downgrade all",
+      "removeThis": "Remove this",
+      "upgradeThis": "Upgrade this",
+      "downgradeThis": "Downgrade this",
+      "removeBuildingHint": "Remove building (Ctrl/Cmd+click or hold: all of type)",
+      "upgradeBuildingHint": "Upgrade building (Shift: +5 · Ctrl/Cmd+click or hold: all of type)",
+      "downgradeBuildingHint": "Downgrade building (Shift: -5 · Ctrl/Cmd+click or hold: all of type)"
+    },
+    "picker": {
+      "addBuilding": "Add building",
+      "changeBuilding": "Change building",
+      "searchPlaceholder": "Search buildings",
+      "noMatches": "No matches",
+      "sortSmart": "Smart",
+      "sortTier": "Tier"
+    },
+    "slot": {
+      "buyableWithStars": "Buyable with stars",
+      "terraform": "Terraform slot",
+      "unlockStar": "Unlock star slot",
+      "resetLocked": "Reset slot to locked",
+      "clickToSetLevel": "Click to set level"
+    },
+    "condition": {
+      "openDetails": "Open condition details",
+      "detailsTitle": "Condition details",
+      "timeToRepairThreshold": "Time to repair threshold ({{percent}}%): {{time}}",
+      "timeTo80": "Time to 80%: {{time}}",
+      "repairCost": "Repair cost: {{value}}",
+      "upgradeCostNextLevel": "Upgrade cost (next level): {{value}}",
+      "scrapValue": "Scrap value: {{value}}"
+    },
+    "restore": {
+      "toEmpty": "Restore to empty",
+      "toPrefix": "Restore to",
+      "baselineSuffix": "({{target}} baseline)",
+      "targetStep": "step",
+      "targetLive": "live",
+      "ariaEmpty": "Restore to empty ({{target}} baseline)",
+      "ariaBuilding": "Restore to {{name}}{{levelSuffix}} ({{target}} baseline)"
+    },
+    "grid": {
+      "sectionTitleGrid": "Grid",
+      "sectionTitleList": "Building list",
+      "columnsAuto": "Auto",
+      "columnsN": "{{count}} cols",
+      "viewGrid": "Grid",
+      "viewList": "List",
+      "dragModeLabel": "Drag mode",
+      "dragModeMoveTitle": "Move mode: drag swaps the two slots",
+      "dragModeCopyTitle": "Copy mode: drag clones the source onto the target",
+      "dragCopy": "Copy",
+      "dragMove": "Move",
+      "showLegend": "Show legend",
+      "hideLegend": "Hide legend",
+      "expand": "Expand",
+      "undoExpand": "Undo expand"
+    },
+    "legend": {
+      "newBuild": "New build",
+      "replaced": "Replaced",
+      "upgraded": "Upgraded",
+      "downgraded": "Downgraded",
+      "terraformed": "Terraformed",
+      "moved": "Moved",
+      "dashedRing": "Dashed ring = changes vs game state (or previous step)",
+      "solidRing": "Solid ring = your unsaved edits vs saved snapshot",
+      "stripedSlot": "Striped slot = locked (terraform or stars)",
+      "clickSlot": "Click slot = open building picker",
+      "dragModeToggle": "Drag mode toggle (top of grid): Copy = clone source onto target; Move = swap source and target",
+      "modifierDrag": "{{key}} + drag (Copy mode) = keep target's current level",
+      "rightClickBuilding": "Right-click building = remove",
+      "rightClickEmpty": "Right-click empty slot = toggle terraform",
+      "modifierAction": "{{key}} + click upgrade/downgrade/remove = all of type"
+    },
+    "list": {
+      "empty": "No buildings placed yet.",
+      "building": "Building",
+      "count": "Count",
+      "levels": "Levels"
+    },
+    "workforce": {
+      "title": "Workforce",
+      "empty": "No workforce on this base yet.",
+      "tier": "Tier",
+      "jobs": "Jobs",
+      "housing": "Housing",
+      "free": "Free"
+    }
+  },
+  "cashHistory": {
+    "title": "Cash history",
+    "refresh": "Refresh",
+    "refreshing": "Refreshing…",
+    "updated": "Updated {{time}}",
+    "loading": "Loading cash history…",
+    "empty": "No cash transactions recorded yet.",
+    "unknown": "Unknown",
+    "searchPlaceholder": "Search (comma-separated)…",
+    "summary": {
+      "spent": "Spent",
+      "earned": "Earned",
+      "net": "Net"
+    },
+    "view": {
+      "byMaterial": "By material",
+      "transactions": "Transactions"
+    },
+    "columns": {
+      "material": "Material",
+      "bought": "Bought",
+      "spent": "Spent",
+      "avgBuy": "Avg buy",
+      "sold": "Sold",
+      "earned": "Earned",
+      "avgSell": "Avg sell",
+      "net": "Net",
+      "date": "Date",
+      "type": "Type",
+      "counterparty": "Counterparty",
+      "qty": "Qty",
+      "unitPrice": "Unit price",
+      "total": "Total"
+    },
+    "txTypes": {
+      "sell": "Sell",
+      "starting": "Starting",
+      "dailyMission": "Daily mission",
+      "achievement": "Achievement",
+      "projectDonation": "Project donation",
+      "mission": "Mission",
+      "contractSell": "Contract sell",
+      "adminAdd": "Admin add",
+      "buy": "Buy",
+      "createGuild": "Create guild",
+      "contractBuy": "Contract buy",
+      "unknown": "Unknown"
+    }
+  },
+  "contracts": {
+    "title": "Company Contracts",
+    "refresh": "Refresh",
+    "searchPlaceholder": "Search (comma-separated)",
+    "loading": "Loading contracts...",
+    "columnsButton": "Columns",
+    "selectColumnsPlaceholder": "Select columns...",
+    "guild": "Guild",
+    "recurringTooltip": "Recurring contract ({{count}}/day)",
+    "common": {
+      "any": "Any",
+      "all": "All",
+      "mixed": "Mixed",
+      "unknown": "Unknown",
+      "enableAll": "Enable all",
+      "disableAll": "Disable all",
+      "reset": "Reset",
+      "min": "Min",
+      "max": "Max"
+    },
+    "status": {
+      "pending": "Pending",
+      "active": "Active",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "statusFilter": {
+      "active": "Active",
+      "pending": "Pending",
+      "done": "Done",
+      "cancelled": "Cancelled"
+    },
+    "type": {
+      "buy": "Buy",
+      "sell": "Sell"
+    },
+    "mode": {
+      "recurring": "Recurring",
+      "oneTime": "One-time"
+    },
+    "by": {
+      "you": "You",
+      "other": "Other"
+    },
+    "created": {
+      "last24h": "Last 24h",
+      "last7d": "Last 7d",
+      "last30d": "Last 30d"
+    },
+    "tableMode": {
+      "list": "List",
+      "grouped": "Grouped",
+      "byPlanet": "By Planet"
+    },
+    "columns": {
+      "status": "Status",
+      "type": "Type",
+      "material": "Material",
+      "partner": "Partner",
+      "by": "By",
+      "planet": "Planet",
+      "fulfilled": "Fulfilled",
+      "qty": "Qty",
+      "dailyQty": "Daily qty",
+      "units": "Units",
+      "unitPrice": "Unit price",
+      "netUnit": "Net / unit",
+      "deltaMarket": "Δ Market",
+      "total": "Total",
+      "dailyTotal": "Daily total",
+      "created": "Created",
+      "todayDone": "Today done",
+      "todayLeft": "Today left",
+      "twoDayLeft": "2d left"
+    },
+    "summary": {
+      "noStatus": "No status",
+      "oneSelected": "1 selected",
+      "noPartners": "No partners",
+      "noMaterials": "No materials",
+      "noPlanets": "No planets",
+      "partners_one": "{{count}} partner",
+      "partners_other": "{{count}} partners",
+      "materials_one": "{{count}} material",
+      "materials_other": "{{count}} materials",
+      "planets_one": "{{count}} planet",
+      "planets_other": "{{count}} planets"
+    },
+    "tooltip": {
+      "fee": "fee",
+      "feeLabel": "Fee:",
+      "exchange": "exchange"
+    },
+    "footer": {
+      "showing": "Showing {{rows}} rows from {{filtered}} of {{total}} contracts",
+      "initiatedLabel": "Active/pending initiated contracts:",
+      "hqCap": "(HQ level {{level}}, cap: 5 per level)",
+      "remainingTotals": "Remaining totals (filtered):",
+      "feeSavings": "Fee perk daily savings:"
+    },
+    "error": {
+      "load": "Failed to load contracts."
+    }
+  },
+  "controls": {
+    "panel": {
+      "title": "Controls"
+    },
+    "tabs": {
+      "base": "Base",
+      "plan": "Plan",
+      "buildings": "Buildings",
+      "consumables": "Consumables & Orders",
+      "dailyTotals": "Daily Totals",
+      "issues": "Issues"
+    },
+    "planetHeader": {
+      "tier": "Tier",
+      "distance": "Distance",
+      "fertility": "Fertility"
+    },
+    "stats": {
+      "inputCost": "Input cost",
+      "consumableCost": "Consumable cost",
+      "maintenanceCost": "Maintenance cost",
+      "income": "Income",
+      "profit": "Profit",
+      "supplyTopUp": "Total cost to reach {{days}} of supply",
+      "repairAll": "Total cost to repair everything"
+    },
+    "dashboard": {
+      "scrap": {
+        "material": "Material",
+        "total": "Total",
+        "amount": "Amount",
+        "weight": "Weight"
+      },
+      "deltaWithContracts": "Delta / With contracts",
+      "warehouse": "Warehouse",
+      "baseBuildingValue": "Base building value",
+      "settlementMaterials": "Settlement materials",
+      "settlement": {
+        "exclude": "Exclude",
+        "include": "Include"
+      },
+      "noScrapMaterials": "No scrap materials."
+    },
+    "consumables": {
+      "ordersTitle": "Production orders",
+      "loading": "Loading base data…",
+      "consumablesTitle": "Consumables",
+      "resetConsumablesTooltip": "Clear all per-material consumable overrides for this base",
+      "resetOverrides": "Reset overrides",
+      "resetOrdersTooltip": "Clear the per-base production-order override for this base",
+      "noProductionBuildings": "No production buildings on this base.",
+      "noWorkforce": "No workforce on this base yet.",
+      "grid": {
+        "tier": "Tier",
+        "essentials": "Essentials",
+        "optional": "Optional",
+        "satisfaction": "Satisfaction"
+      },
+      "overriddenSuffix": " · overridden (right-click to clear)",
+      "buildingLevels_one": "{{count}} building level",
+      "buildingLevels_other": "{{count}} building levels",
+      "inputsPerDay": "Inputs / day",
+      "outputsPerDay": "Outputs / day",
+      "selectRecipe": "Select recipe…",
+      "add": "Add",
+      "noRecipesQueued": "No recipes queued.",
+      "removeRecipe": "Remove recipe",
+      "prod": {
+        "badge": "Productivity: {{value}}%",
+        "workforceSatisfaction": "Workforce satisfaction",
+        "requiredWorkforce": "Required workforce",
+        "buildingCondition": "Building condition",
+        "techPerksMultiplier": "Tech + Perks multiplier",
+        "technologyMultiplier": "Technology multiplier",
+        "specialPerk": "Special Perk",
+        "total": "Total",
+        "productionSpeed": "Production speed"
+      }
+    },
+    "issues": {
+      "wishlistDisabledTooltip": "Nothing to add to a wishlist.",
+      "wishlistTooltip": "Open wishlist builder.",
+      "createWishlist": "Create wishlist",
+      "hideExcluded": "Hide excluded",
+      "showExcluded": "Show excluded",
+      "split": "Split",
+      "merge": "Merge",
+      "group": "Group",
+      "allClear": "All clear. No issues for this base.",
+      "warehouseFillingUp": "Warehouse filling up",
+      "untilWarehouseFull": "until warehouse is full.",
+      "runsOut": "runs out",
+      "runsOutTooltip": "Time when the first material runs out",
+      "copyChat": "Copy as chat text",
+      "copied": "Copied!",
+      "showMaterialAria": "Show material {{id}}",
+      "materialsRunningOut_one": "Materials running out ({{count}})",
+      "materialsRunningOut_other": "Materials running out ({{count}})",
+      "inputsCount_one": "Inputs ({{count}})",
+      "inputsCount_other": "Inputs ({{count}})",
+      "copyInputs": "Copy inputs as chat text",
+      "consumablesCount_one": "Consumables ({{count}})",
+      "consumablesCount_other": "Consumables ({{count}})",
+      "copyConsumables": "Copy consumables as chat text"
+    },
+    "plan": {
+      "setupTitle": "Plan setup",
+      "name": "Name",
+      "untitledPlaceholder": "Untitled plan",
+      "planet": "Planet",
+      "searchPlanets": "Search planets…",
+      "statsTitle": "Stats"
+    },
+    "placeholder": {
+      "default": "Coming in a later phase."
+    },
+    "dailyTotals": {
+      "field": {
+        "netVsGross": "Net vs gross",
+        "splitByType": "Split by type",
+        "maintenance": "Maintenance",
+        "contracts": "Contracts",
+        "view": "View"
+      },
+      "detailedNetTooltip": "Detailed view always uses Net mode. Its columns already break the totals out.",
+      "mode": {
+        "net": "Net",
+        "gross": "Gross"
+      },
+      "split": {
+        "merge": "Merge",
+        "group": "Group"
+      },
+      "maintenanceToggle": {
+        "show": "Show",
+        "hide": "Hide"
+      },
+      "contracts": {
+        "exclude": "Excl.",
+        "base": "Incl. (base)",
+        "all": "Incl. (all)"
+      },
+      "view": {
+        "compact": "Compact",
+        "detailed": "Detailed",
+        "byType": "By type"
+      },
+      "copyForChat": "Copy for chat",
+      "copied": "Copied.",
+      "nothingToCopy": "Nothing to copy.",
+      "copyForChatLabel": "Copy {{label}} for chat",
+      "copyRowsFallback": "rows",
+      "section": {
+        "outputs": "Outputs",
+        "inputs": "Inputs",
+        "productionInputs": "Production inputs",
+        "consumables": "Consumables",
+        "maintenance": "Maintenance"
+      },
+      "noRowsForBase": "No {{label}} for this base.",
+      "noMaterialFlows": "No material flows for this base yet.",
+      "totalRow": "Total",
+      "allFlows": "All flows",
+      "dailyTotalsHeader": "Daily totals",
+      "otherField": "Other",
+      "expandAll": "Expand all",
+      "collapseAll": "Collapse all",
+      "expand": "Expand",
+      "collapse": "Collapse",
+      "col": {
+        "material": "Material",
+        "contract": "Contract",
+        "value": "Value",
+        "weight": "Weight",
+        "stock": "Stock",
+        "time": "Time",
+        "input": "Input",
+        "consumed": "Consumed",
+        "maint": "Maint.",
+        "produced": "Produced",
+        "net": "Net",
+        "market": "Market",
+        "marketDollar": "Market $",
+        "contractDollar": "Contract $",
+        "totalDollar": "Total $"
+      },
+      "tooltip": {
+        "contractFlow": "Contract flow: positive = company buys (inflow), negative = company sells (outflow)",
+        "valueWithContracts": "Contract value at contract prices + leftover at market price",
+        "valueMarket": "Value at market price",
+        "currentStock": "Current stock in warehouse",
+        "timeUntilEmpty": "Time until empty at net consumption",
+        "marketNet": "Net production minus inputs (no contracts)",
+        "contractValue": "Net contract value: positive = company earns (sells), negative = company pays (buys)"
+      }
+    }
+  },
+  "footer": {
+    "baseline": {
+      "tooltipPrevious": "Diffs compare to the previous step (parent snapshot)",
+      "tooltipLive": "Diffs compare to the live game state of this base",
+      "tooltipDisabled": "Select a snapshot with a parent step to enable",
+      "vs": "vs",
+      "gameState": "Game state",
+      "prevStep": "Prev step"
+    },
+    "imExport": {
+      "failed": "Failed",
+      "exporting": "Exporting…",
+      "importing": "Importing…",
+      "trigger": "Im-/Export",
+      "tooltipEnabled": "Import a plan from the game or export this snapshot",
+      "tooltipDisabled": "Select a snapshot or base to im-/export",
+      "exportToGame": "Export to game",
+      "exported": "Exported",
+      "exportWarehouseOnly": "Export warehouse only",
+      "importFromGame": "Import from game",
+      "imported": "Imported",
+      "importAndReplace": "Import & replace draft"
+    },
+    "includedBases": {
+      "focusOverride": {
+        "excluded": "Viewing this base: it still contributes to aggregation while focused.",
+        "draft": "Pick ignored while focused. Aggregation uses your current edit view.",
+        "snapshot": "Snapshot pick ignored while focused. Aggregation follows your current edit view."
+      },
+      "tooltipOverridden": "A base you're viewing has an inclusion pick that's ignored while focused. Open the menu for details.",
+      "tooltipDefault": "Choose which bases (and which snapshot/plan step) feed cross-base aggregations",
+      "included": "Included",
+      "all": "all",
+      "heading": "Included bases",
+      "selectBases": "Select bases",
+      "excludeAll": "Exclude all",
+      "sectionBases": "Bases",
+      "noBases": "No bases.",
+      "chipLive": "Live",
+      "chipDraft": "Draft",
+      "sectionPlans": "Plans",
+      "snapshot": "Snapshot",
+      "step": "Step {{n}}"
+    },
+    "reset": {
+      "tooltipEnabled": "Reset per-base overrides",
+      "tooltipDisabled": "Nothing to reset",
+      "trigger": "Reset",
+      "confirm": "Confirm reset"
+    },
+    "save": {
+      "tooltipEnabled": "Save current state",
+      "tooltipDisabled": "Nothing to save in Live mode",
+      "trigger": "Save",
+      "asNew": "Save as new",
+      "nextStep": "Save as next step",
+      "previousStep": "Save as previous step",
+      "overwrite": "Overwrite selected snapshot"
+    },
+    "step": {
+      "current": "Step {{current}}/{{total}}",
+      "tooltip": "Navigate snapshot chain steps"
+    },
+    "undoRedo": {
+      "undo": "Undo",
+      "redo": "Redo"
+    },
+    "viewMode": {
+      "saved": "Saved",
+      "savedTooltip": "Show the saved state, ignoring any unsaved edits",
+      "draft": "Draft",
+      "draftTooltip": "Show your unsaved edits applied on top of the saved state"
+    },
+    "workflow": {
+      "title": "Workflow controls",
+      "sectionView": "View",
+      "sectionStep": "Step",
+      "sectionDiffVs": "Diff vs",
+      "sectionEdit": "Edit",
+      "sectionSave": "Save",
+      "sectionImExport": "Im-/Export"
+    }
+  },
+  "insights": {
+    "tabs": {
+      "breakdown": "Breakdown",
+      "investments": "Investments"
+    },
+    "sections": {
+      "researchRoi": "Research ROI",
+      "adminCenterSavings": "Admin Center savings",
+      "overheadImpact": "Daily overhead impact",
+      "workforceProfit": "Workforce profit",
+      "recipeProfit": "Recipe profit",
+      "buildingProfit": "Building profit",
+      "buildingsBreakdown": "Buildings breakdown"
+    },
+    "adminCenter": {
+      "empty": {
+        "noData": "Select bases with workforce burden to estimate Admin Center savings.",
+        "noBenefit": "No expansion overhead to reduce. Admin Center upgrades wouldn't help right now."
+      },
+      "columns": {
+        "scenario": "Scenario",
+        "level": "Level",
+        "overheadReduced": "Overhead reduced",
+        "netOverhead": "Net overhead",
+        "consumablesPerDay": "Consumables / day",
+        "deltaVsLive": "Δ vs. live"
+      },
+      "messages": {
+        "noData": "No included bases with workforce burden.",
+        "noBenefit": "No expansion overhead to reduce right now."
+      },
+      "scenarios": {
+        "current": "Current",
+        "next": "Next",
+        "none": "None",
+        "maxBenefit": "Max benefit",
+        "custom": "Custom"
+      }
+    },
+    "buildingProfit": {
+      "empty": "Select bases with active production buildings to see building profitability.",
+      "columns": {
+        "building": "Building",
+        "count": "Count",
+        "levels": "Levels",
+        "profitPerLevel": "Profit / level",
+        "totalPerDay": "Total / day"
+      }
+    },
+    "buildingsBreakdown": {
+      "empty": "Select bases with buildings to see the breakdown.",
+      "infrastructure": "Infrastructure",
+      "production": "Production",
+      "emptyInfrastructure": "No infrastructure buildings yet.",
+      "emptyProduction": "No production buildings yet.",
+      "columns": {
+        "building": "Building",
+        "levels": "Building levels",
+        "count": "Count"
+      }
+    },
+    "overheadImpact": {
+      "empty": "Select bases to see how overhead is distributed across them.",
+      "columns": {
+        "base": "Base",
+        "baseCost": "Base",
+        "baseCostTip": "Baseline consumable cost (no perks, no overhead applied)",
+        "overhead": "Overhead",
+        "overheadTip": "Net adjustment from the consumption multiplier (perks × overhead). Positive = extra cost; negative = savings.",
+        "total": "Total",
+        "totalTip": "Total consumable cost (base + adjustment)",
+        "goi": "GOI",
+        "goiTip": "Global overhead impact: extra cost this base imposes on every other included base via the company-wide overhead penalty",
+        "netProfit": "Net profit",
+        "netProfitTip": "Net profit per day attributable to this base",
+        "profitGoi": "Profit / GOI",
+        "profitGoiTip": "Net profit ÷ Global overhead impact",
+        "impactIfExcluded": "Impact if excluded",
+        "impactIfExcludedTip": "Company net change if this base were excluded: savings on others' overhead minus profit lost. Positive = excluding helps.",
+        "impactPerBurden": "Impact / burden",
+        "impactPerBurdenTip": "Impact-if-excluded per unit of burden"
+      }
+    },
+    "recipeProfit": {
+      "empty": "Select bases with active production orders to see recipe profitability.",
+      "columns": {
+        "recipe": "Recipe",
+        "building": "Building",
+        "runsPerDay": "Runs / day",
+        "output": "Output",
+        "input": "Input",
+        "maintenance": "Maint.",
+        "consumables": "Cons.",
+        "netPerDay": "Net / day"
+      }
+    },
+    "researchRoi": {
+      "empty": "Select bases to see research upgrade payback estimates.",
+      "columns": {
+        "technology": "Technology",
+        "next": "Next",
+        "upgradeCost": "Upgrade cost",
+        "profitPerDay": "Profit / day",
+        "increasedProfitPerDay": "Increased profit / day",
+        "payback": "Payback"
+      }
+    },
+    "workforceProfit": {
+      "empty": "Select bases with active production buildings to see workforce profitability.",
+      "columns": {
+        "tier": "Tier",
+        "workers": "Workers",
+        "profitPerDay": "Profit / day",
+        "per100Workers": "Profit / 100 workers",
+        "per100WorkersTip": "Profit per day per 100 workers in this tier",
+        "per100Burden": "Profit / 100 burden",
+        "per100BurdenTip": "Profit per day per 100 burden units (worker count × tier burden multiplier: w=1, t=1.5, e=2.5, s=4)"
+      }
+    }
+  },
+  "issues": {
+    "categories": {
+      "consumables": "Consumables",
+      "inputs": "Production inputs",
+      "repairs": "Repairs",
+      "warehouse": "Warehouse nearing capacity"
+    },
+    "controls": {
+      "createWishlist": "Create wishlist",
+      "wishlistEmpty": "Nothing to add to a wishlist.",
+      "openWishlist": "Open wishlist builder.",
+      "showExcluded": "Show excluded",
+      "hideExcluded": "Hide excluded"
+    },
+    "sortOptions": {
+      "alpha": "Alphabetical",
+      "consumables": "Soonest consumables",
+      "inputs": "Soonest inputs",
+      "combined": "Soonest (combined)",
+      "size": "Base size",
+      "inputWeight": "Supply weight"
+    },
+    "window": {
+      "label": "Issues window",
+      "overrideTitle": "Override (page setting: {{value}}). Click to edit.",
+      "inheritTitle": "Inherits the page Supply time setting. Click to edit.",
+      "reset": "Reset to page Supply time"
+    },
+    "repairThreshold": {
+      "label": "Repair threshold",
+      "editHint": "Click to edit"
+    },
+    "repairs": {
+      "caption_one": "Buildings to repair ({{count}} mat)",
+      "caption_other": "Buildings to repair ({{count}} mats)"
+    },
+    "columns": {
+      "material": "Material",
+      "materialTitle": "Material name",
+      "total": "Total",
+      "perDay": "#/day",
+      "perDayTitle": "Net daily usage",
+      "stock": "Stock",
+      "stockTitle": "Current stock in warehouse",
+      "prod": "Prod",
+      "prodTitle_one": "Produced over {{value}} day",
+      "prodTitle_other": "Produced over {{value}} days",
+      "need": "Need",
+      "needTitle_one": "Needed to reach {{value}} day of stock",
+      "needTitle_other": "Needed to reach {{value}} days of stock",
+      "weight": "Weight",
+      "weightTitle": "Weight of needed materials",
+      "price": "Price",
+      "priceTitle": "Price of needed materials",
+      "time": "Time",
+      "timeTitle": "Time left at current net usage",
+      "qty": "Qty",
+      "qtyTitle": "Total quantity needed",
+      "repairWeightTitle": "Total weight",
+      "cost": "Cost",
+      "costTitle": "Total cost"
+    }
+  },
+  "modals": {
+    "newPlan": {
+      "title": {
+        "new": "New plan",
+        "copy": "Copy base"
+      },
+      "submit": {
+        "new": "Create plan",
+        "copy": "Copy base"
+      },
+      "cancel": "Cancel",
+      "field": {
+        "name": "Name",
+        "planet": "Planet",
+        "expansion": "Starting expansion level"
+      },
+      "namePlaceholder": "e.g. Tier-2 farming base",
+      "planetPlaceholder": "Search planets…",
+      "expansionHint": "Determines initial slot count ({{count}} slots).",
+      "expansion": {
+        "lv0": "Lv 0 - 25 slots",
+        "lv1": "Lv 1 - 40 slots",
+        "lv2": "Lv 2 - 50 slots"
+      },
+      "starter": {
+        "label": "Starter base",
+        "hint": "(12 free terraform slots, 3 star slots)"
+      }
+    },
+    "convert": {
+      "title": "Convert plan to snapshots",
+      "cancel": "Cancel",
+      "untitled": "Untitled plan",
+      "thisPlanetFallback": "this plan's planet",
+      "submit": {
+        "to": "Convert to {{name}}",
+        "default": "Convert"
+      },
+      "noBases": "No bases exist yet. Build the base in-game and refresh, then come back to convert <plan>{{plan}}</plan> into its snapshot chain.",
+      "willBecomeWithPlanet": "<plan>{{plan}}</plan> will become a snapshot chain on <base>{{base}}</base> <planet>({{planet}})</planet>.",
+      "willBecome": "<plan>{{plan}}</plan> will become a snapshot chain on <base>{{base}}</base>.",
+      "driftNote": "Existing in-game state stays as-is. The snapshot chain shows drift via the diff rings and you can edit individual steps to absorb anything you've already built.",
+      "pickPrompt": "No base on <planet>{{planet}}</planet>. Pick which base to attach <plan>{{plan}}</plan> to:",
+    "snapshotNote": "The plan's snapshot contents stay unchanged; the diff rings will show how this base differs from the planned layout."
+    },
+    "share": {
+      "title": {
+        "base": "Share base",
+        "plan": "Share plan",
+        "snapshot": "Share snapshot"
+      },
+      "close": "Close",
+      "cancel": "Cancel",
+      "creating": "Creating link…",
+      "create": "Create share link",
+      "resultLabel": "Share link",
+      "error": {
+        "createFailed": "Failed to create share link."
+      },
+      "field": {
+        "title": "Title",
+        "description": "Description",
+        "scope": "Scope",
+        "expires": "Expires"
+      },
+      "titlePlaceholder": "Optional. Shown to receivers",
+      "descPlaceholder": "Optional. What is this and how should it be used?",
+      "scope": {
+        "public": "Public",
+        "guild": "Guild",
+        "guildTooltip": "Only members of your guild can open this link."
+      },
+      "expiry": {
+        "oneDay": "1 day",
+        "sevenDays": "7 days",
+        "thirtyDays": "30 days",
+        "forever": "Forever"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "failed": "Copy failed",
+        "copy": "Copy"
+      }
+    }
+  },
+  "overview": {
+    "tabs": {
+      "overview": "Overview",
+      "dailyTotals": "Daily totals",
+      "issues": "Issues"
+    },
+    "emptyState": "No bases included. Use the Included Bases menu in the footer to add bases to the Overview.",
+    "perBase": "Per base",
+    "controls": {
+      "netVsGross": "Net vs gross",
+      "detailedNetTooltip": "Detailed view always uses Net mode. Its columns already break the totals out.",
+      "splitByType": "Split by type",
+      "maintenance": "Maintenance",
+      "contracts": "Contracts",
+      "view": "View"
+    },
+    "totalsMode": {
+      "net": "Net",
+      "gross": "Gross"
+    },
+    "groupMode": {
+      "merge": "Merge",
+      "group": "Group"
+    },
+    "maintenance": {
+      "show": "Show",
+      "hide": "Hide"
+    },
+    "contractsMode": {
+      "exclude": "Exclude",
+      "all": "All"
+    },
+    "viewMode": {
+      "compact": "Compact",
+      "detailed": "Detailed",
+      "byType": "By type",
+      "byBase": "By base"
+    },
+    "dailyTotals": {
+      "emptyFlows": "No material flows yet. Include at least one base with active production.",
+      "byBase": {
+        "material": "Material",
+        "total": "Total",
+        "empty": "No per-material flows across the included bases yet."
+      }
+    },
+    "issues": {
+      "allClear": "All clear. No issues across included bases.",
+      "warehousesNearingCapacity": "Warehouses nearing capacity ({{count}})",
+      "fullIn": "Full in {{time}}",
+      "showMaterialAria": "Show material {{id}}",
+      "runsOutTitle": "Time when the first material runs out",
+      "runsOut": "runs out {{time}}",
+      "excludedCount": "{{count}} excluded",
+      "copied": "Copied!",
+      "copyAsChatText": "Copy as chat text",
+      "buildingsToRepair": "Buildings to repair ({{count}} mats)"
+    },
+    "perBaseTable": {
+      "columns": {
+        "base": "Base",
+        "profit": "Profit",
+        "income": "Income",
+        "input": "Input",
+        "consumables": "Consumables",
+        "maintenance": "Maintenance",
+        "workforce": "Workforce",
+        "buildings": "Buildings"
+      },
+      "onVacationAria": "On vacation",
+      "onVacationNotCounted": "On vacation · not counted",
+      "empty": "No bases included."
+    },
+    "stats": {
+      "inputCost": "Input cost",
+      "consumableCost": "Consumable cost",
+      "maintenanceCost": "Maintenance cost",
+      "income": "Income",
+      "profit": "Profit",
+      "deltaWithContracts": "Delta / With contracts",
+      "totalCostToReachSupply": "Total cost to reach {{days}} of supply",
+      "totalCostToRepair": "Total cost to repair everything"
+    },
+    "cargoFill": {
+      "title": "Cargo fill estimate",
+      "custom": "Custom",
+      "fillWithOutputs": "Fill w/ outputs",
+      "fillWithOutputsRate": "Fill w/ outputs ({{rate}}/day)",
+      "consumeInputs": "Consume inputs",
+      "consumeInputsRate": "Consume inputs ({{rate}}/day)",
+      "perDayOut": "{{rate}}/day out",
+      "perDayIn": "{{rate}}/day in",
+      "columns": {
+        "ship": "Ship",
+        "capacity": "Capacity"
+      }
+    }
+  },
+  "page": {
+    "customPrices": {
+      "consumables": "Consumables",
+      "consumablesEmpty": "Consumable data isn't available yet."
+    },
+    "export": {
+      "apiKeyRequired": "API key is required to export to the game.",
+      "selectEntry": "Select a snapshot or base to export.",
+      "notTiedToPlanet": "This entry is not tied to a planet.",
+      "noWarehouse": "This plan has no warehouse to export.",
+      "noPlanetId": "No planet id to export to.",
+      "noSelection": "No snapshot or base selected."
+    },
+    "import": {
+      "apiKeyRequired": "API key is required to import from the game.",
+      "noPlanetId": "No planet id to import from.",
+      "noSelection": "No base or snapshot selected.",
+      "noPlan": "No plan exists in the game for this planet."
+    },
+    "share": {
+      "apiKeyRequired": "API key is required to create share links.",
+      "noEntry": "No entry selected to share.",
+      "liveNotReady": "Live scenario not ready.",
+      "snapshotNotFound": "Snapshot not found.",
+      "buildFailed": "Couldn't build share payload, missing data.",
+      "createFailed": "Failed to create share link.",
+      "defaultPlanName": "Untitled plan",
+      "defaultSnapshotName": "Snapshot"
+    },
+    "baseIssues": {
+      "contextFallback": "Base issues"
+    },
+    "baseTitle": {
+      "plan": "plan",
+      "fallback": "Base Page v2"
+    },
+    "loading": {
+      "scenarioContext": "Loading scenario context… once base details finish loading, the content will appear.",
+      "insights": "Loading insights…",
+      "overview": "Loading overview…"
+    },
+    "buildings": {
+      "expandTo": "Expand to {{count}} slots",
+      "shrinkTo": "Shrink to {{count}} slots",
+      "shrinkBlocked": "Remove buildings in upper slots first"
+    },
+    "supply": {
+      "consumables": "Consumables",
+      "productionInputs": "Production inputs"
+    },
+    "mobile": {
+      "basesToggle": "Bases",
+      "previewToggle": "Preview"
+    },
+    "popout": {
+      "overview": "Overview",
+      "insights": "Insights"
+    },
+    "step": {
+      "labeled": "Step {{count}}: {{name}}",
+      "plain": "Step {{count}}"
+    },
+    "copyBase": {
+      "defaultName": "Copy of {{name}}"
+    },
+    "wishlist": {
+      "missingApiKey": "Missing API key.",
+      "noMaterials": "No materials to add.",
+      "notFound": "Wishlist not found.",
+      "alreadyMeets": "Wishlist already meets the preview amounts.",
+      "alreadyMatches": "Wishlist already matches the preview.",
+      "overviewIssuesTitle": "Overview issues",
+      "baseFallback": "base",
+      "baseIssuesTitle": "{{name}}: issues",
+      "untitledBase": "Untitled base",
+      "currentTarget": "Current",
+      "overviewContext": "Overview · included bases"
+    },
+    "warnings": {
+      "basePermits": "Base permits:",
+      "workersFallback": "workers",
+      "control": {
+        "include": "Include",
+        "exclude": "Exclude"
+      },
+      "startingSettlement": {
+        "title": "Starting settlement",
+        "body": "Construction costs assume 12 free terraform slots and 3 star slots (the starting base layout). Toggle this in Settings if the starting base has been demolished."
+      },
+      "starterPlan": {
+        "title": "Starter base layout",
+        "body": "Slots 1-12 free; star slots 23-25."
+      },
+      "startingPlanet": {
+        "title": "Starting planet",
+        "body": "Designate the starting base in <settingsLink>Settings</settingsLink> to unlock starter slot accounting."
+      },
+      "baseCost": {
+        "title": "Base construction cost",
+        "body": "Include the one-time base setup cost (concrete, kits, etc.) in construction materials and ROI."
+      },
+      "hqNewBase": {
+        "title": "New base requires HQ upgrade"
+      },
+      "hqExpansions": {
+        "title": "Expansion requires HQ upgrades"
+      },
+      "housingShortfall": {
+        "title": "Housing shortfall",
+        "tooltip_one": "{{amount}} {{worker}} missing, covered by {{count}} level of {{name}}",
+        "tooltip_other": "{{amount}} {{worker}} missing, covered by {{count}} levels of {{name}}",
+        "generic": "Some workers have nowhere to live.",
+        "needSlot": "Place a housing building first, there's no existing housing to upgrade.",
+        "cannotCover": "Existing housing can't cover the remaining shortfall, add a new building of the listed type(s).",
+        "fillHint": "Evenly raise existing housing buildings until the shortfall is closed. Hotkey: H",
+        "fillButton": "Auto-fill housing"
+      },
+      "housingSurplus": {
+        "title": "Housing surplus",
+        "tooltip_one": "{{amount}} {{worker}} surplus, could remove {{count}} level of {{name}}",
+        "tooltip_other": "{{amount}} {{worker}} surplus, could remove {{count}} levels of {{name}}",
+        "reduceHint": "Reduce planned housing upgrades first, then trim existing housing without dipping below current need. Hotkey: H",
+        "cannotReduce": "No housing slots can be safely downgraded right now.",
+        "reduceButton": "Auto-reduce housing"
+      },
+      "missingOrders": {
+        "title": "Missing production orders",
+        "body": "Set <ordersButton>production orders</ordersButton> for:"
+      }
+    }
+  },
+  "preview": {
+    "panel": {
+      "title": "Preview"
+    },
+    "shared": {
+      "badge": "Shared",
+      "by": "by {{owner}}",
+      "guild": "Guild",
+      "expires": "· expires {{date}}"
+    },
+    "stats": {
+      "title": "Stats",
+      "mode": {
+        "basic": "Basic",
+        "detailed": "Detailed"
+      },
+      "feeSavings": {
+        "title": "Fee Negotiation savings",
+        "total": "Total savings",
+        "applied": "Applied here"
+      },
+      "profit": "Profit / {{days}}",
+      "profitDelta": "Δ profit / {{days}}",
+      "goi": "Global overhead impact / d",
+      "goiDelta": "Δ Global overhead / d",
+      "profitDeltaInclGoi": "Δ profit (incl. GOI) / {{days}}",
+      "roi": "ROI",
+      "roiInclGoi": "ROI (incl. GOI)"
+    },
+    "warehouse": {
+      "title": "Warehouse",
+      "perkTooltip": "Smart Stacking perk bonus",
+      "autoSize": "Auto-size",
+      "autoSizeTooltip": "Size warehouses evenly to the target days of supply (set in Settings → Base Settings → Warehouse target supply)",
+      "used": "Used",
+      "supply": "{{days}} supply",
+      "holds": "Holds ({{percent}}% buffer)",
+      "bufferSettings": "Buffer settings",
+      "consumables": "Consumables",
+      "inputs": "Prod. inputs",
+      "outputs": "Prod. outputs",
+      "bufferLabel": "Warehouse buffer"
+    },
+    "production": {
+      "title": "Production / {{days}}",
+      "col": {
+        "material": "Material",
+        "qty": "Qty",
+        "weight": "Weight",
+        "value": "Value"
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "supplyTime": "Supply time",
+      "buildings": "Buildings",
+      "consumables": "Consumables",
+      "vacation": "Vacation",
+      "opt": {
+        "live": "Live",
+        "max": "100%",
+        "none": "None"
+      }
+    },
+    "warnings": {
+      "title": "Warnings & info"
+    },
+    "construction": {
+      "title": "Construction mats",
+      "empty": "No construction materials needed.",
+      "total": "Total",
+      "createWishlist": "Create Wishlist",
+      "copyAria": "Copy construction materials for chat",
+      "scrapHoursTooltip": "Estimated hours until buildings are scrapped",
+      "toggle": {
+        "stockTooltip": "Deduct warehouse stock from required amounts"
+      },
+      "col": {
+        "material": "Material",
+        "qty": "Qty",
+        "weight": "Weight",
+        "cost": "Cost"
+      },
+      "wishlistTooltip": {
+        "noKey": "Add an API key to create wishlists.",
+        "create": "Create a wishlist from these materials."
+      },
+      "copyTooltip": {
+        "copied": "Copied chat text.",
+        "nothing": "Nothing to copy.",
+        "copy": "Copy as chat text (e.g. 3x :CopperBar)"
+      }
+    }
+  },
+  "scenario": {
+    "modal": {
+      "title": "Scenario settings",
+      "resetAll": "Reset all",
+      "apply": "Apply"
+    },
+    "sections": {
+      "startingBonus": "Starting Bonus",
+      "research": "Research",
+      "perks": "Prestige Perks",
+      "basePermits": "Base Permits",
+      "scenario": "Scenario",
+      "overhead": "Overhead"
+    },
+    "research": {
+      "ownLevels": "Own levels",
+      "noLevels": "No levels",
+      "setLevel": "Set level"
+    },
+    "summary": {
+      "reset": "Reset",
+      "resetAll": "Reset all",
+      "editScenario": "Edit scenario…",
+      "empty": "Using company settings. No overrides active.",
+      "view": {
+        "changes": "Changes",
+        "all": "All"
+      },
+      "category": {
+        "perks": "Perks",
+        "research": "Research",
+        "startingBonus": "Starting bonus",
+        "basePermits": "Base permits"
+      }
+    },
+    "overhead": {
+      "reset": "Reset",
+      "overhead": "Overhead",
+      "consumption": "Consumption",
+      "showMath": "Show math",
+      "mode": {
+        "calculated": "Calculated",
+        "override": "Override"
+      },
+      "math": {
+        "excessBurden": "Excess burden",
+        "baseOverhead": "Base overhead",
+        "final": "Final",
+        "baseline": "Baseline",
+        "overheadPenalty": "Overhead penalty"
+      },
+      "adminCenter": {
+        "expansionOverhead": "-{{reduction}}%/{{max}}% expansion overhead"
+      }
+    },
+    "controls": {
+      "stepper": {
+        "decrease": "Decrease",
+        "increase": "Increase",
+        "resetToBaseline": "Reset to baseline"
+      }
+    },
+    "perks": {
+      "exclusiveFallback": "Exclusive Perk",
+      "none": "None",
+      "noGroup": "No {{group}}",
+      "selectGroup": "Select {{group}}"
+    },
+    "startingBonus": {
+      "name": "Starting Bonus",
+      "auto": "Auto"
+    },
+    "statusLink": {
+      "edit": "Edit"
+    },
+    "permits": {
+      "name": "Additional unused base permits",
+      "subtitle": "Drives the {{perk}} per-permit production speed bonus."
+    },
+    "workforce": {
+      "burden": "×{{value}} burden"
+    }
+  },
+  "supply": {
+    "runsOut": {
+      "today": "today {{time}}",
+      "tomorrow": "tomorrow {{time}}"
+    },
+    "firstRunsOut": "First runs out: {{time}}",
+    "more": "+{{count}} more",
+    "untilLabel": "{{time}} until {{label}}",
+    "at": "At {{time}}",
+    "ofLabelLeft": "{{time}} of {{label}} left"
+  },
+  "warehouse": {
+    "title": "Warehouse Info",
+    "refresh": "Refresh",
+    "refreshing": "Refreshing…",
+    "total": "Total",
+    "expandAll": "Expand all",
+    "collapseAll": "Collapse all",
+    "basesPlaceholder": "Bases",
+    "selectAll": "Select all",
+    "clear": "Clear",
+    "selection": {
+      "none": "No bases",
+      "all": "All bases ({{count}})",
+      "some": "{{count}} of {{total}} bases"
+    },
+    "columns": {
+      "material": "Material",
+      "produced": "Prod/d",
+      "producedTitle": "Produced per day",
+      "consumed": "Cons/d",
+      "consumedTitle": "Consumed per day (production inputs + worker consumables)",
+      "net": "Net/d",
+      "netTitle": "Net change per day (produced - consumed)",
+      "time": "Time",
+      "timeTitle": "Time until input runs dry at current net usage",
+      "qty": "Qty",
+      "weight": "Weight",
+      "value": "Value"
+    },
+    "mode": {
+      "compact": "Compact",
+      "byBase": "By Base"
+    },
+    "filter": {
+      "all": "All",
+      "netInputs": "Net inputs",
+      "netOutputs": "Net outputs"
+    },
+    "basesSort": {
+      "label": "Bases:",
+      "az": "A-Z",
+      "timeLeft": "Time left",
+      "timeLeftTip": "Most urgent base first",
+      "weight": "Weight",
+      "weightTip": "Most surplus weight first",
+      "value": "Value",
+      "valueTip": "Highest value first"
+    },
+    "empty": {
+      "noSelection": "Select at least one base to see warehouse contents.",
+      "exchangeHidden": "Select at least one base. The Exchange has no production flow and is hidden in this filter.",
+      "noMatch": "No materials match the current filter."
+    },
+    "footer": {
+      "showing_one": "Showing {{shown}} of {{total}} materials across {{count}} base",
+      "showing_other": "Showing {{shown}} of {{total}} materials across {{count}} bases",
+      "netInputsValue": "Net inputs value:",
+      "netOutputsValue": "Net outputs value:"
+    }
+  }
+}

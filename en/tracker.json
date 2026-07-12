@@ -1,0 +1,432 @@
+{
+  "company": {
+    "header": {
+      "fallbackTitle": "Company Details",
+      "companyId": "Company ID: {{id}}",
+      "searchCompany": "Search for a company"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "bases": "Bases",
+      "production": "Production",
+      "warehouses": "Warehouses",
+      "contracts": "Contracts",
+      "ships": "Ships",
+      "perks": "Perks",
+      "exchange": "Exchange",
+      "history": "History",
+      "events": "Events",
+      "selectPlaceholder": "Select tab",
+      "unavailableSuffix": " (unavailable)"
+    },
+    "common": {
+      "total": "Total",
+      "empty": "Empty",
+      "copied": "Copied!",
+      "copyChatText": "Copy as chat text",
+      "unknownLocation": "Unknown location"
+    },
+    "details": {
+      "loading": "Loading company details…",
+      "failed": "Failed to load company details."
+    },
+    "intel": {
+      "apiKeyRequired": "API key required to view shared intel.",
+      "apiKeyRequiredShort": "API key required",
+      "loading": "Loading intel…",
+      "failed": "Failed to load intel data."
+    },
+    "columns": {
+      "material": "Material",
+      "usedPerDay": "Used/day",
+      "producedPerDay": "Produced/day",
+      "weightPerDay": "Weight/day",
+      "netPerDay": "Net/day",
+      "valuePerDay": "Value/day",
+      "stock": "Stock",
+      "qty": "Qty",
+      "weight": "Weight",
+      "value": "Value",
+      "type": "Type",
+      "partner": "Partner",
+      "planet": "Planet",
+      "qtyEa": "Qty / ea",
+      "qtyDay": "Qty / day",
+      "totalDay": "Total / day",
+      "tier": "Tier",
+      "dist": "Dist.",
+      "workers": "Workers",
+      "time": "Time",
+      "event": "Event",
+      "details": "Details",
+      "name": "Name",
+      "reactor": "Reactor",
+      "emitters": "Emitters",
+      "emitter": "Emitter",
+      "cargo": "Cargo",
+      "tank": "Tank",
+      "fuel": "Fuel",
+      "perk": "Perk",
+      "lvl": "Lvl",
+      "bonus": "Bonus",
+      "valuePerPoint": "Value/pt",
+      "nextPerDay": "Next/day",
+      "nextPerPoint": "Next/pt"
+    },
+    "overview": {
+      "stat": {
+        "value": "Value",
+        "prestige": "Prestige",
+        "workforce": "Workforce",
+        "guild": "Guild",
+        "founded": "Founded",
+        "lastSeen": "Last Seen"
+      },
+      "planetsTitle": "Planets ({{count}})",
+      "loadingPlanets": "Loading planets…",
+      "failedPlanets": "Failed to load planets.",
+      "noBases": "No bases found.",
+      "research": "Research",
+      "researchUnavailable": "Research data not available"
+    },
+    "bases": {
+      "noBasesForCompany": "No bases found for this company.",
+      "selectBase": "Select base…",
+      "inspectBase": "Inspect Base",
+      "summary": "Summary",
+      "inputCost": "Input Cost",
+      "consumables": "Consumables",
+      "maintenance": "Maintenance",
+      "income": "Income",
+      "profit": "Profit",
+      "noBaseData": "No data for this base.",
+      "production": "Production",
+      "warehouse": "Warehouse",
+      "layout": "Layout",
+      "merged": "Merged",
+      "grouped": "Grouped",
+      "noProductionEntries": "No production entries.",
+      "noConsumables": "No consumables.",
+      "noProductionData": "No production data for this base.",
+      "noWarehouseData": "No warehouse data for this base.",
+      "noLayoutData": "No layout data for this base."
+    },
+    "production": {
+      "notShared": "Production not shared or no data available.",
+      "noCostData": "No cost data available.",
+      "allBases": "Production (all bases)",
+      "summaryWithCount": "Summary ({{count}} bases)"
+    },
+    "warehouses": {
+      "notShared": "Warehouses not shared or no data available.",
+      "exchange": "Exchange",
+      "exchangeShort": "Ex",
+      "exchangeCount": "Exchange ({{count}})",
+      "exchangeShortCount": "Ex ({{count}})",
+      "bases": "Bases",
+      "basesCount": "Bases ({{count}})",
+      "ships": "Ships",
+      "shipsCount": "Ships ({{count}})",
+      "exchangeNotShared": "Exchange warehouse not shared",
+      "baseNotShared": "Base warehouses not shared",
+      "shipNotShared": "Ship cargo not shared",
+      "switchToMaterial": "Switch to material view",
+      "switchToLocation": "Switch to location view",
+      "byMaterial": "By Material",
+      "byLocation": "By Location",
+      "arrived": "arrived",
+      "noMaterials": "No materials found."
+    },
+    "contracts": {
+      "typeBuy": "Buy",
+      "typeSell": "Sell",
+      "typeUnknown": "Unknown",
+      "partnerInGuild": "In-Guild",
+      "partnerExtern": "Extern",
+      "recurringTitle": "Recurring contract ({{count}}/day)",
+      "activeContracts": "Active Contracts ({{count}})",
+      "notShared": "Contracts not shared or no active contracts found.",
+      "noActive": "No active contracts found."
+    },
+    "ships": {
+      "shipDesigns": "Ship Designs",
+      "noShipDesigns": "No ship designs found.",
+      "openInDesigner": "Open in ship designer",
+      "fleet": "Fleet",
+      "routesNotShared": "Routes and inventories not shared by this company.",
+      "noFleetData": "No fleet data found.",
+      "arrives": "Arrives",
+      "arrivesIn": "in {{duration}}",
+      "arrivedAgo": "{{duration}} ago",
+      "flight": "Flight",
+      "cargo": "Cargo",
+      "efficiency": "Efficiency",
+      "emptyCargo": "Empty cargo"
+    },
+    "perks": {
+      "perkOverview": "Perk Overview",
+      "active": "Active",
+      "all": "All",
+      "noPerks": "No prestige perks allocated.",
+      "requiresLogistics": "Requires logistics data",
+      "na": "n/a"
+    },
+    "history": {
+      "windowAll": "All",
+      "prestigeValueHistory": "Prestige & Value History",
+      "prestige": "Prestige",
+      "cv": "CV",
+      "both": "Both",
+      "calendar": "Calendar",
+      "sinceFounding": "Since founding",
+      "loading": "Loading history…",
+      "failed": "Failed to load history.",
+      "notEnough": "Not enough history points to display chart.",
+      "dailyGrowth": "Daily Growth",
+      "value": "Value",
+      "absolute": "Absolute",
+      "relative": "Relative",
+      "notEnoughDaily": "Not enough history to compute daily growth.",
+      "removeFromChart": "Remove from chart",
+      "failedTimeseries": "Failed to load timeseries",
+      "addToCompare": "Add company to compare…",
+      "compareCompany": "+ Compare company",
+      "upToCompanies": "Up to {{count}} companies",
+      "coverageWarning": "Partial window: data available since {{date}}",
+      "dayLabel": "Day {{day}}",
+      "soFar": "(so far)"
+    },
+    "events": {
+      "title": "Events",
+      "loading": "Loading events…",
+      "failed": "Failed to load events.",
+      "failedLoad": "Failed to load company events",
+      "noEvents": "No events found for this window.",
+      "foundedDateChanged": "Founded date changed:",
+      "built": "Built: ",
+      "disbanded": "Disbanded: ",
+      "companyDeleted": "Company no longer found in API.",
+      "unknownPlanet": "Unknown planet"
+    },
+    "sharing": {
+      "pill": {
+        "noInfo": "No info",
+        "guild": "Guild",
+        "public": "Public",
+        "partial": "Partial",
+        "off": "Off"
+      },
+      "features": {
+        "company_summary": "Company Summary",
+        "company_perks": "Prestige Perks",
+        "research_levels": "Research",
+        "base_names": "Base Names",
+        "base_layouts": "Base Layouts",
+        "base_production": "Production",
+        "base_warehouses": "Base Warehouses",
+        "exchange_inventory": "Exchange Warehouse",
+        "active_contracts": "Contracts",
+        "ship_designs": "Ship Designs",
+        "ship_routes": "Ship Routes",
+        "ship_inventories": "Ship Cargo"
+      },
+      "scope": {
+        "public": "public",
+        "guild": "guild",
+        "private": "private"
+      },
+      "status": {
+        "owner": "owner",
+        "noCompanion": "no companion"
+      },
+      "line": "{{name}}: {{status}}"
+    },
+    "share": {
+      "copied": "Copied!",
+      "share": "Share",
+      "copyLink": "Copy link to this company"
+    }
+  },
+  "guild": {
+    "header": {
+      "title": "Guild Details",
+      "guildIdTooltip": "Guild ID: {{id}}",
+      "disbanded": "[disbanded]",
+      "searchForGuild": "Search for a guild"
+    },
+    "help": {
+      "label": "Guild modal help",
+      "tooltip": "Guild modal help."
+    },
+    "tabs": {
+      "overview": "Overview",
+      "history": "History",
+      "events": "Events",
+      "planets": "Planets",
+      "production": "Production",
+      "exchange": "Exchange",
+      "apiKeyRequired": "API key required",
+      "selectTab": "Select tab",
+      "unavailableSuffix": " (unavailable)",
+      "loading": "Loading {{tab}}…"
+    },
+    "loading": {
+      "details": "Loading guild details…",
+      "history": "Loading history…",
+      "events": "Loading events…",
+      "planets": "Loading guild planets…",
+      "production": "Loading production data..."
+    },
+    "errors": {
+      "loadDetails": "Failed to load guild details",
+      "loadDetailsDot": "Failed to load guild details.",
+      "loadHistory": "Failed to load guild history",
+      "loadHistoryDot": "Failed to load history.",
+      "loadEvents": "Failed to load guild events",
+      "loadEventsDot": "Failed to load events.",
+      "loadPlanets": "Failed to load guild planets",
+      "loadPlanetsDot": "Failed to load guild planets.",
+      "loadProduction": "Failed to load production data",
+      "loadProductionDot": "Failed to load production data."
+    },
+    "overview": {
+      "rank": "Rank",
+      "prestige": "Prestige",
+      "totalValue": "Total Value",
+      "members": "Members",
+      "age": "Age",
+      "days_one": "{{formatted}} day",
+      "days_other": "{{formatted}} days",
+      "noProjectData": "No project data available.",
+      "level": "Level"
+    },
+    "members": {
+      "columns": {
+        "name": "Name",
+        "role": "Role",
+        "prestige": "Prestige",
+        "value": "Value"
+      }
+    },
+    "events": {
+      "columns": {
+        "time": "Time",
+        "event": "Event",
+        "details": "Details"
+      },
+      "level": "Level",
+      "recruitingOn": "Recruiting On",
+      "recruitingOff": "Recruiting Off",
+      "on": "On",
+      "off": "Off",
+      "guildCreated": "Guild created",
+      "guildDisbanded": "Guild disbanded.",
+      "searchPlaceholder": "Search events…",
+      "refreshFailed": "Could not refresh events. Showing previous window.",
+      "emptyState": "No events for the current time window/filter.",
+      "filter": {
+        "button": "Events",
+        "enableAll": "Enable all",
+        "clear": "Clear",
+        "noEventTypes": "No event types",
+        "typesSelected_one": "{{count}} type selected",
+        "typesSelected_other": "{{count}} types selected"
+      }
+    },
+    "history": {
+      "thisGuild": "This guild",
+      "partialWindow": "Partial window: data available since {{date}}",
+      "series": {
+        "guildPrestige": "Guild Prestige",
+        "memberPrestige": "Member Prestige",
+        "totalValue": "Total Value",
+        "cv": "CV"
+      },
+      "metric": {
+        "guild": "Guild",
+        "members": "Members",
+        "cv": "CV",
+        "all": "All"
+      },
+      "loadTimeseriesFailed": "Failed to load timeseries",
+      "removeFromChart": "Remove from chart",
+      "addGuildToCompare": "Add guild to compare…",
+      "compareGuild": "+ Compare guild",
+      "upToGuilds": "Up to {{count}} guilds",
+      "notEnoughPoints": "Not enough history points for this window yet."
+    },
+    "planets": {
+      "columns": {
+        "planet": "Planet",
+        "company": "Company",
+        "tier": "Tier",
+        "guildRank": "Guild Rank",
+        "distToEx": "Dist. to Ex.",
+        "prestige": "Prestige",
+        "members": "Members",
+        "value": "Value"
+      },
+      "mode": {
+        "planet": "Planet Mode",
+        "planetTooltip": "One row per planet, expand to view members on that planet.",
+        "member": "Members Mode",
+        "memberTooltip": "One row per member, expand to view planets where the member has bases."
+      },
+      "emptyPlanets": "No planets available for guild members yet.",
+      "emptyMembers": "No guild members available."
+    },
+    "production": {
+      "columns": {
+        "material": "Material",
+        "used": "Used/day",
+        "produced": "Prod/day",
+        "net": "Net/day",
+        "weight": "Weight",
+        "value": "Value/day"
+      },
+      "view": {
+        "compact": "Compact",
+        "byType": "By Type",
+        "byPlanet": "By Planet"
+      },
+      "guildProjects": "Guild Projects",
+      "otherType": "Other",
+      "total": "Total",
+      "searchPlaceholder": "Search…",
+      "projectConsumables": "Guild project consumables",
+      "members": "Members",
+      "membersCount": "Members ({{included}}/{{total}})",
+      "selectAll": "Select all",
+      "deselectAll": "Deselect all",
+      "noData": "(no data)",
+      "emptyState": "No production data available."
+    }
+  },
+  "exchange": {
+    "columns": {
+      "material": "Material",
+      "rank": "Rank",
+      "salesPct": "Sales %",
+      "sold": "Sold",
+      "revenue": "Revenue",
+      "avgPrice": "Avg Price",
+      "listed": "Listed"
+    },
+    "loading": "Loading...",
+    "loadError": "Failed to load exchange data.",
+    "showLess": "Show less",
+    "showMore_one": "Show {{count}} more without sales",
+    "showMore_other": "Show {{count}} more without sales",
+    "empty": "No exchange activity in this window."
+  },
+  "search": {
+    "companyPlaceholder": "Search company…",
+    "guildPlaceholder": "Search guild…",
+    "noResults": "No results",
+    "searching": "Searching…"
+  },
+  "clickable": {
+    "viewCompany": "View company",
+    "viewGuild": "View guild"
+  }
+}

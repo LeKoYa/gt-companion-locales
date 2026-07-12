@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "base": "Base",
+    "exchange": "Exchange",
+    "profitability": "Profitability",
+    "research": "R&D",
+    "guild": "Guild",
+    "ships": "Ships",
+    "galaxy": "Galaxy",
+    "leaderboard": "Leaderboard",
+    "settings": "Settings"
+  },
+  "actions": {
+    "help": "Help",
+    "prices": "Prices",
+    "remove": "Remove"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "zh": "中文"
+  }
+}

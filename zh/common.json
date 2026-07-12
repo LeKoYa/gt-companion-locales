@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "base": "基地",
+    "exchange": "交易所",
+    "profitability": "盈利分析",
+    "research": "研发",
+    "guild": "公会",
+    "ships": "飞船",
+    "galaxy": "星系",
+    "leaderboard": "排行榜",
+    "settings": "设置"
+  },
+  "actions": {
+    "help": "帮助",
+    "prices": "价格"
+  },
+  "language": {
+    "label": "语言",
+    "en": "English",
+    "zh": "中文"
+  }
+}

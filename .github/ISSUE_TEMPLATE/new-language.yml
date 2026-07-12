@@ -1,0 +1,40 @@
+name: Request a new language
+description: Ask for a language to be added, or say you would like to translate one.
+title: "[language] "
+labels: ["new language"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You do not need permission to start. You can copy the `en/` folder to a
+        new folder for your language and open a pull request right away, even a
+        partial one. This template is for when you would rather ask first, or
+        want to find out whether someone is already working on it.
+
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: The language name and its two-letter code, for example "German (de)".
+      placeholder: German (de)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: helping
+    attributes:
+      label: Would you like to translate it yourself?
+      options:
+        - "Yes, I want to translate it"
+        - "Yes, but I would like help"
+        - "No, I am requesting it for others"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
+      description: Questions, or anything about the language we should know.
+    validations:
+      required: false

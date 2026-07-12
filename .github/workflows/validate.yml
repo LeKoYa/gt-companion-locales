@@ -1,0 +1,48 @@
+name: Validate translations
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    name: Check translations against the English source
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Prints a coverage table and fails on anything that would break the app:
+      # invalid JSON, unknown keys, dropped {{placeholders}} or <tags>.
+      # Missing keys are fine, they fall back to English.
+      - name: Validate
+        run: node scripts/i18n-validate.mjs
+
+      # Refresh the README coverage table on main only. This fires both when a
+      # translation is merged (numerator moves) and when the app mirrors new
+      # English keys in (denominator moves), so the number is never stale.
+      #
+      # Pushed with GITHUB_TOKEN, which by design does not trigger workflows,
+      # so this cannot loop back into itself.
+      - name: Update coverage table
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          set -euo pipefail
+          node scripts/i18n-validate.mjs --write-readme README.md
+          if [ -z "$(git status --porcelain README.md)" ]; then
+            echo "Coverage table already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: update translation coverage [skip ci]"
+          git push

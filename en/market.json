@@ -1,0 +1,484 @@
+{
+  "page": {
+    "errors": {
+      "marketActivity": "Failed to load market activity.",
+      "exchangeData": "Failed to load exchange data.",
+      "tradeVolume": "Failed to load trade volume",
+      "tradeVolumeHistory": "Failed to load trade volume history."
+    },
+    "header": {
+      "overviewHelpLabel": "Exchange overview help",
+      "overviewHelpTooltip": "Learn how to read the exchange overview.",
+      "day": "Day {{date}}",
+      "window": "Window {{window}}",
+      "coverage": "Coverage {{pct}}%",
+      "asOf": "As of {{time}}",
+      "coverageWarning": "Coverage is below 100%. Data is still missing and will be collected over time.",
+      "info": "Info",
+      "infoAriaLabel": "Exchange overview info"
+    },
+    "views": {
+      "title": "Views",
+      "mobileLeftToggle": "Views",
+      "mobileRightToggle": "Exchange stats",
+      "exchange": "Exchange",
+      "analysis": "Analysis"
+    },
+    "overview": {
+      "title": "Exchange Overview",
+      "noData": "No exchange data available yet."
+    },
+    "controls": {
+      "day": "Day",
+      "searchPlaceholder": "Search…",
+      "refresh": "Refresh",
+      "refreshExchange": "Refresh exchange data",
+      "collapseControls": "Collapse controls",
+      "expandControls": "Expand controls",
+      "moreControls": "More controls",
+      "pin": "Pin",
+      "filters": "Filters",
+      "columns": "Columns",
+      "all": "All",
+      "none": "None",
+      "reset": "Reset",
+      "selectedCount": "{{value}} selected"
+    },
+    "exchangeColumns": {
+      "favoriteTitle": "Sort by favorites.",
+      "material": "Material",
+      "materialTitle": "Material name.",
+      "matId": "ID",
+      "matIdTitle": "Material ID.",
+      "bestPrice": "Curr. Price",
+      "bestPriceTitle": "Current lowest price in credits.",
+      "avgPrice": "Avg Price",
+      "avgPriceTitle": "Average price in credits.",
+      "playerQty": "Player Qty",
+      "playerQtyTitle": "Quantity listed by players (excludes Federal Reserve).",
+      "fedQty": "Fed Qty",
+      "fedQtyTitle": "Quantity listed by the Federal Reserve.",
+      "queueQtyBestPrice": "Qty (Best)",
+      "queueQtyBestPriceTitle": "Quantity listed at the current price.",
+      "soldInWindow": "Sold ({{window}})",
+      "soldInWindowTitle": "Units sold during the selected window.",
+      "tradeVolume": "Trade Volume",
+      "tradeVolumeTitle": "Sold units multiplied by average price for the selected window.",
+      "soldPerHour": "Sold / Hr",
+      "soldPerHourTitle": "Units sold per hour (normalized over the selected window).",
+      "priceChangePct": "Price %",
+      "priceChangePctTitle": "Percent change in current price vs baseline window.",
+      "listedChange": "Listed Δ",
+      "listedChangeTitle": "Change in player listed quantity vs baseline window.",
+      "volatility": "Volatility",
+      "volatilityTitle": "Price volatility (coefficient of variation) over the selected window.",
+      "basePrice": "Base Price",
+      "basePriceTitle": "Material base price in credits.",
+      "weight": "Weight",
+      "weightTitle": "Material weight.",
+      "contractFee": "Contract Fee",
+      "contractFeeTitle": "Contract fee based on base price and distance."
+    },
+    "columnOptions": {
+      "currentPrice": "Current Price",
+      "avgPrice": "Avg Price",
+      "playerListed": "Player Listed",
+      "queueAtCurrent": "Qty @ Best",
+      "fedQty": "Fed Qty",
+      "soldInWindow": "Sold (Window)",
+      "tradeVolume": "Trade Volume",
+      "soldPerHour": "Sold / Hr",
+      "priceChangePct": "Price %",
+      "listedChange": "Listed Change",
+      "volatility": "Volatility",
+      "basePrice": "Base Price",
+      "weight": "Weight",
+      "materialId": "Material ID",
+      "contractFee": "Contract Fee"
+    },
+    "exportColumns": {
+      "materialId": "Material ID",
+      "currentPrice": "Curr. Price",
+      "avgPrice": "Avg Price",
+      "playerListed": "Player Qty",
+      "queueAtCurrent": "Qty (Best)",
+      "fedQty": "Fed Qty",
+      "soldInWindow": "Sold (Window)",
+      "tradeVolume": "Trade Volume",
+      "soldPerHour": "Sold / Hr",
+      "priceChangePct": "Price %",
+      "listedChange": "Listed Δ",
+      "volatility": "Volatility",
+      "basePrice": "Base Price",
+      "weight": "Weight",
+      "contractFee": "Contract Fee"
+    },
+    "favorites": {
+      "add": "Add to favorites",
+      "remove": "Remove from favorites"
+    },
+    "contractFee": {
+      "feeLabel": "Fee:",
+      "distance": "Distance",
+      "planet": "Planet",
+      "selectPlanet": "Select planet"
+    },
+    "export": {
+      "button": "Export",
+      "noColumnsSelected": "No columns selected",
+      "columnsSelected_one": "{{count}} column selected",
+      "columnsSelected_other": "{{count}} columns selected",
+      "materialIncluded": "Material is always included.",
+      "fileName": "File name",
+      "selectAll": "Select all",
+      "clear": "Clear",
+      "contractFeeLyValues": "Contract fee LY values",
+      "every": "Every",
+      "generate": "Generate",
+      "lyValuesMissing": "Add LY values to specify contract fee columns.",
+      "downloadCsv": "Download CSV",
+      "csvMaterial": "Material",
+      "csvContractFee": "Contract Fee ({{ly}} LY)"
+    },
+    "stats": {
+      "panelTitle": "Exchange Stats",
+      "sectionTitle": "Exchange stats",
+      "totalSnapshots": "Total snapshots",
+      "collectionStart": "Collection start",
+      "latestSnapshot": "Latest snapshot",
+      "avgSnapshotsPerDay": "Avg snapshots / day",
+      "pollInterval": "Poll interval",
+      "listingCompanies": "Listing companies",
+      "listingActivityHelpLabel": "Listing activity help",
+      "listingActivityHelpTooltip": "How listing activity is calculated.",
+      "activeCompaniesTooltip": "Distinct companies with at least one active listing in this window.",
+      "activeCompanies": "Active companies ({{window}})",
+      "windowTotal": "total",
+      "listingHistoryStart": "Listing history starts at {{time}}. Earlier listings are not included.",
+      "unknownTime": "an unknown time",
+      "listingHistoryStartAria": "Listing history start warning",
+      "coverageWarning": "Listing activity coverage is {{pct}}% for this window.",
+      "coverageWarningAria": "Listing activity coverage warning"
+    },
+    "tradeVolume": {
+      "historyButton": "Trade Volume History",
+      "modalTitle": "Trade Volume History",
+      "noData": "No trade volume data available yet.",
+      "estimatedNote": "Estimated daily trade value (units sold x best price), stacked by building tier.",
+      "loading": "Loading...",
+      "chartTotal": "Total",
+      "chartYAxis": "Trade Volume",
+      "window": {
+        "all": "All"
+      }
+    },
+    "tags": {
+      "monopolyInfo": "{{company}} - {{share}}% of sales (7d)",
+      "tooltips": {
+        "surge": "Demand spiking - 1d demand well above 7d average, supply declining",
+        "breakout": "Strong price move - price up significantly with demand support",
+        "squeeze": "Running out - very low effective supply and still declining",
+        "fading": "Demand dropping - 1d demand well below 7d average",
+        "dumping": "Flood of listings - supply jumped significantly in 1d",
+        "wall": "Price wall - one company dominates the best price, capping what others can sell at",
+        "crash": "Price crash - significant drop relative to this material's normal volatility",
+        "monopoly": "One company dominates sales of this material (7d)"
+      },
+      "labels": {
+        "surge": "surge",
+        "breakout": "breakout",
+        "squeeze": "squeeze",
+        "fading": "fading",
+        "dumping": "dumping",
+        "wall": "wall",
+        "crash": "crash",
+        "monopoly": "monopoly"
+      }
+    },
+    "liquidity": {
+      "liquid": "Liquid",
+      "normal": "Normal",
+      "slow": "Slow",
+      "stagnant": "Stagnant"
+    },
+    "planets": {
+      "title": "Planets",
+      "noData": "No planet abundance data available yet.",
+      "fertility": "Fertility",
+      "applying": "Applying…",
+      "ownPlanets": "Own planets",
+      "maxValues": "Max values",
+      "reset": "Reset",
+      "maxTooltip": "Max: {{value}}%"
+    },
+    "analysis": {
+      "title": "Market Analysis",
+      "loading": "Loading...",
+      "noRecipeData": "No recipe data available.",
+      "refreshMarket": "Refresh market data",
+      "daysOfSupply": "{{days}} effective days of supply",
+      "scoreBreakdown": "raw: {{raw}} → score: {{score}} (normalized)",
+      "columns": {
+        "recipe": "Recipe",
+        "tags": "Tags",
+        "liquidity": "Liq.",
+        "liquidityTitle": "Price-aware liquidity",
+        "scoreAtAvg": "Score (Avg)",
+        "scoreAtAvgTitle": "5-factor score at average price (demand + supply + price + liquidity + profit), 0 to 100",
+        "scoreAtCurrent": "Score (Current)",
+        "scoreAtCurrentTitle": "5-factor score at current best price (demand + supply + price + liquidity + profit), 0 to 100",
+        "profitAtAvg": "Profit (Avg)",
+        "profitAtAvgTitle": "Profit/h at average trade price",
+        "profitAtCurrent": "Profit (Current)",
+        "profitAtCurrentTitle": "Profit/h at current best price",
+        "tierNormProfitAtAvg": "Profit Norm (Avg)",
+        "tierNormProfitAtAvgTitle": "Tier-normalized profit/h at avg trade price (profit ÷ building tier)",
+        "tierNormProfitAtCurrent": "Profit Norm (Curr)",
+        "tierNormProfitAtCurrentTitle": "Tier-normalized profit/h at current best price (profit ÷ building tier)"
+      },
+      "filters": {
+        "allIndustries": "All industries",
+        "noIndustries": "No industries",
+        "someIndustries_one": "{{count}} industry",
+        "someIndustries_other": "{{count}} industries",
+        "allBuildings": "All buildings",
+        "noBuildings": "No buildings",
+        "someBuildings_one": "{{count}} building",
+        "someBuildings_other": "{{count}} buildings",
+        "enableAll": "Enable all",
+        "disableAll": "Disable all"
+      }
+    },
+    "categories": {
+      "metals": "Metals",
+      "constructionMaterials": "Construction Materials",
+      "agriculturalProducts": "Agricultural Products",
+      "minerals": "Minerals",
+      "gasesAndLiquids": "Gases and Liquids",
+      "materials": "Materials",
+      "consumables": "Consumables",
+      "plastics": "Plastics",
+      "chemicals": "Chemicals",
+      "machinery": "Machinery",
+      "electronics": "Electronics",
+      "science": "Science",
+      "shipParts": "Ship Parts",
+      "uncategorized": "Uncategorized",
+      "typeN": "Type {{n}}"
+    }
+  },
+  "customPrices": {
+    "sections": {
+      "maintenance": "Maintenance parts",
+      "shipParts": "Ship parts",
+      "research": "Research data",
+      "construction": "Construction materials",
+      "consumables": "Consumables"
+    },
+    "emptyMessages": {
+      "maintenance": "No fuel types detected.",
+      "shipParts": "No ship part materials detected for the current blueprint.",
+      "research": "No research materials available.",
+      "construction": "No construction materials configured.",
+      "consumables": "No consumables configured."
+    },
+    "priceBase": {
+      "current": "Current",
+      "average": "Average"
+    },
+    "summary": {
+      "unsaved": "unsaved"
+    },
+    "actions": {
+      "updatePrices": "Update prices",
+      "resetAll": "Reset all custom prices",
+      "openSettings": "Open settings",
+      "closeSettings": "Close settings",
+      "editPresetName": "Edit preset name",
+      "savePreset": "Save preset",
+      "saveAsNew": "Save as new",
+      "overwrite": "Overwrite",
+      "deletePreset": "Delete preset",
+      "decrease": "Decrease",
+      "increase": "Increase",
+      "clearCustomPrice": "Clear custom price",
+      "resetToGlobal": "Reset to global",
+      "doneEditing": "Done editing"
+    },
+    "preset": {
+      "namePlaceholder": "Preset name",
+      "selectPlaceholder": "Select preset…",
+      "none": "No preset",
+      "unsavedChanges": "Unsaved changes"
+    },
+    "search": {
+      "placeholder": "Search materials",
+      "toggleFavorites": "Toggle favorites filter",
+      "showFavoritesOnly": "Show favorites only",
+      "showingFavoritesOnly": "Showing favorites only"
+    },
+    "empty": {
+      "noTargets": "No price targets available.",
+      "noMatches": "No matching materials found.",
+      "noOverrides": "No price overrides available."
+    },
+    "contextMenu": {
+      "edit": "Edit",
+      "favorite": "Favorite",
+      "unfavorite": "Unfavorite",
+      "reset": "Reset"
+    },
+    "panel": {
+      "title": "Custom Prices",
+      "helpLabel": "Custom prices help",
+      "helpTooltip": "Learn how custom prices override market defaults."
+    }
+  },
+  "materialDetail": {
+    "search": {
+      "tooltip": "Search materials (F)"
+    },
+    "tabs": {
+      "charts": "Charts",
+      "details": "Details",
+      "patterns": "Patterns"
+    },
+    "window": {
+      "day": "Day"
+    },
+    "footer": {
+      "window": "Window: {{window}}",
+      "coverage": "Coverage: {{pct}}%",
+      "asOf": "As of: {{time}}"
+    },
+    "status": {
+      "loading": "Loading...",
+      "error": "Failed to load data."
+    },
+    "section": {
+      "marketActivity": "Market Activity",
+      "soldVsListed": "Sold vs Listed",
+      "stats": "Stats",
+      "orderbook": "Orderbook",
+      "companyActivity": "Company Activity"
+    },
+    "activityMode": {
+      "companies": "Companies",
+      "guilds": "Guilds"
+    },
+    "stat": {
+      "price": "Price",
+      "avgPrice": "Avg Price",
+      "minMax": "Min / Max",
+      "volatility": "Volatility",
+      "supply": "Supply",
+      "soldDay": "Sold ({{day}})",
+      "soldWindow": "Sold (window)",
+      "soldPerHour": "Sold / hr",
+      "sellers": "Sellers",
+      "untracked": "Untracked"
+    },
+    "statColumn": {
+      "stat": "Stat",
+      "value": "Value"
+    },
+    "chart": {
+      "noData": "No data.",
+      "noVolumeData": "No volume data."
+    },
+    "orderbook": {
+      "column": {
+        "price": "Price",
+        "volume": "Volume",
+        "qty": "Qty",
+        "sellers": "Sellers"
+      },
+      "empty": "No orderbook data available."
+    },
+    "activity": {
+      "column": {
+        "company": "Company",
+        "guildCompany": "Guild / Company",
+        "salesPct": "Sales %",
+        "sold": "Sold",
+        "revenue": "Revenue",
+        "avgPrice": "Avg Price",
+        "listed": "Listed"
+      },
+      "loading": "Loading...",
+      "empty": "No activity data available.",
+      "showLess": "Show less",
+      "showMore_one": "Show {{count}} more without sales",
+      "showMore_other": "Show {{count}} more without sales"
+    },
+    "pattern": {
+      "loading": "Loading…",
+      "error": "Failed to load activity pattern.",
+      "empty": "Not enough market data yet for this material.",
+      "caption": "Sold/h by weekday × hour · last {{days}}d · {{tz}} (your local time)",
+      "weekday": {
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri",
+        "sat": "Sat",
+        "sun": "Sun"
+      }
+    },
+    "series": {
+      "price": "Price",
+      "sold": "Sold",
+      "listed": "Listed",
+      "newlyListed": "Newly Listed"
+    },
+    "axis": {
+      "qty": "Qty",
+      "listedSold": "Listed / Sold",
+      "price": "Price"
+    }
+  },
+  "widgets": {
+    "eventPopup": {
+      "eventType": {
+        "listed": "Listed",
+        "sold": "Sold",
+        "cancelled": "Cancelled",
+        "unattributed": "Unattributed"
+      },
+      "loading": "Loading...",
+      "empty": "No transactions",
+      "andMore_one": "and {{count}} more...",
+      "andMore_other": "and {{count}} more..."
+    },
+    "materialSearch": {
+      "placeholder": "Search material…",
+      "noResults": "No results"
+    },
+    "miniCalendar": {
+      "months": {
+        "january": "January",
+        "february": "February",
+        "march": "March",
+        "april": "April",
+        "may": "May",
+        "june": "June",
+        "july": "July",
+        "august": "August",
+        "september": "September",
+        "october": "October",
+        "november": "November",
+        "december": "December"
+      },
+      "weekdays": {
+        "mon": "Mo",
+        "tue": "Tu",
+        "wed": "We",
+        "thu": "Th",
+        "fri": "Fr",
+        "sat": "Sa",
+        "sun": "Su"
+      }
+    }
+  }
+}

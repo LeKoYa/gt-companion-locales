@@ -1,0 +1,13 @@
+{
+  "drawer": {
+    "title": "Help",
+    "empty": "No help content is available for this page yet.",
+    "nav": {
+      "overview": "Overview",
+      "back": "Back",
+      "home": "Home",
+      "next": "Next",
+      "close": "Close"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "page": {
+    "welcome": {
+      "title": "Welcome to GT-Companion",
+      "lead": "GT-Companion is an unofficial, solo-developed companion site for Galactic Tycoons.",
+      "body": "View or plan existing and new bases, check profitability of recipes, plan research and ships, view guild donations, and much more."
+    },
+    "features": {
+      "title": "Features",
+      "items": {
+        "base": {
+          "label": "Base",
+          "desc": "Plan upgrades or new bases, test production scenarios under different conditions and track issues across your company."
+        },
+        "exchange": {
+          "label": "Exchange",
+          "desc": "Review exchange data, see what is being sold and export market insights."
+        },
+        "profitability": {
+          "label": "Profitability",
+          "desc": "Compare recipe profitability with deep configuration, review detailed stats and build full production chains."
+        },
+        "research": {
+          "label": "R&D",
+          "desc": "Estimate research costs, plan perk point allocation and compare priorities across different specs."
+        },
+        "guild": {
+          "label": "Guild",
+          "desc": "Track guild projects, monitor donations and compare member research levels across different specs."
+        },
+        "flight": {
+          "label": "Flight planner",
+          "desc": "Simulate single or multi-leg flights, test ship layouts and compare costs across multiple route options."
+        },
+        "galaxy": {
+          "label": "Galaxy map",
+          "desc": "Explore the galaxy, view system details, find planets and plan expansion across the map."
+        },
+        "leaderboard": {
+          "label": "Leaderboard",
+          "desc": "Browse guild and company rankings, compare stats and follow global event activity."
+        },
+        "settings": {
+          "label": "Settings",
+          "desc": "Configure your API key, adjust app preferences and manage sharing settings."
+        }
+      },
+      "more": {
+        "label": "And more",
+        "desc": "Actively developed with more features, refinements and polish on the way."
+      }
+    },
+    "gettingStarted": {
+      "title": "Getting started",
+      "play": "Play Galactic Tycoons",
+      "discord": "Join the official Discord server",
+      "coffee": "Buy me a coffee",
+      "referralNote": "The \"Play Galactic Tycoons\" button uses a referral link.",
+      "coffeeNote": " Enjoying GT-Companion? You can buy me a coffee to help keep the site running.",
+      "steps": {
+        "one": "Add your Galactic Tycoons API key in Settings to unlock full access.",
+        "two": "Explore the pages and see what GT-Companion has to offer.",
+        "three": "Enjoy the companion site and share feedback or bug reports in the tools thread on the official Discord server for Galactic Tycoons."
+      }
+    }
+  },
+  "quickLinks": {
+    "title": "Quick links",
+    "base": "Base",
+    "baseOverview": "Overview",
+    "baseInsights": "Insights",
+    "basePlanNew": "Plan new base",
+    "exchange": "Exchange",
+    "profitability": "Profitability",
+    "recipeChains": "Recipe chains",
+    "research": "Research",
+    "guild": "Guild",
+    "guildProjects": "Projects",
+    "guildDonations": "Donations",
+    "guildMembers": "Members",
+    "leaderboard": "Leaderboard",
+    "guildLeaderboard": "Guild leaderboard",
+    "companyLeaderboard": "Company leaderboard",
+    "globalEvents": "Global events",
+    "companyEvents": "Company events",
+    "ships": "Ships",
+    "flightSimulation": "Flight simulation",
+    "galaxy": "Galaxy",
+    "settings": "Settings"
+  },
+  "appInfo": {
+    "title": "App info",
+    "general": "General",
+    "versionNumber": "Version number",
+    "users": {
+      "title": "GT-Companion users",
+      "loading": "Loading active companies…",
+      "error": "Failed to load active companies.",
+      "empty": "No usage data available.",
+      "last1h": "Last 1h",
+      "last12h": "Last 12h",
+      "last24h": "Last 24h",
+      "last3d": "Last 3d",
+      "last7d": "Last 7d",
+      "total": "Total"
+    },
+    "playerbase": {
+      "title": "Galactic Tycoons Playerbase",
+      "loading": "Loading game activity…",
+      "error": "Failed to load game activity.",
+      "new1d": "New (1d)",
+      "active1d": "Active (1d)",
+      "active3d": "Active (3d)",
+      "active7d": "Active (7d)",
+      "tracked": "Tracked Companies",
+      "history": "History"
+    }
+  },
+  "activityModal": {
+    "title": "Game Activity History",
+    "error": "Failed to load activity history.",
+    "empty": "No activity history available yet.",
+    "windowAll": "All time",
+    "showInactive": "Show inactive companies (7d+)",
+    "hideInactive": "Hide inactive companies (7d+)",
+    "footnote": "Active tiers reflect last seen windows for each day. New = founded within 24h of that date."
+  },
+  "chart": {
+    "yAxis": "Companies",
+    "series": {
+      "active01": "Active 0-1d",
+      "active13": "Active 1-3d",
+      "active37": "Active 3-7d",
+      "new1d": "New (1d)",
+      "inactive7plus": "Inactive 7+d"
+    }
+  },
+  "layout": {
+    "quickLinksToggle": "Quick links"
+  },
+  "errors": {
+    "loadActiveCompanies": "Failed to load active companies",
+    "loadTrackerActivity": "Failed to load tracker game activity",
+    "loadActivityHistory": "Failed to load activity history"
+  }
+}

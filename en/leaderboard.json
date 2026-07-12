@@ -1,0 +1,316 @@
+{
+  "nav": {
+    "panelTitle": "Leaderboards",
+    "help": {
+      "label": "Leaderboard help",
+      "tooltip": "Leaderboard overview."
+    },
+    "guildLeaderboard": "Guild Leaderboard",
+    "companyLeaderboard": "Company Leaderboard",
+    "guildEvents": "Guild Events",
+    "companyEvents": "Company Events",
+    "recentGuildEvents": "Recent Guild Events",
+    "recentGuildEventsHelp": {
+      "label": "Recent guild events help",
+      "tooltip": "Recent guild events."
+    },
+    "refreshGuildEvents": "Refresh recent guild events",
+    "recentCompanyEvents": "Recent Company Events",
+    "refreshCompanyEvents": "Refresh recent company events",
+    "loadingEvents": "Loading events…",
+    "noRecentEvents": "No recent events.",
+    "mobileRightToggle": "Tracker"
+  },
+  "table": {
+    "help": {
+      "label": "Leaderboard table help",
+      "tooltip": "Sorting, columns, and search."
+    },
+    "myRank": "My Rank",
+    "myRankTitle": "Jump to your company",
+    "myGuild": "My Guild",
+    "myGuildTitle": "Show only companies in your guild",
+    "refresh": "Refresh leaderboard",
+    "refreshTitle": "Refresh",
+    "loadingMoreGuilds": "Loading more guilds…",
+    "loadedAllGuilds": "Loaded all {{value}} guilds.",
+    "loadingMoreCompanies": "Loading more companies…",
+    "loadedAllCompanies": "Loaded all {{value}} companies."
+  },
+  "filters": {
+    "button": "Filters",
+    "resetAll": "Reset all filters",
+    "activity": "Activity",
+    "membership": "Membership",
+    "searchGuilds": "Search guilds…",
+    "searchCompanies": "Search companies…",
+    "searchEvents": "Search events…",
+    "includeDisbanded": "Include disbanded guilds",
+    "min": "Min",
+    "max": "Max",
+    "noEventsSelected": "No events selected",
+    "allEventTypes": "All event types",
+    "eventsSelected": "{{selected}}/{{total}} selected",
+    "guildActivity": {
+      "all": "All",
+      "allTooltip": "All guilds regardless of member activity.",
+      "d1": "1d",
+      "d1Tooltip": "At least one member seen in last 24h.",
+      "d3": "3d",
+      "d3Tooltip": "At least one member seen in last 3 days.",
+      "d7": "7d",
+      "d7Tooltip": "At least one member seen in last 7 days.",
+      "inactive": "Inactive",
+      "inactiveTooltip": "No members seen in the last 7 days."
+    },
+    "companyActivity": {
+      "all": "All",
+      "allTooltip": "All companies regardless of activity.",
+      "d1": "1d",
+      "d1Tooltip": "Seen in the last 24 hours.",
+      "d3": "3d",
+      "d3Tooltip": "Seen in the last 3 days.",
+      "d7": "7d",
+      "d7Tooltip": "Seen in the last 7 days.",
+      "inactive": "Inactive",
+      "inactiveTooltip": "Not seen in the last 7 days (7+d)."
+    },
+    "membershipOptions": {
+      "all": "All",
+      "guildless": "Guildless",
+      "inGuild": "In Guild"
+    }
+  },
+  "paging": {
+    "infinite": "Infinite",
+    "pages": "Pages",
+    "prev": "Prev",
+    "next": "Next",
+    "page": "Page {{current}}/{{total}}",
+    "range": "{{start}}-{{end}} of {{total}}",
+    "rangeEmpty": "0 of 0"
+  },
+  "columns": {
+    "button": "Columns",
+    "enableAll": "Enable all",
+    "reset": "Reset",
+    "noColumns": "No columns",
+    "selected_one": "{{count}} column selected",
+    "selected_other": "{{count}} columns selected",
+    "guild": "Guild",
+    "company": "Company",
+    "time": "Time",
+    "event": "Event",
+    "details": "Details",
+    "planet": "Planet",
+    "tier": "Tier",
+    "distance": "Dist. to Ex.",
+    "disbandedSuffix": " [disbanded]"
+  },
+  "columnOptions": {
+    "guild": {
+      "rank": "Guild Rank",
+      "prestige": "Prestige",
+      "memberCount": "Members",
+      "foundingDays": "Age",
+      "projectHq": "HQ",
+      "projectAdmin": "Administration",
+      "projectFlight": "Flight Center",
+      "projectWarehouse": "Warehouse",
+      "projectArcade": "Arcade",
+      "recruiting": "Recruiting",
+      "totalCompanyValue": "Total Company Value",
+      "avgCompanyValue": "Avg Company Value",
+      "memberPrestigeSum": "Member Prestige Sum",
+      "prestigeGain24h": "Prestige % (1d)",
+      "valueGain24h": "Value % (1d)",
+      "prestigeGain7d": "Prestige % (7d)",
+      "valueGain7d": "Value % (7d)"
+    },
+    "company": {
+      "prestige": "Prestige",
+      "companyValue": "Company Value",
+      "workforce": "Workforce",
+      "basesCount": "Bases",
+      "companyAgeDays": "Age",
+      "avgDailyGrowth": "Avg Daily Growth",
+      "prestigeGain24h": "Prestige % (1d)",
+      "valueGain24h": "Value % (1d)",
+      "prestigeGain7d": "Prestige % (7d)",
+      "valueGain7d": "Value % (7d)",
+      "prestigeRank24h": "PR Rank (1d)",
+      "valueRank24h": "CV Rank (1d)",
+      "prestigeRank7d": "PR Rank (7d)",
+      "valueRank7d": "CV Rank (7d)"
+    }
+  },
+  "headers": {
+    "rank": "Rank",
+    "guildPrestige": "Guild Prestige",
+    "members": "Members",
+    "age": "Age",
+    "hq": "HQ",
+    "admin": "Admin",
+    "flight": "Flight",
+    "warehouse": "Wareh.",
+    "arcade": "Arcade",
+    "totalValue": "Total Value",
+    "avgValue": "Avg Value",
+    "memberPrestige": "Member Prestige",
+    "pctPr1d": "PR% 1d",
+    "pctCv1d": "CV% 1d",
+    "pctPr7d": "PR% 7d",
+    "pctCv7d": "CV% 7d",
+    "recruiting": "Recruiting",
+    "prestige": "Prestige",
+    "companyValue": "Company Value",
+    "workforce": "Workforce",
+    "bases": "Bases",
+    "avgDaily": "Avg Daily %",
+    "pr1d": "PR 1d",
+    "cv1d": "CV 1d",
+    "pr7d": "PR 7d",
+    "cv7d": "CV 7d"
+  },
+  "eventFilters": {
+    "guild": {
+      "guildCreated": "Guild Created",
+      "guildDisbanded": "Guild Disbanded",
+      "memberJoined": "Member Joined",
+      "memberLeft": "Member Left",
+      "memberRankChanged": "Member Rank Changed",
+      "hqUpgraded": "HQ upgraded",
+      "adminUpgraded": "Administration upgraded",
+      "flightUpgraded": "Flight Center upgraded",
+      "warehouseUpgraded": "Warehouse upgraded",
+      "arcadeUpgraded": "Arcade upgraded",
+      "recruitingChanged": "Recruiting Changed"
+    },
+    "company": {
+      "companyReset": "Company Reset",
+      "baseBuilt": "Base Built",
+      "baseDisbanded": "Base Disbanded",
+      "companyDeleted": "Company Deleted"
+    }
+  },
+  "actions": {
+    "clear": "Clear",
+    "apply": "Apply"
+  },
+  "headerFilter": {
+    "editTitle": "Edit {{label}} filter (right-click to clear)",
+    "aria": "{{label}} filter: {{range}}",
+    "editRecruitingTitle": "Edit recruiting filter (right-click to clear)"
+  },
+  "values": {
+    "any": "Any",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "status": {
+    "notAvailable": "N/A"
+  },
+  "activity": {
+    "title": "Game Activity",
+    "companies": "Companies",
+    "guilds": "Guilds",
+    "loading": "Loading company activity…",
+    "new1d": "New 1d",
+    "active1d": "Active 1d",
+    "active3d": "Active 3d",
+    "active7d": "Active 7d",
+    "total": "Total",
+    "history": "History"
+  },
+  "health": {
+    "title": "Tracker Health",
+    "statusSection": "Status",
+    "status": "Status",
+    "reachable": "Reachable",
+    "guildsKnown": "Guilds Known",
+    "companiesKnown": "Companies Known",
+    "highestGuildId": "Highest Guild ID",
+    "build": "Build",
+    "updated": "Updated",
+    "error": "Error",
+    "warning": "Warning",
+    "trackerStatus": {
+      "loading": "Loading",
+      "unavailable": "Unavailable",
+      "unknown": "Unknown",
+      "healthy": "Healthy",
+      "degraded": "Degraded"
+    }
+  },
+  "events": {
+    "level": "Level",
+    "recruitingEnabled": "Recruiting enabled",
+    "recruitingDisabled": "Recruiting disabled",
+    "guildCreated": "Guild created",
+    "guildDisbanded": "Guild disbanded.",
+    "projectFallback": "Project {{id}}",
+    "companyFallback": "Company #{{id}}",
+    "companyUnknown": "Company #?",
+    "memberJoined": "Member joined",
+    "memberLeft": "Member left",
+    "memberRankChanged": "Member rank changed",
+    "companyReset": "Company reset",
+    "companyResetLabel": "Company Reset",
+    "baseBuilt": "Base built",
+    "baseDisbanded": "Base disbanded",
+    "companyDeletedTitle": "Company deleted",
+    "companyDeletedLabel": "Company Deleted",
+    "companyDeleted": "Company no longer found in API.",
+    "foundedDateChanged": "Founded date changed:",
+    "builtLabel": "Built: ",
+    "disbandedLabel": "Disbanded: ",
+    "unknownPlanet": "Unknown planet"
+  },
+  "modal": {
+    "activityHistory": {
+      "title": "Game Activity History",
+      "empty": "No activity history available yet.",
+      "showInactive": "Show inactive companies (7d+)",
+      "hideInactive": "Hide inactive companies (7d+)",
+      "note": "Active tiers reflect last seen windows for each day. New = founded within 24h of that date.",
+      "series": {
+        "active01": "Active 0-1d",
+        "active13": "Active 1-3d",
+        "active37": "Active 3-7d",
+        "new1d": "New (1d)",
+        "inactive7plus": "Inactive 7+d",
+        "companies": "Companies"
+      }
+    },
+    "activityWindows": {
+      "d7": "7d",
+      "d30": "30d",
+      "d90": "90d",
+      "d180": "180d",
+      "all": "All time"
+    },
+    "loadingMoreEvents": "Loading more events…",
+    "eventsLoaded": "Loaded <strong>{{value}}</strong> / <strong>{{total}}</strong> events",
+    "noEventsForFilter": "No events for the current filter."
+  },
+  "errors": {
+    "trackerHealth": "Failed to load tracker health",
+    "activeCompanies": "Failed to load active companies",
+    "activityHistory": "Failed to load activity history",
+    "guildLeaderboard": "Failed to load tracker guild leaderboard",
+    "guildEventsFetch": "Failed to load guild events",
+    "companyGlobalEventsFetch": "Failed to load company global events",
+    "companyLeaderboard": "Failed to load tracker company leaderboard",
+    "moreGuilds": "Failed to load additional tracker guilds",
+    "moreCompanies": "Failed to load additional tracker companies",
+    "companyDetails": "Failed to load company details",
+    "companyPlanets": "Failed to load company planets",
+    "companyHistory": "Failed to load company history",
+    "companyEventsFetch": "Failed to load company events",
+    "companyActivityDisplay": "Failed to load company activity.",
+    "guildEventsDisplay": "Failed to load guild events.",
+    "companyEventsDisplay": "Failed to load company events.",
+    "activityHistoryDisplay": "Failed to load activity history.",
+    "companyGlobalEventsDisplay": "Failed to load company global events."
+  }
+}

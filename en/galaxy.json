@@ -1,0 +1,516 @@
+{
+  "intel": {
+    "header": {
+      "label": "Planet intel",
+      "helpLabel": "Planet intel help",
+      "helpTooltip": "How planet intel works."
+    },
+    "footer": {
+      "count": "{{shown}} / {{total}} companies"
+    },
+    "retry": "Retry",
+    "unknown": "Unknown",
+    "materialFallback": "Material {{id}}",
+    "mobile": {
+      "companies": "Companies",
+      "baseDetails": "Base Details"
+    },
+    "actions": {
+      "inspectBase": "Inspect Base",
+      "inspectBaseTitle": "Open this base on the Base Page",
+      "inspectBaseDisabledTitle": "Base layout or production must be shared",
+      "viewCompanyDetails": "View company details",
+      "viewCompanyOverview": "View company overview"
+    },
+    "filters": {
+      "guildOnly": "Guild Only",
+      "shareable": "Shareable",
+      "searchPlaceholder": "Search company or guild…",
+      "empty": "No companies match the current filters."
+    },
+    "list": {
+      "loading": "Loading intel…",
+      "selectPrompt": "Select a company from the list."
+    },
+    "table": {
+      "company": "Company",
+      "value": "Value",
+      "share": "Share",
+      "companyFallback": "Company {{id}}"
+    },
+    "badge": {
+      "noInfo": "No info",
+      "off": "Off",
+      "guild": "Guild",
+      "partial": "Partial",
+      "you": "You",
+      "public": "Public"
+    },
+    "shareLevel": {
+      "public": "public",
+      "guild": "guild",
+      "private": "private"
+    },
+    "tooltip": {
+      "notUsing": "This company has not used GT Companion yet.",
+      "scope": {
+        "companyResearch": "Company (Research)",
+        "prestigePerks": "Company (Prestige Perks)",
+        "warehousesBases": "Warehouses (Bases)",
+        "warehousesExchange": "Warehouses (Exchange)",
+        "shipsDesigns": "Ships (Designs)",
+        "shipsRoutes": "Ships (Routes)",
+        "shipsInventories": "Ships (Inventories)",
+        "basesNames": "Bases (Names)",
+        "basesLayouts": "Bases (Layouts)",
+        "basesProduction": "Bases (Production)",
+        "contractsActive": "Contracts (Active)"
+      }
+    },
+    "unavailable": {
+      "notUsingTitle": "Not using GT Companion",
+      "notUsingDetail": "This company hasn't used GT Companion yet.",
+      "notSharedTitle": "Not shared",
+      "notSharedDetail": "This company has sharing turned off.",
+      "noBaseTitle": "No base data shared",
+      "noBaseDetail": "This company hasn't shared any base information."
+    },
+    "feature": {
+      "loading": "Loading {{noun}}...",
+      "loadError": "Failed to load {{noun}}.",
+      "notLoaded": "{{noun}} not loaded.",
+      "loadCompanyError": "Failed to load company intel."
+    },
+    "sections": {
+      "warehouse": "Warehouse",
+      "production": "Production",
+      "contracts": "Contracts",
+      "layout": "Layout"
+    },
+    "cost": {
+      "inputCost": "Input Cost",
+      "consumables": "Consumables",
+      "maintenance": "Maintenance",
+      "income": "Income",
+      "profit": "Profit"
+    },
+    "warehouse": {
+      "empty": "No warehouse snapshot found for this planet.",
+      "total": "Total",
+      "columns": {
+        "material": "Material",
+        "qty": "Qty",
+        "weight": "Weight",
+        "value": "Value"
+      }
+    },
+    "production": {
+      "total": "Total",
+      "groupProduction": "Production",
+      "groupConsumables": "Consumables",
+      "noProductionEntries": "No production entries.",
+      "noConsumables": "No consumables.",
+      "noDataForBase": "No production data available for this base.",
+      "noDataForPlanet": "No production data found for this planet.",
+      "split": {
+        "merged": "Merged",
+        "grouped": "Grouped"
+      },
+      "columns": {
+        "material": "Material",
+        "used": "Used",
+        "produced": "Produced",
+        "stock": "Stock",
+        "net": "Net",
+        "valuePerDay": "Value/day"
+      }
+    },
+    "copy": {
+      "copied": "Copied!",
+      "copy": "Copy as chat text"
+    },
+    "contracts": {
+      "empty": "No active shared contracts for this planet.",
+      "typeBuy": "Buy",
+      "typeSell": "Sell",
+      "typeUnknown": "Unknown",
+      "partnerInGuild": "In-Guild",
+      "partnerExtern": "Extern",
+      "recurringTitle": "Recurring contract ({{count}}/day)",
+      "columns": {
+        "type": "Type",
+        "partner": "Partner",
+        "material": "Material",
+        "qty": "Qty",
+        "total": "Total"
+      }
+    },
+    "layout": {
+      "defaultTitle": "Base Layout",
+      "noSlots": "No slot layout found in shared data.",
+      "noData": "No layout data found for this planet."
+    },
+    "base": {
+      "sharedFallback": "Shared base"
+    }
+  },
+  "page": {
+    "overlays": {
+      "favorites": "Favorites overlay",
+      "bases": "Own bases overlay",
+      "ships": "Ships overlay",
+      "density": "Company density overlay"
+    },
+    "customPrices": {
+      "consumablesTitle": "Consumables",
+      "consumablesEmpty": "Consumable data isn't available yet."
+    },
+    "material": {
+      "fallbackName": "Material #{{id}}"
+    },
+    "ship": {
+      "fallbackName": "Ship {{id}}"
+    },
+    "mode": {
+      "tableShort": "Table",
+      "tableFull": "Show table",
+      "mapShort": "Map",
+      "mapFull": "Show map"
+    },
+    "controls": {
+      "expandMap": "Expand map",
+      "mapControls": "Map controls",
+      "filters": "Filters",
+      "exitFullscreen": "Exit fullscreen",
+      "shareMap": "Share map",
+      "exit": "Exit"
+    },
+    "hover": {
+      "unknown": "Unknown",
+      "docked": "Docked",
+      "fertility": "Fertility",
+      "companies_one": "{{count}} company",
+      "companies_other": "{{count}} companies",
+      "members_one": "{{count}} member",
+      "members_other": "{{count}} members",
+      "exchange": "Exchange",
+      "tierBadge": "T{{tier}}"
+    },
+    "status": {
+      "loading": "Loading galaxy data…",
+      "error": "Failed to load galaxy data",
+      "loadingShort": "Loading…"
+    },
+    "panel": {
+      "mapTitle": "Galaxy Map",
+      "mapControls": "Map Controls",
+      "details": "Details"
+    },
+    "actions": {
+      "close": "Close"
+    },
+    "help": {
+      "mapControlsLabel": "Map controls help",
+      "mapControlsTooltip": "Filters, lenses, and social overlays.",
+      "detailsLabel": "Details help",
+      "detailsTooltip": "Planet info, intel, and ship details."
+    }
+  },
+  "map": {
+    "labels": {
+      "exchange": "Exchange"
+    },
+    "ships": {
+      "countTooltip_one": "{{count}} ship",
+      "countTooltip_other": "{{count}} ships"
+    },
+    "ship": {
+      "fallbackName": "Ship {{id}}"
+    },
+    "measure": {
+      "start": "Click a planet to measure",
+      "extend_one": "{{count}} segment · click to extend",
+      "extend_other": "{{count}} segments · click to extend"
+    },
+    "contextMenu": {
+      "unfavorite": "Unfavorite",
+      "favorite": "Favorite",
+      "openInGame": "Open in game",
+      "showIntel": "Show Intel",
+      "planNewBase": "Plan new base",
+      "measureDistance": "Measure distance"
+    }
+  },
+  "landing": {
+    "bases": {
+      "title": "Your Bases"
+    },
+    "ships": {
+      "title": "Your Ships",
+      "overlayHint": "Enable the Ships overlay to see your ships here.",
+      "empty": "No ships found."
+    },
+    "guild": {
+      "title": "Guild Members",
+      "helpLabel": "Sharing help",
+      "helpTooltip": "How sharing and privacy works.",
+      "loading": "Loading guild members…",
+      "error": "Failed to load guild members.",
+      "empty": "No guild members found."
+    },
+    "scopes": {
+      "companyResearch": "Research",
+      "prestigePerks": "Prestige Perks",
+      "warehousesBases": "Base Warehouses",
+      "warehousesExchange": "Exchange Warehouse",
+      "shipsDesigns": "Ship Designs",
+      "shipsRoutes": "Ship Routes",
+      "shipsInventories": "Ship Cargo",
+      "basesNames": "Base Names",
+      "basesLayouts": "Base Layouts",
+      "basesProduction": "Production",
+      "contractsActive": "Contracts"
+    },
+    "scopeLevel": {
+      "public": "public",
+      "guild": "guild",
+      "private": "private"
+    },
+    "sharingStatus": {
+      "noCompanion": "Not using GT Companion",
+      "sharingDisabled": "Sharing is disabled",
+      "guildOnly": "Sharing with guild members only",
+      "partial": "Some data is shared",
+      "owner": "Your company",
+      "available": "All data is shared"
+    },
+    "badge": {
+      "noInfo": "No info",
+      "off": "Off",
+      "guild": "Guild",
+      "partial": "Partial",
+      "you": "You",
+      "public": "Public"
+    }
+  },
+  "planetDetails": {
+    "info": {
+      "title": "Planet Info",
+      "viewOnSite": "View on galactictycoons.com",
+      "planet": "Planet",
+      "tier": "Tier",
+      "distance": "Distance",
+      "companies": "Companies (7d)",
+      "notAvailable": "N/A",
+      "fertility": "Fertility"
+    },
+    "favorite": {
+      "remove": "Remove from favorites",
+      "add": "Add to favorites"
+    },
+    "companies": {
+      "viewActive": "View active companies",
+      "view": "View"
+    },
+    "more": {
+      "title": "More",
+      "openIntel": "Open Planet Intel"
+    },
+    "guild": {
+      "notInGuild": "You are not in a guild.",
+      "loading": "Loading guild presence…",
+      "loadError": "Failed to load guild member data.",
+      "noMembers": "No guild members have a base here.",
+      "viewCompany": "View company overview",
+      "viewBase": "View base on this planet",
+      "baseNotShared": "Base not shared",
+      "baseButton": "Base"
+    },
+    "ship": {
+      "fallbackName": "Ship {{id}}"
+    },
+    "intel": {
+      "apiKeyRequired": "API key required to view intel.",
+      "loadError": "Failed to load planet intel."
+    }
+  },
+  "ship": {
+    "route": {
+      "owner": "Owner",
+      "status": "Status",
+      "inFlight": "In flight ({{percent}}%)",
+      "origin": "Origin",
+      "destination": "Destination",
+      "eta": "ETA",
+      "arrived": "Arrived",
+      "docked": "Docked",
+      "location": "Location",
+      "unknown": "Unknown",
+      "planetFallback": "Planet {{id}}",
+      "shipFallback": "Ship {{id}}"
+    },
+    "cargo": {
+      "title": "Cargo",
+      "notShared": "Not shared",
+      "empty": "Empty",
+      "total": "Total",
+      "header": {
+        "material": "Material",
+        "qty": "Qty",
+        "weight": "Weight",
+        "value": "Value"
+      }
+    },
+    "layout": {
+      "title": "Ship Layout",
+      "openDesigner": "Open in ship designer",
+      "reactorType": "Reactor type",
+      "ftlType": "FTL type",
+      "ftlEmitters": "FTL emitters",
+      "cargoCapacity": "Cargo capacity",
+      "fuelTankSize": "Fuel tank size",
+      "heatShielding": "Heat shielding",
+      "radShielding": "Rad shielding"
+    }
+  },
+  "table": {
+    "column": {
+      "name": "Planet",
+      "tier": "Tier",
+      "distance": "Distance",
+      "companies": "Companies (7d)",
+      "fertility": "Fertility"
+    },
+    "value": {
+      "notAvailable": "N/A"
+    },
+    "favorite": {
+      "sortTitle": "Sort by favorites",
+      "remove": "Remove from favorites",
+      "add": "Add to favorites"
+    },
+    "controls": {
+      "favorites": "Favorites"
+    },
+    "columns": {
+      "placeholder": "Columns",
+      "button": "Columns",
+      "showAll": "Show all",
+      "hideAll": "Hide all",
+      "reset": "Reset"
+    },
+    "footer": {
+      "showing": "Showing {{shown}} of {{total}}"
+    },
+    "contextMenu": {
+      "unfavorite": "Unfavorite",
+      "favorite": "Favorite",
+      "openInGame": "Open in game",
+      "showIntel": "Show Intel",
+      "planNewBase": "Plan new base"
+    }
+  },
+  "filters": {
+    "title": "Filters",
+    "reset": "Reset",
+    "searchPlaceholder": "Search by name…",
+    "addFilter": "Add filter...",
+    "resource": {
+      "fertility": "Fertility"
+    },
+    "mode": {
+      "inhabited": "Inhabited planets only (has companies)",
+      "favorites": "Favorites only"
+    }
+  },
+  "lens": {
+    "title": "Lens",
+    "reset": "Reset",
+    "colors": "Colors",
+    "heatmap": "Heatmap",
+    "selectPlaceholder": "Select…",
+    "option": {
+      "guildMembers": "Guild members",
+      "companyDensity": "Company density",
+      "fertility": "Fertility",
+      "planetTier": "Planet Tier",
+      "none": "None"
+    }
+  },
+  "search": {
+    "searchPlanet": "Search planet",
+    "placeholder": "Planet or system…",
+    "noResults": "No planets found",
+    "filtered": "filtered"
+  },
+  "share": {
+    "title": "Share Galaxy Map",
+    "actions": {
+      "copied": "Copied!",
+      "copyLink": "Copy link",
+      "download": "Download",
+      "cancel": "Cancel",
+      "share": "Share"
+    },
+    "region": {
+      "current": "Current view",
+      "full": "Full galaxy"
+    },
+    "toggles": {
+      "planetColors": "Planet Colors",
+      "heatmap": "Heatmap",
+      "legend": "Legend"
+    },
+    "preview": {
+      "label": "Preview",
+      "capturing": "Capturing…",
+      "error": "Capture failed",
+      "alt": "Map preview"
+    },
+    "lens": {
+      "fertility": "Fertility",
+      "companyDensity": "Company Density",
+      "guildMembers": "Guild Members",
+      "resource": "Resource"
+    },
+    "legend": {
+      "colors": "Colors",
+      "heatmap": "Heatmap",
+      "company": "Company",
+      "guild": "Guild"
+    }
+  },
+  "quickJump": {
+    "tooltip": "Quick jump (Q)",
+    "ariaLabel": "Quick jump"
+  },
+  "social": {
+    "title": "Social",
+    "reset": "Reset",
+    "mode": {
+      "company": "Company",
+      "guild": "Guild"
+    },
+    "company": {
+      "loading": "Loading…",
+      "searchPlaceholder": "Search company…",
+      "searching": "Searching…",
+      "noResults": "No results",
+      "clearAria": "Clear company filter",
+      "bases_one": "{{count}} base",
+      "bases_other": "{{count}} bases"
+    },
+    "guild": {
+      "loading": "Loading…",
+      "searchPlaceholder": "Search guild or tag…",
+      "searching": "Searching…",
+      "noResults": "No results",
+      "clearAria": "Clear guild filter",
+      "bases_one": "{{count}} base",
+      "bases_other": "{{count}} bases"
+    }
+  },
+  "intelLayout": {
+    "unknown": "Unknown"
+  }
+}

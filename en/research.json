@@ -1,0 +1,294 @@
+{
+  "page": {
+    "loading": "Loading research information…",
+    "errors": {
+      "loadCompany": "Failed to load company data.",
+      "missingApiKey": "Missing API key.",
+      "wishlistNotFound": "Wishlist not found.",
+      "noMaterials": "No materials to add.",
+      "wishlistMeetsPreview": "Wishlist already meets the preview amounts.",
+      "wishlistMatchesPreview": "Wishlist already matches the preview."
+    },
+    "levelControl": {
+      "decrease": "Decrease level",
+      "reset": "Reset level",
+      "increase": "Increase level"
+    },
+    "startMode": {
+      "current": "Current research levels",
+      "respec": "Respec (start at 0)",
+      "custom": "Custom starting levels"
+    },
+    "toggle": {
+      "research": "Research",
+      "perks": "Perks"
+    },
+    "nav": {
+      "title": "Research & Perks",
+      "researchPlanner": "Research Planner",
+      "prestigePerks": "Prestige Perks"
+    },
+    "planner": {
+      "title": "Research Planner",
+      "helpLabel": "Research planner help",
+      "helpTooltip": "Set starting levels, targets, and milestones. Run a simulation to see cost and time."
+    },
+    "startingLevels": {
+      "title": "Starting research levels",
+      "helpLabel": "Starting levels help",
+      "helpTooltip": "Choose the baseline for the plan. Custom lets you edit each field.",
+      "reset": "Reset",
+      "derivedNote": "Starting levels will be derived from your {{source}}",
+      "sourceCurrent": "current company research levels.",
+      "sourceRespec": "respec baseline (level 0)."
+    },
+    "targetLevels": {
+      "title": "Target research levels",
+      "helpLabel": "Target levels help",
+      "helpTooltip": "Set the desired end levels for each research field.",
+      "reset": "Reset"
+    },
+    "milestones": {
+      "title": "Milestones",
+      "helpLabel": "Milestones help",
+      "helpTooltip": "Milestones let you highlight key target levels to hit along the way.",
+      "empty": "No milestones added yet.",
+      "selectCategory": "Select category",
+      "levelPlaceholder": "Level",
+      "optionsMenu": "Milestone options",
+      "moveUp": "Up",
+      "moveDown": "Down",
+      "remove": "Remove",
+      "moveUpTitle": "Move up",
+      "moveDownTitle": "Move down",
+      "removeTitle": "Remove milestone",
+      "add": "Add milestone",
+      "addDisabledHint": "Set target levels above current to add milestones.",
+      "recordingHint": "Use +/− on target levels to record milestones",
+      "modeManual": "Manual",
+      "modeRecording": "Recording",
+      "reset": "Reset"
+    },
+    "currentLevels": {
+      "title": "Current research levels",
+      "companyLevels": "Company levels",
+      "helpLabel": "Company levels help",
+      "helpTooltip": "Your current research levels from the company profile."
+    },
+    "simulation": {
+      "title": "Simulation summary",
+      "helpLabel": "Simulation summary help",
+      "helpTooltip": "Review the upgrade order, time per step, and total costs.",
+      "upgradePath": "Upgrade path",
+      "upgradePathHelpLabel": "Upgrade path help",
+      "upgradePathHelpTooltip": "Each step shows the next level, required materials, and time.",
+      "simulating": "Simulating research plan…",
+      "emptyUpgradePath": "Once a plan is submitted, the simulator will list each upgrade step in order.",
+      "level": "Level {{from}} → {{to}}",
+      "time": "Time",
+      "total": "Total"
+    },
+    "totals": {
+      "title": "Totals",
+      "helpLabel": "Totals help",
+      "helpTooltip": "Summed research data requirements, total time, and total cost.",
+      "amount": "Amount",
+      "unitPrice": "Unit price",
+      "total": "Total",
+      "none": "No research data required for this plan.",
+      "totalTime": "Total time",
+      "totalCost": "Total cost",
+      "createWishlist": "Create wishlist",
+      "empty": "Totals will be displayed after the first simulation finishes."
+    },
+    "wishlist": {
+      "planTitle": "Research plan",
+      "context": "Research",
+      "contextWithCompany": "{{name}} · Research",
+      "remainingGoals": "Remaining goals"
+    }
+  },
+  "perks": {
+    "panelTitle": "Prestige Perks",
+    "points": {
+      "available": "Available Perk Points",
+      "plan": "Plan:",
+      "clearAll": "Clear All",
+      "reset": "Reset",
+      "next": "Next Perk Point"
+    },
+    "overview": {
+      "title": "Perk Overview",
+      "dailyValue": "Daily Value",
+      "oneTimeSavings": "One-time Savings",
+      "otherPerks": "Other Perks"
+    },
+    "recommend": {
+      "computing": "Computing…",
+      "label": "Recommend",
+      "spendAllPoints": "Spend all points",
+      "saveForBetter": "Save for better",
+      "fromScratch": "From Scratch",
+      "fromCurrent": "From Current",
+      "improvementPerDay": "+{{value}}/day"
+    },
+    "columns": {
+      "perk": "Perk",
+      "level": "Lvl",
+      "cost": "Cost",
+      "costTitle": "Perk points needed for next level",
+      "valuePerDay": "Value/day",
+      "valuePerDayTitle": "Daily monetary value of the current perk level",
+      "valuePerPoint": "Value/pt",
+      "valuePerPointTitle": "Current daily value per total perk point invested",
+      "nextPerDay": "Next/day",
+      "nextPerDayTitle": "Marginal daily gain from leveling up once",
+      "nextPerPoint": "Next/pt",
+      "nextPerPointTitle": "Daily monetary gain per perk point spent on next level",
+      "saved": "Saved",
+      "savedTitle": "One-time construction cost saved by this perk",
+      "savedPerPoint": "Saved/pt",
+      "savedPerPointTitle": "Current savings per total perk point invested",
+      "savedNext": "Next",
+      "savedNextTitle": "Additional savings from leveling up once",
+      "savedNextPerPoint": "Next/pt",
+      "savedNextPerPointTitle": "Marginal savings per perk point for next level",
+      "benefit": "Benefit",
+      "nextLevel": "Next Level"
+    },
+    "controls": {
+      "decrease": "Decrease level",
+      "reset": "Reset to company level",
+      "increase": "Increase level"
+    },
+    "status": {
+      "max": "Max",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "effect": {
+      "scaling": "(scaling)",
+      "perLevel": "per level"
+    },
+    "tier": {
+      "unlockTooltip": "{{spent}}/{{required}} pts in T{{tier}} to unlock",
+      "locked": "Tier {{tier}} locked ({{spent}}/{{required}} pts in lower tiers)"
+    },
+    "blocked": {
+      "byConflict": "Blocked by {{name}} (exclusive group)"
+    },
+    "exclusivity": {
+      "supervision": "Supervision",
+      "missionPref": "Mission Pref.",
+      "exclusive": "Exclusive"
+    },
+    "consolidated": {
+      "unusedPermits": "Unused permits",
+      "used": "used",
+      "livePermits": "(live: {{count}})",
+      "decreasePermits": "Decrease unused permits",
+      "resetPermits": "Reset to live unused permits",
+      "increasePermits": "Increase unused permits",
+      "perPermit": "Per permit",
+      "prodSpeedSuffix": "% prod. speed",
+      "valuePerDay": "{{value}}/day",
+      "current": "Current",
+      "permitsCount": "({{count}} permits)",
+      "nextHqUpgrade": "Next HQ upgrade",
+      "toLevel": "lvl {{level}}",
+      "na": "n/a"
+    },
+    "debug": {
+      "title": "Debug: Full Pipeline Baseline",
+      "outputPerDay": "Output/d:",
+      "inputPerDay": "Input/d:",
+      "consumablePerDay": "Consumable/d:",
+      "maintenancePerDay": "Maintenance/d:",
+      "netProfitPerDay": "Net Profit/d:"
+    }
+  },
+  "flightRoutes": {
+    "title": "Flight Routes",
+    "totalPerDay": "Total: {{cost}}/day",
+    "empty": "No routes defined. Add routes to calculate logistics perk values.",
+    "weight": {
+      "auto": "Auto Weight",
+      "manual": "Manual Weight",
+      "autoTooltip": "Weights auto-derived from base production. Click for manual.",
+      "manualTooltip": "Manual weights. Click to auto-derive from base production."
+    },
+    "actions": {
+      "addRoute": "+ Add Route",
+      "loadDefaults": "Load Defaults",
+      "clearAll": "Clear All"
+    },
+    "route": {
+      "planetA": "Planet A",
+      "planetB": "Planet B",
+      "ships": "Ship(s)",
+      "selectPlaceholder": "Select",
+      "noShips": "No ships",
+      "shipCount_one": "{{count}} ship",
+      "shipCount_other": "{{count}} ships",
+      "noShipsAvailable": "No ships available",
+      "demandAtoB": "A→B (t/d)",
+      "demandBtoA": "B→A (t/d)",
+      "mode": "Mode",
+      "cost": "Cost",
+      "roundTripShort": "RT {{time}}",
+      "debug": "Debug",
+      "hide": "Hide",
+      "remove": "Remove route",
+      "optimization": {
+        "cheapest": "Cheapest",
+        "best": "Best"
+      },
+      "warnings": {
+        "noPlanets": "No planets selected",
+        "planetANotSelected": "Planet A not selected",
+        "planetBNotSelected": "Planet B not selected",
+        "samePlanet": "Planet A and B are the same",
+        "noCargoWeight": "No cargo weight set",
+        "noShipsAssigned": "No ships assigned"
+      }
+    },
+    "debug": {
+      "efficiencyAtoB": "Efficiency A→B:",
+      "efficiencyBtoA": "Efficiency B→A:",
+      "cargoCapacity": "Cargo capacity:",
+      "cargoAtoBBtoA": "Cargo A→B / B→A:",
+      "allocAtoBBtoA": "Alloc A→B / B→A:",
+      "travelAtoB": "Travel A→B:",
+      "travelBtoA": "Travel B→A:",
+      "roundTrip": "Round trip:",
+      "dailyTrips": "Daily trips:",
+      "fuelCostPerDay": "Fuel cost/day:",
+      "repairCostPerDay": "Repair cost/day:"
+    },
+    "transport": {
+      "imports": "Imports (A→B)",
+      "exports": "Exports (B→A)",
+      "detailsHeading": "{{label}}: {{tonnage}} t/d",
+      "material": "Material",
+      "grossPerDay": "Gross/d",
+      "contract": "Contract",
+      "netPerDay": "Net/d",
+      "weight": "Wt",
+      "tonnagePerDay": "t/d",
+      "none": "None"
+    }
+  },
+  "activeBonuses": {
+    "panelTitle": "Company Perks",
+    "activeSection": "Active Bonuses",
+    "plannedSection": "Planned Bonuses",
+    "reset": "Reset",
+    "estDailyValue": "Est. Daily Value",
+    "perDaySuffix": "/d",
+    "perkPoints": "Perk Points",
+    "pointsOver": "{{count}} over",
+    "pointsLeft": "{{count}} left",
+    "prodSpeedUnusedPermits_one": "Prod. speed ({{count}} unused permit)",
+    "prodSpeedUnusedPermits_other": "Prod. speed ({{count}} unused permits)"
+  }
+}

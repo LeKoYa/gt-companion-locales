@@ -1,0 +1,1013 @@
+{
+  "page": {
+    "projectBonus": {
+      "members": "5 + {{level}} members",
+      "reduction": "{{value}}% reduction",
+      "speed": "{{value}}% speed",
+      "capacity": "{{value}} tons",
+      "effect": "{{value}}% effect"
+    },
+    "status": {
+      "label": "Status",
+      "notInGuild": "You are currently not a member of a guild.",
+      "loading": "Loading guild data…",
+      "loadFailed": "Failed to load guild data.",
+      "noData": "No guild data available yet."
+    },
+    "info": {
+      "guild": "Guild",
+      "rank": "Rank",
+      "prestige": "Prestige",
+      "members": "Members"
+    },
+    "project": {
+      "level": "Level {{level}}",
+      "levelWithMax": "Level {{level}}/{{max}}",
+      "overviewFallback": "Project overview",
+      "bonus": "Bonus",
+      "lvl": "LVL",
+      "resetLevel": "Reset level",
+      "reset": "Reset",
+      "remainingFromTo": "Remaining from LVL {{start}} → LVL {{target}}",
+      "fromTo": "From LVL {{start}} → LVL {{target}}",
+      "atLevel": "LVL {{level}}",
+      "dailyCostAtLevel": "Daily cost at LVL {{level}}",
+      "constructionDataMissing": "Construction data missing",
+      "noDailyConsumables": "No daily consumables"
+    },
+    "rank": {
+      "leader": "Leader",
+      "officer": "Officer",
+      "member": "Member"
+    },
+    "memberPlanets": {
+      "loading": "Loading member planets…",
+      "loadFailed": "Failed to load member planets.",
+      "noData": "No tracked planet ownership data available yet.",
+      "view": "view",
+      "viewMember": "member",
+      "viewPlanet": "planet",
+      "memberTable": {
+        "company": "Company",
+        "planetSub": "planet",
+        "guildRank": "Guild rank",
+        "tierSub": "tier",
+        "prestige": "Prestige",
+        "distSub": "dist. to ex.",
+        "value": "Value"
+      },
+      "planetTable": {
+        "planet": "Planet",
+        "memberSub": "member",
+        "tier": "Tier",
+        "guildRankSub": "guild rank",
+        "distToEx": "Dist. to ex.",
+        "prestigeSub": "prestige",
+        "members": "Members",
+        "valueSub": "value"
+      }
+    },
+    "research": {
+      "loadingRoster": "Loading guild roster…",
+      "noMembers": "No guild members available yet.",
+      "member": "Member",
+      "unknown": "Unknown",
+      "statusNoAccount": "No GT Companion account linked.",
+      "statusPrivate": "Research sharing is disabled.",
+      "statusShared": "Research sharing enabled.",
+      "noneShared": "No guild members have shared their research levels yet. Ask members to enable research sharing in their settings."
+    },
+    "toggles": {
+      "guildOverview": "Guild Overview",
+      "tradeActions": "Trade Actions",
+      "customPrices": "Custom Prices"
+    },
+    "panels": {
+      "guild": "Guild",
+      "guildOverview": "Guild Overview",
+      "guildProjects": "Guild Projects",
+      "guildDonations": "Guild Donations",
+      "memberOverview": "Member Overview"
+    },
+    "sections": {
+      "general": "General",
+      "guildProjects": "Guild Projects",
+      "donationTargets": "Donation Targets",
+      "donationLeaderboard": "Donation Leaderboard",
+      "prestigeTrend": "Prestige Trend from Donations",
+      "recentDonations": "Recent Donations",
+      "memberResearchLevels": "Member Research Levels",
+      "memberPlanets": "Member Planets"
+    },
+    "projects": {
+      "missingMembership": "Join a guild in-game to view guild projects here.",
+      "loadingMetadata": "Loading project metadata…",
+      "noneAssigned": "No projects assigned yet.",
+      "missingMembershipMain": "Join a guild in-game to view project data.",
+      "loadingRequirements": "Loading project requirements…",
+      "noDataMain": "No project data available yet."
+    },
+    "overview": {
+      "notInGuild": "You are currently not in a guild. Join a guild in-game to unlock project tracking, donation history and member views."
+    },
+    "donations": {
+      "updated": "Updated {{date}}",
+      "noCached": "No cached donations yet.",
+      "forceRefreshing": "Force refreshing…",
+      "forceRefresh": "Force refresh",
+      "showMembers": "Show Members",
+      "memberCurrent": "Current",
+      "memberAll": "All",
+      "chart": "Chart",
+      "chartStacked": "Stacked",
+      "chartLines": "Lines"
+    },
+    "help": {
+      "overview": {
+        "label": "Guild overview help",
+        "tooltip": "Summary of guild status and recent donations."
+      },
+      "general": {
+        "label": "Guild overview help",
+        "tooltip": "Summary of guild status."
+      },
+      "projectsLeft": {
+        "label": "Guild projects help",
+        "tooltip": "Current guild project levels and requirements."
+      },
+      "projectsMain": {
+        "label": "Guild projects help",
+        "tooltip": "Project levels and next requirements."
+      },
+      "donations": {
+        "label": "Guild donations help",
+        "tooltip": "Donation history, leaderboard and prestige trends."
+      },
+      "donationTargets": {
+        "label": "Donation targets help",
+        "tooltip": "Set fair donation goals per member based on guild project needs."
+      },
+      "donationLeaderboard": {
+        "label": "Donation leaderboard help",
+        "tooltip": "Ranks members by total donations."
+      },
+      "prestigeTrend": {
+        "label": "Prestige trend help",
+        "tooltip": "Prestige over time from donations."
+      },
+      "recentDonations": {
+        "label": "Recent donations help",
+        "tooltip": "Recent donation activity."
+      },
+      "memberOverview": {
+        "label": "Member overview help",
+        "tooltip": "Shared member research levels."
+      },
+      "memberResearch": {
+        "label": "Member research levels help",
+        "tooltip": "Levels shared by guild members."
+      },
+      "memberPlanets": {
+        "label": "Member planets help",
+        "tooltip": "Tracked planets for each guild member."
+      }
+    }
+  },
+  "donationTargets": {
+    "loading": "Loading donation targets…",
+    "loadingPlan": "Loading plan…",
+    "settingsButton": "Settings",
+    "contributionRateUnit": "% of CV / {{period}}",
+    "period": {
+      "current": "current",
+      "weekLabel": "Week {{week}} · {{start}} – {{end}}",
+      "unit": {
+        "week": "week",
+        "month": "month"
+      },
+      "donations": {
+        "week": "Week donations",
+        "month": "Month donations"
+      }
+    },
+    "status": {
+      "saved": "Saved ✓",
+      "loading": "Loading…",
+      "error": "⚠ Error (retry)"
+    },
+    "banner": {
+      "unsaved": "Unsaved changes",
+      "preview": "Preview - local changes are not saved to the guild",
+      "reset": "Reset",
+      "saving": "Saving…",
+      "save": "Save for guild"
+    },
+    "modes": {
+      "growthTarget": "Growth Target",
+      "pctCvTarget": "% / CV Target",
+      "pctCv": "% / CV",
+      "combined": "Combined"
+    },
+    "weightOptions": {
+      "skip": "—",
+      "skipTooltip": "Skip",
+      "low": "Low",
+      "mid": "Mid",
+      "high": "High",
+      "max": "Max"
+    },
+    "settings": {
+      "title": "Donation Target Settings",
+      "helpLabel": "Donation targets settings help",
+      "helpTooltip": "Open help for donation target settings.",
+      "mode": "Mode",
+      "targets": "Targets",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "alpha": "Alpha (α)",
+      "contributionRate": "Contribution rate",
+      "consumables": "Consumables",
+      "buffer": "Buffer",
+      "fixedTargets": "Fixed targets",
+      "growthTargets": "Growth targets",
+      "fromLevel": "LVL {{level}} →",
+      "constructionImportance": "Construction importance",
+      "freeUpgradeImportance": "Free upgrade importance"
+    },
+    "freeze": {
+      "tooltipPast": "Past periods are already frozen.",
+      "tooltipFuture": "CVs are captured when the {{period}} starts.",
+      "tooltipLive": "Keep each member's donation target stable for the {{period}}. Mid-{{period}} joiners are added automatically with their CV at first detection.",
+      "label": "Freeze member CVs for this {{period}}",
+      "description": "Keep targets stable as the {{period}} progresses. Mid-{{period}} joiners are added in automatically."
+    },
+    "exclude": {
+      "sectionTitle": "Exclude members from donations",
+      "autoExcludeBelow": "Auto-exclude below",
+      "unitMCv": "M CV",
+      "offPlaceholder": "off",
+      "autoCount": "{{count}} auto",
+      "none": "No members excluded",
+      "count_one": "{{count}} member excluded",
+      "count_other": "{{count}} members excluded",
+      "autoSuffix": "({{count}} auto)",
+      "includeAll": "Include all",
+      "excludeAll": "Exclude all",
+      "autoBadge": "auto",
+      "forcedInBadge": "forced in",
+      "autoTooltip": "Auto-excluded - uncheck to force-include",
+      "forcedInTooltip": "Force-included despite auto-exclude threshold"
+    },
+    "editors": {
+      "sectionTitle": "Donation editors",
+      "none": "No extra editors",
+      "count_one": "{{count}} editor assigned",
+      "count_other": "{{count}} editors assigned"
+    },
+    "budget": {
+      "warningPctCv": "Collective budget ({{budget}}) does not cover consumable running costs ({{consumables}})",
+      "warningCombined": "Consumables + fixed targets ({{fixed}}) exceed the collective cap ({{cap}})",
+      "consumablesLabel": "Consumables:",
+      "constructionLabel": "Construction:",
+      "freeUpgradesLabel": "Free upgrades:",
+      "percentComplete": "{{pct}}% complete",
+      "noPlanSaved": "No guild plan has been saved for this selected {{period}} yet.",
+      "noPlanSavedEditHint": "Use Settings to configure and save one."
+    },
+    "projects": {
+      "title": "Projects",
+      "current": "Current",
+      "allLevels": "All levels",
+      "hideDetails": "Hide details",
+      "showDetails": "Show details",
+      "consumablesLabel": "Consumables:",
+      "constructionLabel": "Construction:",
+      "consumablesPerPeriod": "Consumables / {{period}}",
+      "construction": "Construction"
+    },
+    "table": {
+      "company": "Company",
+      "cv": "Company Value",
+      "cvSnapshot": "CV (snapshot)",
+      "target": "Target",
+      "donated": "Donated",
+      "progress": "Progress",
+      "remaining": "Remaining",
+      "total": "Total",
+      "average": "Average",
+      "newBadge": "new",
+      "newBadgeTooltip": "Joined mid-period - CV will be locked in on the next plan refresh.",
+      "empty": "No contributing members with company value data."
+    },
+    "memberModal": {
+      "alreadyDonated": "Already donated",
+      "material": "Material",
+      "amount": "Amount",
+      "estValue": "Est. value",
+      "total": "Total"
+    },
+    "planner": {
+      "title": "Donation planner",
+      "material": "Material",
+      "max": "Max",
+      "suggest": "Suggest",
+      "unitPrice": "Unit price",
+      "estCost": "Est. cost",
+      "total": "Total",
+      "noDonatable": "No currently donatable materials with price data available."
+    },
+    "guide": {
+      "title": "Donation guide",
+      "helpLabel": "Donation guide help",
+      "helpTooltip": "Open help for donation guide.",
+      "compact": "Compact",
+      "detailed": "Detailed",
+      "chart": "Chart",
+      "linear": "Linear",
+      "log": "Log",
+      "noMaterials": "No materials",
+      "allMaterials": "All materials",
+      "materialsCount": "{{selected}}/{{total}} materials",
+      "noMembers": "No members",
+      "allMembers": "All members",
+      "membersCount": "{{selected}}/{{total}} members",
+      "selectAll": "All",
+      "selectNone": "None",
+      "reset": "Reset",
+      "memberPlaceholder": "Member",
+      "maxCvPlaceholder": "Max CV",
+      "guildMax": "Guild max",
+      "youSuffix": "{{name}} (You)",
+      "you": "You",
+      "later": "Later",
+      "cvTooltip": "CV: {{value}}",
+      "moreCount": "… {{count}} more",
+      "axisCompanyValue": "Company Value",
+      "axisPrestigePer1k": "Prestige / $1k",
+      "columns": {
+        "material": "Material",
+        "now": "Now",
+        "needed": "Needed",
+        "market": "Market",
+        "avg": "Avg",
+        "base": "Base",
+        "deal": "Deal",
+        "prestigePer1k": "Prestige/$1k"
+      }
+    }
+  },
+  "donationLeaderboard": {
+    "timeWindows": {
+      "1d": "1 Day",
+      "3d": "3 Days",
+      "7d": "7 Days",
+      "14d": "14 Days",
+      "30d": "30 Days",
+      "all": "All Time"
+    },
+    "projects": {
+      "hq": "HQ",
+      "admin": "Admin",
+      "flight": "Flight",
+      "warehouse": "Warehouse",
+      "arcade": "Arcade"
+    },
+    "status": {
+      "noCachedDonations": "No cached donations yet."
+    },
+    "rows": {
+      "total": "Total",
+      "average": "Average"
+    },
+    "columns": {
+      "company": "Company",
+      "prestige": "Prestige",
+      "value": "Value",
+      "totalPerCv": "Total / $1M CV",
+      "totalWindow": "Total ({{window}})",
+      "selectedFallback": "Selected"
+    },
+    "controls": {
+      "showMembers": "Show Members",
+      "current": "Current",
+      "all": "All"
+    },
+    "empty": {
+      "title": "Donation leaderboard is empty.",
+      "hint": "Force refresh to fetch donation data.",
+      "forceRefreshing": "Force refreshing…",
+      "forceRefresh": "Force refresh"
+    },
+    "autoFetch": {
+      "waiting": "Waiting for rate limit reset",
+      "resume": " · Resume {{time}}",
+      "fetching_one": "Fetching remaining {{pages}} page…",
+      "fetching_other": "Fetching remaining {{pages}} pages…"
+    }
+  },
+  "recentDonations": {
+    "columns": {
+      "member": "Member",
+      "prestige": "Prestige",
+      "donatedItems": "Donated items"
+    },
+    "expanded": {
+      "material": "Material",
+      "amount": "Amount",
+      "unitPrice": "Unit price",
+      "estValue": "Est. value",
+      "total": "Total"
+    },
+    "days": {
+      "today": "Today",
+      "yesterday": "Yesterday"
+    },
+    "empty": {
+      "noRecent": "No donations recorded today or yesterday.",
+      "noActivity": "No activity."
+    }
+  },
+  "adminRoi": {
+    "title": "Admin Center ROI",
+    "coverage": {
+      "excludedTitle": "Excluded (no shared data): {{names}}",
+      "shownFor": "shown for {{shared}} of {{total}} members",
+      "overheadOnly": "({{count}} overhead-only)",
+      "currentLevel": "current level:",
+      "buffPerLevel": "buff/level:"
+    },
+    "mode": {
+      "ariaLabel": "Savings mode",
+      "actual": "Actual",
+      "actualTitle": "Savings using each member's actual penalty (correct for members below their cap)",
+      "saturated": "Saturated",
+      "saturatedTitle": "Counterfactual: model every member as fully expanding to use the new admin-center headroom. Shows the marginal overhead-tax savings the upgraded admin center provides on that expanded workforce (workforce-growth cost is excluded. That's the member's call vs. their production gain).",
+      "saturatedNote": "Counterfactual: assumes every member expands to use the new admin-center headroom. Shows the marginal overhead-tax savings the upgraded admin center provides on that larger workforce. The cost of growing the workforce itself is excluded. That's the member's call vs. the production it unlocks."
+    },
+    "debug": {
+      "show": "Debug",
+      "hide": "Hide debug",
+      "breakdownTitle": "Per-member breakdown @ level {{level}}",
+      "noSharedData": "No shared member data.",
+      "member": "Member",
+      "bases": "Bases",
+      "penaltyPercent": "Penalty %",
+      "apiAdminLevel": "API admin lvl",
+      "currentNetPercent": "Current net %",
+      "headroomPercent": "Headroom %",
+      "headroomTitle": "Penalty room before paying overhead tax at the API admin level. Negative = already paying tax on the excess penalty.",
+      "liveConsumablesPerDay": "Live consumables / day",
+      "savingsPlusOnePerDay": "Savings @ +1 / day"
+    },
+    "states": {
+      "loading": "Loading member production data…",
+      "loadFailed": "Failed to load.",
+      "noSharedData": "No guild members have shared their data yet.",
+      "maxLevel": "Admin Center is already at max level.",
+      "noBuff": "Admin Center has no per-level buff configured.",
+      "noSavings": "No additional savings are possible at higher levels."
+    },
+    "table": {
+      "level": "Lv",
+      "savingsPerDay": "Savings / day",
+      "upkeepDeltaPerDay": "Upkeep Δ / day",
+      "netProfitPerDay": "Net profit / day",
+      "buildCost": "Build cost",
+      "roiDays": "ROI (days)"
+    }
+  },
+  "prestigeTrend": {
+    "selector": {
+      "noCompanies": "No companies",
+      "allCompanies": "All companies",
+      "selected": "{{count}} of {{total}} selected",
+      "showAll": "Show all",
+      "hideAll": "Hide all"
+    },
+    "empty": {
+      "noDonations": "No prestige donations recorded during the selected window.",
+      "selectCompanies": "Select one or more companies to display the trend."
+    },
+    "tooltip": {
+      "total": "Total: {{value}}",
+      "noChange": "No prestige change"
+    }
+  },
+  "sectionTabs": {
+    "entries": {
+      "trade": "Trade",
+      "projects": "Projects",
+      "donations": "Donations",
+      "members": "Members"
+    }
+  },
+  "chains": {
+    "edgeTree": {
+      "emptyTree": "This chain has no edges yet. Create a fresh chain to see its tree.",
+      "openExchangeTitle": "Open exchange for {{material}}",
+      "materialLongFallback": "material {{id}}",
+      "matFallback": "Mat {{id}}",
+      "targetTitle": "Chain target output",
+      "targetBadge": "target",
+      "noBuyerTitle": "A supplier is committed here but nothing upstream will buy it yet",
+      "noBuyerBadge": "no buyer",
+      "needsProducerTitle": "Needs a producer so the supply committed downstream has a buyer",
+      "needsProducerBadge": "needs producer",
+      "sharedInputsTitle": "This material is shared, its inputs are shown under an earlier occurrence. Click to jump there.",
+      "inputsAbove": "↗ inputs above",
+      "produceBadge": "PRODUCE",
+      "marketBadge": "MARKET",
+      "canonicalTitle": "Canonical throughput needed per day",
+      "coverageTitle": "Accepted-supply share of canonical demand",
+      "contractTable": {
+        "seller": "Seller",
+        "buyer": "Buyer",
+        "unitsHeader": "#/d",
+        "coverageHeader": "% cov",
+        "priceHeader": "$/u",
+        "creditsHeader": "cr/d",
+        "sameContract": "same contract",
+        "noSeller": "no seller",
+        "noBuyer": "no buyer",
+        "missing": "Missing",
+        "total": "Total"
+      },
+      "noContracts": "No contracts on this edge yet.",
+      "pendingSignups": "Pending signups",
+      "markedDeliveredTitle": "Marked delivered today, click to undo",
+      "markDeliveredTitle": "Mark delivered for today",
+      "todayMarked": "✓ Today",
+      "mark": "Mark",
+      "withdrawMineTitle": "Withdraw your signup from this contract",
+      "withdrawOtherTitle": "Withdraw this supplier's signup from this contract",
+      "withdraw": "Withdraw",
+      "companyFallback": "Company {{id}}",
+      "chainPriced": "chain-priced",
+      "accept": "Accept",
+      "reject": "Reject",
+      "signupForm": {
+        "signUpAs": "Sign up as",
+        "myself": "Myself",
+        "alreadySignedUpSuffix": " (already signed up)",
+        "youAlreadySignedUp": "You already have a signup on this edge.",
+        "memberAlreadySignedUp": "That member already has a signup on this edge."
+      },
+      "produceCard": {
+        "badge": "Produce",
+        "description": "Run the recipe yourself and ship to the chain at the burden-based rate.",
+        "noRecipe": "No producing recipe known for this material.",
+        "locked": "(locked)",
+        "shippingTitle": "Per-ton shipping reimbursement on top of the burden-based pay.",
+        "shipping": "Shipping",
+        "submit": "Sign up to produce"
+      },
+      "marketCard": {
+        "badge": "Buy elsewhere",
+        "description": "Source this material externally and deliver it at a flat price.",
+        "current": "Current",
+        "average": "Average",
+        "flatPrice": "Flat price",
+        "submit": "Sign up at flat price"
+      },
+      "throughput": {
+        "label": "Throughput",
+        "coverage": "({{coverage}}% of need)"
+      },
+      "priceQuickSet": {
+        "noPriceTitle": "No {{label}} price available",
+        "setPriceTitle": "Set flat price to {{label}}"
+      },
+      "creditEstimate": {
+        "unavailable": "Credit estimate unavailable.",
+        "label": "Est. credits"
+      }
+    },
+    "create": {
+      "materialFallback": "Material #{{id}}",
+      "fromMarket": "from market, no producing recipe",
+      "recipeCountTitle_one": "{{count}} recipe",
+      "recipeCountTitle_other": "{{count}} recipes",
+      "currentVariant": ", current variant: {{variant}}",
+      "title": "New production chain",
+      "cancel": "Cancel",
+      "previewChain": "Preview chain",
+      "targetMaterial": "Target material",
+      "searchPlaceholder": "Search material…",
+      "noMaterialsMatch": "No producible materials match.",
+      "recipeChain": "Recipe chain"
+    },
+    "deliveries": {
+      "companyFallback": "Company {{id}}",
+      "materialFallback": "Material {{id}}",
+      "chainFallback": "Chain {{id}}",
+      "openChainTitle": "Open {{chain}} at {{step}}",
+      "thisStep": "this step",
+      "matFallback": "Mat {{id}}",
+      "inChain": "in {{chain}}",
+      "linkContractsTitle": "Link in-game contracts",
+      "undo": "Undo",
+      "mark": "Mark",
+      "title": "My deliveries",
+      "checkTitleToday": "Mark today's deliveries from your linked contracts (8 API points)",
+      "checkTitleNotToday": "Only available for today (the game only reports today's fulfillment)",
+      "checking": "Checking…",
+      "checkContracts": "Check contracts",
+      "prev": "← Prev",
+      "today": "today",
+      "jumpToToday": "jump to today",
+      "next": "Next →",
+      "markedLegs_one": "Marked {{count}} leg from your contracts.",
+      "markedLegs_other": "Marked {{count}} legs from your contracts.",
+      "noDeliveriesToMark": "No deliveries to mark, no linked contracts reported fulfillment today.",
+      "someContractsNotFound": "Some linked contracts were not found in your current contracts.",
+      "noContracts": "You have no contracts yet. Sign up to supply a step and your commitments will show here.",
+      "contractsHeading": "Contracts",
+      "noContractsShort": "No contracts.",
+      "marketSellTitle": "No counterparty in the chain, you buy this from / sell it to the open market. Nothing to link or mark.",
+      "marketBuySell": "Market buy / sell",
+      "selfSupplyTitle": "You're both the seller and buyer, not a real contract between two parties.",
+      "selfSupply": "Self-supply",
+      "markAllTitle": "Mark every self-supply delivered for this day",
+      "markAll": "Mark all",
+      "loadingContracts": "Loading your contracts…",
+      "noMatchingContracts": "No matching in-game contracts found. Create one with this partner for this material, then check again.",
+      "contractStat": "{{today}}/{{limit}} today · {{qty}} qty",
+      "linked": "Linked ✓",
+      "link": "Link",
+      "staleLinkNote": "linked, but not found in your current contracts",
+      "unlink": "Unlink"
+    },
+    "inspector": {
+      "title": "Chain inspector",
+      "refresh": "Refresh",
+      "refreshing": "Refreshing…",
+      "refreshTitle": "Re-sync Admin Center, credit settings, and every signup's research/perks/burden from current game data",
+      "storedValues": "Stored values",
+      "stored": {
+        "rate": "Rate (profit/h/100 burden)",
+        "markup": "Markup",
+        "creditAlpha": "Credit α",
+        "creditBeta": "Credit β",
+        "extractMultiplier": "Extract multiplier",
+        "adminCenter": "Admin Center"
+      },
+      "signupsHeading": "Signups ({{count}})",
+      "noSignups": "No signups yet.",
+      "perDay": "{{value}} /d",
+      "perUnitPrice": "{{price}}/u",
+      "techLine": "tech {{tech}} · overhead {{overhead}}",
+      "burden": "burden {{value}}",
+      "snapshotAt": "snapshot {{date}}",
+      "noSnapshot": "no snapshot (canonical)",
+      "researchLabel": "research: ",
+      "perksLabel": "perks: ",
+      "companyFallback": "Company {{id}}",
+      "materialFallback": "Material {{id}}",
+      "edgeFallback": "Edge {{id}}"
+    },
+    "archive": {
+      "title": "Archive (last 7 days)",
+      "close": "Close",
+      "empty": "No chains were closed or cancelled in the last 7 days.",
+      "materialFallback": "Material {{id}}",
+      "rateLine": "{{rate}} /d · {{name}}",
+      "deleteConfirm": "Delete this chain permanently?",
+      "deleteForever": "Delete forever",
+      "delete": "Delete",
+      "minutesAgo": "{{count}}m ago",
+      "hoursAgo": "{{count}}h ago",
+      "daysAgo": "{{count}}d ago"
+    },
+    "issues": {
+      "title": "Status",
+      "noIssues": "No issues"
+    },
+    "list": {
+      "companyFallback": "Company {{id}}",
+      "title": "Chains",
+      "newChain": "New chain",
+      "archive": "Archive ({{count}})",
+      "archiveTitle": "View closed or cancelled chains from the last 7 days.",
+      "loading": "Loading chains…",
+      "emptyState": "No chains yet. Click <em>New chain</em> to create one.",
+      "materialFallback": "Material {{id}}",
+      "materialFallbackLower": "material {{id}}",
+      "perDaySep": "{{value}} /d ·",
+      "joined": "Joined",
+      "myContracts": "My contracts",
+      "selfSupplyTitle": "Self-supply legs where you're both the seller and buyer",
+      "showSelfSupply": "Show self-supply ({{count}})",
+      "noContracts": "No contracts yet. Sign up on a step in an open or active chain and your supply / buy commitments will appear here.",
+      "onlySelfSupply": "Only self-supply contracts. Toggle above to show them.",
+      "leftover": "leftover",
+      "tintFlat": "Buy elsewhere. Flat-price supply. No credits.",
+      "tintChainPriced": "Produce. Chain-priced supply. Earns credits.",
+      "openChainTitle": "Open chain #{{chainId}} and expand {{material}}",
+      "perDay": "{{value}} /d",
+      "myDeliveries": "My deliveries…",
+      "myDeliveriesTitle": "Review which contracts have been delivered, by day"
+    },
+    "manifest": {
+      "companyFallback": "Company {{id}}",
+      "title": "Contracts",
+      "locked": "Locked",
+      "loading": "Loading…",
+      "loadError": "Couldn't load contracts.",
+      "empty": "No contracts yet. Add accepted signups to populate the manifest.",
+      "you": "(you)",
+      "supplier": "Supplier",
+      "buyFromMarket": "Buy from market",
+      "exchange": "Exchange",
+      "materialFallback": "Mat {{id}}",
+      "leftover": "leftover",
+      "perHour": "{{value}} /h",
+      "atPrice": "@ {{price}}"
+    },
+    "prices": {
+      "role": {
+        "input": "Input",
+        "consumable": "Consumable",
+        "maintenance": "Maintenance"
+      },
+      "header": {
+        "mat": "Mat",
+        "role": "Role",
+        "src": "Src",
+        "price": "Price"
+      },
+      "materialFallback": "Material {{id}}",
+      "materialTitle": "{{name}} · {{role}}",
+      "extractSuffix": " · EXTRACT",
+      "extractBadge": "EX",
+      "extractBadgeTitle": "Extracted / farmed material. Supplier sets the price.",
+      "manual": "Manual",
+      "manualTitle": "Manually overridden",
+      "srcMkt": "Mkt",
+      "srcMktApprox": "Mkt~",
+      "srcBase": "Base",
+      "srcMktTitle": "Market price (high confidence)",
+      "srcMktApproxTitle": "Market price (medium confidence)",
+      "srcBaseTitle": "Base price (no recent market data)",
+      "overrideTitle": "Click to override",
+      "title": "Assumed market prices",
+      "clearOverrides": "Clear overrides",
+      "close": "Close",
+      "empty": "No external prices needed. The chain is fully in-guild."
+    },
+    "pricing": {
+      "title": "Chain",
+      "initiator": "Initiator",
+      "material": "Material",
+      "materialTitle": "View exchange data for this material",
+      "production": "Production",
+      "perDay": "/d",
+      "prices": "Prices",
+      "marketPrices": "Market prices",
+      "marketPricesTitle": "Inspect or override the market prices the chain uses for externally-sourced materials.",
+      "marketCurAvg": "Market (cur / avg)",
+      "marketCurAvgTitle": "Current market price · rolling-average market price for the chain's target material. Compare with the chain's final price below to see how much the guild saves (or overpays).",
+      "chainFinal": "Chain final / u",
+      "chainFinalTitle": "What the chain pays per unit of the target material, blending every step's supplier costs at the current Profit/h/100 burden.",
+      "rateLabel": "Profit / h / 100 burden",
+      "rateTitle": "The shared guild labor rate. Every step pays its supplier(s) r × (step burden / 100) credits per hour above production cost. Typical values land in the 50-300 range.",
+      "rateUnit": "$/h/100b",
+      "rateLabelShort": "Profit/h/100b",
+      "unsavedEdits": "Unsaved edits",
+      "save": "Save",
+      "discard": "Discard",
+      "participants": "Participants",
+      "initiatorTag": "initiator",
+      "creditsPerDayTitle": "Estimated credits per day at the chain's current pricing and signup state.",
+      "creditsPerDay": "{{value}} cr/d"
+    },
+    "creditAdmin": {
+      "title": "Credits (officer)",
+      "close": "Close",
+      "settings": "Settings",
+      "settingsDescription": "α and β set the per-unit credit rate suppliers earn on chains your guild closes. <extract>extract ×</extract> is the buffer on chain-priced extractor / fertility recipes (Mine, Pump, Farm, …). Changes only affect chains created after the change; existing chains keep their snapshot.",
+      "alphaLabel": "α (effort)",
+      "alphaTitle": "Credits per burden-unit of effort, per unit produced.",
+      "betaLabel": "β (loyalty)",
+      "betaTitle": "Credits per cent of forgone profit, per unit produced.",
+      "extractLabel": "extract ×",
+      "extractTitle": "Multiplier on the burden term of chain-pricing for extractor / fertility recipes.",
+      "reset": "Reset",
+      "saving": "Saving…",
+      "save": "Save",
+      "manualAdjustment": "Manual adjustment",
+      "manualDescription": "Grant (positive amount) or remove (negative amount) credits for a single member. Removals are clamped at the member's current balance. Nothing goes below zero.",
+      "member": "Member",
+      "selectMember": "Select a member…",
+      "amount": "Amount",
+      "amountTitle": "Signed credit delta. Positive grants, negative removes (clamped).",
+      "amountPlaceholder": "e.g. 25 or -10",
+      "creditUnit": "cr",
+      "note": "Note",
+      "notePlaceholder": "(optional, visible to officers via metadata)",
+      "applying": "Applying…",
+      "apply": "Apply",
+      "memberOption": "{{name}} · {{balance}} cr",
+      "adjustSuccess": "Done. {{verb}} {{amount}} cr · new balance {{balance}} cr",
+      "verbGranted": "Granted",
+      "verbRemoved": "Removed"
+    },
+    "creditBalance": {
+      "creditsSuffix": "{{value}} cr",
+      "reason": {
+        "chainContribution": "Chain contribution",
+        "chainSpend": "Spend",
+        "adjustment": "Adjustment",
+        "donationOverage": "Donation overage"
+      },
+      "justNow": "just now",
+      "minutesAgo": "{{count}}m ago",
+      "hoursAgo": "{{count}}h ago",
+      "daysAgo": "{{count}}d ago",
+      "title": "Guild credits",
+      "settings": "Settings",
+      "settingsTitle": "Officer settings & adjustments",
+      "myBalance": "My balance",
+      "loading": "Loading…",
+      "loadErrorMine": "Couldn't load your credits.",
+      "guildBalances": "Guild balances",
+      "loadErrorBalances": "Couldn't load guild balances.",
+      "noBalances": "No balances yet. Members earn credits when chains are closed.",
+      "companyFallback": "Company {{id}}",
+      "you": "(you)",
+      "myRecentActivity": "My recent activity",
+      "noActivity": "No activity yet. Credits are minted when chains you supplied are closed.",
+      "txTitle": "{{reason}} · {{sourceRef}}",
+      "chainRef": "· chain #{{id}}"
+    },
+    "creditPill": {
+      "title": "Open credits & ledger in the Trade hub",
+      "credits": "Credits",
+      "creditsSuffix": "{{value}} cr"
+    },
+    "recipeDisplay": {
+      "noInputs": "no inputs",
+      "selectRecipe": "Select recipe"
+    }
+  },
+  "trade": {
+    "chainsModule": {
+      "navSubtitle": {
+        "active": "{{count}} active"
+      },
+      "center": {
+        "loadingGuild": {
+          "title": "Loading guild",
+          "body": "Loading your guild membership…"
+        },
+        "noGuild": {
+          "title": "No guild",
+          "body": "Your account does not appear to belong to a guild yet. Visit the Guild page first to sync your profile."
+        },
+        "chainError": {
+          "title": "Chain error"
+        },
+        "chainMaterials": {
+          "title": "Chain materials"
+        },
+        "noChain": {
+          "title": "No chain selected",
+          "body": "Pick a chain from the list on the left, or click <2>New chain</2> to draft one."
+        }
+      },
+      "right": {
+        "pricing": {
+          "title": "Pricing",
+          "noChain": "No chain selected yet."
+        }
+      },
+      "transitions": {
+        "restore": {
+          "confirm": "Restore this chain?",
+          "confirmLabel": "Restore",
+          "label": "Restore"
+        },
+        "inspect": {
+          "tooltip": "Inspect signups' snapshots + chain tuning values",
+          "label": "Inspect"
+        },
+        "publish": {
+          "confirm": "Publish this chain?",
+          "confirmLabel": "Publish",
+          "label": "Publish"
+        },
+        "start": {
+          "confirm": "Start production?",
+          "confirmLabel": "Start",
+          "label": "Start production"
+        },
+        "close": {
+          "confirm": "Close this chain?",
+          "confirmLabel": "Close",
+          "label": "Close"
+        },
+        "cancel": {
+          "confirm": "Cancel this chain?",
+          "confirmLabel": "Cancel chain",
+          "label": "Cancel"
+        },
+        "reopen": {
+          "confirm": "Reopen this chain?",
+          "confirmLabel": "Reopen",
+          "label": "Reopen"
+        },
+        "delete": {
+          "confirm": "Delete this chain?",
+          "confirmLabel": "Delete",
+          "tooltip": "Delete this chain."
+        }
+      }
+    },
+    "creditAdjust": {
+      "title": "Adjust credits",
+      "close": "Close",
+      "intro": "Grant (positive amount) or remove (negative amount) credits for a single member. Removals are clamped at the member's current balance so nothing goes below zero.",
+      "memberLabel": "Member",
+      "memberPlaceholder": "Select a member…",
+      "memberOption": "{{name}} · {{balance}} cr",
+      "amountLabel": "Amount",
+      "amountTooltip": "Signed credit delta. Positive grants, negative removes (clamped).",
+      "amountPlaceholder": "e.g. 25 or -10",
+      "noteLabel": "Note",
+      "notePlaceholder": "(optional, visible to officers via metadata)",
+      "unit": "cr",
+      "successGranted": "Granted {{amount}} cr · new balance {{balance}} cr",
+      "successRemoved": "Removed {{amount}} cr · new balance {{balance}} cr",
+      "applying": "Applying…",
+      "apply": "Apply"
+    },
+    "creditSettings": {
+      "title": "Credit settings",
+      "description": "α and β set the per-unit credit rate suppliers earn on chains the guild closes. <1>extract ×</1> is the buffer on chain-priced extractor / fertility recipes. Changes only affect chains created after the change.",
+      "alpha": {
+        "label": "α (effort)",
+        "tooltip": "Credits per burden-unit of effort, per unit produced."
+      },
+      "beta": {
+        "label": "β (loyalty)",
+        "tooltip": "Credits per cent of forgone profit, per unit produced."
+      },
+      "extract": {
+        "label": "extract ×",
+        "tooltip": "Multiplier on the burden term of chain-pricing for extractor / fertility recipes."
+      },
+      "reset": "Reset",
+      "saving": "Saving…",
+      "save": "Save"
+    },
+    "creditsModule": {
+      "unit": "cr",
+      "loading": "Loading…",
+      "relative": {
+        "justNow": "just now",
+        "minutes": "{{count}}m ago",
+        "hours": "{{count}}h ago",
+        "days": "{{count}}d ago"
+      },
+      "reason": {
+        "chainContribution": "Chain contribution",
+        "chainSpend": "Spend",
+        "adjustment": "Adjustment",
+        "donationOverage": "Donation overage"
+      },
+      "alphaBanner": "<0>Alpha feature.</0> Guild Trade is in an early alpha state and very much still a work in progress. Expect rough edges, changing math and occasional resets.",
+      "myCredits": {
+        "title": "My credits",
+        "currentBalance": "Current balance",
+        "loadError": "Couldn't load your balance."
+      },
+      "breakdown": {
+        "earned": "Earned",
+        "earnedEmpty": "Nothing earned in recent activity.",
+        "spent": "Spent",
+        "spentEmpty": "Nothing spent in recent activity."
+      },
+      "activity": {
+        "title": "Recent activity",
+        "loadError": "Couldn't load activity.",
+        "empty": "No activity yet. Credits are minted when chains you supplied close.",
+        "breakdownNote_one": "Breakdown computed from the most recent {{count}} transaction.",
+        "breakdownNote_other": "Breakdown computed from the most recent {{count}} transactions.",
+        "rowTitle": "{{label}} · {{sourceRef}}",
+        "chainSuffix": "· chain #{{id}}"
+      },
+      "balances": {
+        "title": "Guild balances",
+        "edit": "Edit",
+        "editTooltip": "Grant or remove credits for a guild member.",
+        "loadError": "Couldn't load guild balances.",
+        "empty": "No balances yet. Members earn credits when chains close.",
+        "you": "(you)"
+      }
+    },
+    "marketplace": {
+      "navSubtitle": "Soon",
+      "title": "Marketplace",
+      "description": "Post offers to buy or sell goods inside the guild at fixed prices, with credits as a discount layer. Not built yet."
+    }
+  }
+}

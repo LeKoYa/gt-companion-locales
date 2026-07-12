@@ -1,0 +1,309 @@
+{
+  "apiSettings": {
+    "panelTitle": "API settings",
+    "help": {
+      "label": "API settings help",
+      "tooltip": "Configure API access and sharing."
+    }
+  },
+  "apiAccess": {
+    "title": "API access",
+    "help": {
+      "label": "API access help",
+      "tooltip": "Manage your API key."
+    },
+    "loading": "Loading credentials…",
+    "keyLabel": "API key",
+    "keyPlaceholder": "Paste your API key",
+    "saveButton": "Save key",
+    "stats": {
+      "remaining": "Remaining",
+      "reset": "Reset",
+      "retry": "Retry"
+    },
+    "notice": {
+      "revoked": {
+        "title": "API Key Revoked",
+        "message": "The current key was rejected. Remove it and add a <limited>limited</limited> or <extended>extended</extended> key."
+      },
+      "required": {
+        "title": "API Key Required",
+        "message": "Add a <limited>limited</limited> or <extended>extended</extended> key to unlock authenticated features."
+      }
+    },
+    "levels": {
+      "rowLabel": "Access levels",
+      "description": "An <extended>extended</extended> key gives full access; a <limited>limited</limited> key covers most features. Public keys are not supported."
+    },
+    "errors": {
+      "loadCredentials": "Failed to load credentials",
+      "saveKey": "Failed to save API key",
+      "deleteCredential": "Failed to delete credential"
+    }
+  },
+  "accessLevels": {
+    "formatted": {
+      "extended": "Extended (full access)",
+      "limited": "Limited",
+      "public": "Public (upgrade required)",
+      "unknown": "Unknown"
+    },
+    "headers": {
+      "limited": "Limited",
+      "extended": "Extended"
+    },
+    "featureColumn": "Feature",
+    "features": {
+      "coreTools": "Core tools (Base, Flight, Research, Profitability, etc.)",
+      "guildDonations": "Guild donations",
+      "wishlists": "Wishlists"
+    }
+  },
+  "sharing": {
+    "title": "Sharing preferences",
+    "help": {
+      "label": "Sharing preferences help",
+      "tooltip": "Choose who can see your data."
+    },
+    "intro": "You can share information about your company with other users and control who can see what.",
+    "developerAccess": {
+      "label": "Let the developer use my API key for testing, debugging and improvements",
+      "description": "Your API key can be used to fetch your company data for bug fixes, feature testing and working on updates.",
+      "confirm": "Enable developer access?\n\nThis lets the developer use your API key to fetch your company data for testing, debugging and working on improvements. It is separate from your sharing preferences and does not expose your data to other users."
+    },
+    "options": {
+      "nobody": "Nobody",
+      "guild": "Guild",
+      "public": "Public"
+    },
+    "groups": {
+      "company": {
+        "title": "Company",
+        "companyResearch": "Research levels",
+        "prestigePerks": "Prestige perks",
+        "perkImpact": "Perk impact"
+      },
+      "ships": {
+        "title": "Ships",
+        "shipsDesigns": "Ship designs",
+        "shipsRoutes": "Ship routes",
+        "shipsInventories": "Ship inventories"
+      },
+      "warehouses": {
+        "title": "Warehouses",
+        "warehousesBases": "Base warehouses",
+        "warehousesExchange": "Exchange inventory"
+      },
+      "bases": {
+        "title": "Bases",
+        "basesNames": "Base names",
+        "basesLayouts": "Base layouts",
+        "basesProduction": "Base production",
+        "basesOverheadSummary": "Workforce overhead",
+        "basesOverheadSummarySuffix": "consumables totals + admin center level only; used by guild Admin Center ROI"
+      },
+      "contracts": {
+        "title": "Contracts",
+        "contractsActive": "Active contracts"
+      },
+      "productionChains": {
+        "title": "Production Chains",
+        "guildChains": "Guild chain personalization",
+        "guildChainsSuffix": "lets your guild use your research, perks & workforce to price your chain signups fairly; defaults to Guild"
+      },
+      "upcoming": {
+        "title": "Upcoming",
+        "others": "Upcoming features"
+      }
+    },
+    "errors": {
+      "loadSettings": "Failed to load settings",
+      "updateSharing": "Failed to update sharing"
+    }
+  },
+  "privacy": {
+    "title": "API key privacy & storage",
+    "help": {
+      "label": "Privacy & storage help",
+      "tooltip": "How keys are stored and used."
+    },
+    "storageDuration": {
+      "label": "Data storage duration",
+      "text": "Cached responses and decrypted data are purged within 48 hours. Encrypted API keys are stored longer to allow sharing of information with others."
+    },
+    "dataSharing": {
+      "label": "Data sharing",
+      "text": "Stored keys remain private to this service; only the site owners have access to them."
+    },
+    "purpose": {
+      "label": "Purpose",
+      "text": "Keys are used strictly to proxy authenticated Game API requests and persist essential cache entries."
+    },
+    "keyStorage": {
+      "label": "Key storage",
+      "text": "Encrypted at rest and only decrypted in-memory while making outbound Game API calls."
+    },
+    "accessLevel": {
+      "label": "Access Level",
+      "text": "Extended access keys unlock every dashboard (including guild donations); limited keys cover most planning tools and are used for sharing with others."
+    }
+  },
+  "functionality": {
+    "panelTitle": "Functionality",
+    "help": {
+      "label": "Functionality help",
+      "tooltip": "App-wide feature toggles."
+    }
+  },
+  "general": {
+    "title": "General",
+    "sync": {
+      "label": "Cross-device sync",
+      "toggle": "Sync settings across devices",
+      "description": "Syncs all saved settings and data, including favorites, profitability overrides, recipe chains, saved base plans, snapshots, ship blueprints, etc. Enabling this setting for the first time might discard saved information on other devices.",
+      "lastSynced": "Last synced: {{time}}"
+    },
+    "donation": {
+      "label": "Donation button",
+      "toggle": "Show donation button",
+      "description": "Toggle the Buy me a coffee button visibility."
+    },
+    "statTiles": {
+      "label": "Stat tiles",
+      "toggle": "Show stat tiles in the top bar and menu",
+      "description": "Toggle the rank, prestige and company value tiles."
+    },
+    "debug": {
+      "label": "Debug info",
+      "toggle": "Show additional debug information",
+      "description": "Enables extra debug tables and breakdowns throughout the app."
+    }
+  },
+  "customPrices": {
+    "title": "Custom Prices",
+    "help": {
+      "label": "Custom prices help",
+      "tooltip": "Global vs per-page custom prices."
+    },
+    "syncLabel": "Sync across pages",
+    "syncToggle": "Use the same custom prices on every page",
+    "syncDescription": "Turn this off to manage independent price overrides for each page. When disabled, every page remembers its own custom values."
+  },
+  "favorites": {
+    "title": "Favorites",
+    "help": {
+      "label": "Favorites help",
+      "tooltip": "Sync favorites across pages."
+    },
+    "syncLabel": "Sync across pages",
+    "syncToggle": "Link material favorites to recipes",
+    "syncDescription": "When enabled, material favorites can auto-favorite matching recipes and unfavoriting recipes can clear the material."
+  },
+  "productionSettings": {
+    "title": "Production Settings",
+    "help": {
+      "label": "Production settings help",
+      "tooltip": "Sync production settings across pages."
+    },
+    "syncLabel": "Sync across pages",
+    "syncToggle": "Use the same production settings on every page",
+    "syncDescription": "When enabled, research overrides and overhead previews stay in sync between Base and Profitability."
+  },
+  "baseSettings": {
+    "title": "Base Settings",
+    "startingBase": {
+      "label": "Starting base",
+      "demolishedToggle": "Starting base demolished",
+      "notSet": "Not set",
+      "option": "{{name}} (ID {{id}})",
+      "description": "Used to hide the starting-planet terraform warning on other bases. Enable the checkbox if the original starting base no longer exists."
+    },
+    "starterPlanning": {
+      "label": "Starter base planning",
+      "toggle": "Show starter base option when planning a new base",
+      "description": "Adds a control in the Warnings & info panel to simulate construction costs as a starter base (12 free terraform slots, 3 star slots)."
+    },
+    "wishlistDefault": {
+      "label": "Wishlist default",
+      "toggle": "Default to base wishlist when creating from preview",
+      "description": "When enabled, the wishlist builder opened from the upgrade preview defaults to the base's own wishlist instead of creating a new one."
+    },
+    "alerts": {
+      "warning": "Warning",
+      "critical": "Critical",
+      "consumablesLabel": "Consumable supply alerts",
+      "inputsLabel": "Input supply alerts",
+      "warehouseFullLabel": "Warehouse full alerts"
+    },
+    "warehouseTarget": {
+      "label": "Warehouse target supply",
+      "description": "Days of supply the “W” hotkey sizes base warehouses to."
+    }
+  },
+  "profitabilityColors": {
+    "title": "Profitability colors",
+    "help": {
+      "label": "Profitability colors help",
+      "tooltip": "Customize profit color thresholds for recipe cards."
+    },
+    "paletteLabel": "Palette",
+    "palette": {
+      "bad": "Bad",
+      "average": "Average",
+      "good": "Good"
+    },
+    "resetButton": "Reset",
+    "tierBreakpoints": "T{{tier}} building breakpoints",
+    "badToAverage": "Bad → Average",
+    "averageToGood": "Average → Good"
+  },
+  "apiLog": {
+    "panelTitle": "API call log",
+    "help": {
+      "label": "API call log help",
+      "tooltip": "Recent requests made by this browser session."
+    },
+    "summaryTitle": "Summary",
+    "summary": {
+      "total": "Total: {{value}}",
+      "cache": "Cache: {{value}}",
+      "game": "Game API: {{value}}",
+      "refresh": "(refresh {{value}})",
+      "local": "Local: {{value}}"
+    },
+    "byEndpointTitle": "By endpoint",
+    "table": {
+      "endpoint": "Endpoint",
+      "total": "Tot",
+      "cache": "C",
+      "game": "G",
+      "local": "L"
+    },
+    "noCalls": "No calls recorded.",
+    "recentCallsTitle": "Recent calls",
+    "actionsTitle": "Actions",
+    "clearButton": "Clear log"
+  },
+  "appInfo": {
+    "panelTitle": "App info",
+    "generalTitle": "General",
+    "versionLabel": "Version number",
+    "usersTitle": "GT-Companion users",
+    "loadingUsers": "Loading active companies…",
+    "loadError": "Failed to load active companies",
+    "usersError": "Failed to load active companies.",
+    "noUsageData": "No usage data available.",
+    "ranges": {
+      "last1h": "Last 1h",
+      "last12h": "Last 12h",
+      "last24h": "Last 24h",
+      "last3d": "Last 3d",
+      "last7d": "Last 7d",
+      "total": "Total"
+    }
+  },
+  "layout": {
+    "appInfoToggle": "App info",
+    "apiLogToggle": "API log"
+  }
+}
