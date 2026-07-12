@@ -31,6 +31,7 @@ English source: **4342 strings** across 17 namespaces.
 
 | Language | | Strings | Coverage |
 | --- | --- | ---: | ---: |
+| German (`de`) | `█░░░░░░░░░░░░░░░░░░░` | 155 / 4342 | 3.6% |
 | Chinese (`zh`) | `░░░░░░░░░░░░░░░░░░░░` | 14 / 4342 | 0.3% |
 
 <sub>Generated automatically. Anything untranslated falls back to English.</sub>
