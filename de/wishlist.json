@@ -1,0 +1,251 @@
+{
+  "header": {
+    "title": "Wunschlisten-Builder",
+    "hideWishlists": "Wunschlisten ausblenden",
+    "showWishlists": "Wunschlisten anzeigen",
+    "existingWishlists": "Vorhandene Wunschlisten",
+    "existingTotalsTooltip": "Gesamtgewicht und Gesamtkosten aller vorhandenen Wunschlisten (Summe der im Spiel gespeicherten Mengen)."
+  },
+  "builder": {
+    "requiredSectionDefault": "Baumaterialien",
+    "baseStockDefault": "Basis",
+    "exchangeStockDefault": "Handelsplatz",
+    "desiredTargetDefault": "Gewünscht"
+  },
+  "sidebar": {
+    "loading": "Wunschlisten werden geladen…",
+    "empty": "Noch keine Wunschlisten.",
+    "customSection": "Eigene Wunschlisten",
+    "baseSection": "Basis-Wunschlisten",
+    "noMaterials": "Keine Materialien.",
+    "wishlistCount_one": "{{count}} Wunschliste",
+    "wishlistCount_other": "{{count}} Wunschlisten"
+  },
+  "manage": {
+    "manage": "Verwalten",
+    "done": "Fertig",
+    "clear": "Leeren",
+    "selectAll": "Alle auswählen",
+    "delete": "Löschen",
+    "deleting": "Wird gelöscht…",
+    "deleteWithCount_one": "Löschen ({{count}})",
+    "deleteWithCount_other": "Löschen ({{count}})",
+    "confirmDelete_one": "{{count}} Wunschliste löschen? Das kann nicht rückgängig gemacht werden.",
+    "confirmDelete_other": "{{count}} Wunschlisten löschen? Das kann nicht rückgängig gemacht werden.",
+    "confirmDeleteButton": "Löschen bestätigen",
+    "selectedCount_one": "{{count}} ausgewählt",
+    "selectedCount_other": "{{count}} ausgewählt",
+    "deletedCount_one": "{{count}} gelöscht",
+    "deletedCount_other": "{{count}} gelöscht",
+    "notFoundCount_one": "{{count}} bereits leer / nicht gefunden",
+    "notFoundCount_other": "{{count}} bereits leer / nicht gefunden",
+    "deleteFailed": "Massenlöschung fehlgeschlagen.",
+    "selectForDeletionAria": "{{name}} zum Löschen auswählen"
+  },
+  "materials": {
+    "includeConsumables": "Verbrauchsgüter einbeziehen",
+    "includeInputs": "Produktions-Inputs einbeziehen",
+    "deductStock": "{{stock}}-Bestand abziehen",
+    "deductScrapped": "Materialien aus Abriss abziehen"
+  },
+  "table": {
+    "includeAllAria": "Alle Materialien in dieser Tabelle einbeziehen",
+    "includeAllTitle": "Alle Materialien in dieser Tabelle einbeziehen/ausschließen",
+    "includeMaterialAria": "Material {{id}} einbeziehen"
+  },
+  "columns": {
+    "totals": "Summen",
+    "material": {
+      "label": "Material",
+      "tooltip": "Material, das für diesen Schritt benötigt wird. Sterne stehen in Klammern und werden nicht exportiert."
+    },
+    "required": {
+      "label": "Benötigt",
+      "tooltip": "Gesamte für diesen Schritt benötigte Materialien."
+    },
+    "repair": {
+      "label": "Reparatur",
+      "tooltip": "Menge dieses Materials, die für Reparaturen benötigt wird, im Gesamtwert oben enthalten."
+    },
+    "baseStock": {
+      "tooltip": "Verfügbarer Bestand über alle Basislager hinweg."
+    },
+    "exchangeStock": {
+      "tooltip": "Verfügbarer Bestand im Lager des Handelsplatzes."
+    },
+    "scrapBuffer": {
+      "label": "Abriss (Puffer)",
+      "tooltip": "Rückerstattungen aus Abriss und optionaler Puffer von 0,5 Tagen."
+    },
+    "current": {
+      "label": "Aktuell",
+      "tooltip": "Aktuelle Menge in der ausgewählten Wunschliste."
+    },
+    "weight": {
+      "label": "Gewicht",
+      "tooltip": "Gesamtgewicht der Spalte \"Hinzufügen\"."
+    },
+    "cost": {
+      "label": "Kosten",
+      "tooltip": "Gesamtkosten der Spalte \"Hinzufügen\"."
+    },
+    "add": {
+      "label": "Hinzufügen",
+      "tooltip": "Menge, die in die Wunschliste exportiert wird."
+    }
+  },
+  "mode": {
+    "title": "Modus",
+    "splitLabel": "Aufteilung",
+    "oneWishlist": "Eine Wunschliste",
+    "perMilestone": "Pro Meilenstein"
+  },
+  "milestones": {
+    "sectionTitle": "Wunschlisten pro Meilenstein",
+    "description": "Beim Absenden wird pro Meilenstein eine Wunschliste erstellt (und eine für die nach dem letzten Meilenstein verbleibenden Ziele). Leere Gruppen werden übersprungen.",
+    "emptyGroup": "Keine Materialien nötig, Wunschliste wird übersprungen."
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "destination": "Ziel",
+    "oneWishlist": "Eine Wunschliste",
+    "perBase": "Pro Basis",
+    "bases": "Basen",
+    "allBasesIncluded": "Alle Basen einbezogen",
+    "basesIncluded_one": "{{count}}/{{total}} Basen einbezogen",
+    "basesIncluded_other": "{{count}}/{{total}} Basen einbezogen",
+    "includeAll": "Alle einbeziehen",
+    "excludeAll": "Alle ausschließen",
+    "wishlist": "Wunschliste",
+    "createNewWishlist": "Neue Wunschliste erstellen",
+    "createNew": "Neu erstellen",
+    "selectWishlistToUpdate": "Eine Wunschliste zum Aktualisieren auswählen.",
+    "applyMode": "Anwendungsmodus",
+    "overwrite": "Überschreiben",
+    "add": "Hinzufügen",
+    "merge": "Zusammenführen",
+    "materials": "Materialien",
+    "scrapTimeTooltip": "Geschätzte Zeit bis zum Abriss der Gebäude",
+    "consumables": "Verbrauchsgüter",
+    "inputs": "Inputs",
+    "cargoLimit": "Frachtlimit",
+    "cargoOff": "Aus",
+    "cargoManual": "Manuell",
+    "cargoShip": "Schiff",
+    "selectShip": "Schiff auswählen…",
+    "cargoOverweight": "Allein die Baumaterialien überschreiten die Frachtkapazität",
+    "cargoScaled": "Verbrauchsgüter/Inputs auf {{percent}}% skaliert, passend zur Frachtkapazität",
+    "cargoOverweightCombined": "Allein die Baumaterialien überschreiten die kombinierte Frachtkapazität",
+    "cargoScaledCombined": "Verbrauchsgüter/Inputs auf {{percent}}% skaliert, passend zur kombinierten Frachtkapazität aller Basen",
+    "cargoScaledPerBaseNote": "Jede Basis wurde an ihre eigene Frachtkapazität angepasst. Siehe die Abschnitte pro Basis unten."
+  },
+  "advanced": {
+    "toggle": "Erweitert",
+    "hqCosts": "HQ-Kosten",
+    "exclude": "Ausschließen",
+    "combine": "Kombinieren",
+    "separate": "Getrennt",
+    "include": "Einbeziehen",
+    "cargoDist": "Frachtverteilung",
+    "cargoCombined": "Kombiniert",
+    "cargoPerBase": "Pro Basis",
+    "cargoScale": "Frachtskalierung",
+    "cargoAllMats": "Alle Mat.",
+    "cargoIncludedOnly": "Nur einbezogene",
+    "consTarget": "Verbr.-Ziel",
+    "intermediates": "Zwischenprodukte",
+    "intermediatesTooltip": "Puffer an Materialien, die die Basis sowohl produziert als auch verbraucht. Gibt Sekundärfabriken einen Anfangsbestand, während die Primärfabriken hochfahren",
+    "repair": "Reparatur",
+    "repairBufferTooltip": "Zusätzliche Stunden an Gebäudeschaden, die ebenfalls abgedeckt werden",
+    "modes": {
+      "exclude": "ausschließen",
+      "combine": "kombinieren",
+      "separate": "getrennt",
+      "include": "einbeziehen"
+    },
+    "summary": {
+      "hq": "HQ: {{mode}}",
+      "cargoPerBase": "Fracht: pro Basis",
+      "cargoScaleIncluded": "Frachtskalierung: nur einbezogene",
+      "target": "Ziel: {{value}}",
+      "intermediates": "Zwischenprodukte: {{days}}T",
+      "repair": "Reparatur: {{mode}}{{buffer}}"
+    }
+  },
+  "preview": {
+    "title": "Vorschau",
+    "baseWishlistsTarget": "Basis-Wunschlisten",
+    "selectedWishlistTarget": "Ausgewählte Wunschliste",
+    "constructionSectionTitle": "{{section}} (Wunschliste: {{target}})",
+    "supplementalSectionTitle": "Verbrauchsgüter, Inputs & Zwischenprodukte (Wunschliste: {{target}})",
+    "hqSectionTitle": "HQ-Kosten (Wunschliste: HQ upgrade)",
+    "noBaseIssueData": "Keine Daten zu Basisproblemen für die gruppierte Vorschau verfügbar.",
+    "cargoOverweightPerBase": "Allein die Baumaterialien überschreiten das Frachtbudget dieser Basis",
+    "cargoScaledPerBase": "Verbrauchsgüter/Inputs auf {{percent}}% skaliert, passend zum Frachtbudget dieser Basis",
+    "enableSupplemental": "Verbrauchsgüter, Inputs oder Zwischenprodukte aktivieren, um eine Vorschau zu sehen.",
+    "noSupplementalData": "Keine Daten zu Verbrauchsgütern, Inputs oder Zwischenprodukten für diese Basis verfügbar.",
+    "noSupplementalSelected": "Keine Verbrauchsgüter, Inputs oder Zwischenprodukte ausgewählt.",
+    "noHqSelected": "Keine HQ-Kosten ausgewählt."
+  },
+  "footer": {
+    "status": {
+      "creatingMilestones": "Meilenstein-Wunschlisten werden erstellt…",
+      "updatingBases": "Basis-Wunschlisten werden aktualisiert…",
+      "creating": "Wunschliste wird erstellt…",
+      "updating": "Wunschliste wird aktualisiert…"
+    },
+    "rateLimited": "Zu viele Anfragen. Bitte kurz warten und es erneut versuchen.",
+    "sectionRequired": "Benötigt",
+    "sectionSupplemental": "Verbrauchsgüter / Inputs / Zwischenprodukte",
+    "sectionHq": "HQ-Kosten",
+    "totals": {
+      "baseColumn": "Basis",
+      "sectionColumn": "Abschnitt",
+      "perBaseTitle": "Summen pro Basis",
+      "breakdownTitle": "Aufschlüsselung",
+      "cargoLimit": "Frachtlimit",
+      "perBaseValue": "{{tons}} t / Basis",
+      "weightColumn": "Gewicht",
+      "costColumn": "Kosten",
+      "sum": "Summe"
+    }
+  },
+  "actions": {
+    "cancel": "Abbrechen",
+    "saving": "Wird gespeichert…",
+    "createMilestones_one": "{{count}} Wunschliste erstellen",
+    "createMilestones_other": "{{count}} Wunschlisten erstellen",
+    "updateBases": "Basis-Wunschlisten aktualisieren",
+    "createWishlist": "Wunschliste erstellen",
+    "updateWishlist": "Wunschliste aktualisieren",
+    "copyMaterialsAria": "Tabellenmaterialien für den Chat kopieren",
+    "copiedChatText": "Chat-Text kopiert.",
+    "noMaterialsToCopy": "Keine Materialien zum Kopieren.",
+    "copyAsChatText": "Als Chat-Text kopieren"
+  },
+  "toasts": {
+    "createdCount_one": "{{count}} Wunschliste erstellt.",
+    "createdCount_other": "{{count}} Wunschlisten erstellt.",
+    "createFailed": "Wunschliste konnte nicht erstellt werden.",
+    "createPartialFail": "{{message}} ({{created}} erstellt, {{remaining}} nicht erstellt)"
+  },
+  "variants": {
+    "repairMaterials": "Reparaturmaterialien",
+    "researchData": "Forschungsdaten",
+    "basesStock": "Basen",
+    "exchangeStock": "Handelsplatz"
+  },
+  "submit": {
+    "noBaseWishlistsAvailable": "Keine Basis-Wunschlisten verfügbar.",
+    "rateLimited": "Zu viele Anfragen beim Aktualisieren der Basis-Wunschlisten.",
+    "baseWishlistsAlreadyMatch": "Die Basis-Wunschlisten stimmen bereits mit der Vorschau überein.",
+    "noBaseWishlistsUpdated": "Es wurden keine Basis-Wunschlisten aktualisiert.",
+    "alreadyMatchedPreview": "({{count}} stimmten bereits mit der Vorschau überein)",
+    "updatedBase_one": "{{count}} Basis-Wunschliste aktualisiert{{suffix}}.",
+    "updatedBase_other": "{{count}} Basis-Wunschlisten aktualisiert{{suffix}}.",
+    "created_one": "Wunschliste erstellt.",
+    "created_other": "Wunschlisten erstellt.",
+    "updated": "Wunschliste aktualisiert.",
+    "failedToSave": "Speichern fehlgeschlagen."
+  }
+}

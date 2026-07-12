@@ -1,0 +1,15 @@
+{
+  "page": {
+    "panels": {
+      "guides": "Guides",
+      "contents": "Inhalt"
+    },
+    "toggles": {
+      "sections": "Abschnitte",
+      "contents": "Inhalt"
+    }
+  },
+  "sections": {
+    "patchNotes": "Patch Notes"
+  }
+}

@@ -7,8 +7,6 @@
       "tradeVolumeHistory": "Failed to load trade volume history."
     },
     "header": {
-      "overviewHelpLabel": "Exchange overview help",
-      "overviewHelpTooltip": "Learn how to read the exchange overview.",
       "day": "Day {{date}}",
       "window": "Window {{window}}",
       "coverage": "Coverage {{pct}}%",
@@ -149,8 +147,6 @@
       "avgSnapshotsPerDay": "Avg snapshots / day",
       "pollInterval": "Poll interval",
       "listingCompanies": "Listing companies",
-      "listingActivityHelpLabel": "Listing activity help",
-      "listingActivityHelpTooltip": "How listing activity is calculated.",
       "activeCompaniesTooltip": "Distinct companies with at least one active listing in this window.",
       "activeCompanies": "Active companies ({{window}})",
       "windowTotal": "total",
@@ -329,9 +325,7 @@
       "reset": "Reset"
     },
     "panel": {
-      "title": "Custom Prices",
-      "helpLabel": "Custom prices help",
-      "helpTooltip": "Learn how custom prices override market defaults."
+      "title": "Custom Prices"
     }
   },
   "materialDetail": {

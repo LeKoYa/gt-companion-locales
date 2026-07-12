@@ -1,0 +1,428 @@
+{
+  "company": {
+    "header": {
+      "fallbackTitle": "Unternehmensdetails",
+      "companyId": "Unternehmens-ID: {{id}}",
+      "searchCompany": "Unternehmen suchen"
+    },
+    "tabs": {
+      "overview": "Übersicht",
+      "bases": "Basen",
+      "production": "Produktion",
+      "warehouses": "Lager",
+      "contracts": "Verträge",
+      "ships": "Schiffe",
+      "perks": "Perks",
+      "exchange": "Handelsplatz",
+      "history": "Verlauf",
+      "events": "Events",
+      "selectPlaceholder": "Tab auswählen",
+      "unavailableSuffix": " (nicht verfügbar)"
+    },
+    "common": {
+      "total": "Gesamt",
+      "empty": "Leer",
+      "copied": "Kopiert!",
+      "copyChatText": "Als Chat-Text kopieren",
+      "unknownLocation": "Unbekannter Ort"
+    },
+    "details": {
+      "loading": "Unternehmensdetails werden geladen…",
+      "failed": "Unternehmensdetails konnten nicht geladen werden."
+    },
+    "intel": {
+      "apiKeyRequired": "API-Schlüssel erforderlich, um freigegebenes Intel zu sehen.",
+      "apiKeyRequiredShort": "API-Schlüssel erforderlich",
+      "loading": "Intel wird geladen…",
+      "failed": "Intel konnte nicht geladen werden."
+    },
+    "columns": {
+      "material": "Material",
+      "usedPerDay": "Verbrauch/Tag",
+      "producedPerDay": "Produktion/Tag",
+      "weightPerDay": "Gewicht/Tag",
+      "netPerDay": "Netto/Tag",
+      "valuePerDay": "Wert/Tag",
+      "stock": "Bestand",
+      "qty": "Menge",
+      "weight": "Gewicht",
+      "value": "Wert",
+      "type": "Typ",
+      "partner": "Partner",
+      "planet": "Planet",
+      "qtyEa": "Menge / Stk",
+      "qtyDay": "Menge / Tag",
+      "totalDay": "Gesamt / Tag",
+      "tier": "Tier",
+      "dist": "Entf.",
+      "workers": "Arbeiter",
+      "time": "Zeit",
+      "event": "Event",
+      "details": "Details",
+      "name": "Name",
+      "reactor": "Reaktor",
+      "emitters": "Emitter",
+      "emitter": "Emitter",
+      "cargo": "Fracht",
+      "tank": "Tank",
+      "fuel": "Treibstoff",
+      "perk": "Perk",
+      "lvl": "Stufe",
+      "bonus": "Bonus",
+      "valuePerPoint": "Wert/Pkt",
+      "nextPerDay": "Nächste/Tag",
+      "nextPerPoint": "Nächste/Pkt"
+    },
+    "overview": {
+      "stat": {
+        "value": "Wert",
+        "prestige": "Prestige",
+        "workforce": "Arbeitskräfte",
+        "guild": "Gilde",
+        "founded": "Gegründet",
+        "lastSeen": "Zuletzt gesehen"
+      },
+      "planetsTitle": "Planeten ({{count}})",
+      "loadingPlanets": "Planeten werden geladen…",
+      "failedPlanets": "Planeten konnten nicht geladen werden.",
+      "noBases": "Keine Basen gefunden.",
+      "research": "Forschung",
+      "researchUnavailable": "Forschungsdaten nicht verfügbar"
+    },
+    "bases": {
+      "noBasesForCompany": "Keine Basen für dieses Unternehmen gefunden.",
+      "selectBase": "Basis auswählen…",
+      "inspectBase": "Basis ansehen",
+      "summary": "Zusammenfassung",
+      "inputCost": "Input-Kosten",
+      "consumables": "Verbrauchsgüter",
+      "maintenance": "Wartung",
+      "income": "Einnahmen",
+      "profit": "Gewinn",
+      "noBaseData": "Keine Daten für diese Basis.",
+      "production": "Produktion",
+      "warehouse": "Lager",
+      "layout": "Layout",
+      "merged": "Zusammengefasst",
+      "grouped": "Gruppiert",
+      "noProductionEntries": "Keine Produktionseinträge.",
+      "noConsumables": "Keine Verbrauchsgüter.",
+      "noProductionData": "Keine Produktionsdaten für diese Basis.",
+      "noWarehouseData": "Keine Lagerdaten für diese Basis.",
+      "noLayoutData": "Keine Layout-Daten für diese Basis."
+    },
+    "production": {
+      "notShared": "Produktion nicht freigegeben oder keine Daten verfügbar.",
+      "noCostData": "Keine Kostendaten verfügbar.",
+      "allBases": "Produktion (alle Basen)",
+      "summaryWithCount": "Zusammenfassung ({{count}} Basen)"
+    },
+    "warehouses": {
+      "notShared": "Lager nicht freigegeben oder keine Daten verfügbar.",
+      "exchange": "Handelsplatz",
+      "exchangeShort": "Ex",
+      "exchangeCount": "Handelsplatz ({{count}})",
+      "exchangeShortCount": "Ex ({{count}})",
+      "bases": "Basen",
+      "basesCount": "Basen ({{count}})",
+      "ships": "Schiffe",
+      "shipsCount": "Schiffe ({{count}})",
+      "exchangeNotShared": "Handelsplatz-Lager nicht freigegeben",
+      "baseNotShared": "Basislager nicht freigegeben",
+      "shipNotShared": "Schiffsladung nicht freigegeben",
+      "switchToMaterial": "Zur Materialansicht wechseln",
+      "switchToLocation": "Zur Ortsansicht wechseln",
+      "byMaterial": "Nach Material",
+      "byLocation": "Nach Ort",
+      "arrived": "angekommen",
+      "noMaterials": "Keine Materialien gefunden."
+    },
+    "contracts": {
+      "typeBuy": "Kauf",
+      "typeSell": "Verkauf",
+      "typeUnknown": "Unbekannt",
+      "partnerInGuild": "Gildenintern",
+      "partnerExtern": "Extern",
+      "recurringTitle": "Wiederkehrender Vertrag ({{count}}/Tag)",
+      "activeContracts": "Aktive Verträge ({{count}})",
+      "notShared": "Verträge nicht freigegeben oder keine aktiven Verträge gefunden.",
+      "noActive": "Keine aktiven Verträge gefunden."
+    },
+    "ships": {
+      "shipDesigns": "Schiffsdesigns",
+      "noShipDesigns": "Keine Schiffsdesigns gefunden.",
+      "openInDesigner": "Im Schiffsdesigner öffnen",
+      "fleet": "Flotte",
+      "routesNotShared": "Routen und Bestände sind von diesem Unternehmen nicht freigegeben.",
+      "noFleetData": "Keine Flottendaten gefunden.",
+      "arrives": "Ankunft",
+      "arrivesIn": "in {{duration}}",
+      "arrivedAgo": "vor {{duration}}",
+      "flight": "Flug",
+      "cargo": "Fracht",
+      "efficiency": "Effizienz",
+      "emptyCargo": "Keine Fracht"
+    },
+    "perks": {
+      "perkOverview": "Perk-Übersicht",
+      "active": "Aktiv",
+      "all": "Alle",
+      "noPerks": "Keine Prestige-Perks vergeben.",
+      "requiresLogistics": "Benötigt Logistikdaten",
+      "na": "k. A."
+    },
+    "history": {
+      "windowAll": "Alle",
+      "prestigeValueHistory": "Verlauf von Prestige & Wert",
+      "prestige": "Prestige",
+      "cv": "CV",
+      "both": "Beide",
+      "calendar": "Kalender",
+      "sinceFounding": "Seit Gründung",
+      "loading": "Verlauf wird geladen…",
+      "failed": "Verlauf konnte nicht geladen werden.",
+      "notEnough": "Zu wenige Verlaufspunkte für ein Diagramm.",
+      "dailyGrowth": "Tägliches Wachstum",
+      "value": "Wert",
+      "absolute": "Absolut",
+      "relative": "Relativ",
+      "notEnoughDaily": "Zu wenig Verlauf für die Berechnung des täglichen Wachstums.",
+      "removeFromChart": "Aus Diagramm entfernen",
+      "failedTimeseries": "Zeitreihe konnte nicht geladen werden",
+      "addToCompare": "Unternehmen zum Vergleich hinzufügen…",
+      "compareCompany": "+ Unternehmen vergleichen",
+      "upToCompanies": "Bis zu {{count}} Unternehmen",
+      "coverageWarning": "Teilweiser Zeitraum: Daten verfügbar seit {{date}}",
+      "dayLabel": "Tag {{day}}",
+      "soFar": "(bisher)"
+    },
+    "events": {
+      "title": "Events",
+      "loading": "Events werden geladen…",
+      "failed": "Events konnten nicht geladen werden.",
+      "failedLoad": "Unternehmens-Events konnten nicht geladen werden",
+      "noEvents": "Keine Events in diesem Zeitraum gefunden.",
+      "foundedDateChanged": "Gründungsdatum geändert:",
+      "built": "Gebaut: ",
+      "disbanded": "Aufgelöst: ",
+      "companyDeleted": "Unternehmen in der API nicht mehr gefunden.",
+      "unknownPlanet": "Unbekannter Planet"
+    },
+    "sharing": {
+      "pill": {
+        "noInfo": "Keine Infos",
+        "guild": "Gilde",
+        "public": "Öffentlich",
+        "partial": "Teilweise",
+        "off": "Aus"
+      },
+      "features": {
+        "company_summary": "Unternehmensübersicht",
+        "company_perks": "Prestige-Perks",
+        "research_levels": "Forschung",
+        "base_names": "Basisnamen",
+        "base_layouts": "Basis-Layouts",
+        "base_production": "Produktion",
+        "base_warehouses": "Basislager",
+        "exchange_inventory": "Handelsplatz-Lager",
+        "active_contracts": "Verträge",
+        "ship_designs": "Schiffsdesigns",
+        "ship_routes": "Schiffsrouten",
+        "ship_inventories": "Schiffsladung"
+      },
+      "scope": {
+        "public": "öffentlich",
+        "guild": "gildenintern",
+        "private": "privat"
+      },
+      "status": {
+        "owner": "Eigentümer",
+        "noCompanion": "kein Companion"
+      },
+      "line": "{{name}}: {{status}}"
+    },
+    "share": {
+      "copied": "Kopiert!",
+      "share": "Freigeben",
+      "copyLink": "Link zu diesem Unternehmen kopieren"
+    }
+  },
+  "guild": {
+    "header": {
+      "title": "Gildendetails",
+      "guildIdTooltip": "Gilden-ID: {{id}}",
+      "disbanded": "[aufgelöst]",
+      "searchForGuild": "Gilde suchen"
+    },
+    "tabs": {
+      "overview": "Übersicht",
+      "history": "Verlauf",
+      "events": "Events",
+      "planets": "Planeten",
+      "production": "Produktion",
+      "exchange": "Handelsplatz",
+      "apiKeyRequired": "API-Schlüssel erforderlich",
+      "selectTab": "Tab auswählen",
+      "unavailableSuffix": " (nicht verfügbar)",
+      "loading": "{{tab}} wird geladen…"
+    },
+    "loading": {
+      "details": "Gildendetails werden geladen…",
+      "history": "Verlauf wird geladen…",
+      "events": "Events werden geladen…",
+      "planets": "Gildenplaneten werden geladen…",
+      "production": "Produktionsdaten werden geladen..."
+    },
+    "errors": {
+      "loadDetails": "Gildendetails konnten nicht geladen werden",
+      "loadDetailsDot": "Gildendetails konnten nicht geladen werden.",
+      "loadHistory": "Gildenverlauf konnte nicht geladen werden",
+      "loadHistoryDot": "Verlauf konnte nicht geladen werden.",
+      "loadEvents": "Gilden-Events konnten nicht geladen werden",
+      "loadEventsDot": "Events konnten nicht geladen werden.",
+      "loadPlanets": "Gildenplaneten konnten nicht geladen werden",
+      "loadPlanetsDot": "Gildenplaneten konnten nicht geladen werden.",
+      "loadProduction": "Produktionsdaten konnten nicht geladen werden",
+      "loadProductionDot": "Produktionsdaten konnten nicht geladen werden."
+    },
+    "overview": {
+      "rank": "Rang",
+      "prestige": "Prestige",
+      "totalValue": "Gesamtwert",
+      "members": "Mitglieder",
+      "age": "Alter",
+      "days_one": "{{formatted}} Tag",
+      "days_other": "{{formatted}} Tage",
+      "noProjectData": "Keine Projektdaten verfügbar.",
+      "level": "Stufe"
+    },
+    "members": {
+      "columns": {
+        "name": "Name",
+        "role": "Rolle",
+        "prestige": "Prestige",
+        "value": "Wert"
+      }
+    },
+    "events": {
+      "columns": {
+        "time": "Zeit",
+        "event": "Event",
+        "details": "Details"
+      },
+      "level": "Stufe",
+      "recruitingOn": "Rekrutierung an",
+      "recruitingOff": "Rekrutierung aus",
+      "on": "An",
+      "off": "Aus",
+      "guildCreated": "Gilde gegründet",
+      "guildDisbanded": "Gilde aufgelöst.",
+      "searchPlaceholder": "Events suchen…",
+      "refreshFailed": "Events konnten nicht aktualisiert werden. Vorheriger Zeitraum wird angezeigt.",
+      "emptyState": "Keine Events für den aktuellen Zeitraum/Filter.",
+      "filter": {
+        "button": "Events",
+        "enableAll": "Alle aktivieren",
+        "clear": "Zurücksetzen",
+        "noEventTypes": "Keine Event-Typen",
+        "typesSelected_one": "{{count}} Typ ausgewählt",
+        "typesSelected_other": "{{count}} Typen ausgewählt"
+      }
+    },
+    "history": {
+      "thisGuild": "Diese Gilde",
+      "partialWindow": "Teilweiser Zeitraum: Daten verfügbar seit {{date}}",
+      "series": {
+        "guildPrestige": "Gildenprestige",
+        "memberPrestige": "Mitgliederprestige",
+        "totalValue": "Gesamtwert",
+        "cv": "CV"
+      },
+      "metric": {
+        "guild": "Gilde",
+        "members": "Mitglieder",
+        "cv": "CV",
+        "all": "Alle"
+      },
+      "loadTimeseriesFailed": "Zeitreihe konnte nicht geladen werden",
+      "removeFromChart": "Aus Diagramm entfernen",
+      "addGuildToCompare": "Gilde zum Vergleich hinzufügen…",
+      "compareGuild": "+ Gilde vergleichen",
+      "upToGuilds": "Bis zu {{count}} Gilden",
+      "notEnoughPoints": "Noch zu wenige Verlaufspunkte für diesen Zeitraum."
+    },
+    "planets": {
+      "columns": {
+        "planet": "Planet",
+        "company": "Unternehmen",
+        "tier": "Tier",
+        "guildRank": "Gildenrang",
+        "distToEx": "Entf. zu Ex.",
+        "prestige": "Prestige",
+        "members": "Mitglieder",
+        "value": "Wert"
+      },
+      "mode": {
+        "planet": "Planetenmodus",
+        "planetTooltip": "Eine Zeile pro Planet, aufklappen zeigt die Mitglieder auf diesem Planeten.",
+        "member": "Mitgliedermodus",
+        "memberTooltip": "Eine Zeile pro Mitglied, aufklappen zeigt die Planeten mit Basen dieses Mitglieds."
+      },
+      "emptyPlanets": "Noch keine Planeten für Gildenmitglieder verfügbar.",
+      "emptyMembers": "Keine Gildenmitglieder verfügbar."
+    },
+    "production": {
+      "columns": {
+        "material": "Material",
+        "used": "Verbrauch/Tag",
+        "produced": "Prod./Tag",
+        "net": "Netto/Tag",
+        "weight": "Gewicht",
+        "value": "Wert/Tag"
+      },
+      "view": {
+        "compact": "Kompakt",
+        "byType": "Nach Typ",
+        "byPlanet": "Nach Planet"
+      },
+      "guildProjects": "Gildenprojekte",
+      "otherType": "Sonstige",
+      "total": "Gesamt",
+      "searchPlaceholder": "Suchen…",
+      "projectConsumables": "Verbrauchsgüter für Gildenprojekte",
+      "members": "Mitglieder",
+      "membersCount": "Mitglieder ({{included}}/{{total}})",
+      "selectAll": "Alle auswählen",
+      "deselectAll": "Auswahl aufheben",
+      "noData": "(keine Daten)",
+      "emptyState": "Keine Produktionsdaten verfügbar."
+    }
+  },
+  "exchange": {
+    "columns": {
+      "material": "Material",
+      "rank": "Rang",
+      "salesPct": "Verkäufe %",
+      "sold": "Verkauft",
+      "revenue": "Umsatz",
+      "avgPrice": "Ø Preis",
+      "listed": "Gelistet"
+    },
+    "loading": "Wird geladen...",
+    "loadError": "Handelsplatz-Daten konnten nicht geladen werden.",
+    "showLess": "Weniger anzeigen",
+    "showMore_one": "{{count}} weiteres ohne Verkäufe anzeigen",
+    "showMore_other": "{{count}} weitere ohne Verkäufe anzeigen",
+    "empty": "Keine Handelsplatz-Aktivität in diesem Zeitraum."
+  },
+  "search": {
+    "companyPlaceholder": "Unternehmen suchen…",
+    "guildPlaceholder": "Gilde suchen…",
+    "noResults": "Keine Ergebnisse",
+    "searching": "Wird gesucht…"
+  },
+  "clickable": {
+    "viewCompany": "Unternehmen ansehen",
+    "viewGuild": "Gilde ansehen"
+  }
+}

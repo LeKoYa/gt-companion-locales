@@ -11,7 +11,6 @@
     "settings": "Settings"
   },
   "actions": {
-    "help": "Help",
     "prices": "Prices",
     "remove": "Remove"
   },

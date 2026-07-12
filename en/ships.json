@@ -1,11 +1,7 @@
 {
   "header": {
     "configuration": "Configuration",
-    "configurationHelp": "Configuration help",
     "configurationTooltip": "Ship layout and blueprint setup."
-  },
-  "help": {
-    "open": "Open help"
   },
   "actions": {
     "close": "Close",
@@ -43,8 +39,7 @@
   },
   "modal": {
     "routeSetup": {
-      "title": "Route setup",
-      "help": "Route setup help"
+      "title": "Route setup"
     },
     "mode": "Mode",
     "modeOptions": {
@@ -57,16 +52,13 @@
     "costPerTonReturn": "Cost / ton (return)",
     "marketToFactory": "Market → Factory",
     "outboundFlightTitle": "Outbound flight (factory → market)",
-    "outboundFlightHelp": "Outbound flight help",
-    "returnFlightTitle": "Return flight (market → factory)",
-    "returnFlightHelp": "Return flight help"
+    "returnFlightTitle": "Return flight (market → factory)"
   },
   "ship": {
     "customShip": "Custom ship"
   },
   "shipSelection": {
     "title": "Ship Selection",
-    "help": "Ship selection help",
     "tooltip": "Choose a ship or blueprint to load a base layout.",
     "selectShip": "Select ship",
     "saveBlueprintFavorite": "Save blueprint as favorite",
@@ -84,7 +76,6 @@
   },
   "layout": {
     "title": "Ship Layout",
-    "help": "Ship layout help",
     "tooltip": "Reactor, emitters, cargo, and shielding configuration.",
     "shareLayout": "Share layout",
     "linkCopied": "Copied!",
@@ -128,7 +119,6 @@
   },
   "materials": {
     "title": "Construction Materials",
-    "help": "Construction materials help",
     "tooltip": "How materials are derived from ship stats.",
     "unit": "Unit",
     "total": "Total",
@@ -184,7 +174,6 @@
   },
   "characteristics": {
     "title": "Characteristics",
-    "help": "Characteristics help",
     "tooltip": "How ship stats are calculated.",
     "reactors": "Reactors",
     "energy": "Energy",
@@ -196,7 +185,6 @@
   },
   "simulation": {
     "title": "Flight Simulation",
-    "help": "Flight simulation help",
     "tooltip": "Route planning and efficiency comparisons.",
     "removeLeg": "Remove leg",
     "addLegToRemove": "Add another leg to remove it",
@@ -206,8 +194,7 @@
     "setRouteToEvaluate": "Set start and destination to evaluate"
   },
   "routing": {
-    "title": "Routing Controls",
-    "help": "Routing controls help"
+    "title": "Routing Controls"
   },
   "route": {
     "startPlanet": "Start planet",
@@ -254,7 +241,6 @@
   },
   "flightStats": {
     "title": "Flight Statistics",
-    "help": "Flight statistics help",
     "empty": "Select start and destination planets to view detailed statistics."
   },
   "speedBreakdown": {
@@ -271,7 +257,6 @@
   },
   "flightAnalysis": {
     "title": "Flight Analysis",
-    "help": "Flight analysis help",
     "cheapestTooltip": "Shows flight with the cheapest cost.",
     "cheapestFlight": "Cheapest flight",
     "bestTooltip": "Shows flight with the best cost-time balance.",
@@ -280,7 +265,6 @@
   },
   "bonuses": {
     "title": "Bonuses",
-    "help": "Flight Center help",
     "tooltip": "Guild Flight Center bonus details.",
     "guildFlightCenter": "Guild Flight Center",
     "previewLevel": "Preview another level",
@@ -300,7 +284,6 @@
   },
   "blueprintFavorites": {
     "title": "Blueprint favorites",
-    "help": "Blueprint favorites help",
     "tooltip": "Save and manage favorite layouts.",
     "namePrompt": "Enter a name for this blueprint favorite",
     "cargoCapacity": "Cargo capacity",
@@ -310,7 +293,6 @@
   },
   "routeFavorites": {
     "title": "Route Favorites",
-    "help": "Route favorites help",
     "tooltip": "Save and load frequently used routes.",
     "defaultName": "Route {{number}}",
     "noLegs": "No route legs",
@@ -331,7 +313,6 @@
   },
   "myShips": {
     "title": "My ships",
-    "help": "My ships help",
     "tooltip": "Ships from your company profile."
   },
   "layoutToggles": {
@@ -346,8 +327,6 @@
   "search": {
     "header": {
       "title": "Ship Design Explorer",
-      "helpLabel": "Ship design explorer help",
-      "helpTooltip": "Learn how to use the ship design explorer.",
       "searching": "Searching…",
       "close": "Close"
     },

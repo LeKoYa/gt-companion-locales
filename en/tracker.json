@@ -254,10 +254,6 @@
       "disbanded": "[disbanded]",
       "searchForGuild": "Search for a guild"
     },
-    "help": {
-      "label": "Guild modal help",
-      "tooltip": "Guild modal help."
-    },
     "tabs": {
       "overview": "Overview",
       "history": "History",

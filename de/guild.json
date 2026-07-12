@@ -1,4 +1,307 @@
 {
+  "page": {
+    "projectBonus": {
+      "members": "5 + {{level}} Mitglieder",
+      "reduction": "{{value}}% Reduktion",
+      "speed": "{{value}}% Tempo",
+      "capacity": "{{value}} Tonnen",
+      "effect": "{{value}}% Effekt"
+    },
+    "status": {
+      "label": "Status",
+      "notInGuild": "Derzeit keine Gildenmitgliedschaft vorhanden.",
+      "loading": "Gildendaten werden geladen…",
+      "loadFailed": "Gildendaten konnten nicht geladen werden.",
+      "noData": "Noch keine Gildendaten verfügbar."
+    },
+    "info": {
+      "guild": "Gilde",
+      "rank": "Rang",
+      "prestige": "Prestige",
+      "members": "Mitglieder"
+    },
+    "project": {
+      "level": "Stufe {{level}}",
+      "levelWithMax": "Stufe {{level}}/{{max}}",
+      "overviewFallback": "Projektübersicht",
+      "bonus": "Bonus",
+      "lvl": "Stufe",
+      "resetLevel": "Stufe zurücksetzen",
+      "reset": "Zurücksetzen",
+      "remainingFromTo": "Rest von Stufe {{start}} → Stufe {{target}}",
+      "fromTo": "Von Stufe {{start}} → Stufe {{target}}",
+      "atLevel": "Stufe {{level}}",
+      "dailyCostAtLevel": "Tageskosten auf Stufe {{level}}",
+      "constructionDataMissing": "Baudaten fehlen",
+      "noDailyConsumables": "Keine täglichen Verbrauchsgüter"
+    },
+    "rank": {
+      "leader": "Anführer",
+      "officer": "Offizier",
+      "member": "Mitglied"
+    },
+    "memberPlanets": {
+      "loading": "Mitgliederplaneten werden geladen…",
+      "loadFailed": "Mitgliederplaneten konnten nicht geladen werden.",
+      "noData": "Noch keine erfassten Daten zum Planetenbesitz verfügbar.",
+      "view": "Ansicht",
+      "viewMember": "Mitglied",
+      "viewPlanet": "Planet",
+      "memberTable": {
+        "company": "Unternehmen",
+        "planetSub": "Planet",
+        "guildRank": "Gildenrang",
+        "tierSub": "Tier",
+        "prestige": "Prestige",
+        "distSub": "Entf. z. Ex.",
+        "value": "Wert"
+      },
+      "planetTable": {
+        "planet": "Planet",
+        "memberSub": "Mitglied",
+        "tier": "Tier",
+        "guildRankSub": "Gildenrang",
+        "distToEx": "Entf. z. Ex.",
+        "prestigeSub": "Prestige",
+        "members": "Mitglieder",
+        "valueSub": "Wert"
+      }
+    },
+    "research": {
+      "loadingRoster": "Gildenliste wird geladen…",
+      "noMembers": "Noch keine Gildenmitglieder verfügbar.",
+      "member": "Mitglied",
+      "unknown": "Unbekannt",
+      "statusNoAccount": "Kein GT-Companion-Konto verknüpft.",
+      "statusPrivate": "Forschungsfreigabe ist deaktiviert.",
+      "statusShared": "Forschungsfreigabe aktiviert.",
+      "noneShared": "Noch hat kein Gildenmitglied seine Forschungsstufen freigegeben. Mitglieder bitten, die Forschungsfreigabe in ihren Einstellungen zu aktivieren."
+    },
+    "toggles": {
+      "guildOverview": "Gildenübersicht",
+      "tradeActions": "Handelsaktionen",
+      "customPrices": "Eigene Preise"
+    },
+    "panels": {
+      "guild": "Gilde",
+      "guildOverview": "Gildenübersicht",
+      "guildProjects": "Gildenprojekte",
+      "guildDonations": "Gildenspenden",
+      "memberOverview": "Mitgliederübersicht"
+    },
+    "sections": {
+      "general": "Allgemein",
+      "guildProjects": "Gildenprojekte",
+      "donationTargets": "Spendenziele",
+      "donationLeaderboard": "Spendenrangliste",
+      "prestigeTrend": "Prestige-Trend aus Spenden",
+      "recentDonations": "Letzte Spenden",
+      "memberResearchLevels": "Forschungsstufen der Mitglieder",
+      "memberPlanets": "Mitgliederplaneten"
+    },
+    "projects": {
+      "missingMembership": "Einer Gilde im Spiel beitreten, um hier Gildenprojekte zu sehen.",
+      "loadingMetadata": "Projekt-Metadaten werden geladen…",
+      "noneAssigned": "Noch keine Projekte zugewiesen.",
+      "missingMembershipMain": "Einer Gilde im Spiel beitreten, um Projektdaten zu sehen.",
+      "loadingRequirements": "Projektanforderungen werden geladen…",
+      "noDataMain": "Noch keine Projektdaten verfügbar."
+    },
+    "overview": {
+      "notInGuild": "Derzeit keine Gildenmitgliedschaft vorhanden. Einer Gilde im Spiel beitreten, um Projektverfolgung, Spendenverlauf und Mitgliederansichten freizuschalten."
+    },
+    "donations": {
+      "updated": "Aktualisiert {{date}}",
+      "noCached": "Noch keine zwischengespeicherten Spenden.",
+      "forceRefreshing": "Neu laden wird erzwungen…",
+      "forceRefresh": "Neu laden erzwingen",
+      "showMembers": "Mitglieder anzeigen",
+      "memberCurrent": "Aktuell",
+      "memberAll": "Alle",
+      "chart": "Diagramm",
+      "chartStacked": "Gestapelt",
+      "chartLines": "Linien"
+    }
+  },
+  "donationTargets": {
+    "loading": "Spendenziele werden geladen…",
+    "loadingPlan": "Plan wird geladen…",
+    "settingsButton": "Einstellungen",
+    "contributionRateUnit": "% des CV / {{period}}",
+    "period": {
+      "current": "aktuell",
+      "weekLabel": "Woche {{week}} · {{start}} bis {{end}}",
+      "unit": {
+        "week": "Woche",
+        "month": "Monat"
+      },
+      "donations": {
+        "week": "Spenden der Woche",
+        "month": "Spenden des Monats"
+      }
+    },
+    "status": {
+      "saved": "Gespeichert ✓",
+      "loading": "Wird geladen…",
+      "error": "⚠ Fehler (erneut versuchen)"
+    },
+    "banner": {
+      "unsaved": "Ungespeicherte Änderungen",
+      "preview": "Vorschau, lokale Änderungen werden nicht für die Gilde gespeichert",
+      "reset": "Zurücksetzen",
+      "saving": "Wird gespeichert…",
+      "save": "Für Gilde speichern"
+    },
+    "modes": {
+      "growthTarget": "Wachstumsziel",
+      "pctCvTarget": "% / CV Ziel",
+      "pctCv": "% / CV",
+      "combined": "Kombiniert"
+    },
+    "weightOptions": {
+      "skip": "-",
+      "skipTooltip": "Überspringen",
+      "low": "Niedrig",
+      "mid": "Mittel",
+      "high": "Hoch",
+      "max": "Max"
+    },
+    "settings": {
+      "title": "Einstellungen für Spendenziele",
+      "mode": "Modus",
+      "targets": "Ziele",
+      "weekly": "Wöchentlich",
+      "monthly": "Monatlich",
+      "alpha": "Alpha (α)",
+      "contributionRate": "Beitragsrate",
+      "consumables": "Verbrauchsgüter",
+      "buffer": "Puffer",
+      "fixedTargets": "Feste Ziele",
+      "growthTargets": "Wachstumsziele",
+      "fromLevel": "Stufe {{level}} →",
+      "constructionImportance": "Gewichtung Bau",
+      "freeUpgradeImportance": "Gewichtung Gratis-Upgrade"
+    },
+    "freeze": {
+      "tooltipPast": "Vergangene Zeiträume sind bereits eingefroren.",
+      "tooltipFuture": "CVs werden zu Beginn erfasst ({{period}}).",
+      "tooltipLive": "Hält das Spendenziel jedes Mitglieds im Zeitraum ({{period}}) stabil. Wer mitten im Zeitraum ({{period}}) beitritt, wird automatisch mit dem CV bei erster Erfassung ergänzt.",
+      "label": "Mitglieder-CVs für diesen Zeitraum einfrieren ({{period}})",
+      "description": "Hält die Ziele über den Zeitraum ({{period}}) hinweg stabil. Wer mitten im Zeitraum ({{period}}) beitritt, wird automatisch ergänzt."
+    },
+    "exclude": {
+      "sectionTitle": "Mitglieder von Spenden ausschließen",
+      "autoExcludeBelow": "Automatisch ausschließen unter",
+      "unitMCv": "M CV",
+      "offPlaceholder": "aus",
+      "autoCount": "{{count}} automatisch",
+      "none": "Keine Mitglieder ausgeschlossen",
+      "count_one": "{{count}} Mitglied ausgeschlossen",
+      "count_other": "{{count}} Mitglieder ausgeschlossen",
+      "autoSuffix": "({{count}} automatisch)",
+      "includeAll": "Alle einbeziehen",
+      "excludeAll": "Alle ausschließen",
+      "autoBadge": "auto",
+      "forcedInBadge": "erzwungen",
+      "autoTooltip": "Automatisch ausgeschlossen, zum erzwungenen Einbeziehen abwählen",
+      "forcedInTooltip": "Trotz Schwelle für Auto-Ausschluss erzwungen einbezogen"
+    },
+    "editors": {
+      "sectionTitle": "Spenden-Bearbeiter",
+      "none": "Keine zusätzlichen Bearbeiter",
+      "count_one": "{{count}} Bearbeiter zugewiesen",
+      "count_other": "{{count}} Bearbeiter zugewiesen"
+    },
+    "budget": {
+      "warningPctCv": "Das gemeinsame Budget ({{budget}}) deckt die laufenden Kosten für Verbrauchsgüter ({{consumables}}) nicht",
+      "warningCombined": "Verbrauchsgüter + feste Ziele ({{fixed}}) überschreiten die gemeinsame Obergrenze ({{cap}})",
+      "consumablesLabel": "Verbrauchsgüter:",
+      "constructionLabel": "Bau:",
+      "freeUpgradesLabel": "Gratis-Upgrades:",
+      "percentComplete": "{{pct}}% abgeschlossen",
+      "noPlanSaved": "Für den gewählten Zeitraum ({{period}}) wurde noch kein Gildenplan gespeichert.",
+      "noPlanSavedEditHint": "Über die Einstellungen einen Plan konfigurieren und speichern."
+    },
+    "projects": {
+      "title": "Projekte",
+      "current": "Aktuell",
+      "allLevels": "Alle Stufen",
+      "hideDetails": "Details ausblenden",
+      "showDetails": "Details anzeigen",
+      "consumablesLabel": "Verbrauchsgüter:",
+      "constructionLabel": "Bau:",
+      "consumablesPerPeriod": "Verbrauchsgüter / {{period}}",
+      "construction": "Bau"
+    },
+    "table": {
+      "company": "Unternehmen",
+      "cv": "Unternehmenswert",
+      "cvSnapshot": "CV (Snapshot)",
+      "target": "Ziel",
+      "donated": "Gespendet",
+      "progress": "Fortschritt",
+      "remaining": "Rest",
+      "total": "Gesamt",
+      "average": "Durchschnitt",
+      "newBadge": "neu",
+      "newBadgeTooltip": "Mitten im Zeitraum beigetreten, der CV wird bei der nächsten Planaktualisierung fixiert.",
+      "empty": "Keine beitragenden Mitglieder mit Daten zum Unternehmenswert."
+    },
+    "memberModal": {
+      "alreadyDonated": "Bereits gespendet",
+      "material": "Material",
+      "amount": "Menge",
+      "estValue": "Gesch. Wert",
+      "total": "Gesamt"
+    },
+    "planner": {
+      "title": "Spendenplaner",
+      "material": "Material",
+      "max": "Max",
+      "suggest": "Vorschlagen",
+      "unitPrice": "Stückpreis",
+      "estCost": "Gesch. Kosten",
+      "total": "Gesamt",
+      "noDonatable": "Keine aktuell spendbaren Materialien mit Preisdaten verfügbar."
+    },
+    "guide": {
+      "title": "Spendenleitfaden",
+      "compact": "Kompakt",
+      "detailed": "Detailliert",
+      "chart": "Diagramm",
+      "linear": "Linear",
+      "log": "Log",
+      "noMaterials": "Keine Materialien",
+      "allMaterials": "Alle Materialien",
+      "materialsCount": "{{selected}}/{{total}} Materialien",
+      "noMembers": "Keine Mitglieder",
+      "allMembers": "Alle Mitglieder",
+      "membersCount": "{{selected}}/{{total}} Mitglieder",
+      "selectAll": "Alle",
+      "selectNone": "Keine",
+      "reset": "Zurücksetzen",
+      "memberPlaceholder": "Mitglied",
+      "maxCvPlaceholder": "Max. CV",
+      "guildMax": "Gildenmaximum",
+      "youSuffix": "{{name}} (ich)",
+      "you": "Ich",
+      "later": "Später",
+      "cvTooltip": "CV: {{value}}",
+      "moreCount": "… {{count}} weitere",
+      "axisCompanyValue": "Unternehmenswert",
+      "axisPrestigePer1k": "Prestige / $1k",
+      "columns": {
+        "material": "Material",
+        "now": "Jetzt",
+        "needed": "Bedarf",
+        "market": "Markt",
+        "avg": "Ø",
+        "base": "Basis",
+        "deal": "Deal",
+        "prestigePer1k": "Prestige/$1k"
+      }
+    }
+  },
   "donationLeaderboard": {
     "timeWindows": {
       "1d": "1 Tag",
@@ -7,6 +310,650 @@
       "14d": "14 Tage",
       "30d": "30 Tage",
       "all": "Gesamter Zeitraum"
+    },
+    "projects": {
+      "hq": "HQ",
+      "admin": "Admin",
+      "flight": "Flight",
+      "warehouse": "Warehouse",
+      "arcade": "Arcade"
+    },
+    "status": {
+      "noCachedDonations": "Noch keine zwischengespeicherten Spenden."
+    },
+    "rows": {
+      "total": "Gesamt",
+      "average": "Durchschnitt"
+    },
+    "columns": {
+      "company": "Unternehmen",
+      "prestige": "Prestige",
+      "value": "Wert",
+      "totalPerCv": "Gesamt / $1M CV",
+      "totalWindow": "Gesamt ({{window}})",
+      "selectedFallback": "Auswahl"
+    },
+    "controls": {
+      "showMembers": "Mitglieder anzeigen",
+      "current": "Aktuell",
+      "all": "Alle"
+    },
+    "empty": {
+      "title": "Die Spendenrangliste ist leer.",
+      "hint": "Neu laden erzwingen, um Spendendaten abzurufen.",
+      "forceRefreshing": "Neu laden wird erzwungen…",
+      "forceRefresh": "Neu laden erzwingen"
+    },
+    "autoFetch": {
+      "waiting": "Warten auf Zurücksetzen des Rate-Limits",
+      "resume": " · Fortsetzung {{time}}",
+      "fetching_one": "Restliche {{pages}} Seite wird geladen…",
+      "fetching_other": "Restliche {{pages}} Seiten werden geladen…"
+    }
+  },
+  "recentDonations": {
+    "columns": {
+      "member": "Mitglied",
+      "prestige": "Prestige",
+      "donatedItems": "Gespendete Güter"
+    },
+    "expanded": {
+      "material": "Material",
+      "amount": "Menge",
+      "unitPrice": "Stückpreis",
+      "estValue": "Gesch. Wert",
+      "total": "Gesamt"
+    },
+    "days": {
+      "today": "Heute",
+      "yesterday": "Gestern"
+    },
+    "empty": {
+      "noRecent": "Keine Spenden für heute oder gestern erfasst.",
+      "noActivity": "Keine Aktivität."
+    }
+  },
+  "adminRoi": {
+    "title": "Admin Center ROI",
+    "coverage": {
+      "excludedTitle": "Ausgeschlossen (keine freigegebenen Daten): {{names}}",
+      "shownFor": "angezeigt für {{shared}} von {{total}} Mitgliedern",
+      "overheadOnly": "({{count}} nur Overhead)",
+      "currentLevel": "aktuelle Stufe:",
+      "buffPerLevel": "Buff/Stufe:"
+    },
+    "mode": {
+      "ariaLabel": "Einsparungsmodus",
+      "actual": "Tatsächlich",
+      "actualTitle": "Einsparungen anhand der tatsächlichen Strafe jedes Mitglieds (korrekt für Mitglieder unterhalb ihrer Obergrenze)",
+      "saturated": "Gesättigt",
+      "saturatedTitle": "Hypothetisch: jedes Mitglied wird so modelliert, als würde es den neuen Spielraum des Admin Centers voll ausschöpfen. Zeigt die marginale Ersparnis bei der Overhead-Steuer, die das aufgewertete Admin Center bei diesen erweiterten Arbeitskräften bringt (die Kosten für den Ausbau der Arbeitskräfte bleiben außen vor. Das entscheidet das Mitglied selbst gegenüber seinem Produktionsgewinn).",
+      "saturatedNote": "Hypothetisch: nimmt an, dass jedes Mitglied den neuen Spielraum des Admin Centers voll ausschöpft. Zeigt die marginale Ersparnis bei der Overhead-Steuer, die das aufgewertete Admin Center bei diesen größeren Arbeitskräften bringt. Die Kosten für den Ausbau der Arbeitskräfte selbst bleiben außen vor. Das entscheidet das Mitglied selbst gegenüber der Produktion, die dadurch möglich wird."
+    },
+    "debug": {
+      "show": "Debug",
+      "hide": "Debug ausblenden",
+      "breakdownTitle": "Aufschlüsselung je Mitglied auf Stufe {{level}}",
+      "noSharedData": "Keine freigegebenen Mitgliederdaten.",
+      "member": "Mitglied",
+      "bases": "Basen",
+      "penaltyPercent": "Strafe %",
+      "apiAdminLevel": "API Admin-Stufe",
+      "currentNetPercent": "Aktuell netto %",
+      "headroomPercent": "Spielraum %",
+      "headroomTitle": "Verbleibende Strafe, bevor auf der API-Admin-Stufe Overhead-Steuer anfällt. Negativ = es wird bereits Steuer auf die überschüssige Strafe gezahlt.",
+      "liveConsumablesPerDay": "Laufende Verbrauchsgüter / Tag",
+      "savingsPlusOnePerDay": "Ersparnis @ +1 / Tag"
+    },
+    "states": {
+      "loading": "Produktionsdaten der Mitglieder werden geladen…",
+      "loadFailed": "Laden fehlgeschlagen.",
+      "noSharedData": "Noch hat kein Gildenmitglied seine Daten freigegeben.",
+      "maxLevel": "Das Admin Center ist bereits auf Maximalstufe.",
+      "noBuff": "Für das Admin Center ist kein Buff pro Stufe konfiguriert.",
+      "noSavings": "Auf höheren Stufen sind keine weiteren Einsparungen möglich."
+    },
+    "table": {
+      "level": "St.",
+      "savingsPerDay": "Ersparnis / Tag",
+      "upkeepDeltaPerDay": "Unterhalt Δ / Tag",
+      "netProfitPerDay": "Nettogewinn / Tag",
+      "buildCost": "Baukosten",
+      "roiDays": "ROI (Tage)"
+    }
+  },
+  "prestigeTrend": {
+    "selector": {
+      "noCompanies": "Keine Unternehmen",
+      "allCompanies": "Alle Unternehmen",
+      "selected": "{{count}} von {{total}} ausgewählt",
+      "showAll": "Alle anzeigen",
+      "hideAll": "Alle ausblenden"
+    },
+    "empty": {
+      "noDonations": "Im gewählten Zeitraum wurden keine Prestige-Spenden erfasst.",
+      "selectCompanies": "Ein oder mehrere Unternehmen auswählen, um den Trend anzuzeigen."
+    },
+    "tooltip": {
+      "total": "Gesamt: {{value}}",
+      "noChange": "Keine Prestige-Änderung"
+    }
+  },
+  "sectionTabs": {
+    "entries": {
+      "trade": "Handel",
+      "projects": "Projekte",
+      "donations": "Spenden",
+      "members": "Mitglieder"
+    }
+  },
+  "chains": {
+    "edgeTree": {
+      "emptyTree": "Diese Kette hat noch keine Kanten. Für den Baum eine neue Kette erstellen.",
+      "openExchangeTitle": "Handelsplatz für {{material}} öffnen",
+      "materialLongFallback": "Material {{id}}",
+      "matFallback": "Mat {{id}}",
+      "targetTitle": "Ziel-Output der Kette",
+      "targetBadge": "Ziel",
+      "noBuyerTitle": "Hier hat ein Lieferant zugesagt, aber flussaufwärts kauft noch niemand ab",
+      "noBuyerBadge": "kein Abnehmer",
+      "needsProducerTitle": "Braucht einen Produzenten, damit die weiter unten zugesagte Lieferung einen Abnehmer hat",
+      "needsProducerBadge": "Produzent fehlt",
+      "sharedInputsTitle": "Dieses Material wird geteilt, seine Inputs stehen bei einem früheren Vorkommen. Zum Springen klicken.",
+      "inputsAbove": "↗ Inputs oben",
+      "produceBadge": "PRODUZIEREN",
+      "marketBadge": "MARKT",
+      "canonicalTitle": "Kanonisch benötigter Durchsatz pro Tag",
+      "coverageTitle": "Anteil der angenommenen Lieferungen am kanonischen Bedarf",
+      "contractTable": {
+        "seller": "Verkäufer",
+        "buyer": "Käufer",
+        "unitsHeader": "#/d",
+        "coverageHeader": "% Abd.",
+        "priceHeader": "$/u",
+        "creditsHeader": "cr/d",
+        "sameContract": "gleicher Vertrag",
+        "noSeller": "kein Verkäufer",
+        "noBuyer": "kein Abnehmer",
+        "missing": "Fehlt",
+        "total": "Gesamt"
+      },
+      "noContracts": "Noch keine Verträge auf dieser Kante.",
+      "pendingSignups": "Offene Anmeldungen",
+      "markedDeliveredTitle": "Heute als geliefert markiert, zum Rückgängigmachen klicken",
+      "markDeliveredTitle": "Für heute als geliefert markieren",
+      "todayMarked": "✓ Heute",
+      "mark": "Markieren",
+      "withdrawMineTitle": "Eigene Anmeldung von diesem Vertrag zurückziehen",
+      "withdrawOtherTitle": "Anmeldung dieses Lieferanten von diesem Vertrag zurückziehen",
+      "withdraw": "Zurückziehen",
+      "companyFallback": "Unternehmen {{id}}",
+      "chainPriced": "Kettenpreis",
+      "accept": "Annehmen",
+      "reject": "Ablehnen",
+      "signupForm": {
+        "signUpAs": "Anmelden als",
+        "myself": "Selbst",
+        "alreadySignedUpSuffix": " (bereits angemeldet)",
+        "youAlreadySignedUp": "Auf dieser Kante besteht bereits eine eigene Anmeldung.",
+        "memberAlreadySignedUp": "Dieses Mitglied hat auf dieser Kante bereits eine Anmeldung."
+      },
+      "produceCard": {
+        "badge": "Produzieren",
+        "description": "Das Rezept selbst produzieren und zum Burden-basierten Satz an die Kette liefern.",
+        "noRecipe": "Für dieses Material ist kein produzierendes Rezept bekannt.",
+        "locked": "(gesperrt)",
+        "shippingTitle": "Frachtvergütung pro Tonne zusätzlich zur Burden-basierten Bezahlung.",
+        "shipping": "Fracht",
+        "submit": "Zur Produktion anmelden"
+      },
+      "marketCard": {
+        "badge": "Anderswo kaufen",
+        "description": "Dieses Material extern beschaffen und zu einem Festpreis liefern.",
+        "current": "Aktuell",
+        "average": "Durchschnitt",
+        "flatPrice": "Festpreis",
+        "submit": "Zum Festpreis anmelden"
+      },
+      "throughput": {
+        "label": "Durchsatz",
+        "coverage": "({{coverage}}% des Bedarfs)"
+      },
+      "priceQuickSet": {
+        "noPriceTitle": "Kein {{label}}-Preis verfügbar",
+        "setPriceTitle": "Festpreis auf {{label}} setzen"
+      },
+      "creditEstimate": {
+        "unavailable": "Credit-Schätzung nicht verfügbar.",
+        "label": "Gesch. Credits"
+      }
+    },
+    "create": {
+      "materialFallback": "Material #{{id}}",
+      "fromMarket": "vom Markt, kein produzierendes Rezept",
+      "recipeCountTitle_one": "{{count}} Rezept",
+      "recipeCountTitle_other": "{{count}} Rezepte",
+      "currentVariant": ", aktuelle Variante: {{variant}}",
+      "title": "Neue Produktionskette",
+      "cancel": "Abbrechen",
+      "previewChain": "Vorschau der Kette",
+      "targetMaterial": "Zielmaterial",
+      "searchPlaceholder": "Material suchen…",
+      "noMaterialsMatch": "Keine passenden produzierbaren Materialien.",
+      "recipeChain": "Rezeptkette"
+    },
+    "deliveries": {
+      "companyFallback": "Unternehmen {{id}}",
+      "materialFallback": "Material {{id}}",
+      "chainFallback": "Kette {{id}}",
+      "openChainTitle": "{{chain}} bei {{step}} öffnen",
+      "thisStep": "diesem Schritt",
+      "matFallback": "Mat {{id}}",
+      "inChain": "in {{chain}}",
+      "linkContractsTitle": "Spielverträge verknüpfen",
+      "undo": "Rückgängig",
+      "mark": "Markieren",
+      "title": "Meine Lieferungen",
+      "checkTitleToday": "Heutige Lieferungen aus den verknüpften Verträgen markieren (8 API-Punkte)",
+      "checkTitleNotToday": "Nur für heute verfügbar (das Spiel meldet nur die heutige Erfüllung)",
+      "checking": "Wird geprüft…",
+      "checkContracts": "Verträge prüfen",
+      "prev": "← Zurück",
+      "today": "heute",
+      "jumpToToday": "zu heute springen",
+      "next": "Weiter →",
+      "markedLegs_one": "{{count}} Etappe aus den Verträgen markiert.",
+      "markedLegs_other": "{{count}} Etappen aus den Verträgen markiert.",
+      "noDeliveriesToMark": "Keine Lieferungen zum Markieren, kein verknüpfter Vertrag meldet heute eine Erfüllung.",
+      "someContractsNotFound": "Einige verknüpfte Verträge wurden in den aktuellen Verträgen nicht gefunden.",
+      "noContracts": "Noch keine Verträge vorhanden. Nach der Anmeldung als Lieferant für einen Schritt erscheinen die Zusagen hier.",
+      "contractsHeading": "Verträge",
+      "noContractsShort": "Keine Verträge.",
+      "marketSellTitle": "Keine Gegenpartei in der Kette, Kauf bzw. Verkauf läuft über den offenen Markt. Nichts zu verknüpfen oder zu markieren.",
+      "marketBuySell": "Markt: Kauf / Verkauf",
+      "selfSupplyTitle": "Verkäufer und Käufer sind identisch, kein echter Vertrag zwischen zwei Parteien.",
+      "selfSupply": "Eigenversorgung",
+      "markAllTitle": "Alle Eigenversorgungen für diesen Tag als geliefert markieren",
+      "markAll": "Alle markieren",
+      "loadingContracts": "Verträge werden geladen…",
+      "noMatchingContracts": "Keine passenden Spielverträge gefunden. Einen Vertrag mit diesem Partner für dieses Material anlegen und erneut prüfen.",
+      "contractStat": "{{today}}/{{limit}} heute · {{qty}} Menge",
+      "linked": "Verknüpft ✓",
+      "link": "Verknüpfen",
+      "staleLinkNote": "verknüpft, aber nicht in den aktuellen Verträgen gefunden",
+      "unlink": "Verknüpfung lösen"
+    },
+    "inspector": {
+      "title": "Ketten-Inspektor",
+      "refresh": "Aktualisieren",
+      "refreshing": "Wird aktualisiert…",
+      "refreshTitle": "Admin Center, Credit-Einstellungen und Forschung/Perks/Burden aller Anmeldungen aus aktuellen Spieldaten neu synchronisieren",
+      "storedValues": "Gespeicherte Werte",
+      "stored": {
+        "rate": "Satz (Gewinn/h/100 Burden)",
+        "markup": "Aufschlag",
+        "creditAlpha": "Credit α",
+        "creditBeta": "Credit β",
+        "extractMultiplier": "Extract-Multiplikator",
+        "adminCenter": "Admin Center"
+      },
+      "signupsHeading": "Anmeldungen ({{count}})",
+      "noSignups": "Noch keine Anmeldungen.",
+      "perDay": "{{value}} /d",
+      "perUnitPrice": "{{price}}/u",
+      "techLine": "Tech {{tech}} · Overhead {{overhead}}",
+      "burden": "Burden {{value}}",
+      "snapshotAt": "Snapshot {{date}}",
+      "noSnapshot": "kein Snapshot (kanonisch)",
+      "researchLabel": "Forschung: ",
+      "perksLabel": "Perks: ",
+      "companyFallback": "Unternehmen {{id}}",
+      "materialFallback": "Material {{id}}",
+      "edgeFallback": "Kante {{id}}"
+    },
+    "archive": {
+      "title": "Archiv (letzte 7 Tage)",
+      "close": "Schließen",
+      "empty": "In den letzten 7 Tagen wurden keine Ketten geschlossen oder abgebrochen.",
+      "materialFallback": "Material {{id}}",
+      "rateLine": "{{rate}} /d · {{name}}",
+      "deleteConfirm": "Diese Kette endgültig löschen?",
+      "deleteForever": "Endgültig löschen",
+      "delete": "Löschen",
+      "minutesAgo": "vor {{count}}m",
+      "hoursAgo": "vor {{count}}h",
+      "daysAgo": "vor {{count}}T"
+    },
+    "issues": {
+      "title": "Status",
+      "noIssues": "Keine Probleme"
+    },
+    "list": {
+      "companyFallback": "Unternehmen {{id}}",
+      "title": "Ketten",
+      "newChain": "Neue Kette",
+      "archive": "Archiv ({{count}})",
+      "archiveTitle": "Geschlossene oder abgebrochene Ketten der letzten 7 Tage ansehen.",
+      "loading": "Ketten werden geladen…",
+      "emptyState": "Noch keine Ketten. Mit <em>Neue Kette</em> eine erstellen.",
+      "materialFallback": "Material {{id}}",
+      "materialFallbackLower": "Material {{id}}",
+      "perDaySep": "{{value}} /d ·",
+      "joined": "Beigetreten",
+      "myContracts": "Meine Verträge",
+      "selfSupplyTitle": "Eigenversorgungs-Etappen, bei denen Verkäufer und Käufer identisch sind",
+      "showSelfSupply": "Eigenversorgung anzeigen ({{count}})",
+      "noContracts": "Noch keine Verträge. Nach der Anmeldung an einem Schritt einer offenen oder aktiven Kette erscheinen hier die Liefer- und Kaufzusagen.",
+      "onlySelfSupply": "Nur Verträge zur Eigenversorgung. Zum Anzeigen oben umschalten.",
+      "leftover": "Rest",
+      "tintFlat": "Anderswo kaufen. Lieferung zum Festpreis. Keine Credits.",
+      "tintChainPriced": "Produzieren. Lieferung zum Kettenpreis. Bringt Credits.",
+      "openChainTitle": "Kette #{{chainId}} öffnen und {{material}} ausklappen",
+      "perDay": "{{value}} /d",
+      "myDeliveries": "Meine Lieferungen…",
+      "myDeliveriesTitle": "Nach Tag prüfen, welche Verträge geliefert wurden"
+    },
+    "manifest": {
+      "companyFallback": "Unternehmen {{id}}",
+      "title": "Verträge",
+      "locked": "Gesperrt",
+      "loading": "Wird geladen…",
+      "loadError": "Verträge konnten nicht geladen werden.",
+      "empty": "Noch keine Verträge. Angenommene Anmeldungen hinzufügen, um die Übersicht zu füllen.",
+      "you": "(ich)",
+      "supplier": "Lieferant",
+      "buyFromMarket": "Vom Markt kaufen",
+      "exchange": "Handelsplatz",
+      "materialFallback": "Mat {{id}}",
+      "leftover": "Rest",
+      "perHour": "{{value}} /h",
+      "atPrice": "@ {{price}}"
+    },
+    "prices": {
+      "role": {
+        "input": "Input",
+        "consumable": "Verbrauchsgut",
+        "maintenance": "Wartung"
+      },
+      "header": {
+        "mat": "Mat",
+        "role": "Rolle",
+        "src": "Quelle",
+        "price": "Preis"
+      },
+      "materialFallback": "Material {{id}}",
+      "materialTitle": "{{name}} · {{role}}",
+      "extractSuffix": " · EXTRACT",
+      "extractBadge": "EX",
+      "extractBadgeTitle": "Abgebautes oder angebautes Material. Der Lieferant legt den Preis fest.",
+      "manual": "Manuell",
+      "manualTitle": "Manuell überschrieben",
+      "srcMkt": "Mkt",
+      "srcMktApprox": "Mkt~",
+      "srcBase": "Basis",
+      "srcMktTitle": "Marktpreis (hohe Verlässlichkeit)",
+      "srcMktApproxTitle": "Marktpreis (mittlere Verlässlichkeit)",
+      "srcBaseTitle": "Basispreis (keine aktuellen Marktdaten)",
+      "overrideTitle": "Zum Überschreiben klicken",
+      "title": "Angenommene Marktpreise",
+      "clearOverrides": "Überschreibungen löschen",
+      "close": "Schließen",
+      "empty": "Keine externen Preise nötig. Die Kette läuft komplett innerhalb der Gilde."
+    },
+    "pricing": {
+      "title": "Kette",
+      "initiator": "Initiator",
+      "material": "Material",
+      "materialTitle": "Handelsplatz-Daten für dieses Material ansehen",
+      "production": "Produktion",
+      "perDay": "/d",
+      "prices": "Preise",
+      "marketPrices": "Marktpreise",
+      "marketPricesTitle": "Die Marktpreise prüfen oder überschreiben, die die Kette für extern beschaffte Materialien verwendet.",
+      "marketCurAvg": "Markt (akt. / Ø)",
+      "marketCurAvgTitle": "Aktueller Marktpreis · gleitender Durchschnittspreis für das Zielmaterial der Kette. Der Vergleich mit dem Endpreis der Kette unten zeigt, wie viel die Gilde spart (oder zu viel zahlt).",
+      "chainFinal": "Kette final / u",
+      "chainFinalTitle": "Was die Kette pro Einheit des Zielmaterials zahlt, gemischt aus den Lieferantenkosten aller Schritte beim aktuellen Gewinn/h/100 Burden.",
+      "rateLabel": "Gewinn / h / 100 Burden",
+      "rateTitle": "Der gemeinsame Arbeitssatz der Gilde. Jeder Schritt zahlt seinen Lieferanten r × (Schritt-Burden / 100) Credits pro Stunde über den Produktionskosten. Typische Werte liegen zwischen 50 und 300.",
+      "rateUnit": "$/h/100b",
+      "rateLabelShort": "Gewinn/h/100b",
+      "unsavedEdits": "Ungespeicherte Änderungen",
+      "save": "Speichern",
+      "discard": "Verwerfen",
+      "participants": "Teilnehmer",
+      "initiatorTag": "Initiator",
+      "creditsPerDayTitle": "Geschätzte Credits pro Tag bei der aktuellen Bepreisung und dem aktuellen Anmeldestand der Kette.",
+      "creditsPerDay": "{{value}} cr/d"
+    },
+    "creditAdmin": {
+      "title": "Credits (Offizier)",
+      "close": "Schließen",
+      "settings": "Einstellungen",
+      "settingsDescription": "α und β bestimmen den Credit-Satz pro Einheit, den Lieferanten bei Ketten erhalten, die die Gilde schließt. <extract>extract ×</extract> ist der Puffer bei kettenbepreisten Extraktor- und Fertilitäts-Rezepten (Mine, Pump, Farm, …). Änderungen wirken nur auf Ketten, die danach erstellt werden. Bestehende Ketten behalten ihren Snapshot.",
+      "alphaLabel": "α (Aufwand)",
+      "alphaTitle": "Credits pro Burden-Einheit Aufwand, je produzierter Einheit.",
+      "betaLabel": "β (Loyalität)",
+      "betaTitle": "Credits pro Cent entgangenen Gewinns, je produzierter Einheit.",
+      "extractLabel": "extract ×",
+      "extractTitle": "Multiplikator auf den Burden-Term der Kettenbepreisung bei Extraktor- und Fertilitäts-Rezepten.",
+      "reset": "Zurücksetzen",
+      "saving": "Wird gespeichert…",
+      "save": "Speichern",
+      "manualAdjustment": "Manuelle Anpassung",
+      "manualDescription": "Credits für ein einzelnes Mitglied gutschreiben (positiver Betrag) oder abziehen (negativer Betrag). Abzüge werden auf das aktuelle Guthaben begrenzt. Nichts fällt unter null.",
+      "member": "Mitglied",
+      "selectMember": "Mitglied auswählen…",
+      "amount": "Betrag",
+      "amountTitle": "Vorzeichenbehaftete Credit-Differenz. Positiv schreibt gut, negativ zieht ab (begrenzt).",
+      "amountPlaceholder": "z. B. 25 oder -10",
+      "creditUnit": "cr",
+      "note": "Notiz",
+      "notePlaceholder": "(optional, für Offiziere über Metadaten sichtbar)",
+      "applying": "Wird angewendet…",
+      "apply": "Anwenden",
+      "memberOption": "{{name}} · {{balance}} cr",
+      "adjustSuccess": "Fertig. {{verb}} {{amount}} cr · neues Guthaben {{balance}} cr",
+      "verbGranted": "Gutgeschrieben",
+      "verbRemoved": "Abgezogen"
+    },
+    "creditBalance": {
+      "creditsSuffix": "{{value}} cr",
+      "reason": {
+        "chainContribution": "Kettenbeitrag",
+        "chainSpend": "Ausgabe",
+        "adjustment": "Anpassung",
+        "donationOverage": "Spendenüberschuss"
+      },
+      "justNow": "gerade eben",
+      "minutesAgo": "vor {{count}}m",
+      "hoursAgo": "vor {{count}}h",
+      "daysAgo": "vor {{count}}T",
+      "title": "Gildencredits",
+      "settings": "Einstellungen",
+      "settingsTitle": "Offizierseinstellungen und Anpassungen",
+      "myBalance": "Mein Guthaben",
+      "loading": "Wird geladen…",
+      "loadErrorMine": "Eigene Credits konnten nicht geladen werden.",
+      "guildBalances": "Gildenguthaben",
+      "loadErrorBalances": "Gildenguthaben konnten nicht geladen werden.",
+      "noBalances": "Noch keine Guthaben. Mitglieder verdienen Credits, wenn Ketten geschlossen werden.",
+      "companyFallback": "Unternehmen {{id}}",
+      "you": "(ich)",
+      "myRecentActivity": "Meine letzten Aktivitäten",
+      "noActivity": "Noch keine Aktivität. Credits entstehen, wenn belieferte Ketten geschlossen werden.",
+      "txTitle": "{{reason}} · {{sourceRef}}",
+      "chainRef": "· Kette #{{id}}"
+    },
+    "creditPill": {
+      "title": "Credits und Kontobuch im Handels-Hub öffnen",
+      "credits": "Credits",
+      "creditsSuffix": "{{value}} cr"
+    },
+    "recipeDisplay": {
+      "noInputs": "keine Inputs",
+      "selectRecipe": "Rezept auswählen"
+    }
+  },
+  "trade": {
+    "chainsModule": {
+      "navSubtitle": {
+        "active": "{{count}} aktiv"
+      },
+      "center": {
+        "loadingGuild": {
+          "title": "Gilde wird geladen",
+          "body": "Gildenmitgliedschaft wird geladen…"
+        },
+        "noGuild": {
+          "title": "Keine Gilde",
+          "body": "Das Konto gehört offenbar noch zu keiner Gilde. Zuerst die Gilden-Seite besuchen, um das Profil zu synchronisieren."
+        },
+        "chainError": {
+          "title": "Kettenfehler"
+        },
+        "chainMaterials": {
+          "title": "Kettenmaterialien"
+        },
+        "noChain": {
+          "title": "Keine Kette ausgewählt",
+          "body": "Eine Kette aus der Liste links wählen oder mit <2>Neue Kette</2> eine entwerfen."
+        }
+      },
+      "right": {
+        "pricing": {
+          "title": "Preise",
+          "noChain": "Noch keine Kette ausgewählt."
+        }
+      },
+      "transitions": {
+        "restore": {
+          "confirm": "Diese Kette wiederherstellen?",
+          "confirmLabel": "Wiederherstellen",
+          "label": "Wiederherstellen"
+        },
+        "inspect": {
+          "tooltip": "Snapshots der Anmeldungen und Feinwerte der Kette prüfen",
+          "label": "Inspizieren"
+        },
+        "publish": {
+          "confirm": "Diese Kette veröffentlichen?",
+          "confirmLabel": "Veröffentlichen",
+          "label": "Veröffentlichen"
+        },
+        "start": {
+          "confirm": "Produktion starten?",
+          "confirmLabel": "Starten",
+          "label": "Produktion starten"
+        },
+        "close": {
+          "confirm": "Diese Kette schließen?",
+          "confirmLabel": "Schließen",
+          "label": "Schließen"
+        },
+        "cancel": {
+          "confirm": "Diese Kette abbrechen?",
+          "confirmLabel": "Kette abbrechen",
+          "label": "Abbrechen"
+        },
+        "reopen": {
+          "confirm": "Diese Kette wieder öffnen?",
+          "confirmLabel": "Wieder öffnen",
+          "label": "Wieder öffnen"
+        },
+        "delete": {
+          "confirm": "Diese Kette löschen?",
+          "confirmLabel": "Löschen",
+          "tooltip": "Diese Kette löschen."
+        }
+      }
+    },
+    "creditAdjust": {
+      "title": "Credits anpassen",
+      "close": "Schließen",
+      "intro": "Credits für ein einzelnes Mitglied gutschreiben (positiver Betrag) oder abziehen (negativer Betrag). Abzüge werden auf das aktuelle Guthaben begrenzt, damit nichts unter null fällt.",
+      "memberLabel": "Mitglied",
+      "memberPlaceholder": "Mitglied auswählen…",
+      "memberOption": "{{name}} · {{balance}} cr",
+      "amountLabel": "Betrag",
+      "amountTooltip": "Vorzeichenbehaftete Credit-Differenz. Positiv schreibt gut, negativ zieht ab (begrenzt).",
+      "amountPlaceholder": "z. B. 25 oder -10",
+      "noteLabel": "Notiz",
+      "notePlaceholder": "(optional, für Offiziere über Metadaten sichtbar)",
+      "unit": "cr",
+      "successGranted": "{{amount}} cr gutgeschrieben · neues Guthaben {{balance}} cr",
+      "successRemoved": "{{amount}} cr abgezogen · neues Guthaben {{balance}} cr",
+      "applying": "Wird angewendet…",
+      "apply": "Anwenden"
+    },
+    "creditSettings": {
+      "title": "Credit-Einstellungen",
+      "description": "α und β bestimmen den Credit-Satz pro Einheit, den Lieferanten bei Ketten erhalten, die die Gilde schließt. <1>extract ×</1> ist der Puffer bei kettenbepreisten Extraktor- und Fertilitäts-Rezepten. Änderungen wirken nur auf Ketten, die danach erstellt werden.",
+      "alpha": {
+        "label": "α (Aufwand)",
+        "tooltip": "Credits pro Burden-Einheit Aufwand, je produzierter Einheit."
+      },
+      "beta": {
+        "label": "β (Loyalität)",
+        "tooltip": "Credits pro Cent entgangenen Gewinns, je produzierter Einheit."
+      },
+      "extract": {
+        "label": "extract ×",
+        "tooltip": "Multiplikator auf den Burden-Term der Kettenbepreisung bei Extraktor- und Fertilitäts-Rezepten."
+      },
+      "reset": "Zurücksetzen",
+      "saving": "Wird gespeichert…",
+      "save": "Speichern"
+    },
+    "creditsModule": {
+      "unit": "cr",
+      "loading": "Wird geladen…",
+      "relative": {
+        "justNow": "gerade eben",
+        "minutes": "vor {{count}}m",
+        "hours": "vor {{count}}h",
+        "days": "vor {{count}}T"
+      },
+      "reason": {
+        "chainContribution": "Kettenbeitrag",
+        "chainSpend": "Ausgabe",
+        "adjustment": "Anpassung",
+        "donationOverage": "Spendenüberschuss"
+      },
+      "alphaBanner": "<0>Alpha-Funktion.</0> Der Gildenhandel steckt in einer frühen Alpha und ist noch stark in Arbeit. Mit Ecken und Kanten, wechselnden Berechnungen und gelegentlichen Resets ist zu rechnen.",
+      "myCredits": {
+        "title": "Meine Credits",
+        "currentBalance": "Aktuelles Guthaben",
+        "loadError": "Eigenes Guthaben konnte nicht geladen werden."
+      },
+      "breakdown": {
+        "earned": "Verdient",
+        "earnedEmpty": "In den letzten Aktivitäten nichts verdient.",
+        "spent": "Ausgegeben",
+        "spentEmpty": "In den letzten Aktivitäten nichts ausgegeben."
+      },
+      "activity": {
+        "title": "Letzte Aktivitäten",
+        "loadError": "Aktivitäten konnten nicht geladen werden.",
+        "empty": "Noch keine Aktivität. Credits entstehen, wenn belieferte Ketten geschlossen werden.",
+        "breakdownNote_one": "Aufschlüsselung aus der letzten {{count}} Transaktion.",
+        "breakdownNote_other": "Aufschlüsselung aus den letzten {{count}} Transaktionen.",
+        "rowTitle": "{{label}} · {{sourceRef}}",
+        "chainSuffix": "· Kette #{{id}}"
+      },
+      "balances": {
+        "title": "Gildenguthaben",
+        "edit": "Bearbeiten",
+        "editTooltip": "Credits für ein Gildenmitglied gutschreiben oder abziehen.",
+        "loadError": "Gildenguthaben konnten nicht geladen werden.",
+        "empty": "Noch keine Guthaben. Mitglieder verdienen Credits, wenn Ketten geschlossen werden.",
+        "you": "(ich)"
+      }
+    },
+    "marketplace": {
+      "navSubtitle": "Bald",
+      "title": "Marktplatz",
+      "description": "Angebote zum Kauf oder Verkauf von Waren innerhalb der Gilde zu Festpreisen einstellen, mit Credits als Rabattebene. Noch nicht umgesetzt."
     }
   }
 }

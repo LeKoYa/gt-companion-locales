@@ -9,10 +9,6 @@
       "all": "Refresh all",
       "one": "Refresh"
     },
-    "help": {
-      "label": "Base list help",
-      "tooltip": "Learn about base lists and planning."
-    },
     "nav": {
       "overview": "Overview",
       "insights": "Insights",
@@ -839,7 +835,7 @@
       "willBecome": "<plan>{{plan}}</plan> will become a snapshot chain on <base>{{base}}</base>.",
       "driftNote": "Existing in-game state stays as-is. The snapshot chain shows drift via the diff rings and you can edit individual steps to absorb anything you've already built.",
       "pickPrompt": "No base on <planet>{{planet}}</planet>. Pick which base to attach <plan>{{plan}}</plan> to:",
-    "snapshotNote": "The plan's snapshot contents stay unchanged; the diff rings will show how this base differs from the planned layout."
+      "snapshotNote": "The plan's snapshot contents stay unchanged; the diff rings will show how this base differs from the planned layout."
     },
     "share": {
       "title": {

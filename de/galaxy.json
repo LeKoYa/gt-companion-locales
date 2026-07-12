@@ -1,0 +1,506 @@
+{
+  "intel": {
+    "header": {
+      "label": "Planeten-Intel"
+    },
+    "footer": {
+      "count": "{{shown}} / {{total}} Unternehmen"
+    },
+    "retry": "Erneut versuchen",
+    "unknown": "Unbekannt",
+    "materialFallback": "Material {{id}}",
+    "mobile": {
+      "companies": "Unternehmen",
+      "baseDetails": "Basisdetails"
+    },
+    "actions": {
+      "inspectBase": "Basis ansehen",
+      "inspectBaseTitle": "Diese Basis auf der Basis-Seite öffnen",
+      "inspectBaseDisabledTitle": "Basis-Layout oder Produktion muss freigegeben sein",
+      "viewCompanyDetails": "Unternehmensdetails ansehen",
+      "viewCompanyOverview": "Unternehmensübersicht ansehen"
+    },
+    "filters": {
+      "guildOnly": "Nur Gilde",
+      "shareable": "Freigegeben",
+      "searchPlaceholder": "Unternehmen oder Gilde suchen…",
+      "empty": "Keine Unternehmen entsprechen den aktuellen Filtern."
+    },
+    "list": {
+      "loading": "Intel wird geladen…",
+      "selectPrompt": "Ein Unternehmen aus der Liste auswählen."
+    },
+    "table": {
+      "company": "Unternehmen",
+      "value": "Wert",
+      "share": "Freigabe",
+      "companyFallback": "Unternehmen {{id}}"
+    },
+    "badge": {
+      "noInfo": "Keine Infos",
+      "off": "Aus",
+      "guild": "Gilde",
+      "partial": "Teilweise",
+      "you": "Eigen",
+      "public": "Öffentlich"
+    },
+    "shareLevel": {
+      "public": "öffentlich",
+      "guild": "Gilde",
+      "private": "privat"
+    },
+    "tooltip": {
+      "notUsing": "Dieses Unternehmen nutzt GT-Companion noch nicht.",
+      "scope": {
+        "companyResearch": "Unternehmen (Forschung)",
+        "prestigePerks": "Unternehmen (Prestige-Perks)",
+        "warehousesBases": "Lager (Basen)",
+        "warehousesExchange": "Lager (Handelsplatz)",
+        "shipsDesigns": "Schiffe (Designs)",
+        "shipsRoutes": "Schiffe (Routen)",
+        "shipsInventories": "Schiffe (Bestände)",
+        "basesNames": "Basen (Namen)",
+        "basesLayouts": "Basen (Layouts)",
+        "basesProduction": "Basen (Produktion)",
+        "contractsActive": "Verträge (Aktiv)"
+      }
+    },
+    "unavailable": {
+      "notUsingTitle": "Nutzt GT-Companion nicht",
+      "notUsingDetail": "Dieses Unternehmen nutzt GT-Companion noch nicht.",
+      "notSharedTitle": "Nicht freigegeben",
+      "notSharedDetail": "Dieses Unternehmen hat die Freigabe deaktiviert.",
+      "noBaseTitle": "Keine Basisdaten freigegeben",
+      "noBaseDetail": "Dieses Unternehmen hat keine Basisinformationen freigegeben."
+    },
+    "feature": {
+      "loading": "{{noun}} wird geladen...",
+      "loadError": "{{noun}} konnte nicht geladen werden.",
+      "notLoaded": "{{noun}} nicht geladen.",
+      "loadCompanyError": "Unternehmens-Intel konnte nicht geladen werden."
+    },
+    "sections": {
+      "warehouse": "Lager",
+      "production": "Produktion",
+      "contracts": "Verträge",
+      "layout": "Layout"
+    },
+    "cost": {
+      "inputCost": "Inputkosten",
+      "consumables": "Verbrauchsgüter",
+      "maintenance": "Wartung",
+      "income": "Einnahmen",
+      "profit": "Gewinn"
+    },
+    "warehouse": {
+      "empty": "Kein Lager-Snapshot für diesen Planeten gefunden.",
+      "total": "Gesamt",
+      "columns": {
+        "material": "Material",
+        "qty": "Menge",
+        "weight": "Gewicht",
+        "value": "Wert"
+      }
+    },
+    "production": {
+      "total": "Gesamt",
+      "groupProduction": "Produktion",
+      "groupConsumables": "Verbrauchsgüter",
+      "noProductionEntries": "Keine Produktionseinträge.",
+      "noConsumables": "Keine Verbrauchsgüter.",
+      "noDataForBase": "Keine Produktionsdaten für diese Basis verfügbar.",
+      "noDataForPlanet": "Keine Produktionsdaten für diesen Planeten gefunden.",
+      "split": {
+        "merged": "Zusammengefasst",
+        "grouped": "Gruppiert"
+      },
+      "columns": {
+        "material": "Material",
+        "used": "Verbraucht",
+        "produced": "Produziert",
+        "stock": "Bestand",
+        "net": "Netto",
+        "valuePerDay": "Wert/Tag"
+      }
+    },
+    "copy": {
+      "copied": "Kopiert!",
+      "copy": "Als Chat-Text kopieren"
+    },
+    "contracts": {
+      "empty": "Keine aktiven freigegebenen Verträge für diesen Planeten.",
+      "typeBuy": "Kauf",
+      "typeSell": "Verkauf",
+      "typeUnknown": "Unbekannt",
+      "partnerInGuild": "Gildenintern",
+      "partnerExtern": "Extern",
+      "recurringTitle": "Wiederkehrender Vertrag ({{count}}/Tag)",
+      "columns": {
+        "type": "Typ",
+        "partner": "Partner",
+        "material": "Material",
+        "qty": "Menge",
+        "total": "Gesamt"
+      }
+    },
+    "layout": {
+      "defaultTitle": "Basis-Layout",
+      "noSlots": "Kein Slot-Layout in den freigegebenen Daten gefunden.",
+      "noData": "Keine Layout-Daten für diesen Planeten gefunden."
+    },
+    "base": {
+      "sharedFallback": "Freigegebene Basis"
+    }
+  },
+  "page": {
+    "overlays": {
+      "favorites": "Overlay Favoriten",
+      "bases": "Overlay eigene Basen",
+      "ships": "Overlay Schiffe",
+      "density": "Overlay Unternehmensdichte"
+    },
+    "customPrices": {
+      "consumablesTitle": "Verbrauchsgüter",
+      "consumablesEmpty": "Daten zu Verbrauchsgütern sind noch nicht verfügbar."
+    },
+    "material": {
+      "fallbackName": "Material #{{id}}"
+    },
+    "ship": {
+      "fallbackName": "Schiff {{id}}"
+    },
+    "mode": {
+      "tableShort": "Tabelle",
+      "tableFull": "Tabelle anzeigen",
+      "mapShort": "Karte",
+      "mapFull": "Karte anzeigen"
+    },
+    "controls": {
+      "expandMap": "Karte vergrößern",
+      "mapControls": "Kartensteuerung",
+      "filters": "Filter",
+      "exitFullscreen": "Vollbild beenden",
+      "shareMap": "Karte freigeben",
+      "exit": "Beenden"
+    },
+    "hover": {
+      "unknown": "Unbekannt",
+      "docked": "Angedockt",
+      "fertility": "Fruchtbarkeit",
+      "companies_one": "{{count}} Unternehmen",
+      "companies_other": "{{count}} Unternehmen",
+      "members_one": "{{count}} Mitglied",
+      "members_other": "{{count}} Mitglieder",
+      "exchange": "Exchange",
+      "tierBadge": "T{{tier}}"
+    },
+    "status": {
+      "loading": "Galaxiedaten werden geladen…",
+      "error": "Galaxiedaten konnten nicht geladen werden",
+      "loadingShort": "Wird geladen…"
+    },
+    "panel": {
+      "mapTitle": "Galaxiekarte",
+      "mapControls": "Kartensteuerung",
+      "details": "Details"
+    },
+    "actions": {
+      "close": "Schließen"
+    }
+  },
+  "map": {
+    "labels": {
+      "exchange": "Exchange"
+    },
+    "ships": {
+      "countTooltip_one": "{{count}} Schiff",
+      "countTooltip_other": "{{count}} Schiffe"
+    },
+    "ship": {
+      "fallbackName": "Schiff {{id}}"
+    },
+    "measure": {
+      "start": "Planeten anklicken zum Messen",
+      "extend_one": "{{count}} Abschnitt · zum Verlängern klicken",
+      "extend_other": "{{count}} Abschnitte · zum Verlängern klicken"
+    },
+    "contextMenu": {
+      "unfavorite": "Favorit entfernen",
+      "favorite": "Favorisieren",
+      "openInGame": "Im Spiel öffnen",
+      "showIntel": "Intel anzeigen",
+      "planNewBase": "Neue Basis planen",
+      "measureDistance": "Distanz messen"
+    }
+  },
+  "landing": {
+    "bases": {
+      "title": "Eigene Basen"
+    },
+    "ships": {
+      "title": "Eigene Schiffe",
+      "overlayHint": "Overlay Schiffe aktivieren, um hier eigene Schiffe zu sehen.",
+      "empty": "Keine Schiffe gefunden."
+    },
+    "guild": {
+      "title": "Gildenmitglieder",
+      "loading": "Gildenmitglieder werden geladen…",
+      "error": "Gildenmitglieder konnten nicht geladen werden.",
+      "empty": "Keine Gildenmitglieder gefunden."
+    },
+    "scopes": {
+      "companyResearch": "Forschung",
+      "prestigePerks": "Prestige-Perks",
+      "warehousesBases": "Basislager",
+      "warehousesExchange": "Handelsplatz-Lager",
+      "shipsDesigns": "Schiffsdesigns",
+      "shipsRoutes": "Schiffsrouten",
+      "shipsInventories": "Schiffsladung",
+      "basesNames": "Basisnamen",
+      "basesLayouts": "Basis-Layouts",
+      "basesProduction": "Produktion",
+      "contractsActive": "Verträge"
+    },
+    "scopeLevel": {
+      "public": "öffentlich",
+      "guild": "Gilde",
+      "private": "privat"
+    },
+    "sharingStatus": {
+      "noCompanion": "Nutzt GT-Companion nicht",
+      "sharingDisabled": "Freigabe ist deaktiviert",
+      "guildOnly": "Freigabe nur für Gildenmitglieder",
+      "partial": "Einige Daten sind freigegeben",
+      "owner": "Eigenes Unternehmen",
+      "available": "Alle Daten sind freigegeben"
+    },
+    "badge": {
+      "noInfo": "Keine Infos",
+      "off": "Aus",
+      "guild": "Gilde",
+      "partial": "Teilweise",
+      "you": "Eigen",
+      "public": "Öffentlich"
+    }
+  },
+  "planetDetails": {
+    "info": {
+      "title": "Planeteninfos",
+      "viewOnSite": "Auf galactictycoons.com ansehen",
+      "planet": "Planet",
+      "tier": "Tier",
+      "distance": "Distanz",
+      "companies": "Unternehmen (7T)",
+      "notAvailable": "k. A.",
+      "fertility": "Fruchtbarkeit"
+    },
+    "favorite": {
+      "remove": "Aus Favoriten entfernen",
+      "add": "Zu Favoriten hinzufügen"
+    },
+    "companies": {
+      "viewActive": "Aktive Unternehmen ansehen",
+      "view": "Ansehen"
+    },
+    "more": {
+      "title": "Mehr",
+      "openIntel": "Planeten-Intel öffnen"
+    },
+    "guild": {
+      "notInGuild": "Keine Gildenmitgliedschaft vorhanden.",
+      "loading": "Gildenpräsenz wird geladen…",
+      "loadError": "Daten der Gildenmitglieder konnten nicht geladen werden.",
+      "noMembers": "Kein Gildenmitglied hat hier eine Basis.",
+      "viewCompany": "Unternehmensübersicht ansehen",
+      "viewBase": "Basis auf diesem Planeten ansehen",
+      "baseNotShared": "Basis nicht freigegeben",
+      "baseButton": "Basis"
+    },
+    "ship": {
+      "fallbackName": "Schiff {{id}}"
+    },
+    "intel": {
+      "apiKeyRequired": "API-Schlüssel erforderlich, um Intel zu sehen.",
+      "loadError": "Planeten-Intel konnte nicht geladen werden."
+    }
+  },
+  "ship": {
+    "route": {
+      "owner": "Besitzer",
+      "status": "Status",
+      "inFlight": "Im Flug ({{percent}}%)",
+      "origin": "Start",
+      "destination": "Ziel",
+      "eta": "ETA",
+      "arrived": "Angekommen",
+      "docked": "Angedockt",
+      "location": "Ort",
+      "unknown": "Unbekannt",
+      "planetFallback": "Planet {{id}}",
+      "shipFallback": "Schiff {{id}}"
+    },
+    "cargo": {
+      "title": "Fracht",
+      "notShared": "Nicht freigegeben",
+      "empty": "Leer",
+      "total": "Gesamt",
+      "header": {
+        "material": "Material",
+        "qty": "Menge",
+        "weight": "Gewicht",
+        "value": "Wert"
+      }
+    },
+    "layout": {
+      "title": "Schiffslayout",
+      "openDesigner": "Im Schiffsdesigner öffnen",
+      "reactorType": "Reaktortyp",
+      "ftlType": "FTL-Typ",
+      "ftlEmitters": "FTL-Emitter",
+      "cargoCapacity": "Frachtkapazität",
+      "fuelTankSize": "Tankgröße",
+      "heatShielding": "Hitzeschild",
+      "radShielding": "Strahlenschild"
+    }
+  },
+  "table": {
+    "column": {
+      "name": "Planet",
+      "tier": "Tier",
+      "distance": "Distanz",
+      "companies": "Unternehmen (7T)",
+      "fertility": "Fruchtbarkeit"
+    },
+    "value": {
+      "notAvailable": "k. A."
+    },
+    "favorite": {
+      "sortTitle": "Nach Favoriten sortieren",
+      "remove": "Aus Favoriten entfernen",
+      "add": "Zu Favoriten hinzufügen"
+    },
+    "controls": {
+      "favorites": "Favoriten"
+    },
+    "columns": {
+      "placeholder": "Spalten",
+      "button": "Spalten",
+      "showAll": "Alle anzeigen",
+      "hideAll": "Alle ausblenden",
+      "reset": "Zurücksetzen"
+    },
+    "footer": {
+      "showing": "{{shown}} von {{total}}"
+    },
+    "contextMenu": {
+      "unfavorite": "Favorit entfernen",
+      "favorite": "Favorisieren",
+      "openInGame": "Im Spiel öffnen",
+      "showIntel": "Intel anzeigen",
+      "planNewBase": "Neue Basis planen"
+    }
+  },
+  "filters": {
+    "title": "Filter",
+    "reset": "Zurücksetzen",
+    "searchPlaceholder": "Nach Namen suchen…",
+    "addFilter": "Filter hinzufügen...",
+    "resource": {
+      "fertility": "Fruchtbarkeit"
+    },
+    "mode": {
+      "inhabited": "Nur bewohnte Planeten (mit Unternehmen)",
+      "favorites": "Nur Favoriten"
+    }
+  },
+  "lens": {
+    "title": "Linse",
+    "reset": "Zurücksetzen",
+    "colors": "Farben",
+    "heatmap": "Heatmap",
+    "selectPlaceholder": "Auswählen…",
+    "option": {
+      "guildMembers": "Gildenmitglieder",
+      "companyDensity": "Unternehmensdichte",
+      "fertility": "Fruchtbarkeit",
+      "planetTier": "Planeten-Tier",
+      "none": "Keine"
+    }
+  },
+  "search": {
+    "searchPlanet": "Planet suchen",
+    "placeholder": "Planet oder System…",
+    "noResults": "Keine Planeten gefunden",
+    "filtered": "gefiltert"
+  },
+  "share": {
+    "title": "Galaxiekarte freigeben",
+    "actions": {
+      "copied": "Kopiert!",
+      "copyLink": "Link kopieren",
+      "download": "Herunterladen",
+      "cancel": "Abbrechen",
+      "share": "Freigeben"
+    },
+    "region": {
+      "current": "Aktuelle Ansicht",
+      "full": "Gesamte Galaxie"
+    },
+    "toggles": {
+      "planetColors": "Planetenfarben",
+      "heatmap": "Heatmap",
+      "legend": "Legende"
+    },
+    "preview": {
+      "label": "Vorschau",
+      "capturing": "Aufnahme läuft…",
+      "error": "Aufnahme fehlgeschlagen",
+      "alt": "Kartenvorschau"
+    },
+    "lens": {
+      "fertility": "Fruchtbarkeit",
+      "companyDensity": "Unternehmensdichte",
+      "guildMembers": "Gildenmitglieder",
+      "resource": "Ressource"
+    },
+    "legend": {
+      "colors": "Farben",
+      "heatmap": "Heatmap",
+      "company": "Unternehmen",
+      "guild": "Gilde"
+    }
+  },
+  "quickJump": {
+    "tooltip": "Schnellsprung (Q)",
+    "ariaLabel": "Schnellsprung"
+  },
+  "social": {
+    "title": "Soziales",
+    "reset": "Zurücksetzen",
+    "mode": {
+      "company": "Unternehmen",
+      "guild": "Gilde"
+    },
+    "company": {
+      "loading": "Wird geladen…",
+      "searchPlaceholder": "Unternehmen suchen…",
+      "searching": "Suche läuft…",
+      "noResults": "Keine Ergebnisse",
+      "clearAria": "Unternehmensfilter zurücksetzen",
+      "bases_one": "{{count}} Basis",
+      "bases_other": "{{count}} Basen"
+    },
+    "guild": {
+      "loading": "Wird geladen…",
+      "searchPlaceholder": "Gilde oder Tag suchen…",
+      "searching": "Suche läuft…",
+      "noResults": "Keine Ergebnisse",
+      "clearAria": "Gildenfilter zurücksetzen",
+      "bases_one": "{{count}} Basis",
+      "bases_other": "{{count}} Basen"
+    }
+  },
+  "intelLayout": {
+    "unknown": "Unbekannt"
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "page": {
+    "loading": "Forschungsdaten werden geladen…",
+    "errors": {
+      "loadCompany": "Unternehmensdaten konnten nicht geladen werden.",
+      "missingApiKey": "API-Schlüssel fehlt.",
+      "wishlistNotFound": "Wunschliste nicht gefunden.",
+      "noMaterials": "Keine Materialien zum Hinzufügen.",
+      "wishlistMeetsPreview": "Die Wunschliste erfüllt die Vorschaumengen bereits.",
+      "wishlistMatchesPreview": "Die Wunschliste entspricht der Vorschau bereits."
+    },
+    "levelControl": {
+      "decrease": "Stufe verringern",
+      "reset": "Stufe zurücksetzen",
+      "increase": "Stufe erhöhen"
+    },
+    "startMode": {
+      "current": "Aktuelle Forschungsstufen",
+      "respec": "Respec (Start bei 0)",
+      "custom": "Eigene Startstufen"
+    },
+    "toggle": {
+      "research": "Forschung",
+      "perks": "Perks"
+    },
+    "nav": {
+      "title": "Forschung & Perks",
+      "researchPlanner": "Forschungsplaner",
+      "prestigePerks": "Prestige-Perks"
+    },
+    "planner": {
+      "title": "Forschungsplaner"
+    },
+    "startingLevels": {
+      "title": "Start-Forschungsstufen",
+      "reset": "Zurücksetzen",
+      "derivedNote": "Startstufen werden abgeleitet von {{source}}",
+      "sourceCurrent": "den aktuellen Forschungsstufen des Unternehmens.",
+      "sourceRespec": "der Respec-Basis (Stufe 0)."
+    },
+    "targetLevels": {
+      "title": "Ziel-Forschungsstufen",
+      "reset": "Zurücksetzen"
+    },
+    "milestones": {
+      "title": "Meilensteine",
+      "empty": "Noch keine Meilensteine hinzugefügt.",
+      "selectCategory": "Kategorie wählen",
+      "levelPlaceholder": "Stufe",
+      "optionsMenu": "Meilenstein-Optionen",
+      "moveUp": "Hoch",
+      "moveDown": "Runter",
+      "remove": "Entfernen",
+      "moveUpTitle": "Nach oben verschieben",
+      "moveDownTitle": "Nach unten verschieben",
+      "removeTitle": "Meilenstein entfernen",
+      "add": "Meilenstein hinzufügen",
+      "addDisabledHint": "Zielstufen über die aktuellen setzen, um Meilensteine hinzuzufügen.",
+      "recordingHint": "Meilensteine mit +/− an den Zielstufen aufzeichnen",
+      "modeManual": "Manuell",
+      "modeRecording": "Aufzeichnen",
+      "reset": "Zurücksetzen"
+    },
+    "currentLevels": {
+      "title": "Aktuelle Forschungsstufen",
+      "companyLevels": "Unternehmensstufen"
+    },
+    "simulation": {
+      "title": "Zusammenfassung der Simulation",
+      "upgradePath": "Upgrade-Pfad",
+      "simulating": "Forschungsplan wird simuliert…",
+      "emptyUpgradePath": "Sobald ein Plan abgeschickt ist, listet der Simulator jeden Upgrade-Schritt der Reihe nach auf.",
+      "level": "Stufe {{from}} → {{to}}",
+      "time": "Zeit",
+      "total": "Gesamt"
+    },
+    "totals": {
+      "title": "Summen",
+      "amount": "Menge",
+      "unitPrice": "Stückpreis",
+      "total": "Gesamt",
+      "none": "Für diesen Plan werden keine Forschungsdaten benötigt.",
+      "totalTime": "Gesamtzeit",
+      "totalCost": "Gesamtkosten",
+      "createWishlist": "Wunschliste erstellen",
+      "empty": "Die Summen erscheinen nach der ersten Simulation."
+    },
+    "wishlist": {
+      "planTitle": "Forschungsplan",
+      "context": "Forschung",
+      "contextWithCompany": "{{name}} · Forschung",
+      "remainingGoals": "Verbleibende Ziele"
+    }
+  },
+  "perks": {
+    "panelTitle": "Prestige-Perks",
+    "points": {
+      "available": "Verfügbare Perk-Punkte",
+      "plan": "Plan:",
+      "clearAll": "Alle löschen",
+      "reset": "Zurücksetzen",
+      "next": "Nächster Perk-Punkt"
+    },
+    "overview": {
+      "title": "Perk-Übersicht",
+      "dailyValue": "Täglicher Wert",
+      "oneTimeSavings": "Einmalige Ersparnis",
+      "otherPerks": "Weitere Perks"
+    },
+    "recommend": {
+      "computing": "Wird berechnet…",
+      "label": "Empfehlen",
+      "spendAllPoints": "Alle Punkte ausgeben",
+      "saveForBetter": "Für Besseres sparen",
+      "fromScratch": "Von Grund auf",
+      "fromCurrent": "Ab aktuellem Stand",
+      "improvementPerDay": "+{{value}}/Tag"
+    },
+    "columns": {
+      "perk": "Perk",
+      "level": "Stufe",
+      "cost": "Kosten",
+      "costTitle": "Perk-Punkte für die nächste Stufe",
+      "valuePerDay": "Wert/Tag",
+      "valuePerDayTitle": "Täglicher Geldwert der aktuellen Perk-Stufe",
+      "valuePerPoint": "Wert/Pkt",
+      "valuePerPointTitle": "Aktueller täglicher Wert je investiertem Perk-Punkt",
+      "nextPerDay": "Nächste/Tag",
+      "nextPerDayTitle": "Zusätzlicher Tagesgewinn durch eine Stufe mehr",
+      "nextPerPoint": "Nächste/Pkt",
+      "nextPerPointTitle": "Täglicher Geldgewinn je Perk-Punkt für die nächste Stufe",
+      "saved": "Gespart",
+      "savedTitle": "Einmalig gesparte Baukosten durch diesen Perk",
+      "savedPerPoint": "Gespart/Pkt",
+      "savedPerPointTitle": "Aktuelle Ersparnis je investiertem Perk-Punkt",
+      "savedNext": "Nächste",
+      "savedNextTitle": "Zusätzliche Ersparnis durch eine Stufe mehr",
+      "savedNextPerPoint": "Nächste/Pkt",
+      "savedNextPerPointTitle": "Zusätzliche Ersparnis je Perk-Punkt für die nächste Stufe",
+      "benefit": "Nutzen",
+      "nextLevel": "Nächste Stufe"
+    },
+    "controls": {
+      "decrease": "Stufe verringern",
+      "reset": "Auf Unternehmensstufe zurücksetzen",
+      "increase": "Stufe erhöhen"
+    },
+    "status": {
+      "max": "Max",
+      "active": "Aktiv",
+      "inactive": "Inaktiv"
+    },
+    "effect": {
+      "scaling": "(skalierend)",
+      "perLevel": "pro Stufe"
+    },
+    "tier": {
+      "unlockTooltip": "{{spent}}/{{required}} Pkt in T{{tier}} zum Freischalten",
+      "locked": "Tier {{tier}} gesperrt ({{spent}}/{{required}} Pkt in niedrigeren Tiers)"
+    },
+    "blocked": {
+      "byConflict": "Blockiert durch {{name}} (exklusive Gruppe)"
+    },
+    "exclusivity": {
+      "supervision": "Supervision",
+      "missionPref": "Mission Pref.",
+      "exclusive": "Exklusiv"
+    },
+    "consolidated": {
+      "unusedPermits": "Ungenutzte Permits",
+      "used": "genutzt",
+      "livePermits": "(live: {{count}})",
+      "decreasePermits": "Ungenutzte Permits verringern",
+      "resetPermits": "Auf tatsächliche ungenutzte Permits zurücksetzen",
+      "increasePermits": "Ungenutzte Permits erhöhen",
+      "perPermit": "Pro Permit",
+      "prodSpeedSuffix": "% Prod.-Tempo",
+      "valuePerDay": "{{value}}/Tag",
+      "current": "Aktuell",
+      "permitsCount": "({{count}} Permits)",
+      "nextHqUpgrade": "Nächstes HQ-Upgrade",
+      "toLevel": "Stufe {{level}}",
+      "na": "k. A."
+    },
+    "debug": {
+      "title": "Debug: Vollständige Pipeline-Basis",
+      "outputPerDay": "Output/d:",
+      "inputPerDay": "Input/d:",
+      "consumablePerDay": "Verbrauchsgüter/d:",
+      "maintenancePerDay": "Wartung/d:",
+      "netProfitPerDay": "Nettogewinn/d:"
+    }
+  },
+  "flightRoutes": {
+    "title": "Flugrouten",
+    "totalPerDay": "Gesamt: {{cost}}/Tag",
+    "empty": "Keine Routen definiert. Routen hinzufügen, um die Werte der Logistik-Perks zu berechnen.",
+    "weight": {
+      "auto": "Automatisches Gewicht",
+      "manual": "Manuelles Gewicht",
+      "autoTooltip": "Gewichte werden automatisch aus der Basisproduktion abgeleitet. Klicken für manuell.",
+      "manualTooltip": "Manuelle Gewichte. Klicken, um sie aus der Basisproduktion abzuleiten."
+    },
+    "actions": {
+      "addRoute": "+ Route hinzufügen",
+      "loadDefaults": "Standardwerte laden",
+      "clearAll": "Alle löschen"
+    },
+    "route": {
+      "planetA": "Planet A",
+      "planetB": "Planet B",
+      "ships": "Schiff(e)",
+      "selectPlaceholder": "Auswählen",
+      "noShips": "Keine Schiffe",
+      "shipCount_one": "{{count}} Schiff",
+      "shipCount_other": "{{count}} Schiffe",
+      "noShipsAvailable": "Keine Schiffe verfügbar",
+      "demandAtoB": "A→B (t/d)",
+      "demandBtoA": "B→A (t/d)",
+      "mode": "Modus",
+      "cost": "Kosten",
+      "roundTripShort": "Umlauf {{time}}",
+      "debug": "Debug",
+      "hide": "Ausblenden",
+      "remove": "Route entfernen",
+      "optimization": {
+        "cheapest": "Günstigste",
+        "best": "Beste"
+      },
+      "warnings": {
+        "noPlanets": "Keine Planeten ausgewählt",
+        "planetANotSelected": "Planet A nicht ausgewählt",
+        "planetBNotSelected": "Planet B nicht ausgewählt",
+        "samePlanet": "Planet A und B sind identisch",
+        "noCargoWeight": "Kein Frachtgewicht gesetzt",
+        "noShipsAssigned": "Keine Schiffe zugewiesen"
+      }
+    },
+    "debug": {
+      "efficiencyAtoB": "Effizienz A→B:",
+      "efficiencyBtoA": "Effizienz B→A:",
+      "cargoCapacity": "Frachtkapazität:",
+      "cargoAtoBBtoA": "Fracht A→B / B→A:",
+      "allocAtoBBtoA": "Zuteilung A→B / B→A:",
+      "travelAtoB": "Flugzeit A→B:",
+      "travelBtoA": "Flugzeit B→A:",
+      "roundTrip": "Umlauf:",
+      "dailyTrips": "Flüge pro Tag:",
+      "fuelCostPerDay": "Treibstoffkosten/Tag:",
+      "repairCostPerDay": "Reparaturkosten/Tag:"
+    },
+    "transport": {
+      "imports": "Importe (A→B)",
+      "exports": "Exporte (B→A)",
+      "detailsHeading": "{{label}}: {{tonnage}} t/d",
+      "material": "Material",
+      "grossPerDay": "Brutto/d",
+      "contract": "Vertrag",
+      "netPerDay": "Netto/d",
+      "weight": "Gew.",
+      "tonnagePerDay": "t/d",
+      "none": "Keine"
+    }
+  },
+  "activeBonuses": {
+    "panelTitle": "Unternehmens-Perks",
+    "activeSection": "Aktive Boni",
+    "plannedSection": "Geplante Boni",
+    "reset": "Zurücksetzen",
+    "estDailyValue": "Gesch. Tageswert",
+    "perDaySuffix": "/d",
+    "perkPoints": "Perk-Punkte",
+    "pointsOver": "{{count}} zu viel",
+    "pointsLeft": "{{count}} übrig",
+    "prodSpeedUnusedPermits_one": "Prod.-Tempo ({{count}} ungenutztes Permit)",
+    "prodSpeedUnusedPermits_other": "Prod.-Tempo ({{count}} ungenutzte Permits)"
+  }
+}

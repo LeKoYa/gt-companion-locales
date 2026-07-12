@@ -11,8 +11,10 @@
     "settings": "Einstellungen"
   },
   "actions": {
-    "help": "Hilfe",
     "prices": "Preise",
     "remove": "Entfernen"
+  },
+  "language": {
+    "label": "Sprache"
   }
 }

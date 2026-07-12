@@ -1,19 +1,11 @@
 {
   "nav": {
     "panelTitle": "Leaderboards",
-    "help": {
-      "label": "Leaderboard help",
-      "tooltip": "Leaderboard overview."
-    },
     "guildLeaderboard": "Guild Leaderboard",
     "companyLeaderboard": "Company Leaderboard",
     "guildEvents": "Guild Events",
     "companyEvents": "Company Events",
     "recentGuildEvents": "Recent Guild Events",
-    "recentGuildEventsHelp": {
-      "label": "Recent guild events help",
-      "tooltip": "Recent guild events."
-    },
     "refreshGuildEvents": "Refresh recent guild events",
     "recentCompanyEvents": "Recent Company Events",
     "refreshCompanyEvents": "Refresh recent company events",
@@ -22,10 +14,6 @@
     "mobileRightToggle": "Tracker"
   },
   "table": {
-    "help": {
-      "label": "Leaderboard table help",
-      "tooltip": "Sorting, columns, and search."
-    },
     "myRank": "My Rank",
     "myRankTitle": "Jump to your company",
     "myGuild": "My Guild",

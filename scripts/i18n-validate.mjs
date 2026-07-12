@@ -42,7 +42,8 @@ const args = process.argv.slice(2);
 const strict = args.includes("--strict");
 const rootArg = args.indexOf("--root");
 const readmeArg = args.indexOf("--write-readme");
-const readmePath = readmeArg !== -1 ? (args[readmeArg + 1] ?? "README.md") : null;
+const readmePath =
+  readmeArg !== -1 ? (args[readmeArg + 1] ?? "README.md") : null;
 
 const detectRoot = () => {
   if (rootArg !== -1 && args[rootArg + 1]) return resolve(args[rootArg + 1]);
@@ -106,7 +107,9 @@ const placeholdersOf = (value) =>
 
 /** `<strong>`, `<plan>` and `<0>` as used by <Trans>. Self-closing included. */
 const tagsOf = (value) =>
-  new Set([...value.matchAll(/<\/?\s*([a-zA-Z0-9_-]+)\s*\/?>/g)].map((m) => m[1]));
+  new Set(
+    [...value.matchAll(/<\/?\s*([a-zA-Z0-9_-]+)\s*\/?>/g)].map((m) => m[1]),
+  );
 
 const stripPlural = (key) => {
   const match = key.match(/^(.*)_([a-z]+)$/);
@@ -184,7 +187,9 @@ for (const language of languages) {
       translatedCount += 1;
 
       if (value.trim() === "") {
-        warnings.push(`${file}: key '${key}' is empty (delete it to fall back to English)`);
+        warnings.push(
+          `${file}: key '${key}' is empty (delete it to fall back to English)`,
+        );
         continue;
       }
 

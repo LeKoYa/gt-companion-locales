@@ -1,0 +1,51 @@
+{
+  "panel": {
+    "helpFallback": "Hilfe"
+  },
+  "consumables": {
+    "tiers": {
+      "worker": "Arbeiter",
+      "technician": "Techniker",
+      "engineer": "Ingenieure",
+      "scientist": "Wissenschaftler"
+    },
+    "status": {
+      "allProvided": "Alle bereitgestellt",
+      "noneProvided": "Keine bereitgestellt",
+      "partiallyProvided": "Teilweise bereitgestellt"
+    },
+    "dailyAmount": "{{amount}}/1k pro Tag",
+    "dataUnavailable": "Keine Daten zu Verbrauchsgütern für dieses Tier verfügbar."
+  },
+  "overhead": {
+    "previewMode": {
+      "live": "Live",
+      "preview": "Vorschau",
+      "advanced": "Erweitert",
+      "projection": "Prognose"
+    },
+    "workforceUnavailable": "Summen der Arbeitskräfte sind noch nicht verfügbar.",
+    "previewOverheadLabel": "Overhead-Vorschau",
+    "totalWorkforceBurden": "Arbeitskräfte gesamt / Burden",
+    "expansionOverhead": "Expansions-Overhead",
+    "final": "Endwert",
+    "extraConsumableCost": "Zusätzliche Kosten für Verbrauchsgüter",
+    "perDay": "/ Tag",
+    "deltaVsLive": "Delta zu Live",
+    "extraPrefix": "Zusätzlich:",
+    "totalPrefix": "Gesamt:",
+    "consumption": "Verbrauch"
+  },
+  "research": {
+    "ownLevels": "Eigene Stufen",
+    "noLevels": "Keine Stufen",
+    "decreaseLevel": "Stufe verringern",
+    "increaseLevel": "Stufe erhöhen",
+    "resetToCompanyLevel": "Auf Unternehmensstufe zurücksetzen"
+  },
+  "startingBonus": {
+    "labelTitle": "Multiplikator, der während des Startbonus-Zeitraums gilt.",
+    "auto": "Auto",
+    "selectBonus": "Bonus auswählen"
+  }
+}

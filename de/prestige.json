@@ -1,0 +1,28 @@
+{
+  "perks": {
+    "controls": {
+      "decrease": "Stufe verringern",
+      "increase": "Stufe erhöhen",
+      "resetToCompany": "Auf Unternehmensstufe zurücksetzen"
+    },
+    "group": {
+      "none": "Keine",
+      "noneButton": "Ohne {{group}}",
+      "selectPlaceholder": "{{group}} auswählen"
+    },
+    "groupLabel": {
+      "exclusive": "Exclusive Perk",
+      "supervision": "Supervision"
+    }
+  },
+  "permits": {
+    "controls": {
+      "decrease": "Ungenutzte Genehmigungen verringern",
+      "increase": "Ungenutzte Genehmigungen erhöhen",
+      "resetToLive": "Auf ungenutzte Genehmigungen (Live) zurücksetzen"
+    },
+    "description": "Wird von Consolidated Operations für den Bonus auf die Produktionsgeschwindigkeit pro Genehmigung genutzt.",
+    "label": "Ungenutzte Basisgenehmigungen",
+    "withoutOverride": "(ohne Override: {{count}})"
+  }
+}

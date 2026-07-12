@@ -1,0 +1,402 @@
+{
+  "page": {
+    "panels": {
+      "scenario": "Szenario",
+      "recipes": "Rezepte",
+      "filters": "Filter"
+    },
+    "recipeChains": {
+      "button": "Rezeptketten",
+      "openLibraryTooltip": "Bibliothek der Rezeptketten öffnen"
+    },
+    "customPrices": {
+      "consumablesTitle": "Verbrauchsgüter",
+      "consumablesEmpty": "Daten zu Verbrauchsgütern sind noch nicht verfügbar."
+    },
+    "share": {
+      "apiKeyRequired": "Für Freigabe-Links wird ein API-Schlüssel benötigt.",
+      "scenarioLoading": "Das Szenario wird noch geladen, gleich erneut versuchen.",
+      "createFailed": "Freigabe-Link konnte nicht erstellt werden."
+    },
+    "presets": {
+      "sharedScenarioName": "Freigegebenes Szenario"
+    }
+  },
+  "recipes": {
+    "card": {
+      "chainAsPrimaryTitle": "Kette als Hauptwert angezeigt",
+      "favorite": {
+        "add": "Zu Favoriten hinzufügen",
+        "remove": "Aus Favoriten entfernen"
+      },
+      "overrideTooltip": {
+        "buildingLevel": "Gebäude Stufe {{level}}",
+        "chainLinked": "Mit einer Rezeptkette verknüpft",
+        "planet": "Abweichender Planet"
+      }
+    },
+    "consumables": {
+      "dailyUsage": "{{amount}}/1k täglich · {{state}}",
+      "essential": "essenziell",
+      "optional": "optional"
+    },
+    "contextMenu": {
+      "buildingLevel": {
+        "label": "Gebäude Stufe",
+        "reset": "Gebäudestufe zurücksetzen",
+        "set": "Setzen"
+      },
+      "cardPrimary": {
+        "chain": "Kette",
+        "label": "Kartenhauptwert",
+        "recipe": "Rezept",
+        "reset": "Kartenhauptwert zurücksetzen"
+      },
+      "chain": {
+        "label": "Kette",
+        "none": "Keine",
+        "reset": "Kette lösen"
+      },
+      "createChain": "Kette erstellen",
+      "createChainTitle": "Neue Kette mit diesem Rezept als Wurzel erstellen",
+      "openLibrary": "Bibliothek öffnen",
+      "openLibraryLinkedTitle": "Verknüpfte Kette in der Bibliothek öffnen",
+      "openLibraryTitle": "Bibliothek der Rezeptketten öffnen",
+      "planet": {
+        "label": "Planet",
+        "placeholder": "Standard verwenden…",
+        "reset": "Planet zurücksetzen"
+      },
+      "resetAll": "Alle Überschreibungen für dieses Rezept zurücksetzen"
+    },
+    "emptyState": "Keine Rezepte entsprechen den aktuellen Filtern.",
+    "productivity": {
+      "productionSpeedPerks": "Perks für Produktionsgeschwindigkeit",
+      "specialPerkMultiplier": "Multiplikator für Spezial-Perks",
+      "unusedPermits": "Ungenutzte Permits × {{permits}}"
+    }
+  },
+  "materialSources": {
+    "section": {
+      "heading": "Materialquellen",
+      "best": "Beste",
+      "bestTitle": "Jedes Material auf den galaxieweit ergiebigsten Planeten setzen",
+      "bestBase": "Beste (Basis)",
+      "bestBaseTitleEnabled": "Jedes Material, für das eine eigene Quelle existiert, auf die jeweilige eigene Basis setzen",
+      "bestBaseTitleDisabled": "Noch keine eigenen Basen vorhanden"
+    },
+    "row": {
+      "customTitle": "Eigene Auswahl, überschreibt Beste / Beste (Basis)",
+      "ownedTitle": "Beste eigene Basis für dieses Material",
+      "autoTitle": "Bester Planet galaxieweit (keine eigene Basis produziert dieses Material)",
+      "noPlanet": "kein Planet",
+      "searchPlaceholder": "Planet suchen…",
+      "noPlanetHasMaterial": "Kein Planet hat dieses Material.",
+      "noMatches": "Keine Treffer."
+    },
+    "contextMenu": {
+      "change": "Ändern…",
+      "bestBase": "Beste (Basis)",
+      "best": "Beste",
+      "highestAtTier": "Höchste im Tier…",
+      "tier": "Tier {{tier}}",
+      "noPlanetAtAnyTier": "Kein Planet hat dieses Material in irgendeinem Tier."
+    },
+    "shipping": {
+      "autoLargestCargo": "Auto (größte Fracht)",
+      "noShipsSubtitle": "Keine eigenen Schiffe, zum Berechnen der Transportkosten anmelden.",
+      "label": "Transport",
+      "excluded": "Ausgeschlossen",
+      "included": "Einbezogen",
+      "noShipsTooltip": "Keine eigenen Schiffe, zuerst anmelden oder ein Schiff kaufen.",
+      "ship": "Schiff",
+      "planet": "Planet",
+      "pickPlanetPlaceholder": "Planet wählen…"
+    },
+    "other": {
+      "buildingLevel": "Gebäudestufe",
+      "buildingCondition": "Gebäudezustand",
+      "workforceFulfillment": "Arbeitskräfte-Erfüllung",
+      "planetTier": "Planeten-Tier",
+      "globalOverheadImpact": "Globaler Overhead-Einfluss",
+      "globalOverheadHelpLabel": "Was ist der globale Overhead-Einfluss?",
+      "vacation": "Urlaub",
+      "vacationHelpLabel": "Was ist der Urlaubsmodus?",
+      "exclude": "Ausschließen",
+      "include": "Einbeziehen",
+      "live": "Live",
+      "none": "Keine",
+      "globalOverheadHelp": {
+        "p1": "Jeder beschäftigte Arbeiter erhöht den Overhead des Unternehmens, wodurch alle Arbeiter in allen Basen etwas mehr Verbrauchsgüter benötigen. Ein neues Produktionsgebäude kostet also nicht nur die Versorgung seiner eigenen Arbeiter, es hebt auch den Bedarf an Verbrauchsgütern in jedem anderen Gebäude leicht an.",
+        "excludeLabel": "Ausschließen:",
+        "excludeBody": "der Gewinn zählt nur die direkten Kosten des Rezepts. Geeignet zum Vergleich von Rezepten.",
+        "includeLabel": "Einbeziehen:",
+        "includeBody": "der Gewinn zieht zusätzlich die Folgekosten für den Rest des Unternehmens ab. Geeignet für die Entscheidung, ob sich ein neues Gebäude wirklich lohnt."
+      },
+      "vacationHelp": {
+        "p1": "Legt fest, wie Basen, die im Spiel als im Urlaub markiert sind, in die Overhead-Burden einfließen. Unabhängig vom Urlaubsschalter auf der Basis-Seite.",
+        "liveLabel": "Live:",
+        "liveBody": "berücksichtigt die Markierung im Spiel, Basen im Urlaub fallen also aus der Overhead-Burden heraus.",
+        "noneLabel": "Keine:",
+        "noneBody": "behandelt jede Basis als voll aktiv, als wären alle Arbeitskräfte zurückgerufen."
+      }
+    }
+  },
+  "filters": {
+    "section": {
+      "title": "Filter & Anzeige"
+    },
+    "reset": "Alles zurücksetzen",
+    "rows": {
+      "search": "Suche",
+      "favorites": "Favoriten",
+      "availability": "Verfügbarkeit",
+      "tier": "Tier",
+      "industry": "Industrie",
+      "building": "Gebäude",
+      "cardMetric": "Kartenmetrik",
+      "sortBy": "Sortieren nach",
+      "targetProfit": "Zielgewinn / h",
+      "targetPerBurden": "Ziel / 100 Burden",
+      "roiOptions": "ROI-Optionen"
+    },
+    "search": {
+      "placeholder": "Nach Name, Material, Gebäude filtern…"
+    },
+    "favorite": {
+      "all": "Alle",
+      "favorites": "★ Favoriten"
+    },
+    "availability": {
+      "all": {
+        "label": "Alle",
+        "tooltip": "Alle Rezepte anzeigen"
+      },
+      "tech": {
+        "label": "Tech",
+        "tooltip": "Nur Rezepte, deren Tech freigeschaltet ist"
+      },
+      "building": {
+        "label": "Gebäude",
+        "tooltip": "Nur Rezepte, deren Produktionsgebäude vorhanden ist"
+      },
+      "both": {
+        "label": "Beides",
+        "tooltip": "Nur Rezepte mit freigeschalteter Tech und vorhandenem Gebäude"
+      }
+    },
+    "sort": {
+      "card": "Karte",
+      "tier": "Tier",
+      "category": "Kategorie",
+      "industry": "Industrie",
+      "building": "Gebäude"
+    },
+    "displayMode": {
+      "profit": "Gewinn / h",
+      "profitTotal": "Gesamtgewinn / h",
+      "profitMargin": "Gewinnmarge %",
+      "inputCost": "Inputkosten / h",
+      "outputValue": "Outputwert / h",
+      "consumableCost": "Kosten Verbrauchsgüter / h",
+      "profitPerBurden": "Gewinn / h / 100 Burden",
+      "roiIncremental": "ROI (inkrementell)",
+      "roiTotal": "ROI (kumuliert)",
+      "weightIncrease": "Gewichtsänderung %",
+      "profitPerWeightChange": "Gewinn / Gewichtsänderung",
+      "profitPerTotalWeight": "Gewinn / Gesamtgewicht",
+      "profitPerMaxLegWeight": "Gewinn / max. Etappengewicht",
+      "targetPrice": "Zielpreis",
+      "targetPricePerBurden": "Zielpreis (pro Burden)"
+    },
+    "building": {
+      "sortToggle": {
+        "titleAlpha": "Alphabetisch sortiert · klicken, um nach Industrie zu sortieren (Forschungsstufe)",
+        "titleIndustry": "Nach Industrie sortiert · klicken, um alphabetisch zu sortieren",
+        "label": "Sortierung: {{mode}}",
+        "modeAlpha": "A-Z",
+        "modeIndustry": "Industrie"
+      }
+    },
+    "cardMetric": {
+      "placeholder": "Metrik wählen…"
+    },
+    "sortBy": {
+      "placeholder": "Sortierung wählen…"
+    },
+    "roi": {
+      "housing": "Wohnraum",
+      "level": "Stufe",
+      "reserve": "Reserve",
+      "exclude": "Exkl.",
+      "include": "Inkl.",
+      "excludeTooltip": "Ausschließen",
+      "includeTooltip": "Einbeziehen"
+    },
+    "units": {
+      "days": "Tage"
+    },
+    "entities": {
+      "industry": "Industrie",
+      "industryPlural": "Industrien",
+      "building": "Gebäude",
+      "buildingPlural": "Gebäude"
+    },
+    "multiSelect": {
+      "none": "Keine {{entities}}",
+      "all": "Alle {{entities}}",
+      "partial": "{{count}} von {{total}} {{entities}}",
+      "oneSelected": "1 {{entity}} ausgewählt",
+      "empty": "Nichts zu filtern.",
+      "selectAll": "Alle",
+      "clearAll": "Keine"
+    },
+    "includedBases": {
+      "buttonTitle": "Auswählen, welche Basen in basisübergreifende Auswertungen einfließen (Overhead / Arbeitskräfte / usw.)",
+      "label": "Einbezogen",
+      "all": "alle",
+      "header": "Einbezogene Basen",
+      "includeAll": "Alle einbeziehen",
+      "excludeAll": "Alle ausschließen",
+      "empty": "Keine Basen."
+    }
+  },
+  "scenario": {
+    "view": {
+      "all": "Alle",
+      "changes": "Änderungen",
+      "editScenario": "Szenario bearbeiten…",
+      "noDeviations": "Keine Abweichungen von der Ausgangslage.",
+      "reset": "Zurücksetzen",
+      "resetAll": "Alles zurücksetzen",
+      "title": "Szenario"
+    },
+    "sections": {
+      "consumables": "Verbrauchsgüter",
+      "general": "Allgemein",
+      "perks": "Perks",
+      "research": "Forschung",
+      "shipping": "Transport"
+    },
+    "footer": {
+      "includedBases": "Einbezogene Basen",
+      "moreControls": "Weitere Optionen",
+      "share": "Freigeben",
+      "shareScenario": "Szenario freigeben",
+      "shareTitle": "Dieses Szenario als Permalink freigeben"
+    }
+  },
+  "dataManagement": {
+    "presets": {
+      "buttonLabel": "Presets",
+      "buttonTitle": "Gespeicherte Szenario-Presets",
+      "unsavedTitle": "Ungespeicherte Änderungen",
+      "heading": "Presets",
+      "saveCurrent": "Aktuelles speichern…",
+      "clearAll": "Alles zurücksetzen",
+      "clearAllTitle": "Alle Szenario-Regler und Filter auf die Standardwerte zurücksetzen und das Preset abwählen",
+      "namePlaceholder": "Preset-Name",
+      "save": "Speichern",
+      "cancel": "Abbrechen",
+      "emptyTitle": "Noch keine Presets gespeichert.",
+      "emptyHint": "Mit \"Aktuelles speichern…\" das Szenario sichern.",
+      "sharedBadge": "freigegeben",
+      "unsavedBadge": "ungespeichert",
+      "unsavedRowTitle": "Das Szenario hat sich seit dem letzten Laden dieses Presets geändert",
+      "overwriteSaved": "Gespeichert!",
+      "overwriteTitle": "Mit dem aktuellen Stand des Szenarios überschreiben",
+      "rename": "Umbenennen",
+      "restoreTitle": "Ungespeicherte Änderungen verwerfen",
+      "deleteTitle": "Löschen",
+      "discardAndLoad": "Ungespeicherte Änderungen verwerfen und <strong>{{name}}</strong> laden",
+      "discardAndRestore": "Änderungen verwerfen und <strong>{{name}}</strong> wiederherstellen",
+      "deleteConfirm": "<strong>{{name}}</strong> löschen",
+      "sharedScenarioFallback": "Freigegebenes Szenario",
+      "shared": {
+        "by": "Freigegeben von {{company}}",
+        "imported": "Über einen Freigabe-Link importiert",
+        "expires": "Läuft ab {{date}}"
+      }
+    },
+    "settings": {
+      "title": "Rentabilitäts-Einstellungen",
+      "resetAll": "Alles zurücksetzen",
+      "apply": "Übernehmen",
+      "sections": {
+        "general": "Allgemein",
+        "shipping": "Transport",
+        "research": "Forschung",
+        "perks": "Prestige-Perks",
+        "consumables": "Verbrauchsgüter",
+        "materialSources": "Materialquellen"
+      }
+    },
+    "share": {
+      "title": "Szenario freigeben",
+      "close": "Schließen",
+      "cancel": "Abbrechen",
+      "creating": "Link wird erstellt…",
+      "create": "Freigabe-Link erstellen",
+      "titleLabel": "Titel",
+      "titlePlaceholder": "Optional, für Empfänger sichtbar",
+      "descriptionLabel": "Beschreibung",
+      "descriptionPlaceholder": "Optional. Worum geht es und wie ist es zu nutzen?",
+      "scope": "Sichtbarkeit",
+      "scopePublic": "Öffentlich",
+      "scopeGuild": "Gilde",
+      "scopeGuildTooltip": "Nur Mitglieder der eigenen Gilde können diesen Link öffnen.",
+      "expires": "Läuft ab",
+      "expiry1d": "1 Tag",
+      "expiry7d": "7 Tage",
+      "expiry30d": "30 Tage",
+      "expiryForever": "Nie",
+      "shareLink": "Freigabe-Link",
+      "copied": "Kopiert!",
+      "copyFailed": "Kopieren fehlgeschlagen",
+      "copy": "Kopieren",
+      "error": "Freigabe-Link konnte nicht erstellt werden.",
+      "options": {
+        "research": {
+          "label": "Forschung",
+          "onHint": "Die eigenen effektiven Forschungsstufen sind fest eingebettet.",
+          "offHint": "Es werden die Forschungsstufen des Empfängers verwendet."
+        },
+        "perks": {
+          "label": "Prestige-Perks",
+          "onHint": "Die eigenen Prestige-Perk-Stufen sind fest eingebettet.",
+          "offHint": "Es werden die Perks des Empfängers verwendet."
+        },
+        "startingBonus": {
+          "label": "Startbonus",
+          "onHint": "Der eigene Bonus auf die Startgeschwindigkeit ist fest eingebettet.",
+          "offHint": "Es wird der Startbonus des Empfängers verwendet."
+        },
+        "overhead": {
+          "label": "Overhead",
+          "onHint": "Die eigenen Arbeitskräfte und das Admin Center sind fest eingebettet.",
+          "offHint": "Es wird der Overhead des Empfängers verwendet."
+        },
+        "consumables": {
+          "label": "Verbrauchsgüter",
+          "onHint": "Die eigenen Einstellungen zur Versorgung mit Verbrauchsgütern werden mitgegeben.",
+          "offHint": "Es werden die Einstellungen des Empfängers für Verbrauchsgüter verwendet."
+        },
+        "materialSources": {
+          "label": "Materialquellen",
+          "onHint": "Die eigenen Quellplaneten je Material werden mitgegeben.",
+          "offHint": "Es werden die Materialquellen des Empfängers verwendet."
+        },
+        "recipeOverrides": {
+          "label": "Rezept-Überschreibungen",
+          "onHint": "Die eigenen Anpassungen je Rezept für Stufe, Planet und Kette werden mitgegeben.",
+          "offHint": "Anpassungen je Rezept bleiben beim Empfänger."
+        },
+        "general": {
+          "label": "Allgemeine Einstellungen",
+          "onHint": "Gebäudestufe, Zustand, Arbeitskräfte-% und Planeten-Tier werden mitgegeben.",
+          "offHint": "Es werden die allgemeinen Einstellungen des Empfängers verwendet."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "page": {
+    "errors": {
+      "marketActivity": "Marktaktivität konnte nicht geladen werden.",
+      "exchangeData": "Handelsplatz-Daten konnten nicht geladen werden.",
+      "tradeVolume": "Handelsvolumen konnte nicht geladen werden",
+      "tradeVolumeHistory": "Verlauf des Handelsvolumens konnte nicht geladen werden."
+    },
+    "header": {
+      "day": "Tag {{date}}",
+      "window": "Zeitraum {{window}}",
+      "coverage": "Abdeckung {{pct}}%",
+      "asOf": "Stand {{time}}",
+      "coverageWarning": "Die Abdeckung liegt unter 100%. Es fehlen noch Daten, sie werden nach und nach erfasst.",
+      "info": "Info",
+      "infoAriaLabel": "Infos zur Handelsplatz-Übersicht"
+    },
+    "views": {
+      "title": "Ansichten",
+      "mobileLeftToggle": "Ansichten",
+      "mobileRightToggle": "Handelsplatz-Statistiken",
+      "exchange": "Handelsplatz",
+      "analysis": "Analyse"
+    },
+    "overview": {
+      "title": "Handelsplatz-Übersicht",
+      "noData": "Noch keine Handelsplatz-Daten verfügbar."
+    },
+    "controls": {
+      "day": "Tag",
+      "searchPlaceholder": "Suchen…",
+      "refresh": "Aktualisieren",
+      "refreshExchange": "Handelsplatz-Daten aktualisieren",
+      "collapseControls": "Steuerung einklappen",
+      "expandControls": "Steuerung ausklappen",
+      "moreControls": "Weitere Steuerung",
+      "pin": "Anheften",
+      "filters": "Filter",
+      "columns": "Spalten",
+      "all": "Alle",
+      "none": "Keine",
+      "reset": "Zurücksetzen",
+      "selectedCount": "{{value}} ausgewählt"
+    },
+    "exchangeColumns": {
+      "favoriteTitle": "Nach Favoriten sortieren.",
+      "material": "Material",
+      "materialTitle": "Materialname.",
+      "matId": "ID",
+      "matIdTitle": "Material-ID.",
+      "bestPrice": "Akt. Preis",
+      "bestPriceTitle": "Aktuell niedrigster Preis in Credits.",
+      "avgPrice": "Ø Preis",
+      "avgPriceTitle": "Durchschnittspreis in Credits.",
+      "playerQty": "Spieler-Menge",
+      "playerQtyTitle": "Von Spielern gelistete Menge (ohne Federal Reserve).",
+      "fedQty": "Fed-Menge",
+      "fedQtyTitle": "Von der Federal Reserve gelistete Menge.",
+      "queueQtyBestPrice": "Menge (Best)",
+      "queueQtyBestPriceTitle": "Zum aktuellen Preis gelistete Menge.",
+      "soldInWindow": "Verkauft ({{window}})",
+      "soldInWindowTitle": "Im gewählten Zeitraum verkaufte Einheiten.",
+      "tradeVolume": "Handelsvolumen",
+      "tradeVolumeTitle": "Verkaufte Einheiten multipliziert mit dem Durchschnittspreis im gewählten Zeitraum.",
+      "soldPerHour": "Verkauft / Std",
+      "soldPerHourTitle": "Verkaufte Einheiten pro Stunde (normalisiert über den gewählten Zeitraum).",
+      "priceChangePct": "Preis %",
+      "priceChangePctTitle": "Prozentuale Änderung des aktuellen Preises gegenüber dem Referenzzeitraum.",
+      "listedChange": "Gelistet Δ",
+      "listedChangeTitle": "Änderung der von Spielern gelisteten Menge gegenüber dem Referenzzeitraum.",
+      "volatility": "Volatilität",
+      "volatilityTitle": "Preisvolatilität (Variationskoeffizient) im gewählten Zeitraum.",
+      "basePrice": "Basispreis",
+      "basePriceTitle": "Basispreis des Materials in Credits.",
+      "weight": "Gewicht",
+      "weightTitle": "Gewicht des Materials.",
+      "contractFee": "Vertragsgebühr",
+      "contractFeeTitle": "Vertragsgebühr basierend auf Basispreis und Distanz."
+    },
+    "columnOptions": {
+      "currentPrice": "Aktueller Preis",
+      "avgPrice": "Ø Preis",
+      "playerListed": "Spieler gelistet",
+      "queueAtCurrent": "Menge @ Best",
+      "fedQty": "Fed-Menge",
+      "soldInWindow": "Verkauft (Zeitraum)",
+      "tradeVolume": "Handelsvolumen",
+      "soldPerHour": "Verkauft / Std",
+      "priceChangePct": "Preis %",
+      "listedChange": "Änderung gelistet",
+      "volatility": "Volatilität",
+      "basePrice": "Basispreis",
+      "weight": "Gewicht",
+      "materialId": "Material-ID",
+      "contractFee": "Vertragsgebühr"
+    },
+    "exportColumns": {
+      "materialId": "Material-ID",
+      "currentPrice": "Akt. Preis",
+      "avgPrice": "Ø Preis",
+      "playerListed": "Spieler-Menge",
+      "queueAtCurrent": "Menge (Best)",
+      "fedQty": "Fed-Menge",
+      "soldInWindow": "Verkauft (Zeitraum)",
+      "tradeVolume": "Handelsvolumen",
+      "soldPerHour": "Verkauft / Std",
+      "priceChangePct": "Preis %",
+      "listedChange": "Gelistet Δ",
+      "volatility": "Volatilität",
+      "basePrice": "Basispreis",
+      "weight": "Gewicht",
+      "contractFee": "Vertragsgebühr"
+    },
+    "favorites": {
+      "add": "Zu Favoriten hinzufügen",
+      "remove": "Aus Favoriten entfernen"
+    },
+    "contractFee": {
+      "feeLabel": "Gebühr:",
+      "distance": "Distanz",
+      "planet": "Planet",
+      "selectPlanet": "Planet auswählen"
+    },
+    "export": {
+      "button": "Exportieren",
+      "noColumnsSelected": "Keine Spalten ausgewählt",
+      "columnsSelected_one": "{{count}} Spalte ausgewählt",
+      "columnsSelected_other": "{{count}} Spalten ausgewählt",
+      "materialIncluded": "Material ist immer enthalten.",
+      "fileName": "Dateiname",
+      "selectAll": "Alle auswählen",
+      "clear": "Leeren",
+      "contractFeeLyValues": "LY-Werte für Vertragsgebühr",
+      "every": "Schritt",
+      "generate": "Erzeugen",
+      "lyValuesMissing": "LY-Werte hinzufügen, um Spalten für Vertragsgebühren festzulegen.",
+      "downloadCsv": "CSV herunterladen",
+      "csvMaterial": "Material",
+      "csvContractFee": "Vertragsgebühr ({{ly}} LY)"
+    },
+    "stats": {
+      "panelTitle": "Handelsplatz-Statistiken",
+      "sectionTitle": "Handelsplatz-Statistiken",
+      "totalSnapshots": "Snapshots gesamt",
+      "collectionStart": "Erfassungsbeginn",
+      "latestSnapshot": "Neuester Snapshot",
+      "avgSnapshotsPerDay": "Ø Snapshots / Tag",
+      "pollInterval": "Abfrageintervall",
+      "listingCompanies": "Unternehmen mit Angeboten",
+      "activeCompaniesTooltip": "Unterschiedliche Unternehmen mit mindestens einem aktiven Angebot in diesem Zeitraum.",
+      "activeCompanies": "Aktive Unternehmen ({{window}})",
+      "windowTotal": "gesamt",
+      "listingHistoryStart": "Der Angebotsverlauf beginnt: {{time}}. Frühere Angebote sind nicht enthalten.",
+      "unknownTime": "unbekannter Zeitpunkt",
+      "listingHistoryStartAria": "Warnung zum Beginn des Angebotsverlaufs",
+      "coverageWarning": "Die Abdeckung der Angebotsaktivität liegt in diesem Zeitraum bei {{pct}}%.",
+      "coverageWarningAria": "Warnung zur Abdeckung der Angebotsaktivität"
+    },
+    "tradeVolume": {
+      "historyButton": "Verlauf Handelsvolumen",
+      "modalTitle": "Verlauf des Handelsvolumens",
+      "noData": "Noch keine Daten zum Handelsvolumen verfügbar.",
+      "estimatedNote": "Geschätzter täglicher Handelswert (verkaufte Einheiten x bester Preis), gestapelt nach Gebäude-Tier.",
+      "loading": "Wird geladen…",
+      "chartTotal": "Gesamt",
+      "chartYAxis": "Handelsvolumen",
+      "window": {
+        "all": "Gesamt"
+      }
+    },
+    "tags": {
+      "monopolyInfo": "{{company}}: {{share}}% der Verkäufe (7T)",
+      "tooltips": {
+        "surge": "Nachfrage schießt hoch: 1T-Nachfrage deutlich über dem 7T-Schnitt, Angebot sinkt",
+        "breakout": "Starke Preisbewegung: Preis deutlich gestiegen, gestützt von der Nachfrage",
+        "squeeze": "Wird knapp: sehr geringes effektives Angebot und weiter sinkend",
+        "fading": "Nachfrage sinkt: 1T-Nachfrage deutlich unter dem 7T-Schnitt",
+        "dumping": "Flut an Angeboten: Angebot ist in 1T stark gestiegen",
+        "wall": "Preismauer: ein Unternehmen dominiert den besten Preis und deckelt damit, wozu andere verkaufen können",
+        "crash": "Preissturz: deutlicher Rückgang im Verhältnis zur üblichen Volatilität dieses Materials",
+        "monopoly": "Ein Unternehmen dominiert die Verkäufe dieses Materials (7T)"
+      },
+      "labels": {
+        "surge": "Anstieg",
+        "breakout": "Ausbruch",
+        "squeeze": "Knappheit",
+        "fading": "Abflauen",
+        "dumping": "Dumping",
+        "wall": "Mauer",
+        "crash": "Crash",
+        "monopoly": "Monopol"
+      }
+    },
+    "liquidity": {
+      "liquid": "Liquide",
+      "normal": "Normal",
+      "slow": "Langsam",
+      "stagnant": "Stagnierend"
+    },
+    "planets": {
+      "title": "Planeten",
+      "noData": "Noch keine Daten zum Planetenvorkommen verfügbar.",
+      "fertility": "Fruchtbarkeit",
+      "applying": "Wird angewendet…",
+      "ownPlanets": "Eigene Planeten",
+      "maxValues": "Maximalwerte",
+      "reset": "Zurücksetzen",
+      "maxTooltip": "Max: {{value}}%"
+    },
+    "analysis": {
+      "title": "Marktanalyse",
+      "loading": "Wird geladen…",
+      "noRecipeData": "Keine Rezeptdaten verfügbar.",
+      "refreshMarket": "Marktdaten aktualisieren",
+      "daysOfSupply": "{{days}} Tage effektive Reichweite",
+      "scoreBreakdown": "roh: {{raw}} → Score: {{score}} (normalisiert)",
+      "columns": {
+        "recipe": "Rezept",
+        "tags": "Tags",
+        "liquidity": "Liq.",
+        "liquidityTitle": "Preisgewichtete Liquidität",
+        "scoreAtAvg": "Score (Ø)",
+        "scoreAtAvgTitle": "5-Faktoren-Score zum Durchschnittspreis (Nachfrage + Angebot + Preis + Liquidität + Gewinn), 0 bis 100",
+        "scoreAtCurrent": "Score (Aktuell)",
+        "scoreAtCurrentTitle": "5-Faktoren-Score zum aktuell besten Preis (Nachfrage + Angebot + Preis + Liquidität + Gewinn), 0 bis 100",
+        "profitAtAvg": "Gewinn (Ø)",
+        "profitAtAvgTitle": "Gewinn/h zum durchschnittlichen Handelspreis",
+        "profitAtCurrent": "Gewinn (Aktuell)",
+        "profitAtCurrentTitle": "Gewinn/h zum aktuell besten Preis",
+        "tierNormProfitAtAvg": "Gewinn norm. (Ø)",
+        "tierNormProfitAtAvgTitle": "Tier-normalisierter Gewinn/h zum durchschnittlichen Handelspreis (Gewinn ÷ Gebäude-Tier)",
+        "tierNormProfitAtCurrent": "Gewinn norm. (Akt.)",
+        "tierNormProfitAtCurrentTitle": "Tier-normalisierter Gewinn/h zum aktuell besten Preis (Gewinn ÷ Gebäude-Tier)"
+      },
+      "filters": {
+        "allIndustries": "Alle Industrien",
+        "noIndustries": "Keine Industrien",
+        "someIndustries_one": "{{count}} Industrie",
+        "someIndustries_other": "{{count}} Industrien",
+        "allBuildings": "Alle Gebäude",
+        "noBuildings": "Keine Gebäude",
+        "someBuildings_one": "{{count}} Gebäude",
+        "someBuildings_other": "{{count}} Gebäude",
+        "enableAll": "Alle aktivieren",
+        "disableAll": "Alle deaktivieren"
+      }
+    },
+    "categories": {
+      "metals": "Metalle",
+      "constructionMaterials": "Baumaterialien",
+      "agriculturalProducts": "Agrarprodukte",
+      "minerals": "Mineralien",
+      "gasesAndLiquids": "Gase und Flüssigkeiten",
+      "materials": "Materialien",
+      "consumables": "Verbrauchsgüter",
+      "plastics": "Kunststoffe",
+      "chemicals": "Chemikalien",
+      "machinery": "Maschinen",
+      "electronics": "Elektronik",
+      "science": "Wissenschaft",
+      "shipParts": "Schiffsteile",
+      "uncategorized": "Ohne Kategorie",
+      "typeN": "Typ {{n}}"
+    }
+  },
+  "customPrices": {
+    "sections": {
+      "maintenance": "Wartungsteile",
+      "shipParts": "Schiffsteile",
+      "research": "Forschungsdaten",
+      "construction": "Baumaterialien",
+      "consumables": "Verbrauchsgüter"
+    },
+    "emptyMessages": {
+      "maintenance": "Keine Treibstoffarten erkannt.",
+      "shipParts": "Keine Schiffsteil-Materialien für den aktuellen Blueprint erkannt.",
+      "research": "Keine Forschungsmaterialien verfügbar.",
+      "construction": "Keine Baumaterialien konfiguriert.",
+      "consumables": "Keine Verbrauchsgüter konfiguriert."
+    },
+    "priceBase": {
+      "current": "Aktuell",
+      "average": "Durchschnitt"
+    },
+    "summary": {
+      "unsaved": "ungespeichert"
+    },
+    "actions": {
+      "updatePrices": "Preise aktualisieren",
+      "resetAll": "Alle eigenen Preise zurücksetzen",
+      "openSettings": "Einstellungen öffnen",
+      "closeSettings": "Einstellungen schließen",
+      "editPresetName": "Preset-Namen bearbeiten",
+      "savePreset": "Preset speichern",
+      "saveAsNew": "Als neues speichern",
+      "overwrite": "Überschreiben",
+      "deletePreset": "Preset löschen",
+      "decrease": "Verringern",
+      "increase": "Erhöhen",
+      "clearCustomPrice": "Eigenen Preis entfernen",
+      "resetToGlobal": "Auf global zurücksetzen",
+      "doneEditing": "Bearbeitung beenden"
+    },
+    "preset": {
+      "namePlaceholder": "Preset-Name",
+      "selectPlaceholder": "Preset auswählen…",
+      "none": "Kein Preset",
+      "unsavedChanges": "Ungespeicherte Änderungen"
+    },
+    "search": {
+      "placeholder": "Materialien suchen",
+      "toggleFavorites": "Favoritenfilter umschalten",
+      "showFavoritesOnly": "Nur Favoriten anzeigen",
+      "showingFavoritesOnly": "Es werden nur Favoriten angezeigt"
+    },
+    "empty": {
+      "noTargets": "Keine Preisziele verfügbar.",
+      "noMatches": "Keine passenden Materialien gefunden.",
+      "noOverrides": "Keine überschriebenen Preise verfügbar."
+    },
+    "contextMenu": {
+      "edit": "Bearbeiten",
+      "favorite": "Favorisieren",
+      "unfavorite": "Favorit entfernen",
+      "reset": "Zurücksetzen"
+    },
+    "panel": {
+      "title": "Eigene Preise"
+    }
+  },
+  "materialDetail": {
+    "search": {
+      "tooltip": "Materialien suchen (F)"
+    },
+    "tabs": {
+      "charts": "Diagramme",
+      "details": "Details",
+      "patterns": "Muster"
+    },
+    "window": {
+      "day": "Tag"
+    },
+    "footer": {
+      "window": "Zeitraum: {{window}}",
+      "coverage": "Abdeckung: {{pct}}%",
+      "asOf": "Stand: {{time}}"
+    },
+    "status": {
+      "loading": "Wird geladen…",
+      "error": "Daten konnten nicht geladen werden."
+    },
+    "section": {
+      "marketActivity": "Marktaktivität",
+      "soldVsListed": "Verkauft vs. gelistet",
+      "stats": "Statistiken",
+      "orderbook": "Orderbuch",
+      "companyActivity": "Unternehmensaktivität"
+    },
+    "activityMode": {
+      "companies": "Unternehmen",
+      "guilds": "Gilden"
+    },
+    "stat": {
+      "price": "Preis",
+      "avgPrice": "Ø Preis",
+      "minMax": "Min / Max",
+      "volatility": "Volatilität",
+      "supply": "Angebot",
+      "soldDay": "Verkauft ({{day}})",
+      "soldWindow": "Verkauft (Zeitraum)",
+      "soldPerHour": "Verkauft / Std",
+      "sellers": "Verkäufer",
+      "untracked": "Nicht erfasst"
+    },
+    "statColumn": {
+      "stat": "Kennzahl",
+      "value": "Wert"
+    },
+    "chart": {
+      "noData": "Keine Daten.",
+      "noVolumeData": "Keine Volumendaten."
+    },
+    "orderbook": {
+      "column": {
+        "price": "Preis",
+        "volume": "Volumen",
+        "qty": "Menge",
+        "sellers": "Verkäufer"
+      },
+      "empty": "Keine Orderbuch-Daten verfügbar."
+    },
+    "activity": {
+      "column": {
+        "company": "Unternehmen",
+        "guildCompany": "Gilde / Unternehmen",
+        "salesPct": "Verkäufe %",
+        "sold": "Verkauft",
+        "revenue": "Umsatz",
+        "avgPrice": "Ø Preis",
+        "listed": "Gelistet"
+      },
+      "loading": "Wird geladen…",
+      "empty": "Keine Aktivitätsdaten verfügbar.",
+      "showLess": "Weniger anzeigen",
+      "showMore_one": "{{count}} weiteres ohne Verkäufe anzeigen",
+      "showMore_other": "{{count}} weitere ohne Verkäufe anzeigen"
+    },
+    "pattern": {
+      "loading": "Wird geladen…",
+      "error": "Aktivitätsmuster konnte nicht geladen werden.",
+      "empty": "Noch nicht genug Marktdaten für dieses Material.",
+      "caption": "Verkauft/h nach Wochentag × Stunde · letzte {{days}}T · {{tz}} (lokale Zeit)",
+      "weekday": {
+        "mon": "Mo",
+        "tue": "Di",
+        "wed": "Mi",
+        "thu": "Do",
+        "fri": "Fr",
+        "sat": "Sa",
+        "sun": "So"
+      }
+    },
+    "series": {
+      "price": "Preis",
+      "sold": "Verkauft",
+      "listed": "Gelistet",
+      "newlyListed": "Neu gelistet"
+    },
+    "axis": {
+      "qty": "Menge",
+      "listedSold": "Gelistet / Verkauft",
+      "price": "Preis"
+    }
+  },
+  "widgets": {
+    "eventPopup": {
+      "eventType": {
+        "listed": "Gelistet",
+        "sold": "Verkauft",
+        "cancelled": "Storniert",
+        "unattributed": "Nicht zugeordnet"
+      },
+      "loading": "Wird geladen…",
+      "empty": "Keine Transaktionen",
+      "andMore_one": "und {{count}} weitere…",
+      "andMore_other": "und {{count}} weitere…"
+    },
+    "materialSearch": {
+      "placeholder": "Material suchen…",
+      "noResults": "Keine Ergebnisse"
+    },
+    "miniCalendar": {
+      "months": {
+        "january": "Januar",
+        "february": "Februar",
+        "march": "März",
+        "april": "April",
+        "may": "Mai",
+        "june": "Juni",
+        "july": "Juli",
+        "august": "August",
+        "september": "September",
+        "october": "Oktober",
+        "november": "November",
+        "december": "Dezember"
+      },
+      "weekdays": {
+        "mon": "Mo",
+        "tue": "Di",
+        "wed": "Mi",
+        "thu": "Do",
+        "fri": "Fr",
+        "sat": "Sa",
+        "sun": "So"
+      }
+    }
+  }
+}

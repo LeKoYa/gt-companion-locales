@@ -1,9 +1,7 @@
 {
   "intel": {
     "header": {
-      "label": "Planet intel",
-      "helpLabel": "Planet intel help",
-      "helpTooltip": "How planet intel works."
+      "label": "Planet intel"
     },
     "footer": {
       "count": "{{shown}} / {{total}} companies"
@@ -208,12 +206,6 @@
     },
     "actions": {
       "close": "Close"
-    },
-    "help": {
-      "mapControlsLabel": "Map controls help",
-      "mapControlsTooltip": "Filters, lenses, and social overlays.",
-      "detailsLabel": "Details help",
-      "detailsTooltip": "Planet info, intel, and ship details."
     }
   },
   "map": {
@@ -252,8 +244,6 @@
     },
     "guild": {
       "title": "Guild Members",
-      "helpLabel": "Sharing help",
-      "helpTooltip": "How sharing and privacy works.",
       "loading": "Loading guild members…",
       "error": "Failed to load guild members.",
       "empty": "No guild members found."

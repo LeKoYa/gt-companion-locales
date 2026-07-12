@@ -1,0 +1,269 @@
+{
+  "apiSettings": {
+    "panelTitle": "API-Einstellungen"
+  },
+  "apiAccess": {
+    "title": "API-Zugriff",
+    "loading": "Zugangsdaten werden geladen…",
+    "keyLabel": "API-Schlüssel",
+    "keyPlaceholder": "API-Schlüssel einfügen",
+    "saveButton": "Schlüssel speichern",
+    "stats": {
+      "remaining": "Verbleibend",
+      "reset": "Reset",
+      "retry": "Wartezeit"
+    },
+    "notice": {
+      "revoked": {
+        "title": "API-Schlüssel widerrufen",
+        "message": "Der aktuelle Schlüssel wurde abgelehnt. Schlüssel entfernen und einen <limited>Limited</limited>- oder <extended>Extended</extended>-Schlüssel hinzufügen."
+      },
+      "required": {
+        "title": "API-Schlüssel erforderlich",
+        "message": "Einen <limited>Limited</limited>- oder <extended>Extended</extended>-Schlüssel hinzufügen, um authentifizierte Funktionen freizuschalten."
+      }
+    },
+    "levels": {
+      "rowLabel": "Zugriffsebenen",
+      "description": "Ein <extended>Extended</extended>-Schlüssel gibt vollen Zugriff, ein <limited>Limited</limited>-Schlüssel deckt die meisten Funktionen ab. Public-Schlüssel werden nicht unterstützt."
+    },
+    "errors": {
+      "loadCredentials": "Zugangsdaten konnten nicht geladen werden",
+      "saveKey": "API-Schlüssel konnte nicht gespeichert werden",
+      "deleteCredential": "Zugangsdaten konnten nicht gelöscht werden"
+    }
+  },
+  "accessLevels": {
+    "formatted": {
+      "extended": "Extended (voller Zugriff)",
+      "limited": "Limited",
+      "public": "Public (Upgrade erforderlich)",
+      "unknown": "Unbekannt"
+    },
+    "headers": {
+      "limited": "Limited",
+      "extended": "Extended"
+    },
+    "featureColumn": "Funktion",
+    "features": {
+      "coreTools": "Kernfunktionen (Basis, Flug, Forschung, Rentabilität usw.)",
+      "guildDonations": "Gildenspenden",
+      "wishlists": "Wunschlisten"
+    }
+  },
+  "sharing": {
+    "title": "Freigabe-Einstellungen",
+    "intro": "Informationen über das eigene Unternehmen lassen sich mit anderen Nutzern teilen, inklusive Kontrolle darüber, wer was sieht.",
+    "developerAccess": {
+      "label": "Dem Entwickler die Nutzung des API-Schlüssels für Tests, Fehlersuche und Verbesserungen erlauben",
+      "description": "Der API-Schlüssel kann verwendet werden, um Unternehmensdaten für Fehlerbehebungen, Funktionstests und die Arbeit an Updates abzurufen.",
+      "confirm": "Entwicklerzugriff aktivieren?\n\nDamit kann der Entwickler den API-Schlüssel nutzen, um Unternehmensdaten für Tests, Fehlersuche und Verbesserungen abzurufen. Das ist unabhängig von den Freigabe-Einstellungen und macht die Daten nicht für andere Nutzer sichtbar."
+    },
+    "options": {
+      "nobody": "Niemand",
+      "guild": "Gilde",
+      "public": "Öffentlich"
+    },
+    "groups": {
+      "company": {
+        "title": "Unternehmen",
+        "companyResearch": "Forschungsstufen",
+        "prestigePerks": "Prestige-Perks",
+        "perkImpact": "Perk-Wirkung"
+      },
+      "ships": {
+        "title": "Schiffe",
+        "shipsDesigns": "Schiffsdesigns",
+        "shipsRoutes": "Schiffsrouten",
+        "shipsInventories": "Schiffsladung"
+      },
+      "warehouses": {
+        "title": "Lager",
+        "warehousesBases": "Basislager",
+        "warehousesExchange": "Handelsplatz-Lager"
+      },
+      "bases": {
+        "title": "Basen",
+        "basesNames": "Basisnamen",
+        "basesLayouts": "Basis-Layouts",
+        "basesProduction": "Basisproduktion",
+        "basesOverheadSummary": "Arbeitskräfte-Overhead",
+        "basesOverheadSummarySuffix": "nur Summen der Verbrauchsgüter + Admin Center Stufe; wird für den Admin Center ROI der Gilde verwendet"
+      },
+      "contracts": {
+        "title": "Verträge",
+        "contractsActive": "Aktive Verträge"
+      },
+      "productionChains": {
+        "title": "Produktionsketten",
+        "guildChains": "Personalisierung der Gildenketten",
+        "guildChainsSuffix": "ermöglicht der Gilde, Forschung, Perks und Arbeitskräfte zu nutzen, um Ketten-Anmeldungen fair zu bewerten; Standard ist Gilde"
+      },
+      "upcoming": {
+        "title": "Demnächst",
+        "others": "Kommende Funktionen"
+      }
+    },
+    "errors": {
+      "loadSettings": "Einstellungen konnten nicht geladen werden",
+      "updateSharing": "Freigabe konnte nicht aktualisiert werden"
+    }
+  },
+  "privacy": {
+    "title": "API-Schlüssel: Datenschutz & Speicherung",
+    "storageDuration": {
+      "label": "Speicherdauer der Daten",
+      "text": "Zwischengespeicherte Antworten und entschlüsselte Daten werden innerhalb von 48 Stunden gelöscht. Verschlüsselte API-Schlüssel werden länger gespeichert, damit Informationen mit anderen geteilt werden können."
+    },
+    "dataSharing": {
+      "label": "Datenweitergabe",
+      "text": "Gespeicherte Schlüssel bleiben in diesem Dienst privat, nur die Seitenbetreiber haben Zugriff darauf."
+    },
+    "purpose": {
+      "label": "Zweck",
+      "text": "Schlüssel werden ausschließlich genutzt, um authentifizierte Anfragen an die Game API weiterzuleiten und notwendige Cache-Einträge zu speichern."
+    },
+    "keyStorage": {
+      "label": "Schlüsselspeicherung",
+      "text": "Verschlüsselt gespeichert und nur im Arbeitsspeicher entschlüsselt, während ausgehende Aufrufe an die Game API laufen."
+    },
+    "accessLevel": {
+      "label": "Zugriffsebene",
+      "text": "Extended-Schlüssel schalten alle Dashboards frei (inklusive Gildenspenden), Limited-Schlüssel decken die meisten Planungstools ab und werden für die Freigabe an andere genutzt."
+    }
+  },
+  "functionality": {
+    "panelTitle": "Funktionen"
+  },
+  "general": {
+    "title": "Allgemein",
+    "sync": {
+      "label": "Geräteübergreifende Synchronisierung",
+      "toggle": "Einstellungen zwischen Geräten synchronisieren",
+      "description": "Synchronisiert alle gespeicherten Einstellungen und Daten, darunter Favoriten, Rentabilitäts-Overrides, Rezeptketten, gespeicherte Basispläne, Snapshots, Schiffs-Blueprints usw. Beim ersten Aktivieren können gespeicherte Informationen auf anderen Geräten verworfen werden.",
+      "lastSynced": "Zuletzt synchronisiert: {{time}}"
+    },
+    "donation": {
+      "label": "Spenden-Button",
+      "toggle": "Spenden-Button anzeigen",
+      "description": "Sichtbarkeit des \"Buy me a coffee\"-Buttons umschalten."
+    },
+    "statTiles": {
+      "label": "Statistik-Kacheln",
+      "toggle": "Statistik-Kacheln in Topbar und Menü anzeigen",
+      "description": "Kacheln für Rang, Prestige und Unternehmenswert umschalten."
+    },
+    "debug": {
+      "label": "Debug-Infos",
+      "toggle": "Zusätzliche Debug-Informationen anzeigen",
+      "description": "Aktiviert zusätzliche Debug-Tabellen und Aufschlüsselungen in der gesamten App."
+    }
+  },
+  "customPrices": {
+    "title": "Eigene Preise",
+    "syncLabel": "Seitenübergreifend synchronisieren",
+    "syncToggle": "Auf jeder Seite dieselben eigenen Preise verwenden",
+    "syncDescription": "Ausschalten, um pro Seite unabhängige Preis-Overrides zu verwalten. Ist die Option deaktiviert, merkt sich jede Seite ihre eigenen Werte."
+  },
+  "favorites": {
+    "title": "Favoriten",
+    "syncLabel": "Seitenübergreifend synchronisieren",
+    "syncToggle": "Material-Favoriten mit Rezepten verknüpfen",
+    "syncDescription": "Ist die Option aktiv, können Material-Favoriten passende Rezepte automatisch favorisieren, und das Entfernen eines Rezept-Favoriten kann auch das Material entfernen."
+  },
+  "productionSettings": {
+    "title": "Produktionseinstellungen",
+    "syncLabel": "Seitenübergreifend synchronisieren",
+    "syncToggle": "Auf jeder Seite dieselben Produktionseinstellungen verwenden",
+    "syncDescription": "Ist die Option aktiv, bleiben Forschungs-Overrides und Overhead-Vorschauen zwischen Basis und Rentabilität synchron."
+  },
+  "baseSettings": {
+    "title": "Basiseinstellungen",
+    "startingBase": {
+      "label": "Startbasis",
+      "demolishedToggle": "Startbasis abgerissen",
+      "notSet": "Nicht gesetzt",
+      "option": "{{name}} (ID {{id}})",
+      "description": "Blendet die Terraform-Warnung für den Startplaneten auf anderen Basen aus. Checkbox aktivieren, wenn die ursprüngliche Startbasis nicht mehr existiert."
+    },
+    "starterPlanning": {
+      "label": "Starterbasis-Planung",
+      "toggle": "Starterbasis-Option beim Planen einer neuen Basis anzeigen",
+      "description": "Fügt im Panel \"Warnungen & Infos\" eine Option hinzu, um Baukosten als Starterbasis zu simulieren (12 kostenlose Terraform-Slots, 3 Stern-Slots)."
+    },
+    "wishlistDefault": {
+      "label": "Wunschlisten-Standard",
+      "toggle": "Beim Erstellen aus der Vorschau die Basis-Wunschliste vorauswählen",
+      "description": "Ist die Option aktiv, nutzt der aus der Upgrade-Vorschau geöffnete Wunschlisten-Builder standardmäßig die eigene Wunschliste der Basis, statt eine neue zu erstellen."
+    },
+    "alerts": {
+      "warning": "Warnung",
+      "critical": "Kritisch",
+      "consumablesLabel": "Warnungen zu Verbrauchsgütern",
+      "inputsLabel": "Warnungen zu Inputs",
+      "warehouseFullLabel": "Warnungen bei vollem Lager"
+    },
+    "warehouseTarget": {
+      "label": "Ziel-Reichweite Lager",
+      "description": "Reichweite in Tagen, auf die der Hotkey „W“ Basislager auslegt."
+    }
+  },
+  "profitabilityColors": {
+    "title": "Rentabilitätsfarben",
+    "paletteLabel": "Palette",
+    "palette": {
+      "bad": "Schlecht",
+      "average": "Mittel",
+      "good": "Gut"
+    },
+    "resetButton": "Zurücksetzen",
+    "tierBreakpoints": "T{{tier}} Gebäude-Schwellen",
+    "badToAverage": "Schlecht → Mittel",
+    "averageToGood": "Mittel → Gut"
+  },
+  "apiLog": {
+    "panelTitle": "API-Aufruf-Log",
+    "summaryTitle": "Zusammenfassung",
+    "summary": {
+      "total": "Gesamt: {{value}}",
+      "cache": "Cache: {{value}}",
+      "game": "Game API: {{value}}",
+      "refresh": "(Refresh {{value}})",
+      "local": "Lokal: {{value}}"
+    },
+    "byEndpointTitle": "Nach Endpoint",
+    "table": {
+      "endpoint": "Endpoint",
+      "total": "Ges",
+      "cache": "C",
+      "game": "G",
+      "local": "L"
+    },
+    "noCalls": "Keine Aufrufe erfasst.",
+    "recentCallsTitle": "Letzte Aufrufe",
+    "actionsTitle": "Aktionen",
+    "clearButton": "Log leeren"
+  },
+  "appInfo": {
+    "panelTitle": "App-Infos",
+    "generalTitle": "Allgemein",
+    "versionLabel": "Versionsnummer",
+    "usersTitle": "GT-Companion Nutzer",
+    "loadingUsers": "Aktive Unternehmen werden geladen…",
+    "loadError": "Aktive Unternehmen konnten nicht geladen werden",
+    "usersError": "Aktive Unternehmen konnten nicht geladen werden.",
+    "noUsageData": "Keine Nutzungsdaten verfügbar.",
+    "ranges": {
+      "last1h": "Letzte 1h",
+      "last12h": "Letzte 12h",
+      "last24h": "Letzte 24h",
+      "last3d": "Letzte 3T",
+      "last7d": "Letzte 7T",
+      "total": "Gesamt"
+    }
+  },
+  "layout": {
+    "appInfoToggle": "App-Infos",
+    "apiLogToggle": "API-Log"
+  }
+}

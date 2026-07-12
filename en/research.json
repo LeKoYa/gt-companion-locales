@@ -29,14 +29,10 @@
       "prestigePerks": "Prestige Perks"
     },
     "planner": {
-      "title": "Research Planner",
-      "helpLabel": "Research planner help",
-      "helpTooltip": "Set starting levels, targets, and milestones. Run a simulation to see cost and time."
+      "title": "Research Planner"
     },
     "startingLevels": {
       "title": "Starting research levels",
-      "helpLabel": "Starting levels help",
-      "helpTooltip": "Choose the baseline for the plan. Custom lets you edit each field.",
       "reset": "Reset",
       "derivedNote": "Starting levels will be derived from your {{source}}",
       "sourceCurrent": "current company research levels.",
@@ -44,14 +40,10 @@
     },
     "targetLevels": {
       "title": "Target research levels",
-      "helpLabel": "Target levels help",
-      "helpTooltip": "Set the desired end levels for each research field.",
       "reset": "Reset"
     },
     "milestones": {
       "title": "Milestones",
-      "helpLabel": "Milestones help",
-      "helpTooltip": "Milestones let you highlight key target levels to hit along the way.",
       "empty": "No milestones added yet.",
       "selectCategory": "Select category",
       "levelPlaceholder": "Level",
@@ -71,17 +63,11 @@
     },
     "currentLevels": {
       "title": "Current research levels",
-      "companyLevels": "Company levels",
-      "helpLabel": "Company levels help",
-      "helpTooltip": "Your current research levels from the company profile."
+      "companyLevels": "Company levels"
     },
     "simulation": {
       "title": "Simulation summary",
-      "helpLabel": "Simulation summary help",
-      "helpTooltip": "Review the upgrade order, time per step, and total costs.",
       "upgradePath": "Upgrade path",
-      "upgradePathHelpLabel": "Upgrade path help",
-      "upgradePathHelpTooltip": "Each step shows the next level, required materials, and time.",
       "simulating": "Simulating research plan…",
       "emptyUpgradePath": "Once a plan is submitted, the simulator will list each upgrade step in order.",
       "level": "Level {{from}} → {{to}}",
@@ -90,8 +76,6 @@
     },
     "totals": {
       "title": "Totals",
-      "helpLabel": "Totals help",
-      "helpTooltip": "Summed research data requirements, total time, and total cost.",
       "amount": "Amount",
       "unitPrice": "Unit price",
       "total": "Total",

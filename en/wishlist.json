@@ -4,9 +4,7 @@
     "hideWishlists": "Hide wishlists",
     "showWishlists": "Show wishlists",
     "existingWishlists": "Existing wishlists",
-    "existingTotalsTooltip": "Total weight and cost of all existing wishlists (sum of saved amounts on the game).",
-    "helpLabel": "Wishlist builder help",
-    "helpTooltip": "Open wishlist builder help"
+    "existingTotalsTooltip": "Total weight and cost of all existing wishlists (sum of saved amounts on the game)."
   },
   "builder": {
     "requiredSectionDefault": "Construction materials",

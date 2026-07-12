@@ -1,17 +1,9 @@
 {
   "apiSettings": {
-    "panelTitle": "API settings",
-    "help": {
-      "label": "API settings help",
-      "tooltip": "Configure API access and sharing."
-    }
+    "panelTitle": "API settings"
   },
   "apiAccess": {
     "title": "API access",
-    "help": {
-      "label": "API access help",
-      "tooltip": "Manage your API key."
-    },
     "loading": "Loading credentials…",
     "keyLabel": "API key",
     "keyPlaceholder": "Paste your API key",
@@ -61,10 +53,6 @@
   },
   "sharing": {
     "title": "Sharing preferences",
-    "help": {
-      "label": "Sharing preferences help",
-      "tooltip": "Choose who can see your data."
-    },
     "intro": "You can share information about your company with other users and control who can see what.",
     "developerAccess": {
       "label": "Let the developer use my API key for testing, debugging and improvements",
@@ -123,10 +111,6 @@
   },
   "privacy": {
     "title": "API key privacy & storage",
-    "help": {
-      "label": "Privacy & storage help",
-      "tooltip": "How keys are stored and used."
-    },
     "storageDuration": {
       "label": "Data storage duration",
       "text": "Cached responses and decrypted data are purged within 48 hours. Encrypted API keys are stored longer to allow sharing of information with others."
@@ -149,11 +133,7 @@
     }
   },
   "functionality": {
-    "panelTitle": "Functionality",
-    "help": {
-      "label": "Functionality help",
-      "tooltip": "App-wide feature toggles."
-    }
+    "panelTitle": "Functionality"
   },
   "general": {
     "title": "General",
@@ -181,30 +161,18 @@
   },
   "customPrices": {
     "title": "Custom Prices",
-    "help": {
-      "label": "Custom prices help",
-      "tooltip": "Global vs per-page custom prices."
-    },
     "syncLabel": "Sync across pages",
     "syncToggle": "Use the same custom prices on every page",
     "syncDescription": "Turn this off to manage independent price overrides for each page. When disabled, every page remembers its own custom values."
   },
   "favorites": {
     "title": "Favorites",
-    "help": {
-      "label": "Favorites help",
-      "tooltip": "Sync favorites across pages."
-    },
     "syncLabel": "Sync across pages",
     "syncToggle": "Link material favorites to recipes",
     "syncDescription": "When enabled, material favorites can auto-favorite matching recipes and unfavoriting recipes can clear the material."
   },
   "productionSettings": {
     "title": "Production Settings",
-    "help": {
-      "label": "Production settings help",
-      "tooltip": "Sync production settings across pages."
-    },
     "syncLabel": "Sync across pages",
     "syncToggle": "Use the same production settings on every page",
     "syncDescription": "When enabled, research overrides and overhead previews stay in sync between Base and Profitability."
@@ -242,10 +210,6 @@
   },
   "profitabilityColors": {
     "title": "Profitability colors",
-    "help": {
-      "label": "Profitability colors help",
-      "tooltip": "Customize profit color thresholds for recipe cards."
-    },
     "paletteLabel": "Palette",
     "palette": {
       "bad": "Bad",
@@ -259,10 +223,6 @@
   },
   "apiLog": {
     "panelTitle": "API call log",
-    "help": {
-      "label": "API call log help",
-      "tooltip": "Recent requests made by this browser session."
-    },
     "summaryTitle": "Summary",
     "summary": {
       "total": "Total: {{value}}",

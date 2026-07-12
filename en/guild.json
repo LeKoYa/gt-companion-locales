@@ -121,56 +121,6 @@
       "chart": "Chart",
       "chartStacked": "Stacked",
       "chartLines": "Lines"
-    },
-    "help": {
-      "overview": {
-        "label": "Guild overview help",
-        "tooltip": "Summary of guild status and recent donations."
-      },
-      "general": {
-        "label": "Guild overview help",
-        "tooltip": "Summary of guild status."
-      },
-      "projectsLeft": {
-        "label": "Guild projects help",
-        "tooltip": "Current guild project levels and requirements."
-      },
-      "projectsMain": {
-        "label": "Guild projects help",
-        "tooltip": "Project levels and next requirements."
-      },
-      "donations": {
-        "label": "Guild donations help",
-        "tooltip": "Donation history, leaderboard and prestige trends."
-      },
-      "donationTargets": {
-        "label": "Donation targets help",
-        "tooltip": "Set fair donation goals per member based on guild project needs."
-      },
-      "donationLeaderboard": {
-        "label": "Donation leaderboard help",
-        "tooltip": "Ranks members by total donations."
-      },
-      "prestigeTrend": {
-        "label": "Prestige trend help",
-        "tooltip": "Prestige over time from donations."
-      },
-      "recentDonations": {
-        "label": "Recent donations help",
-        "tooltip": "Recent donation activity."
-      },
-      "memberOverview": {
-        "label": "Member overview help",
-        "tooltip": "Shared member research levels."
-      },
-      "memberResearch": {
-        "label": "Member research levels help",
-        "tooltip": "Levels shared by guild members."
-      },
-      "memberPlanets": {
-        "label": "Member planets help",
-        "tooltip": "Tracked planets for each guild member."
-      }
     }
   },
   "donationTargets": {
@@ -218,8 +168,6 @@
     },
     "settings": {
       "title": "Donation Target Settings",
-      "helpLabel": "Donation targets settings help",
-      "helpTooltip": "Open help for donation target settings.",
       "mode": "Mode",
       "targets": "Targets",
       "weekly": "Weekly",
@@ -318,8 +266,6 @@
     },
     "guide": {
       "title": "Donation guide",
-      "helpLabel": "Donation guide help",
-      "helpTooltip": "Open help for donation guide.",
       "compact": "Compact",
       "detailed": "Detailed",
       "chart": "Chart",

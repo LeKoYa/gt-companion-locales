@@ -1,0 +1,409 @@
+{
+  "header": {
+    "configuration": "Konfiguration",
+    "configurationTooltip": "Schiffslayout und Blueprint einrichten."
+  },
+  "actions": {
+    "close": "Schließen",
+    "delete": "Löschen",
+    "load": "Laden",
+    "reset": "Zurücksetzen"
+  },
+  "status": {
+    "noShipsDetected": "Keine Schiffe im Unternehmensprofil gefunden."
+  },
+  "errors": {
+    "missingApiKey": "API-Schlüssel fehlt.",
+    "wishlistNotFound": "Wunschliste nicht gefunden.",
+    "noMaterialsToAdd": "Keine Materialien zum Hinzufügen.",
+    "wishlistMeetsPreview": "Die Wunschliste erreicht bereits die Mengen der Vorschau.",
+    "wishlistMatchesPreview": "Die Wunschliste stimmt bereits mit der Vorschau überein.",
+    "failedToLoadMaterials": "Materialien konnten nicht geladen werden"
+  },
+  "controls": {
+    "tripType": "Flugtyp",
+    "tripOptions": {
+      "oneWay": "Einfach",
+      "roundTrip": "Hin und zurück"
+    },
+    "exclude": "Ausschließen",
+    "include": "Einschließen",
+    "shipSelection": "Schiffsauswahl",
+    "chooseShipPlaceholder": "Vorhandenes Schiff wählen",
+    "reactorPower": "Reaktorleistung",
+    "cargoLoad": "Frachtmenge",
+    "minCargo": "Min. 100t",
+    "bestCheapest": "Bestes / günstigstes",
+    "cheapest": "Günstigstes",
+    "best": "Bestes"
+  },
+  "modal": {
+    "routeSetup": {
+      "title": "Routeneinrichtung"
+    },
+    "mode": "Modus",
+    "modeOptions": {
+      "advanced": "Erweitert",
+      "basic": "Einfach"
+    },
+    "includeReturnMaterials": "Rückfracht einbeziehen (Inputs/Verbrauchsgüter/Wartung)",
+    "costPerTonOutbound": "Kosten / Tonne (Hinflug)",
+    "factoryToMarket": "Fabrik → Markt",
+    "costPerTonReturn": "Kosten / Tonne (Rückflug)",
+    "marketToFactory": "Markt → Fabrik",
+    "outboundFlightTitle": "Hinflug (Fabrik → Markt)",
+    "returnFlightTitle": "Rückflug (Markt → Fabrik)"
+  },
+  "ship": {
+    "customShip": "Eigenes Schiff"
+  },
+  "shipSelection": {
+    "title": "Schiffsauswahl",
+    "tooltip": "Schiff oder Blueprint wählen, um ein Ausgangslayout zu laden.",
+    "selectShip": "Schiff auswählen",
+    "saveBlueprintFavorite": "Blueprint als Favorit speichern",
+    "blueprint": "Blueprint",
+    "browseBlueprints": "Blueprints durchsuchen",
+    "upgradeFrom": "Upgrade von...",
+    "selectCustomHint": "\"Eigenes Schiff\" wählen, um ein Preset zu nutzen oder Designs zu suchen."
+  },
+  "upgrade": {
+    "none": "Keins",
+    "badges": {
+      "preset": "Preset",
+      "blueprint": "Blueprint"
+    }
+  },
+  "layout": {
+    "title": "Schiffslayout",
+    "tooltip": "Konfiguration von Reaktor, Emittern, Fracht und Abschirmung.",
+    "shareLayout": "Layout freigeben",
+    "linkCopied": "Kopiert!",
+    "reactorType": "Reaktortyp",
+    "ftlType": "FTL-Typ",
+    "ftlEmitters": "FTL-Emitter",
+    "cargoBaySize": "Cargo-Bay-Größe",
+    "fuelTankSize": "Fuel-Tank-Größe",
+    "heatShielding": "Hitzeabschirmung",
+    "radiationShielding": "Strahlungsabschirmung",
+    "condition": "Zustand",
+    "selectReactorType": "Reaktortyp wählen",
+    "selectFtlType": "FTL-Typ wählen",
+    "selectHeatShielding": "Hitzeabschirmung wählen",
+    "selectRadiationShielding": "Strahlungsabschirmung wählen",
+    "noReactorData": "Keine Reaktordaten verfügbar.",
+    "noEmitterData": "Keine Emitterdaten verfügbar.",
+    "fuelUnits": "Einheiten",
+    "unknown": "Unbekannt",
+    "tankSizes": {
+      "small": "Klein",
+      "medium": "Mittel",
+      "large": "Groß"
+    },
+    "shieldingLevels": {
+      "none": "Keine",
+      "light": "Leicht",
+      "heavy": "Schwer"
+    },
+    "reactorStats": {
+      "power": "Leistung",
+      "fuel": "Treibstoff",
+      "tankCapacity": "Tankkapazität"
+    },
+    "emitterStats": {
+      "acceleration": "Beschleunigung",
+      "maxSpeed": "Max. Geschwindigkeit",
+      "fieldCapacity": "Feldkapazität",
+      "energyDraw": "Energiebedarf"
+    }
+  },
+  "materials": {
+    "title": "Baumaterialien",
+    "tooltip": "Wie sich Materialien aus den Schiffswerten ergeben.",
+    "unit": "Einheit",
+    "total": "Gesamt",
+    "upgrade": "Upgrade",
+    "totals": "Summen",
+    "howCalculated": "Wie wird das berechnet?",
+    "createWishlist": "Wunschliste erstellen",
+    "calculating": "Materialien werden berechnet…",
+    "enterDetails": "Vollständige Schiffsdaten eingeben, um Materialien zu berechnen."
+  },
+  "materialsCalc": {
+    "title": "Berechnung der Baumaterialien",
+    "columns": {
+      "material": "Material",
+      "breakpoint": "Schwelle",
+      "calculation": "Berechnung"
+    },
+    "allLevels": "Alle Stufen",
+    "whenSelected": "Wenn ausgewählt",
+    "sections": {
+      "coreMaterials": "Kernmaterialien",
+      "hullPlates": "Hull Plates",
+      "kits": "Kits",
+      "bridges": "Bridges",
+      "shielding": "Abschirmung (optional)",
+      "starlifter": "Starlifter Elements"
+    },
+    "notes": {
+      "title": "Hinweise",
+      "requiredParts": "Erforderliche Teile",
+      "optionalParts": "Optionale Teile",
+      "calculationNotes": "Hinweise zur Berechnung",
+      "required": {
+        "hullPlate": "Ein Hull-Plate-Typ.",
+        "kit": "Entweder Welding Kit oder Fusion Kit.",
+        "bridge": "Ein Bridge-Typ.",
+        "core": "Cargo Bay, Fuel Tank und Interior Kit.",
+        "starlifter": "Starlifter Elements (ab 15k Leergewicht)."
+      },
+      "optional": {
+        "shielding": "Abschirmungsmaterialien fallen nur an, wenn eine Abschirmung gewählt ist."
+      },
+      "calc": {
+        "breakpoints": "Die Schwellen beziehen sich auf das gerundete Leergewicht eines Schiffs.",
+        "roundHalfUp": "Das Leergewicht wird kaufmännisch gerundet (z. B. 600,5 → 601).",
+        "ceil": "Materialmengen werden aufgerundet (Ceil-Funktion).",
+        "shieldingWeight": "Abschirmung erhöht das Leergewicht (siehe Formel unten).",
+        "example": "Beispiel (Shuttle Bridge): 600t → 2 Bridges, 600,1t → 3 Bridges."
+      }
+    },
+    "reactorFormulaTitle": "Reaktoranzahl & Effizienz",
+    "emptyWeightFormulaTitle": "Formel für das Leergewicht"
+  },
+  "characteristics": {
+    "title": "Eigenschaften",
+    "tooltip": "Wie die Schiffswerte berechnet werden.",
+    "reactors": "Reaktoren",
+    "energy": "Energie",
+    "weightEmpty": "Gewicht (leer)",
+    "weightFull": "Gewicht (voll)",
+    "fuelCapacity": "Treibstoffkapazität",
+    "damageReduction": "Schadensreduzierung",
+    "repairKits": "Repair Kits"
+  },
+  "simulation": {
+    "title": "Flugsimulation",
+    "tooltip": "Routenplanung und Effizienzvergleiche.",
+    "removeLeg": "Etappe entfernen",
+    "addLegToRemove": "Weitere Etappe hinzufügen, um sie entfernen zu können",
+    "removeLastLeg": "Letzte Etappe entfernen",
+    "addNewLeg": "Neue Etappe hinzufügen",
+    "summary": "Zusammenfassung",
+    "setRouteToEvaluate": "Start und Ziel festlegen, um auszuwerten"
+  },
+  "routing": {
+    "title": "Routensteuerung"
+  },
+  "route": {
+    "startPlanet": "Startplanet",
+    "destinationPlanet": "Zielplanet",
+    "searchPlaceholder": "Zum Suchen tippen",
+    "startLocked": "Startplanet gesperrt",
+    "lockStart": "Startplanet sperren",
+    "destinationLocked": "Zielplanet gesperrt",
+    "lockDestination": "Zielplanet sperren",
+    "swap": "Start- und Zielplanet tauschen"
+  },
+  "results": {
+    "efficiency": "Effizienz",
+    "power": "Leistung",
+    "cargo": "Fracht",
+    "travelTime": "Flugzeit",
+    "costPerTon": "Kosten / Tonne",
+    "distance": "Distanz",
+    "fuelUsage": "Treibstoffverbrauch",
+    "conditionLoss": "Zustandsverlust",
+    "totalCost": "Gesamtkosten",
+    "costPerTonStat": "Kosten pro Tonne",
+    "costTimePerTon": "Kosten-Zeit pro Tonne",
+    "flightSummary": "Flugzusammenfassung",
+    "ftlCapacity": "FTL-Kapazität",
+    "maximumSpeed": "Höchstgeschwindigkeit",
+    "acceleration": "Beschleunigung",
+    "weightRatio": "(Gewichtsverhältnis: {{value}})",
+    "maxSpeedReached": "(Höchstgeschwindigkeit nach {{value}} Stunden Flug erreicht)",
+    "perHour": "Pro Stunde: {{value}}",
+    "fuelAmount": "{{value}} Treibstoff"
+  },
+  "travelEstimates": {
+    "title": "Flugschätzungen",
+    "empty": "Keine Flugschätzungen verfügbar.",
+    "columns": {
+      "dist": "Dist",
+      "time": "Zeit",
+      "avgSpeed": "Ø Geschw.",
+      "accelerating": "Beschleunigung",
+      "fuel": "Treibstoff",
+      "fuelPercent": "Treibstoff %"
+    }
+  },
+  "flightStats": {
+    "title": "Flugstatistiken",
+    "empty": "Start- und Zielplanet wählen, um detaillierte Statistiken zu sehen."
+  },
+  "speedBreakdown": {
+    "title": "Aufschlüsselung der Geschwindigkeit",
+    "baseSpeed": "Grundgeschwindigkeit",
+    "guildFlightCenter": "Guild Flight Center",
+    "perks": "Perks (multiplikativ)",
+    "starterBonus": "Starterbonus",
+    "finalSpeed": "Endgeschwindigkeit"
+  },
+  "perkSavings": {
+    "withoutPerk": "Ohne Perk",
+    "saving": "Ersparnis"
+  },
+  "flightAnalysis": {
+    "title": "Fluganalyse",
+    "cheapestTooltip": "Zeigt den Flug mit den günstigsten Kosten.",
+    "cheapestFlight": "Günstigster Flug",
+    "bestTooltip": "Zeigt den Flug mit dem besten Verhältnis von Kosten und Zeit.",
+    "bestFlight": "Bester Flug",
+    "empty": "Start- und Zielplanet wählen, um Kostenschätzungen zu sehen."
+  },
+  "bonuses": {
+    "title": "Boni",
+    "tooltip": "Details zum Bonus des Guild Flight Center.",
+    "guildFlightCenter": "Guild Flight Center",
+    "previewLevel": "Andere Stufe ansehen",
+    "prestigePerks": "Prestige-Perks",
+    "starterBonus": "Starterbonus"
+  },
+  "flightCenter": {
+    "loading": "Flight Center wird geladen…",
+    "loadError": "Gildendaten konnten nicht geladen werden.",
+    "joinGuild": "Einer Gilde beitreten, um Boni des Flight Center freizuschalten.",
+    "level": "Stufe {{level}}",
+    "levelMax": "Stufe {{level}}/{{max}}",
+    "levelMaxPreview": "Stufe {{level}}/{{max}} (Vorschau)",
+    "speedBonus": "+{{percent}}% Fluggeschwindigkeit",
+    "noSpeedBonus": "Noch kein Bonus auf die Fluggeschwindigkeit.",
+    "description": "Erhöht die Fluggeschwindigkeit für alle Simulationen."
+  },
+  "blueprintFavorites": {
+    "title": "Blueprint-Favoriten",
+    "tooltip": "Bevorzugte Layouts speichern und verwalten.",
+    "namePrompt": "Namen für diesen Blueprint-Favoriten eingeben",
+    "cargoCapacity": "Frachtkapazität",
+    "radShielding": "Strahlungsabschirmung",
+    "editName": "Namen bearbeiten",
+    "empty": "Häufig genutzte Blueprints hier für schnellen Zugriff speichern."
+  },
+  "routeFavorites": {
+    "title": "Routen-Favoriten",
+    "tooltip": "Häufig genutzte Routen speichern und laden.",
+    "defaultName": "Route {{number}}",
+    "noLegs": "Keine Etappen",
+    "none": "Keine",
+    "noneSelected": "Keine Route ausgewählt",
+    "unsavedName": "{{name}} (ungespeichert)",
+    "routeShip": "Routen-Schiff",
+    "chooseShipPlaceholder": "Schiff für die Routeneinstellungen wählen",
+    "routeFavoriteLabel": "Routen-Favorit",
+    "namePlaceholder": "Name des Routen-Favoriten",
+    "selectPlaceholder": "Routen-Favorit wählen…",
+    "editName": "Namen des Routen-Favoriten bearbeiten",
+    "delete": "Routen-Favorit löschen",
+    "save": "Routen-Favorit speichern",
+    "saveAsNew": "Als neu speichern",
+    "overwrite": "Überschreiben",
+    "empty": "Routen mit mehreren Etappen und Effizienzmodi je Schiff speichern."
+  },
+  "myShips": {
+    "title": "Meine Schiffe",
+    "tooltip": "Schiffe aus dem Unternehmensprofil."
+  },
+  "layoutToggles": {
+    "shipOverview": "Schiffsübersicht",
+    "customPrices": "Eigene Preise"
+  },
+  "wishlist": {
+    "customBlueprint": "Eigener Blueprint",
+    "newShip": "Neues Schiff",
+    "upgradeTitle": "{{name}} | Upgrade"
+  },
+  "search": {
+    "header": {
+      "title": "Schiffsdesign-Explorer",
+      "searching": "Suche läuft…",
+      "close": "Schließen"
+    },
+    "params": {
+      "sectionTitle": "Suchparameter",
+      "distance": "Distanz (ly)",
+      "cargoLoad": "Frachtmenge (t)",
+      "emitterType": "Emitter-Typ",
+      "maxHullType": "Max. Hull-Typ",
+      "maxReactorType": "Max. Reaktortyp",
+      "maxBridgeType": "Max. Bridge-Typ",
+      "maxTravelTime": "Max. Flugzeit (h)",
+      "optimizeFor": "Optimieren nach",
+      "optimizePlaceholder": "Ziel wählen"
+    },
+    "filters": {
+      "anyHull": "Beliebiger Hull",
+      "anyReactor": "Beliebiger Reaktor",
+      "anyEmitter": "Beliebiger Emitter",
+      "anyBridge": "Beliebige Bridge"
+    },
+    "optimize": {
+      "timeTotal": "Flugzeit",
+      "costPerTon": "Kosten pro Tonne",
+      "costTimePerCargo": "Kosten-Zeit pro Fracht",
+      "constructionCost": "Günstigster Bau",
+      "stuffScore": "Stuff Inc. Score"
+    },
+    "actions": {
+      "search": "Suchen",
+      "searching": "Suche läuft…",
+      "select": "Auswählen"
+    },
+    "columns": {
+      "shipClasses": "Schiffsklassen",
+      "variants": "Varianten"
+    },
+    "states": {
+      "searchingShips": "Schiffe werden gesucht…",
+      "noMatches": "Keine Schiffe entsprechen den Kriterien.",
+      "searchFailed": "Schiffssuche fehlgeschlagen"
+    },
+    "disclaimer": {
+      "title": "Kostenhinweis",
+      "body": "Für einige Treibstoffe dieser Schiffsklassen gibt es keine verlässlichen Marktpreise (fehlend oder als -1 markiert). Die Kostenschätzungen für diese Treibstoffe können ungenau sein."
+    },
+    "variantCard": {
+      "variant": "Variante",
+      "loadEff": "Fracht {{load}} • Eff. {{eff}}"
+    },
+    "shielding": {
+      "heat": "Hitze",
+      "rad": "Strahlung"
+    },
+    "metrics": {
+      "costPerTon": "Kosten pro Tonne",
+      "costTimePerCargo": "Kosten-Zeit pro Fracht",
+      "travelTime": "Flugzeit",
+      "constructionCost": "Baukosten",
+      "stuffScore": "Stuff Score",
+      "summary": "Zusammenfassung"
+    },
+    "hullWarning": {
+      "starglass": "Diese Konfiguration benötigt Starglass Hull Plates, was die Baukosten erhöht.",
+      "general": "Upgrades der Abschirmung erhöhen den nötigen Hull-Tier gegenüber dem Ausgangsdesign."
+    },
+    "diagnose": {
+      "hullFallback": "gewählter Hull-Tier",
+      "reactorFallback": "gewählter Reaktor-Tier",
+      "emitterFallback": "gewählte Emitter-Gruppe",
+      "bridgeFallback": "gewählter Bridge-Tier",
+      "time": "Kein Schiff kann {{cargo}}t über {{distance}} ly transportieren und dabei innerhalb von {{hours}} Stunden ankommen. Max. Flugzeit erhöhen oder Fracht reduzieren.",
+      "hull": "{{hull}} kann {{cargo}}t auf dieser Route nicht tragen. Robusteren Hull wählen oder die Frachtmenge senken.",
+      "bridge": "{{bridge}}-Schiffe sind für {{cargo}}t auf dieser Distanz zu klein. Größere Bridges zulassen oder Fracht reduzieren.",
+      "reactor": "{{reactor}} erzeugt nicht genug Leistung für den gewünschten Flug. Reaktoren höherer Tier zulassen.",
+      "emitter": "Die Beschränkung auf {{emitter}} lässt keine brauchbaren Schiffe übrig. Andere Emitter-Familien zulassen oder die Vorgaben für Fracht und Zeit lockern.",
+      "noClass": "Mit den gewählten Kriterien kann derzeit keine Schiffsklasse {{cargo}}t über {{distance}} ly transportieren. Weniger Fracht wählen oder die Filter erweitern."
+    }
+  }
+}
