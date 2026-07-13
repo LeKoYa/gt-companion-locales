@@ -27,12 +27,12 @@ the rest.
 
 <!-- coverage:start -->
 
-English source: **4343 strings** across 17 namespaces.
+English source: **4231 strings** across 17 namespaces.
 
 | Language | | Strings | Coverage |
 | --- | --- | ---: | ---: |
-| German (`de`) | `█░░░░░░░░░░░░░░░░░░░` | 155 / 4343 | 3.6% |
-| Chinese (`zh`) | `░░░░░░░░░░░░░░░░░░░░` | 14 / 4343 | 0.3% |
+| German (`de`) | `████████████████████` | 4228 / 4231 | 99.9% |
+| Chinese (`zh`) | `░░░░░░░░░░░░░░░░░░░░` | 13 / 4231 | 0.3% |
 
 <sub>Generated automatically. Anything untranslated falls back to English.</sub>
 
