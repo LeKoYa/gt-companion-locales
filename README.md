@@ -32,7 +32,7 @@ English source: **4231 strings** across 17 namespaces.
 | Language | | Strings | Coverage |
 | --- | --- | ---: | ---: |
 | German (`de`) | `████████████████████` | 4228 / 4231 | 99.9% |
-| Chinese (`zh`) | `░░░░░░░░░░░░░░░░░░░░` | 13 / 4231 | 0.3% |
+| Chinese (`zh`) | `████████████████████` | 4184 / 4231 | 98.9% |
 
 <sub>Generated automatically. Anything untranslated falls back to English.</sub>
 
