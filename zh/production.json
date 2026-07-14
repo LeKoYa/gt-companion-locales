@@ -1,0 +1,51 @@
+{
+  "panel": {
+    "helpFallback": "帮助"
+  },
+  "consumables": {
+    "tiers": {
+      "worker": "Workers",
+      "technician": "Technicians",
+      "engineer": "Engineers",
+      "scientist": "Scientists"
+    },
+    "status": {
+      "allProvided": "全部提供",
+      "noneProvided": "未提供",
+      "partiallyProvided": "部分提供"
+    },
+    "dailyAmount": "每日{{amount}}/1k",
+    "dataUnavailable": "此Tier的消耗品数据不可用。"
+  },
+  "overhead": {
+    "previewMode": {
+      "live": "实时",
+      "preview": "预览",
+      "advanced": "高级",
+      "projection": "预计"
+    },
+    "workforceUnavailable": "劳动力总数暂不可用。",
+    "previewOverheadLabel": "预览Overhead",
+    "totalWorkforceBurden": "总劳动力 / Burden",
+    "expansionOverhead": "扩建Overhead",
+    "final": "最终",
+    "extraConsumableCost": "额外消耗品成本",
+    "perDay": "/ 天",
+    "deltaVsLive": "与实时的差值",
+    "extraPrefix": "额外：",
+    "totalPrefix": "总计：",
+    "consumption": "消耗"
+  },
+  "research": {
+    "ownLevels": "自有等级",
+    "noLevels": "无等级",
+    "decreaseLevel": "降低等级",
+    "increaseLevel": "提高等级",
+    "resetToCompanyLevel": "重置为公司等级"
+  },
+  "startingBonus": {
+    "labelTitle": "初始奖励期间应用的倍率。",
+    "auto": "自动",
+    "selectBonus": "选择奖励"
+  }
+}

@@ -1,0 +1,425 @@
+{
+  "company": {
+    "header": {
+      "fallbackTitle": "公司详情",
+      "companyId": "公司ID：{{id}}",
+      "searchCompany": "搜索公司"
+    },
+    "tabs": {
+      "overview": "概览",
+      "bases": "基地",
+      "production": "生产",
+      "warehouses": "仓库",
+      "contracts": "合同",
+      "ships": "飞船",
+      "perks": "Perks",
+      "exchange": "交易所",
+      "history": "历史",
+      "events": "事件",
+      "selectPlaceholder": "选择标签页",
+      "unavailableSuffix": "（不可用）"
+    },
+    "common": {
+      "total": "总计",
+      "empty": "空",
+      "copied": "已复制！",
+      "copyChatText": "复制为聊天文本",
+      "unknownLocation": "未知位置"
+    },
+    "details": {
+      "loading": "正在加载公司详情…",
+      "failed": "公司详情加载失败。"
+    },
+    "intel": {
+      "apiKeyRequired": "查看共享情报需要API密钥。",
+      "apiKeyRequiredShort": "需要API密钥",
+      "loading": "正在加载情报…",
+      "failed": "情报数据加载失败。"
+    },
+    "columns": {
+      "material": "材料",
+      "usedPerDay": "消耗/天",
+      "producedPerDay": "产出/天",
+      "weightPerDay": "重量/天",
+      "netPerDay": "净/天",
+      "valuePerDay": "价值/天",
+      "stock": "库存",
+      "qty": "数量",
+      "weight": "重量",
+      "value": "价值",
+      "type": "类型",
+      "partner": "交易对象",
+      "planet": "行星",
+      "qtyEa": "数量 / 单次",
+      "qtyDay": "数量 / 天",
+      "totalDay": "合计 / 天",
+      "tier": "Tier",
+      "dist": "距离",
+      "workers": "Workers",
+      "time": "时间",
+      "event": "事件",
+      "details": "详情",
+      "name": "名称",
+      "reactor": "反应堆",
+      "emitters": "发射器",
+      "emitter": "发射器",
+      "cargo": "货物",
+      "tank": "燃料舱",
+      "fuel": "燃料",
+      "perk": "Perk",
+      "lvl": "等级",
+      "bonus": "加成",
+      "valuePerPoint": "价值/点",
+      "nextPerDay": "下一级/天",
+      "nextPerPoint": "下一级/点"
+    },
+    "overview": {
+      "stat": {
+        "value": "价值",
+        "prestige": "Prestige",
+        "workforce": "劳动力",
+        "guild": "公会",
+        "founded": "成立时间",
+        "lastSeen": "最后出现"
+      },
+      "planetsTitle": "行星（{{count}}）",
+      "loadingPlanets": "正在加载行星…",
+      "failedPlanets": "行星加载失败。",
+      "noBases": "未找到基地。",
+      "research": "研究",
+      "researchUnavailable": "研究数据不可用"
+    },
+    "bases": {
+      "noBasesForCompany": "该公司未找到基地。",
+      "selectBase": "选择基地…",
+      "inspectBase": "查看基地",
+      "summary": "汇总",
+      "inputCost": "输入成本",
+      "consumables": "消耗品",
+      "maintenance": "维护",
+      "income": "收入",
+      "profit": "利润",
+      "noBaseData": "该基地暂无数据。",
+      "production": "生产",
+      "warehouse": "仓库",
+      "layout": "布局",
+      "merged": "合并",
+      "grouped": "分组",
+      "noProductionEntries": "暂无生产条目。",
+      "noConsumables": "暂无消耗品。",
+      "noProductionData": "该基地暂无生产数据。",
+      "noWarehouseData": "该基地暂无仓库数据。",
+      "noLayoutData": "该基地暂无布局数据。"
+    },
+    "production": {
+      "notShared": "生产未共享或暂无数据。",
+      "noCostData": "暂无成本数据。",
+      "allBases": "生产（所有基地）",
+      "summaryWithCount": "汇总（{{count}}个基地）"
+    },
+    "warehouses": {
+      "notShared": "仓库未共享或暂无数据。",
+      "exchange": "交易所",
+      "exchangeShort": "Ex",
+      "exchangeCount": "交易所（{{count}}）",
+      "exchangeShortCount": "Ex ({{count}})",
+      "bases": "基地",
+      "basesCount": "基地（{{count}}）",
+      "ships": "飞船",
+      "shipsCount": "飞船（{{count}}）",
+      "exchangeNotShared": "交易所仓库未共享",
+      "baseNotShared": "基地仓库未共享",
+      "shipNotShared": "飞船货物未共享",
+      "switchToMaterial": "切换到材料视图",
+      "switchToLocation": "切换到位置视图",
+      "byMaterial": "按材料",
+      "byLocation": "按位置",
+      "arrived": "已到达",
+      "noMaterials": "未找到材料。"
+    },
+    "contracts": {
+      "typeBuy": "买入",
+      "typeSell": "卖出",
+      "typeUnknown": "未知",
+      "partnerInGuild": "公会内",
+      "partnerExtern": "外部",
+      "recurringTitle": "循环合同（{{count}}/天）",
+      "activeContracts": "有效合同（{{count}}）",
+      "notShared": "合同未共享或未找到有效合同。",
+      "noActive": "未找到有效合同。"
+    },
+    "ships": {
+      "shipDesigns": "飞船设计",
+      "noShipDesigns": "未找到飞船设计。",
+      "openInDesigner": "在飞船设计器中打开",
+      "fleet": "舰队",
+      "routesNotShared": "该公司未共享航线和库存。",
+      "noFleetData": "未找到舰队数据。",
+      "arrives": "到达",
+      "arrivesIn": "{{duration}}后",
+      "arrivedAgo": "{{duration}}前",
+      "flight": "飞行",
+      "cargo": "货物",
+      "efficiency": "效率",
+      "emptyCargo": "空载"
+    },
+    "perks": {
+      "perkOverview": "Perk概览",
+      "active": "已激活",
+      "all": "全部",
+      "noPerks": "未分配Prestige Perk。",
+      "requiresLogistics": "需要物流数据",
+      "na": "不适用"
+    },
+    "history": {
+      "windowAll": "全部",
+      "prestigeValueHistory": "Prestige与价值历史",
+      "prestige": "Prestige",
+      "cv": "CV",
+      "both": "两者",
+      "calendar": "日历",
+      "sinceFounding": "自成立以来",
+      "loading": "正在加载历史…",
+      "failed": "历史加载失败。",
+      "notEnough": "历史数据点不足，无法显示图表。",
+      "dailyGrowth": "每日增长",
+      "value": "价值",
+      "absolute": "绝对值",
+      "relative": "相对值",
+      "notEnoughDaily": "历史数据不足，无法计算每日增长。",
+      "removeFromChart": "从图表中移除",
+      "failedTimeseries": "时间序列加载失败",
+      "addToCompare": "添加公司进行对比…",
+      "compareCompany": "+ 对比公司",
+      "upToCompanies": "最多{{count}}家公司",
+      "coverageWarning": "部分时间范围：数据自{{date}}起可用",
+      "dayLabel": "第{{day}}天",
+      "soFar": "（截至目前）"
+    },
+    "events": {
+      "title": "事件",
+      "loading": "正在加载事件…",
+      "failed": "事件加载失败。",
+      "failedLoad": "公司事件加载失败",
+      "noEvents": "该时间范围内未找到事件。",
+      "foundedDateChanged": "成立日期已更改：",
+      "built": "已建造：",
+      "disbanded": "已解散：",
+      "companyDeleted": "该公司在API中已不存在。",
+      "unknownPlanet": "未知行星"
+    },
+    "sharing": {
+      "pill": {
+        "noInfo": "无信息",
+        "guild": "公会",
+        "public": "公开",
+        "partial": "部分",
+        "off": "关闭"
+      },
+      "features": {
+        "company_summary": "公司摘要",
+        "company_perks": "Prestige Perks",
+        "research_levels": "研究",
+        "base_names": "基地名称",
+        "base_layouts": "基地布局",
+        "base_production": "生产",
+        "base_warehouses": "基地仓库",
+        "exchange_inventory": "交易所仓库",
+        "active_contracts": "合同",
+        "ship_designs": "飞船设计",
+        "ship_routes": "飞船航线",
+        "ship_inventories": "飞船货物"
+      },
+      "scope": {
+        "public": "公开",
+        "guild": "公会",
+        "private": "私密"
+      },
+      "status": {
+        "owner": "所有者",
+        "noCompanion": "未使用Companion"
+      },
+      "line": "{{name}}：{{status}}"
+    },
+    "share": {
+      "copied": "已复制！",
+      "share": "共享",
+      "copyLink": "复制该公司的链接"
+    }
+  },
+  "guild": {
+    "header": {
+      "title": "公会详情",
+      "guildIdTooltip": "公会ID：{{id}}",
+      "disbanded": "[已解散]",
+      "searchForGuild": "搜索公会"
+    },
+    "tabs": {
+      "overview": "概览",
+      "history": "历史",
+      "events": "事件",
+      "planets": "行星",
+      "production": "生产",
+      "exchange": "交易所",
+      "apiKeyRequired": "需要API密钥",
+      "selectTab": "选择标签页",
+      "unavailableSuffix": "（不可用）",
+      "loading": "正在加载{{tab}}…"
+    },
+    "loading": {
+      "details": "正在加载公会详情…",
+      "history": "正在加载历史…",
+      "events": "正在加载事件…",
+      "planets": "正在加载公会行星…",
+      "production": "正在加载生产数据..."
+    },
+    "errors": {
+      "loadDetails": "公会详情加载失败",
+      "loadDetailsDot": "公会详情加载失败。",
+      "loadHistory": "公会历史加载失败",
+      "loadHistoryDot": "历史加载失败。",
+      "loadEvents": "公会事件加载失败",
+      "loadEventsDot": "事件加载失败。",
+      "loadPlanets": "公会行星加载失败",
+      "loadPlanetsDot": "公会行星加载失败。",
+      "loadProduction": "生产数据加载失败",
+      "loadProductionDot": "生产数据加载失败。"
+    },
+    "overview": {
+      "rank": "排名",
+      "prestige": "Prestige",
+      "totalValue": "总价值",
+      "members": "成员",
+      "age": "成立时长",
+      "days_other": "{{formatted}}天",
+      "noProjectData": "暂无项目数据。",
+      "level": "等级"
+    },
+    "members": {
+      "columns": {
+        "name": "名称",
+        "role": "角色",
+        "prestige": "Prestige",
+        "value": "价值"
+      }
+    },
+    "events": {
+      "columns": {
+        "time": "时间",
+        "event": "事件",
+        "details": "详情"
+      },
+      "level": "等级",
+      "recruitingOn": "招募开启",
+      "recruitingOff": "招募关闭",
+      "on": "开启",
+      "off": "关闭",
+      "guildCreated": "公会已创建",
+      "guildDisbanded": "公会已解散。",
+      "searchPlaceholder": "搜索事件…",
+      "refreshFailed": "无法刷新事件。显示上一时间范围的数据。",
+      "emptyState": "当前时间范围/筛选条件下没有事件。",
+      "filter": {
+        "button": "事件",
+        "enableAll": "全部启用",
+        "clear": "清除",
+        "noEventTypes": "无事件类型",
+        "typesSelected_other": "已选择{{count}}种类型"
+      }
+    },
+    "history": {
+      "thisGuild": "该公会",
+      "partialWindow": "部分时间范围：数据自{{date}}起可用",
+      "series": {
+        "guildPrestige": "公会Prestige",
+        "memberPrestige": "成员Prestige",
+        "totalValue": "总价值",
+        "cv": "CV"
+      },
+      "metric": {
+        "guild": "公会",
+        "members": "成员",
+        "cv": "CV",
+        "all": "全部"
+      },
+      "loadTimeseriesFailed": "时间序列加载失败",
+      "removeFromChart": "从图表中移除",
+      "addGuildToCompare": "添加公会进行对比…",
+      "compareGuild": "+ 对比公会",
+      "upToGuilds": "最多{{count}}个公会",
+      "notEnoughPoints": "该时间范围内的历史数据点尚不足。"
+    },
+    "planets": {
+      "columns": {
+        "planet": "行星",
+        "company": "公司",
+        "tier": "Tier",
+        "guildRank": "公会职级",
+        "distToEx": "到Ex的距离",
+        "prestige": "Prestige",
+        "members": "成员",
+        "value": "价值"
+      },
+      "mode": {
+        "planet": "行星模式",
+        "planetTooltip": "每行一个行星，展开可查看该行星上的成员。",
+        "member": "成员模式",
+        "memberTooltip": "每行一个成员，展开可查看该成员建有基地的行星。"
+      },
+      "emptyPlanets": "公会成员暂无可用行星。",
+      "emptyMembers": "暂无公会成员。"
+    },
+    "production": {
+      "columns": {
+        "material": "材料",
+        "used": "消耗/天",
+        "produced": "产出/天",
+        "net": "净/天",
+        "weight": "重量",
+        "value": "价值/天"
+      },
+      "view": {
+        "compact": "紧凑",
+        "byType": "按类型",
+        "byPlanet": "按行星"
+      },
+      "guildProjects": "公会项目",
+      "otherType": "其他",
+      "total": "总计",
+      "searchPlaceholder": "搜索…",
+      "projectConsumables": "公会项目消耗品",
+      "members": "成员",
+      "membersCount": "成员（{{included}}/{{total}}）",
+      "selectAll": "全选",
+      "deselectAll": "取消全选",
+      "noData": "（无数据）",
+      "emptyState": "暂无生产数据。"
+    }
+  },
+  "exchange": {
+    "columns": {
+      "material": "材料",
+      "rank": "排名",
+      "salesPct": "销量 %",
+      "sold": "已售",
+      "revenue": "收入",
+      "avgPrice": "均价",
+      "listed": "挂单"
+    },
+    "loading": "加载中...",
+    "loadError": "交易所数据加载失败。",
+    "showLess": "收起",
+    "showMore_other": "再显示{{count}}个无销量的材料",
+    "empty": "该时间范围内没有交易所活动。"
+  },
+  "search": {
+    "companyPlaceholder": "搜索公司…",
+    "guildPlaceholder": "搜索公会…",
+    "noResults": "无结果",
+    "searching": "搜索中…"
+  },
+  "clickable": {
+    "viewCompany": "查看公司",
+    "viewGuild": "查看公会"
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "apiSettings": {
+    "panelTitle": "API设置"
+  },
+  "apiAccess": {
+    "title": "API访问",
+    "loading": "正在加载凭据…",
+    "keyLabel": "API密钥",
+    "keyPlaceholder": "粘贴API密钥",
+    "saveButton": "保存密钥",
+    "stats": {
+      "remaining": "剩余",
+      "reset": "重置",
+      "retry": "重试"
+    },
+    "notice": {
+      "revoked": {
+        "title": "API密钥已撤销",
+        "message": "当前密钥已被拒绝。移除该密钥并添加<limited>受限</limited>或<extended>扩展</extended>密钥。"
+      },
+      "required": {
+        "title": "需要API密钥",
+        "message": "添加<limited>受限</limited>或<extended>扩展</extended>密钥，以解锁需要认证的功能。"
+      }
+    },
+    "levels": {
+      "rowLabel": "访问级别",
+      "description": "<extended>扩展</extended>密钥提供完全访问权限，<limited>受限</limited>密钥涵盖大多数功能。不支持公开密钥。"
+    },
+    "errors": {
+      "loadCredentials": "加载凭据失败",
+      "saveKey": "保存API密钥失败",
+      "deleteCredential": "删除凭据失败"
+    }
+  },
+  "accessLevels": {
+    "formatted": {
+      "extended": "扩展（完全访问）",
+      "limited": "受限",
+      "public": "公开（需要升级）",
+      "unknown": "未知"
+    },
+    "headers": {
+      "limited": "受限",
+      "extended": "扩展"
+    },
+    "featureColumn": "功能",
+    "features": {
+      "coreTools": "核心工具（基地、航行、研发、盈利分析等）",
+      "guildDonations": "公会捐赠",
+      "wishlists": "心愿单"
+    }
+  },
+  "sharing": {
+    "title": "共享偏好",
+    "intro": "公司信息可以共享给其他用户，并可控制谁能看到哪些内容。",
+    "developerAccess": {
+      "label": "允许开发者使用我的API密钥进行测试、调试和改进",
+      "description": "该API密钥可用于获取公司数据，以便修复缺陷、测试功能和开发更新。",
+      "confirm": "启用开发者访问？\n\n这将允许开发者使用该API密钥获取公司数据，用于测试、调试和改进工作。此项独立于共享偏好，不会向其他用户公开数据。"
+    },
+    "options": {
+      "nobody": "无人",
+      "guild": "公会",
+      "public": "公开"
+    },
+    "groups": {
+      "company": {
+        "title": "公司",
+        "companyResearch": "研究等级",
+        "prestigePerks": "Prestige Perk",
+        "perkImpact": "Perk影响"
+      },
+      "ships": {
+        "title": "飞船",
+        "shipsDesigns": "飞船设计",
+        "shipsRoutes": "飞船航线",
+        "shipsInventories": "飞船库存"
+      },
+      "warehouses": {
+        "title": "仓库",
+        "warehousesBases": "基地仓库",
+        "warehousesExchange": "交易所库存"
+      },
+      "bases": {
+        "title": "基地",
+        "basesNames": "基地名称",
+        "basesLayouts": "基地布局",
+        "basesProduction": "基地生产",
+        "basesOverheadSummary": "劳动力Overhead",
+        "basesOverheadSummarySuffix": "仅包含消耗品总计和Admin Center等级；用于公会Admin Center的ROI"
+      },
+      "contracts": {
+        "title": "合同",
+        "contractsActive": "进行中的合同"
+      },
+      "productionChains": {
+        "title": "生产链",
+        "guildChains": "公会生产链个性化",
+        "guildChainsSuffix": "让公会能够依据研究、Perk和劳动力，为生产链报名公平定价；默认为公会"
+      },
+      "upcoming": {
+        "title": "即将推出",
+        "others": "即将推出的功能"
+      }
+    },
+    "errors": {
+      "loadSettings": "加载设置失败",
+      "updateSharing": "更新共享设置失败"
+    }
+  },
+  "privacy": {
+    "title": "API密钥隐私与存储",
+    "storageDuration": {
+      "label": "数据存储时长",
+      "text": "缓存的响应和已解密的数据会在48小时内清除。加密的API密钥保存时间更长，以便与他人共享信息。"
+    },
+    "dataSharing": {
+      "label": "数据共享",
+      "text": "存储的密钥仅限本服务使用，只有站点所有者可以访问。"
+    },
+    "purpose": {
+      "label": "用途",
+      "text": "密钥仅用于代理需要认证的Game API请求，并保留必要的缓存条目。"
+    },
+    "keyStorage": {
+      "label": "密钥存储",
+      "text": "静态存储时加密，仅在发起Game API调用期间于内存中解密。"
+    },
+    "accessLevel": {
+      "label": "访问级别",
+      "text": "扩展访问密钥可解锁全部仪表板（包括公会捐赠）；受限密钥涵盖大多数规划工具，并用于与他人共享。"
+    }
+  },
+  "functionality": {
+    "panelTitle": "功能"
+  },
+  "general": {
+    "title": "常规",
+    "sync": {
+      "label": "跨设备同步",
+      "toggle": "在设备之间同步设置",
+      "description": "同步所有已保存的设置和数据，包括收藏、盈利分析覆盖、配方链、已保存的基地计划、快照、飞船Blueprint等。首次启用此设置可能会丢弃其他设备上已保存的信息。",
+      "lastSynced": "上次同步：{{time}}"
+    },
+    "donation": {
+      "label": "捐赠按钮",
+      "toggle": "显示捐赠按钮",
+      "description": "切换Buy me a coffee按钮的显示。"
+    },
+    "statTiles": {
+      "label": "统计卡片",
+      "toggle": "在顶栏和菜单中显示统计卡片",
+      "description": "切换排名、Prestige和公司价值卡片。"
+    },
+    "debug": {
+      "label": "调试信息",
+      "toggle": "显示额外的调试信息",
+      "description": "在整个应用中启用额外的调试表格和明细。"
+    }
+  },
+  "customPrices": {
+    "title": "自定义价格",
+    "syncLabel": "跨页面同步",
+    "syncToggle": "在所有页面使用相同的自定义价格",
+    "syncDescription": "关闭后可为每个页面单独管理价格覆盖。禁用时，每个页面会记住各自的自定义值。"
+  },
+  "favorites": {
+    "title": "收藏",
+    "syncLabel": "跨页面同步",
+    "syncToggle": "将材料收藏与配方关联",
+    "syncDescription": "启用后，收藏材料可自动收藏匹配的配方，取消收藏配方也可清除对应的材料。"
+  },
+  "productionSettings": {
+    "title": "生产设置",
+    "syncLabel": "跨页面同步",
+    "syncToggle": "在所有页面使用相同的生产设置",
+    "syncDescription": "启用后，研究覆盖和Overhead预览会在基地与盈利分析之间保持同步。"
+  },
+  "baseSettings": {
+    "title": "基地设置",
+    "startingBase": {
+      "label": "初始基地",
+      "demolishedToggle": "初始基地已拆除",
+      "notSet": "未设置",
+      "option": "{{name}}（ID {{id}}）",
+      "description": "用于在其他基地上隐藏初始行星的地形改造警告。如果原有的初始基地已不存在，勾选此复选框。"
+    },
+    "starterPlanning": {
+      "label": "初始基地规划",
+      "toggle": "规划新基地时显示初始基地选项",
+      "description": "在“警告与信息”面板中添加一个控件，用于按初始基地（12个免费地形改造槽位，3个星星槽位）模拟建造成本。"
+    },
+    "wishlistDefault": {
+      "label": "心愿单默认值",
+      "toggle": "从预览创建时默认使用基地心愿单",
+      "description": "启用后，从升级预览打开的心愿单构建器会默认使用基地自身的心愿单，而不是创建新的心愿单。"
+    },
+    "alerts": {
+      "warning": "警告",
+      "critical": "严重",
+      "consumablesLabel": "消耗品供应警报",
+      "inputsLabel": "输入供应警报",
+      "warehouseFullLabel": "仓库已满警报"
+    },
+    "warehouseTarget": {
+      "label": "仓库目标供应",
+      "description": "“W”快捷键为基地仓库设定的供应天数。"
+    }
+  },
+  "profitabilityColors": {
+    "title": "盈利分析颜色",
+    "paletteLabel": "调色板",
+    "palette": {
+      "bad": "差",
+      "average": "一般",
+      "good": "好"
+    },
+    "resetButton": "重置",
+    "tierBreakpoints": "T{{tier}}建筑分界点",
+    "badToAverage": "差 → 一般",
+    "averageToGood": "一般 → 好"
+  },
+  "apiLog": {
+    "panelTitle": "API调用日志",
+    "summaryTitle": "摘要",
+    "summary": {
+      "total": "总计：{{value}}",
+      "cache": "缓存：{{value}}",
+      "game": "Game API：{{value}}",
+      "refresh": "（刷新{{value}}）",
+      "local": "本地：{{value}}"
+    },
+    "byEndpointTitle": "按端点",
+    "table": {
+      "endpoint": "端点",
+      "total": "Tot",
+      "cache": "C",
+      "game": "G",
+      "local": "L"
+    },
+    "noCalls": "暂无调用记录。",
+    "recentCallsTitle": "最近调用",
+    "actionsTitle": "操作",
+    "clearButton": "清除日志"
+  },
+  "appInfo": {
+    "panelTitle": "应用信息",
+    "generalTitle": "常规",
+    "versionLabel": "版本号",
+    "usersTitle": "GT-Companion用户",
+    "loadingUsers": "正在加载活跃公司…",
+    "loadError": "加载活跃公司失败",
+    "usersError": "加载活跃公司失败。",
+    "noUsageData": "暂无使用数据。",
+    "ranges": {
+      "last1h": "最近1小时",
+      "last12h": "最近12小时",
+      "last24h": "最近24小时",
+      "last3d": "最近3天",
+      "last7d": "最近7天",
+      "total": "总计"
+    }
+  },
+  "layout": {
+    "appInfoToggle": "应用信息",
+    "apiLogToggle": "API日志"
+  }
+}

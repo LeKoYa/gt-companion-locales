@@ -1,0 +1,276 @@
+{
+  "page": {
+    "loading": "正在加载研究信息…",
+    "errors": {
+      "loadCompany": "加载公司数据失败。",
+      "missingApiKey": "缺少API密钥。",
+      "wishlistNotFound": "未找到心愿单。",
+      "noMaterials": "没有可添加的材料。",
+      "wishlistMeetsPreview": "心愿单已满足预览数量。",
+      "wishlistMatchesPreview": "心愿单已与预览一致。"
+    },
+    "levelControl": {
+      "decrease": "降低等级",
+      "reset": "重置等级",
+      "increase": "提高等级"
+    },
+    "startMode": {
+      "current": "当前研究等级",
+      "respec": "Respec（从0开始）",
+      "custom": "自定义起始等级"
+    },
+    "toggle": {
+      "research": "研究",
+      "perks": "Perks"
+    },
+    "nav": {
+      "title": "研究与Perks",
+      "researchPlanner": "研究规划器",
+      "prestigePerks": "Prestige Perks"
+    },
+    "planner": {
+      "title": "研究规划器"
+    },
+    "startingLevels": {
+      "title": "起始研究等级",
+      "reset": "重置",
+      "derivedNote": "起始等级将取自{{source}}",
+      "sourceCurrent": "当前公司研究等级。",
+      "sourceRespec": "Respec基准（等级0）。"
+    },
+    "targetLevels": {
+      "title": "目标研究等级",
+      "reset": "重置"
+    },
+    "milestones": {
+      "title": "里程碑",
+      "empty": "尚未添加里程碑。",
+      "selectCategory": "选择类别",
+      "levelPlaceholder": "等级",
+      "optionsMenu": "里程碑选项",
+      "moveUp": "上移",
+      "moveDown": "下移",
+      "remove": "移除",
+      "moveUpTitle": "上移",
+      "moveDownTitle": "下移",
+      "removeTitle": "移除里程碑",
+      "add": "添加里程碑",
+      "addDisabledHint": "将目标等级设为高于当前等级即可添加里程碑。",
+      "recordingHint": "在目标等级上使用+/−记录里程碑",
+      "modeManual": "手动",
+      "modeRecording": "记录",
+      "reset": "重置"
+    },
+    "currentLevels": {
+      "title": "当前研究等级",
+      "companyLevels": "公司等级"
+    },
+    "simulation": {
+      "title": "模拟摘要",
+      "upgradePath": "升级路径",
+      "simulating": "正在模拟研究计划…",
+      "emptyUpgradePath": "提交计划后，模拟器将按顺序列出每个升级步骤。",
+      "level": "等级{{from}} → {{to}}",
+      "time": "时间",
+      "total": "总计"
+    },
+    "totals": {
+      "title": "总计",
+      "amount": "数量",
+      "unitPrice": "单价",
+      "total": "总价",
+      "none": "此计划无需研究数据。",
+      "totalTime": "总时间",
+      "totalCost": "总成本",
+      "createWishlist": "创建心愿单",
+      "empty": "首次模拟完成后将显示总计。"
+    },
+    "wishlist": {
+      "planTitle": "研究计划",
+      "context": "研究",
+      "contextWithCompany": "{{name}} · 研究",
+      "remainingGoals": "剩余目标"
+    }
+  },
+  "perks": {
+    "panelTitle": "Prestige Perks",
+    "points": {
+      "available": "可用Perk点数",
+      "plan": "计划：",
+      "clearAll": "全部清除",
+      "reset": "重置",
+      "next": "下一个Perk点数"
+    },
+    "overview": {
+      "title": "Perk概览",
+      "dailyValue": "每日价值",
+      "oneTimeSavings": "一次性节省",
+      "otherPerks": "其他Perks"
+    },
+    "recommend": {
+      "computing": "计算中…",
+      "label": "推荐",
+      "spendAllPoints": "用尽所有点数",
+      "saveForBetter": "留待更优选择",
+      "fromScratch": "从零开始",
+      "fromCurrent": "从当前开始",
+      "improvementPerDay": "+{{value}}/天"
+    },
+    "columns": {
+      "perk": "Perk",
+      "level": "等级",
+      "cost": "成本",
+      "costTitle": "升至下一等级所需的Perk点数",
+      "valuePerDay": "价值/天",
+      "valuePerDayTitle": "当前Perk等级的每日货币价值",
+      "valuePerPoint": "价值/点",
+      "valuePerPointTitle": "已投入的每个Perk点数带来的当前每日价值",
+      "nextPerDay": "下一级/天",
+      "nextPerDayTitle": "升一级带来的每日边际收益",
+      "nextPerPoint": "下一级/点",
+      "nextPerPointTitle": "下一等级每投入一个Perk点数带来的每日货币收益",
+      "saved": "节省",
+      "savedTitle": "此Perk节省的一次性建造成本",
+      "savedPerPoint": "节省/点",
+      "savedPerPointTitle": "已投入的每个Perk点数带来的当前节省",
+      "savedNext": "下一级",
+      "savedNextTitle": "升一级带来的额外节省",
+      "savedNextPerPoint": "下一级/点",
+      "savedNextPerPointTitle": "下一等级每个Perk点数带来的边际节省",
+      "benefit": "收益",
+      "nextLevel": "下一等级"
+    },
+    "controls": {
+      "decrease": "降低等级",
+      "reset": "重置为公司等级",
+      "increase": "提高等级"
+    },
+    "status": {
+      "max": "满级",
+      "active": "已激活",
+      "inactive": "未激活"
+    },
+    "effect": {
+      "scaling": "（递增）",
+      "perLevel": "每级"
+    },
+    "tier": {
+      "unlockTooltip": "在T{{tier}}投入{{spent}}/{{required}}点即可解锁",
+      "locked": "Tier {{tier}}已锁定（低Tier已投入{{spent}}/{{required}}点）"
+    },
+    "blocked": {
+      "byConflict": "被{{name}}阻止（互斥组）"
+    },
+    "exclusivity": {
+      "supervision": "监管",
+      "missionPref": "任务偏好",
+      "exclusive": "互斥"
+    },
+    "consolidated": {
+      "unusedPermits": "未使用许可证",
+      "used": "已使用",
+      "livePermits": "（实时：{{count}}）",
+      "decreasePermits": "减少未使用许可证",
+      "resetPermits": "重置为实时未使用许可证",
+      "increasePermits": "增加未使用许可证",
+      "perPermit": "每许可证",
+      "prodSpeedSuffix": "% 生产速度",
+      "valuePerDay": "{{value}}/天",
+      "current": "当前",
+      "permitsCount": "（{{count}}个许可证）",
+      "nextHqUpgrade": "下次HQ升级",
+      "toLevel": "等级{{level}}",
+      "na": "不适用"
+    },
+    "debug": {
+      "title": "调试：完整流水线基准",
+      "outputPerDay": "产出/d：",
+      "inputPerDay": "输入/d：",
+      "consumablePerDay": "消耗品/d：",
+      "maintenancePerDay": "维护/d：",
+      "netProfitPerDay": "净利润/d："
+    }
+  },
+  "flightRoutes": {
+    "title": "航线",
+    "totalPerDay": "总计：{{cost}}/天",
+    "empty": "尚未定义航线。添加航线以计算物流Perk价值。",
+    "weight": {
+      "auto": "自动重量",
+      "manual": "手动重量",
+      "autoTooltip": "重量根据基地生产自动推算。点击切换为手动。",
+      "manualTooltip": "手动重量。点击以根据基地生产自动推算。"
+    },
+    "actions": {
+      "addRoute": "+ 添加航线",
+      "loadDefaults": "加载默认值",
+      "clearAll": "全部清除"
+    },
+    "route": {
+      "planetA": "行星A",
+      "planetB": "行星B",
+      "ships": "飞船",
+      "selectPlaceholder": "选择",
+      "noShips": "无飞船",
+      "shipCount_other": "{{count}}艘飞船",
+      "noShipsAvailable": "无可用飞船",
+      "demandAtoB": "A→B (t/d)",
+      "demandBtoA": "B→A (t/d)",
+      "mode": "模式",
+      "cost": "成本",
+      "roundTripShort": "往返{{time}}",
+      "debug": "调试",
+      "hide": "隐藏",
+      "remove": "移除航线",
+      "optimization": {
+        "cheapest": "最低成本",
+        "best": "最佳"
+      },
+      "warnings": {
+        "noPlanets": "未选择行星",
+        "planetANotSelected": "未选择行星A",
+        "planetBNotSelected": "未选择行星B",
+        "samePlanet": "行星A与行星B相同",
+        "noCargoWeight": "未设置货物重量",
+        "noShipsAssigned": "未分配飞船"
+      }
+    },
+    "debug": {
+      "efficiencyAtoB": "效率A→B：",
+      "efficiencyBtoA": "效率B→A：",
+      "cargoCapacity": "货物容量：",
+      "cargoAtoBBtoA": "货物A→B / B→A：",
+      "allocAtoBBtoA": "分配A→B / B→A：",
+      "travelAtoB": "航行A→B：",
+      "travelBtoA": "航行B→A：",
+      "roundTrip": "往返：",
+      "dailyTrips": "每日趟次：",
+      "fuelCostPerDay": "燃料成本/天：",
+      "repairCostPerDay": "维修成本/天："
+    },
+    "transport": {
+      "imports": "进口（A→B）",
+      "exports": "出口（B→A）",
+      "detailsHeading": "{{label}}：{{tonnage}} t/d",
+      "material": "材料",
+      "grossPerDay": "总/d",
+      "contract": "合同",
+      "netPerDay": "净/d",
+      "weight": "重量",
+      "tonnagePerDay": "t/d",
+      "none": "无"
+    }
+  },
+  "activeBonuses": {
+    "panelTitle": "公司Perks",
+    "activeSection": "已激活加成",
+    "plannedSection": "计划加成",
+    "reset": "重置",
+    "estDailyValue": "预计每日价值",
+    "perDaySuffix": "/d",
+    "perkPoints": "Perk点数",
+    "pointsOver": "超出{{count}}",
+    "pointsLeft": "剩余{{count}}",
+    "prodSpeedUnusedPermits_other": "生产速度（{{count}}个未使用许可证）"
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "header": {
+    "title": "心愿单构建器",
+    "hideWishlists": "隐藏心愿单",
+    "showWishlists": "显示心愿单",
+    "existingWishlists": "现有心愿单",
+    "existingTotalsTooltip": "所有现有心愿单的总重量和总成本（游戏中已保存数量的总和）。"
+  },
+  "builder": {
+    "requiredSectionDefault": "建筑材料",
+    "baseStockDefault": "基地",
+    "exchangeStockDefault": "交易所",
+    "desiredTargetDefault": "期望"
+  },
+  "sidebar": {
+    "loading": "心愿单加载中...",
+    "empty": "暂无心愿单。",
+    "customSection": "自定义心愿单",
+    "baseSection": "基地心愿单",
+    "noMaterials": "暂无材料。",
+    "wishlistCount_other": "{{count}}个心愿单"
+  },
+  "manage": {
+    "manage": "管理",
+    "done": "完成",
+    "clear": "清除",
+    "selectAll": "全选",
+    "delete": "删除",
+    "deleting": "删除中…",
+    "deleteWithCount_other": "删除（{{count}}）",
+    "confirmDelete_other": "删除{{count}}个心愿单？此操作无法撤销。",
+    "confirmDeleteButton": "确认删除",
+    "selectedCount_other": "已选择{{count}}项",
+    "deletedCount_other": "已删除{{count}}项",
+    "notFoundCount_other": "{{count}}个已为空 / 未找到",
+    "deleteFailed": "批量删除失败。",
+    "selectForDeletionAria": "选择{{name}}以删除"
+  },
+  "materials": {
+    "includeConsumables": "包含消耗品",
+    "includeInputs": "包含生产输入",
+    "deductStock": "扣除{{stock}}库存",
+    "deductScrapped": "扣除拆除回收的材料"
+  },
+  "table": {
+    "includeAllAria": "包含此表中的所有材料",
+    "includeAllTitle": "包含/排除此表中的所有材料",
+    "includeMaterialAria": "包含材料{{id}}"
+  },
+  "columns": {
+    "totals": "合计",
+    "material": {
+      "label": "材料",
+      "tooltip": "此步骤所需的材料。星星数量显示在括号中，不会导出。"
+    },
+    "required": {
+      "label": "需求",
+      "tooltip": "此步骤所需的材料总量。"
+    },
+    "repair": {
+      "label": "维修",
+      "tooltip": "维修所需的该材料数量，已计入上方总量。"
+    },
+    "baseStock": {
+      "tooltip": "各基地仓库中的可用库存。"
+    },
+    "exchangeStock": {
+      "tooltip": "交易所仓库中的可用库存。"
+    },
+    "scrapBuffer": {
+      "label": "拆除（缓冲）",
+      "tooltip": "拆除返还以及可选的0.5天缓冲。"
+    },
+    "current": {
+      "label": "当前",
+      "tooltip": "所选心愿单中的当前数量。"
+    },
+    "weight": {
+      "label": "重量",
+      "tooltip": "添加列的总重量。"
+    },
+    "cost": {
+      "label": "成本",
+      "tooltip": "添加列的总成本。"
+    },
+    "add": {
+      "label": "添加",
+      "tooltip": "将导出到心愿单的数量。"
+    }
+  },
+  "mode": {
+    "title": "模式",
+    "splitLabel": "拆分",
+    "oneWishlist": "单个心愿单",
+    "perMilestone": "按里程碑"
+  },
+  "milestones": {
+    "sectionTitle": "按里程碑拆分的心愿单",
+    "description": "提交后将为每个里程碑创建一个心愿单（最后一个里程碑之后的剩余目标也会单独创建一个）。空分组将被跳过。",
+    "emptyGroup": "无需材料，将跳过该心愿单。"
+  },
+  "settings": {
+    "title": "设置",
+    "destination": "目标",
+    "oneWishlist": "单个心愿单",
+    "perBase": "按基地",
+    "bases": "基地",
+    "allBasesIncluded": "已包含所有基地",
+    "basesIncluded_other": "已包含{{count}}/{{total}}个基地",
+    "includeAll": "全部包含",
+    "excludeAll": "全部排除",
+    "wishlist": "心愿单",
+    "createNewWishlist": "创建新心愿单",
+    "createNew": "新建",
+    "selectWishlistToUpdate": "选择要更新的心愿单。",
+    "applyMode": "应用方式",
+    "overwrite": "覆盖",
+    "add": "添加",
+    "merge": "合并",
+    "materials": "材料",
+    "scrapTimeTooltip": "建筑被拆除前的预计时间",
+    "consumables": "消耗品",
+    "inputs": "输入",
+    "cargoLimit": "货物上限",
+    "cargoOff": "关闭",
+    "cargoManual": "手动",
+    "cargoShip": "飞船",
+    "selectShip": "选择飞船…",
+    "cargoOverweight": "仅建筑材料就超出货物容量",
+    "cargoScaled": "消耗品/输入已缩放至{{percent}}%以匹配货物容量",
+    "cargoOverweightCombined": "仅建筑材料就超出合并后的货物容量",
+    "cargoScaledCombined": "消耗品/输入已缩放至{{percent}}%以匹配所有基地合并后的货物容量",
+    "cargoScaledPerBaseNote": "每个基地均已缩放以适配自身的货物容量。详见下方各基地分区。"
+  },
+  "advanced": {
+    "toggle": "高级",
+    "hqCosts": "HQ成本",
+    "exclude": "排除",
+    "combine": "合并",
+    "separate": "分开",
+    "include": "包含",
+    "cargoDist": "货物分配",
+    "cargoCombined": "合并",
+    "cargoPerBase": "按基地",
+    "cargoScale": "货物缩放",
+    "cargoAllMats": "全部材料",
+    "cargoIncludedOnly": "仅已包含",
+    "consTarget": "消耗品目标",
+    "intermediates": "中间产品",
+    "intermediatesTooltip": "基地既生产又消耗的材料缓冲。在一级工厂产能爬坡期间为二级工厂提供初始库存",
+    "repair": "维修",
+    "repairBufferTooltip": "需额外覆盖的建筑损坏小时数",
+    "modes": {
+      "exclude": "排除",
+      "combine": "合并",
+      "separate": "分开",
+      "include": "包含"
+    },
+    "summary": {
+      "hq": "HQ：{{mode}}",
+      "cargoPerBase": "货物：按基地",
+      "cargoScaleIncluded": "货物缩放：仅已包含",
+      "target": "目标：{{value}}",
+      "intermediates": "中间产品：{{days}}天",
+      "repair": "维修：{{mode}}{{buffer}}"
+    }
+  },
+  "preview": {
+    "title": "预览",
+    "baseWishlistsTarget": "基地心愿单",
+    "selectedWishlistTarget": "所选心愿单",
+    "constructionSectionTitle": "{{section}}（心愿单：{{target}}）",
+    "supplementalSectionTitle": "消耗品、输入与中间产品（心愿单：{{target}}）",
+    "hqSectionTitle": "HQ成本（心愿单：HQ升级）",
+    "noBaseIssueData": "暂无可用于分组预览的基地问题数据。",
+    "cargoOverweightPerBase": "仅建筑材料就超出该基地的货物预算",
+    "cargoScaledPerBase": "消耗品/输入已缩放至{{percent}}%以匹配该基地的货物预算",
+    "enableSupplemental": "启用消耗品、输入或中间产品以查看预览。",
+    "noSupplementalData": "该基地暂无消耗品、输入或中间产品数据。",
+    "noSupplementalSelected": "未选择消耗品、输入或中间产品。",
+    "noHqSelected": "未选择HQ成本。"
+  },
+  "footer": {
+    "status": {
+      "creatingMilestones": "正在创建里程碑心愿单...",
+      "updatingBases": "正在更新基地心愿单...",
+      "creating": "正在创建心愿单...",
+      "updating": "正在更新心愿单..."
+    },
+    "rateLimited": "请求过于频繁，请稍后重试。",
+    "sectionRequired": "需求",
+    "sectionSupplemental": "消耗品 / 输入 / 中间产品",
+    "sectionHq": "HQ成本",
+    "totals": {
+      "baseColumn": "基地",
+      "sectionColumn": "分区",
+      "perBaseTitle": "各基地合计",
+      "breakdownTitle": "明细",
+      "cargoLimit": "货物上限",
+      "perBaseValue": "{{tons}} t / 基地",
+      "weightColumn": "重量",
+      "costColumn": "成本",
+      "sum": "总和"
+    }
+  },
+  "actions": {
+    "cancel": "取消",
+    "saving": "保存中...",
+    "createMilestones_other": "创建{{count}}个心愿单",
+    "updateBases": "更新基地心愿单",
+    "createWishlist": "创建心愿单",
+    "updateWishlist": "更新心愿单",
+    "copyMaterialsAria": "复制表格材料用于聊天",
+    "copiedChatText": "已复制聊天文本。",
+    "noMaterialsToCopy": "没有可复制的材料。",
+    "copyAsChatText": "复制为聊天文本"
+  },
+  "toasts": {
+    "createdCount_other": "已创建{{count}}个心愿单。",
+    "createFailed": "创建心愿单失败。",
+    "createPartialFail": "{{message}}（已创建{{created}}个，{{remaining}}个未创建）"
+  },
+  "variants": {
+    "repairMaterials": "维修材料",
+    "researchData": "研究数据",
+    "basesStock": "基地",
+    "exchangeStock": "交易所"
+  },
+  "submit": {
+    "noBaseWishlistsAvailable": "暂无可用的基地心愿单。",
+    "rateLimited": "更新基地心愿单时请求过于频繁。",
+    "baseWishlistsAlreadyMatch": "基地心愿单已与预览一致。",
+    "noBaseWishlistsUpdated": "没有基地心愿单被更新。",
+    "alreadyMatchedPreview": "（{{count}}个已与预览一致）",
+    "updatedBase_other": "已更新{{count}}个基地心愿单{{suffix}}。",
+    "created_other": "心愿单已创建。",
+    "updated": "心愿单已更新。",
+    "failedToSave": "保存失败。"
+  }
+}

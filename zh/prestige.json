@@ -1,0 +1,28 @@
+{
+  "perks": {
+    "controls": {
+      "decrease": "降低等级",
+      "increase": "提高等级",
+      "resetToCompany": "重置为公司等级"
+    },
+    "group": {
+      "none": "无",
+      "noneButton": "无{{group}}",
+      "selectPlaceholder": "选择{{group}}"
+    },
+    "groupLabel": {
+      "exclusive": "互斥Perk",
+      "supervision": "监管"
+    }
+  },
+  "permits": {
+    "controls": {
+      "decrease": "减少未使用许可证",
+      "increase": "增加未使用许可证",
+      "resetToLive": "重置为实时未使用许可证"
+    },
+    "description": "由Consolidated Operations用于计算每个许可证的生产速度加成。",
+    "label": "未使用的基地许可证",
+    "withoutOverride": "（不含覆盖：{{count}}）"
+  }
+}

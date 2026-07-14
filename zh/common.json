@@ -11,11 +11,13 @@
     "settings": "设置"
   },
   "actions": {
-    "prices": "价格"
+    "prices": "价格",
+    "remove": "移除"
   },
   "language": {
     "label": "语言",
     "en": "English",
-    "zh": "中文"
+    "zh": "中文",
+    "de": "Deutsch"
   }
 }

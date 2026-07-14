@@ -1,0 +1,146 @@
+{
+  "page": {
+    "welcome": {
+      "title": "欢迎使用GT-Companion",
+      "lead": "GT-Companion是一个非官方的、由个人开发的Galactic Tycoons辅助站点。",
+      "body": "查看或规划现有基地与新基地，检查配方的盈利情况，规划研究与飞船，查看公会捐赠，以及更多功能。"
+    },
+    "features": {
+      "title": "功能",
+      "items": {
+        "base": {
+          "label": "基地",
+          "desc": "规划升级或新建基地，在不同条件下测试生产方案，并跟踪公司范围内的问题。"
+        },
+        "exchange": {
+          "label": "交易所",
+          "desc": "查看交易所数据，了解正在出售的材料，并导出市场洞察。"
+        },
+        "profitability": {
+          "label": "盈利分析",
+          "desc": "通过深度配置比较配方盈利情况，查看详细数据，并构建完整的生产链。"
+        },
+        "research": {
+          "label": "研发",
+          "desc": "估算研究成本，规划Perk点数分配，并比较不同Spec之间的优先级。"
+        },
+        "guild": {
+          "label": "公会",
+          "desc": "跟踪公会项目，监控捐赠情况，并比较不同Spec下的成员研究等级。"
+        },
+        "flight": {
+          "label": "飞行规划器",
+          "desc": "模拟单航段或多航段飞行，测试飞船布局，并比较多种航线方案的成本。"
+        },
+        "galaxy": {
+          "label": "星系地图",
+          "desc": "探索星系，查看恒星系详情，寻找行星，并在地图上规划扩张。"
+        },
+        "leaderboard": {
+          "label": "排行榜",
+          "desc": "浏览公会与公司排名，比较数据，并关注全局事件动态。"
+        },
+        "settings": {
+          "label": "设置",
+          "desc": "配置API密钥，调整应用偏好，并管理共享设置。"
+        }
+      },
+      "more": {
+        "label": "更多",
+        "desc": "持续开发中，更多功能、改进与优化正在路上。"
+      }
+    },
+    "gettingStarted": {
+      "title": "快速上手",
+      "play": "开始游玩Galactic Tycoons",
+      "discord": "加入官方Discord服务器",
+      "coffee": "请我喝杯咖啡",
+      "referralNote": "“开始游玩Galactic Tycoons”按钮使用的是推荐链接。",
+      "coffeeNote": " 喜欢GT-Companion吗？可以请我喝杯咖啡，帮助维持站点运行。",
+      "steps": {
+        "one": "在设置中添加Galactic Tycoons API密钥，以解锁完整功能。",
+        "two": "浏览各个页面，了解GT-Companion提供的功能。",
+        "three": "尽情使用本辅助站点，并在Galactic Tycoons官方Discord服务器的工具帖中分享反馈或报告问题。"
+      }
+    }
+  },
+  "quickLinks": {
+    "title": "快捷链接",
+    "base": "基地",
+    "baseOverview": "概览",
+    "baseInsights": "洞察",
+    "basePlanNew": "规划新基地",
+    "exchange": "交易所",
+    "profitability": "盈利分析",
+    "recipeChains": "配方链",
+    "research": "研发",
+    "guild": "公会",
+    "guildProjects": "项目",
+    "guildDonations": "捐赠",
+    "guildMembers": "成员",
+    "leaderboard": "排行榜",
+    "guildLeaderboard": "公会排行榜",
+    "companyLeaderboard": "公司排行榜",
+    "globalEvents": "全局事件",
+    "companyEvents": "公司事件",
+    "ships": "飞船",
+    "flightSimulation": "飞行模拟",
+    "galaxy": "星系",
+    "settings": "设置"
+  },
+  "appInfo": {
+    "title": "应用信息",
+    "general": "常规",
+    "versionNumber": "版本号",
+    "users": {
+      "title": "GT-Companion用户",
+      "loading": "正在加载活跃公司…",
+      "error": "加载活跃公司失败。",
+      "empty": "暂无使用数据。",
+      "last1h": "最近1小时",
+      "last12h": "最近12小时",
+      "last24h": "最近24小时",
+      "last3d": "最近3天",
+      "last7d": "最近7天",
+      "total": "总计"
+    },
+    "playerbase": {
+      "title": "Galactic Tycoons玩家群体",
+      "loading": "正在加载游戏活跃度…",
+      "error": "加载游戏活跃度失败。",
+      "new1d": "新增（1天）",
+      "active1d": "活跃（1天）",
+      "active3d": "活跃（3天）",
+      "active7d": "活跃（7天）",
+      "tracked": "已跟踪公司",
+      "history": "历史"
+    }
+  },
+  "activityModal": {
+    "title": "游戏活跃度历史",
+    "error": "加载活跃度历史失败。",
+    "empty": "暂无活跃度历史。",
+    "windowAll": "全部时间",
+    "showInactive": "显示不活跃公司（7天以上）",
+    "hideInactive": "隐藏不活跃公司（7天以上）",
+    "footnote": "活跃分层反映每天的最后出现时间范围。新增指在该日期24小时内成立的公司。"
+  },
+  "chart": {
+    "yAxis": "公司数",
+    "series": {
+      "active01": "活跃0-1天",
+      "active13": "活跃1-3天",
+      "active37": "活跃3-7天",
+      "new1d": "新增（1天）",
+      "inactive7plus": "不活跃7天以上"
+    }
+  },
+  "layout": {
+    "quickLinksToggle": "快捷链接"
+  },
+  "errors": {
+    "loadActiveCompanies": "加载活跃公司失败",
+    "loadTrackerActivity": "加载Tracker游戏活跃度失败",
+    "loadActivityHistory": "加载活跃度历史失败"
+  }
+}

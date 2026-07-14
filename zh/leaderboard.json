@@ -1,0 +1,303 @@
+{
+  "nav": {
+    "panelTitle": "排行榜",
+    "guildLeaderboard": "公会排行榜",
+    "companyLeaderboard": "公司排行榜",
+    "guildEvents": "公会事件",
+    "companyEvents": "公司事件",
+    "recentGuildEvents": "最近公会事件",
+    "refreshGuildEvents": "刷新最近公会事件",
+    "recentCompanyEvents": "最近公司事件",
+    "refreshCompanyEvents": "刷新最近公司事件",
+    "loadingEvents": "加载事件中…",
+    "noRecentEvents": "暂无最近事件。",
+    "mobileRightToggle": "Tracker"
+  },
+  "table": {
+    "myRank": "我的排名",
+    "myRankTitle": "跳转到我的公司",
+    "myGuild": "我的公会",
+    "myGuildTitle": "仅显示我的公会中的公司",
+    "refresh": "刷新排行榜",
+    "refreshTitle": "刷新",
+    "loadingMoreGuilds": "加载更多公会中…",
+    "loadedAllGuilds": "已加载全部{{value}}个公会。",
+    "loadingMoreCompanies": "加载更多公司中…",
+    "loadedAllCompanies": "已加载全部{{value}}个公司。"
+  },
+  "filters": {
+    "button": "筛选",
+    "resetAll": "重置所有筛选",
+    "activity": "活跃度",
+    "membership": "公会归属",
+    "searchGuilds": "搜索公会…",
+    "searchCompanies": "搜索公司…",
+    "searchEvents": "搜索事件…",
+    "includeDisbanded": "包含已解散的公会",
+    "min": "最小",
+    "max": "最大",
+    "noEventsSelected": "未选择事件",
+    "allEventTypes": "所有事件类型",
+    "eventsSelected": "已选{{selected}}/{{total}}",
+    "guildActivity": {
+      "all": "全部",
+      "allTooltip": "所有公会，不论成员活跃度。",
+      "d1": "1天",
+      "d1Tooltip": "至少一名成员在过去24小时内出现过。",
+      "d3": "3天",
+      "d3Tooltip": "至少一名成员在过去3天内出现过。",
+      "d7": "7天",
+      "d7Tooltip": "至少一名成员在过去7天内出现过。",
+      "inactive": "不活跃",
+      "inactiveTooltip": "过去7天内没有成员出现过。"
+    },
+    "companyActivity": {
+      "all": "全部",
+      "allTooltip": "所有公司，不论活跃度。",
+      "d1": "1天",
+      "d1Tooltip": "在过去24小时内出现过。",
+      "d3": "3天",
+      "d3Tooltip": "在过去3天内出现过。",
+      "d7": "7天",
+      "d7Tooltip": "在过去7天内出现过。",
+      "inactive": "不活跃",
+      "inactiveTooltip": "在过去7天内未出现过（7天以上）。"
+    },
+    "membershipOptions": {
+      "all": "全部",
+      "guildless": "无公会",
+      "inGuild": "已加入公会"
+    }
+  },
+  "paging": {
+    "infinite": "无限滚动",
+    "pages": "分页",
+    "prev": "上一页",
+    "next": "下一页",
+    "page": "第{{current}}/{{total}}页",
+    "range": "{{start}}-{{end}}，共{{total}}",
+    "rangeEmpty": "0，共0"
+  },
+  "columns": {
+    "button": "列",
+    "enableAll": "全部启用",
+    "reset": "重置",
+    "noColumns": "无列",
+    "selected_other": "已选{{count}}列",
+    "guild": "公会",
+    "company": "公司",
+    "time": "时间",
+    "event": "事件",
+    "details": "详情",
+    "planet": "行星",
+    "tier": "Tier",
+    "distance": "到Ex.的距离",
+    "disbandedSuffix": " [已解散]"
+  },
+  "columnOptions": {
+    "guild": {
+      "rank": "公会排名",
+      "prestige": "Prestige",
+      "memberCount": "成员数",
+      "foundingDays": "成立时长",
+      "projectHq": "HQ",
+      "projectAdmin": "Administration",
+      "projectFlight": "Flight Center",
+      "projectWarehouse": "Warehouse",
+      "projectArcade": "Arcade",
+      "recruiting": "招募",
+      "totalCompanyValue": "公司价值总计",
+      "avgCompanyValue": "平均公司价值",
+      "memberPrestigeSum": "成员Prestige总计",
+      "prestigeGain24h": "Prestige %（1天）",
+      "valueGain24h": "价值 %（1天）",
+      "prestigeGain7d": "Prestige %（7天）",
+      "valueGain7d": "价值 %（7天）"
+    },
+    "company": {
+      "prestige": "Prestige",
+      "companyValue": "公司价值",
+      "workforce": "劳动力",
+      "basesCount": "基地数",
+      "companyAgeDays": "成立时长",
+      "avgDailyGrowth": "日均增长",
+      "prestigeGain24h": "Prestige %（1天）",
+      "valueGain24h": "价值 %（1天）",
+      "prestigeGain7d": "Prestige %（7天）",
+      "valueGain7d": "价值 %（7天）",
+      "prestigeRank24h": "PR排名（1天）",
+      "valueRank24h": "CV排名（1天）",
+      "prestigeRank7d": "PR排名（7天）",
+      "valueRank7d": "CV排名（7天）"
+    }
+  },
+  "headers": {
+    "rank": "排名",
+    "guildPrestige": "公会Prestige",
+    "members": "成员",
+    "age": "成立时长",
+    "hq": "HQ",
+    "admin": "Admin",
+    "flight": "Flight",
+    "warehouse": "Wareh.",
+    "arcade": "Arcade",
+    "totalValue": "总价值",
+    "avgValue": "平均价值",
+    "memberPrestige": "成员Prestige",
+    "pctPr1d": "PR% 1天",
+    "pctCv1d": "CV% 1天",
+    "pctPr7d": "PR% 7天",
+    "pctCv7d": "CV% 7天",
+    "recruiting": "招募",
+    "prestige": "Prestige",
+    "companyValue": "公司价值",
+    "workforce": "劳动力",
+    "bases": "基地",
+    "avgDaily": "日均 %",
+    "pr1d": "PR 1天",
+    "cv1d": "CV 1天",
+    "pr7d": "PR 7天",
+    "cv7d": "CV 7天"
+  },
+  "eventFilters": {
+    "guild": {
+      "guildCreated": "公会创建",
+      "guildDisbanded": "公会解散",
+      "memberJoined": "成员加入",
+      "memberLeft": "成员离开",
+      "memberRankChanged": "成员职级变更",
+      "hqUpgraded": "HQ升级",
+      "adminUpgraded": "Administration升级",
+      "flightUpgraded": "Flight Center升级",
+      "warehouseUpgraded": "Warehouse升级",
+      "arcadeUpgraded": "Arcade升级",
+      "recruitingChanged": "招募状态变更"
+    },
+    "company": {
+      "companyReset": "公司重置",
+      "baseBuilt": "基地建成",
+      "baseDisbanded": "基地解散",
+      "companyDeleted": "公司删除"
+    }
+  },
+  "actions": {
+    "clear": "清除",
+    "apply": "应用"
+  },
+  "headerFilter": {
+    "editTitle": "编辑{{label}}筛选（右键点击清除）",
+    "aria": "{{label}}筛选：{{range}}",
+    "editRecruitingTitle": "编辑招募筛选（右键点击清除）"
+  },
+  "values": {
+    "any": "任意",
+    "yes": "是",
+    "no": "否"
+  },
+  "status": {
+    "notAvailable": "不适用"
+  },
+  "activity": {
+    "title": "游戏活跃度",
+    "companies": "公司",
+    "guilds": "公会",
+    "loading": "加载公司活跃度中…",
+    "new1d": "1天新增",
+    "active1d": "1天活跃",
+    "active3d": "3天活跃",
+    "active7d": "7天活跃",
+    "total": "总计",
+    "history": "历史"
+  },
+  "health": {
+    "title": "Tracker健康状况",
+    "statusSection": "状态",
+    "status": "状态",
+    "reachable": "可访问",
+    "guildsKnown": "已知公会数",
+    "companiesKnown": "已知公司数",
+    "highestGuildId": "最大公会ID",
+    "build": "构建版本",
+    "updated": "更新时间",
+    "error": "错误",
+    "warning": "警告",
+    "trackerStatus": {
+      "loading": "加载中",
+      "unavailable": "不可用",
+      "unknown": "未知",
+      "healthy": "正常",
+      "degraded": "降级"
+    }
+  },
+  "events": {
+    "level": "等级",
+    "recruitingEnabled": "已开启招募",
+    "recruitingDisabled": "已关闭招募",
+    "guildCreated": "公会已创建",
+    "guildDisbanded": "公会已解散。",
+    "projectFallback": "项目{{id}}",
+    "companyFallback": "公司#{{id}}",
+    "companyUnknown": "公司#?",
+    "memberJoined": "成员已加入",
+    "memberLeft": "成员已离开",
+    "memberRankChanged": "成员职级已变更",
+    "companyReset": "公司已重置",
+    "companyResetLabel": "公司重置",
+    "baseBuilt": "基地已建成",
+    "baseDisbanded": "基地已解散",
+    "companyDeletedTitle": "公司已删除",
+    "companyDeletedLabel": "公司删除",
+    "companyDeleted": "API中已找不到该公司。",
+    "foundedDateChanged": "成立日期已变更：",
+    "builtLabel": "建成：",
+    "disbandedLabel": "解散：",
+    "unknownPlanet": "未知行星"
+  },
+  "modal": {
+    "activityHistory": {
+      "title": "游戏活跃度历史",
+      "empty": "暂无活跃度历史数据。",
+      "showInactive": "显示不活跃公司（7天以上）",
+      "hideInactive": "隐藏不活跃公司（7天以上）",
+      "note": "活跃分层反映每天的最后出现时间范围。新增=在该日期24小时内成立。",
+      "series": {
+        "active01": "活跃0-1天",
+        "active13": "活跃1-3天",
+        "active37": "活跃3-7天",
+        "new1d": "新增（1天）",
+        "inactive7plus": "不活跃7天以上",
+        "companies": "公司"
+      }
+    },
+    "activityWindows": {
+      "d7": "7天",
+      "d30": "30天",
+      "d90": "90天",
+      "d180": "180天",
+      "all": "全部时间"
+    },
+    "loadingMoreEvents": "加载更多事件中…",
+    "eventsLoaded": "已加载<strong>{{value}}</strong> / <strong>{{total}}</strong>个事件",
+    "noEventsForFilter": "当前筛选条件下没有事件。"
+  },
+  "errors": {
+    "trackerHealth": "加载Tracker健康状况失败",
+    "activeCompanies": "加载活跃公司失败",
+    "activityHistory": "加载活跃度历史失败",
+    "guildLeaderboard": "加载Tracker公会排行榜失败",
+    "guildEventsFetch": "加载公会事件失败",
+    "companyGlobalEventsFetch": "加载全局公司事件失败",
+    "companyLeaderboard": "加载Tracker公司排行榜失败",
+    "moreGuilds": "加载更多Tracker公会失败",
+    "moreCompanies": "加载更多Tracker公司失败",
+    "companyDetails": "加载公司详情失败",
+    "companyPlanets": "加载公司行星失败",
+    "companyHistory": "加载公司历史失败",
+    "companyEventsFetch": "加载公司事件失败",
+    "companyActivityDisplay": "加载公司活跃度失败。",
+    "guildEventsDisplay": "加载公会事件失败。",
+    "companyEventsDisplay": "加载公司事件失败。",
+    "activityHistoryDisplay": "加载活跃度历史失败。",
+    "companyGlobalEventsDisplay": "加载全局公司事件失败。"
+  }
+}

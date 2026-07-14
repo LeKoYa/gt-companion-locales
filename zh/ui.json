@@ -1,0 +1,71 @@
+{
+  "modal": {
+    "defaultTitle": "对话框"
+  },
+  "panel": {
+    "restore": "恢复面板",
+    "popOut": "弹出到窗口",
+    "popOutTab": "将“{{label}}”弹出到窗口",
+    "resetEdits": "重置编辑",
+    "unsavedEdits": "未保存的编辑"
+  },
+  "confirm": {
+    "defaultLabel": "确认"
+  },
+  "help": {
+    "label": "帮助",
+    "moreInfo": "更多信息",
+    "ariaInfo": "{{label}}信息"
+  },
+  "selector": {
+    "clearSelection": "清除选择"
+  },
+  "layout": {
+    "panelFallback": "面板"
+  },
+  "material": {
+    "viewOnExchange": "在交易所查看{{name}}"
+  },
+  "placeholder": {
+    "notImplemented": "此功能尚未实现。",
+    "availableFeatures": "当前可用的功能：",
+    "features": {
+      "base": "基地概览/规划",
+      "exchange": "交易所统计",
+      "profitability": "盈利分析计算器",
+      "research": "研究规划器",
+      "guild": "公会概览",
+      "ships": "飞船",
+      "settings": "设置"
+    }
+  },
+  "unavailable": {
+    "messages": {
+      "dataUnavailable": "数据不可用",
+      "notUsing": "未使用GT Companion",
+      "guildOnly": "仅限公会成员",
+      "notShared": "未共享",
+      "notAvailable": "不可用"
+    },
+    "details": {
+      "dataUnavailable": "无法加载{{label}}数据",
+      "notUsing": "{{label}}数据不可用",
+      "guildOnly": "{{label}}仅限公会成员查看",
+      "notShared": "{{label}}数据为私密"
+    },
+    "features": {
+      "research_levels": "研究",
+      "company_summary": "公司摘要",
+      "company_perks": "Prestige Perk",
+      "base_names": "基地名称",
+      "base_layouts": "基地布局",
+      "base_production": "生产",
+      "base_warehouses": "基地仓库",
+      "exchange_inventory": "交易所仓库",
+      "active_contracts": "合同",
+      "ship_designs": "飞船设计",
+      "ship_routes": "飞船航线",
+      "ship_inventories": "飞船货物"
+    }
+  }
+}

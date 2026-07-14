@@ -1,0 +1,953 @@
+{
+  "page": {
+    "projectBonus": {
+      "members": "5 + {{level}}名成员",
+      "reduction": "减少{{value}}%",
+      "speed": "速度{{value}}%",
+      "capacity": "{{value}} 吨",
+      "effect": "效果{{value}}%"
+    },
+    "status": {
+      "label": "状态",
+      "notInGuild": "当前未加入任何公会。",
+      "loading": "正在加载公会数据…",
+      "loadFailed": "公会数据加载失败。",
+      "noData": "暂无公会数据。"
+    },
+    "info": {
+      "guild": "公会",
+      "rank": "排名",
+      "prestige": "Prestige",
+      "members": "成员"
+    },
+    "project": {
+      "level": "等级{{level}}",
+      "levelWithMax": "等级{{level}}/{{max}}",
+      "overviewFallback": "项目概览",
+      "bonus": "加成",
+      "lvl": "等级",
+      "resetLevel": "重置等级",
+      "reset": "重置",
+      "remainingFromTo": "剩余：从等级{{start}} → 等级{{target}}",
+      "fromTo": "从等级{{start}} → 等级{{target}}",
+      "atLevel": "等级{{level}}",
+      "dailyCostAtLevel": "等级{{level}}的每日成本",
+      "constructionDataMissing": "缺少建造数据",
+      "noDailyConsumables": "无每日消耗品"
+    },
+    "rank": {
+      "leader": "会长",
+      "officer": "管理员",
+      "member": "成员"
+    },
+    "memberPlanets": {
+      "loading": "正在加载成员行星…",
+      "loadFailed": "成员行星加载失败。",
+      "noData": "暂无已追踪的行星归属数据。",
+      "view": "视图",
+      "viewMember": "成员",
+      "viewPlanet": "行星",
+      "memberTable": {
+        "company": "公司",
+        "planetSub": "行星",
+        "guildRank": "公会职级",
+        "tierSub": "Tier",
+        "prestige": "Prestige",
+        "distSub": "距交易所距离",
+        "value": "价值"
+      },
+      "planetTable": {
+        "planet": "行星",
+        "memberSub": "成员",
+        "tier": "Tier",
+        "guildRankSub": "公会职级",
+        "distToEx": "距交易所距离",
+        "prestigeSub": "Prestige",
+        "members": "成员",
+        "valueSub": "价值"
+      }
+    },
+    "research": {
+      "loadingRoster": "正在加载公会成员名单…",
+      "noMembers": "暂无公会成员。",
+      "member": "成员",
+      "unknown": "未知",
+      "statusNoAccount": "未关联GT Companion账号。",
+      "statusPrivate": "研究共享已关闭。",
+      "statusShared": "研究共享已开启。",
+      "noneShared": "尚无公会成员共享其研究等级。可请成员在设置中开启研究共享。"
+    },
+    "toggles": {
+      "guildOverview": "公会概览",
+      "tradeActions": "交易操作",
+      "customPrices": "自定义价格"
+    },
+    "panels": {
+      "guild": "公会",
+      "guildOverview": "公会概览",
+      "guildProjects": "公会项目",
+      "guildDonations": "公会捐赠",
+      "memberOverview": "成员概览"
+    },
+    "sections": {
+      "general": "常规",
+      "guildProjects": "公会项目",
+      "donationTargets": "捐赠目标",
+      "donationLeaderboard": "捐赠排行榜",
+      "prestigeTrend": "捐赠带来的Prestige趋势",
+      "recentDonations": "最近捐赠",
+      "memberResearchLevels": "成员研究等级",
+      "memberPlanets": "成员行星"
+    },
+    "projects": {
+      "missingMembership": "在游戏中加入公会后即可在此查看公会项目。",
+      "loadingMetadata": "正在加载项目元数据…",
+      "noneAssigned": "尚未分配任何项目。",
+      "missingMembershipMain": "在游戏中加入公会后即可查看项目数据。",
+      "loadingRequirements": "正在加载项目需求…",
+      "noDataMain": "暂无项目数据。"
+    },
+    "overview": {
+      "notInGuild": "当前未加入任何公会。在游戏中加入公会即可解锁项目追踪、捐赠历史和成员视图。"
+    },
+    "donations": {
+      "updated": "更新于{{date}}",
+      "noCached": "暂无缓存的捐赠数据。",
+      "forceRefreshing": "正在强制刷新…",
+      "forceRefresh": "强制刷新",
+      "showMembers": "显示成员",
+      "memberCurrent": "当前",
+      "memberAll": "全部",
+      "chart": "图表",
+      "chartStacked": "堆叠",
+      "chartLines": "折线"
+    }
+  },
+  "donationTargets": {
+    "loading": "正在加载捐赠目标…",
+    "loadingPlan": "正在加载计划…",
+    "settingsButton": "设置",
+    "contributionRateUnit": "CV的% / {{period}}",
+    "period": {
+      "current": "当前",
+      "weekLabel": "第{{week}}周 · {{start}} – {{end}}",
+      "unit": {
+        "week": "周",
+        "month": "月"
+      },
+      "donations": {
+        "week": "周捐赠",
+        "month": "月捐赠"
+      }
+    },
+    "status": {
+      "saved": "已保存 ✓",
+      "loading": "加载中…",
+      "error": "⚠ 错误（重试）"
+    },
+    "banner": {
+      "unsaved": "未保存的更改",
+      "preview": "预览 - 本地更改不会保存到公会",
+      "reset": "重置",
+      "saving": "保存中…",
+      "save": "为公会保存"
+    },
+    "modes": {
+      "growthTarget": "增长目标",
+      "pctCvTarget": "% / CV目标",
+      "pctCv": "% / CV",
+      "combined": "组合"
+    },
+    "weightOptions": {
+      "skip": "—",
+      "skipTooltip": "跳过",
+      "low": "低",
+      "mid": "中",
+      "high": "高",
+      "max": "最高"
+    },
+    "settings": {
+      "title": "捐赠目标设置",
+      "mode": "模式",
+      "targets": "目标",
+      "weekly": "每周",
+      "monthly": "每月",
+      "alpha": "Alpha (α)",
+      "contributionRate": "贡献比例",
+      "consumables": "消耗品",
+      "buffer": "缓冲",
+      "fixedTargets": "固定目标",
+      "growthTargets": "增长目标",
+      "fromLevel": "等级{{level}} →",
+      "constructionImportance": "建造重要性",
+      "freeUpgradeImportance": "免费升级重要性"
+    },
+    "freeze": {
+      "tooltipPast": "过去的周期已冻结。",
+      "tooltipFuture": "CV在{{period}}开始时记录。",
+      "tooltipLive": "在整个{{period}}内保持每位成员的捐赠目标稳定。{{period}}中途加入的成员会按首次检测到的CV自动加入。",
+      "label": "冻结本{{period}}的成员CV",
+      "description": "在{{period}}推进过程中保持目标稳定。{{period}}中途加入的成员会自动加入。"
+    },
+    "exclude": {
+      "sectionTitle": "将成员排除在捐赠之外",
+      "autoExcludeBelow": "低于此值自动排除",
+      "unitMCv": "M CV",
+      "offPlaceholder": "关闭",
+      "autoCount": "{{count}}个自动",
+      "none": "未排除任何成员",
+      "count_other": "已排除{{count}}名成员",
+      "autoSuffix": "（{{count}}个自动）",
+      "includeAll": "全部包含",
+      "excludeAll": "全部排除",
+      "autoBadge": "自动",
+      "forcedInBadge": "强制包含",
+      "autoTooltip": "已自动排除 - 取消勾选可强制包含",
+      "forcedInTooltip": "已强制包含，忽略自动排除阈值"
+    },
+    "editors": {
+      "sectionTitle": "捐赠编辑者",
+      "none": "无额外编辑者",
+      "count_other": "已指派{{count}}名编辑者"
+    },
+    "budget": {
+      "warningPctCv": "集体预算（{{budget}}）不足以覆盖消耗品的运行成本（{{consumables}}）",
+      "warningCombined": "消耗品 + 固定目标（{{fixed}}）超过集体上限（{{cap}}）",
+      "consumablesLabel": "消耗品：",
+      "constructionLabel": "建造：",
+      "freeUpgradesLabel": "免费升级：",
+      "percentComplete": "已完成{{pct}}%",
+      "noPlanSaved": "尚未为所选的{{period}}保存公会计划。",
+      "noPlanSavedEditHint": "可在设置中配置并保存一个。"
+    },
+    "projects": {
+      "title": "项目",
+      "current": "当前",
+      "allLevels": "所有等级",
+      "hideDetails": "隐藏详情",
+      "showDetails": "显示详情",
+      "consumablesLabel": "消耗品：",
+      "constructionLabel": "建造：",
+      "consumablesPerPeriod": "消耗品 / {{period}}",
+      "construction": "建造"
+    },
+    "table": {
+      "company": "公司",
+      "cv": "公司价值",
+      "cvSnapshot": "CV（快照）",
+      "target": "目标",
+      "donated": "已捐赠",
+      "progress": "进度",
+      "remaining": "剩余",
+      "total": "总计",
+      "average": "平均",
+      "newBadge": "新",
+      "newBadgeTooltip": "周期中途加入 - CV将在下次计划刷新时锁定。",
+      "empty": "没有具备公司价值数据的贡献成员。"
+    },
+    "memberModal": {
+      "alreadyDonated": "已捐赠",
+      "material": "材料",
+      "amount": "数量",
+      "estValue": "预估价值",
+      "total": "总计"
+    },
+    "planner": {
+      "title": "捐赠规划器",
+      "material": "材料",
+      "max": "最大",
+      "suggest": "建议",
+      "unitPrice": "单价",
+      "estCost": "预估成本",
+      "total": "总计",
+      "noDonatable": "当前没有具备价格数据的可捐赠材料。"
+    },
+    "guide": {
+      "title": "捐赠指南",
+      "compact": "紧凑",
+      "detailed": "详细",
+      "chart": "图表",
+      "linear": "线性",
+      "log": "对数",
+      "noMaterials": "无材料",
+      "allMaterials": "全部材料",
+      "materialsCount": "{{selected}}/{{total}}种材料",
+      "noMembers": "无成员",
+      "allMembers": "全部成员",
+      "membersCount": "{{selected}}/{{total}}名成员",
+      "selectAll": "全部",
+      "selectNone": "无",
+      "reset": "重置",
+      "memberPlaceholder": "成员",
+      "maxCvPlaceholder": "最大CV",
+      "guildMax": "公会最大值",
+      "youSuffix": "{{name}}（本人）",
+      "you": "本人",
+      "later": "稍后",
+      "cvTooltip": "CV：{{value}}",
+      "moreCount": "… 还有{{count}}项",
+      "axisCompanyValue": "公司价值",
+      "axisPrestigePer1k": "Prestige / $1k",
+      "columns": {
+        "material": "材料",
+        "now": "现在",
+        "needed": "所需",
+        "market": "市场",
+        "avg": "平均",
+        "base": "基础价",
+        "deal": "划算度",
+        "prestigePer1k": "Prestige/$1k"
+      }
+    }
+  },
+  "donationLeaderboard": {
+    "timeWindows": {
+      "1d": "1天",
+      "3d": "3天",
+      "7d": "7天",
+      "14d": "14天",
+      "30d": "30天",
+      "all": "全部时间"
+    },
+    "projects": {
+      "hq": "HQ",
+      "admin": "Admin",
+      "flight": "Flight",
+      "warehouse": "Warehouse",
+      "arcade": "Arcade"
+    },
+    "status": {
+      "noCachedDonations": "暂无缓存的捐赠数据。"
+    },
+    "rows": {
+      "total": "总计",
+      "average": "平均"
+    },
+    "columns": {
+      "company": "公司",
+      "prestige": "Prestige",
+      "value": "价值",
+      "totalPerCv": "总计 / $1M CV",
+      "totalWindow": "总计（{{window}}）",
+      "selectedFallback": "已选"
+    },
+    "controls": {
+      "showMembers": "显示成员",
+      "current": "当前",
+      "all": "全部"
+    },
+    "empty": {
+      "title": "捐赠排行榜为空。",
+      "hint": "强制刷新以获取捐赠数据。",
+      "forceRefreshing": "正在强制刷新…",
+      "forceRefresh": "强制刷新"
+    },
+    "autoFetch": {
+      "waiting": "等待速率限制重置",
+      "resume": " · {{time}}恢复",
+      "fetching_other": "正在获取剩余的{{pages}}页…"
+    }
+  },
+  "recentDonations": {
+    "columns": {
+      "member": "成员",
+      "prestige": "Prestige",
+      "donatedItems": "捐赠物品"
+    },
+    "expanded": {
+      "material": "材料",
+      "amount": "数量",
+      "unitPrice": "单价",
+      "estValue": "预估价值",
+      "total": "总计"
+    },
+    "days": {
+      "today": "今天",
+      "yesterday": "昨天"
+    },
+    "empty": {
+      "noRecent": "今天和昨天均无捐赠记录。",
+      "noActivity": "无活动。"
+    }
+  },
+  "adminRoi": {
+    "title": "Admin Center ROI",
+    "coverage": {
+      "excludedTitle": "已排除（无共享数据）：{{names}}",
+      "shownFor": "显示{{total}}名成员中的{{shared}}名",
+      "overheadOnly": "（{{count}}名仅有Overhead数据）",
+      "currentLevel": "当前等级：",
+      "buffPerLevel": "每级加成："
+    },
+    "mode": {
+      "ariaLabel": "节省模式",
+      "actual": "实际",
+      "actualTitle": "按每位成员的实际惩罚计算的节省（对未达上限的成员是准确的）",
+      "saturated": "饱和",
+      "saturatedTitle": "反事实假设：将每位成员都视为完全扩张以用满新的Admin Center余量。显示升级后的Admin Center在扩张后的劳动力上带来的边际Overhead税节省（不计入劳动力增长的成本，那需由成员自行权衡其生产收益）。",
+      "saturatedNote": "反事实假设：假定每位成员都扩张以用满新的Admin Center余量。显示升级后的Admin Center在更大规模劳动力上带来的边际Overhead税节省。劳动力增长本身的成本不计入其中，那需由成员自行权衡其解锁的产能。"
+    },
+    "debug": {
+      "show": "调试",
+      "hide": "隐藏调试",
+      "breakdownTitle": "等级{{level}}下的逐成员明细",
+      "noSharedData": "无共享的成员数据。",
+      "member": "成员",
+      "bases": "基地",
+      "penaltyPercent": "惩罚 %",
+      "apiAdminLevel": "API的Admin等级",
+      "currentNetPercent": "当前净 %",
+      "headroomPercent": "余量 %",
+      "headroomTitle": "在API的Admin Center等级下，开始缴纳Overhead税之前的惩罚余量。负值 = 已在为超出的惩罚缴税。",
+      "liveConsumablesPerDay": "实时消耗品 / 天",
+      "savingsPlusOnePerDay": "节省 @ +1 / 天"
+    },
+    "states": {
+      "loading": "正在加载成员生产数据…",
+      "loadFailed": "加载失败。",
+      "noSharedData": "尚无公会成员共享数据。",
+      "maxLevel": "Admin Center已达到最高等级。",
+      "noBuff": "Admin Center未配置每级加成。",
+      "noSavings": "更高等级无法带来额外节省。"
+    },
+    "table": {
+      "level": "等级",
+      "savingsPerDay": "节省 / 天",
+      "upkeepDeltaPerDay": "维护费 Δ / 天",
+      "netProfitPerDay": "净利润 / 天",
+      "buildCost": "建造成本",
+      "roiDays": "ROI（天）"
+    }
+  },
+  "prestigeTrend": {
+    "selector": {
+      "noCompanies": "无公司",
+      "allCompanies": "全部公司",
+      "selected": "已选{{total}}个中的{{count}}个",
+      "showAll": "显示全部",
+      "hideAll": "隐藏全部"
+    },
+    "empty": {
+      "noDonations": "所选时间范围内无Prestige捐赠记录。",
+      "selectCompanies": "选择一家或多家公司以显示趋势。"
+    },
+    "tooltip": {
+      "total": "总计：{{value}}",
+      "noChange": "Prestige无变化"
+    }
+  },
+  "sectionTabs": {
+    "entries": {
+      "trade": "交易",
+      "projects": "项目",
+      "donations": "捐赠",
+      "members": "成员"
+    }
+  },
+  "chains": {
+    "edgeTree": {
+      "emptyTree": "此生产链尚无连接边。创建一条新链即可查看其树状结构。",
+      "openExchangeTitle": "打开{{material}}的交易所",
+      "materialLongFallback": "材料{{id}}",
+      "matFallback": "材料{{id}}",
+      "targetTitle": "生产链目标产出",
+      "targetBadge": "目标",
+      "noBuyerTitle": "此处已有供应方承诺供货，但上游尚无买家",
+      "noBuyerBadge": "无买家",
+      "needsProducerTitle": "需要一个生产方，让下游承诺的供应有买家",
+      "needsProducerBadge": "需要生产方",
+      "sharedInputsTitle": "此材料被共用，其输入显示在更早出现的位置。点击可跳转。",
+      "inputsAbove": "↗ 输入在上方",
+      "produceBadge": "生产",
+      "marketBadge": "市场",
+      "canonicalTitle": "每日所需的标准吞吐量",
+      "coverageTitle": "已接受供应占标准需求的比例",
+      "contractTable": {
+        "seller": "卖方",
+        "buyer": "买方",
+        "unitsHeader": "#/d",
+        "coverageHeader": "覆盖率",
+        "priceHeader": "$/u",
+        "creditsHeader": "cr/d",
+        "sameContract": "同一合同",
+        "noSeller": "无卖方",
+        "noBuyer": "无买家",
+        "missing": "缺失",
+        "total": "总计"
+      },
+      "noContracts": "此边尚无合同。",
+      "pendingSignups": "待处理的报名",
+      "markedDeliveredTitle": "今日已标记为已交付，点击可撤销",
+      "markDeliveredTitle": "标记今日已交付",
+      "todayMarked": "✓ 今天",
+      "mark": "标记",
+      "withdrawMineTitle": "撤回本人在此合同上的报名",
+      "withdrawOtherTitle": "撤回该供应方在此合同上的报名",
+      "withdraw": "撤回",
+      "companyFallback": "公司{{id}}",
+      "chainPriced": "链定价",
+      "accept": "接受",
+      "reject": "拒绝",
+      "signupForm": {
+        "signUpAs": "报名身份",
+        "myself": "本人",
+        "alreadySignedUpSuffix": "（已报名）",
+        "youAlreadySignedUp": "此边上已存在本人的报名。",
+        "memberAlreadySignedUp": "该成员在此边上已有报名。"
+      },
+      "produceCard": {
+        "badge": "生产",
+        "description": "自行运行配方，并按基于Burden的费率向生产链供货。",
+        "noRecipe": "此材料没有已知的生产配方。",
+        "locked": "（已锁定）",
+        "shippingTitle": "在基于Burden的报酬之外，按吨补偿的运输费。",
+        "shipping": "运输",
+        "submit": "报名生产"
+      },
+      "marketCard": {
+        "badge": "从外部购买",
+        "description": "从外部采购此材料，并按固定价格交付。",
+        "current": "当前",
+        "average": "平均",
+        "flatPrice": "固定价格",
+        "submit": "按固定价格报名"
+      },
+      "throughput": {
+        "label": "吞吐量",
+        "coverage": "（占需求的{{coverage}}%）"
+      },
+      "priceQuickSet": {
+        "noPriceTitle": "无{{label}}价格",
+        "setPriceTitle": "将固定价格设为{{label}}"
+      },
+      "creditEstimate": {
+        "unavailable": "无法估算积分。",
+        "label": "预估积分"
+      }
+    },
+    "create": {
+      "materialFallback": "材料 #{{id}}",
+      "fromMarket": "来自市场，无生产配方",
+      "recipeCountTitle_other": "{{count}}个配方",
+      "currentVariant": "，当前变体：{{variant}}",
+      "title": "新建生产链",
+      "cancel": "取消",
+      "previewChain": "预览生产链",
+      "targetMaterial": "目标材料",
+      "searchPlaceholder": "搜索材料…",
+      "noMaterialsMatch": "没有匹配的可生产材料。",
+      "recipeChain": "配方链"
+    },
+    "deliveries": {
+      "companyFallback": "公司{{id}}",
+      "materialFallback": "材料{{id}}",
+      "chainFallback": "生产链{{id}}",
+      "openChainTitle": "在{{step}}处打开{{chain}}",
+      "thisStep": "此步骤",
+      "matFallback": "材料{{id}}",
+      "inChain": "在{{chain}}中",
+      "linkContractsTitle": "关联游戏内合同",
+      "undo": "撤销",
+      "mark": "标记",
+      "title": "我的交付",
+      "checkTitleToday": "根据已关联的合同标记今日的交付（8点API额度）",
+      "checkTitleNotToday": "仅当日可用（游戏只报告当日的履约情况）",
+      "checking": "检查中…",
+      "checkContracts": "检查合同",
+      "prev": "← 上一天",
+      "today": "今天",
+      "jumpToToday": "跳转到今天",
+      "next": "下一天 →",
+      "markedLegs_other": "已根据合同标记{{count}}个环节。",
+      "noDeliveriesToMark": "没有可标记的交付，今日没有已关联的合同报告履约。",
+      "someContractsNotFound": "部分已关联的合同未在当前合同中找到。",
+      "noContracts": "尚无合同。报名供应某个步骤后，相应的承诺将显示在此处。",
+      "contractsHeading": "合同",
+      "noContractsShort": "无合同。",
+      "marketSellTitle": "生产链中没有交易对手，此项从公开市场买入 / 卖出。无需关联或标记。",
+      "marketBuySell": "市场买入 / 卖出",
+      "selfSupplyTitle": "卖方和买方为同一人，并非双方之间的真实合同。",
+      "selfSupply": "自供",
+      "markAllTitle": "将当天所有自供标记为已交付",
+      "markAll": "全部标记",
+      "loadingContracts": "正在加载合同…",
+      "noMatchingContracts": "未找到匹配的游戏内合同。请先与该交易对象为此材料创建一份合同，然后重新检查。",
+      "contractStat": "今日{{today}}/{{limit}} · 数量{{qty}}",
+      "linked": "已关联 ✓",
+      "link": "关联",
+      "staleLinkNote": "已关联，但未在当前合同中找到",
+      "unlink": "取消关联"
+    },
+    "inspector": {
+      "title": "生产链检查器",
+      "refresh": "刷新",
+      "refreshing": "刷新中…",
+      "refreshTitle": "根据当前游戏数据重新同步Admin Center、积分设置以及每个报名的研究/Perk/Burden",
+      "storedValues": "已存储的值",
+      "stored": {
+        "rate": "费率（利润/h/100 Burden）",
+        "markup": "加价",
+        "creditAlpha": "积分α",
+        "creditBeta": "积分β",
+        "extractMultiplier": "开采倍率",
+        "adminCenter": "Admin Center"
+      },
+      "signupsHeading": "报名（{{count}}）",
+      "noSignups": "暂无报名。",
+      "perDay": "{{value}} /d",
+      "perUnitPrice": "{{price}}/u",
+      "techLine": "技术{{tech}} · Overhead {{overhead}}",
+      "burden": "Burden {{value}}",
+      "snapshotAt": "快照{{date}}",
+      "noSnapshot": "无快照（标准）",
+      "researchLabel": "研究：",
+      "perksLabel": "Perk：",
+      "companyFallback": "公司{{id}}",
+      "materialFallback": "材料{{id}}",
+      "edgeFallback": "边{{id}}"
+    },
+    "archive": {
+      "title": "归档（最近7天）",
+      "close": "关闭",
+      "empty": "最近7天没有生产链被关闭或取消。",
+      "materialFallback": "材料{{id}}",
+      "rateLine": "{{rate}} /d · {{name}}",
+      "deleteConfirm": "永久删除此生产链？",
+      "deleteForever": "永久删除",
+      "delete": "删除",
+      "minutesAgo": "{{count}}分钟前",
+      "hoursAgo": "{{count}}小时前",
+      "daysAgo": "{{count}}天前"
+    },
+    "issues": {
+      "title": "状态",
+      "noIssues": "无问题"
+    },
+    "list": {
+      "companyFallback": "公司{{id}}",
+      "title": "生产链",
+      "newChain": "新建链",
+      "archive": "归档（{{count}}）",
+      "archiveTitle": "查看最近7天已关闭或已取消的生产链。",
+      "loading": "正在加载生产链…",
+      "emptyState": "暂无生产链。点击<em>新建链</em>即可创建一条。",
+      "materialFallback": "材料{{id}}",
+      "materialFallbackLower": "材料{{id}}",
+      "perDaySep": "{{value}} /d ·",
+      "joined": "已加入",
+      "myContracts": "我的合同",
+      "selfSupplyTitle": "卖方和买方为同一人的自供环节",
+      "showSelfSupply": "显示自供（{{count}}）",
+      "noContracts": "暂无合同。在开放或进行中的生产链的某个步骤上报名后，供应 / 采购承诺将显示在此处。",
+      "onlySelfSupply": "仅有自供合同。使用上方开关可显示。",
+      "leftover": "剩余",
+      "tintFlat": "从外部购买。固定价格供应。不产生积分。",
+      "tintChainPriced": "生产。链定价供应。可获得积分。",
+      "openChainTitle": "打开生产链 #{{chainId}}并展开{{material}}",
+      "perDay": "{{value}} /d",
+      "myDeliveries": "我的交付…",
+      "myDeliveriesTitle": "按天查看哪些合同已交付"
+    },
+    "manifest": {
+      "companyFallback": "公司{{id}}",
+      "title": "合同",
+      "locked": "已锁定",
+      "loading": "加载中…",
+      "loadError": "无法加载合同。",
+      "empty": "暂无合同。接受报名后即可填充清单。",
+      "you": "（本人）",
+      "supplier": "供应方",
+      "buyFromMarket": "从市场购买",
+      "exchange": "交易所",
+      "materialFallback": "材料{{id}}",
+      "leftover": "剩余",
+      "perHour": "{{value}} /h",
+      "atPrice": "@ {{price}}"
+    },
+    "prices": {
+      "role": {
+        "input": "输入",
+        "consumable": "消耗品",
+        "maintenance": "维护"
+      },
+      "header": {
+        "mat": "材料",
+        "role": "用途",
+        "src": "来源",
+        "price": "价格"
+      },
+      "materialFallback": "材料{{id}}",
+      "materialTitle": "{{name}} · {{role}}",
+      "extractSuffix": " · 开采",
+      "extractBadge": "EX",
+      "extractBadgeTitle": "开采 / 种植获得的材料。由供应方定价。",
+      "manual": "手动",
+      "manualTitle": "已手动覆盖",
+      "srcMkt": "市场",
+      "srcMktApprox": "市场~",
+      "srcBase": "基础价",
+      "srcMktTitle": "市场价格（高置信度）",
+      "srcMktApproxTitle": "市场价格（中等置信度）",
+      "srcBaseTitle": "基础价格（无近期市场数据）",
+      "overrideTitle": "点击以覆盖",
+      "title": "假定的市场价格",
+      "clearOverrides": "清除覆盖",
+      "close": "关闭",
+      "empty": "无需外部价格。此生产链完全在公会内部完成。"
+    },
+    "pricing": {
+      "title": "生产链",
+      "initiator": "发起人",
+      "material": "材料",
+      "materialTitle": "查看此材料的交易所数据",
+      "production": "生产",
+      "perDay": "/d",
+      "prices": "价格",
+      "marketPrices": "市场价格",
+      "marketPricesTitle": "查看或覆盖生产链对外部采购材料所使用的市场价格。",
+      "marketCurAvg": "市场（当前 / 平均）",
+      "marketCurAvgTitle": "生产链目标材料的当前市场价格 · 滚动平均市场价格。与下方生产链的最终价格对比，即可看出公会节省（或多付）了多少。",
+      "chainFinal": "链最终价 / u",
+      "chainFinalTitle": "生产链为每单位目标材料支付的价格，按当前的利润/h/100 Burden混合每个步骤的供应方成本。",
+      "rateLabel": "利润 / h / 100 Burden",
+      "rateTitle": "公会共享的劳动费率。每个步骤在生产成本之上，每小时向其供应方支付 r × (步骤Burden / 100) 积分。典型值在50-300之间。",
+      "rateUnit": "$/h/100b",
+      "rateLabelShort": "利润/h/100b",
+      "unsavedEdits": "未保存的修改",
+      "save": "保存",
+      "discard": "放弃",
+      "participants": "参与者",
+      "initiatorTag": "发起人",
+      "creditsPerDayTitle": "按生产链当前的定价和报名状态估算的每日积分。",
+      "creditsPerDay": "{{value}} cr/d"
+    },
+    "creditAdmin": {
+      "title": "积分（管理员）",
+      "close": "关闭",
+      "settings": "设置",
+      "settingsDescription": "α和β决定供应方在公会关闭的生产链上每单位可获得的积分费率。<extract>开采 ×</extract>是链定价的开采 / 肥沃度类配方（Mine、Pump、Farm等）的缓冲系数。更改仅影响此后创建的生产链；现有生产链保留其快照。",
+      "alphaLabel": "α（投入）",
+      "alphaTitle": "每生产一单位产品，每单位Burden投入所获得的积分。",
+      "betaLabel": "β（忠诚）",
+      "betaTitle": "每生产一单位产品，每放弃1分利润所获得的积分。",
+      "extractLabel": "开采 ×",
+      "extractTitle": "链定价中开采 / 肥沃度类配方Burden项的倍率。",
+      "reset": "重置",
+      "saving": "保存中…",
+      "save": "保存",
+      "manualAdjustment": "手动调整",
+      "manualDescription": "为单个成员发放（正数）或扣除（负数）积分。扣除会被限制在该成员的当前余额内，不会低于零。",
+      "member": "成员",
+      "selectMember": "选择成员…",
+      "amount": "数量",
+      "amountTitle": "带符号的积分变化量。正数为发放，负数为扣除（受余额限制）。",
+      "amountPlaceholder": "例如25或-10",
+      "creditUnit": "cr",
+      "note": "备注",
+      "notePlaceholder": "（可选，管理员可通过元数据查看）",
+      "applying": "应用中…",
+      "apply": "应用",
+      "memberOption": "{{name}} · {{balance}} cr",
+      "adjustSuccess": "完成。{{verb}}{{amount}} cr · 新余额{{balance}} cr",
+      "verbGranted": "已发放",
+      "verbRemoved": "已扣除"
+    },
+    "creditBalance": {
+      "creditsSuffix": "{{value}} cr",
+      "reason": {
+        "chainContribution": "生产链贡献",
+        "chainSpend": "支出",
+        "adjustment": "调整",
+        "donationOverage": "超额捐赠"
+      },
+      "justNow": "刚刚",
+      "minutesAgo": "{{count}}分钟前",
+      "hoursAgo": "{{count}}小时前",
+      "daysAgo": "{{count}}天前",
+      "title": "公会积分",
+      "settings": "设置",
+      "settingsTitle": "管理员设置与调整",
+      "myBalance": "我的余额",
+      "loading": "加载中…",
+      "loadErrorMine": "无法加载积分。",
+      "guildBalances": "公会余额",
+      "loadErrorBalances": "无法加载公会余额。",
+      "noBalances": "暂无余额。生产链关闭时成员即可获得积分。",
+      "companyFallback": "公司{{id}}",
+      "you": "（本人）",
+      "myRecentActivity": "我的近期活动",
+      "noActivity": "暂无活动。所供应的生产链关闭时会产生积分。",
+      "txTitle": "{{reason}} · {{sourceRef}}",
+      "chainRef": "· 生产链 #{{id}}"
+    },
+    "creditPill": {
+      "title": "在交易中心打开积分与账本",
+      "credits": "积分",
+      "creditsSuffix": "{{value}} cr"
+    },
+    "recipeDisplay": {
+      "noInputs": "无输入",
+      "selectRecipe": "选择配方"
+    }
+  },
+  "trade": {
+    "chainsModule": {
+      "navSubtitle": {
+        "active": "{{count}}个进行中"
+      },
+      "center": {
+        "loadingGuild": {
+          "title": "加载公会",
+          "body": "正在加载公会成员资格…"
+        },
+        "noGuild": {
+          "title": "无公会",
+          "body": "当前账号似乎尚未加入公会。请先访问公会页面以同步资料。"
+        },
+        "chainError": {
+          "title": "生产链错误"
+        },
+        "chainMaterials": {
+          "title": "生产链材料"
+        },
+        "noChain": {
+          "title": "未选择生产链",
+          "body": "从左侧列表中选择一条生产链，或点击<2>新建链</2>草拟一条。"
+        }
+      },
+      "right": {
+        "pricing": {
+          "title": "定价",
+          "noChain": "尚未选择生产链。"
+        }
+      },
+      "transitions": {
+        "restore": {
+          "confirm": "恢复此生产链？",
+          "confirmLabel": "恢复",
+          "label": "恢复"
+        },
+        "inspect": {
+          "tooltip": "查看报名的快照与生产链调参值",
+          "label": "检查"
+        },
+        "publish": {
+          "confirm": "发布此生产链？",
+          "confirmLabel": "发布",
+          "label": "发布"
+        },
+        "start": {
+          "confirm": "开始生产？",
+          "confirmLabel": "开始",
+          "label": "开始生产"
+        },
+        "close": {
+          "confirm": "关闭此生产链？",
+          "confirmLabel": "关闭",
+          "label": "关闭"
+        },
+        "cancel": {
+          "confirm": "取消此生产链？",
+          "confirmLabel": "取消生产链",
+          "label": "取消"
+        },
+        "reopen": {
+          "confirm": "重新开启此生产链？",
+          "confirmLabel": "重新开启",
+          "label": "重新开启"
+        },
+        "delete": {
+          "confirm": "删除此生产链？",
+          "confirmLabel": "删除",
+          "tooltip": "删除此生产链。"
+        }
+      }
+    },
+    "creditAdjust": {
+      "title": "调整积分",
+      "close": "关闭",
+      "intro": "为单个成员发放（正数）或扣除（负数）积分。扣除会被限制在该成员的当前余额内，因此不会低于零。",
+      "memberLabel": "成员",
+      "memberPlaceholder": "选择成员…",
+      "memberOption": "{{name}} · {{balance}} cr",
+      "amountLabel": "数量",
+      "amountTooltip": "带符号的积分变化量。正数为发放，负数为扣除（受余额限制）。",
+      "amountPlaceholder": "例如25或-10",
+      "noteLabel": "备注",
+      "notePlaceholder": "（可选，管理员可通过元数据查看）",
+      "unit": "cr",
+      "successGranted": "已发放{{amount}} cr · 新余额{{balance}} cr",
+      "successRemoved": "已扣除{{amount}} cr · 新余额{{balance}} cr",
+      "applying": "应用中…",
+      "apply": "应用"
+    },
+    "creditSettings": {
+      "title": "积分设置",
+      "description": "α和β决定供应方在公会关闭的生产链上每单位可获得的积分费率。<1>开采 ×</1>是链定价的开采 / 肥沃度类配方的缓冲系数。更改仅影响此后创建的生产链。",
+      "alpha": {
+        "label": "α（投入）",
+        "tooltip": "每生产一单位产品，每单位Burden投入所获得的积分。"
+      },
+      "beta": {
+        "label": "β（忠诚）",
+        "tooltip": "每生产一单位产品，每放弃1分利润所获得的积分。"
+      },
+      "extract": {
+        "label": "开采 ×",
+        "tooltip": "链定价中开采 / 肥沃度类配方Burden项的倍率。"
+      },
+      "reset": "重置",
+      "saving": "保存中…",
+      "save": "保存"
+    },
+    "creditsModule": {
+      "unit": "cr",
+      "loading": "加载中…",
+      "relative": {
+        "justNow": "刚刚",
+        "minutes": "{{count}}分钟前",
+        "hours": "{{count}}小时前",
+        "days": "{{count}}天前"
+      },
+      "reason": {
+        "chainContribution": "生产链贡献",
+        "chainSpend": "支出",
+        "adjustment": "调整",
+        "donationOverage": "超额捐赠"
+      },
+      "alphaBanner": "<0>Alpha功能。</0>公会交易仍处于早期alpha阶段，尚在开发之中。可能存在粗糙之处、计算方式的变动以及偶尔的数据重置。",
+      "myCredits": {
+        "title": "我的积分",
+        "currentBalance": "当前余额",
+        "loadError": "无法加载余额。"
+      },
+      "breakdown": {
+        "earned": "获得",
+        "earnedEmpty": "近期活动中没有任何获得。",
+        "spent": "支出",
+        "spentEmpty": "近期活动中没有任何支出。"
+      },
+      "activity": {
+        "title": "近期活动",
+        "loadError": "无法加载活动。",
+        "empty": "暂无活动。所供应的生产链关闭时会产生积分。",
+        "breakdownNote_other": "明细根据最近{{count}}笔交易计算。",
+        "rowTitle": "{{label}} · {{sourceRef}}",
+        "chainSuffix": "· 生产链 #{{id}}"
+      },
+      "balances": {
+        "title": "公会余额",
+        "edit": "编辑",
+        "editTooltip": "为公会成员发放或扣除积分。",
+        "loadError": "无法加载公会余额。",
+        "empty": "暂无余额。生产链关闭时成员即可获得积分。",
+        "you": "（本人）"
+      }
+    },
+    "marketplace": {
+      "navSubtitle": "即将推出",
+      "title": "市场",
+      "description": "在公会内部以固定价格发布买入或卖出报价，并以积分作为折扣层。尚未开发。"
+    }
+  }
+}

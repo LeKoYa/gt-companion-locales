@@ -1,0 +1,402 @@
+{
+  "page": {
+    "panels": {
+      "scenario": "方案",
+      "recipes": "配方",
+      "filters": "筛选"
+    },
+    "recipeChains": {
+      "button": "配方链",
+      "openLibraryTooltip": "打开配方链库"
+    },
+    "customPrices": {
+      "consumablesTitle": "消耗品",
+      "consumablesEmpty": "消耗品数据尚不可用。"
+    },
+    "share": {
+      "apiKeyRequired": "创建共享链接需要API密钥。",
+      "scenarioLoading": "方案仍在加载中，请稍后重试。",
+      "createFailed": "创建共享链接失败。"
+    },
+    "presets": {
+      "sharedScenarioName": "共享方案"
+    }
+  },
+  "recipes": {
+    "card": {
+      "chainAsPrimaryTitle": "链显示为主要数值",
+      "favorite": {
+        "add": "添加到收藏",
+        "remove": "从收藏中移除"
+      },
+      "overrideTooltip": {
+        "buildingLevel": "建筑等级{{level}}",
+        "chainLinked": "已关联配方链",
+        "planet": "行星覆盖"
+      }
+    },
+    "consumables": {
+      "dailyUsage": "每日{{amount}}/1k · {{state}}",
+      "essential": "必需",
+      "optional": "可选"
+    },
+    "contextMenu": {
+      "buildingLevel": {
+        "label": "建筑等级",
+        "reset": "重置建筑等级",
+        "set": "设置"
+      },
+      "cardPrimary": {
+        "chain": "链",
+        "label": "卡片主数值",
+        "recipe": "配方",
+        "reset": "重置卡片主数值"
+      },
+      "chain": {
+        "label": "链",
+        "none": "无",
+        "reset": "取消关联链"
+      },
+      "createChain": "创建链",
+      "createChainTitle": "以此配方为根创建新链",
+      "openLibrary": "打开库",
+      "openLibraryLinkedTitle": "在库中打开已关联的链",
+      "openLibraryTitle": "打开配方链库",
+      "planet": {
+        "label": "行星",
+        "placeholder": "使用默认…",
+        "reset": "重置行星"
+      },
+      "resetAll": "重置此配方的所有覆盖"
+    },
+    "emptyState": "没有配方符合当前筛选条件。",
+    "productivity": {
+      "productionSpeedPerks": "生产速度Perk",
+      "specialPerkMultiplier": "特殊Perk倍率",
+      "unusedPermits": "未使用许可证 × {{permits}}"
+    }
+  },
+  "materialSources": {
+    "section": {
+      "heading": "材料来源",
+      "best": "最佳",
+      "bestTitle": "将每种材料设为全银河丰度最高的行星",
+      "bestBase": "最佳（基地）",
+      "bestBaseTitleEnabled": "将每种已拥有产地的材料设为该自有基地",
+      "bestBaseTitleDisabled": "尚无自有基地"
+    },
+    "row": {
+      "customTitle": "自定义选择，覆盖最佳 / 最佳（基地）",
+      "ownedTitle": "此材料的最佳自有基地",
+      "autoTitle": "全银河最佳行星（尚无生产此材料的自有基地）",
+      "noPlanet": "无行星",
+      "searchPlaceholder": "搜索行星…",
+      "noPlanetHasMaterial": "没有行星拥有此材料。",
+      "noMatches": "无匹配结果。"
+    },
+    "contextMenu": {
+      "change": "更改…",
+      "bestBase": "最佳（基地）",
+      "best": "最佳",
+      "highestAtTier": "Tier中最高…",
+      "tier": "Tier {{tier}}",
+      "noPlanetAtAnyTier": "任何Tier下都没有行星拥有此材料。"
+    },
+    "shipping": {
+      "autoLargestCargo": "自动（最大货物）",
+      "noShipsSubtitle": "无自有飞船，登录后可计算运输成本。",
+      "label": "运输",
+      "excluded": "已排除",
+      "included": "已包含",
+      "noShipsTooltip": "无自有飞船，请先登录或购买飞船。",
+      "ship": "飞船",
+      "planet": "行星",
+      "pickPlanetPlaceholder": "选择行星…"
+    },
+    "other": {
+      "buildingLevel": "建筑等级",
+      "buildingCondition": "建筑状况",
+      "workforceFulfillment": "劳动力满足度",
+      "planetTier": "行星Tier",
+      "globalOverheadImpact": "全局Overhead影响",
+      "globalOverheadHelpLabel": "什么是全局Overhead影响？",
+      "vacation": "休假",
+      "vacationHelpLabel": "什么是休假模式？",
+      "exclude": "排除",
+      "include": "包含",
+      "live": "实时",
+      "none": "无",
+      "globalOverheadHelp": {
+        "p1": "每雇佣一名工人都会提高公司的Overhead，使所有基地中的每名工人多消耗一些消耗品。因此，新建一座生产建筑不仅要承担其自身工人的补给成本，还会推高其他所有建筑所需的消耗品。",
+        "excludeLabel": "排除：",
+        "excludeBody": "利润只扣除配方自身的直接成本。比较配方时使用此选项。",
+        "includeLabel": "包含：",
+        "includeBody": "利润还会扣除对公司其余部分产生的连带成本。判断新建建筑是否真正值得时使用此选项。"
+      },
+      "vacationHelp": {
+        "p1": "控制在游戏中标记为休假的基地如何计入Overhead burden。此设置独立于基地页面自身的休假开关。",
+        "liveLabel": "实时：",
+        "liveBody": "遵循游戏内的标记，休假中的基地会从Overhead burden中剔除。",
+        "noneLabel": "无：",
+        "noneBody": "将所有基地视为完全活跃，如同全部劳动力均已召回。"
+      }
+    }
+  },
+  "filters": {
+    "section": {
+      "title": "筛选与显示"
+    },
+    "reset": "全部重置",
+    "rows": {
+      "search": "搜索",
+      "favorites": "收藏",
+      "availability": "可用性",
+      "tier": "Tier",
+      "industry": "行业",
+      "building": "建筑",
+      "cardMetric": "卡片指标",
+      "sortBy": "排序方式",
+      "targetProfit": "目标利润 / h",
+      "targetPerBurden": "目标 / 100 burden",
+      "roiOptions": "ROI选项"
+    },
+    "search": {
+      "placeholder": "按名称、材料、建筑筛选…"
+    },
+    "favorite": {
+      "all": "全部",
+      "favorites": "★ 收藏"
+    },
+    "availability": {
+      "all": {
+        "label": "全部",
+        "tooltip": "显示所有配方"
+      },
+      "tech": {
+        "label": "科技",
+        "tooltip": "仅显示已解锁科技的配方"
+      },
+      "building": {
+        "label": "建筑",
+        "tooltip": "仅显示已拥有生产建筑的配方"
+      },
+      "both": {
+        "label": "两者",
+        "tooltip": "仅显示同时拥有科技和建筑的配方"
+      }
+    },
+    "sort": {
+      "card": "卡片",
+      "tier": "Tier",
+      "category": "类别",
+      "industry": "行业",
+      "building": "建筑"
+    },
+    "displayMode": {
+      "profit": "利润 / h",
+      "profitTotal": "总利润 / h",
+      "profitMargin": "利润率 %",
+      "inputCost": "输入成本 / h",
+      "outputValue": "产出价值 / h",
+      "consumableCost": "消耗品成本 / h",
+      "profitPerBurden": "利润 / h / 100 burden",
+      "roiIncremental": "ROI（增量）",
+      "roiTotal": "ROI（累计）",
+      "weightIncrease": "重量变化 %",
+      "profitPerWeightChange": "利润 / 重量变化",
+      "profitPerTotalWeight": "利润 / 总重量",
+      "profitPerMaxLegWeight": "利润 / 最大航段重量",
+      "targetPrice": "目标价格",
+      "targetPricePerBurden": "目标价格（每burden）"
+    },
+    "building": {
+      "sortToggle": {
+        "titleAlpha": "按字母排序 · 点击可按行业排序（研究等级）",
+        "titleIndustry": "按行业排序 · 点击可按字母排序",
+        "label": "排序：{{mode}}",
+        "modeAlpha": "A-Z",
+        "modeIndustry": "行业"
+      }
+    },
+    "cardMetric": {
+      "placeholder": "选择指标…"
+    },
+    "sortBy": {
+      "placeholder": "选择排序…"
+    },
+    "roi": {
+      "housing": "住房",
+      "level": "等级",
+      "reserve": "储备",
+      "exclude": "排除",
+      "include": "包含",
+      "excludeTooltip": "排除",
+      "includeTooltip": "包含"
+    },
+    "units": {
+      "days": "天"
+    },
+    "entities": {
+      "industry": "行业",
+      "industryPlural": "行业",
+      "building": "建筑",
+      "buildingPlural": "建筑"
+    },
+    "multiSelect": {
+      "none": "无{{entities}}",
+      "all": "全部{{entities}}",
+      "partial": "{{total}}个{{entities}}中的{{count}}个",
+      "oneSelected": "已选择1个{{entity}}",
+      "empty": "无可筛选项。",
+      "selectAll": "全部",
+      "clearAll": "无"
+    },
+    "includedBases": {
+      "buttonTitle": "选择哪些基地参与跨基地汇总（Overhead / 劳动力 / 等等）",
+      "label": "已包含",
+      "all": "全部",
+      "header": "已包含的基地",
+      "includeAll": "全部包含",
+      "excludeAll": "全部排除",
+      "empty": "暂无基地。"
+    }
+  },
+  "scenario": {
+    "view": {
+      "all": "全部",
+      "changes": "变更",
+      "editScenario": "编辑方案…",
+      "noDeviations": "与基准无偏差。",
+      "reset": "重置",
+      "resetAll": "全部重置",
+      "title": "方案"
+    },
+    "sections": {
+      "consumables": "消耗品",
+      "general": "常规",
+      "perks": "Perk",
+      "research": "研究",
+      "shipping": "运输"
+    },
+    "footer": {
+      "includedBases": "已包含的基地",
+      "moreControls": "更多控制项",
+      "share": "共享",
+      "shareScenario": "共享方案",
+      "shareTitle": "以永久链接形式共享此方案"
+    }
+  },
+  "dataManagement": {
+    "presets": {
+      "buttonLabel": "预设",
+      "buttonTitle": "已保存的方案预设",
+      "unsavedTitle": "未保存的更改",
+      "heading": "预设",
+      "saveCurrent": "保存当前…",
+      "clearAll": "全部清除",
+      "clearAllTitle": "将所有方案选项和筛选条件恢复为默认值，并取消选择预设",
+      "namePlaceholder": "预设名称",
+      "save": "保存",
+      "cancel": "取消",
+      "emptyTitle": "尚未保存任何预设。",
+      "emptyHint": "使用“保存当前…”来记录当前方案。",
+      "sharedBadge": "已共享",
+      "unsavedBadge": "未保存",
+      "unsavedRowTitle": "自上次加载此预设以来，方案已发生更改",
+      "overwriteSaved": "已保存！",
+      "overwriteTitle": "用当前方案状态覆盖",
+      "rename": "重命名",
+      "restoreTitle": "放弃未保存的更改",
+      "deleteTitle": "删除",
+      "discardAndLoad": "放弃未保存的更改并加载<strong>{{name}}</strong>",
+      "discardAndRestore": "放弃更改并恢复<strong>{{name}}</strong>",
+      "deleteConfirm": "删除<strong>{{name}}</strong>",
+      "sharedScenarioFallback": "共享方案",
+      "shared": {
+        "by": "由{{company}}共享",
+        "imported": "从共享链接导入",
+        "expires": "{{date}}过期"
+      }
+    },
+    "settings": {
+      "title": "盈利分析设置",
+      "resetAll": "全部重置",
+      "apply": "应用",
+      "sections": {
+        "general": "常规",
+        "shipping": "运输",
+        "research": "研究",
+        "perks": "Prestige Perk",
+        "consumables": "消耗品",
+        "materialSources": "材料来源"
+      }
+    },
+    "share": {
+      "title": "共享方案",
+      "close": "关闭",
+      "cancel": "取消",
+      "creating": "正在创建链接…",
+      "create": "创建共享链接",
+      "titleLabel": "标题",
+      "titlePlaceholder": "可选，向接收者显示",
+      "descriptionLabel": "描述",
+      "descriptionPlaceholder": "可选。这是什么，应该如何使用？",
+      "scope": "范围",
+      "scopePublic": "公开",
+      "scopeGuild": "公会",
+      "scopeGuildTooltip": "仅公会成员可以打开此链接。",
+      "expires": "过期时间",
+      "expiry1d": "1天",
+      "expiry7d": "7天",
+      "expiry30d": "30天",
+      "expiryForever": "永不过期",
+      "shareLink": "共享链接",
+      "copied": "已复制！",
+      "copyFailed": "复制失败",
+      "copy": "复制",
+      "error": "创建共享链接失败。",
+      "options": {
+        "research": {
+          "label": "研究",
+          "onHint": "当前的有效研究等级已固化在链接中。",
+          "offHint": "使用接收者自己的研究等级。"
+        },
+        "perks": {
+          "label": "Prestige Perk",
+          "onHint": "当前的Prestige Perk等级已固化在链接中。",
+          "offHint": "使用接收者自己的Perk。"
+        },
+        "startingBonus": {
+          "label": "起始加成",
+          "onHint": "当前的起始速度加成已固化在链接中。",
+          "offHint": "使用接收者自己的起始加成。"
+        },
+        "overhead": {
+          "label": "Overhead",
+          "onHint": "当前的劳动力和Admin Center已固化在链接中。",
+          "offHint": "使用接收者自己的Overhead。"
+        },
+        "consumables": {
+          "label": "消耗品",
+          "onHint": "消耗品供给设置会一并传递。",
+          "offHint": "使用接收者自己的消耗品设置。"
+        },
+        "materialSources": {
+          "label": "材料来源",
+          "onHint": "每种材料的来源行星会一并传递。",
+          "offHint": "使用接收者自己的材料来源。"
+        },
+        "recipeOverrides": {
+          "label": "配方覆盖",
+          "onHint": "每个配方的等级、行星和链的调整会一并传递。",
+          "offHint": "每个配方的调整保留在接收者一侧。"
+        },
+        "general": {
+          "label": "常规设置",
+          "onHint": "建筑等级、状况、劳动力%和行星Tier会一并传递。",
+          "offHint": "使用接收者自己的常规设置。"
+        }
+      }
+    }
+  }
+}
