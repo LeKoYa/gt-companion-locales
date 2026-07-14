@@ -1,0 +1,1344 @@
+{
+  "baseList": {
+    "panel": {
+      "title": "基地"
+    },
+    "refresh": {
+      "tooltip": "刷新数据",
+      "base": "刷新基地",
+      "all": "全部刷新",
+      "one": "刷新"
+    },
+    "nav": {
+      "overview": "总览",
+      "insights": "洞察",
+      "more": "更多 ...",
+      "companyContracts": "公司合同",
+      "warehouseInfo": "仓库信息",
+      "cashHistory": "现金历史",
+      "planNewBase": "规划新基地"
+    },
+    "section": {
+      "title": "基地",
+      "empty": "尚未找到基地。"
+    },
+    "mode": {
+      "list": "列表",
+      "group": "分组",
+      "custom": "自定义"
+    },
+    "groups": {
+      "bases": "基地",
+      "shared": "已共享",
+      "plans": "计划",
+      "snapshots": "快照",
+      "ungrouped": "未分组",
+      "newGroup": "新建分组",
+      "newGroupDrop": "+ 新建分组",
+      "dropItemsHere": "将项目拖放到此处",
+      "renameAria": "重命名分组",
+      "deleteAria": "删除分组",
+      "expandAria": "展开分组",
+      "collapseAria": "折叠分组"
+    },
+    "entry": {
+      "unknownPlanet": "未知行星",
+      "onVacation": "休假中。生产暂停，不消耗消耗品",
+      "supplyConsumables": "消耗品",
+      "supplyInputs": "生产输入",
+      "supplyWarehouseFull": "仓库已满",
+      "selectStep": "选择步骤"
+    },
+    "rowMenu": {
+      "renameAria": "重命名",
+      "deleteAria": "删除",
+      "renamePlan": "重命名计划",
+      "renameSnapshot": "重命名快照",
+      "renameStep": "重命名步骤",
+      "renameSelectedStep": "重命名所选步骤",
+      "selectStepToRename": "选择要重命名的步骤",
+      "deletePlan": "删除计划",
+      "deleteSnapshot": "删除快照",
+      "deleteStep": "删除步骤",
+      "deleteSelectedStep": "删除所选步骤",
+      "selectStepToDelete": "选择要删除的步骤",
+      "duplicatePlan": "复制计划",
+      "duplicateSnapshot": "复制快照"
+    },
+    "fallback": {
+      "snapshot": "快照",
+      "untitledPlan": "未命名计划"
+    },
+    "contextMenu": {
+      "copyBase": "复制基地",
+      "resupply": "补给",
+      "importBuildingsTo": "将建筑导入到{{target}}",
+      "share": "共享…",
+      "convertToBaseSnapshots": "转换为基地快照…",
+      "convertToOwnPlan": "转换为自己的计划…",
+      "convertToOwnSnapshot": "转换为自己的快照…"
+    }
+  },
+  "buildings": {
+    "actions": {
+      "removeBuilding": "移除建筑",
+      "upgradeBuilding": "升级建筑",
+      "downgradeBuilding": "降级建筑",
+      "removeAll": "全部移除",
+      "upgradeAll": "全部升级",
+      "downgradeAll": "全部降级",
+      "removeThis": "移除此项",
+      "upgradeThis": "升级此项",
+      "downgradeThis": "降级此项",
+      "removeBuildingHint": "移除建筑（Ctrl/Cmd+点击或长按：该类型全部）",
+      "upgradeBuildingHint": "升级建筑（Shift：+5 · Ctrl/Cmd+点击或长按：该类型全部）",
+      "downgradeBuildingHint": "降级建筑（Shift：-5 · Ctrl/Cmd+点击或长按：该类型全部）"
+    },
+    "picker": {
+      "addBuilding": "添加建筑",
+      "changeBuilding": "更换建筑",
+      "searchPlaceholder": "搜索建筑",
+      "noMatches": "无匹配项",
+      "sortSmart": "智能",
+      "sortTier": "Tier"
+    },
+    "slot": {
+      "buyableWithStars": "可用星星购买",
+      "terraform": "地形改造槽位",
+      "unlockStar": "解锁星星槽位",
+      "resetLocked": "将槽位重置为锁定",
+      "clickToSetLevel": "点击设置等级"
+    },
+    "condition": {
+      "openDetails": "打开状况详情",
+      "detailsTitle": "状况详情",
+      "timeToRepairThreshold": "达到维修阈值（{{percent}}%）的时间：{{time}}",
+      "timeTo80": "达到80%的时间：{{time}}",
+      "repairCost": "维修成本：{{value}}",
+      "upgradeCostNextLevel": "升级成本（下一级）：{{value}}",
+      "scrapValue": "拆除价值：{{value}}"
+    },
+    "restore": {
+      "toEmpty": "恢复为空",
+      "toPrefix": "恢复为",
+      "baselineSuffix": "（{{target}}基准）",
+      "targetStep": "步骤",
+      "targetLive": "实时",
+      "ariaEmpty": "恢复为空（{{target}}基准）",
+      "ariaBuilding": "恢复为{{name}}{{levelSuffix}}（{{target}}基准）"
+    },
+    "grid": {
+      "sectionTitleGrid": "网格",
+      "sectionTitleList": "建筑列表",
+      "columnsAuto": "自动",
+      "columnsN": "{{count}}列",
+      "viewGrid": "网格",
+      "viewList": "列表",
+      "dragModeLabel": "拖拽模式",
+      "dragModeMoveTitle": "移动模式：拖拽交换两个槽位",
+      "dragModeCopyTitle": "复制模式：拖拽将源槽位克隆到目标槽位",
+      "dragCopy": "复制",
+      "dragMove": "移动",
+      "showLegend": "显示图例",
+      "hideLegend": "隐藏图例",
+      "expand": "展开",
+      "undoExpand": "撤销展开"
+    },
+    "legend": {
+      "newBuild": "新建",
+      "replaced": "已替换",
+      "upgraded": "已升级",
+      "downgraded": "已降级",
+      "terraformed": "已地形改造",
+      "moved": "已移动",
+      "dashedRing": "虚线环 = 相对游戏状态（或上一步骤）的变更",
+      "solidRing": "实线环 = 未保存的编辑相对已保存快照的变更",
+      "stripedSlot": "条纹槽位 = 已锁定（地形改造或星星）",
+      "clickSlot": "点击槽位 = 打开建筑选择器",
+      "dragModeToggle": "拖拽模式切换（网格顶部）：复制 = 将源克隆到目标；移动 = 交换源与目标",
+      "modifierDrag": "{{key}} + 拖拽（复制模式）= 保留目标当前等级",
+      "rightClickBuilding": "右键点击建筑 = 移除",
+      "rightClickEmpty": "右键点击空槽位 = 切换地形改造",
+      "modifierAction": "{{key}} + 点击升级/降级/移除 = 该类型全部"
+    },
+    "list": {
+      "empty": "尚未放置建筑。",
+      "building": "建筑",
+      "count": "数量",
+      "levels": "等级"
+    },
+    "workforce": {
+      "title": "劳动力",
+      "empty": "该基地尚无劳动力。",
+      "tier": "Tier",
+      "jobs": "岗位",
+      "housing": "住房",
+      "free": "空闲"
+    }
+  },
+  "cashHistory": {
+    "title": "现金历史",
+    "refresh": "刷新",
+    "refreshing": "刷新中…",
+    "updated": "更新于{{time}}",
+    "loading": "正在加载现金历史…",
+    "empty": "尚未记录现金交易。",
+    "unknown": "未知",
+    "searchPlaceholder": "搜索（逗号分隔）…",
+    "summary": {
+      "spent": "支出",
+      "earned": "收益",
+      "net": "净"
+    },
+    "view": {
+      "byMaterial": "按材料",
+      "transactions": "交易记录"
+    },
+    "columns": {
+      "material": "材料",
+      "bought": "买入",
+      "spent": "支出",
+      "avgBuy": "平均买入价",
+      "sold": "卖出",
+      "earned": "收益",
+      "avgSell": "平均卖出价",
+      "net": "净",
+      "date": "日期",
+      "type": "类型",
+      "counterparty": "交易对手",
+      "qty": "数量",
+      "unitPrice": "单价",
+      "total": "总计"
+    },
+    "txTypes": {
+      "sell": "卖出",
+      "starting": "初始",
+      "dailyMission": "每日任务",
+      "achievement": "成就",
+      "projectDonation": "项目捐赠",
+      "mission": "任务",
+      "contractSell": "合同卖出",
+      "adminAdd": "管理员添加",
+      "buy": "买入",
+      "createGuild": "创建公会",
+      "contractBuy": "合同买入",
+      "unknown": "未知"
+    }
+  },
+  "contracts": {
+    "title": "公司合同",
+    "refresh": "刷新",
+    "searchPlaceholder": "搜索（逗号分隔）",
+    "loading": "正在加载合同…",
+    "columnsButton": "列",
+    "selectColumnsPlaceholder": "选择列…",
+    "guild": "公会",
+    "recurringTooltip": "周期性合同（{{count}}/天）",
+    "common": {
+      "any": "任意",
+      "all": "全部",
+      "mixed": "混合",
+      "unknown": "未知",
+      "enableAll": "全部启用",
+      "disableAll": "全部禁用",
+      "reset": "重置",
+      "min": "最小",
+      "max": "最大"
+    },
+    "status": {
+      "pending": "待处理",
+      "active": "进行中",
+      "completed": "已完成",
+      "cancelled": "已取消"
+    },
+    "statusFilter": {
+      "active": "进行中",
+      "pending": "待处理",
+      "done": "已完成",
+      "cancelled": "已取消"
+    },
+    "type": {
+      "buy": "买入",
+      "sell": "卖出"
+    },
+    "mode": {
+      "recurring": "周期性",
+      "oneTime": "一次性"
+    },
+    "by": {
+      "you": "自己",
+      "other": "其他"
+    },
+    "created": {
+      "last24h": "近24小时",
+      "last7d": "近7天",
+      "last30d": "近30天"
+    },
+    "tableMode": {
+      "list": "列表",
+      "grouped": "分组",
+      "byPlanet": "按行星"
+    },
+    "columns": {
+      "status": "状态",
+      "type": "类型",
+      "material": "材料",
+      "partner": "交易对象",
+      "by": "发起方",
+      "planet": "行星",
+      "fulfilled": "已履行",
+      "qty": "数量",
+      "dailyQty": "每日数量",
+      "units": "单位数",
+      "unitPrice": "单价",
+      "netUnit": "净 / 单位",
+      "deltaMarket": "Δ市场",
+      "total": "总计",
+      "dailyTotal": "每日总计",
+      "created": "创建时间",
+      "todayDone": "今日已完成",
+      "todayLeft": "今日剩余",
+      "twoDayLeft": "2天剩余"
+    },
+    "summary": {
+      "noStatus": "无状态",
+      "oneSelected": "已选1项",
+      "noPartners": "无交易对象",
+      "noMaterials": "无材料",
+      "noPlanets": "无行星",
+      "partners_other": "{{count}}个交易对象",
+      "materials_other": "{{count}}种材料",
+      "planets_other": "{{count}}个行星"
+    },
+    "tooltip": {
+      "fee": "费用",
+      "feeLabel": "费用：",
+      "exchange": "交易所"
+    },
+    "footer": {
+      "showing": "显示{{rows}}行，来自{{total}}个合同中筛选出的{{filtered}}个",
+      "initiatedLabel": "已发起的进行中/待处理合同：",
+      "hqCap": "（HQ等级{{level}}，上限：每级5个）",
+      "remainingTotals": "剩余总计（已筛选）：",
+      "feeSavings": "费用Perk每日节省："
+    },
+    "error": {
+      "load": "加载合同失败。"
+    }
+  },
+  "controls": {
+    "panel": {
+      "title": "控制"
+    },
+    "tabs": {
+      "base": "基地",
+      "plan": "计划",
+      "buildings": "建筑",
+      "consumables": "消耗品与订单",
+      "dailyTotals": "每日总计",
+      "issues": "问题"
+    },
+    "planetHeader": {
+      "tier": "Tier",
+      "distance": "距离",
+      "fertility": "肥沃度"
+    },
+    "stats": {
+      "inputCost": "输入成本",
+      "consumableCost": "消耗品成本",
+      "maintenanceCost": "维护成本",
+      "income": "收入",
+      "profit": "利润",
+      "supplyTopUp": "达到{{days}}供应的总成本",
+      "repairAll": "维修所有建筑的总成本"
+    },
+    "dashboard": {
+      "scrap": {
+        "material": "材料",
+        "total": "总计",
+        "amount": "数量",
+        "weight": "重量"
+      },
+      "deltaWithContracts": "差值 / 含合同",
+      "warehouse": "仓库",
+      "baseBuildingValue": "基地建筑价值",
+      "settlementMaterials": "定居点材料",
+      "settlement": {
+        "exclude": "排除",
+        "include": "包含"
+      },
+      "noScrapMaterials": "无拆除材料。"
+    },
+    "consumables": {
+      "ordersTitle": "生产订单",
+      "loading": "正在加载基地数据…",
+      "consumablesTitle": "消耗品",
+      "resetConsumablesTooltip": "清除该基地所有按材料设置的消耗品覆盖",
+      "resetOverrides": "重置覆盖",
+      "resetOrdersTooltip": "清除该基地的生产订单覆盖",
+      "noProductionBuildings": "该基地没有生产建筑。",
+      "noWorkforce": "该基地尚无劳动力。",
+      "grid": {
+        "tier": "Tier",
+        "essentials": "必需品",
+        "optional": "可选",
+        "satisfaction": "满意度"
+      },
+      "overriddenSuffix": " · 已覆盖（右键点击清除）",
+      "buildingLevels_other": "{{count}}个建筑等级",
+      "inputsPerDay": "输入 / 天",
+      "outputsPerDay": "产出 / 天",
+      "selectRecipe": "选择配方…",
+      "add": "添加",
+      "noRecipesQueued": "没有排队的配方。",
+      "removeRecipe": "移除配方",
+      "prod": {
+        "badge": "生产力：{{value}}%",
+        "workforceSatisfaction": "劳动力满意度",
+        "requiredWorkforce": "所需劳动力",
+        "buildingCondition": "建筑状况",
+        "techPerksMultiplier": "科技 + Perk乘数",
+        "technologyMultiplier": "科技乘数",
+        "specialPerk": "特殊Perk",
+        "total": "总计",
+        "productionSpeed": "生产速度"
+      }
+    },
+    "issues": {
+      "wishlistDisabledTooltip": "没有可添加到心愿单的内容。",
+      "wishlistTooltip": "打开心愿单构建器。",
+      "createWishlist": "创建心愿单",
+      "hideExcluded": "隐藏已排除",
+      "showExcluded": "显示已排除",
+      "split": "拆分",
+      "merge": "合并",
+      "group": "分组",
+      "allClear": "一切正常。该基地没有问题。",
+      "warehouseFillingUp": "仓库即将装满",
+      "untilWarehouseFull": "后仓库将装满。",
+      "runsOut": "耗尽",
+      "runsOutTooltip": "第一种材料耗尽的时间",
+      "copyChat": "复制为聊天文本",
+      "copied": "已复制！",
+      "showMaterialAria": "显示材料{{id}}",
+      "materialsRunningOut_other": "即将耗尽的材料（{{count}}）",
+      "inputsCount_other": "输入（{{count}}）",
+      "copyInputs": "复制输入为聊天文本",
+      "consumablesCount_other": "消耗品（{{count}}）",
+      "copyConsumables": "复制消耗品为聊天文本"
+    },
+    "plan": {
+      "setupTitle": "计划设置",
+      "name": "名称",
+      "untitledPlaceholder": "未命名计划",
+      "planet": "行星",
+      "searchPlanets": "搜索行星…",
+      "statsTitle": "统计"
+    },
+    "placeholder": {
+      "default": "将在后续阶段推出。"
+    },
+    "dailyTotals": {
+      "field": {
+        "netVsGross": "净/总",
+        "splitByType": "按类型拆分",
+        "maintenance": "维护",
+        "contracts": "合同",
+        "view": "视图"
+      },
+      "detailedNetTooltip": "详细视图始终使用净模式，其列已将总计拆分显示。",
+      "mode": {
+        "net": "净",
+        "gross": "总"
+      },
+      "split": {
+        "merge": "合并",
+        "group": "分组"
+      },
+      "maintenanceToggle": {
+        "show": "显示",
+        "hide": "隐藏"
+      },
+      "contracts": {
+        "exclude": "排除",
+        "base": "包含（基地）",
+        "all": "包含（全部）"
+      },
+      "view": {
+        "compact": "紧凑",
+        "detailed": "详细",
+        "byType": "按类型"
+      },
+      "copyForChat": "复制到聊天",
+      "copied": "已复制。",
+      "nothingToCopy": "无内容可复制。",
+      "copyForChatLabel": "复制{{label}}到聊天",
+      "copyRowsFallback": "行",
+      "section": {
+        "outputs": "产出",
+        "inputs": "输入",
+        "productionInputs": "生产输入",
+        "consumables": "消耗品",
+        "maintenance": "维护"
+      },
+      "noRowsForBase": "该基地没有{{label}}。",
+      "noMaterialFlows": "该基地暂无材料流动。",
+      "totalRow": "总计",
+      "allFlows": "全部流动",
+      "dailyTotalsHeader": "每日总计",
+      "otherField": "其他",
+      "expandAll": "全部展开",
+      "collapseAll": "全部折叠",
+      "expand": "展开",
+      "collapse": "折叠",
+      "col": {
+        "material": "材料",
+        "contract": "合同",
+        "value": "价值",
+        "weight": "重量",
+        "stock": "库存",
+        "time": "时间",
+        "input": "输入",
+        "consumed": "已消耗",
+        "maint": "维护",
+        "produced": "已生产",
+        "net": "净",
+        "market": "市场",
+        "marketDollar": "市场$",
+        "contractDollar": "合同$",
+        "totalDollar": "总计$"
+      },
+      "tooltip": {
+        "contractFlow": "合同流动：正值 = 公司买入（流入），负值 = 公司卖出（流出）",
+        "valueWithContracts": "按合同价格计算的合同价值 + 按市场价格计算的剩余部分",
+        "valueMarket": "按市场价格计算的价值",
+        "currentStock": "仓库当前库存",
+        "timeUntilEmpty": "按净消耗计算的耗尽时间",
+        "marketNet": "净产出减去输入（不含合同）",
+        "contractValue": "净合同价值：正值 = 公司收益（卖出），负值 = 公司支付（买入）"
+      }
+    }
+  },
+  "footer": {
+    "baseline": {
+      "tooltipPrevious": "差异与上一步骤（父快照）对比",
+      "tooltipLive": "差异与该基地的实时游戏状态对比",
+      "tooltipDisabled": "选择一个带父步骤的快照以启用",
+      "vs": "对比",
+      "gameState": "游戏状态",
+      "prevStep": "上一步骤"
+    },
+    "imExport": {
+      "failed": "失败",
+      "exporting": "导出中…",
+      "importing": "导入中…",
+      "trigger": "导入/导出",
+      "tooltipEnabled": "从游戏导入计划或导出此快照",
+      "tooltipDisabled": "选择要导入/导出的快照或基地",
+      "exportToGame": "导出到游戏",
+      "exported": "已导出",
+      "exportWarehouseOnly": "仅导出仓库",
+      "importFromGame": "从游戏导入",
+      "imported": "已导入",
+      "importAndReplace": "导入并替换草稿"
+    },
+    "includedBases": {
+      "focusOverride": {
+        "excluded": "正在查看该基地：聚焦期间它仍会计入汇总。",
+        "draft": "聚焦期间忽略选择。汇总使用当前编辑视图。",
+        "snapshot": "聚焦期间忽略快照选择。汇总跟随当前编辑视图。"
+      },
+      "tooltipOverridden": "正在查看的某个基地的纳入选择在聚焦期间被忽略。打开菜单查看详情。",
+      "tooltipDefault": "选择哪些基地（以及哪个快照/计划步骤）参与跨基地汇总",
+      "included": "已纳入",
+      "all": "全部",
+      "heading": "已纳入基地",
+      "selectBases": "选择基地",
+      "excludeAll": "全部排除",
+      "sectionBases": "基地",
+      "noBases": "暂无基地。",
+      "chipLive": "实时",
+      "chipDraft": "草稿",
+      "sectionPlans": "计划",
+      "snapshot": "快照",
+      "step": "步骤{{n}}"
+    },
+    "reset": {
+      "tooltipEnabled": "重置各基地的覆盖",
+      "tooltipDisabled": "无内容可重置",
+      "trigger": "重置",
+      "confirm": "确认重置"
+    },
+    "save": {
+      "tooltipEnabled": "保存当前状态",
+      "tooltipDisabled": "实时模式下无内容可保存",
+      "trigger": "保存",
+      "asNew": "另存为新的",
+      "nextStep": "保存为下一步骤",
+      "previousStep": "保存为上一步骤",
+      "overwrite": "覆盖所选快照"
+    },
+    "step": {
+      "current": "步骤{{current}}/{{total}}",
+      "tooltip": "浏览快照链的步骤"
+    },
+    "undoRedo": {
+      "undo": "撤销",
+      "redo": "重做"
+    },
+    "viewMode": {
+      "saved": "已保存",
+      "savedTooltip": "显示已保存的状态，忽略所有未保存的编辑",
+      "draft": "草稿",
+      "draftTooltip": "在已保存状态之上显示未保存的编辑"
+    },
+    "workflow": {
+      "title": "工作流控制",
+      "sectionView": "视图",
+      "sectionStep": "步骤",
+      "sectionDiffVs": "差异对比",
+      "sectionEdit": "编辑",
+      "sectionSave": "保存",
+      "sectionImExport": "导入/导出"
+    }
+  },
+  "insights": {
+    "tabs": {
+      "breakdown": "明细",
+      "investments": "投资"
+    },
+    "sections": {
+      "researchRoi": "研究ROI",
+      "adminCenterSavings": "Admin Center节省",
+      "overheadImpact": "每日Overhead影响",
+      "workforceProfit": "劳动力利润",
+      "recipeProfit": "配方利润",
+      "buildingProfit": "建筑利润",
+      "buildingsBreakdown": "建筑明细"
+    },
+    "adminCenter": {
+      "empty": {
+        "noData": "选择有劳动力Burden的基地以估算Admin Center节省。",
+        "noBenefit": "没有可减少的扩建Overhead。当前升级Admin Center没有帮助。"
+      },
+      "columns": {
+        "scenario": "方案",
+        "level": "等级",
+        "overheadReduced": "Overhead减少量",
+        "netOverhead": "净Overhead",
+        "consumablesPerDay": "消耗品 / 天",
+        "deltaVsLive": "Δ对比实时"
+      },
+      "messages": {
+        "noData": "没有带劳动力Burden的已纳入基地。",
+        "noBenefit": "当前没有可减少的扩建Overhead。"
+      },
+      "scenarios": {
+        "current": "当前",
+        "next": "下一级",
+        "none": "无",
+        "maxBenefit": "最大收益",
+        "custom": "自定义"
+      }
+    },
+    "buildingProfit": {
+      "empty": "选择有活跃生产建筑的基地以查看建筑盈利分析。",
+      "columns": {
+        "building": "建筑",
+        "count": "数量",
+        "levels": "等级",
+        "profitPerLevel": "利润 / 等级",
+        "totalPerDay": "总计 / 天"
+      }
+    },
+    "buildingsBreakdown": {
+      "empty": "选择有建筑的基地以查看明细。",
+      "infrastructure": "基础设施",
+      "production": "生产",
+      "emptyInfrastructure": "尚无基础设施建筑。",
+      "emptyProduction": "尚无生产建筑。",
+      "columns": {
+        "building": "建筑",
+        "levels": "建筑等级",
+        "count": "数量"
+      }
+    },
+    "overheadImpact": {
+      "empty": "选择基地以查看Overhead在基地之间的分配。",
+      "columns": {
+        "base": "基地",
+        "baseCost": "基础",
+        "baseCostTip": "基准消耗品成本（未应用Perk，未应用Overhead）",
+        "overhead": "Overhead",
+        "overheadTip": "来自消耗乘数（Perk × Overhead）的净调整。正值 = 额外成本；负值 = 节省。",
+        "total": "总计",
+        "totalTip": "消耗品总成本（基础 + 调整）",
+        "goi": "GOI",
+        "goiTip": "全局Overhead影响：该基地通过公司范围的Overhead惩罚，给其他每个已纳入基地带来的额外成本",
+        "netProfit": "净利润",
+        "netProfitTip": "归属于该基地的每日净利润",
+        "profitGoi": "利润 / GOI",
+        "profitGoiTip": "净利润 ÷ 全局Overhead影响",
+        "impactIfExcluded": "排除后的影响",
+        "impactIfExcludedTip": "如果排除该基地，公司的净变化：其他基地Overhead的节省减去损失的利润。正值 = 排除更有利。",
+        "impactPerBurden": "影响 / Burden",
+        "impactPerBurdenTip": "每单位Burden的排除后影响"
+      }
+    },
+    "recipeProfit": {
+      "empty": "选择有活跃生产订单的基地以查看配方盈利分析。",
+      "columns": {
+        "recipe": "配方",
+        "building": "建筑",
+        "runsPerDay": "运行 / 天",
+        "output": "产出",
+        "input": "输入",
+        "maintenance": "维护",
+        "consumables": "消耗品",
+        "netPerDay": "净 / 天"
+      }
+    },
+    "researchRoi": {
+      "empty": "选择基地以查看研究升级的回本估算。",
+      "columns": {
+        "technology": "科技",
+        "next": "下一级",
+        "upgradeCost": "升级成本",
+        "profitPerDay": "利润 / 天",
+        "increasedProfitPerDay": "增加的利润 / 天",
+        "payback": "回本时间"
+      }
+    },
+    "workforceProfit": {
+      "empty": "选择有活跃生产建筑的基地以查看劳动力盈利分析。",
+      "columns": {
+        "tier": "Tier",
+        "workers": "Workers",
+        "profitPerDay": "利润 / 天",
+        "per100Workers": "利润 / 100 人",
+        "per100WorkersTip": "该Tier每100人的每日利润",
+        "per100Burden": "利润 / 100 Burden",
+        "per100BurdenTip": "每100单位Burden的每日利润（人数 × Tier的Burden乘数：w=1、t=1.5、e=2.5、s=4）"
+      }
+    }
+  },
+  "issues": {
+    "categories": {
+      "consumables": "消耗品",
+      "inputs": "生产输入",
+      "repairs": "维修",
+      "warehouse": "仓库接近满载"
+    },
+    "controls": {
+      "createWishlist": "创建心愿单",
+      "wishlistEmpty": "没有可添加到心愿单的内容。",
+      "openWishlist": "打开心愿单构建器。",
+      "showExcluded": "显示已排除",
+      "hideExcluded": "隐藏已排除"
+    },
+    "sortOptions": {
+      "alpha": "按字母顺序",
+      "consumables": "消耗品最快耗尽",
+      "inputs": "输入最快耗尽",
+      "combined": "最快耗尽（综合）",
+      "size": "基地规模",
+      "inputWeight": "供应重量"
+    },
+    "window": {
+      "label": "问题时间范围",
+      "overrideTitle": "覆盖（页面设置：{{value}}）。点击编辑。",
+      "inheritTitle": "继承页面的供应时间设置。点击编辑。",
+      "reset": "重置为页面的供应时间"
+    },
+    "repairThreshold": {
+      "label": "维修阈值",
+      "editHint": "点击编辑"
+    },
+    "repairs": {
+      "caption_other": "待维修建筑（{{count}}种材料）"
+    },
+    "columns": {
+      "material": "材料",
+      "materialTitle": "材料名称",
+      "total": "总计",
+      "perDay": "#/day",
+      "perDayTitle": "每日净用量",
+      "stock": "库存",
+      "stockTitle": "仓库当前库存",
+      "prod": "产出",
+      "prodTitle_other": "{{value}}天内的产出",
+      "need": "需求",
+      "needTitle_other": "达到{{value}}天库存所需的量",
+      "weight": "重量",
+      "weightTitle": "所需材料的重量",
+      "price": "价格",
+      "priceTitle": "所需材料的价格",
+      "time": "时间",
+      "timeTitle": "按当前净用量计算的剩余时间",
+      "qty": "数量",
+      "qtyTitle": "所需总量",
+      "repairWeightTitle": "总重量",
+      "cost": "成本",
+      "costTitle": "总成本"
+    }
+  },
+  "modals": {
+    "newPlan": {
+      "title": {
+        "new": "新建计划",
+        "copy": "复制基地"
+      },
+      "submit": {
+        "new": "创建计划",
+        "copy": "复制基地"
+      },
+      "cancel": "取消",
+      "field": {
+        "name": "名称",
+        "planet": "行星",
+        "expansion": "初始扩建等级"
+      },
+      "namePlaceholder": "例如：Tier-2农业基地",
+      "planetPlaceholder": "搜索行星…",
+      "expansionHint": "决定初始槽位数量（{{count}}个槽位）。",
+      "expansion": {
+        "lv0": "Lv 0 - 25个槽位",
+        "lv1": "Lv 1 - 40个槽位",
+        "lv2": "Lv 2 - 50个槽位"
+      },
+      "starter": {
+        "label": "初始基地",
+        "hint": "（12个免费地形改造槽位，3个星星槽位）"
+      }
+    },
+    "convert": {
+      "title": "将计划转换为快照",
+      "cancel": "取消",
+      "untitled": "未命名计划",
+      "thisPlanetFallback": "该计划的行星",
+      "submit": {
+        "to": "转换到{{name}}",
+        "default": "转换"
+      },
+      "noBases": "尚无基地。在游戏中建造基地并刷新后，再回来将<plan>{{plan}}</plan>转换为快照链。",
+      "willBecomeWithPlanet": "<plan>{{plan}}</plan>将成为<base>{{base}}</base><planet>（{{planet}}）</planet>上的快照链。",
+      "willBecome": "<plan>{{plan}}</plan>将成为<base>{{base}}</base>上的快照链。",
+      "driftNote": "游戏中的现有状态保持不变。快照链通过差异环显示偏差，可编辑单个步骤以吸收已经建成的内容。",
+      "pickPrompt": "<planet>{{planet}}</planet>上没有基地。选择要将<plan>{{plan}}</plan>附加到的基地：",
+      "snapshotNote": "计划的快照内容保持不变；差异环将显示该基地与规划布局的差异。"
+    },
+    "share": {
+      "title": {
+        "base": "共享基地",
+        "plan": "共享计划",
+        "snapshot": "共享快照"
+      },
+      "close": "关闭",
+      "cancel": "取消",
+      "creating": "正在创建链接…",
+      "create": "创建共享链接",
+      "resultLabel": "共享链接",
+      "error": {
+        "createFailed": "创建共享链接失败。"
+      },
+      "field": {
+        "title": "标题",
+        "description": "描述",
+        "scope": "范围",
+        "expires": "过期时间"
+      },
+      "titlePlaceholder": "可选。将展示给接收者",
+      "descPlaceholder": "可选。这是什么，应该如何使用？",
+      "scope": {
+        "public": "公开",
+        "guild": "公会",
+        "guildTooltip": "只有同公会的成员才能打开此链接。"
+      },
+      "expiry": {
+        "oneDay": "1天",
+        "sevenDays": "7天",
+        "thirtyDays": "30天",
+        "forever": "永久"
+      },
+      "copy": {
+        "copied": "已复制！",
+        "failed": "复制失败",
+        "copy": "复制"
+      }
+    }
+  },
+  "overview": {
+    "tabs": {
+      "overview": "总览",
+      "dailyTotals": "每日总计",
+      "issues": "问题"
+    },
+    "emptyState": "未纳入任何基地。使用底部的已纳入基地菜单将基地添加到总览。",
+    "perBase": "按基地",
+    "controls": {
+      "netVsGross": "净/总",
+      "detailedNetTooltip": "详细视图始终使用净模式，其列已将总计拆分显示。",
+      "splitByType": "按类型拆分",
+      "maintenance": "维护",
+      "contracts": "合同",
+      "view": "视图"
+    },
+    "totalsMode": {
+      "net": "净",
+      "gross": "总"
+    },
+    "groupMode": {
+      "merge": "合并",
+      "group": "分组"
+    },
+    "maintenance": {
+      "show": "显示",
+      "hide": "隐藏"
+    },
+    "contractsMode": {
+      "exclude": "排除",
+      "all": "全部"
+    },
+    "viewMode": {
+      "compact": "紧凑",
+      "detailed": "详细",
+      "byType": "按类型",
+      "byBase": "按基地"
+    },
+    "dailyTotals": {
+      "emptyFlows": "暂无材料流动。至少纳入一个有活跃生产的基地。",
+      "byBase": {
+        "material": "材料",
+        "total": "总计",
+        "empty": "已纳入基地之间暂无按材料的流动。"
+      }
+    },
+    "issues": {
+      "allClear": "一切正常。已纳入基地没有问题。",
+      "warehousesNearingCapacity": "仓库接近满载（{{count}}）",
+      "fullIn": "{{time}}后装满",
+      "showMaterialAria": "显示材料{{id}}",
+      "runsOutTitle": "第一种材料耗尽的时间",
+      "runsOut": "{{time}}耗尽",
+      "excludedCount": "已排除{{count}}个",
+      "copied": "已复制！",
+      "copyAsChatText": "复制为聊天文本",
+      "buildingsToRepair": "待维修建筑（{{count}}种材料）"
+    },
+    "perBaseTable": {
+      "columns": {
+        "base": "基地",
+        "profit": "利润",
+        "income": "收入",
+        "input": "输入",
+        "consumables": "消耗品",
+        "maintenance": "维护",
+        "workforce": "劳动力",
+        "buildings": "建筑"
+      },
+      "onVacationAria": "休假中",
+      "onVacationNotCounted": "休假中 · 不计入",
+      "empty": "未纳入任何基地。"
+    },
+    "stats": {
+      "inputCost": "输入成本",
+      "consumableCost": "消耗品成本",
+      "maintenanceCost": "维护成本",
+      "income": "收入",
+      "profit": "利润",
+      "deltaWithContracts": "差值 / 含合同",
+      "totalCostToReachSupply": "达到{{days}}供应的总成本",
+      "totalCostToRepair": "维修所有建筑的总成本"
+    },
+    "cargoFill": {
+      "title": "货物装载估算",
+      "custom": "自定义",
+      "fillWithOutputs": "用产出装满",
+      "fillWithOutputsRate": "用产出装满（{{rate}}/天）",
+      "consumeInputs": "消耗输入",
+      "consumeInputsRate": "消耗输入（{{rate}}/天）",
+      "perDayOut": "{{rate}}/天流出",
+      "perDayIn": "{{rate}}/天流入",
+      "columns": {
+        "ship": "飞船",
+        "capacity": "容量"
+      }
+    }
+  },
+  "page": {
+    "customPrices": {
+      "consumables": "消耗品",
+      "consumablesEmpty": "消耗品数据尚不可用。"
+    },
+    "export": {
+      "apiKeyRequired": "导出到游戏需要API密钥。",
+      "selectEntry": "选择要导出的快照或基地。",
+      "notTiedToPlanet": "此条目未关联行星。",
+      "noWarehouse": "此计划没有可导出的仓库。",
+      "noPlanetId": "没有可导出的目标行星id。",
+      "noSelection": "未选择快照或基地。"
+    },
+    "import": {
+      "apiKeyRequired": "从游戏导入需要API密钥。",
+      "noPlanetId": "没有可导入的来源行星id。",
+      "noSelection": "未选择基地或快照。",
+      "noPlan": "游戏中该行星没有计划。"
+    },
+    "share": {
+      "apiKeyRequired": "创建共享链接需要API密钥。",
+      "noEntry": "未选择要共享的条目。",
+      "liveNotReady": "实时方案尚未就绪。",
+      "snapshotNotFound": "未找到快照。",
+      "buildFailed": "无法构建共享内容，数据缺失。",
+      "createFailed": "创建共享链接失败。",
+      "defaultPlanName": "未命名计划",
+      "defaultSnapshotName": "快照"
+    },
+    "baseIssues": {
+      "contextFallback": "基地问题"
+    },
+    "baseTitle": {
+      "plan": "计划",
+      "fallback": "基地页面 v2"
+    },
+    "loading": {
+      "scenarioContext": "正在加载方案上下文…基地详情加载完成后，内容将显示出来。",
+      "insights": "正在加载洞察…",
+      "overview": "正在加载总览…"
+    },
+    "buildings": {
+      "expandTo": "扩展到{{count}}个槽位",
+      "shrinkTo": "缩减到{{count}}个槽位",
+      "shrinkBlocked": "需先移除上方槽位中的建筑"
+    },
+    "supply": {
+      "consumables": "消耗品",
+      "productionInputs": "生产输入"
+    },
+    "mobile": {
+      "basesToggle": "基地",
+      "previewToggle": "预览"
+    },
+    "popout": {
+      "overview": "总览",
+      "insights": "洞察"
+    },
+    "step": {
+      "labeled": "步骤{{count}}：{{name}}",
+      "plain": "步骤{{count}}"
+    },
+    "copyBase": {
+      "defaultName": "{{name}}的副本"
+    },
+    "wishlist": {
+      "missingApiKey": "缺少API密钥。",
+      "noMaterials": "没有可添加的材料。",
+      "notFound": "未找到心愿单。",
+      "alreadyMeets": "心愿单已满足预览的数量。",
+      "alreadyMatches": "心愿单已与预览一致。",
+      "overviewIssuesTitle": "总览问题",
+      "baseFallback": "基地",
+      "baseIssuesTitle": "{{name}}：问题",
+      "untitledBase": "未命名基地",
+      "currentTarget": "当前",
+      "overviewContext": "总览 · 已纳入基地"
+    },
+    "warnings": {
+      "basePermits": "基地许可：",
+      "workersFallback": "工人",
+      "control": {
+        "include": "包含",
+        "exclude": "排除"
+      },
+      "startingSettlement": {
+        "title": "初始定居点",
+        "body": "建造成本假设有12个免费地形改造槽位和3个星星槽位（初始基地布局）。如果初始基地已被拆除，可在设置中切换此项。"
+      },
+      "starterPlan": {
+        "title": "初始基地布局",
+        "body": "槽位1-12免费；星星槽位23-25。"
+      },
+      "startingPlanet": {
+        "title": "初始行星",
+        "body": "在<settingsLink>设置</settingsLink>中指定初始基地，以启用初始槽位的计算。"
+      },
+      "baseCost": {
+        "title": "基地建造成本",
+        "body": "将一次性的基地建设成本（混凝土、套件等）计入建造材料和ROI。"
+      },
+      "hqNewBase": {
+        "title": "新基地需要升级HQ"
+      },
+      "hqExpansions": {
+        "title": "扩建需要升级HQ"
+      },
+      "housingShortfall": {
+        "title": "住房不足",
+        "tooltip_other": "缺少{{amount}}{{worker}}，可由{{count}}级{{name}}覆盖",
+        "generic": "部分工人无处居住。",
+        "needSlot": "需先放置住房建筑，目前没有可升级的住房。",
+        "cannotCover": "现有住房无法弥补剩余缺口，需添加所列类型的新建筑。",
+        "fillHint": "均匀提升现有住房建筑的等级，直到缺口填补。快捷键：H",
+        "fillButton": "自动填充住房"
+      },
+      "housingSurplus": {
+        "title": "住房过剩",
+        "tooltip_other": "过剩{{amount}}{{worker}}，可移除{{count}}级{{name}}",
+        "reduceHint": "先减少计划中的住房升级，再削减现有住房，但不低于当前需求。快捷键：H",
+        "cannotReduce": "当前没有可以安全降级的住房槽位。",
+        "reduceButton": "自动减少住房"
+      },
+      "missingOrders": {
+        "title": "缺少生产订单",
+        "body": "为以下项目设置<ordersButton>生产订单</ordersButton>："
+      }
+    }
+  },
+  "preview": {
+    "panel": {
+      "title": "预览"
+    },
+    "shared": {
+      "badge": "已共享",
+      "by": "由{{owner}}共享",
+      "guild": "公会",
+      "expires": "· {{date}}过期"
+    },
+    "stats": {
+      "title": "统计",
+      "mode": {
+        "basic": "基础",
+        "detailed": "详细"
+      },
+      "feeSavings": {
+        "title": "Fee Negotiation节省",
+        "total": "总节省",
+        "applied": "此处应用"
+      },
+      "profit": "利润 / {{days}}",
+      "profitDelta": "Δ利润 / {{days}}",
+      "goi": "全局Overhead影响 / d",
+      "goiDelta": "Δ全局Overhead / d",
+      "profitDeltaInclGoi": "Δ利润（含GOI） / {{days}}",
+      "roi": "ROI",
+      "roiInclGoi": "ROI（含GOI）"
+    },
+    "warehouse": {
+      "title": "仓库",
+      "perkTooltip": "Smart Stacking Perk加成",
+      "autoSize": "自动调整容量",
+      "autoSizeTooltip": "将仓库容量均匀调整到目标供应天数（在设置 → 基地设置 → 仓库目标供应中设定）",
+      "used": "已使用",
+      "supply": "{{days}}供应",
+      "holds": "容量（{{percent}}%缓冲）",
+      "bufferSettings": "缓冲设置",
+      "consumables": "消耗品",
+      "inputs": "生产输入",
+      "outputs": "生产产出",
+      "bufferLabel": "仓库缓冲"
+    },
+    "production": {
+      "title": "生产 / {{days}}",
+      "col": {
+        "material": "材料",
+        "qty": "数量",
+        "weight": "重量",
+        "value": "价值"
+      }
+    },
+    "settings": {
+      "title": "设置",
+      "supplyTime": "供应时间",
+      "buildings": "建筑",
+      "consumables": "消耗品",
+      "vacation": "休假",
+      "opt": {
+        "live": "实时",
+        "max": "100%",
+        "none": "无"
+      }
+    },
+    "warnings": {
+      "title": "警告与信息"
+    },
+    "construction": {
+      "title": "建造材料",
+      "empty": "无需建造材料。",
+      "total": "总计",
+      "createWishlist": "创建心愿单",
+      "copyAria": "复制建造材料到聊天",
+      "scrapHoursTooltip": "预计建筑被拆除前的小时数",
+      "toggle": {
+        "stockTooltip": "从所需数量中扣除仓库库存"
+      },
+      "col": {
+        "material": "材料",
+        "qty": "数量",
+        "weight": "重量",
+        "cost": "成本"
+      },
+      "wishlistTooltip": {
+        "noKey": "添加API密钥以创建心愿单。",
+        "create": "根据这些材料创建心愿单。"
+      },
+      "copyTooltip": {
+        "copied": "已复制聊天文本。",
+        "nothing": "无内容可复制。",
+        "copy": "复制为聊天文本（例如 3x :CopperBar）"
+      }
+    }
+  },
+  "scenario": {
+    "modal": {
+      "title": "方案设置",
+      "resetAll": "全部重置",
+      "apply": "应用"
+    },
+    "sections": {
+      "startingBonus": "初始奖励",
+      "research": "研究",
+      "perks": "Prestige Perk",
+      "basePermits": "基地许可",
+      "scenario": "方案",
+      "overhead": "Overhead"
+    },
+    "research": {
+      "ownLevels": "自有等级",
+      "noLevels": "无等级",
+      "setLevel": "设置等级"
+    },
+    "summary": {
+      "reset": "重置",
+      "resetAll": "全部重置",
+      "editScenario": "编辑方案…",
+      "empty": "使用公司设置。没有生效的覆盖。",
+      "view": {
+        "changes": "变更",
+        "all": "全部"
+      },
+      "category": {
+        "perks": "Perk",
+        "research": "研究",
+        "startingBonus": "初始奖励",
+        "basePermits": "基地许可"
+      }
+    },
+    "overhead": {
+      "reset": "重置",
+      "overhead": "Overhead",
+      "consumption": "消耗",
+      "showMath": "显示计算过程",
+      "mode": {
+        "calculated": "计算值",
+        "override": "覆盖"
+      },
+      "math": {
+        "excessBurden": "超额Burden",
+        "baseOverhead": "基础Overhead",
+        "final": "最终",
+        "baseline": "基准",
+        "overheadPenalty": "Overhead惩罚"
+      },
+      "adminCenter": {
+        "expansionOverhead": "-{{reduction}}%/{{max}}%扩建Overhead"
+      }
+    },
+    "controls": {
+      "stepper": {
+        "decrease": "减少",
+        "increase": "增加",
+        "resetToBaseline": "重置为基准"
+      }
+    },
+    "perks": {
+      "exclusiveFallback": "专属Perk",
+      "none": "无",
+      "noGroup": "无{{group}}",
+      "selectGroup": "选择{{group}}"
+    },
+    "startingBonus": {
+      "name": "初始奖励",
+      "auto": "自动"
+    },
+    "statusLink": {
+      "edit": "编辑"
+    },
+    "permits": {
+      "name": "额外未使用的基地许可",
+      "subtitle": "决定{{perk}}的每份许可生产速度加成。"
+    },
+    "workforce": {
+      "burden": "×{{value}} Burden"
+    }
+  },
+  "supply": {
+    "runsOut": {
+      "today": "今天{{time}}",
+      "tomorrow": "明天{{time}}"
+    },
+    "firstRunsOut": "最先耗尽：{{time}}",
+    "more": "+{{count}}项",
+    "untilLabel": "{{time}}后{{label}}",
+    "at": "于{{time}}",
+    "ofLabelLeft": "剩余{{time}}的{{label}}"
+  },
+  "warehouse": {
+    "title": "仓库信息",
+    "refresh": "刷新",
+    "refreshing": "刷新中…",
+    "total": "总计",
+    "expandAll": "全部展开",
+    "collapseAll": "全部折叠",
+    "basesPlaceholder": "基地",
+    "selectAll": "全选",
+    "clear": "清除",
+    "selection": {
+      "none": "无基地",
+      "all": "全部基地（{{count}}）",
+      "some": "{{total}}个基地中的{{count}}个"
+    },
+    "columns": {
+      "material": "材料",
+      "produced": "产出/d",
+      "producedTitle": "每日产出",
+      "consumed": "消耗/d",
+      "consumedTitle": "每日消耗（生产输入 + 工人消耗品）",
+      "net": "净/d",
+      "netTitle": "每日净变化（产出 - 消耗）",
+      "time": "时间",
+      "timeTitle": "按当前净用量计算，输入耗尽的剩余时间",
+      "qty": "数量",
+      "weight": "重量",
+      "value": "价值"
+    },
+    "mode": {
+      "compact": "紧凑",
+      "byBase": "按基地"
+    },
+    "filter": {
+      "all": "全部",
+      "netInputs": "净输入",
+      "netOutputs": "净产出"
+    },
+    "basesSort": {
+      "label": "基地：",
+      "az": "A-Z",
+      "timeLeft": "剩余时间",
+      "timeLeftTip": "最紧急的基地优先",
+      "weight": "重量",
+      "weightTip": "盈余重量最多的优先",
+      "value": "价值",
+      "valueTip": "价值最高的优先"
+    },
+    "empty": {
+      "noSelection": "至少选择一个基地以查看仓库内容。",
+      "exchangeHidden": "至少选择一个基地。交易所没有生产流动，在此筛选条件下被隐藏。",
+      "noMatch": "没有材料符合当前筛选条件。"
+    },
+    "footer": {
+      "showing_other": "显示{{count}}个基地中{{total}}种材料中的{{shown}}种",
+      "netInputsValue": "净输入价值：",
+      "netOutputsValue": "净产出价值："
+    }
+  }
+}

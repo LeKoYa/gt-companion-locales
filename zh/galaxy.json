@@ -1,0 +1,500 @@
+{
+  "intel": {
+    "header": {
+      "label": "行星情报"
+    },
+    "footer": {
+      "count": "{{shown}} / {{total}}家公司"
+    },
+    "retry": "重试",
+    "unknown": "未知",
+    "materialFallback": "材料{{id}}",
+    "mobile": {
+      "companies": "公司",
+      "baseDetails": "基地详情"
+    },
+    "actions": {
+      "inspectBase": "查看基地",
+      "inspectBaseTitle": "在基地页面打开该基地",
+      "inspectBaseDisabledTitle": "需共享基地布局或生产数据",
+      "viewCompanyDetails": "查看公司详情",
+      "viewCompanyOverview": "查看公司概览"
+    },
+    "filters": {
+      "guildOnly": "仅公会",
+      "shareable": "可共享",
+      "searchPlaceholder": "搜索公司或公会…",
+      "empty": "没有符合当前筛选条件的公司。"
+    },
+    "list": {
+      "loading": "正在加载情报…",
+      "selectPrompt": "从列表中选择一家公司。"
+    },
+    "table": {
+      "company": "公司",
+      "value": "价值",
+      "share": "共享",
+      "companyFallback": "公司{{id}}"
+    },
+    "badge": {
+      "noInfo": "无信息",
+      "off": "关闭",
+      "guild": "公会",
+      "partial": "部分",
+      "you": "本人",
+      "public": "公开"
+    },
+    "shareLevel": {
+      "public": "公开",
+      "guild": "公会",
+      "private": "私有"
+    },
+    "tooltip": {
+      "notUsing": "该公司尚未使用GT Companion。",
+      "scope": {
+        "companyResearch": "公司（研究）",
+        "prestigePerks": "公司（Prestige Perks）",
+        "warehousesBases": "仓库（基地）",
+        "warehousesExchange": "仓库（交易所）",
+        "shipsDesigns": "飞船（设计）",
+        "shipsRoutes": "飞船（航线）",
+        "shipsInventories": "飞船（库存）",
+        "basesNames": "基地（名称）",
+        "basesLayouts": "基地（布局）",
+        "basesProduction": "基地（生产）",
+        "contractsActive": "合同（有效）"
+      }
+    },
+    "unavailable": {
+      "notUsingTitle": "未使用GT Companion",
+      "notUsingDetail": "该公司尚未使用GT Companion。",
+      "notSharedTitle": "未共享",
+      "notSharedDetail": "该公司已关闭共享。",
+      "noBaseTitle": "未共享基地数据",
+      "noBaseDetail": "该公司未共享任何基地信息。"
+    },
+    "feature": {
+      "loading": "正在加载{{noun}}...",
+      "loadError": "加载{{noun}}失败。",
+      "notLoaded": "{{noun}}未加载。",
+      "loadCompanyError": "加载公司情报失败。"
+    },
+    "sections": {
+      "warehouse": "仓库",
+      "production": "生产",
+      "contracts": "合同",
+      "layout": "布局"
+    },
+    "cost": {
+      "inputCost": "输入成本",
+      "consumables": "消耗品",
+      "maintenance": "维护",
+      "income": "收入",
+      "profit": "利润"
+    },
+    "warehouse": {
+      "empty": "未找到该行星的仓库快照。",
+      "total": "总计",
+      "columns": {
+        "material": "材料",
+        "qty": "数量",
+        "weight": "重量",
+        "value": "价值"
+      }
+    },
+    "production": {
+      "total": "总计",
+      "groupProduction": "生产",
+      "groupConsumables": "消耗品",
+      "noProductionEntries": "暂无生产条目。",
+      "noConsumables": "暂无消耗品。",
+      "noDataForBase": "该基地暂无生产数据。",
+      "noDataForPlanet": "未找到该行星的生产数据。",
+      "split": {
+        "merged": "合并",
+        "grouped": "分组"
+      },
+      "columns": {
+        "material": "材料",
+        "used": "消耗",
+        "produced": "产出",
+        "stock": "库存",
+        "net": "净",
+        "valuePerDay": "价值/天"
+      }
+    },
+    "copy": {
+      "copied": "已复制！",
+      "copy": "复制为聊天文本"
+    },
+    "contracts": {
+      "empty": "该行星暂无有效的共享合同。",
+      "typeBuy": "买入",
+      "typeSell": "卖出",
+      "typeUnknown": "未知",
+      "partnerInGuild": "公会内",
+      "partnerExtern": "外部",
+      "recurringTitle": "周期性合同（{{count}}/天）",
+      "columns": {
+        "type": "类型",
+        "partner": "交易对象",
+        "material": "材料",
+        "qty": "数量",
+        "total": "总计"
+      }
+    },
+    "layout": {
+      "defaultTitle": "基地布局",
+      "noSlots": "共享数据中未找到槽位布局。",
+      "noData": "未找到该行星的布局数据。"
+    },
+    "base": {
+      "sharedFallback": "已共享基地"
+    }
+  },
+  "page": {
+    "overlays": {
+      "favorites": "收藏图层",
+      "bases": "自有基地图层",
+      "ships": "飞船图层",
+      "density": "公司密度图层"
+    },
+    "customPrices": {
+      "consumablesTitle": "消耗品",
+      "consumablesEmpty": "消耗品数据尚不可用。"
+    },
+    "material": {
+      "fallbackName": "材料#{{id}}"
+    },
+    "ship": {
+      "fallbackName": "飞船{{id}}"
+    },
+    "mode": {
+      "tableShort": "表格",
+      "tableFull": "显示表格",
+      "mapShort": "地图",
+      "mapFull": "显示地图"
+    },
+    "controls": {
+      "expandMap": "展开地图",
+      "mapControls": "地图控制",
+      "filters": "筛选",
+      "exitFullscreen": "退出全屏",
+      "shareMap": "共享地图",
+      "exit": "退出"
+    },
+    "hover": {
+      "unknown": "未知",
+      "docked": "已停靠",
+      "fertility": "肥沃度",
+      "companies_other": "{{count}}家公司",
+      "members_other": "{{count}}名成员",
+      "exchange": "Exchange",
+      "tierBadge": "T{{tier}}"
+    },
+    "status": {
+      "loading": "正在加载星系数据…",
+      "error": "加载星系数据失败",
+      "loadingShort": "加载中…"
+    },
+    "panel": {
+      "mapTitle": "星系地图",
+      "mapControls": "地图控制",
+      "details": "详情"
+    },
+    "actions": {
+      "close": "关闭"
+    }
+  },
+  "map": {
+    "labels": {
+      "exchange": "Exchange"
+    },
+    "ships": {
+      "countTooltip_other": "{{count}}艘飞船"
+    },
+    "ship": {
+      "fallbackName": "飞船{{id}}"
+    },
+    "measure": {
+      "start": "点击行星开始测量",
+      "extend_other": "{{count}}段 · 点击继续测量"
+    },
+    "contextMenu": {
+      "unfavorite": "取消收藏",
+      "favorite": "收藏",
+      "openInGame": "在游戏中打开",
+      "showIntel": "显示情报",
+      "planNewBase": "规划新基地",
+      "measureDistance": "测量距离"
+    }
+  },
+  "landing": {
+    "bases": {
+      "title": "本公司基地"
+    },
+    "ships": {
+      "title": "本公司飞船",
+      "overlayHint": "启用飞船图层即可在此查看飞船。",
+      "empty": "未找到飞船。"
+    },
+    "guild": {
+      "title": "公会成员",
+      "loading": "正在加载公会成员…",
+      "error": "加载公会成员失败。",
+      "empty": "未找到公会成员。"
+    },
+    "scopes": {
+      "companyResearch": "研究",
+      "prestigePerks": "Prestige Perks",
+      "warehousesBases": "基地仓库",
+      "warehousesExchange": "交易所仓库",
+      "shipsDesigns": "飞船设计",
+      "shipsRoutes": "飞船航线",
+      "shipsInventories": "飞船货物",
+      "basesNames": "基地名称",
+      "basesLayouts": "基地布局",
+      "basesProduction": "生产",
+      "contractsActive": "合同"
+    },
+    "scopeLevel": {
+      "public": "公开",
+      "guild": "公会",
+      "private": "私有"
+    },
+    "sharingStatus": {
+      "noCompanion": "未使用GT Companion",
+      "sharingDisabled": "已关闭共享",
+      "guildOnly": "仅与公会成员共享",
+      "partial": "已共享部分数据",
+      "owner": "本公司",
+      "available": "已共享全部数据"
+    },
+    "badge": {
+      "noInfo": "无信息",
+      "off": "关闭",
+      "guild": "公会",
+      "partial": "部分",
+      "you": "本人",
+      "public": "公开"
+    }
+  },
+  "planetDetails": {
+    "info": {
+      "title": "行星信息",
+      "viewOnSite": "在galactictycoons.com上查看",
+      "planet": "行星",
+      "tier": "Tier",
+      "distance": "距离",
+      "companies": "公司数（7天）",
+      "notAvailable": "不适用",
+      "fertility": "肥沃度"
+    },
+    "favorite": {
+      "remove": "从收藏中移除",
+      "add": "添加到收藏"
+    },
+    "companies": {
+      "viewActive": "查看活跃公司",
+      "view": "查看"
+    },
+    "more": {
+      "title": "更多",
+      "openIntel": "打开行星情报"
+    },
+    "guild": {
+      "notInGuild": "尚未加入任何公会。",
+      "loading": "正在加载公会分布…",
+      "loadError": "加载公会成员数据失败。",
+      "noMembers": "此处没有公会成员的基地。",
+      "viewCompany": "查看公司概览",
+      "viewBase": "查看该行星上的基地",
+      "baseNotShared": "基地未共享",
+      "baseButton": "基地"
+    },
+    "ship": {
+      "fallbackName": "飞船{{id}}"
+    },
+    "intel": {
+      "apiKeyRequired": "查看情报需要API密钥。",
+      "loadError": "加载行星情报失败。"
+    }
+  },
+  "ship": {
+    "route": {
+      "owner": "所有者",
+      "status": "状态",
+      "inFlight": "飞行中（{{percent}}%）",
+      "origin": "出发地",
+      "destination": "目的地",
+      "eta": "ETA",
+      "arrived": "已到达",
+      "docked": "已停靠",
+      "location": "位置",
+      "unknown": "未知",
+      "planetFallback": "行星{{id}}",
+      "shipFallback": "飞船{{id}}"
+    },
+    "cargo": {
+      "title": "货物",
+      "notShared": "未共享",
+      "empty": "空",
+      "total": "总计",
+      "header": {
+        "material": "材料",
+        "qty": "数量",
+        "weight": "重量",
+        "value": "价值"
+      }
+    },
+    "layout": {
+      "title": "飞船布局",
+      "openDesigner": "在飞船设计器中打开",
+      "reactorType": "反应堆类型",
+      "ftlType": "FTL类型",
+      "ftlEmitters": "FTL发射器",
+      "cargoCapacity": "货物容量",
+      "fuelTankSize": "燃料舱容量",
+      "heatShielding": "隔热屏蔽",
+      "radShielding": "辐射屏蔽"
+    }
+  },
+  "table": {
+    "column": {
+      "name": "行星",
+      "tier": "Tier",
+      "distance": "距离",
+      "companies": "公司数（7天）",
+      "fertility": "肥沃度"
+    },
+    "value": {
+      "notAvailable": "不适用"
+    },
+    "favorite": {
+      "sortTitle": "按收藏排序",
+      "remove": "从收藏中移除",
+      "add": "添加到收藏"
+    },
+    "controls": {
+      "favorites": "收藏"
+    },
+    "columns": {
+      "placeholder": "列",
+      "button": "列",
+      "showAll": "全部显示",
+      "hideAll": "全部隐藏",
+      "reset": "重置"
+    },
+    "footer": {
+      "showing": "显示{{total}}个中的{{shown}}个"
+    },
+    "contextMenu": {
+      "unfavorite": "取消收藏",
+      "favorite": "收藏",
+      "openInGame": "在游戏中打开",
+      "showIntel": "显示情报",
+      "planNewBase": "规划新基地"
+    }
+  },
+  "filters": {
+    "title": "筛选",
+    "reset": "重置",
+    "searchPlaceholder": "按名称搜索…",
+    "addFilter": "添加筛选条件...",
+    "resource": {
+      "fertility": "肥沃度"
+    },
+    "mode": {
+      "inhabited": "仅显示已定居的行星（有公司）",
+      "favorites": "仅显示收藏"
+    }
+  },
+  "lens": {
+    "title": "视图",
+    "reset": "重置",
+    "colors": "颜色",
+    "heatmap": "热力图",
+    "selectPlaceholder": "选择…",
+    "option": {
+      "guildMembers": "公会成员",
+      "companyDensity": "公司密度",
+      "fertility": "肥沃度",
+      "planetTier": "行星Tier",
+      "none": "无"
+    }
+  },
+  "search": {
+    "searchPlanet": "搜索行星",
+    "placeholder": "行星或星系…",
+    "noResults": "未找到行星",
+    "filtered": "已筛选"
+  },
+  "share": {
+    "title": "共享星系地图",
+    "actions": {
+      "copied": "已复制！",
+      "copyLink": "复制链接",
+      "download": "下载",
+      "cancel": "取消",
+      "share": "共享"
+    },
+    "region": {
+      "current": "当前视野",
+      "full": "完整星系"
+    },
+    "toggles": {
+      "planetColors": "行星颜色",
+      "heatmap": "热力图",
+      "legend": "图例"
+    },
+    "preview": {
+      "label": "预览",
+      "capturing": "正在截取…",
+      "error": "截取失败",
+      "alt": "地图预览"
+    },
+    "lens": {
+      "fertility": "肥沃度",
+      "companyDensity": "公司密度",
+      "guildMembers": "公会成员",
+      "resource": "资源"
+    },
+    "legend": {
+      "colors": "颜色",
+      "heatmap": "热力图",
+      "company": "公司",
+      "guild": "公会"
+    }
+  },
+  "quickJump": {
+    "tooltip": "快速跳转（Q）",
+    "ariaLabel": "快速跳转"
+  },
+  "social": {
+    "title": "社交",
+    "reset": "重置",
+    "mode": {
+      "company": "公司",
+      "guild": "公会"
+    },
+    "company": {
+      "loading": "加载中…",
+      "searchPlaceholder": "搜索公司…",
+      "searching": "搜索中…",
+      "noResults": "无结果",
+      "clearAria": "清除公司筛选",
+      "bases_other": "{{count}}个基地"
+    },
+    "guild": {
+      "loading": "加载中…",
+      "searchPlaceholder": "搜索公会或标签…",
+      "searching": "搜索中…",
+      "noResults": "无结果",
+      "clearAria": "清除公会筛选",
+      "bases_other": "{{count}}个基地"
+    }
+  },
+  "intelLayout": {
+    "unknown": "未知"
+  }
+}

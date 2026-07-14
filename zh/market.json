@@ -1,0 +1,473 @@
+{
+  "page": {
+    "errors": {
+      "marketActivity": "市场活动加载失败。",
+      "exchangeData": "交易所数据加载失败。",
+      "tradeVolume": "交易额加载失败",
+      "tradeVolumeHistory": "交易额历史加载失败。"
+    },
+    "header": {
+      "day": "日期{{date}}",
+      "window": "时间范围{{window}}",
+      "coverage": "覆盖率{{pct}}%",
+      "asOf": "截至{{time}}",
+      "coverageWarning": "覆盖率低于100%。数据仍有缺失，将随时间逐步收集。",
+      "info": "说明",
+      "infoAriaLabel": "交易所概览说明"
+    },
+    "views": {
+      "title": "视图",
+      "mobileLeftToggle": "视图",
+      "mobileRightToggle": "交易所统计",
+      "exchange": "交易所",
+      "analysis": "分析"
+    },
+    "overview": {
+      "title": "交易所概览",
+      "noData": "尚无交易所数据。"
+    },
+    "controls": {
+      "day": "日期",
+      "searchPlaceholder": "搜索…",
+      "refresh": "刷新",
+      "refreshExchange": "刷新交易所数据",
+      "collapseControls": "折叠控件",
+      "expandControls": "展开控件",
+      "moreControls": "更多控件",
+      "pin": "固定",
+      "filters": "筛选",
+      "columns": "列",
+      "all": "全部",
+      "none": "无",
+      "reset": "重置",
+      "selectedCount": "已选{{value}}"
+    },
+    "exchangeColumns": {
+      "favoriteTitle": "按收藏排序。",
+      "material": "材料",
+      "materialTitle": "材料名称。",
+      "matId": "ID",
+      "matIdTitle": "材料ID。",
+      "bestPrice": "当前价格",
+      "bestPriceTitle": "当前最低价格（cr）。",
+      "avgPrice": "均价",
+      "avgPriceTitle": "平均价格（cr）。",
+      "playerQty": "玩家数量",
+      "playerQtyTitle": "玩家挂单的数量（不含Federal Reserve）。",
+      "fedQty": "Fed数量",
+      "fedQtyTitle": "Federal Reserve挂单的数量。",
+      "queueQtyBestPrice": "数量（最优价）",
+      "queueQtyBestPriceTitle": "以当前价格挂单的数量。",
+      "soldInWindow": "已售（{{window}}）",
+      "soldInWindowTitle": "所选时间范围内售出的单位数。",
+      "tradeVolume": "交易额",
+      "tradeVolumeTitle": "所选时间范围内售出单位数乘以平均价格。",
+      "soldPerHour": "售出 / 小时",
+      "soldPerHourTitle": "每小时售出的单位数（按所选时间范围归一化）。",
+      "priceChangePct": "价格 %",
+      "priceChangePctTitle": "当前价格相对基准时间范围的百分比变化。",
+      "listedChange": "挂单 Δ",
+      "listedChangeTitle": "玩家挂单数量相对基准时间范围的变化。",
+      "volatility": "波动率",
+      "volatilityTitle": "所选时间范围内的价格波动率（变异系数）。",
+      "basePrice": "基础价格",
+      "basePriceTitle": "材料基础价格（cr）。",
+      "weight": "重量",
+      "weightTitle": "材料重量。",
+      "contractFee": "合同费用",
+      "contractFeeTitle": "基于基础价格和距离计算的合同费用。"
+    },
+    "columnOptions": {
+      "currentPrice": "当前价格",
+      "avgPrice": "均价",
+      "playerListed": "玩家挂单",
+      "queueAtCurrent": "数量 @ 最优价",
+      "fedQty": "Fed数量",
+      "soldInWindow": "已售（时间范围）",
+      "tradeVolume": "交易额",
+      "soldPerHour": "售出 / 小时",
+      "priceChangePct": "价格 %",
+      "listedChange": "挂单变化",
+      "volatility": "波动率",
+      "basePrice": "基础价格",
+      "weight": "重量",
+      "materialId": "材料ID",
+      "contractFee": "合同费用"
+    },
+    "exportColumns": {
+      "materialId": "材料ID",
+      "currentPrice": "当前价格",
+      "avgPrice": "均价",
+      "playerListed": "玩家数量",
+      "queueAtCurrent": "数量（最优价）",
+      "fedQty": "Fed数量",
+      "soldInWindow": "已售（时间范围）",
+      "tradeVolume": "交易额",
+      "soldPerHour": "售出 / 小时",
+      "priceChangePct": "价格 %",
+      "listedChange": "挂单 Δ",
+      "volatility": "波动率",
+      "basePrice": "基础价格",
+      "weight": "重量",
+      "contractFee": "合同费用"
+    },
+    "favorites": {
+      "add": "添加到收藏",
+      "remove": "从收藏中移除"
+    },
+    "contractFee": {
+      "feeLabel": "费用：",
+      "distance": "距离",
+      "planet": "行星",
+      "selectPlanet": "选择行星"
+    },
+    "export": {
+      "button": "导出",
+      "noColumnsSelected": "未选择列",
+      "columnsSelected_other": "已选{{count}}列",
+      "materialIncluded": "始终包含材料列。",
+      "fileName": "文件名",
+      "selectAll": "全选",
+      "clear": "清除",
+      "contractFeeLyValues": "合同费用LY值",
+      "every": "每",
+      "generate": "生成",
+      "lyValuesMissing": "添加LY值以指定合同费用列。",
+      "downloadCsv": "下载CSV",
+      "csvMaterial": "材料",
+      "csvContractFee": "合同费用（{{ly}} LY）"
+    },
+    "stats": {
+      "panelTitle": "交易所统计",
+      "sectionTitle": "交易所统计",
+      "totalSnapshots": "快照总数",
+      "collectionStart": "采集开始",
+      "latestSnapshot": "最新快照",
+      "avgSnapshotsPerDay": "平均快照数 / 天",
+      "pollInterval": "轮询间隔",
+      "listingCompanies": "挂单公司",
+      "activeCompaniesTooltip": "在此时间范围内至少有一个有效挂单的不同公司。",
+      "activeCompanies": "活跃公司（{{window}}）",
+      "windowTotal": "总计",
+      "listingHistoryStart": "挂单历史始于{{time}}。更早的挂单不包含在内。",
+      "unknownTime": "未知时间",
+      "listingHistoryStartAria": "挂单历史起点警告",
+      "coverageWarning": "此时间范围的挂单活动覆盖率为{{pct}}%。",
+      "coverageWarningAria": "挂单活动覆盖率警告"
+    },
+    "tradeVolume": {
+      "historyButton": "交易额历史",
+      "modalTitle": "交易额历史",
+      "noData": "尚无交易额数据。",
+      "estimatedNote": "每日交易额估算（售出单位数×最优价格），按建筑Tier堆叠。",
+      "loading": "加载中...",
+      "chartTotal": "总计",
+      "chartYAxis": "交易额",
+      "window": {
+        "all": "全部"
+      }
+    },
+    "tags": {
+      "monopolyInfo": "{{company}} - 销量占比{{share}}%（7天）",
+      "tooltips": {
+        "surge": "需求激增 - 1天需求远高于7天均值，供应下降",
+        "breakout": "价格强势上行 - 价格显著上涨且有需求支撑",
+        "squeeze": "即将售罄 - 有效供应极低且仍在下降",
+        "fading": "需求减弱 - 1天需求远低于7天均值",
+        "dumping": "挂单涌入 - 供应在1天内显著增加",
+        "wall": "价格墙 - 一家公司主导最优价格，压低了其他公司的可售价格",
+        "crash": "价格暴跌 - 相对该材料的正常波动率出现显著下跌",
+        "monopoly": "一家公司主导该材料的销量（7天）"
+      },
+      "labels": {
+        "surge": "激增",
+        "breakout": "突破",
+        "squeeze": "紧缺",
+        "fading": "减弱",
+        "dumping": "抛售",
+        "wall": "价格墙",
+        "crash": "暴跌",
+        "monopoly": "垄断"
+      }
+    },
+    "liquidity": {
+      "liquid": "活跃",
+      "normal": "正常",
+      "slow": "缓慢",
+      "stagnant": "停滞"
+    },
+    "planets": {
+      "title": "行星",
+      "noData": "尚无行星资源丰度数据。",
+      "fertility": "肥力",
+      "applying": "应用中…",
+      "ownPlanets": "自有行星",
+      "maxValues": "最大值",
+      "reset": "重置",
+      "maxTooltip": "最大值：{{value}}%"
+    },
+    "analysis": {
+      "title": "市场分析",
+      "loading": "加载中...",
+      "noRecipeData": "暂无配方数据。",
+      "refreshMarket": "刷新市场数据",
+      "daysOfSupply": "有效供应天数{{days}}天",
+      "scoreBreakdown": "原始值：{{raw}} → 评分：{{score}}（归一化）",
+      "columns": {
+        "recipe": "配方",
+        "tags": "标签",
+        "liquidity": "流动性",
+        "liquidityTitle": "计入价格的流动性",
+        "scoreAtAvg": "评分（均价）",
+        "scoreAtAvgTitle": "按平均价格计算的5因子评分（需求+供应+价格+流动性+利润），0到100",
+        "scoreAtCurrent": "评分（当前）",
+        "scoreAtCurrentTitle": "按当前最优价格计算的5因子评分（需求+供应+价格+流动性+利润），0到100",
+        "profitAtAvg": "利润（均价）",
+        "profitAtAvgTitle": "按平均成交价计算的利润/h",
+        "profitAtCurrent": "利润（当前）",
+        "profitAtCurrentTitle": "按当前最优价格计算的利润/h",
+        "tierNormProfitAtAvg": "归一化利润（均价）",
+        "tierNormProfitAtAvgTitle": "按平均成交价计算的Tier归一化利润/h（利润÷建筑Tier）",
+        "tierNormProfitAtCurrent": "归一化利润（当前）",
+        "tierNormProfitAtCurrentTitle": "按当前最优价格计算的Tier归一化利润/h（利润÷建筑Tier）"
+      },
+      "filters": {
+        "allIndustries": "全部行业",
+        "noIndustries": "无行业",
+        "someIndustries_other": "{{count}}个行业",
+        "allBuildings": "全部建筑",
+        "noBuildings": "无建筑",
+        "someBuildings_other": "{{count}}个建筑",
+        "enableAll": "全部启用",
+        "disableAll": "全部禁用"
+      }
+    },
+    "categories": {
+      "metals": "金属",
+      "constructionMaterials": "建筑材料",
+      "agriculturalProducts": "农产品",
+      "minerals": "矿物",
+      "gasesAndLiquids": "气体与液体",
+      "materials": "材料",
+      "consumables": "消耗品",
+      "plastics": "塑料",
+      "chemicals": "化学品",
+      "machinery": "机械",
+      "electronics": "电子产品",
+      "science": "科研",
+      "shipParts": "飞船部件",
+      "uncategorized": "未分类",
+      "typeN": "类型{{n}}"
+    }
+  },
+  "customPrices": {
+    "sections": {
+      "maintenance": "维护部件",
+      "shipParts": "飞船部件",
+      "research": "研究数据",
+      "construction": "建筑材料",
+      "consumables": "消耗品"
+    },
+    "emptyMessages": {
+      "maintenance": "未检测到燃料类型。",
+      "shipParts": "当前Blueprint未检测到飞船部件材料。",
+      "research": "暂无可用的研究材料。",
+      "construction": "未配置建筑材料。",
+      "consumables": "未配置消耗品。"
+    },
+    "priceBase": {
+      "current": "当前",
+      "average": "平均"
+    },
+    "summary": {
+      "unsaved": "未保存"
+    },
+    "actions": {
+      "updatePrices": "更新价格",
+      "resetAll": "重置全部自定义价格",
+      "openSettings": "打开设置",
+      "closeSettings": "关闭设置",
+      "editPresetName": "编辑预设名称",
+      "savePreset": "保存预设",
+      "saveAsNew": "另存为新预设",
+      "overwrite": "覆盖",
+      "deletePreset": "删除预设",
+      "decrease": "减少",
+      "increase": "增加",
+      "clearCustomPrice": "清除自定义价格",
+      "resetToGlobal": "重置为全局",
+      "doneEditing": "完成编辑"
+    },
+    "preset": {
+      "namePlaceholder": "预设名称",
+      "selectPlaceholder": "选择预设…",
+      "none": "无预设",
+      "unsavedChanges": "有未保存的更改"
+    },
+    "search": {
+      "placeholder": "搜索材料",
+      "toggleFavorites": "切换收藏筛选",
+      "showFavoritesOnly": "仅显示收藏",
+      "showingFavoritesOnly": "当前仅显示收藏"
+    },
+    "empty": {
+      "noTargets": "暂无可用的价格目标。",
+      "noMatches": "未找到匹配的材料。",
+      "noOverrides": "暂无可用的价格覆盖。"
+    },
+    "contextMenu": {
+      "edit": "编辑",
+      "favorite": "收藏",
+      "unfavorite": "取消收藏",
+      "reset": "重置"
+    },
+    "panel": {
+      "title": "自定义价格"
+    }
+  },
+  "materialDetail": {
+    "search": {
+      "tooltip": "搜索材料（F）"
+    },
+    "tabs": {
+      "charts": "图表",
+      "details": "详情",
+      "patterns": "规律"
+    },
+    "window": {
+      "day": "日"
+    },
+    "footer": {
+      "window": "时间范围：{{window}}",
+      "coverage": "覆盖率：{{pct}}%",
+      "asOf": "截至：{{time}}"
+    },
+    "status": {
+      "loading": "加载中...",
+      "error": "数据加载失败。"
+    },
+    "section": {
+      "marketActivity": "市场活动",
+      "soldVsListed": "售出与挂单对比",
+      "stats": "统计",
+      "orderbook": "订单簿",
+      "companyActivity": "公司活动"
+    },
+    "activityMode": {
+      "companies": "公司",
+      "guilds": "公会"
+    },
+    "stat": {
+      "price": "价格",
+      "avgPrice": "均价",
+      "minMax": "最低 / 最高",
+      "volatility": "波动率",
+      "supply": "供应",
+      "soldDay": "已售（{{day}}）",
+      "soldWindow": "已售（时间范围）",
+      "soldPerHour": "售出 / 小时",
+      "sellers": "卖家",
+      "untracked": "未追踪"
+    },
+    "statColumn": {
+      "stat": "指标",
+      "value": "数值"
+    },
+    "chart": {
+      "noData": "无数据。",
+      "noVolumeData": "无成交量数据。"
+    },
+    "orderbook": {
+      "column": {
+        "price": "价格",
+        "volume": "占比",
+        "qty": "数量",
+        "sellers": "卖家"
+      },
+      "empty": "暂无订单簿数据。"
+    },
+    "activity": {
+      "column": {
+        "company": "公司",
+        "guildCompany": "公会 / 公司",
+        "salesPct": "销量 %",
+        "sold": "已售",
+        "revenue": "收入",
+        "avgPrice": "均价",
+        "listed": "挂单"
+      },
+      "loading": "加载中...",
+      "empty": "暂无活动数据。",
+      "showLess": "收起",
+      "showMore_other": "再显示{{count}}个无销量条目"
+    },
+    "pattern": {
+      "loading": "加载中…",
+      "error": "活跃规律加载失败。",
+      "empty": "该材料的市场数据尚不足。",
+      "caption": "按星期×小时的每小时售出量 · 最近{{days}}天 · {{tz}}（本地时间）",
+      "weekday": {
+        "mon": "周一",
+        "tue": "周二",
+        "wed": "周三",
+        "thu": "周四",
+        "fri": "周五",
+        "sat": "周六",
+        "sun": "周日"
+      }
+    },
+    "series": {
+      "price": "价格",
+      "sold": "已售",
+      "listed": "挂单",
+      "newlyListed": "新增挂单"
+    },
+    "axis": {
+      "qty": "数量",
+      "listedSold": "挂单 / 已售",
+      "price": "价格"
+    }
+  },
+  "widgets": {
+    "eventPopup": {
+      "eventType": {
+        "listed": "已挂单",
+        "sold": "已售出",
+        "cancelled": "已取消",
+        "unattributed": "无归属"
+      },
+      "loading": "加载中...",
+      "empty": "无交易记录",
+      "andMore_other": "以及另外{{count}}条..."
+    },
+    "materialSearch": {
+      "placeholder": "搜索材料…",
+      "noResults": "无结果"
+    },
+    "miniCalendar": {
+      "months": {
+        "january": "1月",
+        "february": "2月",
+        "march": "3月",
+        "april": "4月",
+        "may": "5月",
+        "june": "6月",
+        "july": "7月",
+        "august": "8月",
+        "september": "9月",
+        "october": "10月",
+        "november": "11月",
+        "december": "12月"
+      },
+      "weekdays": {
+        "mon": "一",
+        "tue": "二",
+        "wed": "三",
+        "thu": "四",
+        "fri": "五",
+        "sat": "六",
+        "sun": "日"
+      }
+    }
+  }
+}

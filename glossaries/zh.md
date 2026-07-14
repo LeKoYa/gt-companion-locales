@@ -102,13 +102,15 @@ can still check this table. It should read roughly like the English column.
 | Step | 步骤 | step | |
 | Snapshot | 快照 | snapshot | |
 | Leaderboard | 排行榜 | leaderboard | |
-| Rank | 排名 | rank | |
+| Rank (a position) | 排名 | ranking position | on the leaderboard |
+| Rank (a guild role) | 职级 | role grade | see "One English word, two Chinese words" below |
 | Donation | 捐赠 | donation | |
 | Contract | 合同 | contract | |
 | Wishlist | 心愿单 | wishlist | |
 | Ship | 飞船 | ship | |
 | Route | 航线 | route | |
-| Leg (of a route) | 航段 | leg | |
+| Leg (of a flight route) | 航段 | flight leg | |
+| Leg (of a production chain) | 环节 | link in a chain | not a flight, so not 航段 |
 | Travel time | 航行时间 | travel time | |
 | Cargo | 货物 | cargo | |
 | Fuel | 燃料 | fuel | |
@@ -130,6 +132,30 @@ can still check this table. It should read roughly like the English column.
 | Supply / Demand | 供应 / 需求 | supply / demand | |
 | Shared / Not shared | 已共享 / 未共享 | shared / not shared | |
 | N/A | 不适用 | not applicable | one spelling, everywhere |
+| Planet | 行星 | planet | never 星球 |
+| Partner | 交易对象 | trading partner | |
+| Counterparty | 交易对手 | counterparty | a *different* column from Partner, keep them distinct |
+| Vacation | 休假 | on leave | never 假期, which is a holiday period |
+| Status | 状态 | status | |
+| Condition (wear) | 状况 | condition | never 状态, that is Status |
+| Age | 成立时长 | time since founding | |
+| Net | 净 | net | never 净值 |
+| Sales | 销量 | sales volume | |
+| Credits (guild currency) | 积分 | points | the unit symbol `cr` stays `cr` |
+| Leader / Officer / Member | 会长 / 管理员 / 成员 | leader / admin / member | the three guild roles |
+| Permit | 许可证 | permit | |
+| Emitter / Reactor | 发射器 / 反应堆 | emitter / reactor | |
+| Fertility | 肥沃度 | fertility | |
+| Favorites | 收藏 | favourites | |
+| Insights | 洞察 | insights | |
+| Buffer | 缓冲 | buffer | |
+| Repair / Maintenance | 维修 / 维护 | repair / maintenance | two different things, keep them distinct |
+| Housing / Jobs | 住房 / 岗位 | housing / jobs | |
+| Industry / Tech | 行业 / 科技 | industry / technology | |
+| Tracker | Tracker | | the name of our own service, stays English |
+| Respec | Respec | | follows Spec, which stays English |
+| Qty | 数量 | quantity | a word abbreviation, so it translates |
+| Lvl / LVL | 等级 | level | Chinese has no shorter form |
 
 ## Verbs
 
@@ -148,6 +174,33 @@ can still check this table. It should read roughly like the English column.
 | Show / Hide | 显示 / 隐藏 | show / hide |
 | Share | 共享 | share |
 | Export / Import | 导出 / 导入 | export / import |
+
+## One English word, two Chinese words
+
+English reuses a word where Chinese has to choose. These are the cases found so
+far. Do not "fix" them into a single term: they are deliberate.
+
+| English | Splits into | Because |
+|---|---|---|
+| Rank | 排名 (leaderboard) / 职级 (guild) | A leaderboard rank is a position. A guild rank is a role (Leader, Officer, Member). 排名 cannot mean a role. |
+| Leg | 航段 (flight) / 环节 (chain) | A route leg is a flight segment. A chain leg is a step in a production chain. |
+| Condition | 状况 (wear) / 状态 (status) | Building "condition" is wear and tear. Elsewhere "status" is a state. |
+| Base | 基地 (a base) / 基础 (a baseline) | See below, this one is a flaw in the English. |
+
+## Known problems in the English source
+
+`en/` is generated from the app and cannot be edited here, but these strings are
+genuinely unclear and a translator should not assume they are wrong:
+
+- **`market:materialDetail.orderbook.column.volume`** says "Volume", but the
+  column renders a percentage-of-depth bar, not a volume. Translated as 占比
+  ("share"), which is what it actually shows.
+- **`base:insights.overheadImpact.columns.base`** and **`.baseCost`** are *both*
+  the string "Base", in adjacent columns, meaning two different things: the
+  base's name, and a baseline cost. Translated 基地 and 基础 respectively so the
+  two columns can be told apart.
+
+If you find more of these, open an issue rather than working around them.
 
 ## Mechanics
 

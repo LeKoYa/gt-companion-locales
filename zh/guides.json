@@ -1,0 +1,15 @@
+{
+  "page": {
+    "panels": {
+      "guides": "指南",
+      "contents": "目录"
+    },
+    "toggles": {
+      "sections": "章节",
+      "contents": "目录"
+    }
+  },
+  "sections": {
+    "patchNotes": "更新日志"
+  }
+}
