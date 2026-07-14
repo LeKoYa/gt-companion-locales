@@ -120,7 +120,7 @@
   "materials": {
     "title": "建造材料",
     "tooltip": "材料如何由飞船属性推算得出。",
-    "unit": "单位",
+    "unit": "单价",
     "total": "总计",
     "upgrade": "升级",
     "totals": "合计",
@@ -247,7 +247,7 @@
     "title": "速度明细",
     "baseSpeed": "基础速度",
     "guildFlightCenter": "Guild Flight Center",
-    "perks": "Perk（乘算）",
+    "perks": "Perks（乘算）",
     "starterBonus": "新手奖励",
     "finalSpeed": "最终速度"
   },
@@ -268,7 +268,7 @@
     "tooltip": "Guild Flight Center加成详情。",
     "guildFlightCenter": "Guild Flight Center",
     "previewLevel": "预览其他等级",
-    "prestigePerks": "Prestige Perk",
+    "prestigePerks": "Prestige Perks",
     "starterBonus": "新手奖励"
   },
   "flightCenter": {

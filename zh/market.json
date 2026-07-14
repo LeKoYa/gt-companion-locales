@@ -52,7 +52,7 @@
       "bestPriceTitle": "当前最低价格（cr）。",
       "avgPrice": "均价",
       "avgPriceTitle": "平均价格（cr）。",
-      "playerQty": "玩家数量",
+      "playerQty": "玩家挂单量",
       "playerQtyTitle": "玩家挂单的数量（不含Federal Reserve）。",
       "fedQty": "Fed数量",
       "fedQtyTitle": "Federal Reserve挂单的数量。",
@@ -98,7 +98,7 @@
       "materialId": "材料ID",
       "currentPrice": "当前价格",
       "avgPrice": "均价",
-      "playerListed": "玩家数量",
+      "playerListed": "玩家挂单量",
       "queueAtCurrent": "数量（最优价）",
       "fedQty": "Fed数量",
       "soldInWindow": "已售（时间范围）",
@@ -175,7 +175,7 @@
         "squeeze": "即将售罄 - 有效供应极低且仍在下降",
         "fading": "需求减弱 - 1天需求远低于7天均值",
         "dumping": "挂单涌入 - 供应在1天内显著增加",
-        "wall": "价格墙 - 一家公司主导最优价格，压低了其他公司的可售价格",
+        "wall": "价格墙 - 一家公司主导最优价格，限制了其他公司的可售价格",
         "crash": "价格暴跌 - 相对该材料的正常波动率出现显著下跌",
         "monopoly": "一家公司主导该材料的销量（7天）"
       },
@@ -199,7 +199,7 @@
     "planets": {
       "title": "行星",
       "noData": "尚无行星资源丰度数据。",
-      "fertility": "肥力",
+      "fertility": "肥沃度",
       "applying": "应用中…",
       "ownPlanets": "自有行星",
       "maxValues": "最大值",
@@ -403,7 +403,7 @@
     },
     "pattern": {
       "loading": "加载中…",
-      "error": "活跃规律加载失败。",
+      "error": "活动规律加载失败。",
       "empty": "该材料的市场数据尚不足。",
       "caption": "按星期×小时的每小时售出量 · 最近{{days}}天 · {{tz}}（本地时间）",
       "weekday": {

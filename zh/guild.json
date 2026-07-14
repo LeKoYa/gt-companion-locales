@@ -290,7 +290,7 @@
       "axisPrestigePer1k": "Prestige / $1k",
       "columns": {
         "material": "材料",
-        "now": "当前",
+        "now": "现在",
         "needed": "所需",
         "market": "市场",
         "avg": "平均",
@@ -571,7 +571,7 @@
       "markAllTitle": "将当天所有自供标记为已交付",
       "markAll": "全部标记",
       "loadingContracts": "正在加载合同…",
-      "noMatchingContracts": "未找到匹配的游戏内合同。请先与该伙伴为此材料创建一份合同，然后重新检查。",
+      "noMatchingContracts": "未找到匹配的游戏内合同。请先与该交易对象为此材料创建一份合同，然后重新检查。",
       "contractStat": "今日{{today}}/{{limit}} · 数量{{qty}}",
       "linked": "已关联 ✓",
       "link": "关联",
@@ -725,13 +725,13 @@
       "title": "积分（管理员）",
       "close": "关闭",
       "settings": "设置",
-      "settingsDescription": "α和β决定供应方在公会关闭的生产链上每单位可获得的积分费率。<extract>开采 ×</extract>是链定价的开采 / 肥力类配方（Mine、Pump、Farm等）的缓冲系数。更改仅影响此后创建的生产链；现有生产链保留其快照。",
+      "settingsDescription": "α和β决定供应方在公会关闭的生产链上每单位可获得的积分费率。<extract>开采 ×</extract>是链定价的开采 / 肥沃度类配方（Mine、Pump、Farm等）的缓冲系数。更改仅影响此后创建的生产链；现有生产链保留其快照。",
       "alphaLabel": "α（投入）",
       "alphaTitle": "每生产一单位产品，每单位Burden投入所获得的积分。",
       "betaLabel": "β（忠诚）",
       "betaTitle": "每生产一单位产品，每放弃1分利润所获得的积分。",
       "extractLabel": "开采 ×",
-      "extractTitle": "链定价中开采 / 肥力类配方Burden项的倍率。",
+      "extractTitle": "链定价中开采 / 肥沃度类配方Burden项的倍率。",
       "reset": "重置",
       "saving": "保存中…",
       "save": "保存",
@@ -741,7 +741,7 @@
       "selectMember": "选择成员…",
       "amount": "数量",
       "amountTitle": "带符号的积分变化量。正数为发放，负数为扣除（受余额限制）。",
-      "amountPlaceholder": "例如 25 或 -10",
+      "amountPlaceholder": "例如25或-10",
       "creditUnit": "cr",
       "note": "备注",
       "notePlaceholder": "（可选，管理员可通过元数据查看）",
@@ -872,7 +872,7 @@
       "memberOption": "{{name}} · {{balance}} cr",
       "amountLabel": "数量",
       "amountTooltip": "带符号的积分变化量。正数为发放，负数为扣除（受余额限制）。",
-      "amountPlaceholder": "例如 25 或 -10",
+      "amountPlaceholder": "例如25或-10",
       "noteLabel": "备注",
       "notePlaceholder": "（可选，管理员可通过元数据查看）",
       "unit": "cr",
@@ -883,7 +883,7 @@
     },
     "creditSettings": {
       "title": "积分设置",
-      "description": "α和β决定供应方在公会关闭的生产链上每单位可获得的积分费率。<1>开采 ×</1>是链定价的开采 / 肥力类配方的缓冲系数。更改仅影响此后创建的生产链。",
+      "description": "α和β决定供应方在公会关闭的生产链上每单位可获得的积分费率。<1>开采 ×</1>是链定价的开采 / 肥沃度类配方的缓冲系数。更改仅影响此后创建的生产链。",
       "alpha": {
         "label": "α（投入）",
         "tooltip": "每生产一单位产品，每单位Burden投入所获得的积分。"
@@ -894,7 +894,7 @@
       },
       "extract": {
         "label": "开采 ×",
-        "tooltip": "链定价中开采 / 肥力类配方Burden项的倍率。"
+        "tooltip": "链定价中开采 / 肥沃度类配方Burden项的倍率。"
       },
       "reset": "重置",
       "saving": "保存中…",

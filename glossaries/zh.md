@@ -156,6 +156,15 @@ can still check this table. It should read roughly like the English column.
 | Respec | Respec | | follows Spec, which stays English |
 | Qty | 数量 | quantity | a word abbreviation, so it translates |
 | Lvl / LVL | 等级 | level | Chinese has no shorter form |
+| Global | 全局 | game-wide | never 全球, which means "planet Earth" |
+| Galaxy | 星系 | galaxy | there is only one |
+| Star system | 恒星系 | star system | never 星系, that is the galaxy |
+| Stars (the currency) | 星星 | stars | never 星级, which is a quality rating |
+| Unit price | 单价 | unit price | never 单位, which is a unit of measure |
+| Exchange (map label) | Exchange | | on the map it names the location, so it stays English |
+| Exclusive (perk group) | 互斥 | mutually exclusive | see below: one perk per group |
+| Supervision (perk group) | 监管 | supervision | |
+| Mission Pref. (perk group) | 任务偏好 | mission preference | |
 
 ## Verbs
 
@@ -199,8 +208,28 @@ genuinely unclear and a translator should not assume they are wrong:
   the string "Base", in adjacent columns, meaning two different things: the
   base's name, and a baseline cost. Translated 基地 and 基础 respectively so the
   two columns can be told apart.
+- **"Starter base" and "Starting base"** are the same thing. Both are defined in
+  the source as 12 free terraform slots and 3 star slots. The two spellings are
+  an inconsistency in the English, so Chinese uses 初始基地 for both. Do not
+  invent a distinction to mirror the English one.
 
 If you find more of these, open an issue rather than working around them.
+
+## A warning about the "stays English" rule
+
+The rule exists for **one reason**: so a player can read a term here and find
+the same term in the game. Before keeping something English, check that the game
+actually shows that word.
+
+The perk **group** names are the cautionary tale. "Supervision", "Mission Pref."
+and "Exclusive" look like in-game names, and a reviewer duly reverted them to
+English. But the game stores those groups as bare numbers (`group: 1`, `group: 2`)
+and never displays a name at all: the English labels were invented by this app.
+There is nothing to match against, so they translate like any other UI text.
+
+"Exclusive" is worth dwelling on, because it also shows how an English word can
+mislead. It does not mean "privileged" (专属). Perks in a group are **mutually
+exclusive**, so you may pick only one, which is 互斥.
 
 ## Mechanics
 

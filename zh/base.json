@@ -573,7 +573,7 @@
       "tooltipEnabled": "保存当前状态",
       "tooltipDisabled": "实时模式下无内容可保存",
       "trigger": "保存",
-      "asNew": "另存为新的",
+      "asNew": "另存为新快照",
       "nextStep": "保存为下一步骤",
       "previousStep": "保存为上一步骤",
       "overwrite": "覆盖所选快照"
@@ -1044,7 +1044,7 @@
       "overviewContext": "总览 · 已纳入基地"
     },
     "warnings": {
-      "basePermits": "基地许可：",
+      "basePermits": "基地许可证：",
       "workersFallback": "工人",
       "control": {
         "include": "包含",
@@ -1198,7 +1198,7 @@
       "startingBonus": "初始奖励",
       "research": "研究",
       "perks": "Prestige Perk",
-      "basePermits": "基地许可",
+      "basePermits": "基地许可证",
       "scenario": "方案",
       "overhead": "Overhead"
     },
@@ -1220,7 +1220,7 @@
         "perks": "Perk",
         "research": "研究",
         "startingBonus": "初始奖励",
-        "basePermits": "基地许可"
+        "basePermits": "基地许可证"
       }
     },
     "overhead": {
@@ -1251,7 +1251,7 @@
       }
     },
     "perks": {
-      "exclusiveFallback": "专属Perk",
+      "exclusiveFallback": "互斥Perk",
       "none": "无",
       "noGroup": "无{{group}}",
       "selectGroup": "选择{{group}}"
@@ -1264,8 +1264,8 @@
       "edit": "编辑"
     },
     "permits": {
-      "name": "额外未使用的基地许可",
-      "subtitle": "决定{{perk}}的每份许可生产速度加成。"
+      "name": "额外未使用的基地许可证",
+      "subtitle": "决定{{perk}}的每份许可证生产速度加成。"
     },
     "workforce": {
       "burden": "×{{value}} Burden"
