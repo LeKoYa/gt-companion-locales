@@ -121,6 +121,38 @@
       "chart": "图表",
       "chartStacked": "堆叠",
       "chartLines": "折线"
+    },
+    "wishlist": {
+      "title": "心愿单构建器",
+      "modes": {
+        "consumables": "消耗品",
+        "construction": "建造"
+      },
+      "supply": "供应天数",
+      "limit": "上限",
+      "noLimit": "无上限",
+      "refresh": "刷新",
+      "create": "创建心愿单（{{count}} · {{cost}}）",
+      "writing": "正在写入…",
+      "created": "已创建“{{title}}”",
+      "updated": "已更新“{{title}}”",
+      "unchanged": "“{{title}}”已是最新",
+      "failed": "无法写入心愿单",
+      "nothingSelected": "选择一个项目以查看其需求。",
+      "needsApiKey": "添加API密钥以创建心愿单。",
+      "columns": {
+        "material": "材料",
+        "haveNeed": "库存 / 需求",
+        "supply": "供应天数",
+        "amount": "数量",
+        "unitPrice": "单价",
+        "total": "总价",
+        "totalRow": "总计"
+      },
+      "limitHint": "最高花费金额。支持简写：300M、1.5B、250k。留空表示无上限。",
+      "failedWith": "无法写入心愿单：{{message}}",
+      "fromPlan": "添加到心愿单",
+      "fromPlanHint": "将此计划写入“Guild Donations”心愿单"
     }
   },
   "donationTargets": {

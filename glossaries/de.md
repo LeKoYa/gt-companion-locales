@@ -119,6 +119,43 @@ search for them.
 | N/A | k. A. | one spelling, with the space |
 | Day suffix (1d, 7d) | 1T, 7T | |
 | Exchange (on the map) | Exchange | there it means the Exchange Station, not the marketplace |
+| Refresh | Aktualisieren | never "Neu laden", which is reserved for "Force refresh" (Neu laden erzwingen) |
+| Construction (a project category) | Bau | pairs with Verbrauchsgüter, as in the donation targets |
+| Have / Need | Bestand / Bedarf | |
+| Wanted by | Gewünscht von | |
+| Baseline (the comparison basis) | Ausgangswert | "Baseline cost" is the compound Grundkosten |
+| Total (a line total) | Gesamt | one row's amount × price |
+| Total (a grand-total row) | Summe | see "One English word, two German words" |
+| Shorthand (input notation) | Kurzform (pl. Kurzformen) | |
+| Writing… / Saving… (in flight) | Wird geschrieben… / Wird gespeichert… | |
+
+## One English word, two German words
+
+English reuses a word where German has to choose. Do not "fix" these into one
+term: they are deliberate.
+
+| English | Splits into | Because |
+|---|---|---|
+| Total | Gesamt (a line total) / Summe (a grand total) | A table can have both at once: a "Total" column whose cells are amount × price for one row, and a "Total" row at the bottom summing everything. See "Known problems" below. |
+| Refresh | Aktualisieren (refresh) / Neu laden (force refresh) | "Force refresh" is a stronger, separate action. If plain "Refresh" is also "Neu laden", the two read as one feature with two buttons. |
+
+## Known problems in the English source
+
+`en/` is generated from the app and cannot be edited here, but these strings are
+genuinely unclear and a translator should not assume they are wrong:
+
+- **`guild:page.wishlist.columns.total`** and **`.totalRow`** are *both* the
+  string "Total", in one table, meaning a line total and the grand-total row.
+  Translated Gesamt and Summe so the two can be told apart.
+- **`guild:page.wishlist.columns.unitPrice`** is the string "Price" but renders a
+  **per-unit** price, with the next column rendering amount × price. The key name
+  knows this; the English does not say it. German keeps the terse "Preis"
+  because the column is `w-16` (64px) and "Stückpreis" does not fit. The
+  ambiguity is no worse than the English's.
+- **`guild:page.wishlist.supply`** and **`.columns.supply`** are the string
+  "Supply" but mean **days of supply** (Reichweite), not Angebot. The same
+  English word means supply-vs-demand over in `market:`. Check what the string
+  labels before translating it.
 
 ## Verbs
 
@@ -154,3 +191,24 @@ and must still wrap the words they are meant to emphasise.
 map straight across. Keep both.
 
 Both rules are enforced by `scripts/i18n-validate.mjs`, which runs on every PR.
+
+### Example input is not prose
+
+Some strings show the user what they may type. Those examples are **literal
+input the app parses**, and localising them breaks the parser silently.
+
+`guild:page.wishlist.limitHint` is the live case:
+
+```
+"Most you want to spend. Shorthand works: 300M, 1.5B, 250k. Leave empty for no limit."
+```
+
+`300M`, `1.5B` and `250k` must be reproduced **character for character**. The
+parser lowercases the input, strips `$`, commas and spaces, then matches
+`/^(-?\d*\.?\d+)([kmb]?)$/`. So the German decimal comma is a trap: write
+`1,5B` and the parser strips the comma, reads `15b`, and the user gets **15
+billion instead of 1.5 billion**. No error, no warning, a 10× mistake in a
+spending cap.
+
+Translate the sentence around them. Leave the tokens alone. The validator
+cannot catch this one, because the examples are not placeholders.

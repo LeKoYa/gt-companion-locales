@@ -619,6 +619,7 @@
       "adminCenterSavings": "Ersparnis durch Admin Center",
       "overheadImpact": "Täglicher Overhead-Einfluss",
       "workforceProfit": "Gewinn nach Arbeitskräften",
+      "consumableDrops": "Optionale Verbrauchsgüter",
       "recipeProfit": "Gewinn nach Rezept",
       "buildingProfit": "Gewinn nach Gebäude",
       "buildingsBreakdown": "Gebäude-Aufschlüsselung"
@@ -646,6 +647,17 @@
         "none": "Keine",
         "maxBenefit": "Max. Nutzen",
         "custom": "Eigene"
+      }
+    },
+    "consumableDrops": {
+      "empty": "Auf den enthaltenen Basen werden keine optionalen Verbrauchsgüter bereitgestellt.",
+      "mixedBadge": "gemischt",
+      "mixedTooltip": "Dieses Verbrauchsgut wird auf manchen Basen oder Tiers bereitgestellt, auf anderen nicht. Der Ausgangswert geht davon aus, dass es überall bereitgestellt wird, daher vergleicht diese Zeile die Bereitstellung auf allen mit gar keiner Bereitstellung.",
+      "columns": {
+        "consumable": "Verbrauchsgut",
+        "wantedBy": "Gewünscht von",
+        "costPerDay": "Kosten / Tag",
+        "deltaIfDropped": "Δ Gewinn bei Verzicht"
       }
     },
     "buildingProfit": {

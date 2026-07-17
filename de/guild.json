@@ -121,6 +121,38 @@
       "chart": "Diagramm",
       "chartStacked": "Gestapelt",
       "chartLines": "Linien"
+    },
+    "wishlist": {
+      "title": "Wunschlisten-Builder",
+      "modes": {
+        "consumables": "Verbrauchsgüter",
+        "construction": "Bau"
+      },
+      "supply": "Reichweite",
+      "limit": "Limit",
+      "noLimit": "Kein Limit",
+      "refresh": "Aktualisieren",
+      "create": "Wunschliste erstellen ({{count}} · {{cost}})",
+      "writing": "Wird geschrieben…",
+      "created": "\"{{title}}\" erstellt",
+      "updated": "\"{{title}}\" aktualisiert",
+      "unchanged": "\"{{title}}\" ist bereits aktuell",
+      "failed": "Die Wunschliste konnte nicht geschrieben werden",
+      "nothingSelected": "Ein Projekt auswählen, um zu sehen, was es benötigt.",
+      "needsApiKey": "Einen API-Schlüssel hinzufügen, um Wunschlisten zu erstellen.",
+      "columns": {
+        "material": "Material",
+        "haveNeed": "Bestand / Bedarf",
+        "supply": "Reichweite",
+        "amount": "Menge",
+        "unitPrice": "Preis",
+        "total": "Gesamt",
+        "totalRow": "Summe"
+      },
+      "limitHint": "Maximale Ausgabe. Kurzformen werden erkannt: 300M, 1.5B, 250k. Für kein Limit leer lassen.",
+      "failedWith": "Die Wunschliste konnte nicht geschrieben werden: {{message}}",
+      "fromPlan": "Zur Wunschliste hinzufügen",
+      "fromPlanHint": "Diesen Plan in die Wunschliste \"Guild Donations\" schreiben"
     }
   },
   "donationTargets": {

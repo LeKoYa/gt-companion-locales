@@ -612,6 +612,7 @@
       "adminCenterSavings": "Admin Center节省",
       "overheadImpact": "每日Overhead影响",
       "workforceProfit": "劳动力利润",
+      "consumableDrops": "可选消耗品",
       "recipeProfit": "配方利润",
       "buildingProfit": "建筑利润",
       "buildingsBreakdown": "建筑明细"
@@ -639,6 +640,17 @@
         "none": "无",
         "maxBenefit": "最大收益",
         "custom": "自定义"
+      }
+    },
+    "consumableDrops": {
+      "empty": "已纳入的基地上没有提供任何可选消耗品。",
+      "mixedBadge": "部分提供",
+      "mixedTooltip": "该消耗品在部分基地或部分Tier上提供，在其他基地或Tier上不提供。基准将其视为处处提供，因此该行比较的是全部提供与完全不提供。",
+      "columns": {
+        "consumable": "消耗品",
+        "wantedBy": "需要的Tier",
+        "costPerDay": "成本 / 天",
+        "deltaIfDropped": "停供后的Δ利润"
       }
     },
     "buildingProfit": {

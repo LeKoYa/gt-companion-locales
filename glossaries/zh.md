@@ -165,6 +165,16 @@ can still check this table. It should read roughly like the English column.
 | Exclusive (perk group) | 互斥 | mutually exclusive | see below: one perk per group |
 | Supervision (perk group) | 监管 | supervision | |
 | Mission Pref. (perk group) | 任务偏好 | mission preference | |
+| Included (bases) | 已纳入 | included / taken in | the footer's base-inclusion filter; one word everywhere |
+| Optional consumables | 可选消耗品 | optional consumables | the Insights section |
+| Wanted by (workforce tiers) | 需要的Tier | the Tiers that need it | never 需求Tier: that reads as a *level of demand*, which inverts it |
+| Mixed (a badge) | 部分提供 | partially provided | never 混合, which is physical blending. It means "on some bases but not others" |
+| Have / Need | 库存 / 需求 | stock / need | |
+| Limit (a spending cap) | 上限 | upper limit | |
+| Total (a line total) | 总价 | total price | one row's amount × price |
+| Total (a grand-total row) | 总计 | grand total | see "One English word, two Chinese words" |
+| Refresh | 刷新 | refresh | |
+| Construction (a project category) | 建造 | construction | |
 
 ## Verbs
 
@@ -195,6 +205,8 @@ far. Do not "fix" them into a single term: they are deliberate.
 | Leg | 航段 (flight) / 环节 (chain) | A route leg is a flight segment. A chain leg is a step in a production chain. |
 | Condition | 状况 (wear) / 状态 (status) | Building "condition" is wear and tear. Elsewhere "status" is a state. |
 | Base | 基地 (a base) / 基础 (a baseline) | See below, this one is a flaw in the English. |
+| Total | 总价 (a line total) / 总计 (a grand total) | A table can have both at once: a "Total" column whose cells are amount × price, and a "Total" row at the bottom summing everything. See below, also a flaw in the English. |
+| Supply | 供应天数 (days of supply) / 供应 (supply vs demand) | Two unrelated concepts, one English word. The guild wishlist's "Supply" labels a days slider; `market:`'s "Supply" is the opposite of 需求. |
 
 ## Known problems in the English source
 
@@ -212,6 +224,19 @@ genuinely unclear and a translator should not assume they are wrong:
   the source as 12 free terraform slots and 3 star slots. The two spellings are
   an inconsistency in the English, so Chinese uses 初始基地 for both. Do not
   invent a distinction to mirror the English one.
+- **`guild:page.wishlist.columns.total`** and **`.totalRow`** are *both* the
+  string "Total", in one table, meaning a line total and the grand-total row.
+  Translated 总价 and 总计 so the two can be told apart. This is the same defect
+  as the `overheadImpact` pair above, so it is a pattern, not a one-off: two
+  sibling keys under one `columns` object with an identical value is usually a
+  bug in the English.
+- **`guild:page.wishlist.columns.unitPrice`** is the string "Price" but renders a
+  **per-unit** price, with the next column rendering amount × price. The key name
+  knows this; the English does not say it. Chinese can be exact at no cost in
+  width, so it is 单价 against 总价.
+- **`guild:page.wishlist.supply`** and **`.columns.supply`** are the string
+  "Supply" but mean **days of supply**. Check what a string labels before
+  translating it.
 
 If you find more of these, open an issue rather than working around them.
 
@@ -253,6 +278,30 @@ Two deliberate exceptions, because these are read as words:
 | Weekdays: `Mon` … `Fri` | `周一` … `周五`, and the one-letter calendar headers `Mo`/`Fr` become `一`/`五` |
 
 **Numbers stay Arabic.** 12, not 十二.
+
+### Example input is not prose
+
+Some strings show the user what they may type. Those examples are **literal
+input the app parses**, and localising them breaks the parser silently.
+
+`guild:page.wishlist.limitHint` is the live case:
+
+```
+"Most you want to spend. Shorthand works: 300M, 1.5B, 250k. Leave empty for no limit."
+```
+
+`300M`, `1.5B` and `250k` must be reproduced **character for character**: not as
+万/亿, not as full-width characters, not as Chinese numerals. The parser matches
+`/^(-?\d*\.?\d+)([kmb]?)$/` after stripping `$`, commas and spaces, so it accepts
+only `k`, `m` and `b`.
+
+Translate the sentence around them. Leave the tokens alone. The validator cannot
+catch this one, because the examples are not placeholders.
+
+**This one is a known gap for Chinese players, not a translation problem.** 万
+(10⁴) and 亿 (10⁸) are the natural grouping, and a player typing 3亿 gets a
+silent parse failure. Fixing that means changing the app's parser, so it belongs
+in an issue on the app repo rather than a workaround here.
 
 ### No plurals
 
