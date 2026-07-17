@@ -619,6 +619,7 @@
       "adminCenterSavings": "Admin Center savings",
       "overheadImpact": "Daily overhead impact",
       "workforceProfit": "Workforce profit",
+      "consumableDrops": "Optional consumables",
       "recipeProfit": "Recipe profit",
       "buildingProfit": "Building profit",
       "buildingsBreakdown": "Buildings breakdown"
@@ -646,6 +647,17 @@
         "none": "None",
         "maxBenefit": "Max benefit",
         "custom": "Custom"
+      }
+    },
+    "consumableDrops": {
+      "empty": "No optional consumables are being provided on the included bases.",
+      "mixedBadge": "mixed",
+      "mixedTooltip": "This consumable is provided on some bases or tiers but not others. The baseline treats it as provided everywhere, so this row compares providing it to all against none.",
+      "columns": {
+        "consumable": "Consumable",
+        "wantedBy": "Wanted by",
+        "costPerDay": "Cost / day",
+        "deltaIfDropped": "Δ profit if dropped"
       }
     },
     "buildingProfit": {

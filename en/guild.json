@@ -121,6 +121,38 @@
       "chart": "Chart",
       "chartStacked": "Stacked",
       "chartLines": "Lines"
+    },
+    "wishlist": {
+      "title": "Wishlist Builder",
+      "modes": {
+        "consumables": "Consumables",
+        "construction": "Construction"
+      },
+      "supply": "Supply",
+      "limit": "Limit",
+      "noLimit": "No limit",
+      "refresh": "Refresh",
+      "create": "Create wishlist ({{count}} · {{cost}})",
+      "writing": "Writing…",
+      "created": "Created \"{{title}}\"",
+      "updated": "Updated \"{{title}}\"",
+      "unchanged": "\"{{title}}\" is already up to date",
+      "failed": "Could not write the wishlist",
+      "nothingSelected": "Select a project to see what it needs.",
+      "needsApiKey": "Add an API key to create wishlists.",
+      "columns": {
+        "material": "Material",
+        "haveNeed": "Have / Need",
+        "supply": "Supply",
+        "amount": "Amount",
+        "unitPrice": "Price",
+        "total": "Total",
+        "totalRow": "Total"
+      },
+      "limitHint": "Most you want to spend. Shorthand works: 300M, 1.5B, 250k. Leave empty for no limit.",
+      "failedWith": "Could not write the wishlist: {{message}}",
+      "fromPlan": "Add to wishlist",
+      "fromPlanHint": "Write this plan to your \"Guild Donations\" wishlist"
     }
   },
   "donationTargets": {
