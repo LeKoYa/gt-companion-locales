@@ -21,12 +21,12 @@
     },
     "toggle": {
       "research": "研究",
-      "perks": "Perks"
+      "perks": "专长"
     },
     "nav": {
-      "title": "研究与Perks",
+      "title": "研究与专长",
       "researchPlanner": "研究规划器",
-      "prestigePerks": "Prestige Perks"
+      "prestigePerks": "声望专长"
     },
     "planner": {
       "title": "研究规划器"
@@ -93,19 +93,19 @@
     }
   },
   "perks": {
-    "panelTitle": "Prestige Perks",
+    "panelTitle": "声望专长",
     "points": {
-      "available": "可用Perk点数",
+      "available": "可用专长点数",
       "plan": "计划：",
       "clearAll": "全部清除",
       "reset": "重置",
-      "next": "下一个Perk点数"
+      "next": "下一个专长点数"
     },
     "overview": {
-      "title": "Perk概览",
+      "title": "专长概览",
       "dailyValue": "每日价值",
       "oneTimeSavings": "一次性节省",
-      "otherPerks": "其他Perks"
+      "otherPerks": "其他专长"
     },
     "recommend": {
       "computing": "计算中…",
@@ -117,26 +117,26 @@
       "improvementPerDay": "+{{value}}/天"
     },
     "columns": {
-      "perk": "Perk",
+      "perk": "专长",
       "level": "等级",
       "cost": "成本",
-      "costTitle": "升至下一等级所需的Perk点数",
-      "valuePerDay": "价值/天",
-      "valuePerDayTitle": "当前Perk等级的每日货币价值",
-      "valuePerPoint": "价值/点",
-      "valuePerPointTitle": "已投入的每个Perk点数带来的当前每日价值",
+      "costTitle": "升至下一等级所需的专长点数",
+      "valuePerDay": "每日价值",
+      "valuePerDayTitle": "当前专长等级的每日货币价值",
+      "valuePerPoint": "每点价值",
+      "valuePerPointTitle": "已投入的每个专长点数带来的当前每日价值",
       "nextPerDay": "下一级/天",
       "nextPerDayTitle": "升一级带来的每日边际收益",
       "nextPerPoint": "下一级/点",
-      "nextPerPointTitle": "下一等级每投入一个Perk点数带来的每日货币收益",
+      "nextPerPointTitle": "下一等级每投入一个专长点数带来的每日货币收益",
       "saved": "节省",
-      "savedTitle": "此Perk节省的一次性建造成本",
-      "savedPerPoint": "节省/点",
-      "savedPerPointTitle": "已投入的每个Perk点数带来的当前节省",
+      "savedTitle": "此专长节省的一次性建造成本",
+      "savedPerPoint": "每点节省",
+      "savedPerPointTitle": "已投入的每个专长点数带来的当前节省",
       "savedNext": "下一级",
       "savedNextTitle": "升一级带来的额外节省",
       "savedNextPerPoint": "下一级/点",
-      "savedNextPerPointTitle": "下一等级每个Perk点数带来的边际节省",
+      "savedNextPerPointTitle": "下一等级每个专长点数带来的边际节省",
       "benefit": "收益",
       "nextLevel": "下一等级"
     },
@@ -156,7 +156,7 @@
     },
     "tier": {
       "unlockTooltip": "在T{{tier}}投入{{spent}}/{{required}}点即可解锁",
-      "locked": "Tier {{tier}}已锁定（低Tier已投入{{spent}}/{{required}}点）"
+      "locked": "等阶{{tier}}已锁定（低等阶已投入{{spent}}/{{required}}点）"
     },
     "blocked": {
       "byConflict": "被{{name}}阻止（互斥组）"
@@ -174,27 +174,27 @@
       "resetPermits": "重置为实时未使用许可证",
       "increasePermits": "增加未使用许可证",
       "perPermit": "每许可证",
-      "prodSpeedSuffix": "% 生产速度",
+      "prodSpeedSuffix": "%生产速度",
       "valuePerDay": "{{value}}/天",
       "current": "当前",
       "permitsCount": "（{{count}}个许可证）",
-      "nextHqUpgrade": "下次HQ升级",
+      "nextHqUpgrade": "下次总部升级",
       "toLevel": "等级{{level}}",
       "na": "不适用"
     },
     "debug": {
       "title": "调试：完整流水线基准",
-      "outputPerDay": "产出/d：",
-      "inputPerDay": "输入/d：",
-      "consumablePerDay": "消耗品/d：",
-      "maintenancePerDay": "维护/d：",
-      "netProfitPerDay": "净利润/d："
+      "outputPerDay": "每日产出：",
+      "inputPerDay": "每日输入：",
+      "consumablePerDay": "每日消耗品：",
+      "maintenancePerDay": "每日维护：",
+      "netProfitPerDay": "每日净利润："
     }
   },
   "flightRoutes": {
     "title": "航线",
     "totalPerDay": "总计：{{cost}}/天",
-    "empty": "尚未定义航线。添加航线以计算物流Perk价值。",
+    "empty": "尚未定义航线。添加航线以计算物流专长价值。",
     "weight": {
       "auto": "自动重量",
       "manual": "手动重量",
@@ -245,30 +245,30 @@
       "travelBtoA": "航行B→A：",
       "roundTrip": "往返：",
       "dailyTrips": "每日趟次：",
-      "fuelCostPerDay": "燃料成本/天：",
-      "repairCostPerDay": "维修成本/天："
+      "fuelCostPerDay": "每日燃料成本：",
+      "repairCostPerDay": "每日维修成本："
     },
     "transport": {
       "imports": "进口（A→B）",
       "exports": "出口（B→A）",
       "detailsHeading": "{{label}}：{{tonnage}} t/d",
       "material": "材料",
-      "grossPerDay": "总/d",
+      "grossPerDay": "每日总额",
       "contract": "合同",
-      "netPerDay": "净/d",
+      "netPerDay": "每日净额",
       "weight": "重量",
       "tonnagePerDay": "t/d",
       "none": "无"
     }
   },
   "activeBonuses": {
-    "panelTitle": "公司Perks",
+    "panelTitle": "公司专长",
     "activeSection": "已激活加成",
     "plannedSection": "计划加成",
     "reset": "重置",
     "estDailyValue": "预计每日价值",
     "perDaySuffix": "/d",
-    "perkPoints": "Perk点数",
+    "perkPoints": "专长点数",
     "pointsOver": "超出{{count}}",
     "pointsLeft": "剩余{{count}}",
     "prodSpeedUnusedPermits_other": "生产速度（{{count}}个未使用许可证）"

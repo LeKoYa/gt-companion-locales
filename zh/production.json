@@ -15,7 +15,7 @@
       "partiallyProvided": "部分提供"
     },
     "dailyAmount": "每日{{amount}}/1k",
-    "dataUnavailable": "此Tier的消耗品数据不可用。"
+    "dataUnavailable": "此等阶的消耗品数据不可用。"
   },
   "overhead": {
     "previewMode": {
@@ -25,12 +25,12 @@
       "projection": "预计"
     },
     "workforceUnavailable": "劳动力总数暂不可用。",
-    "previewOverheadLabel": "预览Overhead",
-    "totalWorkforceBurden": "总劳动力 / Burden",
-    "expansionOverhead": "扩建Overhead",
+    "previewOverheadLabel": "预览开销",
+    "totalWorkforceBurden": "总劳动力/负担",
+    "expansionOverhead": "扩建开销",
     "final": "最终",
     "extraConsumableCost": "额外消耗品成本",
-    "perDay": "/ 天",
+    "perDay": "/天",
     "deltaVsLive": "与实时的差值",
     "extraPrefix": "额外：",
     "totalPrefix": "总计：",

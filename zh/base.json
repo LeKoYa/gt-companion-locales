@@ -12,7 +12,7 @@
     "nav": {
       "overview": "总览",
       "insights": "洞察",
-      "more": "更多 ...",
+      "more": "更多...",
       "companyContracts": "公司合同",
       "warehouseInfo": "仓库信息",
       "cashHistory": "现金历史",
@@ -43,7 +43,7 @@
     },
     "entry": {
       "unknownPlanet": "未知行星",
-      "onVacation": "休假中。生产暂停，不消耗消耗品",
+      "onVacation": "休假中。生产暂停，不使用消耗品",
       "supplyConsumables": "消耗品",
       "supplyInputs": "生产输入",
       "supplyWarehouseFull": "仓库已满",
@@ -100,12 +100,12 @@
       "searchPlaceholder": "搜索建筑",
       "noMatches": "无匹配项",
       "sortSmart": "智能",
-      "sortTier": "Tier"
+      "sortTier": "等阶"
     },
     "slot": {
-      "buyableWithStars": "可用星星购买",
+      "buyableWithStars": "可用星币购买",
       "terraform": "地形改造槽位",
-      "unlockStar": "解锁星星槽位",
+      "unlockStar": "解锁星币槽位",
       "resetLocked": "将槽位重置为锁定",
       "clickToSetLevel": "点击设置等级"
     },
@@ -136,13 +136,13 @@
       "viewList": "列表",
       "dragModeLabel": "拖拽模式",
       "dragModeMoveTitle": "移动模式：拖拽交换两个槽位",
-      "dragModeCopyTitle": "复制模式：拖拽将源槽位克隆到目标槽位",
+      "dragModeCopyTitle": "复制模式：拖拽源槽位复制到目标槽位",
       "dragCopy": "复制",
       "dragMove": "移动",
       "showLegend": "显示图例",
       "hideLegend": "隐藏图例",
       "expand": "展开",
-      "undoExpand": "撤销展开"
+      "undoExpand": "收起"
     },
     "legend": {
       "newBuild": "新建",
@@ -153,9 +153,9 @@
       "moved": "已移动",
       "dashedRing": "虚线环 = 相对游戏状态（或上一步骤）的变更",
       "solidRing": "实线环 = 未保存的编辑相对已保存快照的变更",
-      "stripedSlot": "条纹槽位 = 已锁定（地形改造或星星）",
+      "stripedSlot": "条纹槽位 = 已锁定（地形改造或星币）",
       "clickSlot": "点击槽位 = 打开建筑选择器",
-      "dragModeToggle": "拖拽模式切换（网格顶部）：复制 = 将源克隆到目标；移动 = 交换源与目标",
+      "dragModeToggle": "拖拽模式切换（网格顶部）：复制 = 将源复制到目标；移动 = 交换源与目标",
       "modifierDrag": "{{key}} + 拖拽（复制模式）= 保留目标当前等级",
       "rightClickBuilding": "右键点击建筑 = 移除",
       "rightClickEmpty": "右键点击空槽位 = 切换地形改造",
@@ -170,7 +170,7 @@
     "workforce": {
       "title": "劳动力",
       "empty": "该基地尚无劳动力。",
-      "tier": "Tier",
+      "tier": "等阶",
       "jobs": "岗位",
       "housing": "住房",
       "free": "空闲"
@@ -188,7 +188,7 @@
     "summary": {
       "spent": "支出",
       "earned": "收益",
-      "net": "净"
+      "net": "净额"
     },
     "view": {
       "byMaterial": "按材料",
@@ -198,11 +198,11 @@
       "material": "材料",
       "bought": "买入",
       "spent": "支出",
-      "avgBuy": "平均买入价",
+      "avgBuy": "买入均价",
       "sold": "卖出",
       "earned": "收益",
-      "avgSell": "平均卖出价",
-      "net": "净",
+      "avgSell": "卖出均价",
+      "net": "净额",
       "date": "日期",
       "type": "类型",
       "counterparty": "交易对手",
@@ -291,7 +291,7 @@
       "dailyQty": "每日数量",
       "units": "单位数",
       "unitPrice": "单价",
-      "netUnit": "净 / 单位",
+      "netUnit": "单位净额",
       "deltaMarket": "Δ市场",
       "total": "总计",
       "dailyTotal": "每日总计",
@@ -320,7 +320,7 @@
       "initiatedLabel": "已发起的进行中/待处理合同：",
       "hqCap": "（HQ等级{{level}}，上限：每级5个）",
       "remainingTotals": "剩余总计（已筛选）：",
-      "feeSavings": "费用Perk每日节省："
+      "feeSavings": "Fee专长每日节省："
     },
     "error": {
       "load": "加载合同失败。"
@@ -339,7 +339,7 @@
       "issues": "问题"
     },
     "planetHeader": {
-      "tier": "Tier",
+      "tier": "等阶",
       "distance": "距离",
       "fertility": "肥沃度"
     },
@@ -359,7 +359,7 @@
         "amount": "数量",
         "weight": "重量"
       },
-      "deltaWithContracts": "差值 / 含合同",
+      "deltaWithContracts": "差值/含合同",
       "warehouse": "仓库",
       "baseBuildingValue": "基地建筑价值",
       "settlementMaterials": "定居点材料",
@@ -379,15 +379,15 @@
       "noProductionBuildings": "该基地没有生产建筑。",
       "noWorkforce": "该基地尚无劳动力。",
       "grid": {
-        "tier": "Tier",
+        "tier": "等阶",
         "essentials": "必需品",
         "optional": "可选",
         "satisfaction": "满意度"
       },
       "overriddenSuffix": " · 已覆盖（右键点击清除）",
       "buildingLevels_other": "{{count}}个建筑等级",
-      "inputsPerDay": "输入 / 天",
-      "outputsPerDay": "产出 / 天",
+      "inputsPerDay": "每日输入",
+      "outputsPerDay": "每日产出",
       "selectRecipe": "选择配方…",
       "add": "添加",
       "noRecipesQueued": "没有排队的配方。",
@@ -397,9 +397,9 @@
         "workforceSatisfaction": "劳动力满意度",
         "requiredWorkforce": "所需劳动力",
         "buildingCondition": "建筑状况",
-        "techPerksMultiplier": "科技 + Perk乘数",
+        "techPerksMultiplier": "科技 + 专长乘数",
         "technologyMultiplier": "科技乘数",
-        "specialPerk": "特殊Perk",
+        "specialPerk": "特殊专长",
         "total": "总计",
         "productionSpeed": "生产速度"
       }
@@ -415,7 +415,7 @@
       "group": "分组",
       "allClear": "一切正常。该基地没有问题。",
       "warehouseFillingUp": "仓库即将装满",
-      "untilWarehouseFull": "后仓库将装满。",
+      "untilWarehouseFull": "直到仓库装满。",
       "runsOut": "耗尽",
       "runsOutTooltip": "第一种材料耗尽的时间",
       "copyChat": "复制为聊天文本",
@@ -440,7 +440,7 @@
     },
     "dailyTotals": {
       "field": {
-        "netVsGross": "净/总",
+        "netVsGross": "净额/总额",
         "splitByType": "按类型拆分",
         "maintenance": "维护",
         "contracts": "合同",
@@ -448,8 +448,8 @@
       },
       "detailedNetTooltip": "详细视图始终使用净模式，其列已将总计拆分显示。",
       "mode": {
-        "net": "净",
-        "gross": "总"
+        "net": "净额",
+        "gross": "总额"
       },
       "split": {
         "merge": "合并",
@@ -502,7 +502,7 @@
         "consumed": "已消耗",
         "maint": "维护",
         "produced": "已生产",
-        "net": "净",
+        "net": "净额",
         "market": "市场",
         "marketDollar": "市场$",
         "contractDollar": "合同$",
@@ -609,8 +609,8 @@
     },
     "sections": {
       "researchRoi": "研究ROI",
-      "adminCenterSavings": "Admin Center节省",
-      "overheadImpact": "每日Overhead影响",
+      "adminCenterSavings": "行政中心节省",
+      "overheadImpact": "每日开销影响",
       "workforceProfit": "劳动力利润",
       "recipeProfit": "配方利润",
       "buildingProfit": "建筑利润",
@@ -618,20 +618,20 @@
     },
     "adminCenter": {
       "empty": {
-        "noData": "选择有劳动力Burden的基地以估算Admin Center节省。",
-        "noBenefit": "没有可减少的扩建Overhead。当前升级Admin Center没有帮助。"
+        "noData": "选择有劳动力负担的基地以估算行政中心节省。",
+        "noBenefit": "没有可减少的扩建开销。当前升级行政中心没有帮助。"
       },
       "columns": {
         "scenario": "方案",
         "level": "等级",
-        "overheadReduced": "Overhead减少量",
-        "netOverhead": "净Overhead",
-        "consumablesPerDay": "消耗品 / 天",
+        "overheadReduced": "开销减少量",
+        "netOverhead": "净开销",
+        "consumablesPerDay": "每日消耗品",
         "deltaVsLive": "Δ对比实时"
       },
       "messages": {
-        "noData": "没有带劳动力Burden的已纳入基地。",
-        "noBenefit": "当前没有可减少的扩建Overhead。"
+        "noData": "没有带劳动力负担的已纳入基地。",
+        "noBenefit": "当前没有可减少的扩建开销。"
       },
       "scenarios": {
         "current": "当前",
@@ -647,8 +647,8 @@
         "building": "建筑",
         "count": "数量",
         "levels": "等级",
-        "profitPerLevel": "利润 / 等级",
-        "totalPerDay": "总计 / 天"
+        "profitPerLevel": "每级利润",
+        "totalPerDay": "每日总计"
       }
     },
     "buildingsBreakdown": {
@@ -664,25 +664,25 @@
       }
     },
     "overheadImpact": {
-      "empty": "选择基地以查看Overhead在基地之间的分配。",
+      "empty": "选择基地以查看开销在基地之间的分配。",
       "columns": {
         "base": "基地",
         "baseCost": "基础",
-        "baseCostTip": "基准消耗品成本（未应用Perk，未应用Overhead）",
+        "baseCostTip": "基准消耗品成本（未应用专长，未应用开销）",
         "overhead": "Overhead",
-        "overheadTip": "来自消耗乘数（Perk × Overhead）的净调整。正值 = 额外成本；负值 = 节省。",
+        "overheadTip": "来自消耗乘数（专长 × 开销）的净调整。正值 = 额外成本；负值 = 节省。",
         "total": "总计",
         "totalTip": "消耗品总成本（基础 + 调整）",
         "goi": "GOI",
-        "goiTip": "全局Overhead影响：该基地通过公司范围的Overhead惩罚，给其他每个已纳入基地带来的额外成本",
+        "goiTip": "全局开销影响：该基地通过公司范围的开销惩罚，给其他每个已纳入基地带来的额外成本",
         "netProfit": "净利润",
         "netProfitTip": "归属于该基地的每日净利润",
-        "profitGoi": "利润 / GOI",
-        "profitGoiTip": "净利润 ÷ 全局Overhead影响",
+        "profitGoi": "利润/GOI",
+        "profitGoiTip": "净利润 ÷ 全局开销影响",
         "impactIfExcluded": "排除后的影响",
-        "impactIfExcludedTip": "如果排除该基地，公司的净变化：其他基地Overhead的节省减去损失的利润。正值 = 排除更有利。",
-        "impactPerBurden": "影响 / Burden",
-        "impactPerBurdenTip": "每单位Burden的排除后影响"
+        "impactIfExcludedTip": "如果排除该基地，公司的净变化：其他基地开销的节省减去损失的利润。正值 = 排除更有利。",
+        "impactPerBurden": "影响/负担",
+        "impactPerBurdenTip": "每单位负担的排除后影响"
       }
     },
     "recipeProfit": {
@@ -690,12 +690,12 @@
       "columns": {
         "recipe": "配方",
         "building": "建筑",
-        "runsPerDay": "运行 / 天",
+        "runsPerDay": "每日运行",
         "output": "产出",
         "input": "输入",
         "maintenance": "维护",
         "consumables": "消耗品",
-        "netPerDay": "净 / 天"
+        "netPerDay": "每日净额"
       }
     },
     "researchRoi": {
@@ -704,21 +704,21 @@
         "technology": "科技",
         "next": "下一级",
         "upgradeCost": "升级成本",
-        "profitPerDay": "利润 / 天",
-        "increasedProfitPerDay": "增加的利润 / 天",
+        "profitPerDay": "每日利润",
+        "increasedProfitPerDay": "每日增加利润",
         "payback": "回本时间"
       }
     },
     "workforceProfit": {
       "empty": "选择有活跃生产建筑的基地以查看劳动力盈利分析。",
       "columns": {
-        "tier": "Tier",
+        "tier": "等阶",
         "workers": "Workers",
-        "profitPerDay": "利润 / 天",
-        "per100Workers": "利润 / 100 人",
-        "per100WorkersTip": "该Tier每100人的每日利润",
-        "per100Burden": "利润 / 100 Burden",
-        "per100BurdenTip": "每100单位Burden的每日利润（人数 × Tier的Burden乘数：w=1、t=1.5、e=2.5、s=4）"
+        "profitPerDay": "每日利润",
+        "per100Workers": "每100人利润",
+        "per100WorkersTip": "该等阶每100人的每日利润",
+        "per100Burden": "每100负担利润",
+        "per100BurdenTip": "每100单位负担的每日利润（人数 × 等阶的负担乘数：w=1、t=1.5、e=2.5、s=4）"
       }
     }
   },
@@ -761,7 +761,7 @@
       "material": "材料",
       "materialTitle": "材料名称",
       "total": "总计",
-      "perDay": "#/day",
+      "perDay": "#/天",
       "perDayTitle": "每日净用量",
       "stock": "库存",
       "stockTitle": "仓库当前库存",
@@ -798,7 +798,7 @@
         "planet": "行星",
         "expansion": "初始扩建等级"
       },
-      "namePlaceholder": "例如：Tier-2农业基地",
+      "namePlaceholder": "例如：T2农业基地",
       "planetPlaceholder": "搜索行星…",
       "expansionHint": "决定初始槽位数量（{{count}}个槽位）。",
       "expansion": {
@@ -808,7 +808,7 @@
       },
       "starter": {
         "label": "初始基地",
-        "hint": "（12个免费地形改造槽位，3个星星槽位）"
+        "hint": "（12个免费地形改造槽位，3个星币槽位）"
       }
     },
     "convert": {
@@ -876,7 +876,7 @@
     "emptyState": "未纳入任何基地。使用底部的已纳入基地菜单将基地添加到总览。",
     "perBase": "按基地",
     "controls": {
-      "netVsGross": "净/总",
+      "netVsGross": "净额/总额",
       "detailedNetTooltip": "详细视图始终使用净模式，其列已将总计拆分显示。",
       "splitByType": "按类型拆分",
       "maintenance": "维护",
@@ -884,8 +884,8 @@
       "view": "视图"
     },
     "totalsMode": {
-      "net": "净",
-      "gross": "总"
+      "net": "净额",
+      "gross": "总额"
     },
     "groupMode": {
       "merge": "合并",
@@ -946,7 +946,7 @@
       "maintenanceCost": "维护成本",
       "income": "收入",
       "profit": "利润",
-      "deltaWithContracts": "差值 / 含合同",
+      "deltaWithContracts": "差值/含合同",
       "totalCostToReachSupply": "达到{{days}}供应的总成本",
       "totalCostToRepair": "维修所有建筑的总成本"
     },
@@ -999,7 +999,7 @@
     },
     "baseTitle": {
       "plan": "计划",
-      "fallback": "基地页面 v2"
+      "fallback": "基地页面v2"
     },
     "loading": {
       "scenarioContext": "正在加载方案上下文…基地详情加载完成后，内容将显示出来。",
@@ -1044,7 +1044,7 @@
       "overviewContext": "总览 · 已纳入基地"
     },
     "warnings": {
-      "basePermits": "基地许可：",
+      "basePermits": "基地许可证：",
       "workersFallback": "工人",
       "control": {
         "include": "包含",
@@ -1052,11 +1052,11 @@
       },
       "startingSettlement": {
         "title": "初始定居点",
-        "body": "建造成本假设有12个免费地形改造槽位和3个星星槽位（初始基地布局）。如果初始基地已被拆除，可在设置中切换此项。"
+        "body": "建造成本假设有12个免费地形改造槽位和3个星币槽位（初始基地布局）。如果初始基地已被拆除，可在设置中切换此项。"
       },
       "starterPlan": {
         "title": "初始基地布局",
-        "body": "槽位1-12免费；星星槽位23-25。"
+        "body": "槽位1-12免费；星币槽位23-25。"
       },
       "startingPlanet": {
         "title": "初始行星",
@@ -1117,15 +1117,15 @@
       },
       "profit": "利润 / {{days}}",
       "profitDelta": "Δ利润 / {{days}}",
-      "goi": "全局Overhead影响 / d",
-      "goiDelta": "Δ全局Overhead / d",
+      "goi": "全局开销影响/天",
+      "goiDelta": "Δ全局开销/天",
       "profitDeltaInclGoi": "Δ利润（含GOI） / {{days}}",
       "roi": "ROI",
       "roiInclGoi": "ROI（含GOI）"
     },
     "warehouse": {
       "title": "仓库",
-      "perkTooltip": "Smart Stacking Perk加成",
+      "perkTooltip": "Smart Stacking专长加成",
       "autoSize": "自动调整容量",
       "autoSizeTooltip": "将仓库容量均匀调整到目标供应天数（在设置 → 基地设置 → 仓库目标供应中设定）",
       "used": "已使用",
@@ -1184,7 +1184,7 @@
       "copyTooltip": {
         "copied": "已复制聊天文本。",
         "nothing": "无内容可复制。",
-        "copy": "复制为聊天文本（例如 3x :CopperBar）"
+        "copy": "复制为聊天文本（例如3x :CopperBar）"
       }
     }
   },
@@ -1197,8 +1197,8 @@
     "sections": {
       "startingBonus": "初始奖励",
       "research": "研究",
-      "perks": "Prestige Perk",
-      "basePermits": "基地许可",
+      "perks": "声望专长",
+      "basePermits": "基地许可证",
       "scenario": "方案",
       "overhead": "Overhead"
     },
@@ -1217,10 +1217,10 @@
         "all": "全部"
       },
       "category": {
-        "perks": "Perk",
+        "perks": "专长",
         "research": "研究",
         "startingBonus": "初始奖励",
-        "basePermits": "基地许可"
+        "basePermits": "基地许可证"
       }
     },
     "overhead": {
@@ -1233,14 +1233,14 @@
         "override": "覆盖"
       },
       "math": {
-        "excessBurden": "超额Burden",
-        "baseOverhead": "基础Overhead",
+        "excessBurden": "超额负担",
+        "baseOverhead": "基础开销",
         "final": "最终",
         "baseline": "基准",
-        "overheadPenalty": "Overhead惩罚"
+        "overheadPenalty": "开销惩罚"
       },
       "adminCenter": {
-        "expansionOverhead": "-{{reduction}}%/{{max}}%扩建Overhead"
+        "expansionOverhead": "-{{reduction}}%/{{max}}%扩建开销"
       }
     },
     "controls": {
@@ -1251,7 +1251,7 @@
       }
     },
     "perks": {
-      "exclusiveFallback": "专属Perk",
+      "exclusiveFallback": "互斥专长",
       "none": "无",
       "noGroup": "无{{group}}",
       "selectGroup": "选择{{group}}"
@@ -1264,11 +1264,11 @@
       "edit": "编辑"
     },
     "permits": {
-      "name": "额外未使用的基地许可",
-      "subtitle": "决定{{perk}}的每份许可生产速度加成。"
+      "name": "额外未使用的基地许可证",
+      "subtitle": "决定{{perk}}的每份许可证生产速度加成。"
     },
     "workforce": {
-      "burden": "×{{value}} Burden"
+      "burden": "×{{value}} 负担"
     }
   },
   "supply": {
@@ -1299,11 +1299,11 @@
     },
     "columns": {
       "material": "材料",
-      "produced": "产出/d",
+      "produced": "每日产出",
       "producedTitle": "每日产出",
-      "consumed": "消耗/d",
+      "consumed": "每日消耗",
       "consumedTitle": "每日消耗（生产输入 + 工人消耗品）",
-      "net": "净/d",
+      "net": "每日净额",
       "netTitle": "每日净变化（产出 - 消耗）",
       "time": "时间",
       "timeTitle": "按当前净用量计算，输入耗尽的剩余时间",

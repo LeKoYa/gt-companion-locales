@@ -33,7 +33,7 @@
     "reactorPower": "反应堆功率",
     "cargoLoad": "货物装载量",
     "minCargo": "最小100t",
-    "bestCheapest": "最佳 / 最便宜",
+    "bestCheapest": "最佳/最便宜",
     "cheapest": "最便宜",
     "best": "最佳"
   },
@@ -47,9 +47,9 @@
       "basic": "基础"
     },
     "includeReturnMaterials": "包含回程材料（输入/消耗品/维护）",
-    "costPerTonOutbound": "成本 / 吨（去程）",
+    "costPerTonOutbound": "每吨成本（去程）",
     "factoryToMarket": "工厂 → 市场",
-    "costPerTonReturn": "成本 / 吨（回程）",
+    "costPerTonReturn": "每吨成本（回程）",
     "marketToFactory": "市场 → 工厂",
     "outboundFlightTitle": "去程飞行（工厂 → 市场）",
     "returnFlightTitle": "回程飞行（市场 → 工厂）"
@@ -59,11 +59,11 @@
   },
   "shipSelection": {
     "title": "飞船选择",
-    "tooltip": "选择飞船或Blueprint以加载基础布局。",
+    "tooltip": "选择飞船或蓝图以加载基地布局。",
     "selectShip": "选择飞船",
-    "saveBlueprintFavorite": "将Blueprint保存为收藏",
-    "blueprint": "Blueprint",
-    "browseBlueprints": "浏览Blueprint",
+    "saveBlueprintFavorite": "将蓝图保存为收藏",
+    "blueprint": "蓝图",
+    "browseBlueprints": "浏览蓝图",
     "upgradeFrom": "升级自...",
     "selectCustomHint": "选择“自定义飞船”即可选用预设或搜索设计。"
   },
@@ -71,7 +71,7 @@
     "none": "无",
     "badges": {
       "preset": "预设",
-      "blueprint": "Blueprint"
+      "blueprint": "蓝图"
     }
   },
   "layout": {
@@ -140,9 +140,9 @@
     "whenSelected": "选中时",
     "sections": {
       "coreMaterials": "核心材料",
-      "hullPlates": "Hull Plates",
+      "hullPlates": "船体板",
       "kits": "Kits",
-      "bridges": "Bridges",
+      "bridges": "舰桥",
       "shielding": "屏蔽（可选）",
       "starlifter": "Starlifter Elements"
     },
@@ -152,9 +152,9 @@
       "optionalParts": "可选部件",
       "calculationNotes": "计算说明",
       "required": {
-        "hullPlate": "一种Hull Plate类型。",
+        "hullPlate": "一种船体板类型。",
         "kit": "Welding Kit或Fusion Kit二选一。",
-        "bridge": "一种Bridge类型。",
+        "bridge": "一种舰桥类型。",
         "core": "Cargo Bay、Fuel Tank和Interior Kit。",
         "starlifter": "Starlifter Elements（空载重量达到15k起）。"
       },
@@ -211,13 +211,13 @@
     "power": "功率",
     "cargo": "货物",
     "travelTime": "航行时间",
-    "costPerTon": "成本 / 吨",
+    "costPerTon": "每吨成本",
     "distance": "距离",
     "fuelUsage": "燃料消耗",
     "conditionLoss": "状况损失",
     "totalCost": "总成本",
     "costPerTonStat": "每吨成本",
-    "costTimePerTon": "每吨成本时间",
+    "costTimePerTon": "每吨成本-时间",
     "flightSummary": "飞行摘要",
     "ftlCapacity": "FTL容量",
     "maximumSpeed": "最高速度",
@@ -231,12 +231,12 @@
     "title": "航行估算",
     "empty": "暂无航行估算。",
     "columns": {
-      "dist": "Dist",
+      "dist": "距离",
       "time": "时间",
       "avgSpeed": "平均速度",
       "accelerating": "加速中",
       "fuel": "燃料",
-      "fuelPercent": "燃料 %"
+      "fuelPercent": "燃料%"
     }
   },
   "flightStats": {
@@ -247,12 +247,12 @@
     "title": "速度明细",
     "baseSpeed": "基础速度",
     "guildFlightCenter": "Guild Flight Center",
-    "perks": "Perk（乘算）",
+    "perks": "专长（乘算）",
     "starterBonus": "新手奖励",
     "finalSpeed": "最终速度"
   },
   "perkSavings": {
-    "withoutPerk": "无Perk",
+    "withoutPerk": "无专长",
     "saving": "节省"
   },
   "flightAnalysis": {
@@ -268,11 +268,11 @@
     "tooltip": "Guild Flight Center加成详情。",
     "guildFlightCenter": "Guild Flight Center",
     "previewLevel": "预览其他等级",
-    "prestigePerks": "Prestige Perk",
+    "prestigePerks": "声望专长",
     "starterBonus": "新手奖励"
   },
   "flightCenter": {
-    "loading": "正在加载Flight Center…",
+    "loading": "正在加载飞行中心…",
     "loadError": "加载公会数据失败。",
     "joinGuild": "加入公会即可解锁Flight Center加成。",
     "level": "等级{{level}}",
@@ -320,7 +320,7 @@
     "customPrices": "自定义价格"
   },
   "wishlist": {
-    "customBlueprint": "自定义Blueprint",
+    "customBlueprint": "自定义蓝图",
     "newShip": "新飞船",
     "upgradeTitle": "{{name}} | 升级"
   },
@@ -335,23 +335,23 @@
       "distance": "距离（ly）",
       "cargoLoad": "货物装载量（t）",
       "emitterType": "发射器类型",
-      "maxHullType": "最高Hull类型",
+      "maxHullType": "最高船体类型",
       "maxReactorType": "最高反应堆类型",
-      "maxBridgeType": "最高Bridge类型",
+      "maxBridgeType": "最高舰桥类型",
       "maxTravelTime": "最长航行时间（h）",
       "optimizeFor": "优化目标",
       "optimizePlaceholder": "选择目标"
     },
     "filters": {
-      "anyHull": "任意Hull",
+      "anyHull": "任意船体",
       "anyReactor": "任意反应堆",
       "anyEmitter": "任意发射器",
-      "anyBridge": "任意Bridge"
+      "anyBridge": "任意舰桥"
     },
     "optimize": {
       "timeTotal": "航行时间",
       "costPerTon": "每吨成本",
-      "costTimePerCargo": "每货物成本时间",
+      "costTimePerCargo": "每单位货物成本-时间",
       "constructionCost": "建造最便宜",
       "stuffScore": "Stuff Inc.评分"
     },
@@ -383,25 +383,25 @@
     },
     "metrics": {
       "costPerTon": "每吨成本",
-      "costTimePerCargo": "每货物成本时间",
+      "costTimePerCargo": "每单位货物成本-时间",
       "travelTime": "航行时间",
       "constructionCost": "建造成本",
       "stuffScore": "Stuff评分",
       "summary": "摘要"
     },
     "hullWarning": {
-      "starglass": "此配置需要Starglass Hull Plates，会增加建造成本。",
-      "general": "相比基础设计，屏蔽升级会提高所需的Hull Tier。"
+      "starglass": "此配置需要Starglass Hull Plate，会增加建造成本。",
+      "general": "相比基础设计，屏蔽升级会提高所需的船体等阶。"
     },
     "diagnose": {
-      "hullFallback": "所选Hull Tier",
-      "reactorFallback": "所选反应堆Tier",
+      "hullFallback": "所选船体等阶",
+      "reactorFallback": "所选反应堆等阶",
       "emitterFallback": "所选发射器组",
-      "bridgeFallback": "所选Bridge Tier",
+      "bridgeFallback": "所选舰桥等阶",
       "time": "没有飞船能运载{{cargo}}t飞行{{distance}} ly并在{{hours}}小时内抵达。提高最长航行时间或减少货物。",
-      "hull": "{{hull}}无法在此航线上承载{{cargo}}t。选择更坚固的Hull或降低货物需求。",
+      "hull": "{{hull}}无法在此航线上承载{{cargo}}t。选择更坚固的船体或降低货物需求。",
       "bridge": "{{bridge}}飞船在此距离上对于{{cargo}}t来说太小。允许更大的Bridge或减少货物。",
-      "reactor": "{{reactor}}无法为所需行程提供足够的功率。允许更高Tier的反应堆。",
+      "reactor": "{{reactor}}无法为所需行程提供足够的功率。请使用更高等阶的反应堆。",
       "emitter": "限制为{{emitter}}后没有可用的飞船。允许其他发射器系列或放宽货物/时间限制。",
       "noClass": "在所选条件下，目前没有飞船类别能将{{cargo}}t运送{{distance}} ly。尝试减少货物或放宽筛选条件。"
     }

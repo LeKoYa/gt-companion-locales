@@ -22,7 +22,7 @@
         },
         "research": {
           "label": "研发",
-          "desc": "估算研究成本，规划Perk点数分配，并比较不同Spec之间的优先级。"
+          "desc": "估算研究成本，规划专长点数分配，并比较不同Spec之间的优先级。"
         },
         "guild": {
           "label": "公会",
@@ -38,7 +38,7 @@
         },
         "leaderboard": {
           "label": "排行榜",
-          "desc": "浏览公会与公司排名，比较数据，并关注全球事件动态。"
+          "desc": "浏览公会与公司排名，比较数据，并关注全局事件动态。"
         },
         "settings": {
           "label": "设置",
@@ -81,7 +81,7 @@
     "leaderboard": "排行榜",
     "guildLeaderboard": "公会排行榜",
     "companyLeaderboard": "公司排行榜",
-    "globalEvents": "全球事件",
+    "globalEvents": "全局事件",
     "companyEvents": "公司事件",
     "ships": "飞船",
     "flightSimulation": "飞行模拟",

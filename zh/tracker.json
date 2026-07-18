@@ -12,7 +12,7 @@
       "warehouses": "仓库",
       "contracts": "合同",
       "ships": "飞船",
-      "perks": "Perks",
+      "perks": "专长",
       "exchange": "交易所",
       "history": "历史",
       "events": "事件",
@@ -38,11 +38,11 @@
     },
     "columns": {
       "material": "材料",
-      "usedPerDay": "消耗/天",
-      "producedPerDay": "产出/天",
-      "weightPerDay": "重量/天",
-      "netPerDay": "净/天",
-      "valuePerDay": "价值/天",
+      "usedPerDay": "每日消耗",
+      "producedPerDay": "每日产出",
+      "weightPerDay": "每日重量",
+      "netPerDay": "每日净额",
+      "valuePerDay": "每日价值",
       "stock": "库存",
       "qty": "数量",
       "weight": "重量",
@@ -50,10 +50,10 @@
       "type": "类型",
       "partner": "交易对象",
       "planet": "行星",
-      "qtyEa": "数量 / 单次",
-      "qtyDay": "数量 / 天",
-      "totalDay": "合计 / 天",
-      "tier": "Tier",
+      "qtyEa": "每单数量",
+      "qtyDay": "每日数量",
+      "totalDay": "每日合计",
+      "tier": "等阶",
       "dist": "距离",
       "workers": "Workers",
       "time": "时间",
@@ -66,7 +66,7 @@
       "cargo": "货物",
       "tank": "燃料舱",
       "fuel": "燃料",
-      "perk": "Perk",
+      "perk": "专长",
       "lvl": "等级",
       "bonus": "加成",
       "valuePerPoint": "价值/点",
@@ -76,7 +76,7 @@
     "overview": {
       "stat": {
         "value": "价值",
-        "prestige": "Prestige",
+        "prestige": "声望",
         "workforce": "劳动力",
         "guild": "公会",
         "founded": "成立时间",
@@ -164,17 +164,17 @@
       "emptyCargo": "空载"
     },
     "perks": {
-      "perkOverview": "Perk概览",
+      "perkOverview": "专长概览",
       "active": "已激活",
       "all": "全部",
-      "noPerks": "未分配Prestige Perk。",
+      "noPerks": "未分配声望专长。",
       "requiresLogistics": "需要物流数据",
       "na": "不适用"
     },
     "history": {
       "windowAll": "全部",
-      "prestigeValueHistory": "Prestige与价值历史",
-      "prestige": "Prestige",
+      "prestigeValueHistory": "声望与价值历史",
+      "prestige": "声望",
       "cv": "CV",
       "both": "两者",
       "calendar": "日历",
@@ -218,7 +218,7 @@
       },
       "features": {
         "company_summary": "公司摘要",
-        "company_perks": "Prestige Perks",
+        "company_perks": "声望专长",
         "research_levels": "研究",
         "base_names": "基地名称",
         "base_layouts": "基地布局",
@@ -233,11 +233,11 @@
       "scope": {
         "public": "公开",
         "guild": "公会",
-        "private": "私密"
+        "private": "私有"
       },
       "status": {
         "owner": "所有者",
-        "noCompanion": "未使用Companion"
+        "noCompanion": "未使用GT Companion"
       },
       "line": "{{name}}：{{status}}"
     },
@@ -287,7 +287,7 @@
     },
     "overview": {
       "rank": "排名",
-      "prestige": "Prestige",
+      "prestige": "声望",
       "totalValue": "总价值",
       "members": "成员",
       "age": "成立时长",
@@ -299,7 +299,7 @@
       "columns": {
         "name": "名称",
         "role": "角色",
-        "prestige": "Prestige",
+        "prestige": "声望",
         "value": "价值"
       }
     },
@@ -331,8 +331,8 @@
       "thisGuild": "该公会",
       "partialWindow": "部分时间范围：数据自{{date}}起可用",
       "series": {
-        "guildPrestige": "公会Prestige",
-        "memberPrestige": "成员Prestige",
+        "guildPrestige": "公会声望",
+        "memberPrestige": "成员声望",
         "totalValue": "总价值",
         "cv": "CV"
       },
@@ -353,10 +353,10 @@
       "columns": {
         "planet": "行星",
         "company": "公司",
-        "tier": "Tier",
-        "guildRank": "公会排名",
+        "tier": "等阶",
+        "guildRank": "公会职级",
         "distToEx": "到Ex的距离",
-        "prestige": "Prestige",
+        "prestige": "声望",
         "members": "成员",
         "value": "价值"
       },
@@ -372,11 +372,11 @@
     "production": {
       "columns": {
         "material": "材料",
-        "used": "消耗/天",
-        "produced": "产出/天",
-        "net": "净/天",
+        "used": "每日消耗",
+        "produced": "每日产出",
+        "net": "每日净额",
         "weight": "重量",
-        "value": "价值/天"
+        "value": "每日价值"
       },
       "view": {
         "compact": "紧凑",
@@ -400,7 +400,7 @@
     "columns": {
       "material": "材料",
       "rank": "排名",
-      "salesPct": "销量 %",
+      "salesPct": "销量%",
       "sold": "已售",
       "revenue": "收入",
       "avgPrice": "均价",
