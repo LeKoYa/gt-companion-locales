@@ -59,7 +59,7 @@
   },
   "shipSelection": {
     "title": "飞船选择",
-    "tooltip": "选择飞船或蓝图以加载基地布局。",
+    "tooltip": "选择飞船或蓝图以加载基础布局。",
     "selectShip": "选择飞船",
     "saveBlueprintFavorite": "将蓝图保存为收藏",
     "blueprint": "蓝图",

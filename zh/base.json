@@ -320,7 +320,7 @@
       "initiatedLabel": "已发起的进行中/待处理合同：",
       "hqCap": "（HQ等级{{level}}，上限：每级5个）",
       "remainingTotals": "剩余总计（已筛选）：",
-      "feeSavings": "Fee专长每日节省："
+      "feeSavings": "费用专长每日节省："
     },
     "error": {
       "load": "加载合同失败。"

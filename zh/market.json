@@ -399,8 +399,7 @@
       "loading": "加载中...",
       "empty": "暂无活动数据。",
       "showLess": "收起",
-      "showMore_other": "再显示{{count}}个无销量条目",
-      "listedChangeTitle": "玩家挂单数相对基准时间范围的变化。"
+      "showMore_other": "再显示{{count}}个无销量条目"
     },
     "pattern": {
       "loading": "加载中…",
