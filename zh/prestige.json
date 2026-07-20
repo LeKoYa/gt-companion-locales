@@ -11,7 +11,7 @@
       "selectPlaceholder": "选择{{group}}"
     },
     "groupLabel": {
-      "exclusive": "互斥Perk",
+      "exclusive": "互斥专长",
       "supervision": "监管"
     }
   },

@@ -1,0 +1,395 @@
+namespace,key,en,original_zh,current_zh,reason,reason_en
+base,buildings.picker.sortTier,Tier,Tier,等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+base,buildings.slot.unlockStar,Unlock star slot,解锁星星槽位,星币槽位解锁,消除歧义（解锁/星币槽位 vs 解锁星币/槽位）,Remove ambiguity
+base,buildings.grid.dragModeCopyTitle,Copy mode: drag clones the source onto the target,复制模式：拖拽将源槽位克隆到目标槽位,复制模式：拖拽复制到目标槽位,翻译优化,Translation improvement
+base,buildings.grid.undoExpand,Undo expand,撤销展开,收起,展开的反操作，中文习惯用收起而非撤销展开,Expand opposite; Chinese uses 收起 not 撤销展开
+base,buildings.legend.newBuild,New build,新建,新建筑,New build是名词短语非动词，新建筑更准确,Noun phrase not verb; 新建筑 is more accurate
+base,buildings.legend.dragModeToggle,Drag mode toggle (top of grid): Copy = clone source onto target; Move = swap source and target,拖拽模式切换（网格顶部）：复制 = 将源克隆到目标；移动 = 交换源与目标,拖拽模式切换（网格顶部）：复制 = 复制到目标槽位；移动 = 交换两个槽位,达优先：说清操作结果而非逐字翻译,Prioritize clarity: describe operation result not literal translation
+base,buildings.workforce.tier,Tier,Tier,等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+base,cashHistory.summary.net,Net,净,净额,单个净字在中文中表示干净的意思居多，换成净额使其含义更明确,Standalone 净 often means clean in Chinese; 净额 makes the financial meaning clearer
+base,cashHistory.columns.avgBuy,Avg buy,平均买入价,买入均价,金融术语，均价更简洁自然,Financial term; 均价 is standard
+base,cashHistory.columns.avgSell,Avg sell,平均卖出价,卖出均价,金融术语，均价更简洁自然,Financial term; 均价 is standard
+base,cashHistory.columns.net,Net,净,净额,单个净字在中文中表示干净的意思居多，换成净额使其含义更明确,Standalone 净 often means clean in Chinese; 净额 makes the financial meaning clearer
+base,contracts.columns.netUnit,Net / unit,净 / 单位,单位净额,净→净额，/unit→单位净额（与单价风格一致）,Net→净额; /unit→单位净额 matching 单价 style
+base,contracts.footer.feeSavings,Fee perk daily savings:,费用Perk每日节省：,Fee专长每日节省：,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+base,controls.planetHeader.tier,Tier,Tier,等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+base,controls.dashboard.deltaWithContracts,Delta / With contracts,差值 / 含合同,差值/含合同,斜杠空格移除,Slash space removal
+base,controls.consumables.grid.tier,Tier,Tier,等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+base,controls.consumables.inputsPerDay,Inputs / day,输入 / 天,每日输入,翻译优化,Translation improvement
+base,controls.consumables.outputsPerDay,Outputs / day,产出 / 天,每日产出,翻译优化,Translation improvement
+base,controls.consumables.prod.techPerksMultiplier,Tech + Perks multiplier,科技 + Perk乘数,科技 + 专长乘数,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+base,controls.consumables.prod.specialPerk,Special Perk,特殊Perk,特殊专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+base,controls.issues.untilWarehouseFull,until warehouse is full.,后仓库将装满。,直到仓库装满。,until误翻，后≠until,until mistranslated
+base,controls.dailyTotals.field.netVsGross,Net vs gross,净/总,净额/总额,净→净额，总→总额,Net→净额
+base,controls.dailyTotals.mode.net,Net,净,净额,单个净字在中文中表示干净的意思居多，换成净额使其含义更明确,Standalone 净 often means clean in Chinese; 净额 makes the financial meaning clearer
+base,controls.dailyTotals.mode.gross,Gross,总,总额,独立标签总→总额，与净额对称,Gross standalone→总额 matching 净额
+base,controls.dailyTotals.col.net,Net,净,净额,单个净字在中文中表示干净的意思居多，换成净额使其含义更明确,Standalone 净 often means clean in Chinese; 净额 makes the financial meaning clearer
+base,footer.includedBases.tooltipOverridden,A base you're viewing has an inclusion pick that's ignored while focused. Open the menu for details.,正在查看的某个基地的纳入选择在聚焦期间被忽略。打开菜单查看详情。,正在查看的某个基地的包含选择在聚焦期间被忽略。打开菜单查看详情。,翻译优化,Translation improvement
+base,footer.save.asNew,Save as new,另存为新的,另存为新快照,翻译优化,Translation improvement
+base,insights.sections.adminCenterSavings,Admin Center savings,Admin Center节省,行政中心节省,翻译优化,Translation improvement
+base,insights.sections.overheadImpact,Daily overhead impact,每日Overhead影响,每日开销影响,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+base,insights.adminCenter.empty.noData,Select bases with workforce burden to estimate Admin Center savings.,选择有劳动力Burden的基地以估算Admin Center节省。,选择有劳动力负担的基地以估算行政中心节省。,Burden→负担：游戏机制名翻译为中文,Burden→负担: game mechanic translated to Chinese
+base,insights.adminCenter.empty.noBenefit,No expansion overhead to reduce. Admin Center upgrades wouldn't help right now.,没有可减少的扩建Overhead。当前升级Admin Center没有帮助。,没有可减少的扩建开销。当前升级行政中心没有帮助。,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+base,insights.adminCenter.columns.overheadReduced,Overhead reduced,Overhead减少量,开销减少量,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+base,insights.adminCenter.columns.netOverhead,Net overhead,净Overhead,净开销,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+base,insights.adminCenter.columns.consumablesPerDay,Consumables / day,消耗品 / 天,每日消耗品,翻译优化,Translation improvement
+base,insights.adminCenter.messages.noData,No included bases with workforce burden.,没有带劳动力Burden的已纳入基地。,已包含的基地均无劳动力负担。,Burden→负担：游戏机制名翻译为中文,Burden→负担: game mechanic translated to Chinese
+base,insights.adminCenter.messages.noBenefit,No expansion overhead to reduce right now.,当前没有可减少的扩建Overhead。,当前没有可减少的扩建开销。,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+base,insights.buildingProfit.columns.profitPerLevel,Profit / level,利润 / 等级,每级利润,翻译优化,Translation improvement
+base,insights.buildingProfit.columns.totalPerDay,Total / day,总计 / 天,每日总计,翻译优化,Translation improvement
+base,insights.overheadImpact.empty,Select bases to see how overhead is distributed across them.,选择基地以查看Overhead在基地之间的分配。,选择基地以查看开销在基地之间的分配。,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+base,insights.overheadImpact.columns.baseCostTip,"Baseline consumable cost (no perks, no overhead applied)",基准消耗品成本（未应用Perk，未应用Overhead）,基准消耗品成本（未应用专长，未应用开销）,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+base,insights.overheadImpact.columns.overheadTip,Net adjustment from the consumption multiplier (perks × overhead). Positive = extra cost; negative = savings.,来自消耗乘数（Perk × Overhead）的净调整。正值 = 额外成本；负值 = 节省。,来自消耗乘数（专长 × 开销）的净调整。正值 = 额外成本；负值 = 节省。,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+base,insights.overheadImpact.columns.goiTip,Global overhead impact: extra cost this base imposes on every other included base via the company-wide overhead penalty,全局Overhead影响：该基地通过公司范围的Overhead惩罚，给其他每个已纳入基地带来的额外成本,全局开销影响：该基地通过公司范围的开销惩罚，给其他每个已包含基地带来的额外成本,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+base,insights.overheadImpact.columns.profitGoi,Profit / GOI,利润 / GOI,利润/GOI,斜杠空格移除,Slash space removal
+base,insights.overheadImpact.columns.profitGoiTip,Net profit ÷ Global overhead impact,净利润 ÷ 全局Overhead影响,净利润 ÷ 全局开销影响,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+base,insights.overheadImpact.columns.impactIfExcludedTip,Company net change if this base were excluded: savings on others' overhead minus profit lost. Positive = excluding helps.,如果排除该基地，公司的净变化：其他基地Overhead的节省减去损失的利润。正值 = 排除更有利。,如果排除该基地，公司的净变化：其他基地开销的节省减去损失的利润。正值 = 排除更有利。,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+base,insights.overheadImpact.columns.impactPerBurden,Impact / burden,影响 / Burden,影响/负担,Burden→负担,Burden→负担
+base,insights.overheadImpact.columns.impactPerBurdenTip,Impact-if-excluded per unit of burden,每单位Burden的排除后影响,每单位负担的排除后影响,Burden→负担：游戏机制名翻译为中文,Burden→负担: game mechanic translated to Chinese
+base,insights.recipeProfit.columns.runsPerDay,Runs / day,运行 / 天,每日运行,翻译优化,Translation improvement
+base,insights.recipeProfit.columns.netPerDay,Net / day,净 / 天,每日净额,单个净字在中文中表示干净的意思居多，换成净额使其含义更明确,Standalone 净 often means clean in Chinese; 净额 makes the financial meaning clearer
+base,insights.researchRoi.columns.profitPerDay,Profit / day,利润 / 天,每日利润,翻译优化,Translation improvement
+base,insights.researchRoi.columns.increasedProfitPerDay,Increased profit / day,增加的利润 / 天,每日增加利润,翻译优化,Translation improvement
+base,insights.workforceProfit.columns.tier,Tier,Tier,等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+base,insights.workforceProfit.columns.profitPerDay,Profit / day,利润 / 天,每日利润,翻译优化,Translation improvement
+base,insights.workforceProfit.columns.per100Workers,Profit / 100 workers,利润 / 100 人,利润/100人,100与人之间多余空格，中文不加空格,Unnecessary space between number 100 and Chinese 人
+base,insights.workforceProfit.columns.per100WorkersTip,Profit per day per 100 workers in this tier,该Tier每100人的每日利润,该等阶每100人的每日利润,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+base,insights.workforceProfit.columns.per100Burden,Profit / 100 burden,利润 / 100 Burden,利润/100负担,Burden→负担,Burden→负担
+base,insights.workforceProfit.columns.per100BurdenTip,"Profit per day per 100 burden units (worker count × tier burden multiplier: w=1, t=1.5, e=2.5, s=4)",每100单位Burden的每日利润（人数 × Tier的Burden乘数：w=1、t=1.5、e=2.5、s=4）,每100单位负担的每日利润（人数 × 等阶的负担乘数：w=1、t=1.5、e=2.5、s=4）,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+base,issues.columns.perDay,#/day,#/day,#/天,单位统一,Unit normalization
+base,modals.newPlan.namePlaceholder,e.g. Tier-2 farming base,例如：Tier-2农业基地,例如：二等阶农业基地,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+base,overview.emptyState,No bases included. Use the Included Bases menu in the footer to add bases to the Overview.,未纳入任何基地。使用底部的已纳入基地菜单将基地添加到总览。,未包含任何基地。使用底部的已包含基地菜单将基地添加到总览。,翻译优化,Translation improvement
+base,overview.controls.netVsGross,Net vs gross,净/总,净额/总额,净→净额，总→总额,Net→净额
+base,overview.totalsMode.net,Net,净,净额,单个净字在中文中表示干净的意思居多，换成净额使其含义更明确,Standalone 净 often means clean in Chinese; 净额 makes the financial meaning clearer
+base,overview.totalsMode.gross,Gross,总,总额,独立标签总→总额，与净额对称,Gross standalone→总额 matching 净额
+base,overview.perBaseTable.empty,No bases included.,未纳入任何基地。,未包含任何基地。,翻译优化,Translation improvement
+base,overview.stats.deltaWithContracts,Delta / With contracts,差值 / 含合同,差值/含合同,斜杠空格移除,Slash space removal
+base,page.baseTitle.fallback,Base Page v2,基地页面 v2,基地页面v2,多余空格修复：中文与拉丁文/数字之间不加空格,Spacing fix: no space between Chinese and Latin/digits
+base,page.warnings.basePermits,Base permits:,基地许可：,基地许可证：,翻译优化,Translation improvement
+base,preview.stats.feeSavings.title,Fee Negotiation savings,Fee Negotiation节省,Fee Negotiation 节省,中英混杂修正,Mixed CN-EN fix
+base,preview.stats.goi,Global overhead impact / d,全局Overhead影响 / d,全局开销影响/天,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+base,preview.stats.goiDelta,Δ Global overhead / d,Δ全局Overhead / d,Δ全局开销/天,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+base,preview.warehouse.perkTooltip,Smart Stacking perk bonus,Smart Stacking Perk加成,Smart Stacking专长加成,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+base,preview.construction.copyTooltip.copy,Copy as chat text (e.g. 3x :CopperBar),复制为聊天文本（例如 3x :CopperBar）,复制为聊天文本（例如3x :CopperBar）,多余空格修复：中文与拉丁文/数字之间不加空格,Spacing fix: no space between Chinese and Latin/digits
+base,scenario.sections.perks,Prestige Perks,Prestige Perk,声望专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+base,scenario.sections.basePermits,Base Permits,基地许可,基地许可证,翻译优化,Translation improvement
+base,scenario.summary.category.perks,Perks,Perk,专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+base,scenario.summary.category.basePermits,Base permits,基地许可,基地许可证,翻译优化,Translation improvement
+base,scenario.overhead.math.excessBurden,Excess burden,超额Burden,超额负担,Burden→负担：游戏机制名翻译为中文,Burden→负担: game mechanic translated to Chinese
+base,scenario.overhead.math.baseOverhead,Base overhead,基础Overhead,基础开销,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+base,scenario.overhead.math.overheadPenalty,Overhead penalty,Overhead惩罚,开销惩罚,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+base,scenario.overhead.adminCenter.expansionOverhead,-{{reduction}}%/{{max}}% expansion overhead,-{{reduction}}%/{{max}}%扩建Overhead,-{{reduction}}%/{{max}}%扩建开销,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+base,scenario.perks.exclusiveFallback,Exclusive Perk,专属Perk,互斥专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+base,scenario.permits.name,Additional unused base permits,额外未使用的基地许可,额外未使用的基地许可证,翻译优化,Translation improvement
+base,scenario.permits.subtitle,Drives the {{perk}} per-permit production speed bonus.,决定{{perk}}的每份许可生产速度加成。,决定{{perk}}的每份许可证生产速度加成。,翻译优化,Translation improvement
+base,scenario.workforce.burden,×{{value}} burden,×{{value}} Burden,×{{value}} 负担,Burden→负担,Burden→负担
+base,warehouse.columns.produced,Prod/d,产出/d,每日产出,翻译优化,Translation improvement
+base,warehouse.columns.consumed,Cons/d,消耗/d,每日消耗,翻译优化,Translation improvement
+base,warehouse.columns.net,Net/d,净/d,每日净额,单个净字在中文中表示干净的意思居多，换成净额使其含义更明确,Standalone 净 often means clean in Chinese; 净额 makes the financial meaning clearer
+galaxy,intel.tooltip.scope.prestigePerks,Company (Prestige Perks),公司（Prestige Perks）,公司（声望专长）,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+galaxy,intel.production.columns.net,Net,净,净额,单个净字在中文中表示干净的意思居多，换成净额使其含义更明确,Standalone 净 often means clean in Chinese; 净额 makes the financial meaning clearer
+galaxy,intel.production.columns.valuePerDay,Value/day,价值/天,每日价值,翻译优化,Translation improvement
+galaxy,landing.scopes.prestigePerks,Prestige Perks,Prestige Perks,声望专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+galaxy,planetDetails.info.tier,Tier,Tier,等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+galaxy,table.column.tier,Tier,Tier,等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+galaxy,lens.option.planetTier,Planet Tier,行星Tier,行星等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+galaxy,search.placeholder,Planet or system…,行星或星系…,行星或星系…,翻译优化,Translation improvement
+guild,page.projectBonus.capacity,{{value}} tons,{{value}} 吨,{{value}}吨,翻译优化,Translation improvement
+guild,page.info.rank,Rank,排名,职级,公会角色上下文(领袖/管理员/成员)，应为职级非排名,Guild role context (Leader/Officer/Member)
+guild,page.info.prestige,Prestige,Prestige,声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+guild,page.memberPlanets.memberTable.tierSub,tier,Tier,等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+guild,page.memberPlanets.memberTable.prestige,Prestige,Prestige,声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+guild,page.memberPlanets.planetTable.tier,Tier,Tier,等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+guild,page.memberPlanets.planetTable.prestigeSub,prestige,Prestige,声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+guild,page.sections.prestigeTrend,Prestige Trend from Donations,捐赠带来的Prestige趋势,捐赠带来的声望趋势,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+guild,donationTargets.guide.axisPrestigePer1k,Prestige / $1k,Prestige / $1k,声望/$1k,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+guild,donationTargets.guide.columns.now,Now,当前,现在,翻译优化,Translation improvement
+guild,donationTargets.guide.columns.prestigePer1k,Prestige/$1k,Prestige/$1k,声望/$1k,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+guild,donationLeaderboard.projects.hq,HQ,HQ,总部,公会项目翻译,Guild project translated
+guild,donationLeaderboard.projects.admin,Admin,Admin,行政,公会项目翻译,Guild project translated
+guild,donationLeaderboard.projects.warehouse,Warehouse,Warehouse,仓库,公会项目翻译,Guild project translated
+guild,donationLeaderboard.projects.arcade,Arcade,Arcade,娱乐中心,公会项目翻译,Guild project translated
+guild,donationLeaderboard.columns.prestige,Prestige,Prestige,声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+guild,recentDonations.columns.prestige,Prestige,Prestige,声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+guild,adminRoi.title,Admin Center ROI,Admin Center ROI,行政中心ROI,翻译优化,Translation improvement
+guild,adminRoi.coverage.overheadOnly,({{count}} overhead-only),（{{count}}名仅有Overhead数据）,（{{count}}名仅有开销数据）,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+guild,adminRoi.mode.saturatedTitle,Counterfactual: model every member as fully expanding to use the new admin-center headroom. Shows the marginal overhead-tax savings the upgraded admin center provides on that expanded workforce (workforce-growth cost is excluded. That's the member's call vs. their production gain).,反事实假设：将每位成员都视为完全扩张以用满新的Admin Center余量。显示升级后的Admin Center在扩张后的劳动力上带来的边际Overhead税节省（不计入劳动力增长的成本，那需由成员自行权衡其生产收益）。,反事实假设：将每位成员都视为完全扩张以用满新的行政中心余量。显示升级后的行政中心在扩张后的劳动力上带来的边际开销税节省（不计入劳动力增长的成本，那需由成员自行权衡其生产收益）。,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+guild,adminRoi.mode.saturatedNote,Counterfactual: assumes every member expands to use the new admin-center headroom. Shows the marginal overhead-tax savings the upgraded admin center provides on that larger workforce. The cost of growing the workforce itself is excluded. That's the member's call vs. the production it unlocks.,反事实假设：假定每位成员都扩张以用满新的Admin Center余量。显示升级后的Admin Center在更大规模劳动力上带来的边际Overhead税节省。劳动力增长本身的成本不计入其中，那需由成员自行权衡其解锁的产能。,反事实假设：假定每位成员都扩张以用满新的行政中心余量。显示升级后的行政中心在更大规模劳动力上带来的边际开销税节省。劳动力增长本身的成本不计入其中，那需由成员自行权衡其解锁的产能。,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+guild,adminRoi.debug.penaltyPercent,Penalty %,惩罚 %,惩罚%,翻译优化,Translation improvement
+guild,adminRoi.debug.currentNetPercent,Current net %,当前净 %,当前净额%,翻译优化,Translation improvement
+guild,adminRoi.debug.headroomPercent,Headroom %,余量 %,余量%,翻译优化,Translation improvement
+guild,adminRoi.debug.headroomTitle,Penalty room before paying overhead tax at the API admin level. Negative = already paying tax on the excess penalty.,在API的Admin Center等级下，开始缴纳Overhead税之前的惩罚余量。负值 = 已在为超出的惩罚缴税。,在API的行政中心等级下，开始缴纳开销税之前的惩罚余量。负值 = 已在为超出的惩罚缴税。,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+guild,adminRoi.debug.liveConsumablesPerDay,Live consumables / day,实时消耗品 / 天,每日实时消耗品,翻译优化,Translation improvement
+guild,adminRoi.debug.savingsPlusOnePerDay,Savings @ +1 / day,节省 @ +1 / 天,节省 @ +1/天,斜杠空格移除,Slash space removal
+guild,adminRoi.states.maxLevel,Admin Center is already at max level.,Admin Center已达到最高等级。,行政中心已达到最高等级。,翻译优化,Translation improvement
+guild,adminRoi.states.noBuff,Admin Center has no per-level buff configured.,Admin Center未配置每级加成。,行政中心未配置每级加成。,翻译优化,Translation improvement
+guild,adminRoi.table.savingsPerDay,Savings / day,节省 / 天,每日节省,翻译优化,Translation improvement
+guild,adminRoi.table.upkeepDeltaPerDay,Upkeep Δ / day,维护费 Δ / 天,每日维护费Δ,斜杠空格移除,Slash space removal
+guild,adminRoi.table.netProfitPerDay,Net profit / day,净利润 / 天,每日净利润,翻译优化,Translation improvement
+guild,prestigeTrend.empty.noDonations,No prestige donations recorded during the selected window.,所选时间范围内无Prestige捐赠记录。,所选时间范围内无声望捐赠记录。,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+guild,prestigeTrend.tooltip.noChange,No prestige change,Prestige无变化,声望无变化,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+guild,chains.edgeTree.contractTable.unitsHeader,#/d,#/d,#/天,单位统一,Unit normalization
+guild,chains.edgeTree.contractTable.creditsHeader,cr/d,cr/d,cr/天,单位统一,Unit normalization
+guild,chains.edgeTree.produceCard.description,Run the recipe yourself and ship to the chain at the burden-based rate.,自行运行配方，并按基于Burden的费率向生产链供货。,自行运行配方，并按基于负担的费率向生产链供货。,Burden→负担：游戏机制名翻译为中文,Burden→负担: game mechanic translated to Chinese
+guild,chains.edgeTree.produceCard.shippingTitle,Per-ton shipping reimbursement on top of the burden-based pay.,在基于Burden的报酬之外，按吨补偿的运输费。,在基于负担的报酬之外，按吨补偿的运输费。,Burden→负担：游戏机制名翻译为中文,Burden→负担: game mechanic translated to Chinese
+guild,chains.deliveries.marketSellTitle,"No counterparty in the chain, you buy this from / sell it to the open market. Nothing to link or mark.",生产链中没有交易对手，此项从公开市场买入 / 卖出。无需关联或标记。,生产链中没有交易对手，此项从公开市场买入/卖出。无需关联或标记。,斜杠空格移除,Slash space removal
+guild,chains.deliveries.marketBuySell,Market buy / sell,市场买入 / 卖出,市场买入/卖出,斜杠空格移除,Slash space removal
+guild,chains.deliveries.noMatchingContracts,"No matching in-game contracts found. Create one with this partner for this material, then check again.",未找到匹配的游戏内合同。请先与该伙伴为此材料创建一份合同，然后重新检查。,未找到匹配的游戏内合同。请先与该交易对象为此材料创建一份合同，然后重新检查。,翻译优化,Translation improvement
+guild,chains.inspector.refreshTitle,"Re-sync Admin Center, credit settings, and every signup's research/perks/burden from current game data",根据当前游戏数据重新同步Admin Center、积分设置以及每个报名的研究/Perk/Burden,根据当前游戏数据重新同步行政中心、积分设置以及每个报名的研究/专长/负担,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+guild,chains.inspector.stored.rate,Rate (profit/h/100 burden),费率（利润/h/100 Burden）,费率（利润/小时/100负担）,Burden→负担,Burden→负担
+guild,chains.inspector.stored.adminCenter,Admin Center,Admin Center,行政中心,翻译优化,Translation improvement
+guild,chains.inspector.perDay,{{value}} /d,{{value}} /d,{{value}} /天,单位统一,Unit normalization
+guild,chains.inspector.burden,burden {{value}},Burden {{value}},负担 {{value}},Burden→负担,Burden→负担
+guild,chains.inspector.perksLabel,perks: ,Perk：,专长：,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+guild,chains.archive.rateLine,{{rate}} /d · {{name}},{{rate}} /d · {{name}},{{rate}} /天 · {{name}},单位统一,Unit normalization
+guild,chains.list.perDaySep,{{value}} /d ·,{{value}} /d ·,{{value}} /天 ·,单位统一,Unit normalization
+guild,chains.list.noContracts,No contracts yet. Sign up on a step in an open or active chain and your supply / buy commitments will appear here.,暂无合同。在开放或进行中的生产链的某个步骤上报名后，供应 / 采购承诺将显示在此处。,暂无合同。在开放或进行中的生产链的某个步骤上报名后，供应/采购承诺将显示在此处。,斜杠空格移除,Slash space removal
+guild,chains.list.perDay,{{value}} /d,{{value}} /d,{{value}} /天,单位统一,Unit normalization
+guild,chains.manifest.perHour,{{value}} /h,{{value}} /h,每小时{{value}},单位统一,Unit normalization
+guild,chains.prices.extractBadgeTitle,Extracted / farmed material. Supplier sets the price.,开采 / 种植获得的材料。由供应方定价。,开采/种植获得的材料。由供应方定价。,斜杠空格移除,Slash space removal
+guild,chains.pricing.perDay,/d,/d,/天,单位统一,Unit normalization
+guild,chains.pricing.marketCurAvg,Market (cur / avg),市场（当前 / 平均）,市场（当前/平均）,斜杠空格移除,Slash space removal
+guild,chains.pricing.chainFinal,Chain final / u,链最终价 / u,链最终价/单位,斜杠空格移除,Slash space removal
+guild,chains.pricing.chainFinalTitle,"What the chain pays per unit of the target material, blending every step's supplier costs at the current Profit/h/100 burden.",生产链为每单位目标材料支付的价格，按当前的利润/h/100 Burden混合每个步骤的供应方成本。,生产链为每单位目标材料支付的价格，按当前的利润/小时/100负担混合每个步骤的供应方成本。,Burden→负担：游戏机制名翻译为中文,Burden→负担: game mechanic translated to Chinese
+guild,chains.pricing.rateLabel,Profit / h / 100 burden,利润 / h / 100 Burden,利润/小时/100负担,Burden→负担,Burden→负担
+guild,chains.pricing.rateTitle,The shared guild labor rate. Every step pays its supplier(s) r × (step burden / 100) credits per hour above production cost. Typical values land in the 50-300 range.,公会共享的劳动费率。每个步骤在生产成本之上，每小时向其供应方支付 r × (步骤Burden / 100) 积分。典型值在50-300之间。,公会共享的劳动费率。每个步骤在生产成本之上，每小时向其供应方支付r × (步骤负担 / 100) 积分。典型值在50-300之间。,Burden→负担：游戏机制名翻译为中文,Burden→负担: game mechanic translated to Chinese
+guild,chains.pricing.rateUnit,$/h/100b,$/h/100b,$/小时/100b,单位统一,Unit normalization
+guild,chains.pricing.rateLabelShort,Profit/h/100b,利润/h/100b,利润/小时/100b,单位统一,Unit normalization
+guild,chains.pricing.creditsPerDay,{{value}} cr/d,{{value}} cr/d,{{value}} cr/天,单位统一,Unit normalization
+guild,chains.creditAdmin.settingsDescription,"α and β set the per-unit credit rate suppliers earn on chains your guild closes. <extract>extract ×</extract> is the buffer on chain-priced extractor / fertility recipes (Mine, Pump, Farm, …). Changes only affect chains created after the change; existing chains keep their snapshot.",α和β决定供应方在公会关闭的生产链上每单位可获得的积分费率。<extract>开采 ×</extract>是链定价的开采 / 肥沃度类配方（Mine、Pump、Farm等）的缓冲系数。更改仅影响此后创建的生产链；现有生产链保留其快照。,α和β决定供应方在公会关闭的生产链上每单位可获得的积分费率。<extract>开采 ×</extract>是链定价的开采/肥沃度类配方（Mine、Pump、Farm等）的缓冲系数。更改仅影响此后创建的生产链；现有生产链保留其快照。,翻译优化,Translation improvement
+guild,chains.creditAdmin.alphaTitle,"Credits per burden-unit of effort, per unit produced.",每生产一单位产品，每单位Burden投入所获得的积分。,每生产一单位产品，每单位负担投入所获得的积分。,Burden→负担：游戏机制名翻译为中文,Burden→负担: game mechanic translated to Chinese
+guild,chains.creditAdmin.extractTitle,Multiplier on the burden term of chain-pricing for extractor / fertility recipes.,链定价中开采 / 肥沃度类配方Burden项的倍率。,链定价中开采/肥沃度类配方负担项的倍率。,Burden→负担：游戏机制名翻译为中文,Burden→负担: game mechanic translated to Chinese
+guild,chains.creditAdmin.amountPlaceholder,e.g. 25 or -10,例如 25 或 -10,例如25或-10,多余空格修复：中文与拉丁文/数字之间不加空格,Spacing fix: no space between Chinese and Latin/digits
+guild,trade.creditAdjust.amountPlaceholder,e.g. 25 or -10,例如 25 或 -10,例如25或-10,多余空格修复：中文与拉丁文/数字之间不加空格,Spacing fix: no space between Chinese and Latin/digits
+guild,trade.creditSettings.description,α and β set the per-unit credit rate suppliers earn on chains the guild closes. <1>extract ×</1> is the buffer on chain-priced extractor / fertility recipes. Changes only affect chains created after the change.,α和β决定供应方在公会关闭的生产链上每单位可获得的积分费率。<1>开采 ×</1>是链定价的开采 / 肥沃度类配方的缓冲系数。更改仅影响此后创建的生产链。,α和β决定供应方在公会关闭的生产链上每单位可获得的积分费率。<1>开采 ×</1>是链定价的开采/肥沃度类配方的缓冲系数。更改仅影响此后创建的生产链。,翻译优化,Translation improvement
+guild,trade.creditSettings.alpha.tooltip,"Credits per burden-unit of effort, per unit produced.",每生产一单位产品，每单位Burden投入所获得的积分。,每生产一单位产品，每单位负担投入所获得的积分。,Burden→负担：游戏机制名翻译为中文,Burden→负担: game mechanic translated to Chinese
+guild,trade.creditSettings.extract.tooltip,Multiplier on the burden term of chain-pricing for extractor / fertility recipes.,链定价中开采 / 肥沃度类配方Burden项的倍率。,链定价中开采/肥沃度类配方负担项的倍率。,Burden→负担：游戏机制名翻译为中文,Burden→负担: game mechanic translated to Chinese
+leaderboard,columns.tier,Tier,Tier,等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+leaderboard,columnOptions.guild.prestige,Prestige,Prestige,声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+leaderboard,columnOptions.guild.projectHq,HQ,HQ,总部,公会项目翻译,Guild project translated
+leaderboard,columnOptions.guild.projectAdmin,Administration,Administration,行政中心,公会项目翻译,Guild project translated
+leaderboard,columnOptions.guild.projectFlight,Flight Center,Flight Center,飞行中心,公会项目翻译,Guild project translated
+leaderboard,columnOptions.guild.projectWarehouse,Warehouse,Warehouse,仓库,公会项目翻译,Guild project translated
+leaderboard,columnOptions.guild.projectArcade,Arcade,Arcade,娱乐中心,公会项目翻译,Guild project translated
+leaderboard,columnOptions.guild.memberPrestigeSum,Member Prestige Sum,成员Prestige总计,成员声望总计,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+leaderboard,columnOptions.guild.prestigeGain24h,Prestige % (1d),Prestige %（1天）,声望%（1天）,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+leaderboard,columnOptions.guild.valueGain24h,Value % (1d),价值 %（1天）,价值%（1天）,中文与%之间多余空格,Unnecessary space between Chinese and %
+leaderboard,columnOptions.guild.prestigeGain7d,Prestige % (7d),Prestige %（7天）,声望%（7天）,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+leaderboard,columnOptions.guild.valueGain7d,Value % (7d),价值 %（7天）,价值%（7天）,中文与%之间多余空格,Unnecessary space between Chinese and %
+leaderboard,columnOptions.company.prestige,Prestige,Prestige,声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+leaderboard,columnOptions.company.prestigeGain24h,Prestige % (1d),Prestige %（1天）,声望%（1天）,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+leaderboard,columnOptions.company.valueGain24h,Value % (1d),价值 %（1天）,价值%（1天）,中文与%之间多余空格,Unnecessary space between Chinese and %
+leaderboard,columnOptions.company.prestigeGain7d,Prestige % (7d),Prestige %（7天）,声望%（7天）,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+leaderboard,columnOptions.company.valueGain7d,Value % (7d),价值 %（7天）,价值%（7天）,中文与%之间多余空格,Unnecessary space between Chinese and %
+leaderboard,headers.guildPrestige,Guild Prestige,公会Prestige,公会声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+leaderboard,headers.hq,HQ,HQ,总部,公会项目翻译,Guild project translated
+leaderboard,headers.admin,Admin,Admin,行政,公会项目翻译,Guild project translated
+leaderboard,headers.flight,Flight,Flight,飞行,公会项目翻译,Guild project translated
+leaderboard,headers.warehouse,Wareh.,Wareh.,仓库,公会项目翻译,Guild project translated
+leaderboard,headers.arcade,Arcade,Arcade,娱乐中心,公会项目翻译,Guild project translated
+leaderboard,headers.memberPrestige,Member Prestige,成员Prestige,成员声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+leaderboard,headers.prestige,Prestige,Prestige,声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+leaderboard,headers.avgDaily,Avg Daily %,日均 %,日均%,翻译优化,Translation improvement
+leaderboard,eventFilters.guild.hqUpgraded,HQ upgraded,HQ升级,总部升级,公会项目翻译,Guild project translated
+leaderboard,eventFilters.guild.adminUpgraded,Administration upgraded,Administration升级,行政中心升级,公会项目翻译,Guild project translated
+leaderboard,eventFilters.guild.flightUpgraded,Flight Center upgraded,Flight Center升级,飞行中心升级,公会项目翻译,Guild project translated
+leaderboard,eventFilters.guild.warehouseUpgraded,Warehouse upgraded,Warehouse升级,仓库升级,公会项目翻译,Guild project translated
+leaderboard,eventFilters.guild.arcadeUpgraded,Arcade upgraded,Arcade升级,娱乐中心升级,公会项目翻译,Guild project translated
+market,page.exchangeColumns.playerQty,Player Qty,玩家数量,玩家挂单数,翻译优化,Translation improvement
+market,page.exchangeColumns.soldPerHour,Sold / Hr,售出 / 小时,每小时售出,翻译优化,Translation improvement
+market,page.exchangeColumns.priceChangePct,Price %,价格 %,价格%,翻译优化,Translation improvement
+market,page.columnOptions.soldPerHour,Sold / Hr,售出 / 小时,每小时售出,翻译优化,Translation improvement
+market,page.columnOptions.priceChangePct,Price %,价格 %,价格%,翻译优化,Translation improvement
+market,page.exportColumns.playerListed,Player Qty,玩家数量,玩家挂单数,翻译优化,Translation improvement
+market,page.exportColumns.soldPerHour,Sold / Hr,售出 / 小时,每小时售出,翻译优化,Translation improvement
+market,page.exportColumns.priceChangePct,Price %,价格 %,价格%,翻译优化,Translation improvement
+market,page.stats.avgSnapshotsPerDay,Avg snapshots / day,平均快照数 / 天,日均快照数,翻译优化,Translation improvement
+market,page.tradeVolume.estimatedNote,"Estimated daily trade value (units sold x best price), stacked by building tier.",每日交易额估算（售出单位数×最优价格），按建筑Tier堆叠。,每日交易额估算（售出单位数×最优价格），按建筑等阶堆叠。,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+market,page.tags.tooltips.wall,"Price wall - one company dominates the best price, capping what others can sell at",价格墙 - 一家公司主导最优价格，压低了其他公司的可售价格,价格墙 - 一家公司主导最优价格，限制了其他公司的可售价格,翻译优化,Translation improvement
+market,page.analysis.columns.profitAtAvgTitle,Profit/h at average trade price,按平均成交价计算的利润/h,按平均成交价计算的每小时利润,翻译优化,Translation improvement
+market,page.analysis.columns.profitAtCurrentTitle,Profit/h at current best price,按当前最优价格计算的利润/h,按当前最优价格计算的每小时利润,翻译优化,Translation improvement
+market,page.analysis.columns.tierNormProfitAtAvgTitle,Tier-normalized profit/h at avg trade price (profit ÷ building tier),按平均成交价计算的Tier归一化利润/h（利润÷建筑Tier）,按平均成交价计算的每小时等阶归一化利润（利润÷建筑等阶）,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+market,page.analysis.columns.tierNormProfitAtCurrentTitle,Tier-normalized profit/h at current best price (profit ÷ building tier),按当前最优价格计算的Tier归一化利润/h（利润÷建筑Tier）,按当前最优价格计算的每小时等阶归一化利润（利润÷建筑等阶）,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+market,materialDetail.stat.minMax,Min / Max,最低 / 最高,最低/最高,斜杠空格移除,Slash space removal
+market,materialDetail.stat.soldPerHour,Sold / hr,售出 / 小时,每小时售出,翻译优化,Translation improvement
+market,materialDetail.activity.column.guildCompany,Guild / Company,公会 / 公司,公会/公司,斜杠空格移除,Slash space removal
+market,materialDetail.activity.column.salesPct,Sales %,销量 %,销量%,翻译优化,Translation improvement
+market,materialDetail.pattern.error,Failed to load activity pattern.,活跃规律加载失败。,活动规律加载失败。,翻译优化,Translation improvement
+market,materialDetail.axis.listedSold,Listed / Sold,挂单 / 已售,挂单/已售,斜杠空格移除,Slash space removal
+overview,page.features.items.research.desc,"Estimate research costs, plan perk point allocation and compare priorities across different specs.",估算研究成本，规划Perk点数分配，并比较不同Spec之间的优先级。,估算研究成本，规划专长点数分配，并比较不同Spec之间的优先级。,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+overview,page.features.items.leaderboard.desc,"Browse guild and company rankings, compare stats and follow global event activity.",浏览公会与公司排名，比较数据，并关注全局事件动态。,浏览公会与公司排名，比较数据，并关注全局事件动态。,翻译优化,Translation improvement
+overview,quickLinks.globalEvents,Global events,全局事件,全局事件,翻译优化,Translation improvement
+prestige,perks.groupLabel.exclusive,Exclusive Perk,Exclusive Perk,互斥专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+prestige,perks.groupLabel.supervision,Supervision,Supervision,监管,翻译优化,Translation improvement
+production,consumables.dataUnavailable,Consumable data is unavailable for this tier.,此Tier的消耗品数据不可用。,此等阶的消耗品数据不可用。,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+production,overhead.previewOverheadLabel,Preview overhead,预览Overhead,预览开销,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+production,overhead.totalWorkforceBurden,Total workforce / burden,总劳动力 / Burden,总劳动力/负担,Burden→负担,Burden→负担
+production,overhead.expansionOverhead,Expansion overhead,扩建Overhead,扩建开销,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+production,overhead.perDay,/ day,/ 天,/天,斜杠与中文之间多余空格,Unnecessary space between slash / and Chinese 天
+profitability,recipes.productivity.productionSpeedPerks,Production speed perks,生产速度Perk,生产速度专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+profitability,recipes.productivity.specialPerkMultiplier,Special perk multiplier,特殊Perk倍率,特殊专长倍率,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+profitability,materialSources.row.customTitle,"Custom pick, overrides Best / Best (base)",自定义选择，覆盖最佳 / 最佳（基地）,自定义选择，覆盖最佳/最佳（基地）,斜杠空格移除,Slash space removal
+profitability,materialSources.contextMenu.highestAtTier,Highest at tier…,Tier中最高…,等阶中最高…,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+profitability,materialSources.contextMenu.tier,Tier {{tier}},Tier {{tier}},等阶{{tier}},Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+profitability,materialSources.contextMenu.noPlanetAtAnyTier,No planet has this material at any tier.,任何Tier下都没有行星拥有此材料。,任何等阶下都没有行星拥有此材料。,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+profitability,materialSources.other.planetTier,Planet tier,行星Tier,行星等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+profitability,materialSources.other.globalOverheadImpact,Global overhead impact,全局Overhead影响,全局开销影响,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+profitability,materialSources.other.globalOverheadHelpLabel,What is global overhead impact?,什么是全局Overhead影响？,什么是全局开销影响？,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+profitability,materialSources.other.globalOverheadHelp.p1,"Every worker you employ raises your company's overhead, which makes every worker across all your bases consume slightly more consumables. So a new production building doesn't just cost its own workers' supplies. It also nudges up the consumables every other building needs.",每雇佣一名工人都会提高公司的Overhead，使所有基地中的每名工人多消耗一些消耗品。因此，新建一座生产建筑不仅要承担其自身工人的补给成本，还会推高其他所有建筑所需的消耗品。,每雇佣一名工人都会提高公司的开销，使所有基地中的每名工人多消耗一些消耗品。因此，新建一座生产建筑不仅要承担其自身工人的补给成本，还会推高其他所有建筑所需的消耗品。,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+profitability,materialSources.other.vacationHelp.p1,Controls how bases flagged as on vacation in-game feed into the overhead burden. It is independent of the base page's own vacation toggle.,控制在游戏中标记为休假的基地如何计入Overhead burden。此设置独立于基地页面自身的休假开关。,控制在游戏中标记为休假的基地如何计入开销负担。此设置独立于基地页面自身的休假开关。,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+profitability,materialSources.other.vacationHelp.liveBody,"respects the in-game flag, so vacationing bases drop out of the overhead burden.",遵循游戏内的标记，休假中的基地会从Overhead burden中剔除。,遵循游戏内的标记，休假中的基地会从开销负担中剔除。,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+profitability,filters.rows.tier,Tier,Tier,等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+profitability,filters.rows.targetProfit,Target profit / h,目标利润 / h,每小时目标利润,单位统一,Unit normalization
+profitability,filters.rows.targetPerBurden,Target / 100 burden,目标 / 100 burden,目标/100负担,Burden→负担,Burden→负担
+profitability,filters.sort.tier,Tier,Tier,等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+profitability,filters.displayMode.profit,Profit / h,利润 / h,每小时利润,单位统一,Unit normalization
+profitability,filters.displayMode.profitTotal,Total profit / h,总利润 / h,每小时总利润,单位统一,Unit normalization
+profitability,filters.displayMode.inputCost,Input cost / h,输入成本 / h,每小时输入成本,翻译优化,Translation improvement
+profitability,filters.displayMode.outputValue,Output value / h,产出价值 / h,每小时产出价值,翻译优化,Translation improvement
+profitability,filters.displayMode.consumableCost,Consumable cost / h,消耗品成本 / h,每小时消耗品成本,翻译优化,Translation improvement
+profitability,filters.displayMode.profitPerBurden,Profit / h / 100 burden,利润 / h / 100 burden,利润/小时/100负担,Burden→负担,Burden→负担
+profitability,filters.displayMode.profitPerWeightChange,Profit / weight change,利润 / 重量变化,每重量变化利润,翻译优化,Translation improvement
+profitability,filters.displayMode.profitPerTotalWeight,Profit / total weight,利润 / 总重量,每总重量利润,翻译优化,Translation improvement
+profitability,filters.displayMode.profitPerMaxLegWeight,Profit / max leg weight,利润 / 最大航段重量,每最大航段重量利润,翻译优化,Translation improvement
+profitability,filters.displayMode.targetPricePerBurden,Target price (per burden),目标价格（每burden）,目标价格（每负担）,Burden→负担：游戏机制名翻译为中文,Burden→负担: game mechanic translated to Chinese
+profitability,filters.includedBases.buttonTitle,Choose which bases feed cross-base aggregations (overhead / workforce / etc.),选择哪些基地参与跨基地汇总（Overhead / 劳动力 / 等等）,选择哪些基地参与跨基地汇总（开销/劳动力/等等）,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+profitability,scenario.sections.perks,Perks,Perk,专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+profitability,dataManagement.settings.sections.perks,Prestige Perks,Prestige Perk,声望专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+profitability,dataManagement.share.options.overhead.onHint,Your workforce and admin center are baked in.,当前的劳动力和Admin Center已固化在链接中。,当前的劳动力和行政中心已内置在链接中。,Admin Center→行政中心；固化→内置,Admin Center→行政中心; 固化→内置
+profitability,dataManagement.share.options.perks.offHint,NULL,使用接收者自己的Perk。,使用接收者自己的专长。,NULL,NULL
+profitability,dataManagement.share.options.overhead.offHint,The receiver's own overhead is used.,使用接收者自己的Overhead。,使用接收者自己的开销。,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+profitability,dataManagement.share.options.general.onHint,"Building level, condition, workforce % and planet tier travel along.",建筑等级、状况、劳动力%和行星Tier会一并传递。,建筑等级、状况、劳动力%和行星等阶会一并传递。,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+research,page.toggle.perks,Perks,Perks,专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,page.nav.title,Research & Perks,研究与Perks,研究与专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,page.nav.prestigePerks,Prestige Perks,Prestige Perks,声望专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,perks.panelTitle,Prestige Perks,Prestige Perks,声望专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,perks.points.available,Available Perk Points,可用Perk点数,可用专长点数,Perk→专长，英文原文无Prestige,Perk→专长; English source has no Prestige
+research,perks.points.next,Next Perk Point,下一个Perk点数,下一个专长点数,Perk→专长，英文原文无Prestige,Perk→专长; English source has no Prestige
+research,perks.overview.title,Perk Overview,Perk概览,专长概览,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,perks.overview.otherPerks,Other Perks,其他Perks,其他专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,perks.columns.perk,Perk,Perk,专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,perks.columns.costTitle,Perk points needed for next level,升至下一等级所需的Perk点数,升至下一等级所需的专长点数,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,perks.columns.valuePerDay,Value/day,价值/天,每日价值,翻译优化,Translation improvement
+research,perks.columns.valuePerDayTitle,Daily monetary value of the current perk level,当前Perk等级的每日货币价值,当前专长等级的每日货币价值,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,perks.columns.valuePerPoint,Value/pt,价值/点,每点价值,翻译优化,Translation improvement
+research,perks.columns.valuePerPointTitle,Current daily value per total perk point invested,已投入的每个Perk点数带来的当前每日价值,已投入的每个专长点数带来的当前每日价值,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,perks.columns.nextPerPointTitle,NULL,NULL,NULL,NULL,NULL
+research,perks.columns.nextPerPointTitle,Daily monetary gain per perk point spent on next level,下一等级每投入一个Perk点数带来的每日货币收益,下一等级每投入一个专长点数带来的每日货币收益,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,perks.columns.savedTitle,One-time construction cost saved by this perk,此Perk节省的一次性建造成本,此专长节省的一次性建造成本,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,perks.columns.savedPerPoint,Saved/pt,节省/点,每点节省,翻译优化,Translation improvement
+research,perks.columns.savedPerPointTitle,Current savings per total perk point invested,已投入的每个Perk点数带来的当前节省,已投入的每个专长点数带来的当前节省,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,perks.columns.savedNextPerPointTitle,Marginal savings per perk point for next level,下一等级每个Perk点数带来的边际节省,下一等级每个专长点数带来的边际节省,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,perks.tier.locked,Tier {{tier}} locked ({{spent}}/{{required}} pts in lower tiers),Tier {{tier}}已锁定（低Tier已投入{{spent}}/{{required}}点）,等阶{{tier}}已锁定（低等阶已投入{{spent}}/{{required}}点）,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+research,perks.consolidated.prodSpeedSuffix,% prod. speed,% 生产速度,%生产速度,翻译优化,Translation improvement
+research,perks.consolidated.nextHqUpgrade,Next HQ upgrade,下次HQ升级,下次总部升级,公会项目翻译,Guild project translated
+research,perks.debug.outputPerDay,Output/d:,产出/d：,每日产出：,翻译优化,Translation improvement
+research,perks.debug.inputPerDay,Input/d:,输入/d：,每日输入：,翻译优化,Translation improvement
+research,perks.debug.consumablePerDay,Consumable/d:,消耗品/d：,每日消耗品：,翻译优化,Translation improvement
+research,perks.debug.maintenancePerDay,Maintenance/d:,维护/d：,每日维护：,翻译优化,Translation improvement
+research,perks.debug.netProfitPerDay,Net Profit/d:,净利润/d：,每日净利润：,翻译优化,Translation improvement
+research,flightRoutes.empty,No routes defined. Add routes to calculate logistics perk values.,尚未定义航线。添加航线以计算物流Perk价值。,尚未定义航线。添加航线以计算物流专长价值。,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,flightRoutes.debug.fuelCostPerDay,Fuel cost/day:,燃料成本/天：,每日燃料成本：,翻译优化,Translation improvement
+research,flightRoutes.debug.repairCostPerDay,Repair cost/day:,维修成本/天：,每日维修成本：,翻译优化,Translation improvement
+research,flightRoutes.transport.grossPerDay,Gross/d,总/d,每日总额,翻译优化,Translation improvement
+research,flightRoutes.transport.netPerDay,Net/d,净/d,每日净额,单个净字在中文中表示干净的意思居多，换成净额使其含义更明确,Standalone 净 often means clean in Chinese; 净额 makes the financial meaning clearer
+research,activeBonuses.panelTitle,Company Perks,公司Perks,公司专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+research,activeBonuses.perDaySuffix,/d,/d,/天,单位统一,Unit normalization
+research,activeBonuses.perkPoints,Perk Points,Perk点数,专长点数,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+settings,sharing.groups.company.prestigePerks,Prestige perks,Prestige Perk,声望专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+settings,sharing.groups.company.perkImpact,Perk impact,Perk影响,专长影响,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+settings,sharing.groups.bases.basesOverheadSummary,Workforce overhead,劳动力Overhead,劳动力开销,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+settings,sharing.groups.bases.basesOverheadSummarySuffix,consumables totals + admin center level only; used by guild Admin Center ROI,仅包含消耗品总计和Admin Center等级；用于公会Admin Center的ROI,仅包含消耗品总计和行政中心等级；用于公会行政中心的ROI,翻译优化,Translation improvement
+settings,sharing.groups.productionChains.guildChainsSuffix,"lets your guild use your research, perks & workforce to price your chain signups fairly; defaults to Guild",让公会能够依据研究、Perk和劳动力，为生产链报名公平定价；默认为公会,让公会能够依据研究、专长和劳动力，为生产链报名公平定价；默认为公会,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+settings,general.statTiles.description,"Toggle the rank, prestige and company value tiles.",切换排名、Prestige和公司价值卡片。,切换排名、声望和公司价值卡片。,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+settings,productionSettings.syncDescription,"When enabled, research overrides and overhead previews stay in sync between Base and Profitability.",启用后，研究覆盖和Overhead预览会在基地与盈利分析之间保持同步。,启用后，研究覆盖和开销预览会在基地与盈利分析之间保持同步。,Overhead→开销：游戏机制名翻译为中文,Overhead→开销: game mechanic translated to Chinese
+settings,baseSettings.starterPlanning.label,Starter base planning,新手基地规划,初始基地规划,翻译优化,Translation improvement
+settings,baseSettings.starterPlanning.toggle,Show starter base option when planning a new base,规划新基地时显示新手基地选项,规划新基地时显示初始基地选项,翻译优化,Translation improvement
+settings,baseSettings.starterPlanning.description,"Adds a control in the Warnings & info panel to simulate construction costs as a starter base (12 free terraform slots, 3 star slots).",在“警告与信息”面板中添加一个控件，用于按新手基地（12个免费地形改造槽位，3个星级槽位）模拟建造成本。,在“警告与信息”面板中添加一个控件，用于按初始基地（12个免费地形改造槽位，3个星币槽位）模拟建造成本。,翻译优化,Translation improvement
+ships,controls.bestCheapest,Best / cheapest,最佳 / 最便宜,最佳/最便宜,斜杠空格移除,Slash space removal
+ships,modal.costPerTonOutbound,Cost / ton (outbound),成本 / 吨（去程）,每吨成本（去程）,翻译优化,Translation improvement
+ships,modal.costPerTonReturn,Cost / ton (return),成本 / 吨（回程）,每吨成本（回程）,翻译优化,Translation improvement
+ships,materialsCalc.sections.hullPlates,Hull plates,Hull Plates,船体板,翻译优化,Translation improvement
+ships,materialsCalc.sections.bridges,Bridges,Bridges,舰桥,翻译优化,Translation improvement
+ships,materialsCalc.notes.required.hullPlate,One hull plate type.,一种Hull Plate类型。,一种船体板类型。,翻译优化,Translation improvement
+ships,materialsCalc.notes.required.bridge,One bridge type.,一种Bridge类型。,一种舰桥类型。,翻译优化,Translation improvement
+ships,results.costPerTon,Cost / ton,成本 / 吨,每吨成本,翻译优化,Translation improvement
+ships,travelEstimates.columns.fuelPercent,Fuel %,燃料 %,燃料%,翻译优化,Translation improvement
+ships,speedBreakdown.perks,Perks (multiplicative),Perk（乘算）,专长（乘算）,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+ships,perkSavings.withoutPerk,Without perk,无Perk,无专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+ships,bonuses.prestigePerks,Prestige Perks,Prestige Perk,声望专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+ships,search.params.maxHullType,Max Hull type,最高Hull类型,最高船体类型,翻译优化,Translation improvement
+ships,search.params.maxBridgeType,Max bridge type,最高Bridge类型,最高舰桥类型,翻译优化,Translation improvement
+ships,search.filters.anyHull,Any hull,任意Hull,任意船体,翻译优化,Translation improvement
+ships,search.filters.anyBridge,Any bridge,任意Bridge,任意舰桥,翻译优化,Translation improvement
+ships,search.hullWarning.starglass,"This configuration requires Starglass hull plates, increasing construction cost.",此配置需要Starglass Hull Plates，会增加建造成本。,此配置需要[Starglass Hull Plate]，会增加建造成本。,翻译优化,Translation improvement
+ships,search.hullWarning.general,Shielding upgrades increase the required hull tier compared to the base design.,相比基础设计，屏蔽升级会提高所需的Hull Tier。,相比基础设计，屏蔽升级会提高所需的船体等阶。,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+ships,search.diagnose.hullFallback,selected hull tier,所选Hull Tier,所选船体等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+ships,search.diagnose.reactorFallback,selected reactor tier,所选反应堆Tier,所选反应堆等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+ships,search.diagnose.bridgeFallback,selected bridge tier,所选Bridge Tier,所选舰桥等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+ships,search.diagnose.hull,{{hull}} cannot support {{cargo}}t for this route. Choose a sturdier hull or lower the cargo requirement.,{{hull}}无法在此航线上承载{{cargo}}t。选择更坚固的Hull或降低货物需求。,{{hull}}无法在此航线上承载{{cargo}}t。选择更坚固的船体或降低货物需求。,翻译优化,Translation improvement
+ships,search.diagnose.reactor,{{reactor}} does not generate enough power for the requested trip. Permit higher-tier reactors.,{{reactor}}无法为所需行程提供足够的功率。允许更高Tier的反应堆。,{{reactor}}无法为所需行程提供足够的功率。请使用更高等阶的反应堆。,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+tracker,company.tabs.perks,Perks,Perks,专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+tracker,company.columns.usedPerDay,Used/day,消耗/天,每日消耗,翻译优化,Translation improvement
+tracker,company.columns.producedPerDay,Produced/day,产出/天,每日产出,翻译优化,Translation improvement
+tracker,company.columns.weightPerDay,Weight/day,重量/天,每日重量,翻译优化,Translation improvement
+tracker,company.columns.netPerDay,Net/day,净/天,每日净额,单个净字在中文中表示干净的意思居多，换成净额使其含义更明确,Standalone 净 often means clean in Chinese; 净额 makes the financial meaning clearer
+tracker,company.columns.valuePerDay,Value/day,价值/天,每日价值,翻译优化,Translation improvement
+tracker,company.columns.qtyEa,Qty / ea,数量 / 单次,每单数量,翻译优化,Translation improvement
+tracker,company.columns.qtyDay,Qty / day,数量 / 天,每日数量,翻译优化,Translation improvement
+tracker,company.columns.totalDay,Total / day,合计 / 天,每日合计,翻译优化,Translation improvement
+tracker,company.columns.tier,Tier,Tier,等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+tracker,company.columns.perk,NULL,Perk,专长,NULL,NULL
+tracker,company.columns.perk,NULL,Perk,专长,NULL,NULL
+tracker,company.overview.stat.prestige,Prestige,Prestige,声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+tracker,company.perks.perkOverview,Perk Overview,Perk概览,专长概览,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+tracker,company.perks.noPerks,No prestige perks allocated.,未分配Prestige Perk。,未分配声望专长。,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+tracker,company.history.prestigeValueHistory,Prestige & Value History,Prestige与价值历史,声望与价值历史,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+tracker,company.history.prestige,Prestige,Prestige,声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+tracker,company.sharing.features.company_perks,Prestige Perks,Prestige Perks,声望专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+tracker,guild.overview.prestige,Prestige,Prestige,声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+tracker,guild.members.columns.prestige,Prestige,Prestige,声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+tracker,guild.history.series.guildPrestige,Guild Prestige,公会Prestige,公会声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+tracker,guild.history.series.memberPrestige,Member Prestige,成员Prestige,成员声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+tracker,guild.planets.columns.tier,Tier,Tier,等阶,Tier→等阶：游戏等级术语统一翻译,Tier→等阶: game tier term unified translation
+tracker,guild.planets.columns.guildRank,Guild Rank,公会排名,公会职级,翻译优化,Translation improvement
+tracker,guild.planets.columns.prestige,Prestige,Prestige,声望,Prestige→声望：游戏机制名统一翻译,Prestige→声望: game mechanic name unified translation
+tracker,guild.production.columns.used,Used/day,消耗/天,每日消耗,翻译优化,Translation improvement
+tracker,guild.production.columns.produced,Prod/day,产出/天,每日产出,翻译优化,Translation improvement
+tracker,guild.production.columns.net,Net/day,净/天,每日净额,单个净字在中文中表示干净的意思居多，换成净额使其含义更明确,Standalone 净 often means clean in Chinese; 净额 makes the financial meaning clearer
+tracker,guild.production.columns.value,Value/day,价值/天,每日价值,翻译优化,Translation improvement
+tracker,exchange.columns.salesPct,Sales %,销量 %,销量%,翻译优化,Translation improvement
+ui,unavailable.features.company_perks,Prestige perks,Prestige Perk,声望专长,Perk→专长：游戏机制名统一翻译,Perk→专长: game mechanic name unified translation
+wishlist,columns.material.tooltip,Material required for this step. Stars are shown in brackets and are not exported.,此步骤所需的材料。星级显示在括号中，不会导出。,此步骤所需的材料。星币数量显示在括号中，不会导出。,翻译优化,Translation improvement
+wishlist,preview.hqSectionTitle,HQ costs (Wishlist: HQ upgrade),HQ成本（心愿单：HQ升级）,总部成本（心愿单：总部升级）,公会项目翻译,Guild project translated
+wishlist,footer.sectionSupplemental,Consumables / inputs / intermediates,消耗品 / 输入 / 中间产品,消耗品/输入/中间产品,斜杠空格移除,Slash space removal
+base,baseList.nav.more,More ...,更多 ...,更多...,同步补录
+base,baseList.entry.onVacation,"On vacation. Production paused, no consumables used",休假中。生产暂停，不消耗消耗品,休假中。生产暂停，不使用消耗品,同步补录
+base,buildings.slot.buyableWithStars,Buyable with stars,可用星星购买,可用星币购买,同步补录
+base,buildings.legend.stripedSlot,Striped slot = locked (terraform or stars),条纹槽位 = 已锁定（地形改造或星星）,条纹槽位 = 已锁定（地形改造或星币）,同步补录
+base,controls.planetHeader.fertility,Fertility,肥沃度,肥沃度,同步补录
+base,modals.newPlan.starter.hint,"(12 free terraform slots, 3 star slots)",（12个免费地形改造槽位，3个星星槽位）,（12个免费地形改造槽位，3个星币槽位）,同步补录
+base,page.warnings.startingSettlement.body,Construction costs assume 12 free terraform slots and 3 star slots (the starting base layout). Toggle this in Settings if the starting base has been demolished.,建造成本假设有12个免费地形改造槽位和3个星星槽位（初始基地布局）。如果初始基地已被拆除，可在设置中切换此项。,建造成本假设有12个免费地形改造槽位和3个星币槽位（初始基地布局）。如果初始基地已被拆除，可在设置中切换此项。,同步补录
+base,page.warnings.starterPlan.body,Slots 1-12 free; star slots 23-25.,槽位1-12免费；星星槽位23-25。,槽位1-12免费；星币槽位23-25。,同步补录
+galaxy,page.hover.fertility,Fertility,肥沃度,肥沃度,同步补录
+galaxy,planetDetails.info.fertility,Fertility,肥沃度,肥沃度,同步补录
+galaxy,table.column.fertility,Fertility,肥沃度,肥沃度,同步补录
+galaxy,filters.resource.fertility,Fertility,肥沃度,肥沃度,同步补录
+galaxy,lens.option.fertility,Fertility,肥沃度,肥沃度,同步补录
+galaxy,share.lens.fertility,Fertility,肥沃度,肥沃度,同步补录
+guild,donationLeaderboard.projects.flight,Flight,Flight,飞行,同步补录
+guild,chains.edgeTree.contractTable.priceHeader,$/u,$/u,$/单位,同步补录
+guild,chains.inspector.perUnitPrice,{{price}}/u,{{price}}/u,{{price}}/单位,同步补录
+market,page.columnOptions.playerListed,Player Listed,玩家挂单,玩家挂单数,同步补录
+profitability,filters.displayMode.profitMargin,Profit margin %,利润率 %,利润率%,同步补录
+profitability,filters.displayMode.weightIncrease,Weight change %,重量变化 %,重量变化%,同步补录
+profitability,dataManagement.share.options.research.onHint,Your effective research levels are baked in.,当前的有效研究等级已固化在链接中。,当前的有效研究等级已内置在链接中。,同步补录
+profitability,dataManagement.share.options.perks.label,Prestige perks,Prestige Perk,声望专长,同步补录
+profitability,dataManagement.share.options.perks.onHint,Your prestige perk levels are baked in.,当前的Prestige Perk等级已固化在链接中。,当前的声望专长等级已内置在链接中。,同步补录
+profitability,dataManagement.share.options.startingBonus.onHint,Your starting speed bonus is baked in.,当前的起始速度加成已固化在链接中。,当前的起始速度加成已内置在链接中。,同步补录
+ships,shipSelection.tooltip,Choose a ship or blueprint to load a base layout.,选择飞船或Blueprint以加载基础布局。,选择飞船或Blueprint以加载基地布局。,同步补录
+ships,results.costTimePerTon,Cost-Time per ton,每吨成本时间,每吨成本-时间,同步补录
+ships,travelEstimates.columns.dist,Dist,Dist,距离,同步补录
+ships,search.optimize.costTimePerCargo,Cost-Time per cargo,每货物成本时间,每单位货物成本-时间,同步补录
+ships,search.metrics.costTimePerCargo,Cost-Time per cargo,每货物成本时间,每单位货物成本-时间,同步补录
+tracker,company.sharing.scope.private,private,私密,私有,同步补录
+tracker,company.sharing.status.noCompanion,no companion,未使用Companion,未使用GT Companion,同步补录

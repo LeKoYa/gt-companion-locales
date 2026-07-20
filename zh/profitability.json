@@ -71,8 +71,8 @@
     },
     "emptyState": "没有配方符合当前筛选条件。",
     "productivity": {
-      "productionSpeedPerks": "生产速度Perk",
-      "specialPerkMultiplier": "特殊Perk倍率",
+      "productionSpeedPerks": "生产速度专长",
+      "specialPerkMultiplier": "特殊专长倍率",
       "unusedPermits": "未使用许可证 × {{permits}}"
     }
   },
@@ -86,7 +86,7 @@
       "bestBaseTitleDisabled": "尚无自有基地"
     },
     "row": {
-      "customTitle": "自定义选择，覆盖最佳 / 最佳（基地）",
+      "customTitle": "自定义选择，覆盖最佳/最佳（基地）",
       "ownedTitle": "此材料的最佳自有基地",
       "autoTitle": "全银河最佳行星（尚无生产此材料的自有基地）",
       "noPlanet": "无行星",
@@ -98,9 +98,9 @@
       "change": "更改…",
       "bestBase": "最佳（基地）",
       "best": "最佳",
-      "highestAtTier": "Tier中最高…",
-      "tier": "Tier {{tier}}",
-      "noPlanetAtAnyTier": "任何Tier下都没有行星拥有此材料。"
+      "highestAtTier": "等阶中最高…",
+      "tier": "等阶{{tier}}",
+      "noPlanetAtAnyTier": "任何等阶下都没有行星拥有此材料。"
     },
     "shipping": {
       "autoLargestCargo": "自动（最大货物）",
@@ -117,9 +117,9 @@
       "buildingLevel": "建筑等级",
       "buildingCondition": "建筑状况",
       "workforceFulfillment": "劳动力满足度",
-      "planetTier": "行星Tier",
-      "globalOverheadImpact": "全局Overhead影响",
-      "globalOverheadHelpLabel": "什么是全局Overhead影响？",
+      "planetTier": "行星等阶",
+      "globalOverheadImpact": "全局开销影响",
+      "globalOverheadHelpLabel": "什么是全局开销影响？",
       "vacation": "休假",
       "vacationHelpLabel": "什么是休假模式？",
       "exclude": "排除",
@@ -127,16 +127,16 @@
       "live": "实时",
       "none": "无",
       "globalOverheadHelp": {
-        "p1": "每雇佣一名工人都会提高公司的Overhead，使所有基地中的每名工人多消耗一些消耗品。因此，新建一座生产建筑不仅要承担其自身工人的补给成本，还会推高其他所有建筑所需的消耗品。",
+        "p1": "每雇佣一名工人都会提高公司的开销，使所有基地中的每名工人多消耗一些消耗品。因此，新建一座生产建筑不仅要承担其自身工人的补给成本，还会推高其他所有建筑所需的消耗品。",
         "excludeLabel": "排除：",
         "excludeBody": "利润只扣除配方自身的直接成本。比较配方时使用此选项。",
         "includeLabel": "包含：",
         "includeBody": "利润还会扣除对公司其余部分产生的连带成本。判断新建建筑是否真正值得时使用此选项。"
       },
       "vacationHelp": {
-        "p1": "控制在游戏中标记为休假的基地如何计入Overhead burden。此设置独立于基地页面自身的休假开关。",
+        "p1": "控制在游戏中标记为休假的基地如何计入开销负担。此设置独立于基地页面自身的休假开关。",
         "liveLabel": "实时：",
-        "liveBody": "遵循游戏内的标记，休假中的基地会从Overhead burden中剔除。",
+        "liveBody": "遵循游戏内的标记，休假中的基地会从开销负担中剔除。",
         "noneLabel": "无：",
         "noneBody": "将所有基地视为完全活跃，如同全部劳动力均已召回。"
       }
@@ -151,13 +151,13 @@
       "search": "搜索",
       "favorites": "收藏",
       "availability": "可用性",
-      "tier": "Tier",
+      "tier": "等阶",
       "industry": "行业",
       "building": "建筑",
       "cardMetric": "卡片指标",
       "sortBy": "排序方式",
-      "targetProfit": "目标利润 / h",
-      "targetPerBurden": "目标 / 100 burden",
+      "targetProfit": "每小时目标利润",
+      "targetPerBurden": "目标/100负担",
       "roiOptions": "ROI选项"
     },
     "search": {
@@ -187,27 +187,27 @@
     },
     "sort": {
       "card": "卡片",
-      "tier": "Tier",
+      "tier": "等阶",
       "category": "类别",
       "industry": "行业",
       "building": "建筑"
     },
     "displayMode": {
-      "profit": "利润 / h",
-      "profitTotal": "总利润 / h",
-      "profitMargin": "利润率 %",
-      "inputCost": "输入成本 / h",
-      "outputValue": "产出价值 / h",
-      "consumableCost": "消耗品成本 / h",
-      "profitPerBurden": "利润 / h / 100 burden",
+      "profit": "每小时利润",
+      "profitTotal": "每小时总利润",
+      "profitMargin": "利润率%",
+      "inputCost": "每小时输入成本",
+      "outputValue": "每小时产出价值",
+      "consumableCost": "每小时消耗品成本",
+      "profitPerBurden": "利润/小时/100负担",
       "roiIncremental": "ROI（增量）",
       "roiTotal": "ROI（累计）",
-      "weightIncrease": "重量变化 %",
-      "profitPerWeightChange": "利润 / 重量变化",
-      "profitPerTotalWeight": "利润 / 总重量",
-      "profitPerMaxLegWeight": "利润 / 最大航段重量",
+      "weightIncrease": "重量变化%",
+      "profitPerWeightChange": "利润/重量变化",
+      "profitPerTotalWeight": "利润/总重量",
+      "profitPerMaxLegWeight": "利润/最大航段重量",
       "targetPrice": "目标价格",
-      "targetPricePerBurden": "目标价格（每burden）"
+      "targetPricePerBurden": "目标价格（每负担）"
     },
     "building": {
       "sortToggle": {
@@ -252,7 +252,7 @@
       "clearAll": "无"
     },
     "includedBases": {
-      "buttonTitle": "选择哪些基地参与跨基地汇总（Overhead / 劳动力 / 等等）",
+      "buttonTitle": "选择哪些基地参与跨基地汇总（开销/劳动力/等等）",
       "label": "已包含",
       "all": "全部",
       "header": "已包含的基地",
@@ -274,7 +274,7 @@
     "sections": {
       "consumables": "消耗品",
       "general": "常规",
-      "perks": "Perk",
+      "perks": "专长",
       "research": "研究",
       "shipping": "运输"
     },
@@ -326,7 +326,7 @@
         "general": "常规",
         "shipping": "运输",
         "research": "研究",
-        "perks": "Prestige Perk",
+        "perks": "声望专长",
         "consumables": "消耗品",
         "materialSources": "材料来源"
       }
@@ -358,23 +358,23 @@
       "options": {
         "research": {
           "label": "研究",
-          "onHint": "当前的有效研究等级已固化在链接中。",
+          "onHint": "当前的有效研究等级已内置在链接中。",
           "offHint": "使用接收者自己的研究等级。"
         },
         "perks": {
-          "label": "Prestige Perk",
-          "onHint": "当前的Prestige Perk等级已固化在链接中。",
-          "offHint": "使用接收者自己的Perk。"
+          "label": "声望专长",
+          "onHint": "当前的声望专长等级已内置在链接中。",
+          "offHint": "使用接收者自己的专长。"
         },
         "startingBonus": {
           "label": "起始加成",
-          "onHint": "当前的起始速度加成已固化在链接中。",
+          "onHint": "当前的起始速度加成已内置在链接中。",
           "offHint": "使用接收者自己的起始加成。"
         },
         "overhead": {
           "label": "Overhead",
-          "onHint": "当前的劳动力和Admin Center已固化在链接中。",
-          "offHint": "使用接收者自己的Overhead。"
+          "onHint": "当前的劳动力和行政中心已内置在链接中。",
+          "offHint": "使用接收者自己的开销。"
         },
         "consumables": {
           "label": "消耗品",
@@ -393,7 +393,7 @@
         },
         "general": {
           "label": "常规设置",
-          "onHint": "建筑等级、状况、劳动力%和行星Tier会一并传递。",
+          "onHint": "建筑等级、状况、劳动力%和行星等阶会一并传递。",
           "offHint": "使用接收者自己的常规设置。"
         }
       }

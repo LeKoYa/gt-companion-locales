@@ -51,7 +51,7 @@
     "totals": "合计",
     "material": {
       "label": "材料",
-      "tooltip": "此步骤所需的材料。星星数量显示在括号中，不会导出。"
+      "tooltip": "此步骤所需的材料。星币数量显示在括号中，不会导出。"
     },
     "required": {
       "label": "需求",
@@ -171,7 +171,7 @@
     "selectedWishlistTarget": "所选心愿单",
     "constructionSectionTitle": "{{section}}（心愿单：{{target}}）",
     "supplementalSectionTitle": "消耗品、输入与中间产品（心愿单：{{target}}）",
-    "hqSectionTitle": "HQ成本（心愿单：HQ升级）",
+    "hqSectionTitle": "总部成本（心愿单：总部升级）",
     "noBaseIssueData": "暂无可用于分组预览的基地问题数据。",
     "cargoOverweightPerBase": "仅建筑材料就超出该基地的货物预算",
     "cargoScaledPerBase": "消耗品/输入已缩放至{{percent}}%以匹配该基地的货物预算",
@@ -189,7 +189,7 @@
     },
     "rateLimited": "请求过于频繁，请稍后重试。",
     "sectionRequired": "需求",
-    "sectionSupplemental": "消耗品 / 输入 / 中间产品",
+    "sectionSupplemental": "消耗品/输入/中间产品",
     "sectionHq": "HQ成本",
     "totals": {
       "baseColumn": "基地",

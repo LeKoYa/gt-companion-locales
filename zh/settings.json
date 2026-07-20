@@ -68,8 +68,8 @@
       "company": {
         "title": "公司",
         "companyResearch": "研究等级",
-        "prestigePerks": "Prestige Perk",
-        "perkImpact": "Perk影响"
+        "prestigePerks": "声望专长",
+        "perkImpact": "专长影响"
       },
       "ships": {
         "title": "飞船",
@@ -87,8 +87,8 @@
         "basesNames": "基地名称",
         "basesLayouts": "基地布局",
         "basesProduction": "基地生产",
-        "basesOverheadSummary": "劳动力Overhead",
-        "basesOverheadSummarySuffix": "仅包含消耗品总计和Admin Center等级；用于公会Admin Center的ROI"
+        "basesOverheadSummary": "劳动力开销",
+        "basesOverheadSummarySuffix": "仅包含消耗品总计和行政中心等级；用于公会行政中心的ROI"
       },
       "contracts": {
         "title": "合同",
@@ -97,7 +97,7 @@
       "productionChains": {
         "title": "生产链",
         "guildChains": "公会生产链个性化",
-        "guildChainsSuffix": "让公会能够依据研究、Perk和劳动力，为生产链报名公平定价；默认为公会"
+        "guildChainsSuffix": "让公会能够依据研究、专长和劳动力，为生产链报名公平定价；默认为公会"
       },
       "upcoming": {
         "title": "即将推出",
@@ -151,7 +151,7 @@
     "statTiles": {
       "label": "统计卡片",
       "toggle": "在顶栏和菜单中显示统计卡片",
-      "description": "切换排名、Prestige和公司价值卡片。"
+      "description": "切换排名、声望和公司价值卡片。"
     },
     "debug": {
       "label": "调试信息",
@@ -175,7 +175,7 @@
     "title": "生产设置",
     "syncLabel": "跨页面同步",
     "syncToggle": "在所有页面使用相同的生产设置",
-    "syncDescription": "启用后，研究覆盖和Overhead预览会在基地与盈利分析之间保持同步。"
+    "syncDescription": "启用后，研究覆盖和开销预览会在基地与盈利分析之间保持同步。"
   },
   "baseSettings": {
     "title": "基地设置",
@@ -189,7 +189,7 @@
     "starterPlanning": {
       "label": "初始基地规划",
       "toggle": "规划新基地时显示初始基地选项",
-      "description": "在“警告与信息”面板中添加一个控件，用于按初始基地（12个免费地形改造槽位，3个星星槽位）模拟建造成本。"
+      "description": "在“警告与信息”面板中添加一个控件，用于按初始基地（12个免费地形改造槽位，3个星币槽位）模拟建造成本。"
     },
     "wishlistDefault": {
       "label": "心愿单默认值",

@@ -34,7 +34,10 @@ and the game.
 read a name here and search for it in the game.
 
 - **Material, recipe, planet, system, building and ship names** ("Iron Ore",
-  "Exchange Station", "Hephaestus")
+  "Exchange Station", "Hephaestus"). **Exception**: guild project names
+  (Headquarters, Administration Center, Flight Center, Arcade, Warehouse) are
+  translated because they are primarily consumed in this app's UI, not looked
+  up in the game.
 - **Company and guild names**
 - **Tiers**: T1 to T5, and the word "Tier"
 - **Workforce tiers**: Workers, Technicians, Engineers, Scientists. These are
@@ -52,7 +55,7 @@ are specific game systems with no everyday meaning, and a player who only ever
 sees 开销 will not recognise the mechanic when it is discussed anywhere else.
 These stay English:
 
-**Overhead**, **Burden**, **Perk**, **Spec**, **Prestige**, **Blueprint**
+**Spec**, **Blueprint**
 
 Ordinary vocabulary is translated normally, even when it names a game concept
 (Base, Guild, Ship, Recipe, Building). The line is "would a Chinese player
@@ -71,6 +74,11 @@ can still check this table. It should read roughly like the English column.
 | Member | 成员 | member | |
 | Exchange | 交易所 | exchange / trading house | the marketplace feature |
 | Exchange Station | Exchange Station | | the in-game building, unchanged |
+| Tier | 等阶 | tier | e.g. 一等阶、二等阶; T1–T5 stay as-is in abbreviations |
+| Perk | 专长 | perk / specialty | the game mechanic, translated |
+| Prestige | 声望 | prestige | the game mechanic, translated |
+| Overhead | 开销 | overhead | standalone label stays English; compound words and sentences translated |
+| Burden | 负担 | burden | standalone label and formulas stay English; compound words and sentences translated |
 | Market | 市场 | market | |
 | R&D | 研发 | R&D | the nav label and the page |
 | Research (verb) | 研究 | to research | |
@@ -94,7 +102,7 @@ can still check this table. It should read roughly like the English column.
 | Profitability | 盈利分析 | profitability analysis | the page name, as in the nav |
 | Revenue | 收入 | revenue | |
 | Cost | 成本 | cost | |
-| Net / Gross | 净 / 总 | net / gross | |
+| Net / Gross | 净额 / 总额 | net / gross | |
 | Margin | 利润率 | profit rate | |
 | Price | 价格 | price | |
 | Plan | 计划 | plan | |
@@ -139,7 +147,7 @@ can still check this table. It should read roughly like the English column.
 | Status | 状态 | status | |
 | Condition (wear) | 状况 | condition | never 状态, that is Status |
 | Age | 成立时长 | time since founding | |
-| Net | 净 | net | never 净值 |
+| Net | 净额 | net | standalone label; compound terms use 净 (净利润, 净产出) |
 | Sales | 销量 | sales volume | |
 | Credits (guild currency) | 积分 | points | the unit symbol `cr` stays `cr` |
 | Leader / Officer / Member | 会长 / 管理员 / 成员 | leader / admin / member | the three guild roles |
@@ -159,12 +167,16 @@ can still check this table. It should read roughly like the English column.
 | Global | 全局 | game-wide | never 全球, which means "planet Earth" |
 | Galaxy | 星系 | galaxy | there is only one |
 | Star system | 恒星系 | star system | never 星系, that is the galaxy |
-| Stars (the currency) | 星星 | stars | never 星级, which is a quality rating |
+| Stars (the currency) | 星币 | stars | never 星星 (ambiguous) or 星级 (quality rating) |
 | Unit price | 单价 | unit price | never 单位, which is a unit of measure |
 | Exchange (map label) | Exchange | | on the map it names the location, so it stays English |
 | Exclusive (perk group) | 互斥 | mutually exclusive | see below: one perk per group |
 | Supervision (perk group) | 监管 | supervision | |
 | Mission Pref. (perk group) | 任务偏好 | mission preference | |
+| Headquarters (guild project) | 总部 | headquarters | |
+| Administration Center | 行政中心 | administration center | guild project; never 管理中心 |
+| Flight Center | 飞行中心 | flight center | guild project |
+| Arcade (guild project) | 娱乐中心 | arcade | guild project; generates daily prestige |
 
 ## Verbs
 
@@ -195,6 +207,8 @@ far. Do not "fix" them into a single term: they are deliberate.
 | Leg | 航段 (flight) / 环节 (chain) | A route leg is a flight segment. A chain leg is a step in a production chain. |
 | Condition | 状况 (wear) / 状态 (status) | Building "condition" is wear and tear. Elsewhere "status" is a state. |
 | Base | 基地 (a base) / 基础 (a baseline) | See below, this one is a flaw in the English. |
+| Overhead | Overhead (label) / 开销 (sentence) | Standalone labels and formula terms stay English. Compound words (扩建开销) and full sentences use Chinese. |
+| Burden | Burden (label/formula) / 负担 (sentence) | Standalone labels and formula terms (利润 / 100 Burden) stay English. Compound words (超额负担) and full sentences use Chinese. |
 
 ## Known problems in the English source
 

@@ -4,7 +4,7 @@
       "members": "5 + {{level}}名成员",
       "reduction": "减少{{value}}%",
       "speed": "速度{{value}}%",
-      "capacity": "{{value}} 吨",
+      "capacity": "{{value}}吨",
       "effect": "效果{{value}}%"
     },
     "status": {
@@ -16,8 +16,8 @@
     },
     "info": {
       "guild": "公会",
-      "rank": "排名",
-      "prestige": "Prestige",
+      "rank": "职级",
+      "prestige": "声望",
       "members": "成员"
     },
     "project": {
@@ -51,18 +51,18 @@
         "company": "公司",
         "planetSub": "行星",
         "guildRank": "公会职级",
-        "tierSub": "Tier",
-        "prestige": "Prestige",
+        "tierSub": "等阶",
+        "prestige": "声望",
         "distSub": "距交易所距离",
         "value": "价值"
       },
       "planetTable": {
         "planet": "行星",
         "memberSub": "成员",
-        "tier": "Tier",
+        "tier": "等阶",
         "guildRankSub": "公会职级",
         "distToEx": "距交易所距离",
-        "prestigeSub": "Prestige",
+        "prestigeSub": "声望",
         "members": "成员",
         "valueSub": "价值"
       }
@@ -94,7 +94,7 @@
       "guildProjects": "公会项目",
       "donationTargets": "捐赠目标",
       "donationLeaderboard": "捐赠排行榜",
-      "prestigeTrend": "捐赠带来的Prestige趋势",
+      "prestigeTrend": "捐赠带来的声望趋势",
       "recentDonations": "最近捐赠",
       "memberResearchLevels": "成员研究等级",
       "memberPlanets": "成员行星"
@@ -287,7 +287,7 @@
       "cvTooltip": "CV：{{value}}",
       "moreCount": "… 还有{{count}}项",
       "axisCompanyValue": "公司价值",
-      "axisPrestigePer1k": "Prestige / $1k",
+      "axisPrestigePer1k": "声望/$1k",
       "columns": {
         "material": "材料",
         "now": "现在",
@@ -296,7 +296,7 @@
         "avg": "平均",
         "base": "基础价",
         "deal": "划算度",
-        "prestigePer1k": "Prestige/$1k"
+        "prestigePer1k": "声望/$1k"
       }
     }
   },
@@ -310,11 +310,11 @@
       "all": "全部时间"
     },
     "projects": {
-      "hq": "HQ",
-      "admin": "Admin",
-      "flight": "Flight",
-      "warehouse": "Warehouse",
-      "arcade": "Arcade"
+      "hq": "总部",
+      "admin": "行政",
+      "flight": "飞行",
+      "warehouse": "仓库",
+      "arcade": "娱乐"
     },
     "status": {
       "noCachedDonations": "暂无缓存的捐赠数据。"
@@ -325,7 +325,7 @@
     },
     "columns": {
       "company": "公司",
-      "prestige": "Prestige",
+      "prestige": "声望",
       "value": "价值",
       "totalPerCv": "总计 / $1M CV",
       "totalWindow": "总计（{{window}}）",
@@ -351,7 +351,7 @@
   "recentDonations": {
     "columns": {
       "member": "成员",
-      "prestige": "Prestige",
+      "prestige": "声望",
       "donatedItems": "捐赠物品"
     },
     "expanded": {
@@ -371,11 +371,11 @@
     }
   },
   "adminRoi": {
-    "title": "Admin Center ROI",
+    "title": "行政中心ROI",
     "coverage": {
       "excludedTitle": "已排除（无共享数据）：{{names}}",
       "shownFor": "显示{{total}}名成员中的{{shared}}名",
-      "overheadOnly": "（{{count}}名仅有Overhead数据）",
+      "overheadOnly": "（{{count}}名仅有开销数据）",
       "currentLevel": "当前等级：",
       "buffPerLevel": "每级加成："
     },
@@ -384,8 +384,8 @@
       "actual": "实际",
       "actualTitle": "按每位成员的实际惩罚计算的节省（对未达上限的成员是准确的）",
       "saturated": "饱和",
-      "saturatedTitle": "反事实假设：将每位成员都视为完全扩张以用满新的Admin Center余量。显示升级后的Admin Center在扩张后的劳动力上带来的边际Overhead税节省（不计入劳动力增长的成本，那需由成员自行权衡其生产收益）。",
-      "saturatedNote": "反事实假设：假定每位成员都扩张以用满新的Admin Center余量。显示升级后的Admin Center在更大规模劳动力上带来的边际Overhead税节省。劳动力增长本身的成本不计入其中，那需由成员自行权衡其解锁的产能。"
+      "saturatedTitle": "反事实假设：将每位成员都视为完全扩张以用满新的行政中心余量。显示升级后的行政中心在扩张后的劳动力上带来的边际开销税节省（不计入劳动力增长的成本，那需由成员自行权衡其生产收益）。",
+      "saturatedNote": "反事实假设：假定每位成员都扩张以用满新的行政中心余量。显示升级后的行政中心在更大规模劳动力上带来的边际开销税节省。劳动力增长本身的成本不计入其中，那需由成员自行权衡其解锁的产能。"
     },
     "debug": {
       "show": "调试",
@@ -394,27 +394,27 @@
       "noSharedData": "无共享的成员数据。",
       "member": "成员",
       "bases": "基地",
-      "penaltyPercent": "惩罚 %",
+      "penaltyPercent": "惩罚%",
       "apiAdminLevel": "API的Admin等级",
-      "currentNetPercent": "当前净 %",
-      "headroomPercent": "余量 %",
-      "headroomTitle": "在API的Admin Center等级下，开始缴纳Overhead税之前的惩罚余量。负值 = 已在为超出的惩罚缴税。",
-      "liveConsumablesPerDay": "实时消耗品 / 天",
-      "savingsPlusOnePerDay": "节省 @ +1 / 天"
+      "currentNetPercent": "当前净额%",
+      "headroomPercent": "余量%",
+      "headroomTitle": "在API的行政中心等级下，开始缴纳开销税之前的惩罚余量。负值 = 已在为超出的惩罚缴税。",
+      "liveConsumablesPerDay": "每日实时消耗品",
+      "savingsPlusOnePerDay": "节省 @ +1/天"
     },
     "states": {
       "loading": "正在加载成员生产数据…",
       "loadFailed": "加载失败。",
       "noSharedData": "尚无公会成员共享数据。",
-      "maxLevel": "Admin Center已达到最高等级。",
-      "noBuff": "Admin Center未配置每级加成。",
+      "maxLevel": "行政中心已达到最高等级。",
+      "noBuff": "行政中心未配置每级加成。",
       "noSavings": "更高等级无法带来额外节省。"
     },
     "table": {
       "level": "等级",
-      "savingsPerDay": "节省 / 天",
-      "upkeepDeltaPerDay": "维护费 Δ / 天",
-      "netProfitPerDay": "净利润 / 天",
+      "savingsPerDay": "每日节省",
+      "upkeepDeltaPerDay": "每日维护费Δ",
+      "netProfitPerDay": "每日净利润",
       "buildCost": "建造成本",
       "roiDays": "ROI（天）"
     }
@@ -428,12 +428,12 @@
       "hideAll": "隐藏全部"
     },
     "empty": {
-      "noDonations": "所选时间范围内无Prestige捐赠记录。",
+      "noDonations": "所选时间范围内无声望捐赠记录。",
       "selectCompanies": "选择一家或多家公司以显示趋势。"
     },
     "tooltip": {
       "total": "总计：{{value}}",
-      "noChange": "Prestige无变化"
+      "noChange": "声望无变化"
     }
   },
   "sectionTabs": {
@@ -497,10 +497,10 @@
       },
       "produceCard": {
         "badge": "生产",
-        "description": "自行运行配方，并按基于Burden的费率向生产链供货。",
+        "description": "自行运行配方，并按基于负担的费率向生产链供货。",
         "noRecipe": "此材料没有已知的生产配方。",
         "locked": "（已锁定）",
-        "shippingTitle": "在基于Burden的报酬之外，按吨补偿的运输费。",
+        "shippingTitle": "在基于负担的报酬之外，按吨补偿的运输费。",
         "shipping": "运输",
         "submit": "报名生产"
       },
@@ -564,8 +564,8 @@
       "noContracts": "尚无合同。报名供应某个步骤后，相应的承诺将显示在此处。",
       "contractsHeading": "合同",
       "noContractsShort": "无合同。",
-      "marketSellTitle": "生产链中没有交易对手，此项从公开市场买入 / 卖出。无需关联或标记。",
-      "marketBuySell": "市场买入 / 卖出",
+      "marketSellTitle": "生产链中没有交易对手，此项从公开市场买入/卖出。无需关联或标记。",
+      "marketBuySell": "市场买入/卖出",
       "selfSupplyTitle": "卖方和买方为同一人，并非双方之间的真实合同。",
       "selfSupply": "自供",
       "markAllTitle": "将当天所有自供标记为已交付",
@@ -582,26 +582,26 @@
       "title": "生产链检查器",
       "refresh": "刷新",
       "refreshing": "刷新中…",
-      "refreshTitle": "根据当前游戏数据重新同步Admin Center、积分设置以及每个报名的研究/Perk/Burden",
+      "refreshTitle": "根据当前游戏数据重新同步行政中心、积分设置以及每个报名的研究/专长/负担",
       "storedValues": "已存储的值",
       "stored": {
-        "rate": "费率（利润/h/100 Burden）",
+        "rate": "费率（利润/小时/100负担）",
         "markup": "加价",
         "creditAlpha": "积分α",
         "creditBeta": "积分β",
         "extractMultiplier": "开采倍率",
-        "adminCenter": "Admin Center"
+        "adminCenter": "行政中心"
       },
       "signupsHeading": "报名（{{count}}）",
       "noSignups": "暂无报名。",
-      "perDay": "{{value}} /d",
-      "perUnitPrice": "{{price}}/u",
+      "perDay": "{{value}} /天",
+      "perUnitPrice": "{{price}}/单位",
       "techLine": "技术{{tech}} · Overhead {{overhead}}",
-      "burden": "Burden {{value}}",
+      "burden": "负担 {{value}}",
       "snapshotAt": "快照{{date}}",
       "noSnapshot": "无快照（标准）",
       "researchLabel": "研究：",
-      "perksLabel": "Perk：",
+      "perksLabel": "专长：",
       "companyFallback": "公司{{id}}",
       "materialFallback": "材料{{id}}",
       "edgeFallback": "边{{id}}"
@@ -638,7 +638,7 @@
       "myContracts": "我的合同",
       "selfSupplyTitle": "卖方和买方为同一人的自供环节",
       "showSelfSupply": "显示自供（{{count}}）",
-      "noContracts": "暂无合同。在开放或进行中的生产链的某个步骤上报名后，供应 / 采购承诺将显示在此处。",
+      "noContracts": "暂无合同。在开放或进行中的生产链的某个步骤上报名后，供应/采购承诺将显示在此处。",
       "onlySelfSupply": "仅有自供合同。使用上方开关可显示。",
       "leftover": "剩余",
       "tintFlat": "从外部购买。固定价格供应。不产生积分。",
@@ -680,7 +680,7 @@
       "materialTitle": "{{name}} · {{role}}",
       "extractSuffix": " · 开采",
       "extractBadge": "EX",
-      "extractBadgeTitle": "开采 / 种植获得的材料。由供应方定价。",
+      "extractBadgeTitle": "开采/种植获得的材料。由供应方定价。",
       "manual": "手动",
       "manualTitle": "已手动覆盖",
       "srcMkt": "市场",
@@ -705,14 +705,14 @@
       "prices": "价格",
       "marketPrices": "市场价格",
       "marketPricesTitle": "查看或覆盖生产链对外部采购材料所使用的市场价格。",
-      "marketCurAvg": "市场（当前 / 平均）",
+      "marketCurAvg": "市场（当前/平均）",
       "marketCurAvgTitle": "生产链目标材料的当前市场价格 · 滚动平均市场价格。与下方生产链的最终价格对比，即可看出公会节省（或多付）了多少。",
-      "chainFinal": "链最终价 / u",
-      "chainFinalTitle": "生产链为每单位目标材料支付的价格，按当前的利润/h/100 Burden混合每个步骤的供应方成本。",
-      "rateLabel": "利润 / h / 100 Burden",
-      "rateTitle": "公会共享的劳动费率。每个步骤在生产成本之上，每小时向其供应方支付 r × (步骤Burden / 100) 积分。典型值在50-300之间。",
-      "rateUnit": "$/h/100b",
-      "rateLabelShort": "利润/h/100b",
+      "chainFinal": "链最终价/u",
+      "chainFinalTitle": "生产链为每单位目标材料支付的价格，按当前的利润/小时/100负担混合每个步骤的供应方成本。",
+      "rateLabel": "利润/小时/100负担",
+      "rateTitle": "公会共享的劳动费率。每个步骤在生产成本之上，每小时向其供应方支付r × (步骤负担 / 100) 积分。典型值在50-300之间。",
+      "rateUnit": "$/小时/100b",
+      "rateLabelShort": "利润/小时/100b",
       "unsavedEdits": "未保存的修改",
       "save": "保存",
       "discard": "放弃",
@@ -725,13 +725,13 @@
       "title": "积分（管理员）",
       "close": "关闭",
       "settings": "设置",
-      "settingsDescription": "α和β决定供应方在公会关闭的生产链上每单位可获得的积分费率。<extract>开采 ×</extract>是链定价的开采 / 肥沃度类配方（Mine、Pump、Farm等）的缓冲系数。更改仅影响此后创建的生产链；现有生产链保留其快照。",
+      "settingsDescription": "α和β决定供应方在公会关闭的生产链上每单位可获得的积分费率。<extract>开采 ×</extract>是链定价的开采/肥沃度类配方（Mine、Pump、Farm等）的缓冲系数。更改仅影响此后创建的生产链；现有生产链保留其快照。",
       "alphaLabel": "α（投入）",
-      "alphaTitle": "每生产一单位产品，每单位Burden投入所获得的积分。",
+      "alphaTitle": "每生产一单位产品，每单位负担投入所获得的积分。",
       "betaLabel": "β（忠诚）",
       "betaTitle": "每生产一单位产品，每放弃1分利润所获得的积分。",
       "extractLabel": "开采 ×",
-      "extractTitle": "链定价中开采 / 肥沃度类配方Burden项的倍率。",
+      "extractTitle": "链定价中开采/肥沃度类配方负担项的倍率。",
       "reset": "重置",
       "saving": "保存中…",
       "save": "保存",
@@ -883,10 +883,10 @@
     },
     "creditSettings": {
       "title": "积分设置",
-      "description": "α和β决定供应方在公会关闭的生产链上每单位可获得的积分费率。<1>开采 ×</1>是链定价的开采 / 肥沃度类配方的缓冲系数。更改仅影响此后创建的生产链。",
+      "description": "α和β决定供应方在公会关闭的生产链上每单位可获得的积分费率。<1>开采 ×</1>是链定价的开采/肥沃度类配方的缓冲系数。更改仅影响此后创建的生产链。",
       "alpha": {
         "label": "α（投入）",
-        "tooltip": "每生产一单位产品，每单位Burden投入所获得的积分。"
+        "tooltip": "每生产一单位产品，每单位负担投入所获得的积分。"
       },
       "beta": {
         "label": "β（忠诚）",
@@ -894,7 +894,7 @@
       },
       "extract": {
         "label": "开采 ×",
-        "tooltip": "链定价中开采 / 肥沃度类配方Burden项的倍率。"
+        "tooltip": "链定价中开采/肥沃度类配方负担项的倍率。"
       },
       "reset": "重置",
       "saving": "保存中…",
