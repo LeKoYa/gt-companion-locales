@@ -1,0 +1,278 @@
+{
+  "page": {
+    "panels": {
+      "designs": "飞船设计",
+      "components": "筛选器",
+      "community": "社区",
+      "contents": "目录",
+      "shipInfo": "飞船信息"
+    },
+    "toggles": {
+      "components": "筛选器",
+      "sections": "分区",
+      "contents": "目录"
+    },
+    "showMore": "显示更多…"
+  },
+  "header": {
+    "updated": "更新于 {{date}}",
+    "perkAnyShort": "任意",
+    "perkAtLeast": "等级{{level}}或更高",
+    "infoLabel": "关于此数据集",
+    "stats": {
+      "companies": "贡献公司数",
+      "ships": "统计飞船数",
+      "designs": "不同设计数",
+      "filtered": "匹配当前筛选",
+      "matching": "匹配专长的公司数",
+      "shipsInView": "可见飞船数"
+    },
+    "perkNone": "无此专长的公司",
+    "perkFilterCount": "已设 {{count}} 项",
+    "perkAtLevel": "等级{{level}}",
+    "perkHeld": "拥有此专长的公司"
+  },
+  "segments": {
+    "haulCrawl": "Haul and Crawl",
+    "packingStandards": "Packing Standards"
+  },
+  "designs": {
+    "columns": {
+      "reactor": "反应堆",
+      "emitter": "发射器",
+      "emitters": "# 发射器",
+      "cargo": "货舱",
+      "tank": "燃料舱",
+      "companies": "# 公司",
+      "ships": "飞船",
+      "companiesTooltip": "使用至少一艘此设计飞船的公司数量。",
+      "shipsTooltip": "所有公司中按此设计建造的飞船总数。",
+      "weight": "重量",
+      "weightTooltip": "飞船空载重量，由组件决定。这决定了所需的舰桥和船体板等阶。",
+      "bridge": "舰桥",
+      "bridgeTooltip": "所需舰桥等阶，由空载重量决定，不能直接选择。",
+      "hull": "船体",
+      "hullTooltip": "所需船体板等阶，由空载重量决定，不能直接选择。",
+      "open": "打开",
+      "shielding": "屏蔽",
+      "shieldingTooltip": "热/辐射屏蔽，成对显示。",
+      "ratio": "t:em",
+      "ratioTooltip": "每个发射器的货舱吨位。通常数值越高每吨成本越低，但速度越慢。",
+      "costPerTon": "$/t",
+      "costPerTonTooltip": "满载航程所需的燃料和维修套件费用，除以载货量。按你自己的专长和价格计算。",
+      "flightTime": "时间",
+      "flightTimeTooltip": "满载单程飞行时间（分钟），按所选反应堆模式。",
+      "flightCost": "航程成本",
+      "flightCostTooltip": "Total credits for the loaded trip, before dividing by tonnage.",
+      "buildCost": "建造",
+      "buildCostTooltip": "建造成本按你当前的价格计算。材料数据来自服务器，所以公式与游戏一致。",
+      "costPerTonUnit": "$",
+      "flightTimeUnit": "分钟",
+      "flightCostUnit": "$k",
+      "buildCostUnit": "$M",
+      "upgradeCost": "升级",
+      "upgradeCostTooltip": "将选中飞船改建为此设计的成本，按你当前的价格计算。仅计算需购买的材料：升级会销毁被替换的组件，无法回收。",
+      "upgradeCostUnit": "$k",
+      "perks": "专长",
+      "perksTooltip": "使用此设计的公司所持有的飞船专长。不足半数持有时会变暗。图标上的数字为典型等级。 ",
+      "cargoTooltip": "货舱容量已加上你自己的 Packing Standards 和 Haul and Crawl 专长加成。",
+      "cargoCommunityTooltip": "货舱容量已加上使用此设计的多数公司所持货舱专长的加成。因为每种设计的加成不同，货舱范围筛选仍按货舱原始容量匹配。"
+    },
+    "bridge": {
+      "shuttle": "Shuttle",
+      "hauler": "Hauler",
+      "freighter": "Freighter"
+    },
+    "hull": {
+      "basic": "基础",
+      "tiridium": "Tiridium",
+      "starglass": "Starglass"
+    },
+    "thresholdNames": {
+      "hull": "更高船体板等阶",
+      "bridge": "更高舰桥等阶",
+      "starlifter": "需要 Starlifter Elements"
+    },
+    "nearThreshold": "Close to {{weight}} empty weight, where this design crosses into {{what}}. Upgrading past it strands the lower-tier parts already built.",
+    "starlifter": "Also requires Starlifter Elements (empty weight is 15,000 or more).",
+    "openInShips": "在新标签页的飞船页面打开此设计",
+    "costRanking": {
+      "noRouteHint": "设置航线和载货量以计算这些列的成本。",
+      "tooManyHint": "Narrow the filters to {{max}} designs or fewer to sort and filter by this.",
+      "tooMany": "{{total}} designs match, which is more than the {{max}} that can be ranked by cost at once. The figures below are for this page only. Narrow the filters, by emitter type or cargo range for example, to rank them all."
+    },
+    "cargoBoosted": "{{base}} t published, +{{bonus}}% from your cargo perks",
+    "perkAtLevel": "{{perk}} {{level}}",
+    "cargoBoostedCommunity": "{{base}} t published, +{{bonus}}% from its companies' cargo perks",
+    "perkCounted": "已计入显示数据",
+    "perkNotCounted": "未计入：持有者不足半数",
+    "perkUsesYours": "显示数据使用你自己的专长"
+  },
+  "components": {
+    "groups": {
+      "reactor": "反应堆",
+      "emitter": "发射器",
+      "tank": "燃料舱",
+      "shielding": "屏蔽",
+      "bridge": "舰桥等阶",
+      "hull": "船体板等阶"
+    },
+    "clickToFilter": "按此筛选所有其他区块",
+    "clickToClear": "移除此筛选",
+    "cargoShare": "此货舱范围内的飞船占比",
+    "perkShare": "Share of ships in view whose company is in the selected levels"
+  },
+  "common": {
+    "loading": "加载中…",
+    "prev": "上一页",
+    "next": "下一页",
+    "page": "第 {{page}} 页，共 {{pages}} 页",
+    "yes": "已解锁",
+    "no": "已锁定"
+  },
+  "filters": {
+    "min": "最小",
+    "max": "最大",
+    "clear": "清除",
+    "apply": "应用",
+    "resetAll": "重置筛选",
+    "filterBy": "按 {{column}} 筛",
+    "yes": "是",
+    "no": "否"
+  },
+  "sections": {
+    "ships": "飞船设计",
+    "patchNotes": "GT-Companion 更新日志",
+    "achievements": "成就"
+  },
+  "achievements": {
+    "intro": "应用中藏着一些东西。找到一个就会显示在这里。",
+    "progress": "已找到 {{found}} / {{total}}",
+    "locked": "尚未发现",
+    "play": "游玩",
+    "leaderboard": "排行榜",
+    "rank": "第 {{rank}} 名",
+    "level": "等级{{level}}",
+    "best": "最佳",
+    "rankShort": "#{{rank}}",
+    "help": "关于这些",
+    "whatIsThis": "这是什么？",
+    "minigamesHelp": "隐藏在应用各处的小游戏。找到一个即可在此解锁，并拥有独立排行榜。",
+    "discoveriesHelp": "隐藏在应用各处的物品，多为社区传说和内部梗。找到一个就会出现在这里。",
+    "unlockedToast": "成就已解锁"
+  },
+  "route": {
+    "notSet": "设置航线",
+    "buttonHint": "Route, cargo and reactor mode used for the cost figures. Leave cargo empty to load each design to capacity.",
+    "origin": "From",
+    "destination": "To",
+    "planetPlaceholder": "搜索行星",
+    "cargo": "货物",
+    "cargoPlaceholder": "最大容量",
+    "efficiency": "反应堆",
+    "modes": {
+      "cheapest": "最便宜",
+      "cheapestHint": "每吨成本最低，不论耗时。",
+      "best": "最佳",
+      "bestHint": "Lowest cost multiplied by time, so it pays for speed when speed is worth it."
+    },
+    "distance": "{{distance}} ly",
+    "cargoUnit": "t",
+    "distanceHint": "两颗行星之间的距离。",
+    "buttonLabel": "飞行设置"
+  },
+  "shipInfo": {
+    "empty": "选择一艘飞船查看详情…",
+    "general": "常规",
+    "construction": "建造",
+    "flight": "飞行",
+    "buildCost": "建造成本",
+    "unavailable": "不可用",
+    "unpriced": "{{count}} 种材料无价格，所以总额偏低。",
+    "unpriced_other": "{{count}} 种材料无价格，所以总额偏低。",
+    "setRoute": "设置航线和载货量以计算此设计成本。",
+    "notFlyable": "此设计无法完成该航线。",
+    "costPerTon": "每吨成本",
+    "costPerTonTooltip": "满载航程所需的燃料和维修套件费用，按每吨计算。",
+    "flightCost": "飞行成本 ",
+    "flightTime": "飞行时间",
+    "roundTrip": "往返",
+    "roundTripTooltip": "Out loaded and back empty. This is what caps how often the ship can run the route.",
+    "fuel": "燃料",
+    "efficiency": "效率",
+    "efficiencyTooltip": "{{efficiency}}% 效率，{{power}}% 功率。功率越低每光年燃料消耗越少但耗时更长。",
+    "adoption": "采用率",
+    "adoptionTooltip": "按此设计建造的飞船数及使用公司数。",
+    "adoptionValue": "{{ships}} 艘飞船 / {{companies}} 家公司",
+    "materials": "{{count}} 种材料",
+    "materials_other": "{{count}} 种材料",
+    "fuelTooltip": "满载航程燃料占燃料舱容量。黄色：往返无法容纳。红色：单程无法容纳。",
+    "cargoLoaded": "满载",
+    "cargoLoadedCappedTooltip": "此设计已满载。其容量低于你设置的载货量，或你未设置载货量。",
+    "cargoLoadedRequestedTooltip": "来自你飞行设置的载货量。"
+  },
+  "upgrade": {
+    "none": "无飞船",
+    "pickShip": "升级自",
+    "pickShipHint": "选择你的一艘飞船，查看升级到每种设计的成本。",
+    "shipSubtitle": "{{cargo}} 吨 · {{emitters}} 台发射器"
+  },
+  "perkShort": {
+    "haulCrawl": "Haul",
+    "packingStandards": "Packing"
+  },
+  "perkBasis": {
+    "label": "专长：",
+    "you": "你的",
+    "youHint": "容量和速度按你拥有的 Packing Standards 和 Haul and Crawl 专长计算。",
+    "community": "As built",
+    "communityHint": "Capacity and speed as the companies flying each design get them, using the perks a majority of them hold.",
+    "alwaysYours": "价格、你的公会 Flight Center、Reinforced Hulls 和 Fuel Efficiency 始终使用你的数据：它们等比缩放所有设计，所以最优设计不会改变。"
+  },
+  "science": {
+    "won": "The chain is complete. Higher grades open up from here.",
+    "keepGoing": "继续",
+    "undo": "撤回一步"
+  },
+  "highRise": {
+    "floors": "floors"
+  },
+  "synthesis": {
+    "discovered": "已发现",
+    "search": "搜索材料",
+    "combine": "Combine",
+    "clear": "清除",
+    "reset": "重新开始",
+    "confirmReset": "确认？",
+    "benchHint": "Add materials, then combine",
+    "noRecipe": "无已知配方",
+    "known": "已发现",
+    "new": "新发现"
+  },
+  "roboChicken": {
+    "blurb": "你所在地区不可用。任何地区都不可用。",
+    "note": "没有已知买家，所以经济学问题留作读者练习。"
+  },
+  "discoveries": {
+    "title": "发现",
+    "recent": "最近发现",
+    "someoneFound": "{{name}} 发现了隐藏的东西",
+    "alsoFound": "同时也被以下人发现",
+    "minigames": "小游戏",
+    "holdersTitle": "发现者",
+    "percentShort": "{{percent}}%",
+    "reread": "重新阅读",
+    "close": "关闭"
+  },
+  "overview": {
+    "title": "总览",
+    "player": "玩家",
+    "minigames": "游戏",
+    "discoveries": "发现",
+    "total": "总计",
+    "empty": "尚未发现任何东西。",
+    "recent": "最近发现",
+    "foundHidden": "发现了隐藏的东西",
+    "found": "已发现"
+  }
+}
