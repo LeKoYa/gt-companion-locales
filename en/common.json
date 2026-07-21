@@ -8,7 +8,30 @@
     "ships": "Ships",
     "galaxy": "Galaxy",
     "leaderboard": "Leaderboard",
-    "settings": "Settings"
+    "settings": "Settings",
+    "community": "Community"
+  },
+  "update": {
+    "updated": "Updated to v{{version}}",
+    "whatsNew": "What's new",
+    "dismiss": "Dismiss"
+  },
+  "errors": {
+    "notFound": {
+      "title": "Lost in space",
+      "body": "There is no page at {{path}}.",
+      "suggestion": "Did you mean {{path}}?",
+      "home": "Back to overview"
+    },
+    "boundary": {
+      "title": "Something went wrong",
+      "body": "This page hit an unexpected error. Reloading usually fixes it, especially right after an update.",
+      "reload": "Reload",
+      "home": "Back to overview",
+      "details": "Error details",
+      "copy": "Copy details",
+      "copied": "Copied"
+    }
   },
   "actions": {
     "prices": "Prices",
@@ -19,5 +42,6 @@
     "en": "English",
     "zh": "中文",
     "de": "Deutsch"
-  }
+  },
+  "loading": "Loading…"
 }

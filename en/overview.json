@@ -54,13 +54,14 @@
       "title": "Getting started",
       "play": "Play Galactic Tycoons",
       "discord": "Join the official Discord server",
+      "guide": "Watch the new player guide",
       "coffee": "Buy me a coffee",
       "referralNote": "The \"Play Galactic Tycoons\" button uses a referral link.",
       "coffeeNote": " Enjoying GT-Companion? You can buy me a coffee to help keep the site running.",
       "steps": {
         "one": "Add your Galactic Tycoons API key in Settings to unlock full access.",
         "two": "Explore the pages and see what GT-Companion has to offer.",
-        "three": "Enjoy the companion site and share feedback or bug reports in the tools thread on the official Discord server for Galactic Tycoons."
+        "three": "Enjoy the companion site and share feedback or bug reports in the gt-companion thread on the official Discord server for Galactic Tycoons."
       }
     }
   },

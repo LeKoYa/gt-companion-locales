@@ -2,6 +2,14 @@
   "modal": {
     "defaultTitle": "Modal"
   },
+  "dataTable": {
+    "empty": "Nothing to show here"
+  },
+  "errorBoundary": {
+    "body": "This section could not be displayed.",
+    "bodyNamed": "{{label}} could not be displayed.",
+    "retry": "Try again"
+  },
   "panel": {
     "restore": "Restore panel",
     "popOut": "Pop out to window",
@@ -42,7 +50,7 @@
   "unavailable": {
     "messages": {
       "dataUnavailable": "Data unavailable",
-      "notUsing": "Not using GT Companion",
+      "notUsing": "Not using GT-Companion",
       "guildOnly": "Guild members only",
       "notShared": "Not shared",
       "notAvailable": "Not available"
@@ -67,5 +75,25 @@
       "ship_routes": "Ship routes",
       "ship_inventories": "Ship cargo"
     }
+  },
+  "tableFilter": {
+    "any": "Any",
+    "min": "Min",
+    "max": "Max",
+    "clear": "Clear",
+    "apply": "Apply",
+    "selected": "{{count}} selected",
+    "editTitle": "Click to filter, right-click to clear",
+    "selectAll": "Select all",
+    "selectNone": "Select none"
+  },
+  "columnPicker": {
+    "button": "Columns",
+    "enableAll": "Enable all",
+    "clear": "Clear",
+    "reset": "Reset",
+    "noColumns": "No columns",
+    "selected_one": "{{count}} column selected",
+    "selected_other": "{{count}} columns selected"
   }
 }

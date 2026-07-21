@@ -358,6 +358,7 @@
     "dashboard": {
       "scrap": {
         "material": "Material",
+        "building": "Building",
         "total": "Total",
         "amount": "Amount",
         "weight": "Weight"
@@ -365,10 +366,17 @@
       "deltaWithContracts": "Delta / With contracts",
       "warehouse": "Warehouse",
       "baseBuildingValue": "Base building value",
+      "baseValueTooltip": "Current scrap value at the buildings' condition, followed by what they would refund at 100% condition.",
       "settlementMaterials": "Settlement materials",
       "settlement": {
         "exclude": "Exclude",
         "include": "Include"
+      },
+      "settlementGroup": "Settlement",
+      "breakdown": {
+        "label": "Breakdown",
+        "combined": "Combined",
+        "byBuilding": "By building"
       },
       "noScrapMaterials": "No scrap materials."
     },

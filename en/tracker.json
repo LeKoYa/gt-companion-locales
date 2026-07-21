@@ -245,6 +245,16 @@
       "copied": "Copied!",
       "share": "Share",
       "copyLink": "Copy link to this company"
+    },
+    "sundj": {
+      "title": "Sundj",
+      "story": "General chat foretold him as the Trade Messiah, until he turned up running two accounts under the one name and the realm banished him for it. Gone since January, still brought up most weeks as a cautionary tale.",
+      "dismiss": "Rest in exile"
+    },
+    "spaceInc": {
+      "title": "Space Inc.",
+      "story": "Space Inc. was founded on the day the game opened and no company in the tracker is older. He has spent most of the time since at the top of the prestige board and leads GP, which sits at the top of the guild board.",
+      "dismiss": "Long may it run"
     }
   },
   "guild": {
@@ -396,6 +406,17 @@
       "deselectAll": "Deselect all",
       "noData": "(no data)",
       "emptyState": "No production data available."
+    },
+    "devGuild": {
+      "title": "[DEV]",
+      "story": "Two members, Leki and Poro, who between them build the game. The smallest guild on the board and the only one whose members write the rules everyone else plays by.",
+      "dismiss": "Thanks for the game"
+    },
+    "quasar": {
+      "title": "Queen Quasar",
+      "quote": "“The Memorial hall feels empty without mentioning Queen Quasar. Although the circumstances of your disappearance was less than fortunate, your impact lives on though all of us. May you one day return with your soft bean energy”",
+      "attribution": "Founder of the Andromedan Trade Syndicate, the guild she built.",
+      "dismiss": "Soft bean energy"
     }
   },
   "exchange": {

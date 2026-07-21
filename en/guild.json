@@ -72,7 +72,7 @@
       "noMembers": "No guild members available yet.",
       "member": "Member",
       "unknown": "Unknown",
-      "statusNoAccount": "No GT Companion account linked.",
+      "statusNoAccount": "No GT-Companion account linked.",
       "statusPrivate": "Research sharing is disabled.",
       "statusShared": "Research sharing enabled.",
       "noneShared": "No guild members have shared their research levels yet. Ask members to enable research sharing in their settings."
@@ -152,7 +152,14 @@
       "limitHint": "Most you want to spend. Shorthand works: 300M, 1.5B, 250k. Leave empty for no limit.",
       "failedWith": "Could not write the wishlist: {{message}}",
       "fromPlan": "Add to wishlist",
-      "fromPlanHint": "Write this plan to your \"Guild Donations\" wishlist"
+      "fromPlanHint": "Write this plan to your \"Guild Donations\" wishlist",
+      "sparky": {
+        "title": "The Sparky Rule",
+        "story": "Sparky once wanted to hand his entire company value to the guild before resetting. Donations have been capped at {{pct}}% of company value per day ever since and some players started calling it the Sparky rule.",
+        "cap": "Your cap: {{cap}} per day.",
+        "days": "This budget is about {{days}} days of donating.",
+        "dismiss": "Respect the cap"
+      }
     }
   },
   "donationTargets": {

@@ -159,18 +159,6 @@
       "description": "Enables extra debug tables and breakdowns throughout the app."
     }
   },
-  "customPrices": {
-    "title": "Custom Prices",
-    "syncLabel": "Sync across pages",
-    "syncToggle": "Use the same custom prices on every page",
-    "syncDescription": "Turn this off to manage independent price overrides for each page. When disabled, every page remembers its own custom values."
-  },
-  "favorites": {
-    "title": "Favorites",
-    "syncLabel": "Sync across pages",
-    "syncToggle": "Link material favorites to recipes",
-    "syncDescription": "When enabled, material favorites can auto-favorite matching recipes and unfavoriting recipes can clear the material."
-  },
   "productionSettings": {
     "title": "Production Settings",
     "syncLabel": "Sync across pages",
@@ -265,5 +253,16 @@
   "layout": {
     "appInfoToggle": "App info",
     "apiLogToggle": "API log"
+  },
+  "communityStats": {
+    "title": "Community Statistics",
+    "intro": "GT-Companion publishes anonymous statistics on which ship designs players use, so everyone can see what the community actually flies. Only counts are published and no company is identifiable.",
+    "toggle": {
+      "label": "Contribute my ship designs to community statistics",
+      "description": "Your ship designs and logistics perks are counted alongside everyone else's. Turning this off deletes your contribution immediately; published totals refresh within 24 hours."
+    },
+    "errors": {
+      "update": "Could not update your community statistics preference."
+    }
   }
 }

@@ -299,7 +299,9 @@
       "increase": "Increase",
       "clearCustomPrice": "Clear custom price",
       "resetToGlobal": "Reset to global",
-      "doneEditing": "Done editing"
+      "doneEditing": "Done editing",
+      "togglePresetActions": "Manage presets",
+      "advanced": "Advanced rule"
     },
     "preset": {
       "namePlaceholder": "Preset name",
@@ -322,10 +324,81 @@
       "edit": "Edit",
       "favorite": "Favorite",
       "unfavorite": "Unfavorite",
-      "reset": "Reset"
+      "reset": "Reset",
+      "advanced": "Advanced…"
     },
     "panel": {
       "title": "Custom Prices"
+    },
+    "presetActions": {
+      "saveMenu": "Save",
+      "save": "Overwrite",
+      "saveAsNew": "Save as new",
+      "rename": "Rename",
+      "delete": "Delete",
+      "clear": "Clear prices"
+    },
+    "unsavedPrompt": {
+      "title": "Unsaved changes",
+      "messagePreset": "\"{{preset}}\" has unsaved changes. Save them, or discard them for a fresh start.",
+      "messageFreeform": "You have unsaved custom prices. Save them as a new preset, or discard them for a fresh start.",
+      "cancel": "Cancel",
+      "discard": "Discard changes",
+      "save": "Save changes",
+      "saveAsNew": "Save as new"
+    },
+    "basisTag": {
+      "current": "M",
+      "average": "A",
+      "base": "B",
+      "fed": "F"
+    },
+    "tag": {
+      "min": "Min",
+      "max": "Max"
+    },
+    "advanced": {
+      "basisLabel": "Price basis",
+      "basisHint": "Where this price is anchored before adjustment. Inherit uses the global default.",
+      "basis": {
+        "inherit": "Inherit default",
+        "base": "Base price",
+        "fed": "Federal reserve"
+      },
+      "adjustLabel": "Adjustment",
+      "adjust": {
+        "none": "None"
+      },
+      "adjustHint": "Steps or percent move off the basis; absolute sets a fixed price.",
+      "clampLabel": "Clamp (min / max)",
+      "clampMin": "Min",
+      "clampMax": "Max",
+      "clampHint": "Keep the final price within these bounds. Leave blank for no limit.",
+      "preview": "Resulting price",
+      "clearRule": "Clear rule",
+      "cancel": "Cancel",
+      "save": "Save",
+      "fedCapLabel": "Federal reserve cap",
+      "fedCeiling": "ceiling",
+      "ignoreFedCap": "Ignore fed cap for this material"
+    },
+    "settings": {
+      "title": "Price settings",
+      "basisLabel": "Default price basis",
+      "basisHint": "Every material without its own rule uses this basis.",
+      "adjustLabel": "Global adjustment",
+      "adjustHint": "Applied on top of the basis for every material.",
+      "adjustMode": {
+        "steps": "Steps",
+        "percent": "Percent"
+      },
+      "fedHint": "Federal reserve is a fixed ceiling. Pair it with a -1 step adjustment to price one step below the cap.",
+      "fedCapMode": {
+        "below": "One step below",
+        "at": "At the cap"
+      },
+      "fedCapLabel": "Federal reserve cap",
+      "fedCapHint": "Fed-capped materials (mostly lower tiers) are always clamped to the reserve ceiling. Choose whether that ceiling is the cap itself or one step below it. Override per material in the advanced rule."
     }
   },
   "materialDetail": {

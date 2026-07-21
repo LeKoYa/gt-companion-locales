@@ -274,5 +274,10 @@
     "pointsLeft": "{{count}} left",
     "prodSpeedUnusedPermits_one": "Prod. speed ({{count}} unused permit)",
     "prodSpeedUnusedPermits_other": "Prod. speed ({{count}} unused permits)"
+  },
+  "coss": {
+    "title": "Coss",
+    "story": "Coss respecs into a new industry every so often and each time he ends up being that industry. He was the first company past $10B in value and has topped both the prestige and value boards.",
+    "dismiss": "Into the next one"
   }
 }

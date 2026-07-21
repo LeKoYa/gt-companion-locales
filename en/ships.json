@@ -63,9 +63,8 @@
     "selectShip": "Select ship",
     "saveBlueprintFavorite": "Save blueprint as favorite",
     "blueprint": "Blueprint",
-    "browseBlueprints": "Browse Blueprints",
-    "upgradeFrom": "Upgrade from...",
-    "selectCustomHint": "Select \"Custom ship\" to choose a preset or search designs."
+    "browseCommunityDesigns": "Browse Community Designs",
+    "upgradeFrom": "Upgrade from..."
   },
   "upgrade": {
     "none": "None",
@@ -115,6 +114,11 @@
       "maxSpeed": "Max speed",
       "fieldCapacity": "Field capacity",
       "energyDraw": "Energy draw"
+    },
+    "lightRefining": {
+      "title": "Light Refining",
+      "story": "First to produce a Quantum FTL Emitter, back in November 2025. A pioneer of the field, and the reason the outer rim has been within reach of everyone else ever since.",
+      "dismiss": "Punch it"
     }
   },
   "materials": {
@@ -323,87 +327,5 @@
     "customBlueprint": "Custom blueprint",
     "newShip": "New ship",
     "upgradeTitle": "{{name}} | Upgrade"
-  },
-  "search": {
-    "header": {
-      "title": "Ship Design Explorer",
-      "searching": "Searching…",
-      "close": "Close"
-    },
-    "params": {
-      "sectionTitle": "Search Parameters",
-      "distance": "Distance (ly)",
-      "cargoLoad": "Cargo load (t)",
-      "emitterType": "Emitter type",
-      "maxHullType": "Max Hull type",
-      "maxReactorType": "Max Reactor type",
-      "maxBridgeType": "Max bridge type",
-      "maxTravelTime": "Max travel time (h)",
-      "optimizeFor": "Optimize for",
-      "optimizePlaceholder": "Select target"
-    },
-    "filters": {
-      "anyHull": "Any hull",
-      "anyReactor": "Any reactor",
-      "anyEmitter": "Any emitter",
-      "anyBridge": "Any bridge"
-    },
-    "optimize": {
-      "timeTotal": "Travel time",
-      "costPerTon": "Cost per ton",
-      "costTimePerCargo": "Cost-Time per cargo",
-      "constructionCost": "Cheapest to build",
-      "stuffScore": "Stuff Inc. score"
-    },
-    "actions": {
-      "search": "Search",
-      "searching": "Searching…",
-      "select": "Select"
-    },
-    "columns": {
-      "shipClasses": "Ship Classes",
-      "variants": "Variants"
-    },
-    "states": {
-      "searchingShips": "Searching ships…",
-      "noMatches": "No ships match the criteria.",
-      "searchFailed": "Failed to search ships"
-    },
-    "disclaimer": {
-      "title": "Cost Disclaimer",
-      "body": "Some fuels used by these ship classes do not have reliable market prices (missing or marked as -1). Cost estimates for those fuels may be inaccurate."
-    },
-    "variantCard": {
-      "variant": "Variant",
-      "loadEff": "Load {{load}} • Eff {{eff}}"
-    },
-    "shielding": {
-      "heat": "Heat",
-      "rad": "Rad"
-    },
-    "metrics": {
-      "costPerTon": "Cost per ton",
-      "costTimePerCargo": "Cost-Time per cargo",
-      "travelTime": "Travel time",
-      "constructionCost": "Construction cost",
-      "stuffScore": "Stuff score",
-      "summary": "Summary"
-    },
-    "hullWarning": {
-      "starglass": "This configuration requires Starglass hull plates, increasing construction cost.",
-      "general": "Shielding upgrades increase the required hull tier compared to the base design."
-    },
-    "diagnose": {
-      "hullFallback": "selected hull tier",
-      "reactorFallback": "selected reactor tier",
-      "emitterFallback": "selected emitter group",
-      "bridgeFallback": "selected bridge tier",
-      "time": "No ship can haul {{cargo}}t over {{distance}} ly and still arrive within {{hours}} hours. Increase the max travel time or reduce the cargo.",
-      "hull": "{{hull}} cannot support {{cargo}}t for this route. Choose a sturdier hull or lower the cargo requirement.",
-      "bridge": "{{bridge}} ships are too small for {{cargo}}t on this distance. Allow larger bridges or reduce cargo.",
-      "reactor": "{{reactor}} does not generate enough power for the requested trip. Permit higher-tier reactors.",
-      "emitter": "Restricting to {{emitter}} leaves no viable ships. Allow other emitter families or loosen the cargo/time constraints.",
-      "noClass": "No ship class can currently move {{cargo}}t over {{distance}} ly with the selected criteria. Try reducing the cargo or broadening the filters."
-    }
   }
 }

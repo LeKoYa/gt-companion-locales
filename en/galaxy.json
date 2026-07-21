@@ -50,7 +50,7 @@
       "private": "private"
     },
     "tooltip": {
-      "notUsing": "This company has not used GT Companion yet.",
+      "notUsing": "This company has not used GT-Companion yet.",
       "scope": {
         "companyResearch": "Company (Research)",
         "prestigePerks": "Company (Prestige Perks)",
@@ -66,8 +66,8 @@
       }
     },
     "unavailable": {
-      "notUsingTitle": "Not using GT Companion",
-      "notUsingDetail": "This company hasn't used GT Companion yet.",
+      "notUsingTitle": "Not using GT-Companion",
+      "notUsingDetail": "This company hasn't used GT-Companion yet.",
       "notSharedTitle": "Not shared",
       "notSharedDetail": "This company has sharing turned off.",
       "noBaseTitle": "No base data shared",
@@ -267,7 +267,7 @@
       "private": "private"
     },
     "sharingStatus": {
-      "noCompanion": "Not using GT Companion",
+      "noCompanion": "Not using GT-Companion",
       "sharingDisabled": "Sharing is disabled",
       "guildOnly": "Sharing with guild members only",
       "partial": "Some data is shared",

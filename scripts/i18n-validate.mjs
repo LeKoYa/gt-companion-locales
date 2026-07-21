@@ -16,11 +16,19 @@
  * reported as coverage, not as failures. What DOES fail:
  *
  *   - invalid JSON
- *   - a key that does not exist in English (a typo, or a renamed key left behind)
  *   - a file that is not an English namespace
  *   - a changed or dropped {{placeholder}} (renders literally, or throws)
  *   - a changed or dropped <tag> used by <Trans> (breaks the sentence's markup)
  *   - a value that is not a string (structure drifted from English)
+ *
+ * A key that does NOT exist in English is only a warning, because it cannot
+ * break a render: i18next never looks it up, so it is as inert as a missing
+ * key. It usually means English removed or renamed the key and the translation
+ * has not caught up yet -- unavoidable, since the two repos sync on a delay and
+ * a branch that removes an English key is stale here the moment it is pushed.
+ * Failing on it would block whoever pushed next on residue they did not create.
+ * It can also be a typo, which costs one untranslated string and shows up in
+ * the warning list and as a coverage dip. Pass --strict to fail on warnings.
  */
 
 import {
@@ -178,8 +186,9 @@ for (const language of languages) {
       }
 
       if (sourceValue === undefined) {
-        errors.push(
-          `${file}: key '${key}' does not exist in ${SOURCE_LANGUAGE}/${namespace}.json`,
+        warnings.push(
+          `${file}: key '${key}' does not exist in ${SOURCE_LANGUAGE}/${namespace}.json` +
+            ` (removed from English, or a typo -- ignored at runtime, safe to delete)`,
         );
         continue;
       }

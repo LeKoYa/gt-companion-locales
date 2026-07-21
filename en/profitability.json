@@ -69,6 +69,11 @@
       },
       "resetAll": "Reset all overrides for this recipe"
     },
+    "chickenGame": {
+      "leaderboard": "Leaderboard",
+      "play": "Play",
+      "playAgain": "Play again"
+    },
     "emptyState": "No recipes match the current filters.",
     "productivity": {
       "productionSpeedPerks": "Production speed perks",
@@ -168,6 +173,7 @@
       "favorites": "★ Favorites"
     },
     "availability": {
+      "placeholder": "Availability",
       "all": {
         "label": "All",
         "tooltip": "Show every recipe"
@@ -181,8 +187,12 @@
         "tooltip": "Only recipes you own the producing building for"
       },
       "both": {
-        "label": "Both",
+        "label": "Tech & Buildings",
         "tooltip": "Only recipes you have both the tech and the buildings for"
+      },
+      "producing": {
+        "label": "Producing",
+        "tooltip": "Only recipes you currently have production orders for"
       }
     },
     "sort": {
@@ -398,5 +408,12 @@
         }
       }
     }
+  },
+  "garco": {
+    "title": "In memoriam (sort of)",
+    "quotePrefix": "R.I.P to GarCo, may the authorities find the ones who planted the antimatter bomb on his 120kt ",
+    "quoteSuffix": " hauler",
+    "attribution": "GarCo retired from the game a while back. The hauler was less fortunate.",
+    "dismiss": "Pour one out"
   }
 }

@@ -1,0 +1,278 @@
+{
+  "page": {
+    "panels": {
+      "designs": "Ship designs",
+      "components": "Filters",
+      "community": "Community",
+      "contents": "Contents",
+      "shipInfo": "Ship info"
+    },
+    "toggles": {
+      "components": "Filters",
+      "sections": "Sections",
+      "contents": "Contents"
+    },
+    "showMore": "Show more…"
+  },
+  "header": {
+    "updated": "updated {{date}}",
+    "perkAnyShort": "Any",
+    "perkAtLeast": "Level {{level}} or higher",
+    "infoLabel": "About this dataset",
+    "stats": {
+      "companies": "Contributing companies",
+      "ships": "Ships counted",
+      "designs": "Distinct designs",
+      "filtered": "Matching current filters",
+      "matching": "Companies matching perks",
+      "shipsInView": "Ships in view"
+    },
+    "perkNone": "Companies without this perk",
+    "perkFilterCount": "{{count}} set",
+    "perkAtLevel": "Level {{level}}",
+    "perkHeld": "Companies with this perk"
+  },
+  "segments": {
+    "haulCrawl": "Haul and Crawl",
+    "packingStandards": "Packing Standards"
+  },
+  "designs": {
+    "columns": {
+      "reactor": "Reactor",
+      "emitter": "Emitter",
+      "emitters": "# Emitter",
+      "cargo": "Cargo",
+      "tank": "Tank",
+      "companies": "# Comp",
+      "ships": "Ships",
+      "companiesTooltip": "How many companies run at least one ship with this exact design.",
+      "shipsTooltip": "Total ships built to this design across all companies.",
+      "weight": "Weight",
+      "weightTooltip": "Empty weight of the ship, derived from its components. This decides which bridge and hull plate tier it needs.",
+      "bridge": "Bridge",
+      "bridgeTooltip": "Bridge tier required, derived from empty weight. Not chosen directly.",
+      "hull": "Hull",
+      "hullTooltip": "Hull plate tier required, derived from empty weight. Not chosen directly.",
+      "open": "Open",
+      "shielding": "Shielding",
+      "shieldingTooltip": "Heat / radiation shielding, as a pair.",
+      "ratio": "t:em",
+      "ratioTooltip": "Tonnes of cargo per emitter. Higher is usually cheaper per ton but slower.",
+      "costPerTon": "$/t",
+      "costPerTonTooltip": "Fuel and repair kits for the loaded trip, divided by the cargo carried. Priced with your own perks and prices.",
+      "flightTime": "Time",
+      "flightTimeTooltip": "One-way loaded travel time in minutes, at the chosen reactor mode.",
+      "flightCost": "Trip cost",
+      "flightCostTooltip": "Total credits for the loaded trip, before dividing by tonnage.",
+      "buildCost": "Build",
+      "buildCostTooltip": "Construction cost at your prices. Materials come from the server, so the formula matches the game.",
+      "costPerTonUnit": "$",
+      "flightTimeUnit": "minutes",
+      "flightCostUnit": "$k",
+      "buildCostUnit": "$M",
+      "upgradeCost": "Upgrade",
+      "upgradeCostTooltip": "Cost to rebuild the selected ship as this design, at your prices. Only materials you would have to buy: upgrading destroys the components it replaces, so nothing comes back.",
+      "upgradeCostUnit": "$k",
+      "perks": "Perks",
+      "perksTooltip": "Ship perks the companies flying this design hold. Dimmed when fewer than half of them do. The number on an icon is the typical level.",
+      "cargoTooltip": "Boosted by your own Packing Standards and Haul and Crawl.",
+      "cargoCommunityTooltip": "Boosted by the cargo perks a majority of this design's companies hold. The range filter still compares against the published capacity, since the boost differs per design."
+    },
+    "bridge": {
+      "shuttle": "Shuttle",
+      "hauler": "Hauler",
+      "freighter": "Freighter"
+    },
+    "hull": {
+      "basic": "Basic",
+      "tiridium": "Tiridium",
+      "starglass": "Starglass"
+    },
+    "thresholdNames": {
+      "hull": "a higher hull plate tier",
+      "bridge": "a higher bridge tier",
+      "starlifter": "requiring Starlifter Elements"
+    },
+    "nearThreshold": "Close to {{weight}} empty weight, where this design crosses into {{what}}. Upgrading past it strands the lower-tier parts already built.",
+    "starlifter": "Also requires Starlifter Elements (empty weight is 15,000 or more).",
+    "openInShips": "Open this design on the Ships page in a new tab",
+    "costRanking": {
+      "noRouteHint": "Set a route and cargo amount to price these columns.",
+      "tooManyHint": "Narrow the filters to {{max}} designs or fewer to sort and filter by this.",
+      "tooMany": "{{total}} designs match, which is more than the {{max}} that can be ranked by cost at once. The figures below are for this page only. Narrow the filters, by emitter type or cargo range for example, to rank them all."
+    },
+    "cargoBoosted": "{{base}} t published, +{{bonus}}% from your cargo perks",
+    "perkAtLevel": "{{perk}} {{level}}",
+    "cargoBoostedCommunity": "{{base}} t published, +{{bonus}}% from its companies' cargo perks",
+    "perkCounted": "Counted in the figures shown",
+    "perkNotCounted": "Not counted: held by fewer than half",
+    "perkUsesYours": "Figures shown use your own perks"
+  },
+  "components": {
+    "groups": {
+      "reactor": "Reactor",
+      "emitter": "Emitter",
+      "tank": "Fuel tank",
+      "shielding": "Shielding",
+      "bridge": "Bridge tier",
+      "hull": "Hull plate tier"
+    },
+    "clickToFilter": "Filter every other block by this",
+    "clickToClear": "Remove this filter",
+    "cargoShare": "Share of ships inside this cargo range",
+    "perkShare": "Share of ships in view whose company is in the selected levels"
+  },
+  "common": {
+    "loading": "Loading…",
+    "prev": "Previous",
+    "next": "Next",
+    "page": "Page {{page}} of {{pages}}",
+    "yes": "Unlocked",
+    "no": "Locked"
+  },
+  "filters": {
+    "min": "Min",
+    "max": "Max",
+    "clear": "Clear",
+    "apply": "Apply",
+    "resetAll": "Reset filters",
+    "filterBy": "Filter by {{column}}",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "sections": {
+    "ships": "Ship designs",
+    "patchNotes": "GT-Companion Patch Notes",
+    "achievements": "Achievements"
+  },
+  "achievements": {
+    "intro": "There are a few things hidden around the app. Find one and it shows up here.",
+    "progress": "{{found}} of {{total}} found",
+    "locked": "Still hidden",
+    "play": "Play",
+    "leaderboard": "Leaderboard",
+    "rank": "rank {{rank}}",
+    "level": "Level {{level}}",
+    "best": "best",
+    "rankShort": "#{{rank}}",
+    "help": "About these",
+    "whatIsThis": "What is this?",
+    "minigamesHelp": "Little games hidden across the app. Find one and it unlocks here, with its own leaderboard.",
+    "discoveriesHelp": "Things hidden across the app, mostly community lore and inside jokes. Find one and it turns up here.",
+    "unlockedToast": "Achievement unlocked"
+  },
+  "route": {
+    "notSet": "Set a route",
+    "buttonHint": "Route, cargo and reactor mode used for the cost figures. Leave cargo empty to load each design to capacity.",
+    "origin": "From",
+    "destination": "To",
+    "planetPlaceholder": "Search planets",
+    "cargo": "Cargo",
+    "cargoPlaceholder": "Max capacity",
+    "efficiency": "Reactor",
+    "modes": {
+      "cheapest": "Cheapest",
+      "cheapestHint": "Lowest cost per ton, however long it takes.",
+      "best": "Best",
+      "bestHint": "Lowest cost multiplied by time, so it pays for speed when speed is worth it."
+    },
+    "distance": "{{distance}} ly",
+    "cargoUnit": "t",
+    "distanceHint": "Distance between the two planets.",
+    "buttonLabel": "Flight settings"
+  },
+  "shipInfo": {
+    "empty": "Select a ship for details…",
+    "general": "General",
+    "construction": "Construction",
+    "flight": "Flight",
+    "buildCost": "Build cost",
+    "unavailable": "Unavailable",
+    "unpriced": "{{count}} material without a price, so the total is low.",
+    "unpriced_other": "{{count}} materials without a price, so the total is low.",
+    "setRoute": "Set a route and cargo amount to price this design.",
+    "notFlyable": "This design cannot complete the route.",
+    "costPerTon": "Cost per ton",
+    "costPerTonTooltip": "Fuel and repair kits for the loaded trip, per ton carried.",
+    "flightCost": "Flight cost",
+    "flightTime": "Flight time",
+    "roundTrip": "Round trip",
+    "roundTripTooltip": "Out loaded and back empty. This is what caps how often the ship can run the route.",
+    "fuel": "Fuel",
+    "efficiency": "Efficiency",
+    "efficiencyTooltip": "{{efficiency}}% efficiency, {{power}}% power. Lower power burns less fuel per light-year but takes longer.",
+    "adoption": "Adoption",
+    "adoptionTooltip": "Ships built to this design and how many companies run one.",
+    "adoptionValue": "{{ships}} ships / {{companies}} companies",
+    "materials": "{{count}} material",
+    "materials_other": "{{count}} materials",
+    "fuelTooltip": "Fuel for the loaded trip against tank capacity. Amber: a round trip will not fit. Red: one leg will not.",
+    "cargoLoaded": "Loaded",
+    "cargoLoadedCappedTooltip": "This design is full. Its capacity is below the cargo amount you set, or you set none.",
+    "cargoLoadedRequestedTooltip": "The cargo amount from your flight settings."
+  },
+  "upgrade": {
+    "none": "No ship",
+    "pickShip": "Upgrade from",
+    "pickShipHint": "Pick one of your ships to see what upgrading to each design costs.",
+    "shipSubtitle": "{{cargo}} t · {{emitters}} emitters"
+  },
+  "perkShort": {
+    "haulCrawl": "Haul",
+    "packingStandards": "Packing"
+  },
+  "perkBasis": {
+    "label": "Perks:",
+    "you": "Yours",
+    "youHint": "Capacity and speed as your own Packing Standards and Haul and Crawl give them.",
+    "community": "As built",
+    "communityHint": "Capacity and speed as the companies flying each design get them, using the perks a majority of them hold.",
+    "alwaysYours": "Prices, your guild Flight Center, Reinforced Hulls and Fuel Efficiency are always yours: they scale every design alike, so they never change which one is best."
+  },
+  "science": {
+    "won": "The chain is complete. Higher grades open up from here.",
+    "keepGoing": "Keep going",
+    "undo": "Take back one move"
+  },
+  "highRise": {
+    "floors": "floors"
+  },
+  "synthesis": {
+    "discovered": "discovered",
+    "search": "Search materials",
+    "combine": "Combine",
+    "clear": "Clear",
+    "reset": "Start over",
+    "confirmReset": "Confirm?",
+    "benchHint": "Add materials, then combine",
+    "noRecipe": "No known recipe",
+    "known": "Already discovered",
+    "new": "Discovered"
+  },
+  "roboChicken": {
+    "blurb": "Not available in your region. Or any region.",
+    "note": "No known buyer, so the economics are left as an exercise for the reader."
+  },
+  "discoveries": {
+    "title": "Discoveries",
+    "recent": "Recently found",
+    "someoneFound": "{{name}} found something hidden",
+    "alsoFound": "Also found by",
+    "minigames": "Minigames",
+    "holdersTitle": "Found by",
+    "percentShort": "{{percent}}%",
+    "reread": "Read it again",
+    "close": "Close"
+  },
+  "overview": {
+    "title": "Overview",
+    "player": "Player",
+    "minigames": "Games",
+    "discoveries": "Finds",
+    "total": "Total",
+    "empty": "Nothing found yet.",
+    "recent": "Recently found",
+    "foundHidden": "found something hidden",
+    "found": "found"
+  }
+}

@@ -247,5 +247,9 @@
     "created_other": "Wishlists created.",
     "updated": "Wishlist updated.",
     "failedToSave": "Failed to save."
+  },
+  "roo": {
+    "story": "Roo wrote one of the first community tools for the game: base summaries, a build planner and wishlists, back when the game had no wishlists of its own. A fair bit of what you are using here was influenced by his work.",
+    "dismiss": "Thanks, Roo"
   }
 }
