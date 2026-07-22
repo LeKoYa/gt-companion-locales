@@ -119,6 +119,8 @@
     },
     "clickToFilter": "Filter every other block by this",
     "clickToClear": "Remove this filter",
+    "showMore": "Show {{count}} more",
+    "showLess": "Show less",
     "cargoShare": "Share of ships inside this cargo range",
     "perkShare": "Share of ships in view whose company is in the selected levels"
   },
@@ -143,7 +145,9 @@
   "sections": {
     "ships": "Ship designs",
     "patchNotes": "GT-Companion Patch Notes",
-    "achievements": "Achievements"
+    "achievements": "Achievements",
+    "industries": "Industries",
+    "perks": "Prestige perks"
   },
   "achievements": {
     "intro": "There are a few things hidden around the app. Find one and it shows up here.",
@@ -232,7 +236,9 @@
   "science": {
     "won": "The chain is complete. Higher grades open up from here.",
     "keepGoing": "Keep going",
-    "undo": "Take back one move"
+    "undo": "Take back one move",
+    "restart": "Start over",
+    "confirmRestart": "Tap again to start over"
   },
   "highRise": {
     "floors": "floors"
@@ -260,6 +266,9 @@
     "alsoFound": "Also found by",
     "minigames": "Minigames",
     "holdersTitle": "Found by",
+    "holdersSearch": "Search company…",
+    "holdersNoMatch": "No matches",
+    "onlyYou": "Only you have found this so far",
     "percentShort": "{{percent}}%",
     "reread": "Read it again",
     "close": "Close"
@@ -274,5 +283,122 @@
     "recent": "Recently found",
     "foundHidden": "found something hidden",
     "found": "found"
+  },
+  "industries": {
+    "intro": "Which research fields the community invests in, how specialized companies are and which field combinations are most common. Industry is read from research levels alone, anonymously and in aggregate.",
+    "meta": {
+      "summary": "Based on {{count}} companies",
+      "updated": "updated {{when}}",
+      "empty": "No community data yet. Check back once companies have contributed."
+    },
+    "panels": {
+      "fields": "Research fields",
+      "levels": "Research level by field",
+      "growth": "Tech profitability",
+      "specialization": "Specialization",
+      "singleSpec": "Single-spec focus",
+      "combos": "Top combinations"
+    },
+    "growth": {
+      "window24h": "24h",
+      "window7d": "7d",
+      "metricRel": "Relative",
+      "metricAbs": "Absolute",
+      "tooltipCompanies": "{{count}} single-spec companies",
+      "tooltipMedian": "Median growth {{value}}",
+      "tooltipMiddle": "Middle 50%: {{q1}} to {{q3}}",
+      "tooltipRange": "10th to 90th: {{p10}} to {{p90}}",
+      "footnote": "Company-value growth of single-spec companies aged 14 days or more that were active in the last day. A revealed signal on a subset, so it leans toward where strong players are.",
+      "empty": "Not enough companies yet to show growth by tech."
+    },
+    "fields": {
+      "axisLevel": "Level",
+      "tooltipAdoption": "{{count}} companies research it ({{pct}}%)",
+      "tooltipMedian": "Median level {{median}}",
+      "tooltipMiddle": "Middle 50%: {{q1}} to {{q3}}",
+      "tooltipRange": "Range: {{min}} to {{max}}",
+      "empty": "No research recorded yet."
+    },
+    "specialization": {
+      "subtitle": "How many fields each company is specialized in.",
+      "none": "No research yet",
+      "single": "Single spec",
+      "dual": "Dual spec",
+      "diversified": "Diversified",
+      "empty": "No companies yet."
+    },
+    "singleSpec": {
+      "subtitle": "Of single-spec companies, the field they focus on.",
+      "empty": "No single-spec companies yet."
+    },
+    "helpLabel": "Help",
+    "combos": {
+      "subtitle": "Field combinations companies specialize in, most common first.",
+      "none": "No research yet",
+      "other": "Other ({{count}} combinations)",
+      "otherShort": "Other",
+      "showAll": "Show all {{count}}",
+      "showLess": "Show fewer",
+      "empty": "No combinations yet."
+    }
+  },
+  "perks": {
+    "helpLabel": "Help",
+    "meta": {
+      "summary": "Based on {{count}} companies",
+      "empty": "No community data yet. Check back once companies have contributed."
+    },
+    "panels": {
+      "adoption": "Prestige perks",
+      "adoptionSection": "Adoption by category",
+      "economic": "Perk vs company value",
+      "industry": "Perks by industry",
+      "exclusive": "Exclusive choices"
+    },
+    "categories": {
+      "0": "Other",
+      "1": "Bases",
+      "2": "Workforce",
+      "3": "Logistics",
+      "4": "Missions"
+    },
+    "adoption": {
+      "footnote": "The bar is the share of contributing companies that hold each perk at any level. The box plot on the right shows the level distribution among holders, on each perk's own 1-to-max range: the box is the middle 50%, the tick is the median and the thin line is the full range. Single-level perks have no box plot.",
+      "levelLegend": "Holder level:",
+      "legendBox": "middle 50%",
+      "legendMedian": "median",
+      "levelEntry": "L{{level}} {{pct}}%",
+      "empty": "No perks recorded yet."
+    },
+    "exclusive": {
+      "subtitle": "Groups where a company picks exactly one perk. Bars include a 'none' bucket, so they sum to the whole community.",
+      "supervision": "Supervision",
+      "missionPref": "Mission preference",
+      "none": "None",
+      "empty": "No companies yet."
+    },
+    "economic": {
+      "filterSupervision": "Supervision",
+      "axisValue": "Company value",
+      "tooltipCompanies": "{{count}} companies hold it",
+      "tooltipMedian": "Median value {{value}}",
+      "tooltipMiddle": "Middle 50%: {{q1}} to {{q3}}",
+      "tooltipRange": "10th to 90th: {{p10}} to {{p90}}",
+      "footnote": "Company value of the companies holding each perk, active in the last day and aged 14 days or more. Company value is public; a perk is only shown once enough holders back it. Bigger companies naturally hold more perks, so read this as association, not cause.",
+      "empty": "Not enough companies yet to show value by perk."
+    },
+    "industry": {
+      "mode": {
+        "byIndustry": "By industry",
+        "byPerk": "By perk"
+      },
+      "selectIndustry": "Select industry",
+      "selectPerk": "Select perk",
+      "legendIndustry": "Within industry",
+      "legendCommunity": "Community avg",
+      "rowTitle": "Within industry {{industry}}% · community {{community}}%",
+      "footnote": "Among companies specialized in a single research field, the perks they hold as a share of that industry, with the community-wide adoption drawn as the baseline tick. Switch between fixing an industry and fixing a perk.",
+      "empty": "Not enough single-spec companies yet to break perks down by industry."
+    }
   }
 }
