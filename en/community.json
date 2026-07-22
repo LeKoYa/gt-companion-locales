@@ -321,6 +321,7 @@
     },
     "specialization": {
       "subtitle": "How many fields each company is specialized in.",
+      "rule": "How specialized each company is. Its most-researched field always counts as a spec; a further field counts only when it is leveled up meaningfully too, roughly a third of the top field's level or more, so a few stray points don't. Single, dual and diversified mean one, two, and three or more specs; companies with no research yet are their own group.",
       "none": "No research yet",
       "single": "Single spec",
       "dual": "Dual spec",
