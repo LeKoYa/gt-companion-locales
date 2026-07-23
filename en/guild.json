@@ -154,11 +154,8 @@
       "fromPlan": "Add to wishlist",
       "fromPlanHint": "Write this plan to your \"Guild Donations\" wishlist",
       "sparky": {
-        "title": "The Sparky Rule",
-        "story": "Sparky once wanted to hand his entire company value to the guild before resetting. Donations have been capped at {{pct}}% of company value per day ever since and some players started calling it the Sparky rule.",
         "cap": "Your cap: {{cap}} per day.",
-        "days": "This budget is about {{days}} days of donating.",
-        "dismiss": "Respect the cap"
+        "days": "This budget is about {{days}} days of donating."
       }
     }
   },

@@ -1,0 +1,733 @@
+{
+  "guidesOffer": {
+    "text": "New: guided walkthroughs for every page.",
+    "tour": "Take the tour",
+    "browse": "Browse guides",
+    "dismiss": "Dismiss"
+  },
+  "controls": {
+    "next": "Next",
+    "previous": "Back",
+    "done": "Done",
+    "progress": "{{current}} of {{total}}"
+  },
+  "helpButton": {
+    "tooltip": "Guides and tours"
+  },
+  "menu": {
+    "title": "Guides",
+    "lead": "Pick a page to walk through. The ones you have not seen yet are highlighted."
+  },
+  "guides": {
+    "base": {
+      "title": "Base page",
+      "description": "Your bases, production and supply planning."
+    },
+    "profitability": {
+      "title": "Profitability page",
+      "description": "Find what is worth producing and why."
+    },
+    "research": {
+      "title": "R&D page",
+      "description": "Plan tech levels and prestige perks."
+    },
+    "ships": {
+      "title": "Ships page",
+      "description": "Design ships and simulate flights."
+    },
+    "exchange": {
+      "title": "Exchange page",
+      "description": "Market prices and recipe analysis."
+    },
+    "galaxy": {
+      "title": "Galaxy page",
+      "description": "Explore planets, resources and who lives where."
+    },
+    "guild": {
+      "title": "Guild page",
+      "description": "Projects, donations and members."
+    },
+    "leaderboard": {
+      "title": "Leaderboards page",
+      "description": "Guild and company rankings and events."
+    },
+    "community": {
+      "title": "Community page",
+      "description": "Shared achievements, patch notes and player data."
+    },
+    "recipeChains": {
+      "title": "Recipe chains",
+      "description": "Plan multi-step production end to end."
+    },
+    "customPrices": {
+      "title": "Custom prices",
+      "description": "Set your own material prices for every calculation."
+    },
+    "companyGuild": {
+      "title": "Company and guild cards",
+      "description": "Your company and guild at a glance."
+    }
+  },
+  "steps": {
+    "welcome": {
+      "title": "Welcome to GT Companion",
+      "body": "This is a quick look around, a short stop on each page. You can leave at any point with the X or the Escape key."
+    },
+    "nav": {
+      "title": "Everything lives up here",
+      "body": "The navigation bar takes you to every part of the app. The tour visits each page next."
+    },
+    "company": {
+      "title": "Your company",
+      "body": "This button opens your own company: its bases, ships, guild and stats. Company and guild names are clickable all over the app and open the same view."
+    },
+    "base": {
+      "title": "Your bases",
+      "body": "Production, workforce, supplies and repairs for every base you own, plus plans for what to build next."
+    },
+    "exchange": {
+      "title": "The exchange",
+      "body": "Live market prices for every material, with contract distances and the history behind each price."
+    },
+    "profitability": {
+      "title": "What is worth producing",
+      "body": "Ranks recipes by profit for your bases, your research levels and current prices. This is the page most people keep open."
+    },
+    "prices": {
+      "title": "Prices you control",
+      "body": "Every calculation in the app runs on these prices. Override any material here and the whole app follows, so your numbers match how you actually buy and sell."
+    },
+    "research": {
+      "title": "Research and development",
+      "body": "Plan research fields and levels, then see how each one changes your production and costs."
+    },
+    "guild": {
+      "title": "Your guild",
+      "body": "Guild donations, projects and production chains, plus who is contributing what."
+    },
+    "ships": {
+      "title": "Ships",
+      "body": "Plan flights and cargo, and design ships tuned for a route with the ship designer."
+    },
+    "galaxy": {
+      "title": "The galaxy map",
+      "body": "Browse systems and planets, check resources and distances, then scout where to expand next."
+    },
+    "leaderboard": {
+      "title": "Leaderboards",
+      "body": "Rankings for companies and guilds, so you can see where you and others stand."
+    },
+    "community": {
+      "title": "Community",
+      "body": "Shared achievements, ship designs, prestige perks and industry data pooled from everyone using the app."
+    },
+    "settings": {
+      "title": "Your key and your setup",
+      "body": "Your API key lives here, along with what you share publicly or with your guild, sync across devices, language and display options."
+    },
+    "finish": {
+      "title": "That is the tour",
+      "body": "Next you can pick a page for a closer look, or find these guides any time from Settings. Have fun out there."
+    },
+
+    "baseGuideIntro": {
+      "title": "The Base page",
+      "body": "Everything about your bases in one place: what they produce, what they need and what to build next. We will start on the Overview."
+    },
+    "baseGuideSubpages": {
+      "title": "Overview, Insights and more",
+      "body": "The left column switches between subpages: the company-wide Overview, deeper Insights, a few extra views under 'more' and a button to plan a brand new base. Below them sits the list of your bases."
+    },
+    "baseGuideOverviewTab": {
+      "title": "Company overview",
+      "body": "Totals across every included base: production, upkeep, repairs and a per-base table. The starting point for how your whole company is doing."
+    },
+    "baseGuideDailyTotals": {
+      "title": "Daily totals",
+      "body": "Net material flow per day across your bases, laid out in the table below. The toggles up top switch between net and gross, split by type, fold in maintenance and contracts and change how the rows are grouped."
+    },
+    "baseGuideIssues": {
+      "title": "Issues",
+      "body": "Where a base is short on inputs, running low on supplies or needs repairs, gathered so you can act before something stalls."
+    },
+    "baseGuideIncludedBases": {
+      "title": "Which bases count",
+      "body": "The footer's included-bases menu decides which of your bases feed every company-wide number above. Narrow it to a group or a single planet whenever you want a focused view."
+    },
+    "baseGuideControlsSettings": {
+      "title": "Planning settings",
+      "body": "The right column controls how the numbers are calculated. Settings up top set the days of supply to plan for and how condition and workforce are assumed."
+    },
+    "baseGuideControlsOverhead": {
+      "title": "Overhead",
+      "body": "Company overhead spread across production, driven by your workforce and admin center."
+    },
+    "baseGuideControlsScenario": {
+      "title": "Scenario",
+      "body": "Your research levels, prestige perks and starting bonus. Adjust them here to see how your setup, or a planned one, changes what every base earns."
+    },
+    "baseGuideList": {
+      "title": "Your bases",
+      "body": "Every base you own is listed here. Click one to open it, drag to reorder or right-click a base for quick actions."
+    },
+    "baseGuideOpenBase": {
+      "title": "A single base",
+      "body": "You have opened a base. Its tabs run across the top: this first one is the dashboard, with production, a summary and the day-to-day picture for just this base."
+    },
+    "baseGuideBuildings": {
+      "title": "The building grid",
+      "body": "Every slot on the base. Drag a building to copy or move it, switch between grid and list, change the column count and click a slot to edit its level or add a building."
+    },
+    "baseGuideHotkeys": {
+      "title": "Legend and hotkeys",
+      "body": "This button opens the legend, which also lists the keyboard shortcuts. Once you know them, editing the grid by hand gets a lot faster."
+    },
+    "baseGuideWorkforce": {
+      "title": "Workforce",
+      "body": "Below the grid: how many workers of each tier the base employs, what they need and whether their consumables are covered."
+    },
+    "baseGuideBaseTotals": {
+      "title": "Daily totals and issues",
+      "body": "This base also has its own Daily totals and Issues tabs. They read just like the company-wide versions you already saw, scoped to this one base."
+    },
+    "baseGuidePreviewProfit": {
+      "title": "Profit and ROI",
+      "body": "The preview panel is where a single base earns its keep. Profit per day, return on investment and payback time, all recalculated live as you change the base."
+    },
+    "baseGuidePreviewMats": {
+      "title": "Construction materials",
+      "body": "What it costs to build the base as planned: the materials required, what you already have and what is still missing. Turn the gap into a wishlist in one click."
+    },
+    "baseGuideInsightsBreakdown": {
+      "title": "Breakdown",
+      "body": "Insights digs into where profit comes from and goes: overhead impact, workforce and consumable contributions and profit per recipe and building across your company."
+    },
+    "baseGuideInsightsInvestments": {
+      "title": "Investments",
+      "body": "The other Insights tab weighs what to spend on next: research return on investment and how a bigger admin center would pay off."
+    },
+    "baseGuideMore": {
+      "title": "More views",
+      "body": "Company contracts, warehouse info and cash history live under 'more'. Handy references we will not walk through here."
+    },
+    "baseGuidePlanNew": {
+      "title": "Plan a new base",
+      "body": "Start a fresh plan to lay out a base you do not have yet: pick a planet, place buildings and see the cost and profit before you commit a single credit."
+    },
+    "baseGuidePlanning": {
+      "title": "Planning a change",
+      "body": "To plan an upgrade, open a base, edit its grid, then use these footer controls: undo and redo, save the result as a plan or a step and switch between your live base and the draft."
+    },
+    "baseGuidePreviewAgain": {
+      "title": "See the impact",
+      "body": "As you change the layout, the preview panel keeps up: the profit and ROI stats and the construction materials both update live, so you can tell a good change from a bad one before saving."
+    },
+
+    "profitRecipesOverview": {
+      "title": "The recipes",
+      "body": "Every producible recipe, ranked by profit for your setup. This grid is the heart of the page; the panels around it decide what the numbers say."
+    },
+    "profitScenarioPanel": {
+      "title": "Your scenario",
+      "body": "Everything the profit is calculated against lives here: your bases, research, perks, consumables and where materials come from. We will walk through it section by section."
+    },
+    "profitSecGeneral": {
+      "title": "General and shipping",
+      "body": "Planet tier, building level and condition, workforce and the starting bonus, plus how output is shipped. The broad assumptions behind every recipe."
+    },
+    "profitSecResearch": {
+      "title": "Research and perks",
+      "body": "Your research levels and prestige perks. Raise a level or toggle a perk to see, right away, which recipes it makes worthwhile."
+    },
+    "profitSecConsumables": {
+      "title": "Consumables",
+      "body": "Which worker consumables you actually provide. Turning one off feeds its cost into every recipe that employs those workers."
+    },
+    "profitSecSources": {
+      "title": "Material sources",
+      "body": "Where each input material comes from: bought, produced or a fixed price. Right-click a material like Iron Ore to change its source without leaving the page."
+    },
+    "profitFilterDisplay": {
+      "title": "Filters and display",
+      "body": "Narrow the grid by tier, industry, building or search, and choose which number each card shows: profit, margin, ROI, cost and more."
+    },
+    "profitFilterOverhead": {
+      "title": "Overhead",
+      "body": "Company overhead spread across production. It shapes the true profit of every recipe, so it is worth a look before trusting a ranking."
+    },
+    "profitFooter": {
+      "title": "Presets, bases and sharing",
+      "body": "Along the bottom: save the whole scenario as a preset and switch between them, choose which of your bases are included in the numbers, and share your setup with others."
+    },
+    "profitCard": {
+      "title": "A recipe card",
+      "body": "Each card shows the recipe, its icon and the number you picked in the display options. Right-click a card for quick actions like overrides and chains; click it for the full breakdown."
+    },
+    "profitModalOpen": {
+      "title": "The full breakdown",
+      "body": "Clicking a card opens its details. Inputs, workforce, economics and price history, all for this one recipe. Use the tabs to move between them."
+    },
+    "profitModalRecipe": {
+      "title": "Recipe tab",
+      "body": "The production itself: inputs, outputs, workforce and buildings, with the cost of each broken out."
+    },
+    "profitModalEconomics": {
+      "title": "Economics tab",
+      "body": "The money side: revenue, input and workforce costs, overhead and profit, and how they shift as you change reactor efficiency or scale output."
+    },
+    "profitModalHistory": {
+      "title": "History tab",
+      "body": "How this recipe's prices and profit have moved over time, so you can tell a lasting margin from a passing spike."
+    },
+    "profitSearch": {
+      "title": "Jump to any recipe",
+      "body": "Press F, or click the search icon, to jump straight to another recipe without closing this window."
+    },
+    "profitChains": {
+      "title": "Recipe chains",
+      "body": "Multi-step production, where one recipe feeds the next, is planned from here. The Recipe chains guide walks it in full."
+    },
+
+    "researchGuideSubpages": {
+      "title": "Two research tools",
+      "body": "The Research page has two subpages: the Research Planner for tech levels and Prestige Perks for spending prestige points. We start on the Planner."
+    },
+    "researchGuideCurrentLevels": {
+      "title": "Your current levels",
+      "body": "This shows your company's live research level and the resulting bonus for every field, straight from your tracked company."
+    },
+    "researchGuideStartingLevels": {
+      "title": "Where the plan starts",
+      "body": "Pick what the plan starts from: your current levels, a full respec from zero or a custom baseline you set per field."
+    },
+    "researchGuideTargetLevels": {
+      "title": "Where you want to be",
+      "body": "Set the level you want each field to reach. The plan costs out the jump from your starting levels to these targets."
+    },
+    "researchGuideMilestones": {
+      "title": "Order the upgrades",
+      "body": "Break the plan into milestones to control the order fields are levelled, either by hand or by recording the changes you make to the targets."
+    },
+    "researchGuideSimulation": {
+      "title": "The full upgrade path",
+      "body": "The simulation lists every level step with its research data, time and cost, then totals it all up. Create a wishlist from here to shop the materials you need."
+    },
+    "researchGuidePerkBonuses": {
+      "title": "Your active perks",
+      "body": "On the Prestige Perks subpage this panel sums up the bonuses your active perks give you today, plus a Planned column once you start editing levels."
+    },
+    "researchGuidePerkPoints": {
+      "title": "Points to spend",
+      "body": "See how many perk points you have available and how much prestige stands between you and the next one."
+    },
+    "researchGuidePerksOverview": {
+      "title": "Compare every perk",
+      "body": "This table ranks perks by daily value and one-time savings per point, with plus and minus controls to plan levels. Use Recommend to auto-spend your points for the biggest gain."
+    },
+    "researchGuideFlightRoutes": {
+      "title": "Routes for logistics perks",
+      "body": "Logistics perks only pay off if the planner knows your shipping. Add your flight routes here so their daily value reflects the tonnage you actually move."
+    },
+
+    "shipsGuideIntro": {
+      "title": "The Ships page",
+      "body": "Design a ship, price its parts and simulate a route end to end. We will walk the build first, then the flight simulation and the bonuses that feed both."
+    },
+    "shipsGuideSelection": {
+      "title": "Pick a ship",
+      "body": "Start from one of your own ships or build a custom design. Browse community designs to open a proven layout from another player and tweak it from there."
+    },
+    "shipsGuideLayout": {
+      "title": "Ship layout",
+      "body": "The parts that define the ship: reactor and FTL type, emitters, cargo bay, fuel tank, heat and radiation shielding and condition. Change any of them to see the rest of the page react. Share the layout as a link from the section header."
+    },
+    "shipsGuideMaterials": {
+      "title": "Construction materials",
+      "body": "What it takes to build the ship as configured, priced against your custom prices. Pick a ship to upgrade from to see only the extra parts, or turn the list into a wishlist in one click."
+    },
+    "shipsGuideMaterialsCalc": {
+      "title": "How it is costed",
+      "body": "Not sure where a total comes from? This opens a full breakdown of every part and its price, so you can see exactly how the construction cost is built up."
+    },
+    "shipsGuideCustomPrices": {
+      "title": "Custom prices",
+      "body": "The material prices every cost on this page is calculated against: ship parts and maintenance. Adjust them here to match what you actually pay."
+    },
+    "shipsGuideCharacteristics": {
+      "title": "Characteristics",
+      "body": "The resulting ship at a glance: empty and full weight, fuel capacity, damage reduction and repair kits. The numbers the flight simulation runs on."
+    },
+    "shipsGuideRouting": {
+      "title": "Plan a route",
+      "body": "Choose a start and destination planet, swap them in one click or lock an endpoint. Add legs above to chain a multi-stop run."
+    },
+    "shipsGuideFlightStats": {
+      "title": "Statistics and analysis",
+      "body": "Distance, fuel, travel time and cost for the route, then the deeper analysis: the cheapest and best reactor efficiency for this ship on this run, so you can trade speed against cost. Click cheapest or best to set the reactor there."
+    },
+    "shipsGuideFlightSummary": {
+      "title": "Flight summary",
+      "body": "The whole run at a glance: distance, travel time, fuel, condition loss and total cost, down to cost per ton. This is the number to compare when you change the ship or the route."
+    },
+    "shipsGuideRouteFavorites": {
+      "title": "Route favorites",
+      "body": "Save a ship-and-route pairing you run often and jump back to it later. The dropdowns pick the ship and a saved favorite to load."
+    },
+    "shipsGuideBonuses": {
+      "title": "Flight bonuses",
+      "body": "Everything that speeds up or cheapens flight in one place: your guild Flight Center level, the relevant prestige perks and your starter bonus. Preview a different level to see the effect before you commit."
+    },
+    "shipsGuideBlueprints": {
+      "title": "Blueprint favorites",
+      "body": "Star a ship layout from the selection section to keep it here, ready to reload whenever you want to reuse a design."
+    },
+    "shipsGuideMyShips": {
+      "title": "My ships",
+      "body": "The ships your tracked company already owns. Pick one to load its exact layout into the page as a starting point."
+    },
+
+    "leaderboardGuideIntro": {
+      "title": "The leaderboards",
+      "body": "Rankings for every tracked guild and company, refreshed from the game. This page is where you see where you and everyone else stand."
+    },
+    "leaderboardGuideSubpages": {
+      "title": "Two leaderboards",
+      "body": "Switch between the guild and the company ranking here. We start on guilds; the company board comes next."
+    },
+    "leaderboardGuideGuildTable": {
+      "title": "The guild ranking",
+      "body": "Every guild by prestige, members, value and recent gains. Click any column header to sort by it, and click a row to open that guild."
+    },
+    "leaderboardGuideFilters": {
+      "title": "Narrow the list",
+      "body": "Filter by activity and whether disbanded guilds show. Each numeric column header also has its own min and max filter for finer ranges."
+    },
+    "leaderboardGuideColumns": {
+      "title": "Pick your columns",
+      "body": "Add or hide columns to build the view you care about: guild projects, member prestige, 24h and 7d gains and more."
+    },
+    "leaderboardGuideSearch": {
+      "title": "Find a guild",
+      "body": "Search by guild name or tag. Typing a company name works too: it surfaces the guild that company belongs to."
+    },
+    "leaderboardGuideCompanyTable": {
+      "title": "The company ranking",
+      "body": "The same table for individual companies. Sorting, filters, columns and search all work the same way, plus a jump-to-my-rank shortcut once your company is loaded."
+    },
+    "leaderboardGuideEventButtons": {
+      "title": "Full event history",
+      "body": "Open the complete, searchable log of guild events or company events across the game: joins, project upgrades, resets, new bases and more."
+    },
+    "leaderboardGuideRecentEvents": {
+      "title": "Latest activity",
+      "body": "A live feed of the most recent guild and company events. Click any name to open that guild or company, or refresh with the arrow."
+    },
+    "leaderboardGuideGameActivity": {
+      "title": "How busy is the game",
+      "body": "Counts of active and new companies and guilds over the last day, three days and week, with a History button for the trend over time."
+    },
+
+    "communityGuideSections": {
+      "title": "One page, several views",
+      "body": "The Community page collects everything players share: achievements, patch notes, ship designs, industry stats and prestige perks. Switch between them here."
+    },
+    "communityGuideMinigames": {
+      "title": "Hidden minigames",
+      "body": "Small games are tucked away behind specific clicks all over the app. This case tracks which you have found, how you rank and lets you replay any you have already unlocked."
+    },
+    "communityGuideDiscoveries": {
+      "title": "Hidden discoveries",
+      "body": "Inside jokes and bits of lore are hidden the same way. A found card re-reads its story and shows who else uncovered it; locked cards stay blank so nothing is spoiled."
+    },
+    "communityGuideOverview": {
+      "title": "Who found what",
+      "body": "The standings rank companies by how much they have uncovered, and the feed below shows recent finds. Sort by minigames, discoveries or total, and page through the board."
+    },
+    "communityGuidePatchNotes": {
+      "title": "Patch notes",
+      "body": "Every release, newest first. Pick a version from the release index on the right to jump straight to it, or load older releases as you read down."
+    },
+    "communityGuideOtherSections": {
+      "title": "The data views",
+      "body": "Ships, Industries and Perks are read-only summaries of the whole player base. They are self-explanatory, so poke around. Here is Industries as an example."
+    },
+    "communityGuideIndustries": {
+      "title": "Where the numbers come from",
+      "body": "These charts aggregate research levels, company value and growth from every tracked company, counts only and never a single player's figures. The \"?\" in the header says how many companies the sample covers and when it was last rebuilt."
+    },
+
+    "galaxyGuideIntro": {
+      "title": "The galaxy map",
+      "body": "This page maps every planet in the galaxy. Explore resources, see who lives where and scout planets for new bases. Let's take a quick tour."
+    },
+    "galaxyGuideMap": {
+      "title": "The map",
+      "body": "Each dot is a planet, sized and coloured by tier. Drag to pan, scroll to zoom and click a planet to select it. Right-click a planet for quick actions like opening its intel or planning a base there."
+    },
+    "galaxyGuideMapControls": {
+      "title": "Search and overlays",
+      "body": "Search for a planet by name, jump straight to your own bases and ships, and toggle overlays for favourites, bases, ships and planet density."
+    },
+    "galaxyGuideFilters": {
+      "title": "Filters",
+      "body": "Narrow the map to what matters: filter by name, tier, resource abundance or fertility. Planets that fail the filter are dimmed on the map and dropped from the table."
+    },
+    "galaxyGuideLens": {
+      "title": "Lens",
+      "body": "Recolour planets or paint a heatmap by any resource, fertility, company density or guild presence, so hotspots jump out at a glance."
+    },
+    "galaxyGuideSocial": {
+      "title": "Social",
+      "body": "Pick a company or guild to spotlight where they have bases across the galaxy. Selecting a guild also colours the map by its members."
+    },
+    "galaxyGuideTable": {
+      "title": "Table mode",
+      "body": "The same planets as a sortable table. Add columns for any resource, sort by distance or company count and scan the numbers side by side. Your filters carry across."
+    },
+    "galaxyGuideDetails": {
+      "title": "Details",
+      "body": "Back on the map, this column shows details for whatever you select: a planet's resources and distance, or a ship's route. With nothing selected it lists your own bases and ships."
+    },
+    "galaxyGuideSelectPlanet": {
+      "title": "Pick a planet",
+      "body": "Let's open one of your own base planets. Its full resource breakdown and the companies present here now fill the details panel."
+    },
+    "galaxyGuideIntel": {
+      "title": "Planet intel",
+      "body": "Planet intel lists every company here. Filter to your guild or shareable companies and search, then pick a company to see what it shares."
+    },
+    "galaxyGuideIntelDetails": {
+      "title": "Company detail",
+      "body": "With a company picked on the left, its shared data fills the right side: base layout, production, warehouses and contracts. We have selected your own company so you can see your base. That's the tour."
+    },
+
+    "exchangeGuideIntro": {
+      "title": "The Exchange",
+      "body": "This page tracks live market prices for every material. It has two subpages: Exchange for raw price data and Analysis for recipe-level scoring."
+    },
+    "exchangeGuideSubpages": {
+      "title": "Two subpages",
+      "body": "Switch here between the Exchange price board and the Analysis view. We will start with Exchange."
+    },
+    "exchangeGuideControls": {
+      "title": "Toolbar",
+      "body": "Pick a time window or a single day, search materials and refresh. The chevron expands filters, custom columns and CSV export."
+    },
+    "exchangeGuideTable": {
+      "title": "Price board",
+      "body": "Every material with its current price, listed quantity, amount sold and price change. Sort any column, star favourites and click a row to open its detail."
+    },
+    "exchangeGuideMaterialCharts": {
+      "title": "Material detail",
+      "body": "Clicking a material opens its history. The Charts tab plots market activity and sold-versus-listed over your chosen window."
+    },
+    "exchangeGuideMaterialDetails": {
+      "title": "Details",
+      "body": "The Details tab lists the summary stats, the live order book and which companies are trading this material."
+    },
+    "exchangeGuideMaterialPatterns": {
+      "title": "Patterns",
+      "body": "The Patterns tab shows a heatmap of when trading activity peaks across the day and week."
+    },
+    "exchangeGuideAnalysisTable": {
+      "title": "Analysis",
+      "body": "The Analysis view scores production recipes against current prices. Each row is a recipe with its output material, liquidity and score."
+    },
+    "exchangeGuideAnalysisTags": {
+      "title": "Signal tags",
+      "body": "The Tags column flags market signals: surge, breakout, squeeze, fading, dumping, wall, crash and monopoly. Hover a pill for what it means."
+    },
+    "exchangeGuideAnalysisScores": {
+      "title": "Scores",
+      "body": "The two score columns rate profitability at the average price and at the current price. Higher is better; hover a score for its breakdown."
+    },
+    "exchangeGuideAnalysisPlanets": {
+      "title": "Planet abundances",
+      "body": "Set per-material abundances here so extraction recipes are scored for your planets. Apply your owned planets, max values or reset."
+    },
+    "exchangeGuideStats": {
+      "title": "Exchange stats",
+      "body": "The right column covers data health: snapshot counts, collection window and how many companies have been listing recently."
+    },
+
+    "guildGuideIntro": {
+      "title": "The guild page",
+      "body": "Everything about your guild lives here. Use these tabs to move between Projects, Donations, Members and Trade. We will walk each one."
+    },
+    "guildGuideLeftInfo": {
+      "title": "Guild at a glance",
+      "body": "General shows your guild's rank, prestige and member count. Guild Projects lists every project with its current level and bonus."
+    },
+    "guildGuideProjectList": {
+      "title": "Project breakdown",
+      "body": "Each project shows its construction cost and daily consumables. Set a start level to preview what an upgrade needs and what it costs."
+    },
+    "guildGuideWishlist": {
+      "title": "Wishlist builder",
+      "body": "Pick projects and target levels here to build a combined shopping list of everything the guild still needs."
+    },
+    "guildGuideDonationTargets": {
+      "title": "Donation targets",
+      "body": "See exactly which materials each project still needs and plan what to donate. This is your starting point for filling projects."
+    },
+    "guildGuideDonationGuide": {
+      "title": "Donation guide",
+      "body": "A step-by-step view of what to hand over, in compact, detailed or chart form. Switch modes to match how you like to read it."
+    },
+    "guildGuideDonationLeaderboard": {
+      "title": "Donation leaderboard",
+      "body": "Ranks members by how much they have contributed. Toggle past members in or out to focus on your current roster."
+    },
+    "guildGuidePrestigeTrend": {
+      "title": "Prestige trend",
+      "body": "Tracks prestige earned from donations over time. Change the window, pick companies and switch between stacked and line views."
+    },
+    "guildGuideRecentDonations": {
+      "title": "Recent donations",
+      "body": "A live feed of the latest donations with their material value, so you can see what just landed."
+    },
+    "guildGuideResearchLevels": {
+      "title": "Member research levels",
+      "body": "Compares each member's research across every field. Members only appear here once they enable sharing in their settings."
+    },
+    "guildGuideMemberPlanets": {
+      "title": "Member planets",
+      "body": "Every member's planets, grouped by member or by planet, with tier and distance to the exchange. Expand a row to drill in."
+    },
+    "guildGuideTrade": {
+      "title": "Trade",
+      "body": "The Trade tab is here for what is coming: a guild trade hub. It is still being built, so nothing in it works yet and we will not open it."
+    },
+
+    "customPricesNavButton": {
+      "title": "Custom prices",
+      "body": "Custom prices open from this button in the top bar, on any page that uses them. Let's open the drawer."
+    },
+    "customPricesIntro": {
+      "title": "Your price overrides",
+      "body": "Set your own buy and sell prices per material here. Every profitability, base and flight calculation uses these instead of the live market."
+    },
+    "customPricesRow": {
+      "title": "One row per material",
+      "body": "Each row shows the price that will be used. Left-click a row to set an absolute price, a percent or a step offset. Right-click for a quick menu to favorite, reset or open advanced options."
+    },
+    "customPricesSearch": {
+      "title": "Search, filter and favorite",
+      "body": "Type to find any material (comma-separate for several). Star a material to favorite it, then use the star toggle to show only your favorites."
+    },
+    "customPricesPresets": {
+      "title": "Presets",
+      "body": "Save a whole set of prices as a preset, then switch between them from the dropdown. Handy for keeping separate buy and sell pricing or different market scenarios."
+    },
+
+    "chainsGuideProfitButton": {
+      "title": "Recipe chains",
+      "body": "Recipe chains model a full production tree end to end. Open one from this button on the Profitability page. Let's build a chain together."
+    },
+    "chainsGuideNew": {
+      "title": "Start a new chain",
+      "body": "The overlay opens with your saved chains in the Library on the left. Hit New to start building a fresh chain."
+    },
+    "chainsGuideRecipePicker": {
+      "title": "Pick the root recipe",
+      "body": "Search for the product the chain should build, for example Tools (Iron). Every input feeds up from here."
+    },
+    "chainsGuideMaterialsNeeded": {
+      "title": "Materials it needs",
+      "body": "This lists every material the recipe consumes, down the whole tree. It updates live as you tweak the chain. Press Create to lay it out."
+    },
+    "chainsGuideGraphNodes": {
+      "title": "Read the graph",
+      "body": "Each node is colored by type: blue recipe nodes you produce, brown market nodes you buy, orange contract nodes, green shipping legs and purple exchange nodes. Arrows flow inputs into outputs."
+    },
+    "chainsGuideSourceSwitch": {
+      "title": "Recipe, Market or Contract",
+      "body": "On each material node a switch picks how you source it: Recipe to produce it, Market to buy it or Contract to source it through a contract. Right-click a switch to apply the choice down the whole chain."
+    },
+    "chainsGuideLibrary": {
+      "title": "Your chain library",
+      "body": "Every chain you create is saved here. Click one to reopen it or drag to reorder. Rename and delete live on the row buttons."
+    },
+    "chainsGuideHeaderActions": {
+      "title": "Materials and Settings",
+      "body": "Materials opens the full shopping list for the chain. Settings tunes how the chain is built and displayed. Let's open Settings."
+    },
+    "chainsGuideSettings": {
+      "title": "Chain settings",
+      "body": "Include Shipping Nodes adds transport legs, planet picks and shipping costs to the graph. Use Custom Prices Panel feeds your Custom Prices into Inherit pricing. Below are node colors, layout and new-chain defaults."
+    },
+
+    "companyGuildGuideNavIcon": {
+      "title": "Your company card",
+      "body": "This icon in the top bar opens your own company card. Let's open it and walk through what it holds."
+    },
+    "companyGuildGuideOpenCompany": {
+      "title": "Overview",
+      "body": "The headline on your company: value, prestige, workforce, your guild and when you founded, with recent activity below."
+    },
+    "companyGuildGuideTabBases": {
+      "title": "Bases",
+      "body": "Every base you run, with its planet, tier and workforce at a glance."
+    },
+    "companyGuildGuideTabProduction": {
+      "title": "Production",
+      "body": "What your company makes and consumes per day across all bases, net of everything."
+    },
+    "companyGuildGuideTabWarehouses": {
+      "title": "Warehouses",
+      "body": "Everything sitting in storage, by material, with quantity, weight and value."
+    },
+    "companyGuildGuideTabContracts": {
+      "title": "Contracts",
+      "body": "Your open shipping and supply contracts, who they are with and what they move."
+    },
+    "companyGuildGuideTabShips": {
+      "title": "Ships",
+      "body": "Your ship designs, their reactors, emitters, cargo and fuel at a glance."
+    },
+    "companyGuildGuideTabPerks": {
+      "title": "Perks",
+      "body": "The prestige perks your company has taken and the levels behind them."
+    },
+    "companyGuildGuideTabExchange": {
+      "title": "Exchange",
+      "body": "Your recent buying and selling on the exchange, material by material."
+    },
+    "companyGuildGuideTabHistory": {
+      "title": "History",
+      "body": "How your value and prestige have moved over time, on a window you pick."
+    },
+    "companyGuildGuideTabEvents": {
+      "title": "Events",
+      "body": "A running log of notable company events, newest first."
+    },
+    "companyGuildGuideSearch": {
+      "title": "Look up other players",
+      "body": "Search here to look up any other player. Some of their bases and production may be hidden if they have not enabled data sharing, and you can turn on your own sharing in Settings."
+    },
+    "companyGuildGuideCompanyGuildLink": {
+      "title": "Jump to your guild",
+      "body": "The Guild card here is clickable, and so is any guild name across the app. Click it to open the guild card, which we will look at next."
+    },
+    "companyGuildGuideCompanyGuildLinkSolo": {
+      "title": "Jump to your guild",
+      "body": "The Guild card here is clickable whenever you are in a guild, and so is any guild name anywhere in the app. Clicking one opens the guild card, which works just like this company card."
+    },
+    "companyGuildGuideOpenGuild": {
+      "title": "Your guild",
+      "body": "Same idea one level up: this is your guild's card, opened from that Guild link. Let us walk it the same way."
+    },
+    "companyGuildGuideGuildOverview": {
+      "title": "Guild overview",
+      "body": "Rank, prestige and combined member value up top, with members and guild projects below. It is the guild's headline at a glance."
+    },
+    "companyGuildGuideGuildTabs": {
+      "title": "The rest of the guild",
+      "body": "History, events, member planets, pooled production and guild exchange activity each have a tab. Production needs your API key, the rest are open to anyone."
+    },
+    "companyGuildGuideGuildClose": {
+      "title": "That is the pair",
+      "body": "Company card, guild card, both reachable from any name in the app. Close this whenever you are done exploring."
+    }
+  }
+}

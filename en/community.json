@@ -163,7 +163,11 @@
     "whatIsThis": "What is this?",
     "minigamesHelp": "Little games hidden across the app. Find one and it unlocks here, with its own leaderboard.",
     "discoveriesHelp": "Things hidden across the app, mostly community lore and inside jokes. Find one and it turns up here.",
-    "unlockedToast": "Achievement unlocked"
+    "unlockedToast": "Achievement unlocked",
+    "unlockedFind": "Something hidden",
+    "hint": "Hint",
+    "hintHelp": "Take one if you want it. The share below counts everyone who found this, with or without a hint.",
+    "hintHide": "Hide"
   },
   "route": {
     "notSet": "Set a route",
@@ -233,6 +237,14 @@
     "communityHint": "Capacity and speed as the companies flying each design get them, using the perks a majority of them hold.",
     "alwaysYours": "Prices, your guild Flight Center, Reinforced Hulls and Fuel Efficiency are always yours: they scale every design alike, so they never change which one is best."
   },
+  "minigame": {
+    "saveFailed": "Couldn't save your score, check your connection"
+  },
+  "guildWar": {
+    "playAs": "Play as {{side}}, shoot down {{enemy}}",
+    "play": "Play",
+    "loading": "Loading roster…"
+  },
   "science": {
     "won": "The chain is complete. Higher grades open up from here.",
     "keepGoing": "Keep going",
@@ -294,10 +306,20 @@
     "panels": {
       "fields": "Research fields",
       "levels": "Research level by field",
+      "value": "Company value by tech",
       "growth": "Tech profitability",
       "specialization": "Specialization",
       "singleSpec": "Single-spec focus",
       "combos": "Top combinations"
+    },
+    "value": {
+      "axisValue": "Company value",
+      "tooltipCompanies": "{{count}} single-spec companies",
+      "tooltipMedian": "Median value {{value}}",
+      "tooltipMiddle": "Middle 50%: {{q1}} to {{q3}}",
+      "tooltipRange": "10th to 90th: {{p10}} to {{p90}}",
+      "footnote": "Company value of single-spec companies aged 14 days or more, active in the last day. A tech shows once enough companies back it.",
+      "empty": "Not enough companies yet to show value by tech."
     },
     "growth": {
       "window24h": "24h",
@@ -308,7 +330,7 @@
       "tooltipMedian": "Median growth {{value}}",
       "tooltipMiddle": "Middle 50%: {{q1}} to {{q3}}",
       "tooltipRange": "10th to 90th: {{p10}} to {{p90}}",
-      "footnote": "Company-value growth of single-spec companies aged 14 days or more that were active in the last day. A revealed signal on a subset, so it leans toward where strong players are.",
+      "footnote": "Company-value growth of single-spec companies aged 14 days or more, active in the last day.",
       "empty": "Not enough companies yet to show growth by tech."
     },
     "fields": {
@@ -321,7 +343,7 @@
     },
     "specialization": {
       "subtitle": "How many fields each company is specialized in.",
-      "rule": "How specialized each company is. Its most-researched field always counts as a spec; a further field counts only when it is leveled up meaningfully too, roughly a third of the top field's level or more, so a few stray points don't. Single, dual and diversified mean one, two, and three or more specs; companies with no research yet are their own group.",
+      "rule": "Single, dual or diversified: one, two or three-plus specialized fields. A field counts as a spec at roughly a third of the top field's level or more.",
       "none": "No research yet",
       "single": "Single spec",
       "dual": "Dual spec",
@@ -364,7 +386,7 @@
       "4": "Missions"
     },
     "adoption": {
-      "footnote": "The bar is the share of contributing companies that hold each perk at any level. The box plot on the right shows the level distribution among holders, on each perk's own 1-to-max range: the box is the middle 50%, the tick is the median and the thin line is the full range. Single-level perks have no box plot.",
+      "footnote": "Bar: share of companies holding each perk. Box plot: the level spread among holders on each perk's own scale (box is the middle 50%, tick the median, line the full range).",
       "levelLegend": "Holder level:",
       "legendBox": "middle 50%",
       "legendMedian": "median",
@@ -385,7 +407,7 @@
       "tooltipMedian": "Median value {{value}}",
       "tooltipMiddle": "Middle 50%: {{q1}} to {{q3}}",
       "tooltipRange": "10th to 90th: {{p10}} to {{p90}}",
-      "footnote": "Company value of the companies holding each perk, active in the last day and aged 14 days or more. Company value is public; a perk is only shown once enough holders back it. Bigger companies naturally hold more perks, so read this as association, not cause.",
+      "footnote": "Company value of the companies holding each perk, aged 14 days or more and active in the last day. A perk shows once enough holders back it.",
       "empty": "Not enough companies yet to show value by perk."
     },
     "industry": {
@@ -398,8 +420,61 @@
       "legendIndustry": "Within industry",
       "legendCommunity": "Community avg",
       "rowTitle": "Within industry {{industry}}% · community {{community}}%",
-      "footnote": "Among companies specialized in a single research field, the perks they hold as a share of that industry, with the community-wide adoption drawn as the baseline tick. Switch between fixing an industry and fixing a perk.",
+      "footnote": "Among single-spec companies, the perks held as a share of that industry; the tick marks community-wide adoption. Toggle between fixing an industry or a perk.",
       "empty": "Not enough single-spec companies yet to break perks down by industry."
     }
+  },
+  "shipRacer": {
+    "controls": "Arrow keys or WASD to fly. R to restart.",
+    "difficultyEasy": "easy",
+    "difficultyHard": "hard",
+    "rocks": "✦ {{count}} rocks",
+    "lap": "Lap {{lap}}/{{total}}",
+    "lapTime": "lap {{time}}",
+    "last": "Last {{time}}",
+    "best": "Best {{time}}",
+    "racingGhost": "◈ racing ghost",
+    "onTrack": "on track",
+    "offTrack": "off track",
+    "go": "GO!",
+    "finished": "Finished — {{laps}} laps",
+    "newRecord": "◈ New record!",
+    "bestLap": "Best lap {{time}}",
+    "bestRace": "Best race {{time}}",
+    "raceAgain": "Race again (R)",
+    "ship": "Ship",
+    "modeBuild": "Build",
+    "modeFleet": "My fleet",
+    "noShipData": "Ship data unavailable — racing with default stats.",
+    "fleetShip": "Fleet ship",
+    "selectShip": "Select a ship…",
+    "emitter": "Emitter",
+    "reactor": "Reactor",
+    "emitters": "Emitters",
+    "shielding": "Shielding",
+    "shieldingNone": "None",
+    "shieldingLight": "Light",
+    "shieldingHeavy": "Heavy",
+    "noRocksHere": "no rocks here",
+    "axisAcceleration": "Acceleration",
+    "axisTopSpeed": "Top speed",
+    "axisHandling": "Handling",
+    "axisResilience": "Resilience",
+    "clearGhost": "Clear ghost",
+    "racingRival": "racing {{name}}",
+    "needApiKey": "Add your API key in Settings to post your time and race other players.",
+    "shipSettings": "Ship settings",
+    "changeShip": "Change ship",
+    "openBoard": "Leaderboard",
+    "backToRace": "Back to race",
+    "abandonWarning": "Changing ship abandons the run in progress.",
+    "resetBuild": "Reset",
+    "controlLeft": "Turn left",
+    "controlRight": "Turn right",
+    "controlThrust": "Thrust",
+    "raceGhost": "Race this ghost",
+    "stopRacingGhost": "Stop racing this ghost",
+    "restart": "Start over",
+    "confirmRestart": "Tap again to start over"
   }
 }

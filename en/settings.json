@@ -135,6 +135,12 @@
   "functionality": {
     "panelTitle": "Functionality"
   },
+  "tour": {
+    "panelTitle": "App tour",
+    "description": "A short guided walk through the main pages and the features most people use.",
+    "start": "Start tour",
+    "viewGuides": "View detailed guides"
+  },
   "general": {
     "title": "General",
     "sync": {
@@ -256,10 +262,10 @@
   },
   "communityStats": {
     "title": "Community Statistics",
-    "intro": "GT-Companion publishes anonymous statistics on which ship designs players use, so everyone can see what the community actually flies. Only counts are published and no company is identifiable.",
+    "intro": "GT-Companion publishes anonymous community statistics so everyone can see what players actually build and fly. It covers ship designs, research levels, prestige perks and the industries they power, plus anonymous company-value distributions across perks and research. Only aggregates are published and no company is identifiable.",
     "toggle": {
-      "label": "Contribute my ship designs to community statistics",
-      "description": "Your ship designs and logistics perks are counted alongside everyone else's. Turning this off deletes your contribution immediately; published totals refresh within 24 hours."
+      "label": "Contribute my company to community statistics",
+      "description": "Your ship designs, research levels, prestige perks and industry mix are counted alongside everyone else's. Your company value feeds the anonymous per-perk and per-field distributions. Turning this off deletes your contribution immediately; published totals refresh within 24 hours."
     },
     "errors": {
       "update": "Could not update your community statistics preference."

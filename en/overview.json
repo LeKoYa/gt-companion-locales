@@ -3,7 +3,9 @@
     "welcome": {
       "title": "Welcome to GT-Companion",
       "lead": "GT-Companion is an unofficial, solo-developed companion site for Galactic Tycoons.",
-      "body": "View or plan existing and new bases, check profitability of recipes, plan research and ships, view guild donations, and much more."
+      "body": "View or plan existing and new bases, check profitability of recipes, plan research and ships, view guild donations, and much more.",
+      "startTour": "Take the tour",
+      "viewGuides": "View detailed guides"
     },
     "features": {
       "title": "Features",
@@ -51,7 +53,7 @@
       }
     },
     "gettingStarted": {
-      "title": "Getting started",
+      "title": "Resources & links",
       "play": "Play Galactic Tycoons",
       "discord": "Join the official Discord server",
       "guide": "Watch the new player guide",

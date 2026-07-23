@@ -114,11 +114,6 @@
       "maxSpeed": "Max speed",
       "fieldCapacity": "Field capacity",
       "energyDraw": "Energy draw"
-    },
-    "lightRefining": {
-      "title": "Light Refining",
-      "story": "First to produce a Quantum FTL Emitter, back in November 2025. A pioneer of the field, and the reason the outer rim has been within reach of everyone else ever since.",
-      "dismiss": "Punch it"
     }
   },
   "materials": {
