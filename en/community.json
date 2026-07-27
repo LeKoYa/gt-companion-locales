@@ -250,7 +250,11 @@
     "keepGoing": "Keep going",
     "undo": "Take back one move",
     "restart": "Start over",
-    "confirmRestart": "Tap again to start over"
+    "confirmRestart": "Tap again to start over",
+    "chain": {
+      "electronics": "Electronics chain",
+      "nano": "Nanoweave chain"
+    }
   },
   "highRise": {
     "floors": "floors"
@@ -259,6 +263,7 @@
     "discovered": "discovered",
     "search": "Search materials",
     "combine": "Combine",
+    "combineKey": "(Space)",
     "clear": "Clear",
     "reset": "Start over",
     "confirmReset": "Confirm?",
@@ -425,7 +430,7 @@
     }
   },
   "shipRacer": {
-    "controls": "Arrow keys or WASD to fly. R to restart.",
+    "controls": "Arrow keys or WASD to fly. R to restart. G to show/hide the ghost.",
     "difficultyEasy": "easy",
     "difficultyHard": "hard",
     "rocks": "✦ {{count}} rocks",
@@ -434,6 +439,7 @@
     "last": "Last {{time}}",
     "best": "Best {{time}}",
     "racingGhost": "◈ racing ghost",
+    "ghostHidden": "ghost hidden (G)",
     "onTrack": "on track",
     "offTrack": "off track",
     "go": "GO!",
@@ -476,5 +482,33 @@
     "stopRacingGhost": "Stop racing this ghost",
     "restart": "Start over",
     "confirmRestart": "Tap again to start over"
+  },
+  "moonar": {
+    "controls": "Arrows or WASD: left/right rotate, up fires the thruster. R to restart. G to show/hide the ghost.",
+    "openBoard": "Leaderboard",
+    "back": "Back to game",
+    "difficultyEasy": "easy",
+    "difficultyHard": "hard",
+    "methane": "Methane",
+    "descent": "Descent",
+    "drift": "Drift",
+    "tilt": "Tilt",
+    "readyToLand": "◈ ready to land",
+    "steady": "steady…",
+    "chasingGhost": "◈ chasing ghost",
+    "ghostHidden": "ghost hidden (G)",
+    "landed": "Touchdown!",
+    "crashed": "Splat",
+    "best": "Best {{score}}",
+    "crashHint": "Fly up head-first, then rotate the cow feet-down to land on the pad. Once it's sideways the thruster can't brake your fall, so slow down first.",
+    "tryAgain": "Try again (R)",
+    "clearGhost": "Clear ghost",
+    "racingRival": "racing {{name}}",
+    "raceGhost": "Race this ghost",
+    "stopRacingGhost": "Stop racing this ghost",
+    "needApiKey": "Add your API key in Settings to post your score and race other players.",
+    "rotateLeft": "Rotate left",
+    "rotateRight": "Rotate right",
+    "thrust": "Thruster"
   }
 }

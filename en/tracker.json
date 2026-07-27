@@ -382,12 +382,20 @@
       },
       "view": {
         "compact": "Compact",
-        "byType": "By Type",
+        "byTech": "By Tech",
         "byPlanet": "By Planet"
       },
       "guildProjects": "Guild Projects",
       "otherType": "Other",
       "total": "Total",
+      "balance": {
+        "title": "Balance of trade",
+        "exports": "Exports",
+        "imports": "Imports",
+        "net": "Net"
+      },
+      "refresh": "Refresh",
+      "refreshTitle": "Refresh from members' latest game data (uses a little of each member's API budget)",
       "searchPlaceholder": "Search…",
       "projectConsumables": "Guild project consumables",
       "members": "Members",
