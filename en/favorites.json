@@ -1,0 +1,186 @@
+{
+  "menu": {
+    "tooltip": "Quick actions",
+    "title": "Quick actions",
+    "empty": "No favorites yet.",
+    "emptyHint": "A favorite replays a saved wishlist setup with one click.",
+    "create": "Create a favorite",
+    "manage": "Manage favorites…",
+    "comingSoonTitle": "Quick actions, coming soon",
+    "comingSoonBody": "One-click wishlist creation, quick access for the most-used features and more.",
+    "summary": {
+      "bases_one": "{{count}} base",
+      "bases_other": "{{count}} bases",
+      "allBases": "All bases",
+      "days": "{{days}} d",
+      "separator": " · ",
+      "empty": "No steps yet"
+    },
+    "streams": {
+      "consumables": "consumables",
+      "inputs": "inputs",
+      "intermediates": "intermediates"
+    },
+    "applyMode": {
+      "overwrite": "overwrite",
+      "add": "add",
+      "merge": "merge"
+    }
+  },
+  "run": {
+    "title": "{{name}}",
+    "refreshing": "Checking current stock…",
+    "planning": "Working out what to order…",
+    "writing": "Writing wishlists…",
+    "confirm": "Write wishlists",
+    "cancel": "Cancel",
+    "close": "Close",
+    "destinations_one": "{{count}} wishlist",
+    "destinations_other": "{{count}} wishlists",
+    "materials_one": "{{count}} material",
+    "materials_other": "{{count}} materials",
+    "totalWeight": "{{tons}} t",
+    "totalCost": "{{amount}}",
+    "unknownCost": "Cost unknown",
+    "warningsTitle": "Worth checking",
+    "nothingToDo": "Nothing to order — every base is already stocked."
+  },
+  "warnings": {
+    "add-supply.noBaseInScope": "An \"Add supply\" step sits outside a \"For each base\" step, so it has no base to read rates from.",
+    "add-supply.nonPositiveDays": "An \"Add supply\" step has no day count set.",
+    "add-supply.noStreamsSelected": "An \"Add supply\" step has no materials selected.",
+    "for-each-base.noBases": "No bases matched the selection.",
+    "for-each-base.unknownPlanet": "A selected base could not be found and was skipped.",
+    "write.unknownBase": "A base could not be matched to a wishlist and was skipped.",
+    "write.wishlistMissing": "The chosen wishlist no longer exists — a new one will be created.",
+    "block.unknownKind": "This favorite uses a step this version does not know, and it was skipped.",
+    "tree.tooDeep": "This favorite is nested too deeply to run.",
+    "tree.tooManyBlocks": "This favorite has too many steps to run.",
+    "unknown": "Something in this favorite could not be applied."
+  },
+  "toast": {
+    "applied": "{{name}}: wrote {{count}} wishlists.",
+    "applied_one": "{{name}}: wrote {{count}} wishlist.",
+    "alreadyMatched": "{{name}}: everything already matched.",
+    "partial": "{{name}}: {{failed}} of {{total}} wishlists failed.",
+    "rateLimited": "{{name}}: rate limited after {{written}} of {{total}} wishlists.",
+    "failed": "{{name}} failed: {{message}}"
+  },
+  "errors": {
+    "missingApiKey": "Add your API key in Settings to use favorites.",
+    "notFound": "That favorite no longer exists."
+  },
+  "blockCategories": {
+    "structure": "Structure",
+    "source": "Add materials",
+    "modifier": "Adjust"
+  },
+  "blocks": {
+    "forEachBase": {
+      "title": "For each base",
+      "description": "Run the steps inside once per base.",
+      "label": "For",
+      "allBases": "All bases",
+      "allBasesHint": "Follows your company: bases you build later are included too.",
+      "noBases": "No bases",
+      "someBases": "{{count}} of {{total}} bases",
+      "selectAll": "All",
+      "clearAll": "None",
+      "search": "Search bases…",
+      "noMatches": "No bases match.",
+      "noneAvailable": "No bases found.",
+      "unknownBase": "Unknown base"
+    },
+    "addSupply": {
+      "title": "Add supply",
+      "description": "Add a number of days of the base's demand.",
+      "add": "Add",
+      "for": "for",
+      "days": "{{days}} days",
+      "noStreams": "nothing",
+      "streamJoin": " and ",
+      "streamsHint": "Amounts are net of what the base produces itself.",
+      "pickAStream": "Pick at least one.",
+      "deductStock": "deduct current stock",
+      "stream": {
+        "consumables": "consumables",
+        "inputs": "inputs",
+        "intermediates": "intermediates"
+      }
+    }
+  },
+  "editor": {
+    "title": "Favorites",
+    "newFavorite": "New favorite",
+    "namePlaceholder": "Favorite name",
+    "rename": "Rename",
+    "renameDone": "Save name",
+    "chooseIcon": "Choose an icon",
+    "back": "Back to favorites",
+    "backLabel": "Favorites",
+    "noBlocks": "No steps yet.",
+    "containerEmpty": "No steps inside yet.",
+    "addStep": "Add step",
+    "addStepSearch": "Search steps…",
+    "blockDelete": "Delete step",
+    "blockDeleteMessage": "Delete this step?",
+    "blockEnable": "Enable step",
+    "blockDisable": "Disable step",
+    "blockOff": "off",
+    "blockDrag": "Drag to reorder",
+    "blockTotal_one": "{{count}} material",
+    "blockTotal_other": "{{count}} materials",
+    "favoriteDrag": "Drag to reorder",
+    "scopeToStep": "Show only this step in the result",
+    "scopedToStep": "Showing this step only",
+    "edit": "Edit",
+    "duplicate": "Duplicate",
+    "duplicateMessage": "Make a copy of \"{{name}}\"?",
+    "delete": "Delete",
+    "writeTo": "Write to",
+    "using": "by",
+    "result": "Result",
+    "previewLoading": "Loading your bases…",
+    "previewEmpty": "Nothing to order yet.",
+    "previewBlockEmpty": "This step adds nothing.",
+    "runNow": "Run now",
+    "done": "Done",
+    "destination": {
+      "currentBase": "each base's own wishlist",
+      "currentBaseHint": "One wishlist per base, matched by planet.",
+      "list": "one shared wishlist",
+      "listHint": "Everything goes into a single list.",
+      "titlePlaceholder": "Wishlist name"
+    },
+    "applyMode": {
+      "overwrite": "overwriting",
+      "add": "adding",
+      "merge": "merging"
+    },
+    "applyModeHint": {
+      "overwrite": "Replace the wishlist with exactly this.",
+      "add": "Add these amounts on top of what is already listed.",
+      "merge": "Top each material up to this amount, never down."
+    },
+    "deleteMessage": "Delete \"{{name}}\"? This cannot be undone."
+  },
+  "templates": {
+    "daily-resupply": "Daily resupply",
+    "blank": "Blank"
+  },
+  "templateHints": {
+    "daily-resupply": "For every base, order consumables and inputs for a day and a half.",
+    "blank": "Start from nothing and add steps yourself."
+  },
+  "icons": {
+    "boxes-stacked": "Crates",
+    "burger-soda": "Consumables",
+    "gas-pump": "Fuel",
+    "screwdriver-wrench": "Repairs",
+    "buildings": "Bases",
+    "rocket": "Ships",
+    "arrows-rotate": "Recurring",
+    "clipboard-check": "Checklist",
+    "bolt": "Quick action"
+  }
+}

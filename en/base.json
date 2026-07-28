@@ -582,7 +582,8 @@
       "tooltipEnabled": "Reset per-base overrides",
       "tooltipDisabled": "Nothing to reset",
       "trigger": "Reset",
-      "confirm": "Confirm reset"
+      "confirm": "Confirm reset",
+      "message": "Reset this base's overrides? Unsaved changes are discarded."
     },
     "save": {
       "tooltipEnabled": "Save current state",
@@ -624,6 +625,8 @@
     },
     "sections": {
       "researchRoi": "Research ROI",
+      "buildingUpgrades": "Add a production level",
+      "housingConversion": "Housing ↔ production conversion",
       "adminCenterSavings": "Admin Center savings",
       "overheadImpact": "Daily overhead impact",
       "workforceProfit": "Workforce profit",
@@ -733,6 +736,33 @@
         "upgradeCost": "Upgrade cost",
         "profitPerDay": "Profit / day",
         "increasedProfitPerDay": "Increased profit / day",
+        "payback": "Payback"
+      }
+    },
+    "buildingUpgrades": {
+      "empty": "No options available. Each row adds one level of production, either by upgrading the cheapest existing building of a type or by building a fresh level 1 in a free slot.",
+      "newBuild": "new L1",
+      "newBuildHint": "new level 1 building in a free slot",
+      "costBuilding": "Building",
+      "costHousing": "Housing",
+      "columns": {
+        "base": "Base",
+        "action": "Action",
+        "cost": "Cost",
+        "deltaProfit": "Δ profit/d",
+        "payback": "Payback"
+      }
+    },
+    "housingConversion": {
+      "empty": "No conversions available. Each option swaps one slot between housing and production, holding total housing capacity and total production levels flat, so the difference is in maintenance and capital.",
+      "columns": {
+        "base": "Base",
+        "convert": "Convert",
+        "rebalance": "Rebalance",
+        "capitalBack": "Capital back",
+        "capitalOut": "Capital out",
+        "netCapital": "Net capital",
+        "increasedProfitPerDay": "Δ profit/d",
         "payback": "Payback"
       }
     },

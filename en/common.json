@@ -35,7 +35,8 @@
   },
   "actions": {
     "prices": "Prices",
-    "remove": "Remove"
+    "remove": "Remove",
+    "close": "Close"
   },
   "language": {
     "label": "Language",
@@ -43,5 +44,13 @@
     "zh": "中文",
     "de": "Deutsch"
   },
-  "loading": "Loading…"
+  "loading": "Loading…",
+  "topbar": {
+    "menu": "Account menu",
+    "myCompany": "My company",
+    "viewCompany": "View company",
+    "coffee": "Buy me a coffee",
+    "overview": "Go to overview",
+    "pricesTooltip": "Custom prices"
+  }
 }

@@ -242,7 +242,13 @@
         "someBuildings_one": "{{count}} building",
         "someBuildings_other": "{{count}} buildings",
         "enableAll": "Enable all",
-        "disableAll": "Disable all"
+        "disableAll": "Disable all",
+        "entities": {
+          "industry": "industry",
+          "industryPlural": "industries",
+          "building": "building",
+          "buildingPlural": "buildings"
+        }
       }
     },
     "categories": {

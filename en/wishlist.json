@@ -265,5 +265,12 @@
     "created_other": "Wishlists created.",
     "updated": "Wishlist updated.",
     "failedToSave": "Failed to save."
+  },
+  "mutations": {
+    "missingApiKey": "Add your API key in Settings to write wishlists.",
+    "noMaterials": "Nothing to add to this wishlist.",
+    "notFound": "That wishlist no longer exists.",
+    "alreadyMeets": "The wishlist already meets these amounts.",
+    "alreadyMatches": "The wishlist already matches these amounts."
   }
 }

@@ -18,7 +18,8 @@
     "unsavedEdits": "unsaved edits"
   },
   "confirm": {
-    "defaultLabel": "Confirm"
+    "defaultLabel": "Confirm",
+    "cancel": "Cancel"
   },
   "help": {
     "label": "Help",
@@ -94,6 +95,21 @@
     "reset": "Reset",
     "noColumns": "No columns",
     "selected_one": "{{count}} column selected",
-    "selected_other": "{{count}} columns selected"
+    "selected_other": "{{count}} columns selected",
+    "entity": "column",
+    "entityPlural": "columns"
+  },
+  "menu": {
+    "empty": "Nothing here.",
+    "noMatches": "No matches."
+  },
+  "multiSelect": {
+    "none": "No {{entities}}",
+    "all": "All {{entities}}",
+    "partial": "{{count}} of {{total}} {{entities}}",
+    "oneSelected": "1 {{entity}} selected",
+    "empty": "Nothing to filter.",
+    "selectAll": "All",
+    "clearAll": "None"
   }
 }

@@ -30,7 +30,8 @@
     "perkNone": "Companies without this perk",
     "perkFilterCount": "{{count}} set",
     "perkAtLevel": "Level {{level}}",
-    "perkHeld": "Companies with this perk"
+    "perkHeld": "Companies with this perk",
+    "coverage": "GT Companion users hold about {{pct}}% of all company value among players active in the last 7 days."
   },
   "segments": {
     "haulCrawl": "Haul and Crawl",
@@ -312,6 +313,7 @@
       "fields": "Research fields",
       "levels": "Research level by field",
       "value": "Company value by tech",
+      "totalValue": "Total value by tech",
       "growth": "Tech profitability",
       "specialization": "Specialization",
       "singleSpec": "Single-spec focus",
@@ -325,6 +327,15 @@
       "tooltipRange": "10th to 90th: {{p10}} to {{p90}}",
       "footnote": "Company value of single-spec companies aged 14 days or more, active in the last day. A tech shows once enough companies back it.",
       "empty": "Not enough companies yet to show value by tech."
+    },
+    "totalValue": {
+      "axisValue": "Total company value",
+      "tooltipTotal": "Total value {{value}}",
+      "tooltipShare": "{{pct}}% of all tracked value",
+      "tooltipCompanies": "Across {{count}} single-spec companies",
+      "tooltipAverage": "Average {{value}} per company",
+      "footnote": "The company values above, summed per tech. Shows where the money sits: a tech with many small companies can rank below one with fewer large ones. Same population as the chart above.",
+      "empty": "Not enough companies yet to show total value by tech."
     },
     "growth": {
       "window24h": "24h",
@@ -434,6 +445,7 @@
     "difficultyEasy": "easy",
     "difficultyHard": "hard",
     "rocks": "✦ {{count}} rocks",
+    "selectTrack": "Select track",
     "lap": "Lap {{lap}}/{{total}}",
     "lapTime": "lap {{time}}",
     "last": "Last {{time}}",

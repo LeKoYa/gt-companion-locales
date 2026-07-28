@@ -19,6 +19,10 @@
     "lead": "Pick a page to walk through. The ones you have not seen yet are highlighted."
   },
   "guides": {
+    "intro": {
+      "title": "App tour",
+      "description": "The intro walkthrough: a short stop on every page."
+    },
     "base": {
       "title": "Base page",
       "description": "Your bases, production and supply planning."
@@ -79,7 +83,11 @@
     },
     "company": {
       "title": "Your company",
-      "body": "This button opens your own company: its bases, ships, guild and stats. Company and guild names are clickable all over the app and open the same view."
+      "body": "The icon opens your own company: bases, ships, guild and stats. On a wide screen your rank, prestige and company value sit beside it, and the arrow opens settings, language and the rest. Company and guild names are clickable all over the app and open the same view."
+    },
+    "quickActions": {
+      "title": "Quick actions and guides",
+      "body": "The star keeps your quick actions: saved wishlist and shopping-list jobs you can run in one click, once your API key is set. The ? beside it reopens this tour and offers a short guide for whichever page you are on."
     },
     "base": {
       "title": "Your bases",
@@ -95,7 +103,7 @@
     },
     "prices": {
       "title": "Prices you control",
-      "body": "Every calculation in the app runs on these prices. Override any material here and the whole app follows, so your numbers match how you actually buy and sell."
+      "body": "Every calculation in the app runs on these prices. Override any material here and the whole app follows, so your numbers match how you actually buy and sell. The button is in the bar on every page."
     },
     "research": {
       "title": "Research and development",
@@ -129,7 +137,6 @@
       "title": "That is the tour",
       "body": "Next you can pick a page for a closer look, or find these guides any time from Settings. Have fun out there."
     },
-
     "baseGuideIntro": {
       "title": "The Base page",
       "body": "Everything about your bases in one place: what they produce, what they need and what to build next. We will start on the Overview."
@@ -222,7 +229,6 @@
       "title": "See the impact",
       "body": "As you change the layout, the preview panel keeps up: the profit and ROI stats and the construction materials both update live, so you can tell a good change from a bad one before saving."
     },
-
     "profitRecipesOverview": {
       "title": "The recipes",
       "body": "Every producible recipe, ranked by profit for your setup. This grid is the heart of the page; the panels around it decide what the numbers say."
@@ -287,7 +293,6 @@
       "title": "Recipe chains",
       "body": "Multi-step production, where one recipe feeds the next, is planned from here. The Recipe chains guide walks it in full."
     },
-
     "researchGuideSubpages": {
       "title": "Two research tools",
       "body": "The Research page has two subpages: the Research Planner for tech levels and Prestige Perks for spending prestige points. We start on the Planner."
@@ -328,7 +333,6 @@
       "title": "Routes for logistics perks",
       "body": "Logistics perks only pay off if the planner knows your shipping. Add your flight routes here so their daily value reflects the tonnage you actually move."
     },
-
     "shipsGuideIntro": {
       "title": "The Ships page",
       "body": "Design a ship, price its parts and simulate a route end to end. We will walk the build first, then the flight simulation and the bonuses that feed both."
@@ -385,7 +389,6 @@
       "title": "My ships",
       "body": "The ships your tracked company already owns. Pick one to load its exact layout into the page as a starting point."
     },
-
     "leaderboardGuideIntro": {
       "title": "The leaderboards",
       "body": "Rankings for every tracked guild and company, refreshed from the game. This page is where you see where you and everyone else stand."
@@ -426,7 +429,6 @@
       "title": "How busy is the game",
       "body": "Counts of active and new companies and guilds over the last day, three days and week, with a History button for the trend over time."
     },
-
     "communityGuideSections": {
       "title": "One page, several views",
       "body": "The Community page collects everything players share: achievements, patch notes, ship designs, industry stats and prestige perks. Switch between them here."
@@ -455,7 +457,6 @@
       "title": "Where the numbers come from",
       "body": "These charts aggregate research levels, company value and growth from every tracked company, counts only and never a single player's figures. The \"?\" in the header says how many companies the sample covers and when it was last rebuilt."
     },
-
     "galaxyGuideIntro": {
       "title": "The galaxy map",
       "body": "This page maps every planet in the galaxy. Explore resources, see who lives where and scout planets for new bases. Let's take a quick tour."
@@ -500,7 +501,6 @@
       "title": "Company detail",
       "body": "With a company picked on the left, its shared data fills the right side: base layout, production, warehouses and contracts. We have selected your own company so you can see your base. That's the tour."
     },
-
     "exchangeGuideIntro": {
       "title": "The Exchange",
       "body": "This page tracks live market prices for every material. It has two subpages: Exchange for raw price data and Analysis for recipe-level scoring."
@@ -549,7 +549,6 @@
       "title": "Exchange stats",
       "body": "The right column covers data health: snapshot counts, collection window and how many companies have been listing recently."
     },
-
     "guildGuideIntro": {
       "title": "The guild page",
       "body": "Everything about your guild lives here. Use these tabs to move between Projects, Donations, Members and Trade. We will walk each one."
@@ -598,7 +597,6 @@
       "title": "Trade",
       "body": "The Trade tab is here for what is coming: a guild trade hub. It is still being built, so nothing in it works yet and we will not open it."
     },
-
     "customPricesNavButton": {
       "title": "Custom prices",
       "body": "Custom prices open from this button in the top bar, on any page that uses them. Let's open the drawer."
@@ -619,7 +617,6 @@
       "title": "Presets",
       "body": "Save a whole set of prices as a preset, then switch between them from the dropdown. Handy for keeping separate buy and sell pricing or different market scenarios."
     },
-
     "chainsGuideProfitButton": {
       "title": "Recipe chains",
       "body": "Recipe chains model a full production tree end to end. Open one from this button on the Profitability page. Let's build a chain together."
@@ -656,7 +653,6 @@
       "title": "Chain settings",
       "body": "Include Shipping Nodes adds transport legs, planet picks and shipping costs to the graph. Use Custom Prices Panel feeds your Custom Prices into Inherit pricing. Below are node colors, layout and new-chain defaults."
     },
-
     "companyGuildGuideNavIcon": {
       "title": "Your company card",
       "body": "This icon in the top bar opens your own company card. Let's open it and walk through what it holds."

@@ -105,7 +105,9 @@
       "last24h": "Last 24h",
       "last3d": "Last 3d",
       "last7d": "Last 7d",
-      "total": "Total"
+      "total": "Total",
+      "coverage": "CV coverage",
+      "coverageButton": "Coverage by company size"
     },
     "playerbase": {
       "title": "Galactic Tycoons Playerbase",
@@ -127,6 +129,27 @@
     "showInactive": "Show inactive companies (7d+)",
     "hideInactive": "Hide inactive companies (7d+)",
     "footnote": "Active tiers reflect last seen windows for each day. New = founded within 24h of that date."
+  },
+  "coverageModal": {
+    "title": "Company value coverage",
+    "loading": "Loading coverage…",
+    "error": "Failed to load coverage.",
+    "empty": "No coverage data yet. It is computed from the tracker every 30 minutes.",
+    "schemeFixed": "Value bands",
+    "schemeDeciles": "Deciles",
+    "seriesCovered": "Covered by GT Companion",
+    "seriesTotal": "Band total",
+    "tooltipCoverage": "{{pct}}% covered",
+    "tooltipValue": "{{covered}} of {{total}}",
+    "tooltipCompanies": "{{covered}} of {{total}} companies",
+    "helpBars": "Grey is all the company value in that band, green is the part held by GT Companion users.",
+    "helpPercent": "Coverage mode gives every band the same width, so the small ones stay comparable.",
+    "metricValue": "Value",
+    "metricCoverage": "Coverage",
+    "tooltipShare": "This band is {{pct}}% of all company value",
+    "legendCovered": "% covered",
+    "legendShare": "% of all value",
+    "helpWindow": "Last 7 days on both sides: companies seen in game, and of those the ones whose owner used GT Companion."
   },
   "chart": {
     "yAxis": "Companies",

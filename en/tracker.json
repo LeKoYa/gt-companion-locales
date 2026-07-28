@@ -326,7 +326,9 @@
         "clear": "Clear",
         "noEventTypes": "No event types",
         "typesSelected_one": "{{count}} type selected",
-        "typesSelected_other": "{{count}} types selected"
+        "typesSelected_other": "{{count}} types selected",
+        "entity": "event type",
+        "entityPlural": "event types"
       }
     },
     "history": {

@@ -464,7 +464,9 @@
       "allCompanies": "All companies",
       "selected": "{{count}} of {{total}} selected",
       "showAll": "Show all",
-      "hideAll": "Hide all"
+      "hideAll": "Hide all",
+      "entity": "company",
+      "entityPlural": "companies"
     },
     "empty": {
       "noDonations": "No prestige donations recorded during the selected window.",
