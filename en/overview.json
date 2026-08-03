@@ -42,59 +42,34 @@
           "label": "Leaderboard",
           "desc": "Browse guild and company rankings, compare stats and follow global event activity."
         },
+        "community": {
+          "label": "Community",
+          "desc": "Browse community ship designs, industry and perk write-ups, achievements and patch notes."
+        },
         "settings": {
           "label": "Settings",
           "desc": "Configure your API key, adjust app preferences and manage sharing settings."
         }
-      },
-      "more": {
-        "label": "And more",
-        "desc": "Actively developed with more features, refinements and polish on the way."
       }
     },
     "gettingStarted": {
       "title": "Resources & links",
       "play": "Play Galactic Tycoons",
-      "discord": "Join the official Discord server",
-      "guide": "Watch the new player guide",
+      "playDesc": "The game itself. Opens with a referral link, which supports this app at no cost to you.",
+      "wiki": "Official wiki",
+      "wikiDesc": "Game mechanics, buildings, recipes and materials, written and maintained by the developers.",
+      "guide": "New player guide",
+      "guideDesc": "A video walkthrough for new players, covering your first bases and shipments.",
+      "discord": "Discord",
+      "discordDesc": "The community server. Ask questions, share designs and report anything broken here.",
+      "mantitech": "MantiTech",
+      "mantitechDesc": "A third-party browser extension that adds quality-of-life tools inside the game. Not affiliated with GT-Companion.",
       "coffee": "Buy me a coffee",
-      "referralNote": "The \"Play Galactic Tycoons\" button uses a referral link.",
-      "coffeeNote": " Enjoying GT-Companion? You can buy me a coffee to help keep the site running.",
-      "steps": {
-        "one": "Add your Galactic Tycoons API key in Settings to unlock full access.",
-        "two": "Explore the pages and see what GT-Companion has to offer.",
-        "three": "Enjoy the companion site and share feedback or bug reports in the gt-companion thread on the official Discord server for Galactic Tycoons."
-      }
+      "coffeeDesc": "Chip in towards the server bill if the app is useful to you. Entirely optional."
     }
-  },
-  "quickLinks": {
-    "title": "Quick links",
-    "base": "Base",
-    "baseOverview": "Overview",
-    "baseInsights": "Insights",
-    "basePlanNew": "Plan new base",
-    "exchange": "Exchange",
-    "profitability": "Profitability",
-    "recipeChains": "Recipe chains",
-    "research": "Research",
-    "guild": "Guild",
-    "guildProjects": "Projects",
-    "guildDonations": "Donations",
-    "guildMembers": "Members",
-    "leaderboard": "Leaderboard",
-    "guildLeaderboard": "Guild leaderboard",
-    "companyLeaderboard": "Company leaderboard",
-    "globalEvents": "Global events",
-    "companyEvents": "Company events",
-    "ships": "Ships",
-    "flightSimulation": "Flight simulation",
-    "galaxy": "Galaxy",
-    "settings": "Settings"
   },
   "appInfo": {
     "title": "App info",
-    "general": "General",
-    "versionNumber": "Version number",
     "users": {
       "title": "GT-Companion users",
       "loading": "Loading active companies…",
@@ -162,7 +137,7 @@
     }
   },
   "layout": {
-    "quickLinksToggle": "Quick links"
+    "resourcesToggle": "Resources & links"
   },
   "errors": {
     "loadActiveCompanies": "Failed to load active companies",

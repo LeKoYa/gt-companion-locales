@@ -321,11 +321,6 @@
       "refreshFailed": "Could not refresh events. Showing previous window.",
       "emptyState": "No events for the current time window/filter.",
       "filter": {
-        "button": "Events",
-        "enableAll": "Enable all",
-        "clear": "Clear",
-        "noEventTypes": "No event types",
-        "typesSelected_one": "{{count}} type selected",
         "typesSelected_other": "{{count}} types selected",
         "entity": "event type",
         "entityPlural": "event types"
@@ -401,9 +396,6 @@
       "searchPlaceholder": "Search…",
       "projectConsumables": "Guild project consumables",
       "members": "Members",
-      "membersCount": "Members ({{included}}/{{total}})",
-      "selectAll": "Select all",
-      "deselectAll": "Deselect all",
       "noData": "(no data)",
       "emptyState": "No production data available."
     }

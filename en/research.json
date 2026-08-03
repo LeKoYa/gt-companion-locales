@@ -12,7 +12,8 @@
     "levelControl": {
       "decrease": "Decrease level",
       "reset": "Reset level",
-      "increase": "Increase level"
+      "increase": "Increase level",
+      "setValue": "Set level"
     },
     "startMode": {
       "current": "Current research levels",
@@ -31,35 +32,27 @@
     "planner": {
       "title": "Research Planner"
     },
-    "startingLevels": {
-      "title": "Starting research levels",
-      "reset": "Reset",
-      "derivedNote": "Starting levels will be derived from your {{source}}",
-      "sourceCurrent": "current company research levels.",
-      "sourceRespec": "respec baseline (level 0)."
-    },
-    "targetLevels": {
-      "title": "Target research levels",
-      "reset": "Reset"
+    "levels": {
+      "title": "Research levels",
+      "field": "Field",
+      "start": "Start",
+      "target": "Target",
+      "bonus": "Bonus",
+      "resetStart": "Reset every starting level to 0",
+      "resetTargets": "Reset every target to its starting level"
     },
     "milestones": {
       "title": "Milestones",
+      "dragHandle": "Drag to reorder",
+      "resetTitle": "Remove all milestones",
       "empty": "No milestones added yet.",
       "selectCategory": "Select category",
-      "levelPlaceholder": "Level",
-      "optionsMenu": "Milestone options",
-      "moveUp": "Up",
-      "moveDown": "Down",
-      "remove": "Remove",
-      "moveUpTitle": "Move up",
-      "moveDownTitle": "Move down",
       "removeTitle": "Remove milestone",
       "add": "Add milestone",
       "addDisabledHint": "Set target levels above current to add milestones.",
       "recordingHint": "Use +/− on target levels to record milestones",
       "modeManual": "Manual",
-      "modeRecording": "Recording",
-      "reset": "Reset"
+      "modeRecording": "Recording"
     },
     "currentLevels": {
       "title": "Current research levels",
@@ -68,21 +61,30 @@
     "simulation": {
       "title": "Simulation summary",
       "upgradePath": "Upgrade path",
+      "stepCount_one": "{{count}} step: click to expand",
+      "stepCount_other": "{{count}} steps: click to expand",
       "simulating": "Simulating research plan…",
       "emptyUpgradePath": "Once a plan is submitted, the simulator will list each upgrade step in order.",
       "level": "Level {{from}} → {{to}}",
+      "field": "Field",
+      "levels": "Levels",
       "time": "Time",
-      "total": "Total"
+      "cost": "Cost"
     },
     "totals": {
       "title": "Totals",
+      "material": "Material",
       "amount": "Amount",
       "unitPrice": "Unit price",
       "total": "Total",
+      "totalPrice": "Total price",
       "none": "No research data required for this plan.",
       "totalTime": "Total time",
       "totalCost": "Total cost",
       "createWishlist": "Create wishlist",
+      "copyForChat": "Copy material list for chat",
+      "copied": "Copied",
+      "nothingToCopy": "Nothing to copy",
       "empty": "Totals will be displayed after the first simulation finishes."
     },
     "wishlist": {
@@ -95,6 +97,7 @@
   "perks": {
     "panelTitle": "Prestige Perks",
     "points": {
+      "panelTitle": "Perk Points",
       "available": "Available Perk Points",
       "plan": "Plan:",
       "clearAll": "Clear All",
@@ -196,10 +199,11 @@
     "totalPerDay": "Total: {{cost}}/day",
     "empty": "No routes defined. Add routes to calculate logistics perk values.",
     "weight": {
-      "auto": "Auto Weight",
-      "manual": "Manual Weight",
-      "autoTooltip": "Weights auto-derived from base production. Click for manual.",
-      "manualTooltip": "Manual weights. Click to auto-derive from base production."
+      "label": "Cargo weight",
+      "auto": "Auto",
+      "manual": "Manual",
+      "autoTooltip": "Weights derived from each base's production.",
+      "manualTooltip": "Weights you enter yourself."
     },
     "actions": {
       "addRoute": "+ Add Route",

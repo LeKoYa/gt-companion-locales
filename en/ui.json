@@ -1,5 +1,6 @@
 {
   "modal": {
+    "close": "Close",
     "defaultTitle": "Modal"
   },
   "dataTable": {
@@ -27,7 +28,9 @@
     "ariaInfo": "{{label}} info"
   },
   "selector": {
-    "clearSelection": "Clear selection"
+    "clearSelection": "Clear selection",
+    "noMatches": "No matches.",
+    "searchPlaceholder": "Search…"
   },
   "layout": {
     "panelFallback": "Panel"
@@ -90,11 +93,7 @@
   },
   "columnPicker": {
     "button": "Columns",
-    "enableAll": "Enable all",
-    "clear": "Clear",
     "reset": "Reset",
-    "noColumns": "No columns",
-    "selected_one": "{{count}} column selected",
     "selected_other": "{{count}} columns selected",
     "entity": "column",
     "entityPlural": "columns"
@@ -103,6 +102,10 @@
     "empty": "Nothing here.",
     "noMatches": "No matches."
   },
+  "search": {
+    "noResults": "No results.",
+    "searching": "Searching…"
+  },
   "multiSelect": {
     "none": "No {{entities}}",
     "all": "All {{entities}}",
@@ -110,6 +113,8 @@
     "oneSelected": "1 {{entity}} selected",
     "empty": "Nothing to filter.",
     "selectAll": "All",
-    "clearAll": "None"
+    "clearAll": "None",
+    "searchPlaceholder": "Search…",
+    "noMatches": "No matches."
   }
 }

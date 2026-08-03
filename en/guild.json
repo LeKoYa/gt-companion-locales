@@ -24,10 +24,12 @@
       "level": "Level {{level}}",
       "levelWithMax": "Level {{level}}/{{max}}",
       "overviewFallback": "Project overview",
-      "bonus": "Bonus",
-      "lvl": "LVL",
       "resetLevel": "Reset level",
-      "reset": "Reset",
+      "stepper": {
+        "decrease": "One level lower",
+        "increase": "One level higher",
+        "setLevel": "Set level"
+      },
       "remainingFromTo": "Remaining from LVL {{start}} → LVL {{target}}",
       "fromTo": "From LVL {{start}} → LVL {{target}}",
       "atLevel": "LVL {{level}}",
@@ -111,8 +113,6 @@
       "notInGuild": "You are currently not in a guild. Join a guild in-game to unlock project tracking, donation history and member views."
     },
     "donations": {
-      "updated": "Updated {{date}}",
-      "noCached": "No cached donations yet.",
       "forceRefreshing": "Force refreshing…",
       "forceRefresh": "Force refresh",
       "showMembers": "Show Members",
@@ -166,6 +166,8 @@
     "contributionRateUnit": "% of CV / {{period}}",
     "period": {
       "current": "current",
+      "previous": "Previous period",
+      "next": "Next period",
       "weekLabel": "Week {{week}} · {{start}} – {{end}}",
       "unit": {
         "week": "week",
@@ -214,9 +216,14 @@
       "buffer": "Buffer",
       "fixedTargets": "Fixed targets",
       "growthTargets": "Growth targets",
-      "fromLevel": "LVL {{level}} →",
       "constructionImportance": "Construction importance",
-      "freeUpgradeImportance": "Free upgrade importance"
+      "freeUpgradeImportance": "Free upgrade importance",
+      "stepper": {
+        "decrease": "Lower the target level",
+        "increase": "Raise the target level",
+        "reset": "Clear the target",
+        "setLevel": "Set the target level"
+      }
     },
     "freeze": {
       "tooltipPast": "Past periods are already frozen.",
@@ -235,18 +242,20 @@
       "count_one": "{{count}} member excluded",
       "count_other": "{{count}} members excluded",
       "autoSuffix": "({{count}} auto)",
-      "includeAll": "Include all",
-      "excludeAll": "Exclude all",
       "autoBadge": "auto",
       "forcedInBadge": "forced in",
       "autoTooltip": "Auto-excluded - uncheck to force-include",
-      "forcedInTooltip": "Force-included despite auto-exclude threshold"
+      "forcedInTooltip": "Force-included despite auto-exclude threshold",
+      "entity": "member",
+      "entityPlural": "members"
     },
     "editors": {
       "sectionTitle": "Donation editors",
       "none": "No extra editors",
       "count_one": "{{count}} editor assigned",
-      "count_other": "{{count}} editors assigned"
+      "count_other": "{{count}} editors assigned",
+      "entity": "editor",
+      "entityPlural": "editors"
     },
     "budget": {
       "warningPctCv": "Collective budget ({{budget}}) does not cover consumable running costs ({{consumables}})",
@@ -307,14 +316,12 @@
       "chart": "Chart",
       "linear": "Linear",
       "log": "Log",
-      "noMaterials": "No materials",
-      "allMaterials": "All materials",
-      "materialsCount": "{{selected}}/{{total}} materials",
-      "noMembers": "No members",
-      "allMembers": "All members",
-      "membersCount": "{{selected}}/{{total}} members",
-      "selectAll": "All",
-      "selectNone": "None",
+      "entities": {
+        "material": "material",
+        "materialPlural": "materials",
+        "member": "member",
+        "memberPlural": "members"
+      },
       "reset": "Reset",
       "memberPlaceholder": "Member",
       "maxCvPlaceholder": "Max CV",
@@ -460,11 +467,6 @@
   },
   "prestigeTrend": {
     "selector": {
-      "noCompanies": "No companies",
-      "allCompanies": "All companies",
-      "selected": "{{count}} of {{total}} selected",
-      "showAll": "Show all",
-      "hideAll": "Hide all",
       "entity": "company",
       "entityPlural": "companies"
     },
@@ -578,7 +580,8 @@
       "targetMaterial": "Target material",
       "searchPlaceholder": "Search material…",
       "noMaterialsMatch": "No producible materials match.",
-      "recipeChain": "Recipe chain"
+      "recipeChain": "Recipe chain",
+      "alternatesLabel": "Alternate recipes"
     },
     "deliveries": {
       "companyFallback": "Company {{id}}",
@@ -993,5 +996,12 @@
       "title": "Marketplace",
       "description": "Post offers to buy or sell goods inside the guild at fixed prices, with credits as a discount layer. Not built yet."
     }
+  },
+  "membersPanel": {
+    "title": "Members",
+    "member": "Member",
+    "value": "CV",
+    "prestige": "Prestige",
+    "empty": "No members to show."
   }
 }

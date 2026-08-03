@@ -150,6 +150,9 @@
     },
     "base": {
       "sharedFallback": "Shared base"
+    },
+    "contextMenu": {
+      "label": "Company actions"
     }
   },
   "page": {
@@ -180,8 +183,7 @@
       "mapControls": "Map controls",
       "filters": "Filters",
       "exitFullscreen": "Exit fullscreen",
-      "shareMap": "Share map",
-      "exit": "Exit"
+      "shareMap": "Share map"
     },
     "hover": {
       "unknown": "Unknown",
@@ -200,7 +202,6 @@
       "loadingShort": "Loading…"
     },
     "panel": {
-      "mapTitle": "Galaxy Map",
       "mapControls": "Map Controls",
       "details": "Details"
     },
@@ -217,10 +218,12 @@
       "countTooltip_other": "{{count}} ships"
     },
     "ship": {
-      "fallbackName": "Ship {{id}}"
+      "fallbackName": "Ship {{id}}",
+      "popupLabel": "Ships at this point"
     },
     "measure": {
       "start": "Click a planet to measure",
+      "stop": "Stop measuring",
       "extend_one": "{{count}} segment · click to extend",
       "extend_other": "{{count}} segments · click to extend"
     },
@@ -230,7 +233,8 @@
       "openInGame": "Open in game",
       "showIntel": "Show Intel",
       "planNewBase": "Plan new base",
-      "measureDistance": "Measure distance"
+      "measureDistance": "Measure distance",
+      "label": "Planet actions"
     }
   },
   "landing": {
@@ -383,11 +387,9 @@
       "favorites": "Favorites"
     },
     "columns": {
-      "placeholder": "Columns",
-      "button": "Columns",
-      "showAll": "Show all",
-      "hideAll": "Hide all",
-      "reset": "Reset"
+      "reset": "Reset",
+      "entity": "column",
+      "entityPlural": "columns"
     },
     "footer": {
       "showing": "Showing {{shown}} of {{total}}"
@@ -397,7 +399,8 @@
       "favorite": "Favorite",
       "openInGame": "Open in game",
       "showIntel": "Show Intel",
-      "planNewBase": "Plan new base"
+      "planNewBase": "Plan new base",
+      "label": "Planet actions"
     }
   },
   "filters": {

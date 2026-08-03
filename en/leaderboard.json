@@ -21,9 +21,12 @@
     "refresh": "Refresh leaderboard",
     "refreshTitle": "Refresh",
     "loadingMoreGuilds": "Loading more guilds…",
-    "loadedAllGuilds": "Loaded all {{value}} guilds.",
     "loadingMoreCompanies": "Loading more companies…",
-    "loadedAllCompanies": "Loaded all {{value}} companies."
+    "loadedHelpLabel": "How many rows are loaded",
+    "loadedGuilds": "Showing {{loaded}} of {{total}} guilds.",
+    "loadedCompanies": "Showing {{loaded}} of {{total}} companies.",
+    "loadedMoreHint": "Scroll to the bottom of the table to load more.",
+    "loadedAllHint": "That is everything the tracker has for the current filters."
   },
   "filters": {
     "button": "Filters",
@@ -33,12 +36,10 @@
     "searchGuilds": "Search guilds…",
     "searchCompanies": "Search companies…",
     "searchEvents": "Search events…",
-    "includeDisbanded": "Include disbanded guilds",
     "min": "Min",
     "max": "Max",
-    "noEventsSelected": "No events selected",
-    "allEventTypes": "All event types",
-    "eventsSelected": "{{selected}}/{{total}} selected",
+    "eventTypeEntity": "event type",
+    "eventTypeEntityPlural": "event types",
     "guildActivity": {
       "all": "All",
       "allTooltip": "All guilds regardless of member activity.",
@@ -69,22 +70,10 @@
       "inGuild": "In Guild"
     }
   },
-  "paging": {
-    "infinite": "Infinite",
-    "pages": "Pages",
-    "prev": "Prev",
-    "next": "Next",
-    "page": "Page {{current}}/{{total}}",
-    "range": "{{start}}-{{end}} of {{total}}",
-    "rangeEmpty": "0 of 0"
-  },
   "columns": {
-    "button": "Columns",
-    "enableAll": "Enable all",
+    "entity": "column",
+    "entityPlural": "columns",
     "reset": "Reset",
-    "noColumns": "No columns",
-    "selected_one": "{{count}} column selected",
-    "selected_other": "{{count}} columns selected",
     "guild": "Guild",
     "company": "Company",
     "time": "Time",
@@ -180,15 +169,6 @@
       "baseDisbanded": "Base Disbanded",
       "companyDeleted": "Company Deleted"
     }
-  },
-  "actions": {
-    "clear": "Clear",
-    "apply": "Apply"
-  },
-  "headerFilter": {
-    "editTitle": "Edit {{label}} filter (right-click to clear)",
-    "aria": "{{label}} filter: {{range}}",
-    "editRecruitingTitle": "Edit recruiting filter (right-click to clear)"
   },
   "values": {
     "any": "Any",

@@ -54,11 +54,13 @@
   "sharing": {
     "title": "Sharing preferences",
     "intro": "You can share information about your company with other users and control who can see what.",
+    "introHelpLabel": "About sharing preferences",
     "developerAccess": {
       "label": "Let the developer use my API key for testing, debugging and improvements",
       "description": "Your API key can be used to fetch your company data for bug fixes, feature testing and working on updates.",
       "confirm": "Enable developer access?\n\nThis lets the developer use your API key to fetch your company data for testing, debugging and working on improvements. It is separate from your sharing preferences and does not expose your data to other users."
     },
+    "levelLabel": "Who can see this",
     "options": {
       "nobody": "Nobody",
       "guild": "Guild",
@@ -240,8 +242,6 @@
   },
   "appInfo": {
     "panelTitle": "App info",
-    "generalTitle": "General",
-    "versionLabel": "Version number",
     "usersTitle": "GT-Companion users",
     "loadingUsers": "Loading active companies…",
     "loadError": "Failed to load active companies",

@@ -43,19 +43,16 @@
     "contextMenu": {
       "buildingLevel": {
         "label": "Building Lv",
-        "reset": "Reset building level",
         "set": "Set"
       },
       "cardPrimary": {
         "chain": "Chain",
-        "label": "Card primary",
-        "recipe": "Recipe",
-        "reset": "Reset card primary"
+        "label": "Card shows",
+        "recipe": "Recipe"
       },
       "chain": {
-        "label": "Chain",
-        "none": "None",
-        "reset": "Unlink chain"
+        "label": "Linked",
+        "none": "None"
       },
       "createChain": "Create chain",
       "createChainTitle": "Create a new chain rooted at this recipe",
@@ -64,10 +61,13 @@
       "openLibraryTitle": "Open the recipe chains library",
       "planet": {
         "label": "Planet",
-        "placeholder": "Use default…",
-        "reset": "Reset planet"
+        "placeholder": "Use default…"
       },
-      "resetAll": "Reset all overrides for this recipe"
+      "resetAll": "Reset all overrides for this recipe",
+      "sections": {
+        "overrides": "Overrides",
+        "chain": "Chain"
+      }
     },
     "chickenGame": {
       "leaderboard": "Leaderboard",
@@ -124,9 +124,7 @@
       "workforceFulfillment": "Workforce fulfillment",
       "planetTier": "Planet tier",
       "globalOverheadImpact": "Global overhead impact",
-      "globalOverheadHelpLabel": "What is global overhead impact?",
       "vacation": "Vacation",
-      "vacationHelpLabel": "What is vacation mode?",
       "exclude": "Exclude",
       "include": "Include",
       "live": "Live",
@@ -163,7 +161,8 @@
       "sortBy": "Sort by",
       "targetProfit": "Target profit / h",
       "targetPerBurden": "Target / 100 burden",
-      "roiOptions": "ROI options"
+      "roiOptions": "ROI options",
+      "medalPrices": "Medal prices"
     },
     "search": {
       "placeholder": "Filter by name, material, building…"
@@ -217,7 +216,24 @@
       "profitPerTotalWeight": "Profit / total weight",
       "profitPerMaxLegWeight": "Profit / max leg weight",
       "targetPrice": "Target price",
-      "targetPricePerBurden": "Target price (per burden)"
+      "targetPricePerBurden": "Target price (per burden)",
+      "medalValuePerBurden": "Medal value / h / 100 burden",
+      "medalValuePerBurdenTooltip": "Output value minus input cost at the game's average prices, per hour per 100 burden. Consumables, workforce and maintenance are ignored.",
+      "profitTooltip": "One building level's share of the profit per hour, after that level's slice of overhead.",
+      "profitTotalTooltip": "The whole building at its current level, per hour, after all overhead.",
+      "profitMarginTooltip": "Total profit as a share of output value.",
+      "inputCostTooltip": "What the inputs cost per hour, before workforce, maintenance and shipping.",
+      "outputValueTooltip": "What the outputs are worth per hour, before any cost is taken off.",
+      "consumableCostTooltip": "Workforce consumables and building maintenance per hour. Already subtracted from profit.",
+      "profitPerBurdenTooltip": "Total profit per hour for every 100 workforce burden.",
+      "roiIncrementalTooltip": "How long one more building level takes to pay for itself, including its housing and input reserve.",
+      "roiTotalTooltip": "How long the whole building at its current level takes to pay back, from nothing.",
+      "weightIncreaseTooltip": "How much heavier the outputs are than the inputs. Negative when the recipe compresses weight.",
+      "profitPerWeightChangeTooltip": "Per-level profit scaled by how much weight the recipe removes. Negative when it adds weight.",
+      "profitPerTotalWeightTooltip": "Per-level profit per tonne moved, counting inputs in and outputs out.",
+      "profitPerMaxLegWeightTooltip": "Per-level profit per tonne on the heavier leg alone, in or out.",
+      "targetPriceTooltip": "The output price that would hit the profit target for this tier.",
+      "targetPricePerBurdenTooltip": "The output price that would hit the per-100-burden profit target for this tier."
     },
     "building": {
       "sortToggle": {
@@ -252,15 +268,6 @@
       "building": "building",
       "buildingPlural": "buildings"
     },
-    "multiSelect": {
-      "none": "No {{entities}}",
-      "all": "All {{entities}}",
-      "partial": "{{count}} of {{total}} {{entities}}",
-      "oneSelected": "1 {{entity}} selected",
-      "empty": "Nothing to filter.",
-      "selectAll": "All",
-      "clearAll": "None"
-    },
     "includedBases": {
       "buttonTitle": "Choose which bases feed cross-base aggregations (overhead / workforce / etc.)",
       "label": "Included",
@@ -269,6 +276,12 @@
       "includeAll": "Include all",
       "excludeAll": "Exclude all",
       "empty": "No bases."
+    },
+    "medalPrices": {
+      "average": "Market avg",
+      "averageTooltip": "Score against the game's own average prices, which is what medal progress actually counts. Custom price rules are ignored.",
+      "custom": "Custom",
+      "customTooltip": "What-if: score against your custom prices instead, to see which recipes would become the better medal farm at the prices you assume. Not what the game credits today."
     }
   },
   "scenario": {
@@ -278,7 +291,6 @@
       "editScenario": "Edit scenario…",
       "noDeviations": "No deviations from the baseline.",
       "reset": "Reset",
-      "resetAll": "Reset all",
       "title": "Scenario"
     },
     "sections": {
@@ -367,44 +379,28 @@
       "error": "Failed to create share link.",
       "options": {
         "research": {
-          "label": "Research",
-          "onHint": "Your effective research levels are baked in.",
-          "offHint": "The receiver's own research levels are used."
+          "label": "Research"
         },
         "perks": {
-          "label": "Prestige perks",
-          "onHint": "Your prestige perk levels are baked in.",
-          "offHint": "The receiver's own perks are used."
+          "label": "Prestige perks"
         },
         "startingBonus": {
-          "label": "Starting bonus",
-          "onHint": "Your starting speed bonus is baked in.",
-          "offHint": "The receiver's own starting bonus is used."
+          "label": "Starting bonus"
         },
         "overhead": {
-          "label": "Overhead",
-          "onHint": "Your workforce and admin center are baked in.",
-          "offHint": "The receiver's own overhead is used."
+          "label": "Overhead"
         },
         "consumables": {
-          "label": "Consumables",
-          "onHint": "Your consumable provision settings travel along.",
-          "offHint": "The receiver's own consumable settings are used."
+          "label": "Consumables"
         },
         "materialSources": {
-          "label": "Material sources",
-          "onHint": "Your per-material source planets travel along.",
-          "offHint": "The receiver's own material sources are used."
+          "label": "Material sources"
         },
         "recipeOverrides": {
-          "label": "Recipe overrides",
-          "onHint": "Your per-recipe level, planet and chain tweaks travel along.",
-          "offHint": "Per-recipe tweaks stay on the receiver's side."
+          "label": "Recipe overrides"
         },
         "general": {
-          "label": "General settings",
-          "onHint": "Building level, condition, workforce % and planet tier travel along.",
-          "offHint": "The receiver's own general settings are used."
+          "label": "General settings"
         }
       }
     }

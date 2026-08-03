@@ -1,0 +1,424 @@
+{
+  "menu": {
+    "tooltip": "Quick actions",
+    "title": "Quick actions",
+    "empty": "No quick actions yet.",
+    "emptyHint": "A quick action replays a saved routine with one click: restock your bases, tidy up your lists, whatever you set it to do.",
+    "create": "Create a quick action",
+    "manage": "Manage quick actions…",
+    "summary": {
+      "bases_one": "{{count}} base",
+      "bases_other": "{{count}} bases",
+      "allBases": "All bases",
+      "days": "{{days}} d",
+      "separator": " · ",
+      "empty": "No steps yet",
+      "cleanup": "empty lists"
+    },
+    "streams": {
+      "consumables": "consumables",
+      "inputs": "inputs",
+      "intermediates": "intermediates"
+    },
+    "applyMode": {
+      "overwrite": "overwrite",
+      "add": "add",
+      "merge": "merge"
+    }
+  },
+  "run": {
+    "title": "{{name}}",
+    "planning": "Working out what this will do…",
+    "writing": "Applying…",
+    "confirm": "Run action",
+    "cancel": "Cancel",
+    "destinations_one": "{{count}} wishlist",
+    "destinations_other": "{{count}} wishlists",
+    "materials_one": "{{count}} material",
+    "materials_other": "{{count}} materials",
+    "unknownCost": "Cost unknown",
+    "warningsTitle": "Worth checking",
+    "nothingToDo": "Nothing to do: everything is already the way this action wants it.",
+    "deletions_one": "{{count}} wishlist deleted",
+    "deletions_other": "{{count}} wishlists deleted",
+    "deletesTitle": "These wishlists will be deleted",
+    "deletesHint": "Deleting a wishlist cannot be undone.",
+    "notesTitle": "Worth knowing"
+  },
+  "table": {
+    "material": "Material",
+    "warehouse": "Warehouse",
+    "daily": "Daily",
+    "resupply": "Resupply",
+    "weight": "Weight",
+    "cost": "Cost",
+    "amount": "Amount"
+  },
+  "warnings": {
+    "add-supply.noBaseInScope": "An \"Add supply\" step sits outside a \"For each base\" step, so it has no base to read rates from.",
+    "add-supply.nonPositiveDays": "An \"Add supply\" step has no day count set.",
+    "add-supply.noStreamsSelected": "An \"Add supply\" step has no materials selected.",
+    "add-supply.cappedByCargo": "An \"Add supply\" step wanted {{tons}} t but only {{fitted}} t of the cargo limit was left, so it was trimmed to fit.",
+    "for-each-base.noBases": "No bases matched the selection.",
+    "for-each-base.unknownPlanet": "A selected base could not be found and was skipped.",
+    "write.unknownBase": "A base could not be matched to a wishlist and was skipped.",
+    "write.nothingToWrite": "A write step had nothing on the list to send.",
+    "write.wishlistMissing": "The chosen wishlist no longer exists, so a new one will be created.",
+    "block.unknownKind": "This action uses a step this version does not know, and it was skipped.",
+    "tree.tooDeep": "This action is nested too deeply to run.",
+    "tree.tooManyBlocks": "This action has too many steps to run.",
+    "unknown": "Something in this action could not be applied.",
+    "remove.nothingSelected": "A remove step is empty, so it does nothing.",
+    "remove.noMatches": "A remove step matched nothing. It may sit above the step that adds the material rather than below it.",
+    "material.noneChosen": "A material step has no material picked.",
+    "material.noBaseInScope": "A material step is not inside a base loop, so it has no base to order for.",
+    "material.needsSubject": "\"All\", percentages and \"keep\" only mean something inside a remove step. Use a fixed amount here.",
+    "repeat.empty": "A repeat step has no materials in its batch, so it does nothing.",
+    "repeat.emptyBatch": "A repeat step's batch came out empty. Its materials may need a fixed amount.",
+    "repeat.noBaseInScope": "A repeat step is not inside a base loop, so it has no base to order for.",
+    "repeat.noneNeeded": "A repeat step ordered nothing: the base is already stocked for that period.",
+    "material.unknownVariable": "A step refers to a variable that does not exist.",
+    "material.badFormula": "A step's amount is not a formula this can work out.",
+    "repeat.badCount": "A repeat step's count is not a formula this can work out.",
+    "repeat.unknownVariable": "A repeat step refers to a variable that does not exist.",
+    "material.noWeight": "A material step limited by tonnage has no weight for that material.",
+    "material.badRounding": "A material step has a rounding multiple this cannot work out.",
+    "cargo-limit.badTons": "A cargo limit has a capacity this cannot work out.",
+    "cargo-limit.unknownVariable": "A cargo limit refers to a variable that does not exist.",
+    "cargo-limit.overweight": "An order comes to {{tons}} t against a {{capacityTons}} t cargo limit, and nothing in it can be trimmed to fit.",
+    "cargo-limit.trimmed": "An order came to {{tons}} t, so the supply steps in it were cut to fit the {{capacityTons}} t cargo limit.",
+    "fill-remaining.empty": "A fill step has no materials in it, so there is nothing to scale.",
+    "fill-remaining.noCapacity": "A fill step is not inside a cargo limit, so it has no room to fill. Its steps ran unscaled.",
+    "fill-remaining.noRoom": "A fill step had no cargo left to fill: the steps outside it already use the whole limit.",
+    "repeat.noCapacity": "A repeat step is set to fill the cargo, but is not inside a cargo limit.",
+    "repeat.weightlessBatch": "A repeat step set to fill the cargo has a batch with no weight, so nothing bounds it.",
+    "repeat.cappedByCargo": "A repeat step wanted {{wanted}} batches but only {{fitted}} fit the cargo limit.",
+    "fill-remaining.nothingToScale": "A fill step has nothing to scale: no steps inside it and nothing selected to flex.",
+    "fill-remaining.noMatches": "A fill step found nothing to scale on the list.",
+    "for-each-base.noneMatched": "No base matched the conditions on a base loop, so it did nothing.",
+    "for-each-base.badCondition": "A base loop has a condition threshold this cannot work out.",
+    "for-each-base.unknownVariable": "A base loop condition refers to a variable that does not exist."
+  },
+  "toast": {
+    "applied": "{{name}}: wrote {{count}} wishlists.",
+    "applied_one": "{{name}}: wrote {{count}} wishlist.",
+    "alreadyMatched": "{{name}}: everything already matched.",
+    "partial": "{{name}}: {{failed}} of {{total}} wishlists failed.",
+    "rateLimited": "{{name}}: rate limited after {{written}} of {{total}} wishlists.",
+    "failed": "{{name}} failed: {{message}}",
+    "deleted_one": "{{name}}: deleted {{count}} wishlist.",
+    "deleted_other": "{{name}}: deleted {{count}} wishlists.",
+    "progress": "{{name}}: {{done}}/{{total}}…"
+  },
+  "errors": {
+    "missingApiKey": "Add your API key in Settings to use quick actions.",
+    "notFound": "That quick action no longer exists."
+  },
+  "blockCategories": {
+    "structure": "Structure",
+    "source": "Add materials",
+    "modifier": "Adjust"
+  },
+  "blocks": {
+    "forEachBase": {
+      "title": "For each base",
+      "description": "Run the steps inside once per base.",
+      "label": "For each of",
+      "allBases": "All bases",
+      "allBasesHint": "Follows your company: bases you build later are included too.",
+      "noBases": "No bases",
+      "someBases": "{{count}} of {{total}} bases",
+      "selectAll": "All",
+      "clearAll": "None",
+      "search": "Search bases…",
+      "noMatches": "No bases match.",
+      "noneAvailable": "No bases found.",
+      "unknownBase": "Unknown base",
+      "askAtRun": "Ask when run",
+      "askAtRunToggle": "Ask when this action runs",
+      "askAtRunToggleHint": "(the selection below is the default)",
+      "where": "where",
+      "andWhere": "and",
+      "condition": {
+        "add": "＋ when…",
+        "addHint": "Only run for bases that are low",
+        "remove": "Remove this condition",
+        "streams": "Which demand to measure",
+        "haveUnder": "have under",
+        "days": "Days of supply",
+        "daysLeft": "days left"
+      }
+    },
+    "addSupply": {
+      "title": "Add supply",
+      "description": "Add a number of days of the base's demand.",
+      "add": "Add",
+      "for": "for",
+      "days": "{{days}} days",
+      "noStreams": "nothing",
+      "streamJoin": " and ",
+      "streamsHint": "Amounts are net of what the base produces itself.",
+      "stream": {
+        "consumables": "consumables",
+        "inputs": "inputs",
+        "intermediates": "intermediates"
+      },
+      "stock": {
+        "label": "Warehouse stock",
+        "deduct": "minus stock",
+        "ignore": "ignoring stock",
+        "deductTitle": "Minus what's in stock",
+        "deductHint": "Order only what the warehouse is short of.",
+        "ignoreTitle": "Ignoring stock",
+        "ignoreHint": "Order the full amount, whatever the warehouse holds."
+      }
+    },
+    "material": {
+      "title": "Material",
+      "description": "A quantity of one material.",
+      "pick": "Pick a material",
+      "search": "Search materials…",
+      "amount": {
+        "label": "Amount",
+        "all": "All of it",
+        "fixed": "Exactly",
+        "percent": "Percent",
+        "allHint": "However much of it the list already holds.",
+        "keep": "Keep",
+        "fixedHint": "This many units, whatever the list holds.",
+        "percentHint": "This share of what the list holds.",
+        "keepHint": "Cuts down to this much. Does nothing if the list is already under it.",
+        "top-up": "Top up to",
+        "top-upHint": "Orders the shortfall only, counting the warehouse and the list so far.",
+        "up-to-tons": "Up to",
+        "up-to-tonsHint": "As many units as fit in that much cargo."
+      },
+      "role": {
+        "add": "Add",
+        "remove": "Take off"
+      },
+      "rounding": {
+        "label": "Rounding",
+        "add": "＋ round",
+        "in": "in multiples of",
+        "off": "No rounding",
+        "purchase": "ordered",
+        "ending": "ending stock",
+        "purchaseTitle": "Round what is ordered",
+        "purchaseHint": "Buys whole batches. 620 needed at 500 becomes 1,000.",
+        "endingTitle": "Round the ending stock",
+        "endingHint": "The warehouse lands on a multiple once it arrives. 620 needed with 200 in stock becomes 800."
+      }
+    },
+    "remove": {
+      "title": "Remove",
+      "description": "Take the steps inside back off the list built above.",
+      "label": "Remove"
+    },
+    "repeat": {
+      "title": "Repeat batch",
+      "description": "Order whole multiples of a fixed combination of materials.",
+      "label": "Repeat",
+      "count": {
+        "label": "How many batches",
+        "cover": "Enough times for",
+        "fixed": "Exactly",
+        "coverHint": "Rounds up to whole batches, sized by whichever material in the batch runs out first.",
+        "fixedHint": "This many batches, whatever the base needs.",
+        "times": "times",
+        "daysValue": "{{days}} days",
+        "stock": {
+          "label": "Warehouse stock",
+          "deduct": "minus stock",
+          "ignore": "ignoring stock",
+          "deductTitle": "Count what the warehouse holds",
+          "deductHint": "Fewer batches when the base is already part-stocked.",
+          "ignoreTitle": "Ignore the warehouse",
+          "ignoreHint": "Sizes the order from demand alone."
+        },
+        "fit": "As many as fit",
+        "fitHint": "Whole batches into whatever the cargo limit has left."
+      }
+    },
+    "containerColon": ":",
+    "cargoLimit": {
+      "title": "Cargo limit",
+      "description": "Declares how much cargo the steps inside are ordering into.",
+      "label": "Cargo limit",
+      "tons": "t"
+    },
+    "fillRemaining": {
+      "title": "Fill remaining",
+      "description": "Scales part of the order into whatever cargo is left.",
+      "label": "Fill remaining",
+      "stepsInside": "the steps inside",
+      "tagsLabel": "What flexes",
+      "tagsHint": "Nothing selected scales only the steps inside this block.",
+      "tag": {
+        "consumables": "consumables",
+        "inputs": "inputs",
+        "intermediates": "intermediates",
+        "material": "material steps"
+      }
+    },
+    "write": {
+      "title": "Write",
+      "description": "Sends the list built so far to a wishlist, then starts a fresh one.",
+      "label": "Write the list so far to"
+    }
+  },
+  "editor": {
+    "title": "Quick actions",
+    "namePlaceholder": "Quick action name",
+    "rename": "Rename",
+    "renameDone": "Save name",
+    "chooseIcon": "Choose an icon",
+    "back": "Back to quick actions",
+    "backLabel": "Quick actions",
+    "noBlocks": "No steps yet.",
+    "containerEmpty": "No steps inside yet.",
+    "addStep": "Add step",
+    "addStepSearch": "Search steps…",
+    "blockDelete": "Delete step",
+    "blockDuplicate": "Duplicate step",
+    "blockMore": "More step actions",
+    "actionMore": "More actions",
+    "blockEnable": "Enable step",
+    "blockDisable": "Disable step",
+    "blockDrag": "Drag to reorder",
+    "blockTotal_one": "{{count}} material",
+    "blockTotal_other": "{{count}} materials",
+    "scopeToStep": "Show only this step in the result",
+    "scopedToStep": "Showing this step only",
+    "duplicate": "Duplicate",
+    "duplicateMessage": "Make a copy of \"{{name}}\"?",
+    "delete": "Delete",
+    "writeTo": "Write to",
+    "using": "by",
+    "result": "Result",
+    "previewLoading": "Loading your bases…",
+    "previewEmpty": "Nothing to order yet.",
+    "previewFilterEntity": "list",
+    "previewFilterEntityPlural": "lists",
+    "previewFilterSearch": "Search lists…",
+    "previewFilterBases": "Base wishlist",
+    "previewFilterLists": "Shared list",
+    "previewBlockEmpty": "This step adds nothing.",
+    "runNow": "Run now",
+    "done": "Done",
+    "destination": {
+      "currentBase": "each base's own wishlist",
+      "currentBaseHint": "One wishlist per base, matched by planet.",
+      "list": "one shared wishlist",
+      "listHint": "Everything goes into a single list.",
+      "titlePlaceholder": "Wishlist name"
+    },
+    "applyMode": {
+      "overwrite": "overwriting",
+      "add": "adding",
+      "merge": "merging"
+    },
+    "applyModeHint": {
+      "overwrite": "Replace the wishlist with exactly this.",
+      "add": "Add these amounts on top of what is already listed.",
+      "merge": "Top each material up to this amount, never down."
+    },
+    "deleteMessage": "Delete \"{{name}}\"? This cannot be undone.",
+    "newAction": "New action",
+    "actionDrag": "Drag to reorder",
+    "tabs": {
+      "action": "Action",
+      "general": "General"
+    },
+    "refresh": {
+      "wishlist-program": "Refresh wishlists and warehouse stock",
+      "wishlist-cleanup": "Refresh wishlists"
+    },
+    "previewTotal": "Total",
+    "guideDemoName": "Example: daily resupply"
+  },
+  "templates": {
+    "daily-resupply": "Daily resupply",
+    "blank": "Blank",
+    "clean-empty-wishlists": "Wishlist cleanup"
+  },
+  "templateHints": {
+    "daily-resupply": "For every base, order consumables and inputs for a day and a half.",
+    "blank": "Start from nothing and add steps yourself.",
+    "clean-empty-wishlists": "Delete every wishlist that has nothing left on it."
+  },
+  "icons": {
+    "boxes-stacked": "Crates",
+    "burger-soda": "Consumables",
+    "gas-pump": "Fuel",
+    "screwdriver-wrench": "Repairs",
+    "buildings": "Bases",
+    "rocket": "Ships",
+    "arrows-rotate": "Recurring",
+    "clipboard-check": "Checklist",
+    "bolt": "Quick action"
+  },
+  "kinds": {
+    "wishlistProgram": {
+      "title": "Wishlist program",
+      "description": "Work out what your bases need and write it to their wishlists."
+    },
+    "wishlistCleanup": {
+      "title": "Wishlist cleanup",
+      "description": "Tidy up lists you are no longer using.",
+      "sentence": "Delete every wishlist that has nothing left on it.",
+      "willDelete_one": "{{count}} wishlist will be deleted",
+      "willDelete_other": "{{count}} wishlists will be deleted",
+      "nothingToDelete": "Nothing to delete: every wishlist still has something on it.",
+      "basesHint": "Bases' own lists are never touched: the game keeps one per base, so an empty one is normal and cannot be deleted."
+    }
+  },
+  "settings": {
+    "prompt": {
+      "label": "Ask before running",
+      "hint": "Show a popup for anything marked \"ask when run\", so you can change it for one run without editing the action. Turn this off to always use the saved values.",
+      "nothingToAsk": "Nothing is marked \"ask when run\" yet. Mark a value in the Action tab first, like which bases a \"For\" step covers."
+    },
+    "confirm": {
+      "label": "Show me the plan first",
+      "hint": "Review exactly what will be written or deleted, and confirm, before anything happens."
+    },
+    "notify": {
+      "label": "Notifications",
+      "hint": "How much this action says while it runs.",
+      "modes": {
+        "progress": "Progress",
+        "result": "Result",
+        "silent": "Silent"
+      },
+      "modeHints": {
+        "progress": "A toast that counts each step off as it lands, then settles into the result.",
+        "result": "One toast when it is done.",
+        "silent": "Nothing on success. Failures still show, so a run cannot fail unnoticed."
+      }
+    }
+  },
+  "prompt": {
+    "bases": "Which bases",
+    "hint": "Changing this affects only this run. The action keeps its saved selection."
+  },
+  "variables": {
+    "label": "Variables",
+    "addFirst": "＋ Add a variable",
+    "equals": "{{name}} = {{value}}",
+    "namePlaceholder": "Name",
+    "delete": "Delete variable",
+    "valuePlaceholder": "Value"
+  },
+  "formula": {
+    "placeholder": "e.g. 3X + 1",
+    "equals": "= {{value}}",
+    "invalid": "That is not a number this can work out.",
+    "unknownVariable": "No variable called {{name}}.",
+    "help": "Formula",
+    "grammar": "Numbers, variables and + - * / with brackets. 3X means 3 * X.",
+    "noVariables": "No variables defined yet. Add one above the steps.",
+    "available": "Variables: {{names}}",
+    "negative": "This cannot be a negative number."
+  }
+}

@@ -27,6 +27,12 @@
       "noData": "No exchange data available yet."
     },
     "controls": {
+      "entities": {
+        "category": "category",
+        "categoryPlural": "categories",
+        "column": "column",
+        "columnPlural": "columns"
+      },
       "day": "Day",
       "searchPlaceholder": "Search…",
       "refresh": "Refresh",
@@ -34,13 +40,8 @@
       "collapseControls": "Collapse controls",
       "expandControls": "Expand controls",
       "moreControls": "More controls",
-      "pin": "Pin",
-      "filters": "Filters",
-      "columns": "Columns",
-      "all": "All",
-      "none": "None",
-      "reset": "Reset",
-      "selectedCount": "{{value}} selected"
+      "favorites": "Favorites",
+      "reset": "Reset"
     },
     "exchangeColumns": {
       "favoriteTitle": "Sort by favorites.",
@@ -233,16 +234,8 @@
         "tierNormProfitAtCurrentTitle": "Tier-normalized profit/h at current best price (profit ÷ building tier)"
       },
       "filters": {
-        "allIndustries": "All industries",
-        "noIndustries": "No industries",
-        "someIndustries_one": "{{count}} industry",
         "someIndustries_other": "{{count}} industries",
-        "allBuildings": "All buildings",
-        "noBuildings": "No buildings",
-        "someBuildings_one": "{{count}} building",
         "someBuildings_other": "{{count}} buildings",
-        "enableAll": "Enable all",
-        "disableAll": "Disable all",
         "entities": {
           "industry": "industry",
           "industryPlural": "industries",
@@ -288,26 +281,17 @@
       "current": "Current",
       "average": "Average"
     },
-    "summary": {
-      "unsaved": "unsaved"
-    },
     "actions": {
-      "updatePrices": "Update prices",
-      "resetAll": "Reset all custom prices",
       "openSettings": "Open settings",
-      "closeSettings": "Close settings",
-      "editPresetName": "Edit preset name",
-      "savePreset": "Save preset",
-      "saveAsNew": "Save as new",
-      "overwrite": "Overwrite",
-      "deletePreset": "Delete preset",
       "decrease": "Decrease",
       "increase": "Increase",
       "clearCustomPrice": "Clear custom price",
-      "resetToGlobal": "Reset to global",
       "doneEditing": "Done editing",
+      "resetToGlobal": "Reset to global",
       "togglePresetActions": "Manage presets",
-      "advanced": "Advanced rule"
+      "setValue": "Set value",
+      "cycleMode": "Change mode (absolute, steps, percent)",
+      "rowMenu": "Material actions"
     },
     "preset": {
       "namePlaceholder": "Preset name",
@@ -365,7 +349,6 @@
     },
     "advanced": {
       "basisLabel": "Price basis",
-      "basisHint": "Where this price is anchored before adjustment. Inherit uses the global default.",
       "basis": {
         "inherit": "Inherit default",
         "base": "Base price",
@@ -375,11 +358,9 @@
       "adjust": {
         "none": "None"
       },
-      "adjustHint": "Steps or percent move off the basis; absolute sets a fixed price.",
       "clampLabel": "Clamp (min / max)",
       "clampMin": "Min",
       "clampMax": "Max",
-      "clampHint": "Keep the final price within these bounds. Leave blank for no limit.",
       "preview": "Resulting price",
       "clearRule": "Clear rule",
       "cancel": "Cancel",
@@ -391,20 +372,16 @@
     "settings": {
       "title": "Price settings",
       "basisLabel": "Default price basis",
-      "basisHint": "Every material without its own rule uses this basis.",
       "adjustLabel": "Global adjustment",
-      "adjustHint": "Applied on top of the basis for every material.",
       "adjustMode": {
         "steps": "Steps",
         "percent": "Percent"
       },
-      "fedHint": "Federal reserve is a fixed ceiling. Pair it with a -1 step adjustment to price one step below the cap.",
       "fedCapMode": {
         "below": "One step below",
         "at": "At the cap"
       },
-      "fedCapLabel": "Federal reserve cap",
-      "fedCapHint": "Fed-capped materials (mostly lower tiers) are always clamped to the reserve ceiling. Choose whether that ceiling is the cap itself or one step below it. Override per material in the advanced rule."
+      "fedCapLabel": "Federal reserve cap"
     }
   },
   "materialDetail": {
@@ -522,7 +499,8 @@
       "loading": "Loading...",
       "empty": "No transactions",
       "andMore_one": "and {{count}} more...",
-      "andMore_other": "and {{count}} more..."
+      "andMore_other": "and {{count}} more...",
+      "close": "Close"
     },
     "materialSearch": {
       "placeholder": "Search material…",
@@ -551,7 +529,9 @@
         "fri": "Fr",
         "sat": "Sa",
         "sun": "Su"
-      }
+      },
+      "prevMonth": "Previous month",
+      "nextMonth": "Next month"
     }
   }
 }

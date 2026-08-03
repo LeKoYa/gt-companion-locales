@@ -15,8 +15,7 @@
     "tooltip": "Guides and tours"
   },
   "menu": {
-    "title": "Guides",
-    "lead": "Pick a page to walk through. The ones you have not seen yet are highlighted."
+    "title": "Guides"
   },
   "guides": {
     "intro": {
@@ -70,6 +69,10 @@
     "companyGuild": {
       "title": "Company and guild cards",
       "description": "Your company and guild at a glance."
+    },
+    "quickActions": {
+      "title": "Quick actions",
+      "description": "Save a wishlist routine and run it in one click."
     }
   },
   "steps": {
@@ -353,10 +356,6 @@
       "title": "How it is costed",
       "body": "Not sure where a total comes from? This opens a full breakdown of every part and its price, so you can see exactly how the construction cost is built up."
     },
-    "shipsGuideCustomPrices": {
-      "title": "Custom prices",
-      "body": "The material prices every cost on this page is calculated against: ship parts and maintenance. Adjust them here to match what you actually pay."
-    },
     "shipsGuideCharacteristics": {
       "title": "Characteristics",
       "body": "The resulting ship at a glance: empty and full weight, fuel capacity, damage reduction and repair kits. The numbers the flight simulation runs on."
@@ -384,10 +383,6 @@
     "shipsGuideBlueprints": {
       "title": "Blueprint favorites",
       "body": "Star a ship layout from the selection section to keep it here, ready to reload whenever you want to reuse a design."
-    },
-    "shipsGuideMyShips": {
-      "title": "My ships",
-      "body": "The ships your tracked company already owns. Pick one to load its exact layout into the page as a starting point."
     },
     "leaderboardGuideIntro": {
       "title": "The leaderboards",
@@ -724,6 +719,54 @@
     "companyGuildGuideGuildClose": {
       "title": "That is the pair",
       "body": "Company card, guild card, both reachable from any name in the app. Close this whenever you are done exploring."
+    },
+    "quickActionsGuideButton": {
+      "title": "Quick actions",
+      "body": "A quick action is a saved routine you run from here in one click. The first kind builds wishlists: \"resupply my six science bases for a day and a half\" written down once, instead of re-picked every morning."
+    },
+    "quickActionsGuideList": {
+      "title": "Your saved actions",
+      "body": "Every action you have, in the order they appear in the menu. Drag to reorder, hit Run now to fire one without opening it, and click a row to edit it. The ⋯ menu duplicates or deletes."
+    },
+    "quickActionsGuideNew": {
+      "title": "Starting a new one",
+      "body": "The starting points are grouped by what the action does. Daily resupply and Blank both build a wishlist; Clean empty wishlists deletes the leftovers instead. Let us take the resupply one apart."
+    },
+    "quickActionsGuideTree": {
+      "title": "A program, read downwards",
+      "body": "This is the whole action. Each step takes the shopping list built so far and hands on what it made of it, so the order is the meaning: order a day's supply, take two materials back off, put them back in whole batches. Steps drag to reorder or to move in and out of a loop."
+    },
+    "quickActionsGuideLoop": {
+      "title": "For each base",
+      "body": "The loop runs everything inside it once per base, each starting from an empty list, so you get one wishlist per base rather than one shared pile. Pick the bases in the highlighted word, or set it to ask you every run. The ＋ when… button adds a condition, so the loop can skip the bases that are not actually low."
+    },
+    "quickActionsGuideSupply": {
+      "title": "Where the amounts come from",
+      "body": "This is the step that does the arithmetic: what the base gets through in a day, times the days you ask for, minus what the warehouse already holds. Every highlighted word is a setting you can change in place. Amber means something is still unanswered."
+    },
+    "quickActionsGuideAddStep": {
+      "title": "The rest of the vocabulary",
+      "body": "Add step offers only what makes sense where you clicked. Remove takes materials back off the list, Repeat batch orders whole production runs rather than a rate, Cargo limit caps a shipment to a ship, and Fill remaining stretches part of the order into whatever room is left."
+    },
+    "quickActionsGuideWrite": {
+      "title": "Where the list goes",
+      "body": "Every program ends in a Write, and this one cannot be removed: it is what turns the list into a real wishlist in the game. Send it to each base's own list or to one shared list, and choose whether to merge into what is there or overwrite it. Add more Write steps earlier to split consumables and inputs across two lists."
+    },
+    "quickActionsGuideVariables": {
+      "title": "Named numbers",
+      "body": "A variable is one number the whole program can use, and any amount field takes arithmetic: 3X + 1 is a valid amount. Write a batch as ratios and change the scale here in one place when a base grows."
+    },
+    "quickActionsGuideResult": {
+      "title": "The result, live",
+      "body": "What the action would order right now, recalculated as you edit. Warnings sit above it. The button on any step points this column at that step alone, so you can see what one part of the program contributes."
+    },
+    "quickActionsGuideGeneral": {
+      "title": "How it runs",
+      "body": "Ask first is what makes \"which bases today\" a question instead of a saved answer. Confirm decides whether you see the plan before anything is written, and the notification setting decides how loudly a run reports back."
+    },
+    "quickActionsGuideRun": {
+      "title": "Running it",
+      "body": "Run now shows the plan first: every wishlist it will touch, every material, with the warehouse and daily figures the amounts came from. Nothing is written until you confirm. This example action disappears when you close the guide."
     }
   }
 }

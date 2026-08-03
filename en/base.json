@@ -230,20 +230,13 @@
     "refresh": "Refresh",
     "searchPlaceholder": "Search (comma-separated)",
     "loading": "Loading contracts...",
-    "columnsButton": "Columns",
-    "selectColumnsPlaceholder": "Select columns...",
     "guild": "Guild",
     "recurringTooltip": "Recurring contract ({{count}}/day)",
     "common": {
       "any": "Any",
       "all": "All",
       "mixed": "Mixed",
-      "unknown": "Unknown",
-      "enableAll": "Enable all",
-      "disableAll": "Disable all",
-      "reset": "Reset",
-      "min": "Min",
-      "max": "Max"
+      "unknown": "Unknown"
     },
     "status": {
       "pending": "Pending",
@@ -301,11 +294,6 @@
       "twoDayLeft": "2d left"
     },
     "summary": {
-      "noStatus": "No status",
-      "oneSelected": "1 selected",
-      "noPartners": "No partners",
-      "noMaterials": "No materials",
-      "noPlanets": "No planets",
       "partners_one": "{{count}} partner",
       "partners_other": "{{count}} partners",
       "materials_one": "{{count}} material",
@@ -633,7 +621,9 @@
       "consumableDrops": "Optional consumables",
       "recipeProfit": "Recipe profit",
       "buildingProfit": "Building profit",
-      "buildingsBreakdown": "Buildings breakdown"
+      "buildingsBreakdown": "Buildings breakdown",
+      "comboUpgrades": "Scale a production chain",
+      "hqPermitRoi": "Consolidated Operations ROI"
     },
     "adminCenter": {
       "empty": {
@@ -659,6 +649,32 @@
         "maxBenefit": "Max benefit",
         "custom": "Custom"
       }
+    },
+    "hqPermitRoi": {
+      "empty": {
+        "noHq": "No Headquarters found on the included bases.",
+        "atMax": "Headquarters is already at level {{level}}, the maximum."
+      },
+      "columns": {
+        "scenario": "Scenario",
+        "hqLevel": "HQ level",
+        "unusedPermits": "Unused permits",
+        "upgradeCost": "Upgrade cost",
+        "deltaProfit": "Δ profit / day",
+        "payback": "Payback"
+      },
+      "rows": {
+        "current": "Current",
+        "step": "Level {{level}}",
+        "custom": "Custom"
+      },
+      "assumption": "Each unused permit is worth {{percent}}% production speed. Rows assume the new permits stay banked: spend one on a base or an expansion and it stops paying out here. Upgrade cost is cumulative from your current level.",
+      "noPermitGained": "This level adds no unused permit: your bases already use more levels than you hold permits, so it repays that deficit first.",
+      "warning": {
+        "notOwned": "You don't have Consolidated Operations. The rows below are projected as if you did, because that perk is what turns an unused permit into production speed. Without it an HQ upgrade earns nothing here.",
+        "overriddenOff": "Consolidated Operations is switched off in this page's scenario perk overrides. The rows below are projected with it on, so they show what these upgrades are actually worth to you in game."
+      },
+      "helpLabel": "How this table works"
     },
     "consumableDrops": {
       "empty": "No optional consumables are being provided on the included bases.",
@@ -748,6 +764,22 @@
       "columns": {
         "base": "Base",
         "action": "Action",
+        "cost": "Cost",
+        "deltaProfit": "Δ profit/d",
+        "payback": "Payback"
+      }
+    },
+    "comboUpgrades": {
+      "empty": "No options available. Each row scales a group of buildings that feed each other, keeping the base's own ratio between them intact.",
+      "linkedBy": "Linked by",
+      "approximateChip": "≈ +{{percent}}%",
+      "approximateHint": "A smaller bundle, this far above the exact ratio.",
+      "costBuilding": "Buildings",
+      "costHousing": "Housing",
+      "housingShared": "Saved by sharing housing",
+      "columns": {
+        "base": "Base",
+        "bundle": "Bundle",
         "cost": "Cost",
         "deltaProfit": "Δ profit/d",
         "payback": "Payback"
@@ -1228,7 +1260,6 @@
       "empty": "No construction materials needed.",
       "total": "Total",
       "createWishlist": "Create Wishlist",
-      "copyAria": "Copy construction materials for chat",
       "scrapHoursTooltip": "Estimated hours until buildings are scrapped",
       "toggle": {
         "stockTooltip": "Deduct warehouse stock from required amounts"
@@ -1281,8 +1312,7 @@
       "category": {
         "perks": "Perks",
         "research": "Research",
-        "startingBonus": "Starting bonus",
-        "basePermits": "Base permits"
+        "startingBonus": "Starting bonus"
       }
     },
     "overhead": {
@@ -1302,7 +1332,7 @@
         "overheadPenalty": "Overhead penalty"
       },
       "adminCenter": {
-        "expansionOverhead": "-{{reduction}}%/{{max}}% expansion overhead"
+        "expansionOverhead": "-{{reduction}}%/{{max}}% overhead"
       }
     },
     "controls": {
@@ -1315,7 +1345,6 @@
     "perks": {
       "exclusiveFallback": "Exclusive Perk",
       "none": "None",
-      "noGroup": "No {{group}}",
       "selectGroup": "Select {{group}}"
     },
     "startingBonus": {
@@ -1351,9 +1380,6 @@
     "total": "Total",
     "expandAll": "Expand all",
     "collapseAll": "Collapse all",
-    "basesPlaceholder": "Bases",
-    "selectAll": "Select all",
-    "clear": "Clear",
     "selection": {
       "none": "No bases",
       "all": "All bases ({{count}})",
@@ -1402,6 +1428,8 @@
       "showing_other": "Showing {{shown}} of {{total}} materials across {{count}} bases",
       "netInputsValue": "Net inputs value:",
       "netOutputsValue": "Net outputs value:"
-    }
+    },
+    "baseEntity": "base",
+    "baseEntityPlural": "bases"
   }
 }

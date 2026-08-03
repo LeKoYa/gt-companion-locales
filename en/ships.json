@@ -1,12 +1,11 @@
 {
   "header": {
     "configuration": "Configuration",
-    "configurationTooltip": "Ship layout and blueprint setup."
+    "unsavedLayout": "This layout is not saved as a blueprint"
   },
   "actions": {
     "close": "Close",
     "delete": "Delete",
-    "load": "Load",
     "reset": "Reset"
   },
   "status": {
@@ -59,10 +58,7 @@
   },
   "shipSelection": {
     "title": "Ship Selection",
-    "tooltip": "Choose a ship or blueprint to load a base layout.",
-    "selectShip": "Select ship",
     "saveBlueprintFavorite": "Save blueprint as favorite",
-    "blueprint": "Blueprint",
     "browseCommunityDesigns": "Browse Community Designs",
     "upgradeFrom": "Upgrade from..."
   },
@@ -75,7 +71,6 @@
   },
   "layout": {
     "title": "Ship Layout",
-    "tooltip": "Reactor, emitters, cargo, and shielding configuration.",
     "shareLayout": "Share layout",
     "linkCopied": "Copied!",
     "reactorType": "Reactor Type",
@@ -88,8 +83,6 @@
     "condition": "Condition",
     "selectReactorType": "Select reactor type",
     "selectFtlType": "Select FTL type",
-    "selectHeatShielding": "Select heat shielding",
-    "selectRadiationShielding": "Select radiation shielding",
     "noReactorData": "No reactor data available.",
     "noEmitterData": "No emitter data available.",
     "fuelUnits": "units",
@@ -106,19 +99,18 @@
     },
     "reactorStats": {
       "power": "Power",
-      "fuel": "Fuel",
-      "tankCapacity": "Tank capacity"
+      "fuel": "Fuel"
     },
     "emitterStats": {
       "acceleration": "Acceleration",
       "maxSpeed": "Max speed",
-      "fieldCapacity": "Field capacity",
-      "energyDraw": "Energy draw"
+      "energyDraw": "Energy draw",
+      "accelerationShort": "acc",
+      "maxSpeedShort": "spd"
     }
   },
   "materials": {
     "title": "Construction Materials",
-    "tooltip": "How materials are derived from ship stats.",
     "unit": "Unit",
     "total": "Total",
     "upgrade": "Upgrade",
@@ -126,7 +118,20 @@
     "howCalculated": "How are these calculated?",
     "createWishlist": "Create wishlist",
     "calculating": "Calculating materials…",
-    "enterDetails": "Enter full ship details to compute materials."
+    "enterDetails": "Enter full ship details to compute materials.",
+    "col": {
+      "material": "Material",
+      "baseline": "Have",
+      "baselineTitle": "Quantity the ship you are upgrading from already contains",
+      "add": "Add",
+      "addTitle": "How many more this layout needs than the ship it is compared against. Negative means the comparison ship already carries more.",
+      "upgradeTitle": "Cost of the extra materials only"
+    },
+    "copyTooltip": {
+      "copy": "Copy the upgrade materials for chat",
+      "copied": "Copied",
+      "nothing": "Nothing to copy"
+    }
   },
   "materialsCalc": {
     "title": "Construction materials calculation",
@@ -173,7 +178,6 @@
   },
   "characteristics": {
     "title": "Characteristics",
-    "tooltip": "How ship stats are calculated.",
     "reactors": "Reactors",
     "energy": "Energy",
     "weightEmpty": "Weight (empty)",
@@ -184,7 +188,6 @@
   },
   "simulation": {
     "title": "Flight Simulation",
-    "tooltip": "Route planning and efficiency comparisons.",
     "removeLeg": "Remove leg",
     "addLegToRemove": "Add another leg to remove it",
     "removeLastLeg": "Remove the last leg",
@@ -264,9 +267,8 @@
   },
   "bonuses": {
     "title": "Bonuses",
-    "tooltip": "Guild Flight Center bonus details.",
+    "scenario": "Scenario",
     "guildFlightCenter": "Guild Flight Center",
-    "previewLevel": "Preview another level",
     "prestigePerks": "Prestige Perks",
     "starterBonus": "Starter Bonus"
   },
@@ -276,23 +278,24 @@
     "joinGuild": "Join a guild to unlock flight center bonuses.",
     "level": "Level {{level}}",
     "levelMax": "Level {{level}}/{{max}}",
-    "levelMaxPreview": "Level {{level}}/{{max}} (preview)",
     "speedBonus": "+{{percent}}% travel speed",
-    "noSpeedBonus": "No travel speed bonus yet.",
-    "description": "Boosts ship travel speed for all simulations."
+    "noSpeedBonus": "No travel speed bonus yet."
   },
   "blueprintFavorites": {
-    "title": "Blueprint favorites",
-    "tooltip": "Save and manage favorite layouts.",
+    "title": "Blueprints",
     "namePrompt": "Enter a name for this blueprint favorite",
-    "cargoCapacity": "Cargo capacity",
-    "radShielding": "Rad shielding",
     "editName": "Edit name",
-    "empty": "Save your frequently used blueprints here for quick access."
+    "empty": "Save your frequently used blueprints here for quick access.",
+    "loadTooltip": "Load {{name}} into the planner",
+    "renameTitle": "Rename blueprint favorite",
+    "renameConfirm": "Rename",
+    "deleteConfirm": "Delete “{{name}}”? This cannot be undone."
+  },
+  "fleet": {
+    "title": "Ships & Blueprints"
   },
   "routeFavorites": {
     "title": "Route Favorites",
-    "tooltip": "Save and load frequently used routes.",
     "defaultName": "Route {{number}}",
     "noLegs": "No route legs",
     "none": "None",
@@ -310,13 +313,9 @@
     "overwrite": "Overwrite",
     "empty": "Save routes with multi-leg settings and per-ship efficiency modes."
   },
-  "myShips": {
-    "title": "My ships",
-    "tooltip": "Ships from your company profile."
-  },
   "layoutToggles": {
-    "shipOverview": "Ship Overview",
-    "customPrices": "Custom Prices"
+    "fleet": "Ships & Blueprints",
+    "bonuses": "Bonuses"
   },
   "wishlist": {
     "customBlueprint": "Custom blueprint",
