@@ -270,7 +270,8 @@
     "tableMode": {
       "list": "List",
       "grouped": "Grouped",
-      "byPlanet": "By Planet"
+      "byPlanet": "By Planet",
+      "byPartner": "By Partner"
     },
     "columns": {
       "status": "Status",
@@ -286,6 +287,7 @@
       "unitPrice": "Unit price",
       "netUnit": "Net / unit",
       "deltaMarket": "Δ Market",
+      "transfer": "Transfer / day",
       "total": "Total",
       "dailyTotal": "Daily total",
       "created": "Created",
@@ -304,17 +306,27 @@
     "tooltip": {
       "fee": "fee",
       "feeLabel": "Fee:",
-      "exchange": "exchange"
+      "exchange": "exchange",
+      "transferToUs": "{{partner}} transfers value to you",
+      "transferToThem": "You transfer value to {{partner}}",
+      "perDay": "per day"
     },
     "footer": {
       "showing": "Showing {{rows}} rows from {{filtered}} of {{total}} contracts",
       "initiatedLabel": "Active/pending initiated contracts:",
       "hqCap": "(HQ level {{level}}, cap: 5 per level)",
       "remainingTotals": "Remaining totals (filtered):",
-      "feeSavings": "Fee perk daily savings:"
+      "feeSavings": "Fee perk daily savings:",
+      "netTransfer": "Net transfer (filtered):",
+      "netTransferSuffix": "/day over {{count}} contracts"
     },
     "error": {
       "load": "Failed to load contracts."
+    },
+    "priceBasis": {
+      "custom": "My prices",
+      "average": "Market avg",
+      "hint": "Which price counts as the exchange price: your own pricing rules, or the raw exchange average."
     }
   },
   "controls": {
@@ -772,8 +784,8 @@
     "comboUpgrades": {
       "empty": "No options available. Each row scales a group of buildings that feed each other, keeping the base's own ratio between them intact.",
       "linkedBy": "Linked by",
-      "approximateChip": "≈ +{{percent}}%",
-      "approximateHint": "A smaller bundle, this far above the exact ratio.",
+      "roundedChip": "≈ ±{{percent}}%",
+      "roundedHint": "These ratios need a finer bundle than is worth building, so this is the closest one. It sits this far from your current mix.",
       "costBuilding": "Buildings",
       "costHousing": "Housing",
       "housingShared": "Saved by sharing housing",
@@ -1025,12 +1037,28 @@
         "input": "Input",
         "consumables": "Consumables",
         "maintenance": "Maintenance",
+        "baseValue": "Value",
+        "baseValueHint": "What scrapping this base would refund at its buildings' current condition. The HQ cannot be scrapped, so it never counts.",
+        "payback": "Payback",
+        "paybackHint": "Days for this base's profit to earn back what it is worth. Blank where the base does not turn a profit, since no number of days repays it.",
         "workforce": "Workforce",
         "buildings": "Buildings"
       },
       "onVacationAria": "On vacation",
       "onVacationNotCounted": "On vacation · not counted",
-      "empty": "No bases included."
+      "empty": "No bases included.",
+      "tooltips": {
+        "upkeepBaseline": "Baseline upkeep",
+        "upkeepAdjustment": "Perks and overhead",
+        "valueNow": "At current condition",
+        "valuePristine": "At 100% condition",
+        "buildings": {
+          "production": "Production",
+          "housing": "Housing",
+          "infrastructure": "Infrastructure",
+          "other": "Other"
+        }
+      }
     },
     "stats": {
       "inputCost": "Input cost",
