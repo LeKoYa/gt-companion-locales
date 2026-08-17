@@ -588,10 +588,6 @@
       "title": "Member planets",
       "body": "Every member's planets, grouped by member or by planet, with tier and distance to the exchange. Expand a row to drill in."
     },
-    "guildGuideTrade": {
-      "title": "Trade",
-      "body": "The Trade tab is here for what is coming: a guild trade hub. It is still being built, so nothing in it works yet and we will not open it."
-    },
     "customPricesNavButton": {
       "title": "Custom prices",
       "body": "Custom prices open from this button in the top bar, on any page that uses them. Let's open the drawer."
