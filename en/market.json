@@ -332,6 +332,8 @@
       "title": "Unsaved changes",
       "messagePreset": "\"{{preset}}\" has unsaved changes. Save them, or discard them for a fresh start.",
       "messageFreeform": "You have unsaved custom prices. Save them as a new preset, or discard them for a fresh start.",
+      "messagePresetImport": "\"{{preset}}\" has unsaved changes. Save them, or discard them and switch to the imported preset.",
+      "messageFreeformImport": "You have unsaved custom prices. Save them as a new preset, or discard them and switch to the imported preset.",
       "cancel": "Cancel",
       "discard": "Discard changes",
       "save": "Save changes",
@@ -382,6 +384,98 @@
         "at": "At the cap"
       },
       "fedCapLabel": "Federal reserve cap"
+    },
+    "transfer": {
+      "exportMenu": "Export prices",
+      "importMenu": "Import prices",
+      "formatLink": "File format",
+      "format": {
+        "title": "Custom price files"
+      },
+      "sections": {
+        "defaultRule": {
+          "label": "Global rule",
+          "hint": "The price basis and global adjustment every material inherits"
+        },
+        "materialRules": {
+          "label": "Per-material rules",
+          "hint": "Prices, steps, percentages, limits and reserve exemptions"
+        },
+        "fedCap": {
+          "label": "Federal reserve cap",
+          "hint": "Whether capped materials sit at the ceiling or one step below"
+        },
+        "favorites": {
+          "label": "Favourites",
+          "hint": "Which materials are starred"
+        },
+        "stamped": {
+          "label": "Recorded prices",
+          "hint": "A snapshot of every material's price right now, for reference or to freeze"
+        }
+      },
+      "export": {
+        "title": "Export prices",
+        "nameLabel": "Name",
+        "namePlaceholder": "Custom prices",
+        "keyStyleLabel": "Name materials by",
+        "keyStyle": {
+          "name": "Full name",
+          "shortName": "Short name",
+          "id": "Id"
+        },
+        "previewLabel": "Preview",
+        "empty": "Nothing selected.",
+        "copy": "Copy",
+        "copied": "Copied",
+        "copyFailed": "Copy failed",
+        "download": "Download"
+      },
+      "import": {
+        "title": "Import prices",
+        "pastePlaceholder": "{ \"kind\": \"gtc.customPrices\", ... }",
+        "chooseFile": "Choose file",
+        "presetNameLabel": "Save as preset",
+        "presetNamePlaceholder": "Imported prices",
+        "presetNameDefault": "Imported prices",
+        "modeLabel": "What goes into the preset",
+        "mode": {
+          "merge": "Merge",
+          "replace": "Replace"
+        },
+        "freeze": "Use the recorded prices instead of the rules",
+        "freezeHint_one": "Fixes {{count}} material at the price in the file, so it will not follow the market.",
+        "freezeHint_other": "Fixes {{count}} materials at the prices in the file, so they will not follow the market.",
+        "noChanges": "Identical to your current prices",
+        "materialsAdded_one": "{{count}} rule added",
+        "materialsAdded_other": "{{count}} rules added",
+        "materialsChanged_one": "{{count}} rule changed",
+        "materialsChanged_other": "{{count}} rules changed",
+        "materialsRemoved_one": "{{count}} rule removed",
+        "materialsRemoved_other": "{{count}} rules removed",
+        "defaultChanged": "Global rule changes",
+        "fedCapChanged": "Reserve cap changes",
+        "favoritesChanged": "Favourites change",
+        "issuesLabel_one": "{{count}} note",
+        "issuesLabel_other": "{{count}} notes",
+        "cancel": "Cancel",
+        "apply": "Create preset"
+      },
+      "issues": {
+        "invalidJson": "This is not valid JSON.",
+        "notAnObject": "A price file has to be a JSON object.",
+        "notAPriceFile": "This is not a custom price file.",
+        "newerVersion": "Written by a newer version of the app. Anything unrecognised was skipped.",
+        "unknownField": "Unrecognised field, ignored.",
+        "unknownMaterial": "No material with that ticker or id.",
+        "ambiguousMaterial": "Two materials share that ticker. Use their numeric ids instead.",
+        "multipleAdjustments": "A rule can only set one of a price, a percentage or steps.",
+        "invalidValue": "Unexpected value.",
+        "negativeValue": "Prices cannot be negative.",
+        "roundedValue": "Rounded to whole cents.",
+        "noOpAdjustment": "A zero adjustment does nothing, so it was dropped.",
+        "emptyRule": "This rule set nothing recognisable."
+      }
     }
   },
   "materialDetail": {

@@ -170,7 +170,8 @@
     "cargoIncludedOnly": "Included only",
     "consTarget": "Cons. target",
     "intermediates": "Intermediates",
-    "intermediatesTooltip": "Buffer of materials the base both produces and consumes. Gives secondary factories starting stock while primary factories ramp up",
+    "intermediatesDays": "Intermediates buffer",
+    "intermediatesTooltip": "Buffer of materials the base both produces and consumes, as recipe inputs or as worker consumables. Gives secondary factories and workers starting stock while primary factories ramp up",
     "repair": "Repair",
     "repairBufferTooltip": "Hours of additional building damage to also cover",
     "modes": {

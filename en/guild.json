@@ -89,7 +89,8 @@
       "guildOverview": "Guild Overview",
       "guildProjects": "Guild Projects",
       "guildDonations": "Guild Donations",
-      "memberOverview": "Member Overview"
+      "memberOverview": "Member Overview",
+      "production": "Guild Production"
     },
     "sections": {
       "general": "General",
@@ -484,6 +485,7 @@
       "projects": "Projects",
       "donations": "Donations",
       "members": "Members",
+      "production": "Production",
       "chains": "Chains"
     }
   },
@@ -544,7 +546,8 @@
       "makeShare": "Make",
       "makeIt": "Make",
       "shared": "shared",
-      "sharedHint": "Also used by another recipe. Listed once, under the first that needs it."
+      "sharedHint": "Also used by another recipe. Listed once, under the first that needs it.",
+      "recipeOption": "Recipe {{id}} · {{minutes}} min"
     },
     "settings": {
       "title": "Chain",

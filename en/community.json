@@ -37,6 +37,7 @@
     "packingStandards": "Packing Standards"
   },
   "designs": {
+    "empty": "No designs match the current filters.",
     "columns": {
       "reactor": "Reactor",
       "emitter": "Emitter",
@@ -57,10 +58,20 @@
       "shieldingTooltip": "Heat / radiation shielding, as a pair.",
       "ratio": "t:em",
       "ratioTooltip": "Tonnes of cargo per emitter. Higher is usually cheaper per ton but slower.",
+      "costPerTon": "Cost / ton",
+      "costPerTonTooltip": "Fuel and repair kits for one loaded leg of the route, per ton carried.",
       "costPerTonUnit": "$",
+      "flightTime": "Flight time",
+      "flightTimeTooltip": "How long one leg of the route takes at this design's speed.",
       "flightTimeUnit": "minutes",
+      "flightCost": "Flight cost",
+      "flightCostTooltip": "Fuel and repair kits for one loaded leg of the route.",
       "flightCostUnit": "$k",
+      "buildCost": "Build cost",
+      "buildCostTooltip": "Material cost of building this design from scratch, at your material prices.",
       "buildCostUnit": "$M",
+      "upgradeCost": "Upgrade cost",
+      "upgradeCostTooltip": "Material cost of upgrading the ship you picked into this design. Replaced components are lost, so nothing is credited back.",
       "upgradeCostUnit": "$k",
       "perks": "Perks",
       "perksTooltip": "Ship perks the companies flying this design hold. Dimmed when fewer than half of them do. The number on an icon is the typical level.",
@@ -313,6 +324,10 @@
       "empty": "Not enough companies yet to show total value by tech."
     },
     "growth": {
+      "metricRel": "Percent",
+      "metricAbs": "Absolute",
+      "window24h": "24h",
+      "window7d": "7d",
       "tooltipCompanies": "{{count}} single-spec companies",
       "tooltipMedian": "Median growth {{value}}",
       "tooltipMiddle": "Middle 50%: {{q1}} to {{q3}}",

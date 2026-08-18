@@ -408,6 +408,7 @@
     "reset": "Reset",
     "searchPlaceholder": "Search by name…",
     "addFilter": "Add filter...",
+    "removeFilter": "Remove filter",
     "resource": {
       "fertility": "Fertility"
     },

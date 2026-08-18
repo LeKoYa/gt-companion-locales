@@ -79,6 +79,36 @@
       "productionSpeedPerks": "Production speed perks",
       "specialPerkMultiplier": "Special perk multiplier",
       "unusedPermits": "Unused permits × {{permits}}"
+    },
+    "priceImpact": {
+      "noOutput": "This recipe has no priced output to chart.",
+      "markNow": "now",
+      "markBreakEven": "break-even",
+      "breakEven": "Break-even",
+      "now": "Now",
+      "profitPerHour": "Profit/h",
+      "profitPerCycle": "Profit/cycle",
+      "tooltipPrice": "Price",
+      "inputPrices": "Input prices",
+      "reset": "Reset",
+      "colMaterial": "Material",
+      "colPerHour": "/hour",
+      "colPerCycle": "/cycle",
+      "colUnitPrice": "Unit price",
+      "colCost": "Cost",
+      "stepUp": "Increase price",
+      "stepDown": "Decrease price",
+      "stepReset": "Back to the scenario price",
+      "markLow": "30d low",
+      "markHigh": "30d high",
+      "basis": {
+        "scenario": "Custom",
+        "current": "Current",
+        "average": "Average"
+      },
+      "compare": "Compare",
+      "baseRecipe": "Base",
+      "colRecipe": "Recipe"
     }
   },
   "materialSources": {
@@ -379,28 +409,44 @@
       "error": "Failed to create share link.",
       "options": {
         "research": {
-          "label": "Research"
+          "label": "Research",
+          "onHint": "Your research levels travel with the link.",
+          "offHint": "Receivers see this with their own research levels."
         },
         "perks": {
-          "label": "Prestige perks"
+          "label": "Prestige perks",
+          "onHint": "Your perk levels and unused permits travel with the link.",
+          "offHint": "Receivers see this with their own prestige perks."
         },
         "startingBonus": {
-          "label": "Starting bonus"
+          "label": "Starting bonus",
+          "onHint": "Your starting bonus travels with the link.",
+          "offHint": "Receivers see this with their own starting bonus."
         },
         "overhead": {
-          "label": "Overhead"
+          "label": "Overhead",
+          "onHint": "Your workforce and admin center are frozen into the link.",
+          "offHint": "Overhead is worked out from the receiver's own workforce and admin center."
         },
         "consumables": {
-          "label": "Consumables"
+          "label": "Consumables",
+          "onHint": "Your consumable provision travels with the link.",
+          "offHint": "Receivers see this with their own consumable provision."
         },
         "materialSources": {
-          "label": "Material sources"
+          "label": "Material sources",
+          "onHint": "Your buy or produce choice per material travels with the link.",
+          "offHint": "Receivers see this with their own material sources."
         },
         "recipeOverrides": {
-          "label": "Recipe overrides"
+          "label": "Recipe overrides",
+          "onHint": "Your per-recipe overrides travel with the link.",
+          "offHint": "No per-recipe overrides are sent."
         },
         "general": {
-          "label": "General settings"
+          "label": "General settings",
+          "onHint": "Planet tier, building level, condition and workforce settings travel with the link.",
+          "offHint": "Receivers see this with their own general settings."
         }
       }
     }

@@ -117,6 +117,13 @@
     "totals": "Totals",
     "howCalculated": "How are these calculated?",
     "createWishlist": "Create wishlist",
+    "wishlistScope": {
+      "scratch": "Build from scratch",
+      "scratchDescription": "Every material the finished ship needs",
+      "upgrade": "Upgrade this ship",
+      "upgradeDescription": "Only what the design adds on top of the baseline",
+      "upgradeEmpty": "The design matches the baseline, so there is nothing to upgrade"
+    },
     "calculating": "Calculating materials…",
     "enterDetails": "Enter full ship details to compute materials.",
     "col": {
@@ -320,6 +327,7 @@
   "wishlist": {
     "customBlueprint": "Custom blueprint",
     "newShip": "New ship",
-    "upgradeTitle": "{{name}} | Upgrade"
+    "upgradeTitle": "{{name}} | Upgrade",
+    "buildTitle": "{{name}} | Build"
   }
 }
